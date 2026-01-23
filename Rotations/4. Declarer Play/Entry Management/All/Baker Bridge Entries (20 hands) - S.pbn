@@ -1,8 +1,6 @@
 % PBN 2.1
 % EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:00:21 2025 -0700
+%Content-type: text/x-pbn; charset=UTF-8
 %BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
 %BidAndCardSpacing Thin
 %BoardsPerPage 1
@@ -17,7 +15,6 @@
 %Font:HandRecord "Georgia",11,400,0
 %GutterSize 500,500
 %HRTitleDate 2023.10.17
-%HRTitleEvent ""
 %HRTitleSetID ""
 %HRTitleSetIDPrefix ""
 %HRTitleSite ""
@@ -41,22 +38,23 @@
 %TSTReportOrder ByNumber
 %TSTReportShade Yes
 %Translate "Board %" "Deal %"
+%Creator: CSVtoPBN Version 1.00
+%Created: 2026-01-23 13:57:51
 %sourcefilename BakerBridgeFull.csv
+%HRTitleEvent Entries
 [Event ""]
-{Baker Entries 1}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Entries 1}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:AJ753.86.T7.T643 6.AKQJT.A8543.KJ T92.9742.KQJ9.Q9 KQ84.53.62.A8752"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:6.AKQJT.A8543.KJ T92.9742.KQJ9.Q9 KQ84.53.62.A8752 AJ753.86.T7.T643"]
+[Auction "N"]
+1H pass 1S pass 3D pass 3NT pass pass pass
 [Result ""]
 {South is to play 3NT. West leads the \C3.
 
@@ -70,31 +68,22 @@ It's easy once you think about it. Just win the opening lead with dummy's \CK. T
 
 Making a plan before they play to the first trick is one of the strengths of winning bridge players.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1H Pass 1S Pass
-3D Pass 3NT Pass
-Pass Pass
-[Play "W"]
-C3
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]C3
 
 [Event ""]
-{Baker Entries 2}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Entries 2}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:K92.T83.KT852.74 765.62.QJ9.JT985 QT83.QJ97.74.A62 AJ4.AK54.A63.KQ3"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:765.62.QJ9.JT985 QT83.QJ97.74.A62 AJ4.AK54.A63.KQ3 K92.T83.KT852.74"]
+[Auction "N"]
+pass pass 2NT pass 3NT pass pass pass
 [Result ""]
 {South is to play 3NT. West leads the \D5. You play the \D9 from dummy and East plays the \D4.
 
@@ -110,30 +99,22 @@ But take first trick with the \DA and the \D Q J will be there guaranteeing you 
 
 But look carefully at the \D situation. You are going to get exactly two \D tricks no matter when you play your \DA. So you don't lose a trick, but you do gain an entry.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-Pass Pass 2NT Pass
-3NT Pass Pass Pass
-[Play "W"]
-D5
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]D5
 
 [Event ""]
-{Baker Entries 3}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Entries 3}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:JT3.QT72.65.KT74 AK4.KJ954.AT.A62 Q9862.A8.K42.985 75.63.QJ9873.QJ3"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AK4.KJ954.AT.A62 Q9862.A8.K42.985 75.63.QJ9873.QJ3 JT3.QT72.65.KT74"]
+[Auction "N"]
+1H pass 1NT pass 3NT pass pass pass
 [Result ""]
 {South is to play 3NT. West leads the \C4.
 
@@ -149,30 +130,22 @@ Not quite, there is one more hurdle to hurdle. You must put all thought of a \D 
 
 }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1H Pass 1NT Pass
-3NT Pass Pass Pass
-[Play "W"]
-C4
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]C4
 
 [Event ""]
-{Baker Entries 4}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Entries 4}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:T2.T2.Q964.AKQ83 863.A743.J73.J94 K954.6.AKT52.T75 AQJ7.KQJ985.8.62"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AQJ7.KQJ985.8.62 T2.T2.Q964.AKQ83 863.A743.J73.J94 K954.6.AKT52.T75"]
+[Auction "S"]
+1H pass 2H pass 4H pass pass pass
 [Result ""]
 {South is to play 4\H. West leads the \CA, \C K, \CQ.
 
@@ -190,30 +163,22 @@ So, you ruffed the \C with the \H8, pulled one round of trumps with the \HK, pul
 
 Ask yourself if you would have done the correct thing at the table, say playing for the Bermuda Bowl championship.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1H Pass 2H Pass
-4H Pass Pass Pass
-[Play "W"]
-CA
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]CA
 
 [Event ""]
-{Baker Entries 5}
 [Site ""]
 [Date ""]
 [Board "5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Entries 5}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:KJ952.Q84.JT64.9 A6.AK2.AQ73.Q875 QT8.JT53.K92.JT3 743.976.85.AK642"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:A6.AK2.AQ73.Q875 QT8.JT53.K92.JT3 743.976.85.AK642 KJ952.Q84.JT64.9"]
+[Auction "N"]
+1D pass 1NT pass 3NT pass pass pass
 [Result ""]
 {South is to play 3NT. West leads the \S5. 
 
@@ -225,30 +190,22 @@ Just one minor problem. The \Cs will block if you are not careful\So you win the
 
 As they are, though, the contract is cold. But only if you are a good bridge player!}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 5, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1D Pass 1NT Pass
-3NT Pass Pass Pass
-[Play "W"]
-S5
+[RotationNote "Board 5, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]S5
 
 [Event ""]
-{Baker Entries 6}
 [Site ""]
 [Date ""]
 [Board "6"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Entries 6}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:T8752.K4.K97.Q85 AQ9.A753.AJ64.AK 63.JT982.QT2.974 KJ4.Q6.853.JT632"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AQ9.A753.AJ64.AK 63.JT982.QT2.974 KJ4.Q6.853.JT632 T8752.K4.K97.Q85"]
+[Auction "N"]
+2C pass 2NT pass 3NT pass pass pass
 [Result ""]
 {South is to play 3NT. West leads the \S5. 
 
@@ -264,30 +221,22 @@ Win the \SA. Play off dummy's \C A K. Lead the \S9 to your \SJ. Play your \CJ (a
 
 You'd have to be very careless to miss this one.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 6, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-2C Pass 2NT Pass
-3NT Pass Pass Pass
-[Play "W"]
-S5
+[RotationNote "Board 6, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]S5
 
 [Event ""]
-{Baker Entries 7}
 [Site ""]
 [Date ""]
 [Board "7"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Entries 7}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:Q85.K72.864.QT75 T7.865.KQ73.J942 KJ92.QT93.T952.6 A643.AJ4.AJ.AK83"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:T7.865.KQ73.J942 KJ92.QT93.T952.6 A643.AJ4.AJ.AK83 Q85.K72.864.QT75"]
+[Auction "N"]
+pass pass 2NT pass 3NT pass pass pass
 [Result ""]
 {South is to play 3NT. West leads the \C5. You play low from dummy and East plays the \C6. 
 
@@ -303,30 +252,22 @@ You probably would have played the hand the same way you just did, unblock \Ds, 
 
 It is only because the \C opening lead gives you the chance for a Cheap-Trick that you are tempted to go wrong.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 7, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-Pass Pass 2NT Pass
-3NT Pass Pass Pass
-[Play "W"]
-C5
+[RotationNote "Board 7, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]C5
 
 [Event ""]
-{Baker Entries 8}
 [Site ""]
 [Date ""]
 [Board "8"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Entries 8}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:QJT95.A93.983.T8 83.J74.A642.7653 K742.QT86.T7.K92 A6.K52.KQJ5.AQJ4"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:83.J74.A642.7653 K742.QT86.T7.K92 A6.K52.KQJ5.AQJ4 QJT95.A93.983.T8"]
+[Auction "N"]
+pass pass 2NT pass 3NT pass pass pass
 [Result ""]
 {South is to play 3NT. West leads the \SQ. East plays the \SK, then the \S2 when you hold up. 
 
@@ -342,30 +283,22 @@ Maybe in \Ds. Play the \DK, then \DQ, watching the defender's cards carefully. W
 
 Then your chance of success goes way down. You would have to find East with the doubleton \CK.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 8, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-Pass Pass 2NT Pass
-3NT Pass Pass Pass
-[Play "W"]
-SQ
+[RotationNote "Board 8, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]SQ
 
 [Event ""]
-{Baker Entries 9}
 [Site ""]
 [Date ""]
 [Board "9"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Entries 9}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:J862.Q98.QJT2.T3 AKQ73.764.853.98 T954.KJT3.974.62 .A52.AK6.AKQJ754"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "6C"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:.A52.AK6.AKQJ754 J862.Q98.QJT2.T3 AKQ73.764.853.98 T954.KJT3.974.62"]
+[Auction "S"]
+2C pass 2S pass 3C pass 3NT pass 6C pass pass pass
 [Result ""]
 {South is to play 6\C. West leads the \DQ.
 
@@ -385,31 +318,22 @@ When you are missing 4 cards the probability of a 3-1 split is about 50%.
 
 But the singleton can be any one of four cards - in this case it can be the \CT, \C6, \C3 or \C2. So the chance of one of the opponents holding specifically the singleton \CT is only one-fourth of 50%, about 12.5%.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 9, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-2C Pass 2S Pass
-3C Pass 3NT Pass
-6C Pass Pass Pass
-[Play "W"]
-DQ
+[RotationNote "Board 9, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]DQ
 
 [Event ""]
-{Baker Entries 10}
 [Site ""]
 [Date ""]
 [Board "10"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Entries 10}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:AKJ74.3.J982.T62 9.QT4.65.KQJ8753 QT652.652.AQ7.94 83.AKJ987.KT43.A"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:83.AKJ987.KT43.A AKJ74.3.J982.T62 9.QT4.65.KQJ8753 QT652.652.AQ7.94"]
+[Auction "S"]
+1H pass 2C pass 3H pass 4H pass pass pass
 [Result ""]
 {South is to play 4\H. West leads the \SA, then \SK.
 
@@ -423,31 +347,22 @@ Do NOT ruff the second \S in dummy, just discard a \D. If West plays a third \S 
 
 }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 10, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1H Pass 2C Pass
-3H Pass 4H Pass
-Pass Pass
-[Play "W"]
-SA
+[RotationNote "Board 10, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]SA
 
 [Event ""]
-{Baker Entries 11}
 [Site ""]
 [Date ""]
 [Board "11"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Entries 11}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:T653.Q74.T8.J953 Q74.J53.6542.QT7 KJ9.T982.K93.A84 A82.AK6.AQJ7.K62"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:A82.AK6.AQJ7.K62 T653.Q74.T8.J953 Q74.J53.6542.QT7 KJ9.T982.K93.A84"]
+[Auction "S"]
+2NT pass 3NT pass pass pass
 [Result ""]
 {South is to play 3NT. West leads the \C3, East plays the \CA.
 
@@ -461,30 +376,22 @@ Assume East now plays a \H. Take your \HA and play a \C to dummy's \CT. Lead a \
 
 By unblocking the \CK you were still pretty confident that you would get the two tricks, but the bonus was in the extra dummy entry your unblock created.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 11, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-2NT Pass 3NT Pass
-Pass Pass
-[Play "W"]
-C3
+[RotationNote "Board 11, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]C3
 
 [Event ""]
-{Baker Entries 12}
 [Site ""]
 [Date ""]
 [Board "12"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Entries 12}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:752.T853.AJ952.6 QJ.AQ6.84.QJ9853 A64.9742.QT6.K74 KT983.KJ.K73.AT2"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:KT983.KJ.K73.AT2 752.T853.AJ952.6 QJ.AQ6.84.QJ9853 A64.9742.QT6.K74"]
+[Auction "S"]
+1S pass 2C pass 2NT pass 3NT pass pass pass
 [Result ""]
 {South is to play 3NT. West leads the \D5, East plays the \DQ.
 
@@ -502,31 +409,22 @@ The \C suit is ready to run, so play your \HK to dummy's \HA and take your \C wi
 
 Since it gave you all 6 \C tricks the sacrifice was well worth it.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 12, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1S Pass 2C Pass
-2NT Pass 3NT Pass
-Pass Pass
-[Play "W"]
-D5
+[RotationNote "Board 12, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]D5
 
 [Event ""]
-{Baker Entries 13}
 [Site ""]
 [Date ""]
 [Board "13"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Entries 13}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:63.KJ742.QT.T983 KJT84.QT3.874.52 A752.86.K952.QJ6 Q9.A95.AJ63.AK74"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:Q9.A95.AJ63.AK74 63.KJ742.QT.T983 KJT84.QT3.874.52 A752.86.K952.QJ6"]
+[Auction "S"]
+1D pass 1S pass 2NT pass 3NT pass pass pass
 [Result ""]
 {South is to play 3NT. West leads the \H4, you play low in dummy and East plays the \H8.
 
@@ -540,31 +438,22 @@ After you win the \HA you start on \Ss, and they hold-up their \SA for one round
 
 Here's a question: How many times at the table have situations like this presented themselves but you didn't realize it? And of course, at the table there is no second page popping up to tell you what you should have done.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 13, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1D Pass 1S Pass
-2NT Pass 3NT Pass
-Pass Pass
-[Play "W"]
-H4
+[RotationNote "Board 13, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]H4
 
 [Event ""]
-{Baker Entries 14}
 [Site ""]
 [Date ""]
 [Board "14"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Entries 14}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:98765.Q8.KJ3.864 QJT.AK62.AT86.K3 K2.JT95.Q742.A75 A43.743.95.QJT92"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:QJT.AK62.AT86.K3 K2.JT95.Q742.A75 A43.743.95.QJT92 98765.Q8.KJ3.864"]
+[Auction "N"]
+1D 1NT pass 2NT pass 3NT pass pass pass
 [Result ""]
 {South is to play 3NT. West leads the \S9, and East plays the \SK.
 
@@ -580,31 +469,22 @@ There are two basic types; one where you give up a winner to gain an entry, and 
 
 It looks a little different, but the theme is the same. PROTECT YOUR ENTRY.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 14, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1D 1NT Pass 2NT
-Pass 3NT Pass Pass
-Pass
-[Play "W"]
-S9
+[RotationNote "Board 14, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]S9
 
 [Event ""]
-{Baker Entries 15}
 [Site ""]
 [Date ""]
 [Board "15"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Entries 15}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:J9.AT832.975.854 Q52.J5.A642.QT96 AT83.Q964.T8.K73 K764.K7.KQJ3.AJ2"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:K764.K7.KQJ3.AJ2 J9.AT832.975.854 Q52.J5.A642.QT96 AT83.Q964.T8.K73"]
+[Auction "S"]
+1NT pass 2NT pass 3NT pass pass pass
 [Result ""]
 {South is to play 3NT. West leads the \H3, you play dummy's \HJ and East plays the \HQ.
 
@@ -624,30 +504,22 @@ You might play East for \C K x and lead a small to your \CJ, then play \CA.
 
 Or you might try leading the \CQ hoping that East will see this as a time to "cover an honor with an honor".}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 15, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2NT Pass
-3NT Pass Pass Pass
-[Play "W"]
-H3
+[RotationNote "Board 15, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]H3
 
 [Event ""]
-{Baker Entries 16}
 [Site ""]
 [Date ""]
 [Board "16"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Entries 16}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:64.9764.Q95.QT84 QT7.K3.8743.AJ65 K532.AQJT.JT.732 AJ98.852.AK62.K9"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AJ98.852.AK62.K9 64.9764.Q95.QT84 QT7.K3.8743.AJ65 K532.AQJT.JT.732"]
+[Auction "S"]
+1NT pass 3NT pass pass pass
 [Result ""]
 {South is to play 3NT. West leads the \C4, you play dummy's \C5 and East plays the \C7.
 
@@ -661,30 +533,22 @@ Here it doesn't actually create an extra entry, it just preserves the one entry 
 
 Here is an interesting point. Suppose that West's opening lead had been a \H and East had taken the first four \H tricks then played a \D. You would have played the hand the same way! Take the \CK, then finesse the \CJ.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 16, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 3NT Pass
-Pass Pass
-[Play "W"]
-C4
+[RotationNote "Board 16, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]C4
 
 [Event ""]
-{Baker Entries 17}
 [Site ""]
 [Date ""]
 [Board "17"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Entries 17}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:QJT972.974.8.K93 4.KQJT3.T64.8764 853.8652.Q97.AT5 AK6.A.AKJ532.QJ2"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AK6.A.AKJ532.QJ2 QJT972.974.8.K93 4.KQJT3.T64.8764 853.8652.Q97.AT5"]
+[Auction "S"]
+2C pass 2D pass 3D pass 3H pass 3NT pass pass pass
 [Result ""]
 {South is to play 3NT. West leads the \SQ.
 
@@ -698,31 +562,22 @@ Win the \S. Unblock the \HA. Now play the \DJ. If Mr. \D Q x x takes this trick 
 
 Maybe after the hand is over he will appreciate it more and congratulate you.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 17, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-2C Pass 2D Pass
-3D Pass 3H Pass
-3NT Pass Pass Pass
-[Play "W"]
-SQ
+[RotationNote "Board 17, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]SQ
 
 [Event ""]
-{Baker Entries 18}
 [Site ""]
 [Date ""]
 [Board "18"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Entries 18}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:8754.T8.J972.Q84 K.AK753.AKQ6.KT5 A62.QJ94.T3.9762 QJT93.62.854.AJ3"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:K.AK753.AKQ6.KT5 A62.QJ94.T3.9762 QJT93.62.854.AJ3 8754.T8.J972.Q84"]
+[Auction "N"]
+2C pass 2S pass 3H pass 3NT pass pass pass
 [Result ""]
 {South is to play 3NT. West leads the \D2.
 
@@ -738,31 +593,22 @@ Win the opening \D lead in dummy. Play the \SK which the defenders are not about
 
 }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 18, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-2C Pass 2S Pass
-3H Pass 3NT Pass
-Pass Pass
-[Play "W"]
-D2
+[RotationNote "Board 18, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]D2
 
 [Event ""]
-{Baker Entries 19}
 [Site ""]
 [Date ""]
 [Board "19"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Entries 19}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:T9852.9752.J4.K5 Q6.AQJ84.753.642 J743.6.QT92.Q873 AK.KT3.AK86.AJT9"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "6NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AK.KT3.AK86.AJT9 T9852.9752.J4.K5 Q6.AQJ84.753.642 J743.6.QT92.Q873"]
+[Auction "S"]
+2C pass 2H pass 2NT pass 6NT pass pass pass
 [Result ""]
 {South is to play 6NT. West leads the \ST.
 
@@ -780,31 +626,22 @@ Now play your \H3 toward dummy, finessing the \H8 when West follows with a low c
 
 And as you have figured by now, assessing how many entries you are going to need is big part of that plan. Like here, if you had won a single \H trick in your hand then you wouldn't have had the three entries to dummy.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 19, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-2C Pass 2H Pass
-2NT Pass 6NT Pass
-Pass Pass
-[Play "W"]
-ST
+[RotationNote "Board 19, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]ST
 
 [Event ""]
-{Baker Entries 20}
 [Site ""]
 [Date ""]
 [Board "20"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Entries 20}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:T4.J92.QJT3.T862 8.AK86543.854.Q3 6532.QT7.97.K974 AKQJ97..AK62.AJ5"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "6S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AKQJ97..AK62.AJ5 T4.J92.QJT3.T862 8.AK86543.854.Q3 6532.QT7.97.K974"]
+[Auction "S"]
+2C pass 2H pass 2S pass 3H pass 6S pass pass pass
 [Result ""]
 {Pretty bold bidding by South, but partner DID make a positive response. South is to play 6\S. West leads the \DQ.
 
@@ -822,12 +659,6 @@ Win the opening lead and lay down your \CJ. The defense is helpless. If they tak
 
 My dream is that someday I will get a chance to use it at the table. If you ever do be sure and email me.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 20, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-2C Pass 2H Pass
-2S Pass 3H Pass
-6S Pass Pass Pass
-[Play "W"]
-DQ
+[RotationNote "Board 20, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]DQ
+

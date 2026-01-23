@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:02:34 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker Trumpmgmt 16}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Trumpmgmt 16}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:7.T754.A942.KQJ3 JT53.K6.KQJT.A82 A2.Q983.7653.T97 KQ9864.AJ2.8.654"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:JT53.K6.KQJT.A82 A2.Q983.7653.T97 KQ9864.AJ2.8.654 7.T754.A942.KQJ3"]
+[Auction "S"]
+1D pass 1S pass 2S pass 4S pass pass pass
 [Result ""]
 {North is to play 4\S. East leads the \CK.
 
@@ -78,31 +33,22 @@ You win the \CA in dummy, play the \HK, thenreturn a \H to your \HJ. You then di
 
 This time it worked, another time it might not.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1D Pass 1S Pass
-2S Pass 4S Pass
-Pass Pass
-[Play "E"]
-CK
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]CK
 
 [Event ""]
-{Baker Trumpmgmt 17}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Trumpmgmt 17}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "W:A753.T73.K98.A96 QJT9.QJ8.652.843 K8642..JT73.QJT2 .AK96542.AQ4.K75"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:K8642..JT73.QJT2 .AK96542.AQ4.K75 A753.T73.K98.A96 QJT9.QJ8.652.843"]
+[Auction "E"]
+pass 1H pass 2H pass 4H pass pass pass
 [Result ""]
 {South is to play 4\H. West leads the \H3.
 
@@ -118,31 +64,22 @@ West now leads the \H7. You cover with dummy's \H8 knowing the finesse will win.
 
 Just the fact that you had to use the trump suit for entries to dummy, and therefore couldn't immediately pull trumps.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "E"]
-Pass 1H Pass 2H
-Pass 4H Pass Pass
-Pass
-[Play "W"]
-H3
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]H3
 
 [Event ""]
-{Baker Trumpmgmt 18}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Trumpmgmt 18}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "E:83.KQJ7.T64.AJT7 K6.8542.K872.954 T52.T93.J953.KQ8 AQJ974.A6.AQ.632"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4S"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "W:T52.T93.J953.KQ8 AQJ974.A6.AQ.632 83.KQJ7.T64.AJT7 K6.8542.K872.954"]
+[Auction "W"]
+pass 1S pass 1NT pass 4S pass pass pass
 [Result ""]
 {Losers:   \S=0  \H=1  \D=0  \C=3  Total = 4
 
@@ -154,31 +91,22 @@ So here's the Plan. Win the \HA. Pull one round of trumps with the \SA. Play the
 
 . . . except when you have a good reason not to, like here.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "W"]
-Pass 1S Pass 1NT
-Pass 4S Pass Pass
-Pass
-[Play "E"]
-HK
+[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]HK
 
 [Event ""]
-{Baker Trumpmgmt 19}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Trumpmgmt 19}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:QJT73.J3.862.J95 .T96.KQJT3.A8742 A98.Q52.9754.QT6 K6542.AK874.A.K3"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:K6542.AK874.A.K3 QJT73.J3.862.J95 .T96.KQJT3.A8742 A98.Q52.9754.QT6"]
+[Auction "S"]
+1S pass 2D pass 3H pass 4H pass 4NT pass 6H pass pass pass
 [Result ""]
 {North's 6\H response to Blackwood showed one Ace and a \S void. South is to play 6\H. West leads the \SQ.
 
@@ -196,32 +124,22 @@ for the full deal.
 
 When you have a trump loser but still need to pull their trumps, it may be better for you to lose an early trump trick rather than a later one.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1S Pass 2D Pass
-3H Pass 4H Pass
-4NT Pass 6H Pass
-Pass Pass
-[Play "W"]
-SQ
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]SQ
 
 [Event ""]
-{Baker Trumpmgmt 20}
 [Site ""]
 [Date ""]
 [Board "5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Trumpmgmt 20}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:JT983.6.KJ974.JT AKQ.AK98.AT863.5 65.5432.Q2.KQ973 742.QJT7.5.A8642"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "6H"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:AKQ.AK98.AT863.5 65.5432.Q2.KQ973 742.QJT7.5.A8642 JT983.6.KJ974.JT"]
+[Auction "S"]
+1D pass 1H pass 4NT pass 5D pass 6H pass pass pass
 [Result ""]
 {Agreed that the bidding wasn't much. The final contract is still a good one. North is to play 6\H. East leads the \SJ.
 
@@ -245,12 +163,6 @@ The answer is to not be greedy for that overtrick. With East's opening \S lead t
 
 Don't jeopardize your contract trying to take too many. }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1D Pass 1H Pass
-4NT Pass 5D Pass
-6H Pass Pass Pass
-[Play "E"]
-SJ
+[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]SJ
+

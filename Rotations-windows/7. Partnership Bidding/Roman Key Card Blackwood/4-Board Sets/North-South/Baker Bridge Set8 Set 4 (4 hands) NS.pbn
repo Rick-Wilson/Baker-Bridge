@@ -1,0 +1,200 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:13:44 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Bidpractice/Set8 13}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:874.J97.KJ43.QT3 K93.AT6.A9862.K9 T.Q543.T75.J7642 AQJ652.K82.Q.A85"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "6S"]
+[Result ""]
+{When NORTH makes a slam try with a jump to 3â™ , the best approach for SOUTH is to agree on
+
+the trump suit immediately but indicate a minimum hand by bidding 4â™ .
+
+NORTH's next move is logical; RKCB 4NT.
+
+SOUTH shows zero or three Key Cards, and since it could not possibly be zero, NORTH knows they are
+
+the â™ K and both red Aces. Even possessing all the Key Cards NORTH knows there aren't
+
+enough points for a Grand slam.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT Pass 3S Pass
+4S Pass 4NT Pass
+5D Pass 6S Pass
+Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set8 14}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:QJ6.T5.T9862.K54 AK.QJ3.AKQ5.A962 T87432.6.J4.QJT3 95.AK98742.73.87"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "7NT"]
+[Result ""]
+{It is usually not recommended to use any form of Blackwood when you have a suit with two quick
+
+losers, but SOUTH knows NORTH would not preempt with a 10-high
+
+â™¥
+
+suit.
+
+NORTH's reply to RKCB is 5
+
+â™¥
+
+, showing two Key Cards.
+
+SOUTH knows they are the
+
+â™¥
+
+A
+
+â™¥
+
+K
+
+so she can count thirteen tricks.
+
+She bids a confident 7NT (and hopes NORTH didn't open 3
+
+â™¥
+
+with a 6-card suit.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+3H Pass 4NT Pass
+5H Pass 7NT Pass
+Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set8 15}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:A.J982.642.T9762 QT875.K6.AK3.AKJ K2.T754.JT985.84 J9643.AQ3.Q7.Q53"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "5S"]
+[Result ""]
+{NORTH has 21 points, and when she hears SOUTH make a limit raise she tries for slam with RKCB.
+
+SOUTH answers with just one Key Card so NORTH stops at 5â™ , knowing they are missing
+
+two Key Cards.
+
+Of course she didn't expect the two missing Key Cards to be the Ace and King of trumps!}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 3, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1S Pass 3S Pass
+4NT Pass 5C Pass
+5S Pass Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set8 16}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:T72.JT842.92.QT2 KQ5.AQ96.764.K96 9843.3.AJT8.8743 AJ6.K75.KQ53.AJ5"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4NT"]
+[Result ""]
+{What is this doing here in the RKCB Practice Pages?
+
+To emphasize that there are many 4NT bids which are NOT asking for Aces.
+
+In this case, SOUTH showed a balanced hand with 18 or 19 points, and NORTH invited him
+
+to bid 6NT if he felt his hand was a "maximum". He didn't, so he passed.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1D Pass 1H Pass
+2NT Pass 4NT Pass
+Pass Pass

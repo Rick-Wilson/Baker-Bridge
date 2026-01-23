@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 20:54:31 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker Stayman 1}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Stayman 1}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:Q75.QT2.QJ95.T93 KT82.74.AK63.AJ7 J963.A653.4.KQ42 A4.KJ98.T872.865"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "1NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:KT82.74.AK63.AJ7 Q96.Q65.Q95.Q432 A4.KJ98.T872.865 J753.AT32.J4.KT9"]
+[Auction "N"]
+1NT pass pass pass
 [Result ""]
 {North opens 1NT. What do you respond? 
 
@@ -64,27 +19,21 @@ If partner has a 4-card \H suit to match yours you could revalue your hand and a
 
 It is far too risky to play for that possibility. So you just pass.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass Pass Pass
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Stayman 2}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Stayman 2}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:T73.Q7.KJ654.973 KQJ5.T63.AQ9.KQT 9862.K542.3.AJ42 A4.AJ98.T872.865"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:KQJ5.T63.AQ9.KQT 972.K5.J643.J432 A4.AJ98.T872.865 T863.Q742.K5.A97"]
+[Auction "S"]
+1NT pass 2C pass 2S pass 2NT pass 3NT pass pass pass
 [Result ""]
 {South opens 1NT. What do you respond? 
 
@@ -94,29 +43,21 @@ Partner has the wrong Major. Now that you know there is no 8-card Major fit you 
 
 He has a maximum and he bids 3NT.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2C Pass
-2S Pass 2NT Pass
-3NT Pass Pass Pass
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
 
 [Event ""]
-{Baker Stayman 3}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Stayman 3}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:742.QT.Q7642.KQT A983.AK5.A95.J94 J5.J8732.3.A8652 KQT6.964.KJT8.73"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:A983.AK5.A95.J94 J72.872.76.AQT86 KQT6.964.KJT8.73 54.QJT3.Q432.K52"]
+[Auction "N"]
+1NT pass 2C pass 2S pass 4S pass pass pass
 [Result ""]
 {North opens 1NT. What do you respond? 
 
@@ -126,29 +67,21 @@ Partner hit your suit. When you add a point for your doubleton \C you are up to 
 
 There is really no right or wrong here, between 3\S and 4\S. Those extra T's and 9's swing you to 4\S. As you see it will be a close call, but even if you misguess the \D finesse you will still establish a \D winner for a discard.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 3, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2C Pass
-2S Pass 4S Pass
-Pass Pass
+[RotationNote "Board 3, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Stayman 4}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Stayman 4}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:8.T83.J972.AT952 965.A9.AQT5.KQ86 KQ732.7642.K4.43 AJT4.KQJ5.863.J7"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "S:965.A9.AQT5.KQ86 K732.T72.J72.A43 AJT4.KQJ5.863.J7 Q8.8643.K94.T952"]
+[Auction "S"]
+1NT pass 2C pass 2D pass 3NT pass pass pass
 [Result ""]
 {South opens 1NT. What do you respond? 
 
@@ -156,29 +89,21 @@ Both Majors! Lucky you. So you bid a Stayman 2\C. Unfortunately partner comes ba
 
 Partner doesn't have a 4-card Major so your side doesn't have an 8-card Major fit. Therefore you will play in notrump. And with your 12 points you MUST play in game. So you bid 3NT.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2C Pass
-2D Pass 3NT Pass
-Pass Pass
+[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
 
 [Event ""]
-{Baker Stayman 5}
 [Site ""]
 [Date ""]
 [Board "5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Stayman 5}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:A5.T74.QJT86.JT6 T982.KQ6.A94.AK5 764.9832.K53.Q72 KQJ3.AJ5.72.9843"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:T982.KQ6.A94.AK5 764.8432.KQ8.T72 KQJ3.AJ5.72.9843 A5.T97.JT653.QJ6"]
+[Auction "N"]
+1NT pass 2C pass 2S pass 4S pass pass pass
 [Result ""]
 {North opens 1NT. What do you respond? 
 
@@ -188,10 +113,5 @@ Stayman bidding can be very straightforward. Partner has 4 \Ss, you have 4 \Ss. 
 
 You bid 4\S.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 5, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2C Pass
-2S Pass 4S Pass
-Pass Pass
+[RotationNote "Board 5, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+

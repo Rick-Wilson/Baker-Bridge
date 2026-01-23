@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:50:10 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker Jacoby 9}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Jacoby 9}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:KJ85.62.9642.962 3.QT95.AQ3.KJT83 AQ762.73.875.754 T94.AKJ84.KJT.AQ"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:T94.AKJ84.KJT.AQ KJ8.732.9874.754 3.QT95.AQ3.KJT83 AQ7652.6.652.962"]
+[Auction "N"]
+1H pass 3S pass 4C pass 4D pass 6H pass pass pass
 [Result ""]
 {It is your bid. 
 
@@ -64,29 +19,21 @@ Partner's 3\S bid is a Splinter, showing a singleton \S, good trump support, and
 
 There isn't really anything else you want to know. You think you can make slam so you bid 6\H.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-1H Pass 3S Pass
-4C Pass 4D Pass
-6H Pass Pass Pass
 
 [Event ""]
-{Baker Jacoby 10}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Jacoby 10}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "N:98754.82.A76.QJ4 K3.KJT974.KQ5.A9 JT.6.T432.K86532 AQ62.AQ53.J98.T7"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "6H"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "E:K3.KJT974.KQ5.A9 JT8..T432.QJ5432 AQ62.AQ53.J98.T7 9754.862.A76.K86"]
+[Auction "E"]
+1H pass 2NT pass 3H pass 3S pass 4NT pass 5H pass 6H pass pass pass
 [Result ""]
 {It is your bid. 
 
@@ -96,30 +43,21 @@ When partner shows an above average opener it is your duty to make a control bid
 
 This is Blackwood. You respond 5\H for two Aces and partner bids the slam.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 2, chOption: E, chBasis: N, basisKind:Declarer, nOption:1, nBasis: 0, nRot: 1, useStandardVul: true"]
-[Student "S"]
-[Auction "E"]
-1H Pass 2NT Pass
-3H Pass 3S Pass
-4NT Pass 5H Pass
-6H Pass Pass Pass
 
 [Event ""]
-{Baker Jacoby 11}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Jacoby 11}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:T.JT872.QJ943.Q5 AQ63.A9.T87.A964 4.654.652.KJT732 KJ98752.KQ3.AK.8"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "7NT"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "N:KJ98752.KQ3.AK.8 4.JT8765.2.KQ532 AQ63.A9.T87.A964 T.42.QJ96543.JT7"]
+[Auction "N"]
+1S pass 2NT pass 4NT pass 5S pass 7NT pass pass pass
 [Result ""]
 {It is your bid. 
 
@@ -127,29 +65,21 @@ Partner has at least opening hand and he has 4 \Ss. There is only one thing you 
 
 The three Aces does it for you. You can count 7 \S tricks, 3 \H tricks, 2 \D tricks and 1 \C. That is 13 total so you go ahead and bid 7NT.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-1S Pass 2NT Pass
-4NT Pass 5S Pass
-7NT Pass Pass Pass
 
 [Event ""]
-{Baker Jacoby 12}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Jacoby 12}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "S:KJT3.42.J643.QT2 765.AJT96.KQ.A65 AQ842.73.T85.J98 9.KQ85.A972.K743"]
-[Scoring ""]
 [Declarer "W"]
 [Contract "6H"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "W:765.AJT96.KQ.A65 KQ32.2.JT65.J982 9.KQ85.A972.K743 AJT84.743.843.QT"]
+[Auction "W"]
+1H pass 3S pass 4C pass 4D pass 6H pass pass pass
 [Result ""]
 {It is your bid. 
 
@@ -159,13 +89,7 @@ Partner's 4\C bid is control showing, and indicates he is thinking slammish. You
 
 As you can see, West should make 12 tricks by discarding one \C loser on your \DA.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 4, chOption: W, chBasis: N, basisKind:Declarer, nOption:3, nBasis: 0, nRot: 3, useStandardVul: true"]
-[Student "S"]
-[Auction "W"]
-1H Pass 3S Pass
-4C Pass 4D Pass
-6H Pass Pass Pass
 
 [Event ""]
 [Site ""]
@@ -177,15 +101,16 @@ As you can see, West should make 12 tricks by discarding one \C loser on your \D
 [South ""]
 [Dealer "N"]
 [Vulnerable "NS"]
-[Deal "E:KJ85.62.9642.962 3.QT95.AQ3.KJT83 AQ762.73.875.754 T94.AKJ84.KJT.AQ"]
+[Deal "N:T94.AKJ84.KJT.AQ KJ8.732.9874.754 3.QT95.AQ3.KJT83 AQ7652.6.652.962"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -197,15 +122,16 @@ As you can see, West should make 12 tricks by discarding one \C loser on your \D
 [South ""]
 [Dealer "E"]
 [Vulnerable "EW"]
-[Deal "N:98754.82.A76.QJ4 K3.KJT974.KQ5.A9 JT.6.T432.K86532 AQ62.AQ53.J98.T7"]
+[Deal "E:K3.KJT974.KQ5.A9 JT8..T432.QJ5432 AQ62.AQ53.J98.T7 9754.862.A76.K86"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -217,15 +143,16 @@ As you can see, West should make 12 tricks by discarding one \C loser on your \D
 [South ""]
 [Dealer "S"]
 [Vulnerable "All"]
-[Deal "E:T.JT872.QJ943.Q5 AQ63.A9.T87.A964 4.654.652.KJT732 KJ98752.KQ3.AK.8"]
+[Deal "N:KJ98752.KQ3.AK.8 4.JT8765.2.KQ532 AQ63.A9.T87.A964 T.42.QJ96543.JT7"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -237,15 +164,16 @@ As you can see, West should make 12 tricks by discarding one \C loser on your \D
 [South ""]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "S:KJT3.42.J643.QT2 765.AJT96.KQ.A65 AQ842.73.T85.J98 9.KQ85.A972.K743"]
+[Deal "W:765.AJT96.KQ.A65 KQ32.2.JT65.J982 9.KQ85.A972.K743 AJT84.743.843.QT"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -257,15 +185,16 @@ As you can see, West should make 12 tricks by discarding one \C loser on your \D
 [South ""]
 [Dealer "N"]
 [Vulnerable "EW"]
-[Deal "E:KJ85.62.9642.962 3.QT95.AQ3.KJT83 AQ762.73.875.754 T94.AKJ84.KJT.AQ"]
+[Deal "N:T94.AKJ84.KJT.AQ KJ8.732.9874.754 3.QT95.AQ3.KJT83 AQ7652.6.652.962"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -277,15 +206,16 @@ As you can see, West should make 12 tricks by discarding one \C loser on your \D
 [South ""]
 [Dealer "E"]
 [Vulnerable "All"]
-[Deal "N:98754.82.A76.QJ4 K3.KJT974.KQ5.A9 JT.6.T432.K86532 AQ62.AQ53.J98.T7"]
+[Deal "E:K3.KJT974.KQ5.A9 JT8..T432.QJ5432 AQ62.AQ53.J98.T7 9754.862.A76.K86"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -297,15 +227,16 @@ As you can see, West should make 12 tricks by discarding one \C loser on your \D
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "E:T.JT872.QJ943.Q5 AQ63.A9.T87.A964 4.654.652.KJT732 KJ98752.KQ3.AK.8"]
+[Deal "N:KJ98752.KQ3.AK.8 4.JT8765.2.KQ532 AQ63.A9.T87.A964 T.42.QJ96543.JT7"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -317,15 +248,16 @@ As you can see, West should make 12 tricks by discarding one \C loser on your \D
 [South ""]
 [Dealer "W"]
 [Vulnerable "NS"]
-[Deal "S:KJT3.42.J643.QT2 765.AJT96.KQ.A65 AQ842.73.T85.J98 9.KQ85.A972.K743"]
+[Deal "W:765.AJT96.KQ.A65 KQ32.2.JT65.J982 9.KQ85.A972.K743 AJT84.743.843.QT"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -337,15 +269,16 @@ As you can see, West should make 12 tricks by discarding one \C loser on your \D
 [South ""]
 [Dealer "N"]
 [Vulnerable "All"]
-[Deal "E:KJ85.62.9642.962 3.QT95.AQ3.KJT83 AQ762.73.875.754 T94.AKJ84.KJT.AQ"]
+[Deal "N:T94.AKJ84.KJT.AQ KJ8.732.9874.754 3.QT95.AQ3.KJT83 AQ7652.6.652.962"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -357,15 +290,16 @@ As you can see, West should make 12 tricks by discarding one \C loser on your \D
 [South ""]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "N:98754.82.A76.QJ4 K3.KJT974.KQ5.A9 JT.6.T432.K86532 AQ62.AQ53.J98.T7"]
+[Deal "E:K3.KJT974.KQ5.A9 JT8..T432.QJ5432 AQ62.AQ53.J98.T7 9754.862.A76.K86"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -377,15 +311,16 @@ As you can see, West should make 12 tricks by discarding one \C loser on your \D
 [South ""]
 [Dealer "S"]
 [Vulnerable "NS"]
-[Deal "E:T.JT872.QJ943.Q5 AQ63.A9.T87.A964 4.654.652.KJT732 KJ98752.KQ3.AK.8"]
+[Deal "N:KJ98752.KQ3.AK.8 4.JT8765.2.KQ532 AQ63.A9.T87.A964 T.42.QJ96543.JT7"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -397,15 +332,16 @@ As you can see, West should make 12 tricks by discarding one \C loser on your \D
 [South ""]
 [Dealer "W"]
 [Vulnerable "EW"]
-[Deal "S:KJT3.42.J643.QT2 765.AJT96.KQ.A65 AQ842.73.T85.J98 9.KQ85.A972.K743"]
+[Deal "W:765.AJT96.KQ.A65 KQ32.2.JT65.J982 9.KQ85.A972.K743 AJT84.743.843.QT"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -417,15 +353,16 @@ As you can see, West should make 12 tricks by discarding one \C loser on your \D
 [South ""]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "E:KJ85.62.9642.962 3.QT95.AQ3.KJT83 AQ762.73.875.754 T94.AKJ84.KJT.AQ"]
+[Deal "N:T94.AKJ84.KJT.AQ KJ8.732.9874.754 3.QT95.AQ3.KJT83 AQ7652.6.652.962"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -437,15 +374,16 @@ As you can see, West should make 12 tricks by discarding one \C loser on your \D
 [South ""]
 [Dealer "E"]
 [Vulnerable "NS"]
-[Deal "N:98754.82.A76.QJ4 K3.KJT974.KQ5.A9 JT.6.T432.K86532 AQ62.AQ53.J98.T7"]
+[Deal "E:K3.KJT974.KQ5.A9 JT8..T432.QJ5432 AQ62.AQ53.J98.T7 9754.862.A76.K86"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -457,15 +395,16 @@ As you can see, West should make 12 tricks by discarding one \C loser on your \D
 [South ""]
 [Dealer "S"]
 [Vulnerable "EW"]
-[Deal "E:T.JT872.QJ943.Q5 AQ63.A9.T87.A964 4.654.652.KJT732 KJ98752.KQ3.AK.8"]
+[Deal "N:KJ98752.KQ3.AK.8 4.JT8765.2.KQ532 AQ63.A9.T87.A964 T.42.QJ96543.JT7"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -477,15 +416,16 @@ As you can see, West should make 12 tricks by discarding one \C loser on your \D
 [South ""]
 [Dealer "W"]
 [Vulnerable "All"]
-[Deal "S:KJT3.42.J643.QT2 765.AJT96.KQ.A65 AQ842.73.T85.J98 9.KQ85.A972.K743"]
+[Deal "W:765.AJT96.KQ.A65 KQ32.2.JT65.J982 9.KQ85.A972.K743 AJT84.743.843.QT"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -497,15 +437,16 @@ As you can see, West should make 12 tricks by discarding one \C loser on your \D
 [South ""]
 [Dealer "N"]
 [Vulnerable "NS"]
-[Deal "E:KJ85.62.9642.962 3.QT95.AQ3.KJT83 AQ762.73.875.754 T94.AKJ84.KJT.AQ"]
+[Deal "N:T94.AKJ84.KJT.AQ KJ8.732.9874.754 3.QT95.AQ3.KJT83 AQ7652.6.652.962"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -517,15 +458,16 @@ As you can see, West should make 12 tricks by discarding one \C loser on your \D
 [South ""]
 [Dealer "E"]
 [Vulnerable "EW"]
-[Deal "N:98754.82.A76.QJ4 K3.KJT974.KQ5.A9 JT.6.T432.K86532 AQ62.AQ53.J98.T7"]
+[Deal "E:K3.KJT974.KQ5.A9 JT8..T432.QJ5432 AQ62.AQ53.J98.T7 9754.862.A76.K86"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -537,15 +479,16 @@ As you can see, West should make 12 tricks by discarding one \C loser on your \D
 [South ""]
 [Dealer "S"]
 [Vulnerable "All"]
-[Deal "E:T.JT872.QJ943.Q5 AQ63.A9.T87.A964 4.654.652.KJT732 KJ98752.KQ3.AK.8"]
+[Deal "N:KJ98752.KQ3.AK.8 4.JT8765.2.KQ532 AQ63.A9.T87.A964 T.42.QJ96543.JT7"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -557,15 +500,16 @@ As you can see, West should make 12 tricks by discarding one \C loser on your \D
 [South ""]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "S:KJT3.42.J643.QT2 765.AJT96.KQ.A65 AQ842.73.T85.J98 9.KQ85.A972.K743"]
+[Deal "W:765.AJT96.KQ.A65 KQ32.2.JT65.J982 9.KQ85.A972.K743 AJT84.743.843.QT"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -577,15 +521,16 @@ As you can see, West should make 12 tricks by discarding one \C loser on your \D
 [South ""]
 [Dealer "N"]
 [Vulnerable "EW"]
-[Deal "E:KJ85.62.9642.962 3.QT95.AQ3.KJT83 AQ762.73.875.754 T94.AKJ84.KJT.AQ"]
+[Deal "N:T94.AKJ84.KJT.AQ KJ8.732.9874.754 3.QT95.AQ3.KJT83 AQ7652.6.652.962"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "7"]
 
 [Event ""]
 [Site ""]
@@ -597,15 +542,16 @@ As you can see, West should make 12 tricks by discarding one \C loser on your \D
 [South ""]
 [Dealer "E"]
 [Vulnerable "All"]
-[Deal "N:98754.82.A76.QJ4 K3.KJT974.KQ5.A9 JT.6.T432.K86532 AQ62.AQ53.J98.T7"]
+[Deal "E:K3.KJT974.KQ5.A9 JT8..T432.QJ5432 AQ62.AQ53.J98.T7 9754.862.A76.K86"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "7"]
 
 [Event ""]
 [Site ""]
@@ -617,15 +563,16 @@ As you can see, West should make 12 tricks by discarding one \C loser on your \D
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "E:T.JT872.QJ943.Q5 AQ63.A9.T87.A964 4.654.652.KJT732 KJ98752.KQ3.AK.8"]
+[Deal "N:KJ98752.KQ3.AK.8 4.JT8765.2.KQ532 AQ63.A9.T87.A964 T.42.QJ96543.JT7"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "7"]
 
 [Event ""]
 [Site ""]
@@ -637,15 +584,16 @@ As you can see, West should make 12 tricks by discarding one \C loser on your \D
 [South ""]
 [Dealer "W"]
 [Vulnerable "NS"]
-[Deal "S:KJT3.42.J643.QT2 765.AJT96.KQ.A65 AQ842.73.T85.J98 9.KQ85.A972.K743"]
+[Deal "W:765.AJT96.KQ.A65 KQ32.2.JT65.J982 9.KQ85.A972.K743 AJT84.743.843.QT"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "7"]
 
 [Event ""]
 [Site ""]
@@ -657,15 +605,16 @@ As you can see, West should make 12 tricks by discarding one \C loser on your \D
 [South ""]
 [Dealer "N"]
 [Vulnerable "All"]
-[Deal "E:KJ85.62.9642.962 3.QT95.AQ3.KJT83 AQ762.73.875.754 T94.AKJ84.KJT.AQ"]
+[Deal "N:T94.AKJ84.KJT.AQ KJ8.732.9874.754 3.QT95.AQ3.KJT83 AQ7652.6.652.962"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "8"]
 
 [Event ""]
 [Site ""]
@@ -677,15 +626,16 @@ As you can see, West should make 12 tricks by discarding one \C loser on your \D
 [South ""]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "N:98754.82.A76.QJ4 K3.KJT974.KQ5.A9 JT.6.T432.K86532 AQ62.AQ53.J98.T7"]
+[Deal "E:K3.KJT974.KQ5.A9 JT8..T432.QJ5432 AQ62.AQ53.J98.T7 9754.862.A76.K86"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "8"]
 
 [Event ""]
 [Site ""]
@@ -697,15 +647,16 @@ As you can see, West should make 12 tricks by discarding one \C loser on your \D
 [South ""]
 [Dealer "S"]
 [Vulnerable "NS"]
-[Deal "E:T.JT872.QJ943.Q5 AQ63.A9.T87.A964 4.654.652.KJT732 KJ98752.KQ3.AK.8"]
+[Deal "N:KJ98752.KQ3.AK.8 4.JT8765.2.KQ532 AQ63.A9.T87.A964 T.42.QJ96543.JT7"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "8"]
 
 [Event ""]
 [Site ""]
@@ -717,15 +668,16 @@ As you can see, West should make 12 tricks by discarding one \C loser on your \D
 [South ""]
 [Dealer "W"]
 [Vulnerable "EW"]
-[Deal "S:KJT3.42.J643.QT2 765.AJT96.KQ.A65 AQ842.73.T85.J98 9.KQ85.A972.K743"]
+[Deal "W:765.AJT96.KQ.A65 KQ32.2.JT65.J982 9.KQ85.A972.K743 AJT84.743.843.QT"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "8"]
 
 [Event ""]
 [Site ""]
@@ -737,15 +689,16 @@ As you can see, West should make 12 tricks by discarding one \C loser on your \D
 [South ""]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "E:KJ85.62.9642.962 3.QT95.AQ3.KJT83 AQ762.73.875.754 T94.AKJ84.KJT.AQ"]
+[Deal "N:T94.AKJ84.KJT.AQ KJ8.732.9874.754 3.QT95.AQ3.KJT83 AQ7652.6.652.962"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "9"]
 
 [Event ""]
 [Site ""]
@@ -757,15 +710,16 @@ As you can see, West should make 12 tricks by discarding one \C loser on your \D
 [South ""]
 [Dealer "E"]
 [Vulnerable "NS"]
-[Deal "N:98754.82.A76.QJ4 K3.KJT974.KQ5.A9 JT.6.T432.K86532 AQ62.AQ53.J98.T7"]
+[Deal "E:K3.KJT974.KQ5.A9 JT8..T432.QJ5432 AQ62.AQ53.J98.T7 9754.862.A76.K86"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "9"]
 
 [Event ""]
 [Site ""]
@@ -777,15 +731,16 @@ As you can see, West should make 12 tricks by discarding one \C loser on your \D
 [South ""]
 [Dealer "S"]
 [Vulnerable "EW"]
-[Deal "E:T.JT872.QJ943.Q5 AQ63.A9.T87.A964 4.654.652.KJT732 KJ98752.KQ3.AK.8"]
+[Deal "N:KJ98752.KQ3.AK.8 4.JT8765.2.KQ532 AQ63.A9.T87.A964 T.42.QJ96543.JT7"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "9"]
 
 [Event ""]
 [Site ""]
@@ -797,12 +752,14 @@ As you can see, West should make 12 tricks by discarding one \C loser on your \D
 [South ""]
 [Dealer "W"]
 [Vulnerable "All"]
-[Deal "S:KJT3.42.J643.QT2 765.AJT96.KQ.A65 AQ842.73.T85.J98 9.KQ85.A972.K743"]
+[Deal "W:765.AJT96.KQ.A65 KQ32.2.JT65.J982 9.KQ85.A972.K743 AJT84.743.843.QT"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "9"]
+

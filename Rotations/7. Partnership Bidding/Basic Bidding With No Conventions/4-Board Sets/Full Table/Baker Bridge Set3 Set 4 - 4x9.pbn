@@ -1,112 +1,59 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=UTF-8
-%Creator: BridgeComposer Version 5.111
-%Created: Sat Apr 12 07:40:45 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker Bidpractice/Set3 13}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set3 13}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:5.T32.962.AJT874 QJT83.AJ4.AT.962 72.9876.8543.KQ5 AK964.KQ5.KQJ7.3"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "6S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:QJT83.AJ4.AT.962 72.9832.9864.AK4 AK964.KQ5.KQJ7.3 5.T76.532.QJT875"]
+[Auction "N"]
+1S pass 4NT pass 5H pass 6S pass pass pass
 [Result ""]
-{NORTH has a minimum 1â™  opening bid - 13 points and five trumps. She doesn't even suspect
+{NORTH has a minimum 1♠ opening bid - 13 points and five trumps. She doesn't even suspect
 
 what's about to befall!
 
-SOUTH hears the 1â™  bid and all he wants to know is whether NORTH has one, two or three Aces.
+SOUTH hears the 1♠ bid and all he wants to know is whether NORTH has one, two or three Aces.
 
 So he uses the Blackwood convention, 4NT.
 
 NORTH has two Aces so she bids 5
 
-â™¥
+♥
 
-(5â™£ would show zero Aces,
+(5♣ would show zero Aces,
 
 5
 
-â™¦
+♦
 
 would show one Ace, etc).
 
-SOUTH has heard enough and bids 6â™ .}
+SOUTH has heard enough and bids 6♠.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-1S Pass 4NT Pass
-5H Pass 6S Pass
-Pass Pass
 
 [Event ""]
-{Baker Bidpractice/Set3 14}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set3 14}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "S:Q85.94.J9852.KQ2 A74.Q5.K764.7653 KJT93.JT3.Q.JT84 62.AK8762.AT3.A9"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "4H"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "E:62.AK8762.AT3.A9 J95.T4.Q852.KJT2 A74.Q5.K764.7653 KQT83.J93.J9.Q84"]
+[Auction "E"]
+1H pass 1NTpass3H pass 3H pass 4H pass pass pass
 [Result ""]
 {EAST has an above-minimum strength hand with a good 6-card suit. He opens 1
 
-â™¥
+♥
 
 .
 
@@ -114,75 +61,59 @@ WEST, with 9 points, is a little too weak to bid at the 2-level so she bids a ca
 
 EAST shows his 6-card suit and extra strength by jumping to 3
 
-â™¥
+♥
 
 , which
 
 WEST raises to 4
 
-â™¥
+♥
 
 since two trumps is now adequate support.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
-[Student "S"]
-[Auction "E"]
-1H Pass 1NTPASS3H Pass
-3H Pass 4H Pass
-Pass Pass
 
 [Event ""]
-{Baker Bidpractice/Set3 15}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set3 15}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:9.KJ52.QT984.JT3 KQ74.83.762.AKQ2 A652.T96.AK.9854 JT83.AQ74.J53.76"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "2S"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:KQ74.83.762.AKQ2 A952.J2.AQ4.T953 JT83.AQ74.J53.76 6.KT965.KT98.J84"]
+[Auction "S"]
+1C pass 1H pass 1S pass 2S pass pass pass
 [Result ""]
-{SOUTH has 14 points and opens her 4-card â™£ suit.
+{SOUTH has 14 points and opens her 4-card ♣ suit.
 
 NORTH must respond, and with two 4-card Majors bids them "up-the-line", saying 1
 
-â™¥
+♥
 
 .
 
-SOUTH now shows his 4-card â™  suit, and NORTH again must bid. Since NORTH is pretty weak he just
+SOUTH now shows his 4-card ♠ suit, and NORTH again must bid. Since NORTH is pretty weak he just
 
-raises to 2â™ , which SOUTH happily passes.}
+raises to 2♠, which SOUTH happily passes.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "S"]
-1C Pass 1H Pass
-1S Pass 2S Pass
-Pass Pass
 
 [Event ""]
-{Baker Bidpractice/Set3 16}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set3 16}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "N:J8632.92.954.A74 A94.A7.K83.KJ962 T5.T8654.QJ72.53 KQ7.KQJ3.AT6.QT8"]
-[Scoring ""]
 [Declarer "W"]
 [Contract "6NT"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "W:KQ7.KQJ3.AT6.QT8 J65.86542.54.A43 A94.A7.K83.KJ962 T832.T9.QJ972.75"]
+[Auction "W"]
+1NT pass 4NT pass 6NT pass pass pass
 [Result ""]
 {WEST has a maximum 17 point 1NT bid.
 
@@ -196,12 +127,7 @@ The 4NT raise solves the problem. It tells WEST to bid 6NT with 17 points, pass
 
 with 15 points, and use best judgment with 16. Here WEST bids the slam.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
-[Student "S"]
-[Auction "W"]
-1NT Pass 4NT Pass
-6NT Pass Pass Pass
 
 [Event ""]
 [Site ""]
@@ -213,15 +139,16 @@ with 15 points, and use best judgment with 16. Here WEST bids the slam.}
 [South ""]
 [Dealer "N"]
 [Vulnerable "NS"]
-[Deal "W:5.T32.962.AJT874 QJT83.AJ4.AT.962 72.9876.8543.KQ5 AK964.KQ5.KQJ7.3"]
+[Deal "N:QJT83.AJ4.AT.962 72.9832.9864.AK4 AK964.KQ5.KQJ7.3 5.T76.532.QJT875"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -233,15 +160,16 @@ with 15 points, and use best judgment with 16. Here WEST bids the slam.}
 [South ""]
 [Dealer "E"]
 [Vulnerable "EW"]
-[Deal "S:Q85.94.J9852.KQ2 A74.Q5.K764.7653 KJT93.JT3.Q.JT84 62.AK8762.AT3.A9"]
+[Deal "E:62.AK8762.AT3.A9 J95.T4.Q852.KJT2 A74.Q5.K764.7653 KQT83.J93.J9.Q84"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -253,15 +181,16 @@ with 15 points, and use best judgment with 16. Here WEST bids the slam.}
 [South ""]
 [Dealer "S"]
 [Vulnerable "All"]
-[Deal "E:9.KJ52.QT984.JT3 KQ74.83.762.AKQ2 A652.T96.AK.9854 JT83.AQ74.J53.76"]
+[Deal "S:KQ74.83.762.AKQ2 A952.J2.AQ4.T953 JT83.AQ74.J53.76 6.KT965.KT98.J84"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -273,15 +202,16 @@ with 15 points, and use best judgment with 16. Here WEST bids the slam.}
 [South ""]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "N:J8632.92.954.A74 A94.A7.K83.KJ962 T5.T8654.QJ72.53 KQ7.KQJ3.AT6.QT8"]
+[Deal "W:KQ7.KQJ3.AT6.QT8 J65.86542.54.A43 A94.A7.K83.KJ962 T832.T9.QJ972.75"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -293,15 +223,16 @@ with 15 points, and use best judgment with 16. Here WEST bids the slam.}
 [South ""]
 [Dealer "N"]
 [Vulnerable "EW"]
-[Deal "W:5.T32.962.AJT874 QJT83.AJ4.AT.962 72.9876.8543.KQ5 AK964.KQ5.KQJ7.3"]
+[Deal "N:QJT83.AJ4.AT.962 72.9832.9864.AK4 AK964.KQ5.KQJ7.3 5.T76.532.QJT875"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -313,15 +244,16 @@ with 15 points, and use best judgment with 16. Here WEST bids the slam.}
 [South ""]
 [Dealer "E"]
 [Vulnerable "All"]
-[Deal "S:Q85.94.J9852.KQ2 A74.Q5.K764.7653 KJT93.JT3.Q.JT84 62.AK8762.AT3.A9"]
+[Deal "E:62.AK8762.AT3.A9 J95.T4.Q852.KJT2 A74.Q5.K764.7653 KQT83.J93.J9.Q84"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -333,15 +265,16 @@ with 15 points, and use best judgment with 16. Here WEST bids the slam.}
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "E:9.KJ52.QT984.JT3 KQ74.83.762.AKQ2 A652.T96.AK.9854 JT83.AQ74.J53.76"]
+[Deal "S:KQ74.83.762.AKQ2 A952.J2.AQ4.T953 JT83.AQ74.J53.76 6.KT965.KT98.J84"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -353,15 +286,16 @@ with 15 points, and use best judgment with 16. Here WEST bids the slam.}
 [South ""]
 [Dealer "W"]
 [Vulnerable "NS"]
-[Deal "N:J8632.92.954.A74 A94.A7.K83.KJ962 T5.T8654.QJ72.53 KQ7.KQJ3.AT6.QT8"]
+[Deal "W:KQ7.KQJ3.AT6.QT8 J65.86542.54.A43 A94.A7.K83.KJ962 T832.T9.QJ972.75"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -373,15 +307,16 @@ with 15 points, and use best judgment with 16. Here WEST bids the slam.}
 [South ""]
 [Dealer "N"]
 [Vulnerable "All"]
-[Deal "W:5.T32.962.AJT874 QJT83.AJ4.AT.962 72.9876.8543.KQ5 AK964.KQ5.KQJ7.3"]
+[Deal "N:QJT83.AJ4.AT.962 72.9832.9864.AK4 AK964.KQ5.KQJ7.3 5.T76.532.QJT875"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -393,15 +328,16 @@ with 15 points, and use best judgment with 16. Here WEST bids the slam.}
 [South ""]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "S:Q85.94.J9852.KQ2 A74.Q5.K764.7653 KJT93.JT3.Q.JT84 62.AK8762.AT3.A9"]
+[Deal "E:62.AK8762.AT3.A9 J95.T4.Q852.KJT2 A74.Q5.K764.7653 KQT83.J93.J9.Q84"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -413,15 +349,16 @@ with 15 points, and use best judgment with 16. Here WEST bids the slam.}
 [South ""]
 [Dealer "S"]
 [Vulnerable "NS"]
-[Deal "E:9.KJ52.QT984.JT3 KQ74.83.762.AKQ2 A652.T96.AK.9854 JT83.AQ74.J53.76"]
+[Deal "S:KQ74.83.762.AKQ2 A952.J2.AQ4.T953 JT83.AQ74.J53.76 6.KT965.KT98.J84"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -433,15 +370,16 @@ with 15 points, and use best judgment with 16. Here WEST bids the slam.}
 [South ""]
 [Dealer "W"]
 [Vulnerable "EW"]
-[Deal "N:J8632.92.954.A74 A94.A7.K83.KJ962 T5.T8654.QJ72.53 KQ7.KQJ3.AT6.QT8"]
+[Deal "W:KQ7.KQJ3.AT6.QT8 J65.86542.54.A43 A94.A7.K83.KJ962 T832.T9.QJ972.75"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -453,15 +391,16 @@ with 15 points, and use best judgment with 16. Here WEST bids the slam.}
 [South ""]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:5.T32.962.AJT874 QJT83.AJ4.AT.962 72.9876.8543.KQ5 AK964.KQ5.KQJ7.3"]
+[Deal "N:QJT83.AJ4.AT.962 72.9832.9864.AK4 AK964.KQ5.KQJ7.3 5.T76.532.QJT875"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -473,15 +412,16 @@ with 15 points, and use best judgment with 16. Here WEST bids the slam.}
 [South ""]
 [Dealer "E"]
 [Vulnerable "NS"]
-[Deal "S:Q85.94.J9852.KQ2 A74.Q5.K764.7653 KJT93.JT3.Q.JT84 62.AK8762.AT3.A9"]
+[Deal "E:62.AK8762.AT3.A9 J95.T4.Q852.KJT2 A74.Q5.K764.7653 KQT83.J93.J9.Q84"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -493,15 +433,16 @@ with 15 points, and use best judgment with 16. Here WEST bids the slam.}
 [South ""]
 [Dealer "S"]
 [Vulnerable "EW"]
-[Deal "E:9.KJ52.QT984.JT3 KQ74.83.762.AKQ2 A652.T96.AK.9854 JT83.AQ74.J53.76"]
+[Deal "S:KQ74.83.762.AKQ2 A952.J2.AQ4.T953 JT83.AQ74.J53.76 6.KT965.KT98.J84"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -513,15 +454,16 @@ with 15 points, and use best judgment with 16. Here WEST bids the slam.}
 [South ""]
 [Dealer "W"]
 [Vulnerable "All"]
-[Deal "N:J8632.92.954.A74 A94.A7.K83.KJ962 T5.T8654.QJ72.53 KQ7.KQJ3.AT6.QT8"]
+[Deal "W:KQ7.KQJ3.AT6.QT8 J65.86542.54.A43 A94.A7.K83.KJ962 T832.T9.QJ972.75"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -533,15 +475,16 @@ with 15 points, and use best judgment with 16. Here WEST bids the slam.}
 [South ""]
 [Dealer "N"]
 [Vulnerable "NS"]
-[Deal "W:5.T32.962.AJT874 QJT83.AJ4.AT.962 72.9876.8543.KQ5 AK964.KQ5.KQJ7.3"]
+[Deal "N:QJT83.AJ4.AT.962 72.9832.9864.AK4 AK964.KQ5.KQJ7.3 5.T76.532.QJT875"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -553,15 +496,16 @@ with 15 points, and use best judgment with 16. Here WEST bids the slam.}
 [South ""]
 [Dealer "E"]
 [Vulnerable "EW"]
-[Deal "S:Q85.94.J9852.KQ2 A74.Q5.K764.7653 KJT93.JT3.Q.JT84 62.AK8762.AT3.A9"]
+[Deal "E:62.AK8762.AT3.A9 J95.T4.Q852.KJT2 A74.Q5.K764.7653 KQT83.J93.J9.Q84"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -573,15 +517,16 @@ with 15 points, and use best judgment with 16. Here WEST bids the slam.}
 [South ""]
 [Dealer "S"]
 [Vulnerable "All"]
-[Deal "E:9.KJ52.QT984.JT3 KQ74.83.762.AKQ2 A652.T96.AK.9854 JT83.AQ74.J53.76"]
+[Deal "S:KQ74.83.762.AKQ2 A952.J2.AQ4.T953 JT83.AQ74.J53.76 6.KT965.KT98.J84"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -593,15 +538,16 @@ with 15 points, and use best judgment with 16. Here WEST bids the slam.}
 [South ""]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "N:J8632.92.954.A74 A94.A7.K83.KJ962 T5.T8654.QJ72.53 KQ7.KQJ3.AT6.QT8"]
+[Deal "W:KQ7.KQJ3.AT6.QT8 J65.86542.54.A43 A94.A7.K83.KJ962 T832.T9.QJ972.75"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -613,15 +559,16 @@ with 15 points, and use best judgment with 16. Here WEST bids the slam.}
 [South ""]
 [Dealer "N"]
 [Vulnerable "EW"]
-[Deal "W:5.T32.962.AJT874 QJT83.AJ4.AT.962 72.9876.8543.KQ5 AK964.KQ5.KQJ7.3"]
+[Deal "N:QJT83.AJ4.AT.962 72.9832.9864.AK4 AK964.KQ5.KQJ7.3 5.T76.532.QJT875"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "7"]
 
 [Event ""]
 [Site ""]
@@ -633,15 +580,16 @@ with 15 points, and use best judgment with 16. Here WEST bids the slam.}
 [South ""]
 [Dealer "E"]
 [Vulnerable "All"]
-[Deal "S:Q85.94.J9852.KQ2 A74.Q5.K764.7653 KJT93.JT3.Q.JT84 62.AK8762.AT3.A9"]
+[Deal "E:62.AK8762.AT3.A9 J95.T4.Q852.KJT2 A74.Q5.K764.7653 KQT83.J93.J9.Q84"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "7"]
 
 [Event ""]
 [Site ""]
@@ -653,15 +601,16 @@ with 15 points, and use best judgment with 16. Here WEST bids the slam.}
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "E:9.KJ52.QT984.JT3 KQ74.83.762.AKQ2 A652.T96.AK.9854 JT83.AQ74.J53.76"]
+[Deal "S:KQ74.83.762.AKQ2 A952.J2.AQ4.T953 JT83.AQ74.J53.76 6.KT965.KT98.J84"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "7"]
 
 [Event ""]
 [Site ""]
@@ -673,15 +622,16 @@ with 15 points, and use best judgment with 16. Here WEST bids the slam.}
 [South ""]
 [Dealer "W"]
 [Vulnerable "NS"]
-[Deal "N:J8632.92.954.A74 A94.A7.K83.KJ962 T5.T8654.QJ72.53 KQ7.KQJ3.AT6.QT8"]
+[Deal "W:KQ7.KQJ3.AT6.QT8 J65.86542.54.A43 A94.A7.K83.KJ962 T832.T9.QJ972.75"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "7"]
 
 [Event ""]
 [Site ""]
@@ -693,15 +643,16 @@ with 15 points, and use best judgment with 16. Here WEST bids the slam.}
 [South ""]
 [Dealer "N"]
 [Vulnerable "All"]
-[Deal "W:5.T32.962.AJT874 QJT83.AJ4.AT.962 72.9876.8543.KQ5 AK964.KQ5.KQJ7.3"]
+[Deal "N:QJT83.AJ4.AT.962 72.9832.9864.AK4 AK964.KQ5.KQJ7.3 5.T76.532.QJT875"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "8"]
 
 [Event ""]
 [Site ""]
@@ -713,15 +664,16 @@ with 15 points, and use best judgment with 16. Here WEST bids the slam.}
 [South ""]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "S:Q85.94.J9852.KQ2 A74.Q5.K764.7653 KJT93.JT3.Q.JT84 62.AK8762.AT3.A9"]
+[Deal "E:62.AK8762.AT3.A9 J95.T4.Q852.KJT2 A74.Q5.K764.7653 KQT83.J93.J9.Q84"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "8"]
 
 [Event ""]
 [Site ""]
@@ -733,15 +685,16 @@ with 15 points, and use best judgment with 16. Here WEST bids the slam.}
 [South ""]
 [Dealer "S"]
 [Vulnerable "NS"]
-[Deal "E:9.KJ52.QT984.JT3 KQ74.83.762.AKQ2 A652.T96.AK.9854 JT83.AQ74.J53.76"]
+[Deal "S:KQ74.83.762.AKQ2 A952.J2.AQ4.T953 JT83.AQ74.J53.76 6.KT965.KT98.J84"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "8"]
 
 [Event ""]
 [Site ""]
@@ -753,15 +706,16 @@ with 15 points, and use best judgment with 16. Here WEST bids the slam.}
 [South ""]
 [Dealer "W"]
 [Vulnerable "EW"]
-[Deal "N:J8632.92.954.A74 A94.A7.K83.KJ962 T5.T8654.QJ72.53 KQ7.KQJ3.AT6.QT8"]
+[Deal "W:KQ7.KQJ3.AT6.QT8 J65.86542.54.A43 A94.A7.K83.KJ962 T832.T9.QJ972.75"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "8"]
 
 [Event ""]
 [Site ""]
@@ -773,15 +727,16 @@ with 15 points, and use best judgment with 16. Here WEST bids the slam.}
 [South ""]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:5.T32.962.AJT874 QJT83.AJ4.AT.962 72.9876.8543.KQ5 AK964.KQ5.KQJ7.3"]
+[Deal "N:QJT83.AJ4.AT.962 72.9832.9864.AK4 AK964.KQ5.KQJ7.3 5.T76.532.QJT875"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "9"]
 
 [Event ""]
 [Site ""]
@@ -793,15 +748,16 @@ with 15 points, and use best judgment with 16. Here WEST bids the slam.}
 [South ""]
 [Dealer "E"]
 [Vulnerable "NS"]
-[Deal "S:Q85.94.J9852.KQ2 A74.Q5.K764.7653 KJT93.JT3.Q.JT84 62.AK8762.AT3.A9"]
+[Deal "E:62.AK8762.AT3.A9 J95.T4.Q852.KJT2 A74.Q5.K764.7653 KQT83.J93.J9.Q84"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "9"]
 
 [Event ""]
 [Site ""]
@@ -813,15 +769,16 @@ with 15 points, and use best judgment with 16. Here WEST bids the slam.}
 [South ""]
 [Dealer "S"]
 [Vulnerable "EW"]
-[Deal "E:9.KJ52.QT984.JT3 KQ74.83.762.AKQ2 A652.T96.AK.9854 JT83.AQ74.J53.76"]
+[Deal "S:KQ74.83.762.AKQ2 A952.J2.AQ4.T953 JT83.AQ74.J53.76 6.KT965.KT98.J84"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "9"]
 
 [Event ""]
 [Site ""]
@@ -833,12 +790,14 @@ with 15 points, and use best judgment with 16. Here WEST bids the slam.}
 [South ""]
 [Dealer "W"]
 [Vulnerable "All"]
-[Deal "N:J8632.92.954.A74 A94.A7.K83.KJ962 T5.T8654.QJ72.53 KQ7.KQJ3.AT6.QT8"]
+[Deal "W:KQ7.KQJ3.AT6.QT8 J65.86542.54.A43 A94.A7.K83.KJ962 T832.T9.QJ972.75"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "9"]
+

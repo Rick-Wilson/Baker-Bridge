@@ -1,0 +1,216 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:13:48 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Bidpractice/Set8 16}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:T72.JT842.92.QT2 KQ5.AQ96.764.K96 9843.3.AJT8.8743 AJ6.K75.KQ53.AJ5"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4NT"]
+[Result ""]
+{What is this doing here in the RKCB Practice Pages?
+
+To emphasize that there are many 4NT bids which are NOT asking for Aces.
+
+In this case, NORTH showed a balanced hand with 18 or 19 points, and SOUTH invited him
+
+to bid 6NT if he felt his hand was a "maximum". He didn't, so he passed.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+1D Pass 1H Pass
+2NT Pass 4NT Pass
+Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set8 17}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:4.T84.A62.QJT985 K5.AK9762.K8.764 QJT863..T94.AK32 A972.QJ53.QJ753."]
+[Scoring ""]
+[Declarer "E"]
+[Contract "6H"]
+[Result ""]
+{When WEST makes a Splinter bid, showing
+
+â™¥
+
+support and â™£ shortness,
+
+EAST naturally thinks about slam.
+
+She uses RKCB 4NT, and WEST, with one Key Card and a â™£ Void, bids 6â™£.
+
+Just what EAST needed for the 6
+
+â™¥
+
+bid.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 2, chOption: E, chBasis: N, basisKind:Declarer, nOption:1, nBasis: 0, nRot: 1, useStandardVul: true"]
+[Student "S"]
+[Auction "E"]
+1H Pass 4C Pass
+4NT Pass 6C Pass
+6H Pass Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set8 18}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:T7.J82.T32.A9874 AK63.KQT4.KQ85.2 J54.763.J97.T653 Q982.A95.A64.KQJ"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6S"]
+[Result ""]
+{NORTH thinks they should be in slam, and uses Stayman to check for a 4-4 Major fit.
+
+When SOUTH announces four â™ s NORTH uses RKCB 4NT.
+
+SOUTH's 5â™  bid shows two Key Cards plus the â™ Q.
+
+This fills the holes in NORTH's hand nicely, so she bids 6â™ .}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "S"]
+1NT Pass 2C Pass
+2S Pass 4NT Pass
+5S Pass 6S Pass
+Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set8 19}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:T75.J87.T92.AT84 AK63.KQT4.KQ85.2 Q4.632.763.97653 J982.A95.AJ4.KQJ"]
+[Scoring ""]
+[Declarer "W"]
+[Contract "5S"]
+[Result ""]
+{This is the companion hand to Deal 18.
+
+Again, EAST uses RKCB after the 4-4 â™  fit is discovered.
+
+This time WEST shows two Key Cards without the â™ Q.
+
+Now EAST realizes that in addition to one outside Ace, there is a very possible loser
+
+in trumps. So she stops at 5â™ .}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
+[Student "S"]
+[Auction "W"]
+1NT Pass 2C Pass
+2S Pass 4NT Pass
+5H Pass 5S Pass
+Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set8 20}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:6.T732.T8.KQJT96 AK4.J95.AK76.A54 QJT985..QJ942.32 732.AKQ864.53.87"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "3NT"]
+[Result ""]
+{The chances of a slam on this hand are very small, and if NORTH decides to use RKCB it will
+
+just confuse matters when SOUTH shows two Key Cards.
+
+NORTH has a better way to find out about the hand. She bids 2NT asking SOUTH to further describe
+
+his hand. SOUTH should then bid 3NT, showing a solid suit headed by AKQ.
+
+SOUTH cannot have as much as an extra Jack, so NORTH just passes 3NT.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 5, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "S"]
+2H Pass 2NT Pass
+3NT Pass Pass Pass

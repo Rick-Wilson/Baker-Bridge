@@ -1,0 +1,203 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:55:04 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker 2Club 11}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:KJ.J73.542.QT843 AQT64.AQ85.Q7.AK 32.KT92.AKJT9.96 9875.64.863.J752"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "3S"]
+[Result ""]
+{Decide what you would bid, then  on BID above. 
+
+With just 1 Jack you bid a Negative 2\D. Partner now bids 2\S. What is your bid? 
+
+Partner's bid of a suit is absolutely forcing, no matter how you feel about it. But now is the time you tell him you have fewer than 3 points by using the Second Negative. You bid 3\C. Partner now says 3\H. What do you say? 
+
+No, you still may not pass. First, because partner's bid of a new suit is forcing. Second, because even if you were not forced you prefer his first suit. So you bid 3\S and he passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+2C Pass 2D Pass
+2S Pass 3C Pass
+3H Pass 3S Pass
+Pass Pass
+
+[Event ""]
+{Baker 2Club 12}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:KT2.KJT9.QT86.94 A5.A6.K7.AKQJT63 QJ984.Q743.AJ2.5 763.852.9543.872"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "3NT"]
+[Result ""]
+{Decide what you would bid, then  on BID above. 
+
+With a true Yarborough you qualify to respond a Negative 2\D. Partner now bids 3\C. What is your bid? 
+
+You now inform partner of your disaster hand by using the Second Negative. Since his suit is \Cs the Second Negative is 3\D. Partner now says 3NT. What do you say? 
+
+You definitely pass. Good thing he has 9 cold tricks in his hand!}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 2, chOption: E, chBasis: N, basisKind:Declarer, nOption:1, nBasis: 0, nRot: 1, useStandardVul: true"]
+[Student "S"]
+[Auction "E"]
+2C Pass 2D Pass
+3C Pass 3D Pass
+3NT Pass Pass Pass
+
+[Event ""]
+{Baker 2Club 13}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:JT5.QJ.543.JT732 Q93.A97653.72.84 87642.2.AJT86.96 AK.KT84.KQ9.AKQ5"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6H"]
+[Result ""]
+{You dealt this hand. Decide what you would bid, then  on BID above. 
+
+With 24 points you open 2\C. Partner responds 2\H. What do you bid next? 
+
+Partner has 8+ points and a good 5-card \H suit. Your hand has revalued to 25 points. You are forced to game but you don't want to bid it yet since you have slam in mind. So you temporize by showing your \H support. Partner bids 4\H. What do say? 
+
+You bid 4NT, asking for Aces. Partner replies 5\D. What now? 
+
+You now say 6\H and lay down a great dummy.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+2C Pass 2H Pass
+3H Pass 4H Pass
+4NT Pass 5D Pass
+6H Pass Pass Pass
+
+[Event ""]
+{Baker 2Club 14}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:98.AT7.752.JT843 K53.Q95.AKQ6.AKQ 642.KJ432.JT8.97 AQJT7.86.943.652"]
+[Scoring ""]
+[Declarer "W"]
+[Contract "4S"]
+[Result ""]
+{Decide what you would bid, then  on BID above. 
+
+You have 8 points and an excellent 5-card Major. So you respond 2\S. Partner says 3\S. What do you bid? 
+
+You told him that you have 8 or more points, now you must tell him that it is only 8. So you bid 4\S, making no move toward slam, and he passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
+[Student "S"]
+[Auction "E"]
+2C Pass 2S Pass
+3S Pass 4S Pass
+Pass Pass
+
+[Event ""]
+{Baker 2Club 15}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:JT4.JT.5432.Q832 KQ9.864.AQT6.J54 7653.Q9752.98.97 A82.AK3.KJ7.AKT6"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "6NT"]
+[Result ""]
+{You dealt this hand. Decide what you would bid, then  on BID above. 
+
+You have 22 points and you open 2\C. Partner responds 2NT. What do you bid next? 
+
+You show your balanced minimum by bidding 3NT, leaving further moves to partner. Partner moves to 6NT which you pass.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 5, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "S"]
+2C Pass 2NT Pass
+3NT Pass 6NT Pass
+Pass Pass

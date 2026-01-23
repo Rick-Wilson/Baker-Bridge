@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 20:55:08 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker 2Club 16}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 2Club 16}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:8654.7532.T74.65 AK3.KQT.AJ2.KQJT 92.J84.9863.9742 QJT7.A96.KQ5.A83"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "7NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AK3.KQT.AJ2.KQJT 984.84.87643.976 QJT7.A96.KQ5.A83 652.J7532.T9.542"]
+[Auction "S"]
+2C pass 2NT pass 3NT pass 7NT pass pass pass
 [Result ""]
 {Decide what you would bid, then  on BID above. 
 
@@ -64,29 +19,21 @@ It's like a Bridge fantasy come true. But don't go crazy, wait to see what kind 
 
 Hmmm, 22-24 points added to your 16 comes to 38-40 points. Looking apologetically at your poor opponents you bid 7NT.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-2C Pass 2NT Pass
-3NT Pass 7NT Pass
-Pass Pass
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
 
 [Event ""]
-{Baker 2Club 17}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 2Club 17}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:JT972.J43.KT2.87 AK.AKT86.75.AKQ6 Q543.9.QJ3.JT942 86.Q752.A9864.53"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "6H"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:AK.AKT86.75.AKQ6 QT7542.3.QJ2.872 86.Q752.A9864.53 J93.J94.KT3.JT94"]
+[Auction "S"]
+2C pass 2D pass 2H pass 3H pass 4C pass 4D pass 6H all pass
 [Result ""]
 {Decide what you would bid, then  on BID above. 
 
@@ -96,30 +43,21 @@ You let partner know of your good support by bidding 3\H, which is a stronger bi
 
 Partner is not introducing a new suit here, you have already agreed on \Hs. He is making a control-showing bid of the \CA. He expects you to do the same if you can. Since you can show your Ace very conveniently below game level you bid 4\D. That was what he was hoping for, he bids 6\H.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-2C Pass 2D Pass
-2H Pass 3H Pass
-4C Pass 4D Pass
-6H ALL Pass
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
 
 [Event ""]
-{Baker 2Club 18}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 2Club 18}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:7432.542.AK73.87 AJ.AKT86.Q94.AKQ T.QJ93.JT62.JT64 KQ9865.7.85.9532"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4S"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:AJ.AKT86.Q94.AKQ 2.QJ542.J762.J87 KQ9865.7.85.9532 T743.93.AKT3.T64"]
+[Auction "S"]
+2C pass 2D pass 2H pass 2S pass 2NT pass 3S pass 4S all pass
 [Result ""]
 {Decide what you would bid, then  on BID above. 
 
@@ -129,30 +67,21 @@ You don't like the \Hs, but with a good suit of your own you can say 2\S. Partne
 
 You know there are enough points for game so you must keep bidding. You should bid the \Ss one more time to show partner it is a 6-card suit. He then bids 4\S and everybody passes.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-2C Pass 2D Pass
-2H Pass 2S Pass
-2NT Pass 3S Pass
-4S ALL Pass
+[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
 
 [Event ""]
-{Baker 2Club 19}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 2Club 19}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:98.J76.87654.J83 AJT75.8.A3.97642 42.QT95432.JT2.T KQ63.AK.KQ9.AKQ5"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "7NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:KQ63.AK.KQ9.AKQ5 4.T7432.J6542.J8 AJT75.8.A3.97642 982.QJ965.T87.T3"]
+[Auction "S"]
+2C pass 2S pass 4NT pass 5H pass 7NT pass pass pass
 [Result ""]
 {You dealt this hand. Decide what you would bid, then  on BID above. 
 
@@ -162,29 +91,21 @@ Partner has 8+ points and a good 5-card \S suit. You are absolutely sure you wil
 
 Obviously you could bid 7\S. But in fact you can count that there will be thirteen top tricks without a ruff; 5 \Ss, 2 \Hs, 3 \Ds and 3 \Cs. So you might as well bid 7NT.(By the way, the people who bid 7\S got the opening \C lead ruffed!)}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-2C Pass 2S Pass
-4NT Pass 5H Pass
-7NT Pass Pass Pass
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker 2Club 20}
 [Site ""]
 [Date ""]
 [Board "5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 2Club 20}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:T984.753.KJ42.76 AKQ75.A6.AQ7.KQ3 J2.984.853.AJT52 63.KQJT2.T96.984"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AKQ75.A6.AQ7.KQ3 942.8743.K2.A652 63.KQJT2.T96.984 JT8.95.J8543.JT7"]
+[Auction "N"]
+2C pass 2D pass 2S pass 3H pass 3NT pass pass pass
 [Result ""]
 {Decide what you would bid, then  on BID above. 
 
@@ -194,10 +115,5 @@ Not being in love with partner's \Ss, you have enough strength to now bid 3\H. P
 
 When you have nothing more to say, you pass.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 5, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-2C Pass 2D Pass
-2S Pass 3H Pass
-3NT Pass Pass Pass
+[RotationNote "Board 5, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+

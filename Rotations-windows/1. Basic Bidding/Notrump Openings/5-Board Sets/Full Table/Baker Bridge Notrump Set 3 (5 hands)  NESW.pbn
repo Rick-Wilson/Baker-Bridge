@@ -1,0 +1,188 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:48:31 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Notrump 11}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "W:752.JT973.Q86.J2 3.A85.KJ3.AQ8754 AJT984.62.T952.3 KQ6.KQ4.A74.KT96"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "6C"]
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+You open 1NT and partner responds 3\C. What is your next bid? 
+
+Partner's jump to 3\C shows at least 5 \Cs and slam interest. Your hand is good enough to encourage that interest so you bypass 3NT and say 4\C. Partner now bids 4NT. What do you answer? 
+
+That is Blackwood. You admit to one Ace and partner bids 6\C.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "E"]
+Pass 1NT Pass 3C
+Pass 4C Pass 4NT
+Pass 5D Pass 6C
+ALL Pass
+
+[Event ""]
+{Baker Notrump 12}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:JT742.5.T983.AK2 Q8.Q98732.6.T963 A53.AT.KJ752.874 K96.KJ64.AQ4.QJ5"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "2H"]
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+A 1NT overcall is almost the same as a 1NT opening. The range is increased to 15-18, but the main difference is that you must have the opponent's suit adequately stopped. Here you certainly have the stopper so you bid 1NT. Partner responds 2\H. What do you bid next? 
+
+And the responses are the same also. Partner's 2\H bid is a signoff bid, often called a "drop dead" bid. So even though you really like the \Hs you pass. }
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 2, chOption: E, chBasis: N, basisKind:Declarer, nOption:1, nBasis: 0, nRot: 1, useStandardVul: true"]
+[Student "S"]
+[Auction "S"]
+1D 1NT Pass 2H
+Pass Pass Pass
+
+[Event ""]
+{Baker Notrump 13}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:943.QJT76.93.KJ3 KQT72.83.75.T872 65.A4.KJT862.654 AJ8.K952.AQ4.AQ9"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{You dealt so it is your bid. What do you say? 
+
+With a balanced 20 point hand you open 2NT. Partner responds 3\S. What do you bid next? 
+
+Partner is showing a 5-card \S suit and at least 5 points. This is a forcing bid; you are to choose between 3NT and 4\S, depending on your \S holding. With three of them you bid 4\S.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+2NT Pass 3S Pass
+4S Pass Pass Pass
+
+[Event ""]
+{Baker Notrump 14}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:Q5.9753.A953.AT2 A6.AJ6.KJ62.Q864 JT742.T84.Q8.KJ7 K983.KQ2.T74.953"]
+[Scoring ""]
+[Declarer "W"]
+[Contract "1NT"]
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+You have 8 points. Even if partner has the maximum 17 it would only add to 25, which is probably not enough to make game. You should pass.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 4, chOption: W, chBasis: N, basisKind:Declarer, nOption:3, nBasis: 0, nRot: 3, useStandardVul: true"]
+[Student "S"]
+[Auction "S"]
+Pass 1NT Pass Pass
+Pass
+
+[Event ""]
+{Baker Notrump 15}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:7654.T863.A6.A76 AQ2.A97.Q83.KQT4 JT8.J54.KJ52.982 K93.KQ2.T974.J53"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "3NT"]
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+With 9 points you have just enough strength for an invitation. So you bid 2NT. Partner then says 3NT and everybody passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 5, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+1NT Pass 2NT Pass
+3NT Pass Pass Pass

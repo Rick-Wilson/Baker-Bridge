@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:01:27 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker Squeeze 16}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Squeeze 16}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:AK932.T42.J9.J64 QT.KQ53.A863.852 865.J986.QT4.QT9 J74.A7.K752.AK73"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:J74.A7.K752.AK73 AK932.T42.J9.J64 QT.KQ53.A863.852 865.J986.QT4.QT9"]
+[Auction "N"]
+1NT pass 2C pass 2D pass 3NT pass pass pass
 [Result ""]
 {North is to play 3NT. East leads the \S3. West plays the \S5.
 
@@ -90,31 +45,22 @@ You win in your hand and establish a \D winner by playing \DA, \DK, and a small 
 
 So you establish a \D winner and make your contract.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2C Pass
-2D Pass 3NT Pass
-Pass Pass
-[Play "E"]
-S3
+[Play "W"]S3
 
 [Event ""]
-{Baker Squeeze 17}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Squeeze 17}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "S:KQ963.Q985.9.T62 J8.K74.AJ8762.53 T7542.JT2.QT43.4 A.A63.K5.AKQJ987"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "7C"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "E:A.A63.K5.AKQJ987 KQ963.Q985.9.T62 J8.K74.AJ8762.53 T7542.JT2.QT43.4"]
+[Auction "E"]
+2C pass 3D pass 4NT pass 5D pass 5NT pass 6D pass 7C pass pass pass
 [Result ""]
 {East is to play 7\C. South leads the \SK.
 
@@ -136,32 +82,22 @@ North cannot throw the \DQ, so he gives up the \H2.
 
 And you take the last three tricks with the \H suit. There were only two defenders; one of them had to guard \Ss and the other had to guard \Ds. There was nobody left to guard \Hs.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
-[Student "S"]
-[Auction "E"]
-2C Pass 3D Pass
-4NT Pass 5D Pass
-5NT Pass 6D Pass
-7C Pass Pass Pass
-[Play "S"]
-SK
+[Play "W"]SK
 
 [Event ""]
-{Baker Squeeze 18}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Squeeze 18}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:AKJ86532.862.T.7 Q4.J973.K75.8652 T97.4.QJ942.JT93 .AKQT5.A863.AKQ4"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:.AKQT5.A863.AKQ4 AKJ86532.862.T.7 Q4.J973.K75.8652 T97.4.QJ942.JT93"]
+[Auction "S"]
+2C 4S pass pass 5H pass 6H pass pass pass
 [Result ""]
 {South is to play 6\H. West leads the \SA.
 
@@ -179,31 +115,22 @@ East gets to choose his own fate - discarding a protector in one of the two suit
 
 Yet another slam, courtesy of the Squeeze Play!}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
-[Student "S"]
-[Auction "S"]
-2C 4S Pass Pass
-5H Pass 6H Pass
-Pass Pass
-[Play "W"]
-SA
+[Play "W"]SA
 
 [Event ""]
-{Baker Squeeze 19}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Squeeze 19}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "N:AQ9763.3.KQT2.97 KT4.T64.A875.Q53 J852.872.94.T842 .AKQJ95.J63.AKJ6"]
-[Scoring ""]
 [Declarer "W"]
 [Contract "6H"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "N:AQ9763.3.KQT2.97 KT4.T64.A875.Q53 J852.872.94.T842 .AKQJ95.J63.AKJ6"]
+[Auction "N"]
+1S pass pass X 2D 2NT pass 4H pass 6H pass pass pass
 [Result ""]
 {West is to play 6\H. North leads the \DK. Perhaps you wouldn't have bid slam with East's cards, but he has been watching you pull off some fantastic squeeze plays and he has every confidence you will do it again.
 
@@ -225,32 +152,22 @@ He obviously is not going to throw his \SA and make dummy high, so he will inste
 
 So you dump dummy's \SK and win the last two tricks with the \DA and then the \DJ.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-1S Pass Pass X
-2D 2NT Pass 4H
-Pass 6H Pass Pass
-Pass
-[Play "N"]
-DK
+[Play "W"]DK
 
 [Event ""]
-{Baker Squeeze 20}
 [Site ""]
 [Date ""]
 [Board "5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Squeeze 20}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "E:6.A63.654.987532 T95.75.AQT72.AJ4 A3.K9842.K98.KT6 KQJ8742.QJT.J3.Q"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "W:A3.K9842.K98.KT6 KQJ8742.QJT.J3.Q 6.A63.654.987532 T95.75.AQT72.AJ4"]
+[Auction "W"]
+1H 1S pass 2H pass 4S pass pass pass
 [Result ""]
 {South's 2\H cue-bid shows \S support and at least a limit-raise or better. North is to play 4\S. East leads the \HA, then a \H to West's \HK. West plays a third round of \Hs.
 
@@ -280,12 +197,6 @@ Poor West will squirm and try to figure out which discard is best because he doe
 
 But you aren't squirming because you know that whichever card he throws it will give you your contract.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "W"]
-1H 1S Pass 2H
-Pass 4S Pass Pass
-Pass
-[Play "E"]
-HA
+[Play "W"]HA
+

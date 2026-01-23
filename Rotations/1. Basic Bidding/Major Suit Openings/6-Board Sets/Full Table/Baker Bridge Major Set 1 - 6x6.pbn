@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:17:34 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker Major 1}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Major 1}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:KQJT6.64.JT6.Q32 975.Q732.543.AK4 832.T5.AKQ9.JT97 A4.AKJ98.872.865"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "2H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:A4.AKJ98.872.865 Q63.T5.AQ9.J9732 975.Q732.543.AK4 KJT82.64.KJT6.QT"]
+[Auction "N"]
+1H pass 2H pass pass pass
 [Result ""]
 {You dealt the hand. Decide what you would say, then  on BID in the bidding section above. 
 
@@ -64,148 +19,107 @@ With 13 points and a nice 5-card Major suit you open 1\H. Partner responds 2\H. 
 
 You say pass. You have a minimum opening hand and partner has 6-10 points so no game is available.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-1H Pass 2H Pass
-Pass Pass
 
 [Event ""]
-{Baker Major 2}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Major 2}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "S:Q2.643.QJ983.A62 963.Q752.K4.K874 KJT875.J.T65.T93 A4.AKT98.A72.QJ5"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "4H"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "E:A4.AKT98.A72.QJ5 QT.J43.T853.AT92 963.Q752.K4.K874 KJ8752.6.QJ96.63"]
+[Auction "E"]
+1H pass 2H pass 4H pass pass pass
 [Result ""]
 {Nice hand. 19 points and a good 5-card Major. You open 1\H. Partner responds 2\H. What is your next bid? 
 
 You revalue to 20 points (doubleton \S) and partner has between 6 and T. So, 26 to 30 is the total. Game should be there, but slam is out of reach. So you bid 4\H.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
-[Student "S"]
-[Auction "E"]
-1H Pass 2H Pass
-4H Pass Pass Pass
 
 [Event ""]
-{Baker Major 3}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Major 3}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:5.T96542.K654.A8 9872.K83.AQJ.Q64 A43.QJ7.T3.T9732 KQJT6.A.9872.KJ5"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:KQJT6.A.9872.KJ5 5.JT75.643.AT972 9872.K83.AQJ.Q64 A43.Q9642.KT5.83"]
+[Auction "S"]
+1S pass 3S pass 4S pass pass pass
 [Result ""]
 {With 15 points and a 5-card Major you open 1\S. Partner responds 3\S. What do you say? 
 
 Your 15 points gets revalued to 16/17 for the singleton. Add partner's T-12 and you have enough for game. So you bid 4\S.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
-[Student "S"]
-[Auction "S"]
-1S Pass 3S Pass
-4S Pass Pass Pass
 
 [Event ""]
-{Baker Major 4}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Major 4}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "N:QT9.AT962.T9.873 K742.Q8.A653.K94 J.K753.KQ84.JT52 A8653.J4.J72.AQ6"]
-[Scoring ""]
 [Declarer "W"]
 [Contract "3S"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "S:JT9.KT93.K4.JT52 A8653.J4.J72.AQ6 Q.A7652.QT98.873 K742.Q8.A653.K94"]
+[Auction "S"]
+pass 1S pass 3S pass pass pass pass
 [Result ""]
 {With 13 points you open 1\S. Partner responds 3\S. What do you say now? 
 
 Figure partner for 11-12 points. You have 13 but could revalue to 14 with the doubleton \H. But the truth is that your points are not very good ones. You should pass.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
-[Student "S"]
-[Auction "S"]
-Pass 1S Pass 3S
-Pass Pass Pass Pass
 
 [Event ""]
-{Baker Major 5}
 [Site ""]
 [Date ""]
 [Board "5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Major 5}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:QT86.Q52.AT9.972 A73.A73.Q5.QJ543 KJ4.9.J8643.KT86 952.KJT864.K72.A"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4H"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "N:952.KJT864.K72.A QJT.Q9.JT83.KT76 A73.A73.Q5.QJ543 K864.52.A964.982"]
+[Auction "N"]
+1H pass 2C pass 2H pass 4H pass pass pass
 [Result ""]
 {You open 1\H and partner responds 2\C, showing at least 11 points. You dealt this hand. What do you bid? 
 
 Partner's bid forces you to bid again. You have a bare-minimum hand, but at least you have a 6-card suit which you can rebid. You say 2\H and partner raises to 4\H.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-1H Pass 2C Pass
-2H Pass 4H Pass
-Pass Pass
 
 [Event ""]
-{Baker Major 6}
 [Site ""]
 [Date ""]
 [Board "6"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Major 6}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "N:T32.AQ32.AJT.974 J874.75.K54.QJ52 Q9.KT.Q9863.KT86 AK65.J9864.72.A3"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "2S"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "W:AK65.J9864.72.A3 3.A2.QJT93.KT984 J874.75.K54.QJ52 QT92.KQT3.A86.76"]
+[Auction "W"]
+1H pass 1S pass 2S pass pass pass
 [Result ""]
 {You open 1\H and partner responds 1\S. It is your bid again. 
 
 You have good \S support but you must tell partner of your minimum hand. So you bid 2\S and he passes.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 6, chOption: E, chBasis: N, basisKind:Declarer, nOption:1, nBasis: 0, nRot: 1, useStandardVul: true"]
-[Student "S"]
-[Auction "W"]
-1H Pass 1S Pass
-2S Pass Pass Pass
 
 [Event ""]
 [Site ""]
@@ -217,15 +131,16 @@ You have good \S support but you must tell partner of your minimum hand. So you 
 [South ""]
 [Dealer "S"]
 [Vulnerable "All"]
-[Deal "E:KQJT6.64.JT6.Q32 975.Q732.543.AK4 832.T5.AKQ9.JT97 A4.AKJ98.872.865"]
+[Deal "N:A4.AKJ98.872.865 Q63.T5.AQ9.J9732 975.Q732.543.AK4 KJT82.64.KJT6.QT"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -237,15 +152,16 @@ You have good \S support but you must tell partner of your minimum hand. So you 
 [South ""]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "S:Q2.643.QJ983.A62 963.Q752.K4.K874 KJT875.J.T65.T93 A4.AKT98.A72.QJ5"]
+[Deal "E:A4.AKT98.A72.QJ5 QT.J43.T853.AT92 963.Q752.K4.K874 KJ8752.6.QJ96.63"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -257,15 +173,16 @@ You have good \S support but you must tell partner of your minimum hand. So you 
 [South ""]
 [Dealer "N"]
 [Vulnerable "EW"]
-[Deal "W:5.T96542.K654.A8 9872.K83.AQJ.Q64 A43.QJ7.T3.T9732 KQJT6.A.9872.KJ5"]
+[Deal "S:KQJT6.A.9872.KJ5 5.JT75.643.AT972 9872.K83.AQJ.Q64 A43.Q9642.KT5.83"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -277,15 +194,16 @@ You have good \S support but you must tell partner of your minimum hand. So you 
 [South ""]
 [Dealer "E"]
 [Vulnerable "All"]
-[Deal "N:QT9.AT962.T9.873 K742.Q8.A653.K94 J.K753.KQ84.JT52 A8653.J4.J72.AQ6"]
+[Deal "S:JT9.KT93.K4.JT52 A8653.J4.J72.AQ6 Q.A7652.QT98.873 K742.Q8.A653.K94"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -297,15 +215,16 @@ You have good \S support but you must tell partner of your minimum hand. So you 
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "E:QT86.Q52.AT9.972 A73.A73.Q5.QJ543 KJ4.9.J8643.KT86 952.KJT864.K72.A"]
+[Deal "N:952.KJT864.K72.A QJT.Q9.JT83.KT76 A73.A73.Q5.QJ543 K864.52.A964.982"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "5"]
 [VirtualDealer "N"]
 [VirtualVulnerable "NS"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -317,15 +236,16 @@ You have good \S support but you must tell partner of your minimum hand. So you 
 [South ""]
 [Dealer "W"]
 [Vulnerable "NS"]
-[Deal "N:T32.AQ32.AJT.974 J874.75.K54.QJ52 Q9.KT.Q9863.KT86 AK65.J9864.72.A3"]
+[Deal "W:AK65.J9864.72.A3 3.A2.QJT93.KT984 J874.75.K54.QJ52 QT92.KQT3.A86.76"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "6"]
 [VirtualDealer "E"]
 [VirtualVulnerable "EW"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -337,15 +257,16 @@ You have good \S support but you must tell partner of your minimum hand. So you 
 [South ""]
 [Dealer "N"]
 [Vulnerable "All"]
-[Deal "E:KQJT6.64.JT6.Q32 975.Q732.543.AK4 832.T5.AKQ9.JT97 A4.AKJ98.872.865"]
+[Deal "N:A4.AKJ98.872.865 Q63.T5.AQ9.J9732 975.Q732.543.AK4 KJT82.64.KJT6.QT"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -357,15 +278,16 @@ You have good \S support but you must tell partner of your minimum hand. So you 
 [South ""]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "S:Q2.643.QJ983.A62 963.Q752.K4.K874 KJT875.J.T65.T93 A4.AKT98.A72.QJ5"]
+[Deal "E:A4.AKT98.A72.QJ5 QT.J43.T853.AT92 963.Q752.K4.K874 KJ8752.6.QJ96.63"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -377,15 +299,16 @@ You have good \S support but you must tell partner of your minimum hand. So you 
 [South ""]
 [Dealer "S"]
 [Vulnerable "NS"]
-[Deal "W:5.T96542.K654.A8 9872.K83.AQJ.Q64 A43.QJ7.T3.T9732 KQJT6.A.9872.KJ5"]
+[Deal "S:KQJT6.A.9872.KJ5 5.JT75.643.AT972 9872.K83.AQJ.Q64 A43.Q9642.KT5.83"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -397,15 +320,16 @@ You have good \S support but you must tell partner of your minimum hand. So you 
 [South ""]
 [Dealer "W"]
 [Vulnerable "EW"]
-[Deal "N:QT9.AT962.T9.873 K742.Q8.A653.K94 J.K753.KQ84.JT52 A8653.J4.J72.AQ6"]
+[Deal "S:JT9.KT93.K4.JT52 A8653.J4.J72.AQ6 Q.A7652.QT98.873 K742.Q8.A653.K94"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -417,15 +341,16 @@ You have good \S support but you must tell partner of your minimum hand. So you 
 [South ""]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "E:QT86.Q52.AT9.972 A73.A73.Q5.QJ543 KJ4.9.J8643.KT86 952.KJT864.K72.A"]
+[Deal "N:952.KJT864.K72.A QJT.Q9.JT83.KT76 A73.A73.Q5.QJ543 K864.52.A964.982"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "5"]
 [VirtualDealer "N"]
 [VirtualVulnerable "NS"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -437,15 +362,16 @@ You have good \S support but you must tell partner of your minimum hand. So you 
 [South ""]
 [Dealer "E"]
 [Vulnerable "NS"]
-[Deal "N:T32.AQ32.AJT.974 J874.75.K54.QJ52 Q9.KT.Q9863.KT86 AK65.J9864.72.A3"]
+[Deal "W:AK65.J9864.72.A3 3.A2.QJT93.KT984 J874.75.K54.QJ52 QT92.KQT3.A86.76"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "6"]
 [VirtualDealer "E"]
 [VirtualVulnerable "EW"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -457,15 +383,16 @@ You have good \S support but you must tell partner of your minimum hand. So you 
 [South ""]
 [Dealer "S"]
 [Vulnerable "EW"]
-[Deal "E:KQJT6.64.JT6.Q32 975.Q732.543.AK4 832.T5.AKQ9.JT97 A4.AKJ98.872.865"]
+[Deal "N:A4.AKJ98.872.865 Q63.T5.AQ9.J9732 975.Q732.543.AK4 KJT82.64.KJT6.QT"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -477,15 +404,16 @@ You have good \S support but you must tell partner of your minimum hand. So you 
 [South ""]
 [Dealer "W"]
 [Vulnerable "All"]
-[Deal "S:Q2.643.QJ983.A62 963.Q752.K4.K874 KJT875.J.T65.T93 A4.AKT98.A72.QJ5"]
+[Deal "E:A4.AKT98.A72.QJ5 QT.J43.T853.AT92 963.Q752.K4.K874 KJ8752.6.QJ96.63"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -497,15 +425,16 @@ You have good \S support but you must tell partner of your minimum hand. So you 
 [South ""]
 [Dealer "N"]
 [Vulnerable "NS"]
-[Deal "W:5.T96542.K654.A8 9872.K83.AQJ.Q64 A43.QJ7.T3.T9732 KQJT6.A.9872.KJ5"]
+[Deal "S:KQJT6.A.9872.KJ5 5.JT75.643.AT972 9872.K83.AQJ.Q64 A43.Q9642.KT5.83"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -517,15 +446,16 @@ You have good \S support but you must tell partner of your minimum hand. So you 
 [South ""]
 [Dealer "E"]
 [Vulnerable "EW"]
-[Deal "N:QT9.AT962.T9.873 K742.Q8.A653.K94 J.K753.KQ84.JT52 A8653.J4.J72.AQ6"]
+[Deal "S:JT9.KT93.K4.JT52 A8653.J4.J72.AQ6 Q.A7652.QT98.873 K742.Q8.A653.K94"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -537,15 +467,16 @@ You have good \S support but you must tell partner of your minimum hand. So you 
 [South ""]
 [Dealer "S"]
 [Vulnerable "All"]
-[Deal "E:QT86.Q52.AT9.972 A73.A73.Q5.QJ543 KJ4.9.J8643.KT86 952.KJT864.K72.A"]
+[Deal "N:952.KJT864.K72.A QJT.Q9.JT83.KT76 A73.A73.Q5.QJ543 K864.52.A964.982"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "5"]
 [VirtualDealer "N"]
 [VirtualVulnerable "NS"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -557,15 +488,16 @@ You have good \S support but you must tell partner of your minimum hand. So you 
 [South ""]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "N:T32.AQ32.AJT.974 J874.75.K54.QJ52 Q9.KT.Q9863.KT86 AK65.J9864.72.A3"]
+[Deal "W:AK65.J9864.72.A3 3.A2.QJT93.KT984 J874.75.K54.QJ52 QT92.KQT3.A86.76"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "6"]
 [VirtualDealer "E"]
 [VirtualVulnerable "EW"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -577,15 +509,16 @@ You have good \S support but you must tell partner of your minimum hand. So you 
 [South ""]
 [Dealer "N"]
 [Vulnerable "EW"]
-[Deal "E:KQJT6.64.JT6.Q32 975.Q732.543.AK4 832.T5.AKQ9.JT97 A4.AKJ98.872.865"]
+[Deal "N:A4.AKJ98.872.865 Q63.T5.AQ9.J9732 975.Q732.543.AK4 KJT82.64.KJT6.QT"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -597,15 +530,16 @@ You have good \S support but you must tell partner of your minimum hand. So you 
 [South ""]
 [Dealer "E"]
 [Vulnerable "All"]
-[Deal "S:Q2.643.QJ983.A62 963.Q752.K4.K874 KJT875.J.T65.T93 A4.AKT98.A72.QJ5"]
+[Deal "E:A4.AKT98.A72.QJ5 QT.J43.T853.AT92 963.Q752.K4.K874 KJ8752.6.QJ96.63"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -617,15 +551,16 @@ You have good \S support but you must tell partner of your minimum hand. So you 
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:5.T96542.K654.A8 9872.K83.AQJ.Q64 A43.QJ7.T3.T9732 KQJT6.A.9872.KJ5"]
+[Deal "S:KQJT6.A.9872.KJ5 5.JT75.643.AT972 9872.K83.AQJ.Q64 A43.Q9642.KT5.83"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -637,15 +572,16 @@ You have good \S support but you must tell partner of your minimum hand. So you 
 [South ""]
 [Dealer "W"]
 [Vulnerable "NS"]
-[Deal "N:QT9.AT962.T9.873 K742.Q8.A653.K94 J.K753.KQ84.JT52 A8653.J4.J72.AQ6"]
+[Deal "S:JT9.KT93.K4.JT52 A8653.J4.J72.AQ6 Q.A7652.QT98.873 K742.Q8.A653.K94"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -657,15 +593,16 @@ You have good \S support but you must tell partner of your minimum hand. So you 
 [South ""]
 [Dealer "N"]
 [Vulnerable "All"]
-[Deal "E:QT86.Q52.AT9.972 A73.A73.Q5.QJ543 KJ4.9.J8643.KT86 952.KJT864.K72.A"]
+[Deal "N:952.KJT864.K72.A QJT.Q9.JT83.KT76 A73.A73.Q5.QJ543 K864.52.A964.982"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "5"]
 [VirtualDealer "N"]
 [VirtualVulnerable "NS"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -677,15 +614,16 @@ You have good \S support but you must tell partner of your minimum hand. So you 
 [South ""]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "N:T32.AQ32.AJT.974 J874.75.K54.QJ52 Q9.KT.Q9863.KT86 AK65.J9864.72.A3"]
+[Deal "W:AK65.J9864.72.A3 3.A2.QJT93.KT984 J874.75.K54.QJ52 QT92.KQT3.A86.76"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "6"]
 [VirtualDealer "E"]
 [VirtualVulnerable "EW"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -697,15 +635,16 @@ You have good \S support but you must tell partner of your minimum hand. So you 
 [South ""]
 [Dealer "S"]
 [Vulnerable "NS"]
-[Deal "E:KQJT6.64.JT6.Q32 975.Q732.543.AK4 832.T5.AKQ9.JT97 A4.AKJ98.872.865"]
+[Deal "N:A4.AKJ98.872.865 Q63.T5.AQ9.J9732 975.Q732.543.AK4 KJT82.64.KJT6.QT"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -717,15 +656,16 @@ You have good \S support but you must tell partner of your minimum hand. So you 
 [South ""]
 [Dealer "W"]
 [Vulnerable "EW"]
-[Deal "S:Q2.643.QJ983.A62 963.Q752.K4.K874 KJT875.J.T65.T93 A4.AKT98.A72.QJ5"]
+[Deal "E:A4.AKT98.A72.QJ5 QT.J43.T853.AT92 963.Q752.K4.K874 KJ8752.6.QJ96.63"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -737,15 +677,16 @@ You have good \S support but you must tell partner of your minimum hand. So you 
 [South ""]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:5.T96542.K654.A8 9872.K83.AQJ.Q64 A43.QJ7.T3.T9732 KQJT6.A.9872.KJ5"]
+[Deal "S:KQJT6.A.9872.KJ5 5.JT75.643.AT972 9872.K83.AQJ.Q64 A43.Q9642.KT5.83"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -757,15 +698,16 @@ You have good \S support but you must tell partner of your minimum hand. So you 
 [South ""]
 [Dealer "E"]
 [Vulnerable "NS"]
-[Deal "N:QT9.AT962.T9.873 K742.Q8.A653.K94 J.K753.KQ84.JT52 A8653.J4.J72.AQ6"]
+[Deal "S:JT9.KT93.K4.JT52 A8653.J4.J72.AQ6 Q.A7652.QT98.873 K742.Q8.A653.K94"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -777,15 +719,16 @@ You have good \S support but you must tell partner of your minimum hand. So you 
 [South ""]
 [Dealer "S"]
 [Vulnerable "EW"]
-[Deal "E:QT86.Q52.AT9.972 A73.A73.Q5.QJ543 KJ4.9.J8643.KT86 952.KJT864.K72.A"]
+[Deal "N:952.KJT864.K72.A QJT.Q9.JT83.KT76 A73.A73.Q5.QJ543 K864.52.A964.982"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "5"]
 [VirtualDealer "N"]
 [VirtualVulnerable "NS"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -797,12 +740,14 @@ You have good \S support but you must tell partner of your minimum hand. So you 
 [South ""]
 [Dealer "W"]
 [Vulnerable "All"]
-[Deal "N:T32.AQ32.AJT.974 J874.75.K54.QJ52 Q9.KT.Q9863.KT86 AK65.J9864.72.A3"]
+[Deal "W:AK65.J9864.72.A3 3.A2.QJT93.KT984 J874.75.K54.QJ52 QT92.KQT3.A86.76"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "6"]
 [VirtualDealer "E"]
 [VirtualVulnerable "EW"]
+[BlockNumber "6"]
+

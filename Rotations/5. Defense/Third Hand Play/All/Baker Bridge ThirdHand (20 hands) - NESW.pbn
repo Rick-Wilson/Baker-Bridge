@@ -1,8 +1,6 @@
 % PBN 2.1
 % EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:04:44 2025 -0700
+%Content-type: text/x-pbn; charset=UTF-8
 %BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
 %BidAndCardSpacing Thin
 %BoardsPerPage 1
@@ -17,7 +15,6 @@
 %Font:HandRecord "Georgia",11,400,0
 %GutterSize 500,500
 %HRTitleDate 2023.10.17
-%HRTitleEvent ""
 %HRTitleSetID ""
 %HRTitleSetIDPrefix ""
 %HRTitleSite ""
@@ -41,22 +38,23 @@
 %TSTReportOrder ByNumber
 %TSTReportShade Yes
 %Translate "Board %" "Deal %"
+%Creator: CSVtoPBN Version 1.00
+%Created: 2026-01-23 13:57:51
 %sourcefilename BakerBridgeFull.csv
+%HRTitleEvent ThirdHand
 [Event ""]
-{Baker ThirdHand 1}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker ThirdHand 1}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:KT72.T6.982.Q943 8653.A72.K64.A87 Q94.J985.QJT5.JT AJ.KQ43.A73.K652"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "E"]
+[Deal "N:AJ.KQ43.A73.K652 KT72.T6.982.Q943 8653.A72.K64.A87 Q94.J985.QJT5.JT"]
+[Auction "N"]
+1NT pass 3NT pass pass pass
 [Result ""]
 {The bidding has been as shown. Partner led the \S2, dummy played the \S3 and it is your play.
 
@@ -66,30 +64,22 @@ This is a perfect example of why you should USUALLY play Third-hand-high.
 
 If you do not put your \SQ on this trick declarer will get an undeserved winner with his \SJ. In this Deal it will be his ninth trick. Play Third-hand-high and he will go down, otherwise he will make his contract.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
-[Student "E"]
-[Auction "N"]
-1NT Pass 3NT Pass
-Pass Pass
-[Play "E"]
-S2
+[Play "W"]S2
 
 [Event ""]
-{Baker ThirdHand 2}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker ThirdHand 2}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "S:95.QJ95.AJ62.974 KT74.T4.953.AQJ3 2.A8762.K84.T852 AQJ863.K3.QT7.K6"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "4S"]
+[Vulnerable "NS"]
+[Student "E"]
+[Deal "E:AQJ863.K3.QT7.K6 95.QJ95.AJ62.974 KT74.T4.953.AQJ3 2.A8762.K84.T852"]
+[Auction "E"]
+1S pass 3S pass 4S pass pass pass
 [Result ""]
 {The bidding has been as shown. Partner led the \HQ, dummy played the \H4 and it is your play.
 
@@ -103,30 +93,22 @@ You need to switch to a \D, and the \D4, (low from an honor) is recommended.
 
 Played this way you will defeat the contract by one trick. If you allow declarer to win the first trick he will pull trumps and discard two red losers on dummy's \C and make an overtrick.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
-[Student "E"]
-[Auction "E"]
-1S Pass 3S Pass
-4S Pass Pass Pass
-[Play "S"]
-HQ
+[Play "W"]HQ
 
 [Event ""]
-{Baker ThirdHand 3}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker ThirdHand 3}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:J53.QT6.K62.AT64 K98.A85.QJ94.973 Q742.9743.87.QJ2 AT6.KJ2.AT53.K85"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "E"]
+[Deal "S:AT6.KJ2.AT53.K85 J53.QT6.K62.AT64 K98.A85.QJ94.973 Q742.9743.87.QJ2"]
+[Auction "S"]
+1NT pass 3NT pass pass pass
 [Result ""]
 {The bidding has been as shown. Partner led the \C4, dummy played the \C3 and it is your play.
 
@@ -138,30 +120,22 @@ In other words, in this case you should play the \CJ, which is equal to the \CQ.
 
 If instead you play the \CQ, figuring it makes no difference, you'd be right that it makes no difference to you. But partner would then assume that it is declarer with the \CJ, and when he obtains the lead with the \DK he will be unlikely to lead another \C, which would be too bad for your side.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
-[Student "E"]
-[Auction "S"]
-1NT Pass 3NT Pass
-Pass Pass
-[Play "W"]
-C4
+[Play "W"]C4
 
 [Event ""]
-{Baker ThirdHand 4}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker ThirdHand 4}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "N:Q873.T5.A542.842 J64.Q8.K973.KQJT KT2.643.QJT6.A65 A95.AKJ972.8.973"]
-[Scoring ""]
 [Declarer "W"]
 [Contract "4H"]
+[Vulnerable "All"]
+[Student "E"]
+[Deal "W:A95.AKJ972.8.973 Q873.T5.A542.842 J64.Q8.K973.KQJT KT2.643.QJT6.A65"]
+[Auction "W"]
+1H pass 2C pass 2H pass 4H pass pass pass
 [Result ""]
 {The bidding has been as shown. Partner led the \S3, dummy played the \S4 and it is your play.
 
@@ -175,31 +149,22 @@ By playing the \ST you force declarer to win with the \SA if he wants the trick.
 
 For your side, 2 \S tricks and the two minor Aces spell defeat.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
-[Student "E"]
-[Auction "W"]
-1H Pass 2C Pass
-2H Pass 4H Pass
-Pass Pass
-[Play "N"]
-S3
+[Play "W"]S3
 
 [Event ""]
-{Baker ThirdHand 5}
 [Site ""]
 [Date ""]
 [Board "5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker ThirdHand 5}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:QT87.964.875.T64 K53.AJ8.Q96.QJ52 AJ92.T753.A42.97 64.KQ2.KJT3.AK83"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "NS"]
+[Student "E"]
+[Deal "N:64.KQ2.KJT3.AK83 QT87.964.875.T64 K53.AJ8.Q96.QJ52 AJ92.T753.A42.97"]
+[Auction "N"]
+1NT pass 3NT pass pass pass
 [Result ""]
 {The bidding has been as shown. Partner led the \S7, dummy played the \S3 and it is your play.
 
@@ -213,30 +178,22 @@ Declarer has no card that can beat the \S7, and the only way you can beat this c
 
 If you play ANY card except your \S2 on the first trick you will not be able to win four tricks in the suit because you cannot get East back into the lead. And declarer will make the contract easily.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
-[Student "E"]
-[Auction "N"]
-1NT Pass 3NT Pass
-Pass Pass
-[Play "E"]
-S7
+[Play "W"]S7
 
 [Event ""]
-{Baker ThirdHand 6}
 [Site ""]
 [Date ""]
 [Board "6"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker ThirdHand 6}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "S:93.82.T9542.K863 KT75.6.K83.QJ952 64.KT9743.AQ7.AT AQJ82.AQJ5.J6.74"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "4S"]
+[Vulnerable "EW"]
+[Student "E"]
+[Deal "N:64.KT9743.AQ7.AT AQJ82.AQJ5.J6.74 93.82.T9542.K863 KT75.6.K83.QJ952"]
+[Auction "N"]
+1H 1S pass 2H pass 4S pass pass pass
 [Result ""]
 {The bidding has been as shown. West's 2\H bid shows good \S support with at least 10 points.
 
@@ -250,31 +207,22 @@ In other words, your \HK is dead in the water. BUT, if you play it to this trick
 
 The extra winner would permit East to discard 2 of dummy's \D losers, and this would give East the contract.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 6, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
-[Student "E"]
-[Auction "N"]
-1H 1S Pass 2H
-Pass 4S Pass Pass
-Pass
-[Play "S"]
-H8
+[Play "W"]H8
 
 [Event ""]
-{Baker ThirdHand 7}
 [Site ""]
 [Date ""]
 [Board "7"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker ThirdHand 7}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:Q64.QJT53.85.AT4 K73.964.KJ6.KJ95 J985.K7.9743.872 AT2.A82.AQT2.Q63"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "E"]
+[Deal "S:AT2.A82.AQT2.Q63 Q64.QJT53.85.AT4 K73.964.KJ6.KJ95 J985.K7.9743.872"]
+[Auction "S"]
+1NT pass 3NT pass pass pass
 [Result ""]
 {The bidding has been as shown. Partner led the \HQ, dummy played the \H4 and it is your play.
 
@@ -286,30 +234,22 @@ But suppose you say "Well, partner's \HQ is just as good as my \HK so I'll just 
 
 It was a good thing you held the \HK rather than declarer, but it is a nuisance that you must get out of the way on the very first trick.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 7, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
-[Student "E"]
-[Auction "S"]
-1NT Pass 3NT Pass
-Pass Pass
-[Play "W"]
-HQ
+[Play "W"]HQ
 
 [Event ""]
-{Baker ThirdHand 8}
 [Site ""]
 [Date ""]
 [Board "8"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker ThirdHand 8}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "N:983.J962.A73.QT8 AQJT7.A5.K42.AJ2 K62.KQ3.T985.973 54.T874.QJ6.K654"]
-[Scoring ""]
 [Declarer "W"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "E"]
+[Deal "E:AQJT7.A5.K42.AJ2 K62.KQ3.T985.973 54.T874.QJ6.K654 983.J962.A73.QT8"]
+[Auction "E"]
+1S pass 1NT pass 3NT pass pass pass
 [Result ""]
 {The bidding has been as shown. Partner led the \H2, dummy played the \HA and it is your play.
 
@@ -323,30 +263,22 @@ As you see, partner did hold the \H J 9, so your side wins 3 \H tricks.
 
 If declarer played low on the first trick you would win the \HQ, then play the \HK to dummy's \HA.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 8, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
-[Student "E"]
-[Auction "E"]
-1S Pass 1NT Pass
-3NT Pass Pass Pass
-[Play "N"]
-H2
+[Play "W"]H2
 
 [Event ""]
-{Baker ThirdHand 9}
 [Site ""]
 [Date ""]
 [Board "9"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker ThirdHand 9}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:T865.AK3.Q72.842 K92.QT985.A6.AT6 AJ7.642.T985.973 Q43.J7.KJ43.KQJ5"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "EW"]
+[Student "E"]
+[Deal "S:K92.QT985.A6.AT6 AJ7.642.T985.973 Q43.J7.KJ43.KQJ5 T865.AK3.Q72.842"]
+[Auction "S"]
+1H pass 2NT pass 3NT pass pass pass
 [Result ""]
 {The bidding has been as shown. Partner led the \S5, dummy played the \S2 and it is your play.
 
@@ -360,30 +292,22 @@ North will take the \SQ at trick 1, but when East wins a high \H he will play an
 
 Note that if dummy's \S9 was played you would cover with your \SJ, leading to the same situation.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 9, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
-[Student "E"]
-[Auction "S"]
-1H Pass 2NT Pass
-3NT Pass Pass Pass
-[Play "E"]
-S5
+[Play "W"]S5
 
 [Event ""]
-{Baker ThirdHand 10}
 [Site ""]
 [Date ""]
 [Board "10"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker ThirdHand 10}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "S:K852.JT652.64.93 J64.98.A5.AJT742 973.AQ7.JT873.K6 AQT.K43.KQ92.Q85"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "3NT"]
+[Vulnerable "All"]
+[Student "E"]
+[Deal "E:AQT.K43.KQ92.Q85 K852.JT652.64.93 J64.98.A5.AJT742 973.AQ7.JT873.K6"]
+[Auction "E"]
+1NT pass 3NT pass pass pass
 [Result ""]
 {The bidding has been as shown. Partner led the \H5, dummy played the \H8 and it is your play.
 
@@ -399,30 +323,22 @@ So assume East actually holds the \HK x x. If you play the \HA to trick one, the
 
 So what happens if you play the \HQ at trick one? East could still make the contract by holding up, but he will be afraid to do so. After all, from his perspective it looks like South probably holds the \HA and he will be afraid of losing the first 5 \H tricks, perhaps even when the \CK finessing is working!}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 10, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
-[Student "E"]
-[Auction "E"]
-1NT Pass 3NT Pass
-Pass Pass
-[Play "S"]
-H5
+[Play "W"]H5
 
 [Event ""]
-{Baker ThirdHand 11}
 [Site ""]
 [Date ""]
 [Board "11"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker ThirdHand 11}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:K5.QJ972.AQ6.973 AQ83.T6.752.AKQ5 74.AK4.T984.T842 JT962.853.KJ3.J6"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3S"]
+[Vulnerable "None"]
+[Student "E"]
+[Deal "N:AQ83.T6.752.AKQ5 74.AK4.T984.T842 JT962.853.KJ3.J6 K5.QJ972.AQ6.973"]
+[Auction "N"]
+1C pass 1S 2H 3S pass pass pass
 [Result ""]
 {The bidding has been as shown. Partner led the \HQ, dummy played the \H6 and it is your play.
 
@@ -434,30 +350,22 @@ That means you need to win 3 \D tricks and the only way that can happen is if yo
 
 So win the first \HK (so partner will know you also have the \HA), and play the \DT. Presumably South will play an honor, but West will take the trick and put you back on lead with your \HA. You play the \D9 and your side will collect 3 \D tricks to go with your 2\Hs.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 11, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
-[Student "E"]
-[Auction "N"]
-1C Pass 1S 2H
-3S Pass Pass Pass
-[Play "W"]
-HQ
+[Play "W"]HQ
 
 [Event ""]
-{Baker ThirdHand 12}
 [Site ""]
 [Date ""]
 [Board "12"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker ThirdHand 12}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "N:AKQ864.8.742.AJ9 J3.KQJ6.AKQT5.62 T.732.9863.Q7543 9752.AT954.J.KT8"]
-[Scoring ""]
 [Declarer "W"]
 [Contract "4H"]
+[Vulnerable "NS"]
+[Student "E"]
+[Deal "E:J3.KQJ6.AKQT5.62 T.732.9863.Q7543 9752.AT954.J.KT8 AKQ864.8.742.AJ9"]
+[Auction "E"]
+1D pass 1H 1S 4H pass pass pass
 [Result ""]
 {The bidding has been as shown. Partner led the \SA, then the \SK. Dummy follows suit and it is your play to the second trick.
 
@@ -469,30 +377,22 @@ If partner has the \C A K then he will take them, but if he has the \C A J he ca
 
 To allow for this situation it will be better to play \Cs from your side of the table, and the way to make that happen is for you to ruff partner's \SK with an otherwise useless trump. You still get your two \S winners (sort of) but now you get to play a \C through West's \CK at trick 3.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 12, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
-[Student "E"]
-[Auction "E"]
-1D Pass 1H 1S
-4H Pass Pass Pass
-[Play "N"]
-SA
+[Play "W"]SA
 
 [Event ""]
-{Baker ThirdHand 13}
 [Site ""]
 [Date ""]
 [Board "13"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker ThirdHand 13}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:9752.82.T7643.K7 AT4.J63.AK82.QT5 J83.AK975.Q95.63 KQ6.QT4.J.AJ9842"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "All"]
+[Student "E"]
+[Deal "S:AT4.J63.AK82.QT5 J83.AK975.Q95.63 KQ6.QT4.J.AJ9842 9752.82.T7643.K7"]
+[Auction "S"]
+1D 1H 2C pass 3C pass 3NT pass pass pass
 [Result ""]
 {The bidding has been as shown. Partner led the \H8, dummy played the \HJ and it is your play.
 
@@ -508,31 +408,22 @@ North wins the first trick easily, but must try to establish \Cs. He will enter 
 
 Not today. Partner takes the \CK and returns his \H2 to your four winners.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 13, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
-[Student "E"]
-[Auction "S"]
-1D 1H 2C Pass
-3C Pass 3NT Pass
-Pass Pass
-[Play "E"]
-H8
+[Play "W"]H8
 
 [Event ""]
-{Baker ThirdHand 14}
 [Site ""]
 [Date ""]
 [Board "14"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker ThirdHand 14}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "S:K62.T64.AJ654.92 QJ93.KQJ5.93.QJT 84.973.T872.A653 AT75.A82.KQ.K874"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "E"]
+[Deal "E:AT75.A82.KQ.K874 K62.T64.AJ654.92 QJ93.KQJ5.93.QJT 84.973.T872.A653"]
+[Auction "E"]
+1NT pass 2C pass 2S pass 4S pass pass pass
 [Result ""]
 {The bidding has been as shown. Partner led the \C9, dummy played the \CT and it is your play.
 
@@ -546,31 +437,22 @@ If it is a singleton, then East must hold 5 \Cs. But you know East has 4 \Ss, so
 
 So partner's \C9 is not a singleton, and you should wait. Declarer then runs dummy's \SQ. Partner wins the \SK, returns his OTHER \C to your \CA, and NOW you give him the ruff. He takes the \DA for down 1.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 14, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
-[Student "E"]
-[Auction "E"]
-1NT Pass 2C Pass
-2S Pass 4S Pass
-Pass Pass
-[Play "S"]
-C9
+[Play "W"]C9
 
 [Event ""]
-{Baker ThirdHand 15}
 [Site ""]
 [Date ""]
 [Board "15"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker ThirdHand 15}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "W:T83.T2.QJ8642.83 652.J98.95.KJT97 QJ97.KQ653.T.A64 AK4.A74.AK73.Q52"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "E"]
+[Deal "E:QJ97.KQ653.T.A64 AK4.A74.AK73.Q52 T83.T2.QJ8642.83 652.J98.95.KJT97"]
+[Auction "E"]
+1H X pass 2C pass 2NT pass 3NT pass pass pass
 [Result ""]
 {The bidding has been as shown. Partner led the \HT, dummy played the \HJ and it is your play.
 
@@ -582,31 +464,22 @@ Suppose you cover with your \HQ. South will win his \HA, then play \Cs until you
 
 Now suppose you duck the \HJ. Again South will push \Cs, and again you hold up until the third round. Ahh, what a difference. Now declarer cannot use the \Hs to enter dummy and he will never get to enjoy those two \C winners.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 15, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
-[Student "E"]
-[Auction "E"]
-1H X Pass 2C
-Pass 2NT Pass 3NT
-Pass Pass Pass
-[Play "W"]
-HT
+[Play "W"]HT
 
 [Event ""]
-{Baker ThirdHand 16}
 [Site ""]
 [Date ""]
 [Board "16"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker ThirdHand 16}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "N:Q.T9652.J863.642 7542.KQ.A5.KJT85 KT986.874.Q74.AQ AJ3.AJ3.KT92.973"]
-[Scoring ""]
 [Declarer "W"]
 [Contract "3NT"]
+[Vulnerable "EW"]
+[Student "E"]
+[Deal "E:7542.KQ.A5.KJT85 KT986.874.Q74.AQ AJ3.AJ3.KT92.973 Q.T9652.J863.642"]
+[Auction "E"]
+1C 1S 2NT pass 3NT pass pass pass
 [Result ""]
 {The bidding has been as shown. Partner led the \SQ, a low card was played from dummy, and it is your play.
 
@@ -620,30 +493,22 @@ Now do it the right way. Play your \SK on partner's \SQ. Assume West takes the t
 
 Notice that West will always make two \S tricks, so your overtake costs nothing.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 16, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
-[Student "E"]
-[Auction "E"]
-1C 1S 2NT Pass
-3NT Pass Pass Pass
-[Play "N"]
-SQ
+[Play "W"]SQ
 
 [Event ""]
-{Baker ThirdHand 17}
 [Site ""]
 [Date ""]
 [Board "17"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker ThirdHand 17}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:93.J8652.JT94.K4 A6.K93.Q62.QJ982 K87542.QT4.83.A6 QJT.A7.AK75.T753"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "E"]
+[Deal "S:A6.K93.Q62.QJ982 K87542.QT4.83.A6 QJT.A7.AK75.T753 93.J8652.JT94.K4"]
+[Auction "S"]
+1C 2S 2NT pass 3NT pass pass pass
 [Result ""]
 {The bidding has been as shown. Partner led the \S9, dummy played the \S6 and it is your play.
 
@@ -659,30 +524,22 @@ North will have to keep working on \Cs, but now you can win the \CA and play you
 
 Just like the previous deal, North gets two \S tricks either way, but one way he makes an overtrick, the other way he goes down 2.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 17, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
-[Student "E"]
-[Auction "S"]
-1C 2S 2NT Pass
-3NT Pass Pass Pass
-[Play "E"]
-S9
+[Play "W"]S9
 
 [Event ""]
-{Baker ThirdHand 18}
 [Site ""]
 [Date ""]
 [Board "18"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker ThirdHand 18}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "S:AQ83.6.JT72.KQJT JT64.QJT.AK6.942 72.843.954.A8753 K95.AK9752.Q83.6"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "4H"]
+[Vulnerable "NS"]
+[Student "E"]
+[Deal "E:K95.AK9752.Q83.6 AQ83.6.JT72.KQJT JT64.QJT.AK6.942 72.843.954.A8753"]
+[Auction "E"]
+1H Dbl Rdbl 2C pass 3C 3H pass 4H pass pass pass
 [Result ""]
 {The bidding has been as shown. Partner led the \CK, dummy played low and it is your play.
 
@@ -694,31 +551,22 @@ So if you are to set this contract partner is going to have to have some \S winn
 
 Partner loves it - whatever East does South takes the next two \Ss, then leads a third \S for you to ruff. Down 1.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 18, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
-[Student "E"]
-[Auction "E"]
-1H X XX 2C
-Pass 3C 3H Pass
-4H Pass Pass Pass
-[Play "S"]
-CK
+[Play "W"]CK
 
 [Event ""]
-{Baker ThirdHand 19}
 [Site ""]
 [Date ""]
 [Board "19"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker ThirdHand 19}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:7.Q8732.854.KQ95 KT83.AJ94.AJ7.T7 A42.5.T963.A8643 QJ965.KT6.KQ2.J2"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "E"]
+[Deal "N:KT83.AJ94.AJ7.T7 A42.5.T963.A8643 QJ965.KT6.KQ2.J2 7.Q8732.854.KQ95"]
+[Auction "N"]
+1D pass 1S pass 2S pass 4S pass pass pass
 [Result ""]
 {The bidding has been as shown. Partner led the \CK, dummy played the \C7 and it is your play.
 
@@ -730,31 +578,22 @@ From his lead, you know partner also holds the \CQ. Overtake the \CK. Play your 
 
 If you have a partner who pays attention he will now play a \H for you to ruff. Two \Cs, the Ace of trumps, and a \H ruff makes down 1.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 19, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
-[Student "E"]
-[Auction "N"]
-1D Pass 1S Pass
-2S Pass 4S Pass
-Pass Pass
-[Play "W"]
-CK
+[Play "W"]CK
 
 [Event ""]
-{Baker ThirdHand 20}
 [Site ""]
 [Date ""]
 [Board "20"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker ThirdHand 20}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "N:JT98.73.KQT93.A9 Q74.AQJ5.862.KJ4 632.KT862.J4.873 AK5.94.A75.QT652"]
-[Scoring ""]
 [Declarer "W"]
 [Contract "3NT"]
+[Vulnerable "All"]
+[Student "E"]
+[Deal "W:AK5.94.A75.QT652 JT98.73.KQT93.A9 Q74.AQJ5.862.KJ4 632.KT862.J4.873"]
+[Auction "W"]
+1C pass 1H pass 1NT pass 3NT pass pass pass
 [Result ""]
 {The bidding has been as shown. Partner led the \DK, dummy played low and it is your play.
 
@@ -766,12 +605,6 @@ You can help your partner figure out the true situation by merely playing your \
 
 With this good play North will be able to continue \Ds and defeat the contract.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 20, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
-[Student "E"]
-[Auction "W"]
-1C Pass 1H Pass
-1NT Pass 3NT Pass
-Pass Pass
-[Play "N"]
-DK
+[Play "W"]DK
+

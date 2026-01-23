@@ -1,0 +1,184 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:47:34 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Major 11}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:Q54.T643.QT96.T5 AT2.K752.743.A97 KJ9873..J2.86432 6.AQJ98.AK85.KQJ"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6H"]
+[Result ""]
+{This is a big hand. But not quite enough to open 2\C. So you open 1\H and partner responds 3\H. Now what? 
+
+You might bid 4\D as a slam try, but it is probably just as well to go ahead and ask for Aces. So you bid 4NT and partner owns up to holding 2 Aces. What is your next bid? 
+
+You have all the Aces but don't go crazy. Partner only has 11-12 points so don't think too Grand! Bid 6\H.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1H Pass 3H Pass
+4NT Pass 5H Pass
+6H Pass Pass Pass
+
+[Event ""]
+{Baker Major 12}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:Q32.9432.J974.K9 K5.AKQ75.K63.AT8 AJT64.J.T2.QJ754 987.T86.AQ85.632"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{With 6 points you must respond and you should let partner know you have support for his suit. So you bid 2\H and he promptly raises to 4\H. It's a good thing he had 20 points isn't it.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1H Pass 2H Pass
+4H Pass Pass Pass
+
+[Event ""]
+{Baker Major 13}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:K65.AJ6.T9632.Q9 742.KT742.AQ4.K3 AQJT93..7.AJT752 8.Q9853.KJ85.864"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{When you have a weak, distributional hand with 5 of partner's suit an immediate jump to game is usually the best approach. If he has a good hand you will probably make the contract. If he is minimum then you might get a preemptive effect and stop your LHO from entering the bidding.
+
+This is a good example. Partner may be lucky and make 4\H. But if they had had an opportunity to compete the opponents might well be able to make 4\S.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1H Pass 4H Pass
+Pass Pass
+
+[Event ""]
+{Baker Major 14}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:J.T642.KT86.KQ82 3.AKJ873.AQJ3.73 QT8654.9.95.AJ94 AK972.Q5.742.T65"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{You can't support partner's \Hs with only 2 of them so you bid your nice \S suit. Partner then jumps to 3\H. Now what do you bid? 
+
+Here's where a lot of players go wrong. Since they only promised 4 \Ss with their first response they think they should now rebid them to show partner they had 5. And this MIGHT work if it turns out partner has 3 \Ss. Not only is this a risky bid, it is unnecessary. When partner jump rebid \Hs he showed 16-18 points and 6 \Hs. So you know of an 8-card fit and you know you should be in game. Bid 4\H.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1H Pass 1S Pass
+3H Pass 4H Pass
+Pass Pass
+
+[Event ""]
+{Baker Major 15}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:6.JT643.AT865.T7 AQT93.A92.KQJ3.4 854.KQ7.9.J98632 KJ72.85.742.AKQ5"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6S"]
+[Result ""]
+{As soon as partner opens 1\S you know you will settle for nothing less than the \S game. The problem with bidding 4\S right now is that partner will take you for the "weak-distributional-with-five-trumps" hand. So you temporize by first bidding 2\C. Partner rebids 2\D. What do you say now? 
+
+You now jump to 4\S, completing the picture of an opening hand with good \S support. Partner bids 4NT. What say you? 
+
+This is Blackwood so you answer 5\D for one Ace. Partner says 6\S.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 5, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1S Pass 2C Pass
+2D Pass 4S Pass
+4NT Pass 5D Pass
+6S ALL Pass

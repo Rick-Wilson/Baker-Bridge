@@ -1,0 +1,806 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:51:21 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Jacoby 1}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "E:932.85.KJT76.AJ6 K764.KT6.A953.K8 5.A9743.Q2.T9742 AQJT8.QJ2.84.Q53"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4S"]
+[Result ""]
+{It is your bid.  
+
+You open 1\S and partner responds 2NT. What do you say next? 
+
+With a minimum hand and no singletons you bid the game immediately. Partner has nothing to add so he passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "W"]
+Pass 1S Pass 2NT
+Pass 4S Pass Pass
+Pass
+
+[Event ""]
+{Baker Jacoby 2}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:5.Q87432.A63.965 KQJ62.6.KJ75.A84 943.AT.QT92.JT72 AT87.KJ95.84.KQ3"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "4S"]
+[Result ""]
+{It is your bid. 
+
+With 14 points and good 4-card support you bid a Jacoby 2NT. Partner next bids 3\H. What do you say now? 
+
+You couldn't hear much worse news. Partner has a singleton \H so your \H K J are not worth very much. You have nothing to do but return to the trump suit so you bid 4\S.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 2, chOption: E, chBasis: N, basisKind:Declarer, nOption:1, nBasis: 0, nRot: 1, useStandardVul: true"]
+[Student "S"]
+[Auction "E"]
+1S Pass 2NT Pass
+3H Pass 4S Pass
+Pass Pass
+
+[Event ""]
+{Baker Jacoby 3}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:632.84.Q6532.QJ5 QJ95.AJ63.K7.KT4 4.T972.A9.A97632 AKT87.KQ5.JT84.8"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{It is your bid. 
+
+You have just a little extra so you bid 3\C to show a singleton. Partner says 3\H and it is your bid again. 
+
+Partner's bid means he has first round \H control, obviously the \HA. But it also denies holding the \DA since control bids are made up-the-line. You show your lack of a Minor suit Ace by returning to 3\S. Partner signs off at game.
+
+You could equally have just bid 4\S yourself.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "S"]
+1S Pass 2NT Pass
+3C Pass 3H Pass
+3S Pass 4S Pass
+Pass Pass
+
+[Event ""]
+{Baker Jacoby 4}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "S:752.J95.AT762.T5 AQJT8.K4.84.AQ83 6.AQT863.3.97642 K943.72.KQJ95.KJ"]
+[Scoring ""]
+[Declarer "W"]
+[Contract "4S"]
+[Result ""]
+{It is your bid. 
+
+With opening hand and 4-card \S support this is an ideal Jacoby 2NT response. Partner says 3NT.  
+
+West has some extra strength and a 5-card \S suit. This is the point in the bidding where you would make a control bid, showing an Ace. Well, you would if you actually had an Ace. The way you indicate your lack of a control is to just return the the agreed trump suit. So you bid 4\S and partner passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 4, chOption: W, chBasis: N, basisKind:Declarer, nOption:3, nBasis: 0, nRot: 3, useStandardVul: true"]
+[Student "S"]
+[Auction "W"]
+1S Pass 2NT Pass
+3NT Pass 4S Pass
+Pass Pass
+
+[Event ""]
+{Baker Jacoby 5}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:4.T9852.AJT32.Q4 K973.J7.KQ65.KJ8 62.AQ63.97.97652 AQJT85.K4.84.AT3"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4S"]
+[Result ""]
+{It is your bid. 
+
+You show an above minimum hand with 6 trumps by bidding 3\S. Partner bids 4\S. What do you say next? 
+
+Partner would have shown a red Ace if he had one. Since he doesn't have one, all thoughts of slam are off. You pass.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+1S Pass 2NT Pass
+3S Pass 4S Pass
+Pass Pass
+
+[Event ""]
+{Baker Jacoby 6}
+[Site ""]
+[Date ""]
+[Board "6"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:QJ87.J2.T984.KQ4 A65.AT754.A7.862 T942.93.652.AJT3 K3.KQ86.KQJ3.975"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "4H"]
+[Result ""]
+{It is your bid. 
+
+With 15 points and four of partner's suit you naturally bid 2NT. Partner now jumps to 4\H. What do you say? 
+
+Partner's rebid of 4\H is not strong. He is using the Principle of Fast Arrival to indicate a minimum opening hand. Since you have nothing extra you pass quietly.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 6, chOption: E, chBasis: N, basisKind:Declarer, nOption:1, nBasis: 0, nRot: 1, useStandardVul: true"]
+[Student "S"]
+[Auction "E"]
+1H Pass 2NT Pass
+4H Pass Pass Pass
+
+[Event ""]
+{Baker Jacoby 7}
+[Site ""]
+[Date ""]
+[Board "7"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:9654.543.T4.AQT4 QJ.AJT6.Q52.KJ73 AKT82.8.763.9862 73.KQ972.AKJ98.5"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{It is your bid. 
+
+Although you could show your singleton \C now it is usually more informative to show a second 5-card suit. So you say 4\D. Partner bids 4\H. What do you say? 
+
+Partner signed off, showing a minimum, so you have nothing further to say.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 7, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "S"]
+1H Pass 2NT Pass
+4D Pass 4H Pass
+Pass Pass
+
+[Event ""]
+{Baker Jacoby 8}
+[Site ""]
+[Date ""]
+[Board "8"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "S:T75.42.A752.JT64 AQ3.AJT953.6.K82 98642.7.Q984.AQ3 KJ.KQ86.KJT3.975"]
+[Scoring ""]
+[Declarer "W"]
+[Contract "4H"]
+[Result ""]
+{It is your bid. 
+
+Opening hand with 4-card trump support. You bid 2NT. Partner rebids 3\D. What do you say? 
+
+The news that partner has a singleton \D does NOT excite you. In fact it causes your hand to devalue a lot. So you use the Principle of Fast Arrival and bid 4\H.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 8, chOption: W, chBasis: N, basisKind:Declarer, nOption:3, nBasis: 0, nRot: 3, useStandardVul: true"]
+[Student "S"]
+[Auction "W"]
+1H Pass 2NT Pass
+3D Pass 4H Pass
+Pass Pass
+
+[Event ""]
+{Baker Jacoby 9}
+[Site ""]
+[Date ""]
+[Board "9"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:KJ85.62.9642.962 3.QT95.AQ3.KJT83 AQ762.73.875.754 T94.AKJ84.KJT.AQ"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "6H"]
+[Result ""]
+{It is your bid. 
+
+Partner's 3\S bid is a Splinter, showing a singleton \S, good trump support, and 13-16 points. You bid your first-round \C control, and partner replies with 4\D. What do you bid next? 
+
+There isn't really anything else you want to know. You think you can make slam so you bid 6\H.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 9, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+1H Pass 3S Pass
+4C Pass 4D Pass
+6H Pass Pass Pass
+
+[Event ""]
+{Baker Jacoby 10}
+[Site ""]
+[Date ""]
+[Board "10"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:98754.82.A76.QJ4 K3.KJT974.KQ5.A9 JT.6.T432.K86532 AQ62.AQ53.J98.T7"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "6H"]
+[Result ""]
+{It is your bid. 
+
+You have a perfect Jacoby 2NT raise. Partner's rebid is 3\H. What is your next bid? 
+
+When partner shows an above average opener it is your duty to make a control bid if you can. So you bid 3\S. Partner now bids 4NT and it is your turn. 
+
+This is Blackwood. You respond 5\H for two Aces and partner bids the slam.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 10, chOption: E, chBasis: N, basisKind:Declarer, nOption:1, nBasis: 0, nRot: 1, useStandardVul: true"]
+[Student "S"]
+[Auction "E"]
+1H Pass 2NT Pass
+3H Pass 3S Pass
+4NT Pass 5H Pass
+6H Pass Pass Pass
+
+[Event ""]
+{Baker Jacoby 11}
+[Site ""]
+[Date ""]
+[Board "11"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:T.JT872.QJ943.Q5 AQ63.A9.T87.A964 4.654.652.KJT732 KJ98752.KQ3.AK.8"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "7NT"]
+[Result ""]
+{It is your bid. 
+
+Partner has at least opening hand and he has 4 \Ss. There is only one thing you need to know - how many Aces he has. You bid Blackwood 4NT and he responds 5\S. What is your next bid? 
+
+The three Aces does it for you. You can count 7 \S tricks, 3 \H tricks, 2 \D tricks and 1 \C. That is 13 total so you go ahead and bid 7NT.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 11, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+1S Pass 2NT Pass
+4NT Pass 5S Pass
+7NT Pass Pass Pass
+
+[Event ""]
+{Baker Jacoby 12}
+[Site ""]
+[Date ""]
+[Board "12"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "S:KJT3.42.J643.QT2 765.AJT96.KQ.A65 AQ842.73.T85.J98 9.KQ85.A972.K743"]
+[Scoring ""]
+[Declarer "W"]
+[Contract "6H"]
+[Result ""]
+{It is your bid. 
+
+You have an opening hand with four of partner's Major suit so naturally you want to force to game. Although you could bid a Jacoby 2NT, the presence of the singleton \S makes a Splinter Bid more attractive. So you double-jump to 3\S. Partner now bids 4\C. What do you say next? 
+
+Partner's 4\C bid is control showing, and indicates he is thinking slammish. You bid 4\D showing your control and partner bids 6\H.
+
+As you can see, West should make 12 tricks by discarding one \C loser on your \DA.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 12, chOption: W, chBasis: N, basisKind:Declarer, nOption:3, nBasis: 0, nRot: 3, useStandardVul: true"]
+[Student "S"]
+[Auction "W"]
+1H Pass 3S Pass
+4C Pass 4D Pass
+6H Pass Pass Pass
+
+[Event ""]
+{Baker Jacoby 13}
+[Site ""]
+[Date ""]
+[Board "13"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:T3.QJ73.Q.AKQJT2 A654.K52.A86.974 J2.T84.J97432.86 KQ987.A96.KT5.53"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "3S"]
+[Result ""]
+{It is your bid. 
+
+When the opponents interfere, Jacoby is off. Now a cue-bid response by partner shows a hand with good trump support, and a limit raise or better in strength. So partner might have a game forcing hand, but also might have only 11 points.
+
+But he definitely has \S support. You show your minimum hand by bidding 3\S and he passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 13, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+1S 2C 3C Pass
+3S Pass Pass Pass
+
+[Event ""]
+{Baker Jacoby 14}
+[Site ""]
+[Date ""]
+[Board "14"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:QT93.42.J643.KT2 765.AJT96.KQ.A65 AJ842.73.T85.Q98 K.KQ85.A972.J743"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "4H"]
+[Result ""]
+{It is your bid. 
+
+ back to Deal 12 for a quick comparison between the two hands. Almost identical, but this time your singleton is the \SK. Since it is not advisable to Splinter with a singleton Ace, King or Queen you just bid 2NT instead. Partner jumps to 4\H and you pass.
+
+Note that in this hand the three points you credited for your \SK are completely wasted. And although partner has the same hand as he did in Deal 12, this time there is no chance of making slam. This shows why you don't Splinter with singleton Honors.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 14, chOption: E, chBasis: N, basisKind:Declarer, nOption:1, nBasis: 0, nRot: 1, useStandardVul: true"]
+[Student "S"]
+[Auction "E"]
+1H Pass 2NT Pass
+4H Pass Pass Pass
+
+[Event ""]
+{Baker Jacoby 15}
+[Site ""]
+[Date ""]
+[Board "15"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:976.984.A732.KQ4 KQJ52.AJT2.954.7 AT84.6.T8.JT9532 3.KQ753.KQJ6.A86"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "5H"]
+[Result ""]
+{It is your bid. 
+
+When partner Splinters his singleton \C you should realize that the only thing that could keep you from making slam would be lack of Aces. So you bid 4NT. Partner shows only one Ace so you just sign off at 5\H.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 15, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "S"]
+1H Pass 4C Pass
+4NT Pass 5D Pass
+5H Pass Pass Pass
+
+[Event ""]
+{Baker Jacoby 16}
+[Site ""]
+[Date ""]
+[Board "16"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "S:QT.J94.T852.AT42 AJ8763.AQ7.KQ.87 .T8532.A9763.J96 K9542.K6.J4.KQ53"]
+[Scoring ""]
+[Declarer "W"]
+[Contract "4S"]
+[Result ""]
+{It is your bid. 
+
+When partner opens 1\S you have a pretty normal Jacoby 2NT response. He next says 3\S. What do you bid? 
+
+Your partner has a better than minimum hand with 6 \Ss. However, you have an average hand with no controls to show so you use the Principle of Fast Arrival and bid 4\S. Everyone passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 16, chOption: W, chBasis: N, basisKind:Declarer, nOption:3, nBasis: 0, nRot: 3, useStandardVul: true"]
+[Student "S"]
+[Auction "W"]
+1S Pass 2NT Pass
+3S Pass 4S Pass
+Pass Pass
+
+[Event ""]
+{Baker Jacoby 17}
+[Site ""]
+[Date ""]
+[Board "17"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:T86.72.T94.AJT52 AK3.KJ95.KQJ3.97 J952.64.A652.843 Q74.AQT83.87.KQ6"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "5H"]
+[Result ""]
+{It is your bid. 
+
+Partner's bid is game forcing. With a bare minimum, no singletons, you go ahead and sign off in game. Partner then says 4\S. What do you bid next? 
+
+Partner is definitely showing slam interest. If you had a first round control in either Minor suit you would bid it now. But you don't. So you sign of again, this time at 5\H. Partner finally gives up on the idea of slam and passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 17, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+1H Pass 2NT Pass
+4H Pass 4S Pass
+5H Pass Pass Pass
+
+[Event ""]
+{Baker Jacoby 18}
+[Site ""]
+[Date ""]
+[Board "18"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:T.KQ862.62.JT952 A98753.95.KQJT.A 6.AJT743.A84.763 KQJ42..9753.KQ84"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "6S"]
+[Result ""]
+{It is your bid. 
+
+You want to force partner to game while you describe your hand. So you make a Splinter Bid of 4\H. Partner replies 5\C. What do you bid next? 
+
+Partner has the \CA. Good. You are pretty worried about \Ds and also your 11 high card points. You are tempted to just sign off at 5\S but you shouldn't. You can make a control-bid below the 5\S level. So you bid 5\H. This tells partner that your Splinter must have been a \H void. Partner bids 6\S.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 18, chOption: E, chBasis: N, basisKind:Declarer, nOption:1, nBasis: 0, nRot: 1, useStandardVul: true"]
+[Student "S"]
+[Auction "E"]
+1S Pass 4H Pass
+5C Pass 5H Pass
+6S Pass Pass Pass
+
+[Event ""]
+{Baker Jacoby 19}
+[Site ""]
+[Date ""]
+[Board "19"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:2.JT8532.87653.5 KQ643.76.AKQ.KQJ 95.K94.T92.97642 AJT87.AQ.J4.AT83"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "7S"]
+[Result ""]
+{It is your bid. 
+
+With 17 points you need to indicate a better than minimum opening. You have no singletons and just a 5-card trump suit so you bid 3NT. Partner says 4\D and it is your bid again. 
+
+Partner's 4\D bid shows first round control (surely the Ace). You bid 4\H, showing your first round control. Partner now says 4NT. What do you bid? 
+
+You are being Blackwooded, and with three Aces you reply 5\S. That was apparently just what North wanted to hear, so he bid 7\S.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 19, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "S"]
+1S Pass 2NT Pass
+3NT Pass 4D Pass
+4H Pass 4NT Pass
+5S Pass 7S Pass
+Pass Pass
+
+[Event ""]
+{Baker Jacoby 20}
+[Site ""]
+[Date ""]
+[Board "20"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "S:J5.9.T9852.AJ864 743.AT852.KJ.KQ9 AKQT82.764.3.753 96.KQJ3.AQ764.T2"]
+[Scoring ""]
+[Declarer "W"]
+[Contract "4H"]
+[Result ""]
+{It is your bid. 
+
+You were all set to give a Jacoby 2NT response when North stuck in his 1\S overcall. Now you can't because Jacoby is off after opponents interfere. Fortunately you have another bid at your disposal. You say 2\S, showing good \Hs and a limit raise or better. Partner bids 3\H. What do you say now? 
+
+Partner didn't have enough to bid game, not knowing if you had more than 11 points. But you know you have opening hand so you bid 4\H.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 20, chOption: W, chBasis: N, basisKind:Declarer, nOption:3, nBasis: 0, nRot: 3, useStandardVul: true"]
+[Student "S"]
+[Auction "W"]
+1H 1S 2S Pass
+3H Pass 4H Pass
+Pass Pass
+
+[Event ""]
+{Baker Jacoby 21}
+[Site ""]
+[Date ""]
+[Board "21"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:T8643.T2.QT8.KQ5 A75.J9865.AK93.7 QJ.3.J6542.JT842 K92.AKQ74.7.A963"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "6H"]
+[Result ""]
+{It is your bid. 
+
+Partner's Splinter Bid in \Cs has really made your hand look good. With no losers in trumps or \Cs you need to find out about the other two suits. So you invoke Blackwood and partner replies 5\H. What do you bid next? 
+
+If partner can take care of your three \C losers you will have just one \S loser at most. So you bid 6\H. Maybe you should have bid 7\H.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 21, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+1H Pass 4C Pass
+4NT Pass 5H Pass
+6H Pass Pass Pass
+
+[Event ""]
+{Baker Jacoby 22}
+[Site ""]
+[Date ""]
+[Board "22"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:3.AJ9854.T9875.4 AK874.6.KJ62.QJ6 J62.T732.4.AKT32 QT95.KQ.AQ3.9875"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "4S"]
+[Result ""]
+{It is your bid. 
+
+Following your Jacoby 2NT response, partner bids 3\H, showing a singleton. What is your next bid? 
+
+Your \H holding hasn't been enhanced by partner's singleton. You feel like just signing off at 4\S but since you can show the \D control below that level you bid 4\D. It didn't matter since partner now signs off at 4\S.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 22, chOption: E, chBasis: N, basisKind:Declarer, nOption:1, nBasis: 0, nRot: 1, useStandardVul: true"]
+[Student "S"]
+[Auction "E"]
+1S Pass 2NT Pass
+3H Pass 4D Pass
+4S Pass Pass Pass
+
+[Event ""]
+{Baker Jacoby 23}
+[Site ""]
+[Date ""]
+[Board "23"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:T75.72.A764.9643 AK3.KJ95.J3.QT87 98642.T.T9852.A2 QJ.AQ8643.KQ.KJ5"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "5H"]
+[Result ""]
+{It is your bid. 
+
+You have a great hand, but no singleton to show. Since you have a 6-card \H suit you bid 3\H. Partner replies 3\S. What do you bid? 
+
+Partner has control-bid the \SA. He may also have one or both of the Minor Aces since he would have bid the cheapest control first. You use Blackwood. He replies 5\D. What do you bid? 
+
+Oops. Despite all the points you are missing two Aces. So you thank Mr. Blackwood and sign off at 5\H.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 23, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "S"]
+1H Pass 2NT Pass
+3H Pass 3S Pass
+4NT Pass 5D Pass
+5H
+
+[Event ""]
+{Baker Jacoby 24}
+[Site ""]
+[Date ""]
+[Board "24"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "S:4.QJT9832.65.JT5 AQ853.5.AJT72.63 JT.6.943.AQ98742 K9762.AK74.KQ8.K"]
+[Scoring ""]
+[Declarer "W"]
+[Contract "6S"]
+[Result ""]
+{It is your bid. 
+
+You don't want to make a Splinter Bid with a singleton King so you content yourself with a Jacoby 2NT bid. Partner rebids 4\D. What do you say next? 
+
+The 4\D bid shows a 5-card \D suit. What you need to know now is how many Aces partner has. You bid 4NT and he answers 5\H. What do you say? 
+
+He has two Aces so you bid 6\S.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 24, chOption: W, chBasis: N, basisKind:Declarer, nOption:3, nBasis: 0, nRot: 3, useStandardVul: true"]
+[Student "S"]
+[Auction "W"]
+1S Pass 2NT Pass
+4D Pass 4NT Pass
+5H Pass 6S Pass
+Pass Pass
+
+[Event ""]
+{Baker Jacoby 25}
+[Site ""]
+[Date ""]
+[Board "25"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:3.A97632.98763.4 KJ64.KQ5.J4.AJ95 T82.84.AT2.87632 AQ975.JT.KQ5.KQT"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4S"]
+[Result ""]
+{It is your bid. 
+
+With 18 points you want to show your extra strength. Since you have only 5 trumps you show the strength by bidding 3NT. Partner then bids 4\C. What do you say next? 
+
+Now is the time when YOU would make a control bid. And if you had either red Ace you would do so. Since you don't have one, you have no option but to say 4\S. Partner recognizes that you are off those two Aces and passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 25, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+1S Pass 2NT Pass
+3NT Pass 4C Pass
+4S Pass Pass Pass

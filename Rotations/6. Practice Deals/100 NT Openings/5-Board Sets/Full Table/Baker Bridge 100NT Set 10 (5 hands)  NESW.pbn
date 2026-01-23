@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:08:53 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",10,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker 100NT 46}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 46}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:73.T974.K76542.T J9862.Q2.AQ.8743 T5.AK65.JT3.QJ95 AKQ4.J83.98.AK62"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AKQ4.J83.98.AK62 73.T974.K76542.T J9862.Q2.AQ.8743 T5.AK65.JT3.QJ95"]
+[Auction "N"]
+1NT pass 2H pass 3S pass 4S pass pass pass
 [Result ""]
 {Partner expects you to bid 2\S.
 
@@ -80,31 +35,22 @@ But what if the \DK was actually with West, and the \Cs were splitting 3-2 all t
 
 You pull trumps first, then play two top \Cs. When both defenders follow you give up a \C. East wins and plays a \D, but you go up with dummy's \DA, enter your hand with a trump and NOW discard that \DQ on your good \C. }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2H Pass
-3S Pass 4S Pass
-Pass Pass
-[Play "E"]
-HT
+[Play "W"]HT
 
 [Event ""]
-{Baker 100NT 47}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 47}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "S:8753.96.QJ85.A75 KJ4.75.A742.QT62 A62.QJT843.93.84 QT9.AK2.KT6.KJ93"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "3NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "N:A62.QJT843.93.84 QT9.AK2.KT6.KJ93 8753.96.QJ85.A75 KJ4.75.A742.QT62"]
+[Auction "N"]
+2H 2NT pass 3NT pass pass pass
 [Result ""]
 {You should be sure you and partner are on the same page with this bid. A 2NT overcall over a Weak-2 opener shows the same hand as a 1NT overcall over a 1 of a suit opener. In other words, 15-18 points, and at least 1 (preferably 2), stoppers in their suit.
 
@@ -128,30 +74,22 @@ If you win the first trick and then play \Cs, you will be unlucky. South will  t
 
 If you hold up on first trick luck won't come into it. It will no longer matter which black suit you establish first.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-2H 2NT Pass 3NT
-Pass Pass Pass
-[Play "S"]
-H9
+[Play "W"]H9
 
 [Event ""]
-{Baker 100NT 48}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 48}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:JT95.73.JT74.743 Q63.842.Q8.KQT96 K82.QJT96.K952.A A74.AK5.A63.J852"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:Q63.842.Q8.KQT96 K82.QJT96.K952.A A74.AK5.A63.J852 JT95.73.JT74.743"]
+[Auction "S"]
+1NT 2H 3C pass 3NT pass pass pass
 [Result ""]
 {After the overcall of your partner's opening 1NT you must make a quick decision with this type of hand:Force to game or settle for partscore. Using lebensohl, a suit bid at the 3-level shows a 5-card or longer suit and is game forcing. You go for it by bidding 3\C (not Stayman) and partner says 3NT.
 
@@ -171,30 +109,22 @@ East has 3 \H winners in his hand. There is a good chance that he has the \SK an
 
 Always keep in the back of your mind the possibility of an elimination play. In this Deal that meant you needed to refuse the hold-up because you would need the third \H to throw East in with.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "S"]
-1NT 2H 3C Pass
-3NT Pass Pass Pass
-[Play "W"]
-HQ
+[Play "E"]HQ
 
 [Event ""]
-{Baker 100NT 49}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 49}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "N:T.KQT9.QJ53.9542 AK7632.653.7.T86 QJ95.J4.KT82.J73 84.A872.A964.AKQ"]
-[Scoring ""]
 [Declarer "W"]
 [Contract "4S"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "W:84.A872.A964.AKQ T.KQT9.QJ53.9542 AK7632.653.7.T86 QJ95.J4.KT82.J73"]
+[Auction "W"]
+1NT pass 2H pass 2S pass 3S pass 4S pass pass pass
 [Result ""]
 {Partner's 2\H bid is a transfer; you respond 2\S. Partner now bids 3\S.  What do you bid? 
 
@@ -220,31 +150,22 @@ When they split badly, sometimes you can recover by ruffing with small trumps wh
 
 This is called "trump elopement".}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
-[Student "S"]
-[Auction "W"]
-1NT Pass 2H Pass
-2S Pass 3S Pass
-4S Pass Pass Pass
-[Play "N"]
-HK
+[Play "W"]HK
 
 [Event ""]
-{Baker 100NT 50}
 [Site ""]
 [Date ""]
 [Board "5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 50}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:T942.JT43.54.T85 876.Q85.AJ2.KQJ3 Q53.K96.T983.762 AKJ.A72.KQ76.A94"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "6NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:876.Q85.AJ2.KQJ3 Q53.K96.T983.762 AKJ.A72.KQ76.A94 T942.JT43.54.T85"]
+[Auction "N"]
+2NT pass 6NT pass pass pass
 [Result ""]
 {Sometimes bidding is easy. Partner has 20 or 21 points, balanced. You have 13 points, balanced. Total = 33 or 34 points, balanced. So you close your eyes and bid 6NT.
 
@@ -270,11 +191,6 @@ If the \SQ is in a favorable position, (with East), you are always going to make
 
 But if only the \HK is in a favorable position, (with West), you can make the contract only if you try \Hs first.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 5, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-2NT Pass 6NT Pass
-Pass Pass
-[Play "E"]
-DT
+[Play "E"]DT
+

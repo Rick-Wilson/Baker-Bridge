@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:02:18 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker Trumpmgmt 13}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Trumpmgmt 13}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:QT4.63.QT974.KQJ A8653.A5.K8.A942 KJ92.K82.J5.T873 7.QJT974.A632.65"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:7.QJT974.A632.65 QT4.63.QT974.KQJ A8653.A5.K8.A942 KJ92.K82.J5.T873"]
+[Auction "S"]
+2H pass 4H pass pass pass
 [Result ""]
 {South is to play 4\H. West leads the \CK which you win with dummy's \CA.
 
@@ -74,30 +29,22 @@ Any problem with that? Yes, a big problem. East might be out of \Ds also. If you
 
 Did you notice that West is a pretty good defender? Playing the \DQ on the third round just might have convinced you that he was short in \Ds, in which case ruffing with the low trump would have been safe.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-2H Pass 4H Pass
-Pass Pass
-[Play "W"]
-CK
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]CK
 
 [Event ""]
-{Baker Trumpmgmt 14}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Trumpmgmt 14}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:74.AKT42.J642.Q9 932.953.AK95.742 865.876.QT3.JT85 AKQJT.QJ.87.AK63"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AKQJT.QJ.87.AK63 74.AKT42.J642.Q9 932.953.AK95.742 865.876.QT3.JT85"]
+[Auction "S"]
+1S pass 2S pass 4S pass pass pass
 [Result ""]
 {South is to play 4\S. West leads the \HA, then the \HK, then \HT.
 
@@ -109,30 +56,22 @@ Ruff the third \H. Then play \C A K 3. West discards a \H on the third \C which 
 
 But, it was a good plan because dummy held the \S9. Keep that in mind when you look at Deal 15.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1S Pass 2S Pass
-4S Pass Pass Pass
-[Play "W"]
-HA
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]HA
 
 [Event ""]
-{Baker Trumpmgmt 15}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Trumpmgmt 15}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:97.AKT42.J642.Q9 432.953.AK95.742 865.876.QT3.JT85 AKQJT.QJ.87.AK63"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AKQJT.QJ.87.AK63 97.AKT42.J642.Q9 432.953.AK95.742 865.876.QT3.JT85"]
+[Auction "S"]
+1S pass 2S pass 4S pass pass pass
 [Result ""]
 {This is identical to Deal 14 except dummy has the \S4 in place of the \S9. South is to play 4\S. West leads the \HA, then the \HK, then \HT.
 
@@ -148,30 +87,22 @@ But this way will work. Ruff the third \H and duck a \C! Win any return and now 
 
 But you also had to be extremely clever to pull it off. This is probably the hardest Deal in this section.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1S Pass 2S Pass
-4S Pass Pass Pass
-[Play "W"]
-HA
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]HA
 
 [Event ""]
-{Baker Trumpmgmt 16}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Trumpmgmt 16}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:7.T754.A942.KQJ3 JT53.K6.KQJT.A82 A2.Q983.7653.T97 KQ9864.AJ2.8.654"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:JT53.K6.KQJT.A82 A2.Q983.7653.T97 KQ9864.AJ2.8.654 7.T754.A942.KQJ3"]
+[Auction "N"]
+1D pass 1S pass 2S pass 4S pass pass pass
 [Result ""]
 {South is to play 4\S. West leads the \CK.
 
@@ -193,12 +124,6 @@ You win the \CA in dummy, play the \HK, thenreturn a \H to your \HJ. You then di
 
 This time it worked, another time it might not.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1D Pass 1S Pass
-2S Pass 4S Pass
-Pass Pass
-[Play "W"]
-CK
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]CK
+

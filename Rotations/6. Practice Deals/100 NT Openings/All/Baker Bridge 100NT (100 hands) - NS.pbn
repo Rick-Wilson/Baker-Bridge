@@ -1,8 +1,6 @@
 % PBN 2.1
 % EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:09:57 2025 -0700
+%Content-type: text/x-pbn; charset=UTF-8
 %BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
 %BidAndCardSpacing Thin
 %BoardsPerPage 1
@@ -17,7 +15,6 @@
 %Font:HandRecord "Georgia",11,400,0
 %GutterSize 500,500
 %HRTitleDate 2023.10.17
-%HRTitleEvent ""
 %HRTitleSetID ""
 %HRTitleSetIDPrefix ""
 %HRTitleSite ""
@@ -41,22 +38,23 @@
 %TSTReportOrder ByNumber
 %TSTReportShade Yes
 %Translate "Board %" "Deal %"
+%Creator: CSVtoPBN Version 1.00
+%Created: 2026-01-23 13:57:51
 %sourcefilename BakerBridgeFull.csv
+%HRTitleEvent 100NT
 [Event ""]
-{Baker 100NT 1}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 1}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:KJ964.J73.T52.52 75.K64.KQ74.J986 QT3.Q95.J986.A73 A82.AT82.A3.KQT4"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:A82.AT82.A3.KQT4 KJ964.J73.T52.52 75.K64.KQ74.J986 QT3.Q95.J986.A73"]
+[Auction "N"]
+1NT pass 2NT pass 3NT pass pass pass
 [Result ""]
 {Partner's 2NT bid invites you to bid game if you have a maximum hand. Your 17 points is certainly a maximum so you bid 3NT.
 
@@ -72,30 +70,22 @@ If you win the first or second \S trick you will fail. When you attack \Cs, West
 
 Holding up twice can never hurt, and in this case it is the only way to make the contract.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2NT Pass
-3NT Pass Pass Pass
-[Play "E"]
-S6
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]S6
 
 [Event ""]
-{Baker 100NT 2}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 2}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:K7.JT98.J972.Q95 J98642.4.K653.83 AQ3.K753.T8.KT62 T5.AQ62.AQ4.AJ74"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "2S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:J98642.4.K653.83 AQ3.K753.T8.KT62 T5.AQ62.AQ4.AJ74 K7.JT98.J972.Q95"]
+[Auction "S"]
+1NT pass 2H pass 2S pass pass pass
 [Result ""]
 {In the pre-transfer days you would have bid 2\S with this hand and partner would have passed. Now you make partner bid the \Ss first by saying 2\H. Partner dutifully replies 2\S. What do you say? 
 
@@ -123,30 +113,22 @@ As you see, the \HK is in the wrong place this time, but might be right the next
 
 Usually you should not risk your contract for the sake of an overtrick.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2H Pass
-2S Pass Pass Pass
-[Play "W"]
-C2
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]C2
 
 [Event ""]
-{Baker 100NT 3}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 3}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:QT873.642.95.Q95 J4.A985.JT73.K82 A92.JT73.A64.J63 K65.KQ.KQ82.AT74"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "N:K65.KQ.KQ82.AT74 QT873.642.95.Q95 J4.A985.JT73.K82 A92.JT73.A64.J63"]
+[Auction "N"]
+1NT pass 2C pass 2D pass 2NT pass 3NT pass pass pass
 [Result ""]
 {Partner's 2\C is Stayman convention. With no 4-card Major suit your response is 2\D. Partner now bids 2NT. What do you say? 
 
@@ -166,31 +148,22 @@ If you win the second \S West will still have a \S when he wins the \DA.
 
 But if you hold up your \SK West will have no \S to put his partner in with. }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2C Pass
-2D Pass 2NT Pass
-3NT Pass Pass Pass
-[Play "E"]
-S7
+[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]S7
 
 [Event ""]
-{Baker 100NT 4}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 4}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:AT62.QT76.64.963 Q9.843.KJT82.JT4 J743.KJ95.Q95.85 K85.A2.A73.AKQ72"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "S:Q9.843.KJT82.JT4 J743.KJ95.Q95.85 K85.A2.A73.AKQ72 AT62.QT76.64.963"]
+[Auction "S"]
+2NT pass 3NT pass pass pass
 [Result ""]
 {Even if you wanted to show your \D suit how would you do it? If you bid 3\D it would be a transfer and if you bid 4\D you would have bypassed 3NT, your probable best contract.
 
@@ -216,30 +189,22 @@ When you can see all four hands, including the location of the \DQ, it kind of m
 
 Good Bridge players like to take tricks, but they are not greedy.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-2NT Pass 3NT Pass
-Pass Pass
-[Play "W"]
-H5
+[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]H5
 
 [Event ""]
-{Baker 100NT 5}
 [Site ""]
 [Date ""]
 [Board "5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 5}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:74.965.AT84.T982 KJ853.AJ42.5.A64 96.QT83.J962.QJ3 AQT2.K7.KQ73.K75"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "6S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "N:AQT2.K7.KQ73.K75 74.965.AT84.T982 KJ853.AJ42.5.A64 96.QT83.J962.QJ3"]
+[Auction "N"]
+1NT pass 2H pass 3S pass 4NT pass 5D pass 6S pass pass pass
 [Result ""]
 {Partner's 2\H bid is a transfer; he expects you to bid 2\S. However, with such great \S support and an outside doubleton your hand now revalues to 18 points - more than an opening 1NT. You indicate this with a jump to 3\S. This is called a "Super-Accept".  Partner now bids 4NT. What do you answer? 
 
@@ -257,32 +222,22 @@ You will need to ruff two \Hs in your hand, but the rest of the tricks are yours
 
 If they had been 3-1 you would have had to leave the last trump undrawn until after you had ruffed two \Hs in your hand.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2H Pass
-3S Pass 4NT Pass
-5D Pass 6S Pass
-Pass Pass
-[Play "E"]
-CT
+[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]CT
 
 [Event ""]
-{Baker 100NT 6}
 [Site ""]
 [Date ""]
 [Board "6"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 6}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:T972.A8.T83.T964 AJ6.QJ9752.642.8 Q853.6.KQJ9.A753 K4.KT43.A75.KQJ2"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:AJ6.QJ9752.642.8 Q853.6.KQJ9.A753 K4.KT43.A75.KQJ2 T972.A8.T83.T964"]
+[Auction "S"]
+1NT pass 2D pass 2H pass 4H pass pass pass
 [Result ""]
 {With 10 points and a 6-card \H suit you want to transfer. You say 2\D and partner bids 2\H.  
 
@@ -310,31 +265,22 @@ Win the \DA, play the \SK, then finesse the \SJ. If the finesse works discard a 
 
 When the cards MUST lie in a particular way for the contract to be makeable, just assume that's the way they lie and go for it.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 6, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2D Pass
-2H Pass 4H Pass
-Pass Pass
-[Play "W"]
-DK
+[RotationNote "Board 6, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]DK
 
 [Event ""]
-{Baker 100NT 7}
 [Site ""]
 [Date ""]
 [Board "7"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 7}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:K982.JT98.J2.973 743.AQ72.753.K84 A6.63.QT984.QJT6 QJT5.K54.AK6.A52"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "N:QJT5.K54.AK6.A52 K982.JT98.J2.973 743.AQ72.753.K84 A6.63.QT984.QJT6"]
+[Auction "N"]
+1NT pass 2C pass 2S pass 2NT pass 3NT pass pass pass
 [Result ""]
 {In response to partner's Stayman bid you show your 4-card \S suit. Partner now bids 2NT. What do you say? 
 
@@ -352,31 +298,22 @@ to see if you were lucky.
 
 It only fails if East holds 4 or more \Ss headed by A K.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 7, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2C Pass
-2S Pass 2NT Pass
-3NT Pass Pass Pass
-[Play "E"]
-HJ
+[RotationNote "Board 7, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]HJ
 
 [Event ""]
-{Baker 100NT 8}
 [Site ""]
 [Date ""]
 [Board "8"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 8}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:KQT3.QT63.K752.8 865.K72.AQ9.T643 J92.J85.JT4.J752 A74.A94.863.AKQ9"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:865.K72.AQ9.T643 J92.J85.JT4.J752 A74.A94.863.AKQ9 KQT3.QT63.K752.8"]
+[Auction "S"]
+1NT pass 2NT pass 3NT pass pass pass
 [Result ""]
 {A square hand, no 4-card Major, and 9 points. This is the very hand that the book said to bid 2NT with. And when you do, partner says 3NT which you pass.
 
@@ -396,30 +333,22 @@ But what if East has played the \DT, splitting his honors?
 
 You would put on dummy's \DQ and West would win the \DK. But you aren't down yet! Later you lead another \D toward dummy's \D A 9 and finesse East for the \DJ. }
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 8, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2NT Pass
-3NT Pass Pass Pass
-[Play "W"]
-C2
+[RotationNote "Board 8, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]C2
 
 [Event ""]
-{Baker 100NT 9}
 [Site ""]
 [Date ""]
 [Board "9"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 9}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:QJT93.K764.A.JT3 K762.5.KJ8743.72 5.QT982.92.98654 A84.AJ3.QT65.AKQ"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "5D"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "N:A84.AJ3.QT65.AKQ QJT93.K764.A.JT3 K762.5.KJ8743.72 5.QT982.92.98654"]
+[Auction "N"]
+2NT pass 3C pass 3D pass 4D pass 5D pass pass pass
 [Result ""]
 {Partner's 3\C bid is Stayman; with no 4-card Major you respond 3\D. Partner now bids 4\D. What do you bid? 
 
@@ -441,31 +370,22 @@ The simple solution is to win the first trick with dummy's \SK. Now when East wi
 
 But you are very lucky that you took the time to read this hand so you know how to play safely!}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 9, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-2NT Pass 3C Pass
-3D Pass 4D Pass
-5D Pass Pass Pass
-[Play "E"]
-SQ
+[RotationNote "Board 9, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]SQ
 
 [Event ""]
-{Baker 100NT 10}
 [Site ""]
 [Date ""]
 [Board "10"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 10}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:T954.J8.953.T965 K832.763.AJT4.A4 Q7.KT92.76.KQJ82 AJ6.AQ54.KQ82.73"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "S:K832.763.AJT4.A4 Q7.KT92.76.KQJ82 AJ6.AQ54.KQ82.73 T954.J8.953.T965"]
+[Auction "S"]
+1NT pass 2C pass 2H pass 3NT pass pass pass
 [Result ""]
 {You have 12 points and a 4-card \S suit. To find a possible 4-4 fit you bid 2\C, the Stayman convention. Partner bids 2\H.  
 
@@ -493,31 +413,22 @@ Of course - otherwise the question wouldn't have been asked!You can combine two 
 
 But if she hadn't, you'd still have a 50% chance in \Hs.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 10, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2C Pass
-2H Pass 3NT Pass
-Pass Pass
-[Play "W"]
-CK
+[RotationNote "Board 10, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]CK
 
 [Event ""]
-{Baker 100NT 11}
 [Site ""]
 [Date ""]
 [Board "11"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 11}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:Q95.T9842.K8.T54 A73.J6.AJ762.A63 JT84.K753.QT93.8 K62.AQ.54.KQJ972"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "6C"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:A73.J6.AJ762.A63 JT84.K753.QT93.8 K62.AQ.54.KQJ972 Q95.T9842.K8.T54"]
+[Auction "S"]
+1NT pass 3C pass 4C pass 6C pass pass pass
 [Result ""]
 {You are thinking slam; your first step is a jump to 3\C.
 
@@ -543,31 +454,22 @@ If the suit splits evenly perhaps you can be a little sloppy and still get by.
 
 But in cases like this one, with a 4-2 split, you cannot afford to waste an entry too early.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 11, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 3C Pass
-4C Pass 6C Pass
-Pass Pass
-[Play "E"]
-HT
+[RotationNote "Board 11, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]HT
 
 [Event ""]
-{Baker 100NT 12}
 [Site ""]
 [Date ""]
 [Board "12"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 12}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:K743.QT94.JT.KT7 6.A7532.7642.854 QJ98.KJ.Q985.QJ3 AT52.86.AK3.A962"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "2H"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:6.A7532.7642.854 QJ98.KJ.Q985.QJ3 AT52.86.AK3.A962 K743.QT94.JT.KT7"]
+[Auction "S"]
+1NT pass 2D pass 2H pass pass pass
 [Result ""]
 {This situation comes up a lot. You don't have enough points to advance partner's 1NT opening, but you have a "long suit" that might play better than notrump. If "long suit" is 6 \Hs or 6 \Ss then pretty clearly you should transfer partner to that suit and then pass. But with only 5 of the Major it is tougher to say that 1NT would be an inferior contract. Here's a suggestion - with fewer than 9 points and a 5-card Major, transfer to that suit when you have a singleton or void, otherwise pass 1NT. So here you bid 2\D and partner says 2\H.  
 
@@ -593,30 +495,22 @@ Got the idea? Play a \D to your \DK and ruff your last \S in dummy. Then play th
 
 Here is an example of when that principle is NOT correct; when you need to get several ruffs with small trumps.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 12, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2D Pass
-2H Pass Pass Pass
-[Play "W"]
-SQ
+[RotationNote "Board 12, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]SQ
 
 [Event ""]
-{Baker 100NT 13}
 [Site ""]
 [Date ""]
 [Board "13"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 13}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:85.T42.QJT5.QT94 AJ74.J96.62.7532 Q62.873.K9743.KJ KT93.AKQ5.A8.A86"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4S"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "N:KT93.AKQ5.A8.A86 85.T42.QJT5.QT94 AJ74.J96.62.7532 Q62.873.K9743.KJ"]
+[Auction "N"]
+2NT pass 3C pass 3H pass 3NT pass 4S pass pass pass
 [Result ""]
 {Partner's 3\C bid is Stayman; with 4 cards in both Majors you respond 3\H. Partner now bids 3NT.  What do you bid? 
 
@@ -644,31 +538,22 @@ You could have gone down easily by playing East for the \SQ.
 
 Or you could have made it whoever held the \SQ by using the "improved" plan.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 13, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-2NT Pass 3C Pass
-3H Pass 3NT Pass
-4S Pass Pass Pass
-[Play "E"]
-DQ
+[RotationNote "Board 13, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]DQ
 
 [Event ""]
-{Baker 100NT 14}
 [Site ""]
 [Date ""]
 [Board "14"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 14}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "N:K873.5.KQ942.943 AQ5.J3.AJT3.QJT8 942.AQ8742.6.K75 JT6.KT96.875.A62"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "2HX"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:AQ5.J3.AJT3.QJT8 942.AQ8742.6.K75 JT6.KT96.875.A62 K873.5.KQ942.943"]
+[Auction "E"]
+1NT 2H X pass pass pass
 [Result ""]
 {Sometimes the opponents make overcalls which disrupt the smooth flow of your side's bidding. You and your partner need to have ways of dealing with these disruptions. One possibility is the lebensohl convention which is used a few times in these T0 Deals. There are lots of other methods out there, and you may not care for lebensohl. One of the big reasons we use it is that it includes a penalty double - some other methods use the double for other reasons.
 
@@ -682,30 +567,22 @@ No Declarer Plan for you to make, no tricks to look for.
 
 Just play through the deal as you think it might go and see how many tricks you can set South. Enjoy.}
 [BCFlags "1f"]
-[OriginalRotationBasis "E"]
-[RotationNote "Board 14, chOption: S, chBasis: E, basisKind:Student, nOption:2, nBasis: 1, nRot: 1, useStandardVul: false"]
-[Student "S"]
-[Auction "E"]
-1NT 2H X Pass
-Pass Pass
-[Play "W"]
-SJ
+[RotationNote "Board 14, chOption: S, chBasis: E, basisKind:Declarer, nOption:2, nBasis: 1, nRot: 1, useStandardVul: true"]
+[Play "S"]SJ
 
 [Event ""]
-{Baker 100NT 15}
 [Site ""]
 [Date ""]
 [Board "15"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 15}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:953.JT86.Q972.94 A6.972.KT83.AKQ5 T742.A543.J4.T82 KQJ8.KQ.A65.J763"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "6NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "N:KQJ8.KQ.A65.J763 953.JT86.Q972.94 A6.972.KT83.AKQ5 T742.A543.J4.T82"]
+[Auction "N"]
+1NT pass 4NT pass 6NT pass pass pass
 [Result ""]
 {Partner's 4NT bid is not Blackwood, it is the Quantitative 4NT. He is unsure whether to bid 6NT or not, so is inviting you to do so.
 
@@ -727,30 +604,22 @@ Now play the \SJ and watch East's discard. If he throws the \HT dummy's \H9 will
 
 But not always. Sometimes they just happen, like this one. You were really hoping for the \DQ and \DJ to fall and you fell into the squeeze instead.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 15, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 4NT Pass
-6NT Pass Pass Pass
-[Play "E"]
-HJ
+[RotationNote "Board 15, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]HJ
 
 [Event ""]
-{Baker 100NT 16}
 [Site ""]
 [Date ""]
 [Board "16"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 16}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:T.K74.9842.T6532 Q73.AT53.AJ7.KQ9 AKJ964.J.T53.J74 852.Q9862.KQ6.A8"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:Q73.AT53.AJ7.KQ9 AKJ964.J.T53.J74 852.Q9862.KQ6.A8 T.K74.9842.T6532"]
+[Auction "N"]
+1NT 2S 3H pass 4H pass pass pass
 [Result ""]
 {When partner opens 1NT, interference can easily gum up your smooth bidding sequences. Playing the lebensohl convention, your 3\H bid shows a 5-card suit and is forcing to game.
 
@@ -776,30 +645,22 @@ The fact that East overcalled makes it more likely that he holds more high cards
 
 But think about it. If East does in fact hold the singleton \HK, and if you cleverly drop it by playing dummy's \HA it won't help you. You will then have to lose a trick to West's \HJ.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 16, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT 2S 3H Pass
-4H Pass Pass Pass
-[Play "W"]
-ST
+[RotationNote "Board 16, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]ST
 
 [Event ""]
-{Baker 100NT 17}
 [Site ""]
 [Date ""]
 [Board "17"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 17}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:T85.A62.QJT75.J6 AQ6.8743.83.AT82 973.QJT9.942.Q53 KJ42.K5.AK6.K974"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:KJ42.K5.AK6.K974 T85.A62.QJT75.J6 AQ6.8743.83.AT82 973.QJT9.942.Q53"]
+[Auction "N"]
+1NT pass 2C pass 2S pass 2NT pass 3NT pass pass pass
 [Result ""]
 {In response to partner's Stayman bid you show your 4-card \S suit. Partner now bids 2NT. What do you say? 
 
@@ -817,31 +678,22 @@ East wins the \CJ, but you win the game. East cannot profitably play \Hs, so he 
 
 The key is your ability to choose which defender you want to duck the trick into. }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 17, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2C Pass
-2S Pass 2NT Pass
-3NT Pass Pass Pass
-[Play "E"]
-DQ
+[RotationNote "Board 17, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]DQ
 
 [Event ""]
-{Baker 100NT 18}
 [Site ""]
 [Date ""]
 [Board "18"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 18}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:QJ97.T54.J96.Q96 K862.Q8.A83.K543 T5.AJ962.T754.J8 A43.K73.KQ2.AT72"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:K862.Q8.A83.K543 T5.AJ962.T754.J8 A43.K73.KQ2.AT72 QJ97.T54.J96.Q96"]
+[Auction "S"]
+1NT pass 2C pass 2D pass 3NT pass pass pass
 [Result ""]
 {With 12 points and a 4-card Major suit you automatically use Stayman; bid 2\C. Partner responds 2\D.  
 
@@ -867,31 +719,22 @@ But what if West had figured out what you were going to try and played his \CQ w
 
 He would have been very, very sorry. You would have had no choice but to win the trick, and when East's \CJ fell on the next trick you would have all 4 \C tricks!}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 18, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2C Pass
-2D Pass 3NT Pass
-Pass Pass
-[Play "W"]
-H6
+[RotationNote "Board 18, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]H6
 
 [Event ""]
-{Baker 100NT 19}
 [Site ""]
 [Date ""]
 [Board "19"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 19}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:AQT.J62.QJT8.964 J752.AK985.73.83 K64.QT4.965.T752 983.73.AK42.AKQJ"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "N:983.73.AK42.AKQJ AQT.J62.QJT8.964 J752.AK985.73.83 K64.QT4.965.T752"]
+[Auction "N"]
+1NT pass 2C pass 2D pass 2H pass 3NT pass pass pass
 [Result ""]
 {In response to partner's Stayman bid you bid 2\D to indicate no 4-card Major. Partner now bids 2\H. What do you say? 
 
@@ -913,31 +756,22 @@ Of course you'd look pretty stupid to have those 2 \H winners in dummy and no wa
 
 So you use the duck instead.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 19, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2C Pass
-2D Pass 2H Pass
-3NT Pass Pass Pass
-[Play "E"]
-DQ
+[RotationNote "Board 19, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]DQ
 
 [Event ""]
-{Baker 100NT 20}
 [Site ""]
 [Date ""]
 [Board "20"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 20}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:63.984.A8643.QJ3 J98752.652.K.974 AQ4.QJT3.T72.T65 KT.AK7.QJ95.AK82"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4S"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "S:J98752.652.K.974 AQ4.QJT3.T72.T65 KT.AK7.QJ95.AK82 63.984.A8643.QJ3"]
+[Auction "S"]
+2NT pass 3H pass 3S pass 4S pass pass pass
 [Result ""]
 {With your 6-card Major suit you naturally use a transfer; bid 3\H. Partner responds 3\S.  
 
@@ -961,31 +795,22 @@ Play a small \D to the \DK. West will take this and play another \H to your \HK.
 
 Did you notice that if the opening lead had been a \C instead of a \H you would have used the same technique?}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 20, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-2NT Pass 3H Pass
-3S Pass 4S Pass
-Pass Pass
-[Play "W"]
-HQ
+[RotationNote "Board 20, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]HQ
 
 [Event ""]
-{Baker 100NT 21}
 [Site ""]
 [Date ""]
 [Board "21"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 21}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:T984.Q82.QT.KJ97 J5.AK743.843.632 Q762.J95.KJ97.QT AK3.T6.A652.A854"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "2NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "N:AK3.T6.A652.A854 T984.Q82.QT.KJ97 J5.AK743.843.632 Q762.J95.KJ97.QT"]
+[Auction "N"]
+1NT pass 2D pass 2H pass 2NT pass pass pass
 [Result ""]
 {Partner's 2\D bid is a transfer so you bid 2\H. Partner now bids 2NT. What do you say? 
 
@@ -1005,31 +830,22 @@ An opponent will win the \H, but whatever they return you win one of your Aces. 
 
 But if you had not made the correct plan your good fortune would have been wasted. }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 21, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2D Pass
-2H Pass 2NT Pass
-Pass Pass
-[Play "E"]
-ST
+[RotationNote "Board 21, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]ST
 
 [Event ""]
-{Baker 100NT 22}
 [Site ""]
 [Date ""]
 [Board "22"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 22}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:J3.JT92.J984.QJ9 752.AQ6.AQ653.73 AT864.83.72.KT65 KQ9.K754.KT.A842"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:752.AQ6.AQ653.73 AT864.83.72.KT65 KQ9.K754.KT.A842 J3.JT92.J984.QJ9"]
+[Auction "S"]
+1NT pass 3NT pass pass pass
 [Result ""]
 {You don't have enough points to be thinking about slam and you don't particularly want to play 5\D. So you bid 3NT and everybody passes.
 
@@ -1053,30 +869,22 @@ There is a wonderful "safety play" that will practically guarantee your contract
 
 }
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 22, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 3NT Pass
-Pass Pass
-[Play "W"]
-S6
+[RotationNote "Board 22, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]S6
 
 [Event ""]
-{Baker 100NT 23}
 [Site ""]
 [Date ""]
 [Board "23"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 23}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:84.JT97.T53.AK75 KJ73.A63.KJ92.T4 QT2.85.Q64.J9632 A965.KQ42.A87.Q8"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4S"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "N:A965.KQ42.A87.Q8 84.JT97.T53.AK75 KJ73.A63.KJ92.T4 QT2.85.Q64.J9632"]
+[Auction "N"]
+1NT pass 2C pass 2H pass 3NT pass 4S pass pass pass
 [Result ""]
 {With both Majors, the correct response to Stayman is 2\H. Partner now bids 3NT. What do you say? 
 
@@ -1098,31 +906,22 @@ If East wins the \S you will just have to depend on the \D finesse. But if West 
 
 }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 23, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2C Pass
-2H Pass 3NT Pass
-4S Pass Pass Pass
-[Play "E"]
-CA
+[RotationNote "Board 23, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]CA
 
 [Event ""]
-{Baker 100NT 24}
 [Site ""]
 [Date ""]
 [Board "24"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 24}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:Q52.JT64.QT4.K83 J7.AQ72.83.JT975 AT983.983.KJ5.62 K64.K5.A9762.AQ4"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:J7.AQ72.83.JT975 AT983.983.KJ5.62 K64.K5.A9762.AQ4 Q52.JT64.QT4.K83"]
+[Auction "S"]
+1NT pass 2C pass 2D pass 2NT pass 3NT pass pass pass
 [Result ""]
 {With 9 points you are in the game-invitational range. And with a 4-card \H suit you should use Stayman. You bid 2\C and partner says 2\D. What is your next bid? 
 
@@ -1144,31 +943,22 @@ As it happens, you do have two entries, the \HA and \HQ! You just have to sacrif
 
 You sacrifice one sure \H winner to create a second dummy entry which creates two \C winners.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 24, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2C Pass
-2D Pass 2NT Pass
-3NT Pass Pass Pass
-[Play "W"]
-ST
+[RotationNote "Board 24, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]ST
 
 [Event ""]
-{Baker 100NT 25}
 [Site ""]
 [Date ""]
 [Board "25"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 25}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:K63.KT63.763.972 J94.875.AQJ2.K63 752.QJ94.854.A85 AQT8.A2.KT9.QJT4"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "N:AQT8.A2.KT9.QJT4 K63.KT63.763.972 J94.875.AQJ2.K63 752.QJ94.854.A85"]
+[Auction "N"]
+1NT pass 3NT pass pass pass
 [Result ""]
 {Partner has about 11 points and he has no 4-card Major suit.
 
@@ -1186,30 +976,22 @@ So win the \HA and drive out the \CA. They will take their 2 \H tricks next. If 
 
 While the answer may depend on the opponent, usually you should take their opening lead at face value. After all, their main goal is to give information to their partner, not to deceive you. }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 25, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 3NT Pass
-Pass Pass
-[Play "E"]
-H3
+[RotationNote "Board 25, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]H3
 
 [Event ""]
-{Baker 100NT 26}
 [Site ""]
 [Date ""]
 [Board "26"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 26}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:K974.JT43.Q76.T8 8.AK8652.KT3.J74 QJT52.Q.A952.953 A63.97.J84.AKQ62"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "S:8.AK8652.KT3.J74 QJT52.Q.A952.953 A63.97.J84.AKQ62 K974.JT43.Q76.T8"]
+[Auction "S"]
+1NT pass 2D pass 2H pass 4H pass pass pass
 [Result ""]
 {Who knows whether you should use a transfer or just bid 4\H yourself. Assume you decide on the transfer and bid 2\D. Partner bids 2\H (of course). What do you say now? 
 
@@ -1235,31 +1017,22 @@ The exception is when you have a long suit you wish to run and you can't stand t
 
 This Deal is unusual in that there are two master trumps, but the principle is the same.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 26, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2D Pass
-2H Pass 4H Pass
-Pass Pass
-[Play "W"]
-SQ
+[RotationNote "Board 26, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]SQ
 
 [Event ""]
-{Baker 100NT 27}
 [Site ""]
 [Date ""]
 [Board "27"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 27}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:KT6.JT76.A65.Q75 82.Q9.J73.J98632 QJ953.K43.K82.T4 A74.A852.QT94.AK"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3C"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:A74.A852.QT94.AK KT6.JT76.A65.Q75 82.Q9.J73.J98632 QJ953.K43.K82.T4"]
+[Auction "N"]
+1NT pass 2S pass 3C pass pass pass
 [Result ""]
 {The 2\S bid is used as a transfer to 3\C.
 
@@ -1279,30 +1052,22 @@ The real reason for covering was so you could establish the \H8 by force.
 
 Suppose you had not played the \HQ to trick one. West would have withheld the \HK and you'd have had to take your \HA. Later West would have taken dummy's \HQ with his \HK, then played a small \H through your \H8 to East's \H T 7.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 27, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2S Pass
-3C Pass Pass Pass
-[Play "E"]
-HJ
+[RotationNote "Board 27, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]HJ
 
 [Event ""]
-{Baker 100NT 28}
 [Site ""]
 [Date ""]
 [Board "28"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 28}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:2.JT9.J863.87542 AKJ73.843.A54.K9 964.K652.T7.QJT3 QT85.AQ7.KQ92.A6"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "6S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:AKJ73.843.A54.K9 964.K652.T7.QJT3 QT85.AQ7.KQ92.A6 2.JT9.J863.87542"]
+[Auction "S"]
+1NT pass 2H pass 3S pass 6S pass pass pass
 [Result ""]
 {You could either use a transfer or you could jump to 3\S. You decide on the transfer and bid 2\H. Partner jumps to 3\S! What do you say now? 
 
@@ -1328,31 +1093,22 @@ Your contract just became a sure thing!Play the \CK to strip both your hands of 
 
 But imagine that the \DJ is transposed to the East hand. He wins that \D trick but must give you the contract with his return.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 28, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2H Pass
-3S Pass 6S Pass
-Pass Pass
-[Play "W"]
-CQ
+[RotationNote "Board 28, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]CQ
 
 [Event ""]
-{Baker 100NT 29}
 [Site ""]
 [Date ""]
 [Board "29"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 29}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:Q92.KQJ975.KQ3.6 873.62.754.AKQ53 JT54.84.JT96.J82 AK6.AT3.A82.T974"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "N:AK6.AT3.A82.T974 Q92.KQJ975.KQ3.6 873.62.754.AKQ53 JT54.84.JT96.J82"]
+[Auction "N"]
+1NT 2H 3NT pass pass pass
 [Result ""]
 {Partner's jump to 3NT is a lebensohl method.
 
@@ -1374,30 +1130,22 @@ That's better. Now under the \C A K you can unblock the \C 9 7, which will leave
 
 }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 29, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT 2H 3NT Pass
-Pass Pass
-[Play "E"]
-HK
+[RotationNote "Board 29, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]HK
 
 [Event ""]
-{Baker 100NT 30}
 [Site ""]
 [Date ""]
 [Board "30"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 30}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:6.Q98532.QT.AJ63 KQJ953.KJ7.62.84 T87.T4.K975.KT95 A42.A6.AJ843.Q72"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:KQJ953.KJ7.62.84 T87.T4.K975.KT95 A42.A6.AJ843.Q72 6.Q98532.QT.AJ63"]
+[Auction "S"]
+1NT pass 2H pass 2S pass 4S pass pass pass
 [Result ""]
 {You decide to use a transfer so the lead will be into whatever holding partner has in the minor suits. You bid 2\H and partner bids  2\S. What do you say now? 
 
@@ -1421,31 +1169,22 @@ When you are ruffing, ruff with as high a trump as you can afford.
 
 Here, with only 2 trumps left out, you can afford the \SA.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 30, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2H Pass
-2S Pass 4S Pass
-Pass Pass
-[Play "W"]
-CT
+[RotationNote "Board 30, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]CT
 
 [Event ""]
-{Baker 100NT 31}
 [Site ""]
 [Date ""]
 [Board "31"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 31}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:732.J9743.AT6.92 KT9865.Q.742.KQ6 A.T852.9853.AT87 QJ4.AK6.KQJ.J543"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "N:QJ4.AK6.KQJ.J543 732.J9743.AT6.92 KT9865.Q.742.KQ6 A.T852.9853.AT87"]
+[Auction "N"]
+1NT pass 2H pass 2S pass 4S pass pass pass
 [Result ""]
 {Partner's 2\H bid is a transfer so you bid 2\S. Partner now bids 4\S and you pass. 
 
@@ -1463,31 +1202,22 @@ After you pull trumps you can drive out the \DA and claim the contract.
 
 You had to get rid of dummy's singleton \H first - the fact that it was a winner should not affect your making the correct play.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 31, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2H Pass
-2S Pass 4S Pass
-Pass Pass
-[Play "E"]
-C9
+[RotationNote "Board 31, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]C9
 
 [Event ""]
-{Baker 100NT 32}
 [Site ""]
 [Date ""]
 [Board "32"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 32}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "W:KT72.QJT3.QJ4.A7 53.76.T5.9865432 QJ84.AK5.9862.QT A96.9842.AK73.KJ"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3C"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:QJ84.AK5.9862.QT A96.9842.AK73.KJ KT72.QJT3.QJ4.A7 53.76.T5.9865432"]
+[Auction "E"]
+pass 1NT pass 2S pass 3C pass pass pass
 [Result ""]
 {Many people play Jacoby Transfer convention. Not all of them play that an initial response of 2\S asks partner to bid  3\C. You use that here and reply 3\C. Everybody passes.
 
@@ -1501,31 +1231,22 @@ You may think it is a guess whether to play the \CK or \CJ, but there is no gues
 
 But good players don't forget, they use every bit of information they can get to help them make their contracts. That's why they make more contracts.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 32, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "E"]
-Pass 1NT Pass 2S
-Pass 3C Pass Pass
-Pass
-[Play "W"]
-HQ
+[RotationNote "Board 32, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]HQ
 
 [Event ""]
-{Baker 100NT 33}
 [Site ""]
 [Date ""]
 [Board "33"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 33}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:Q82.J64.J75.9873 754.K97.K862.AQ5 T963.T852.QT9.J6 AKJ.AQ3.A43.KT42"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "6NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AKJ.AQ3.A43.KT42 Q82.J64.J75.9873 754.K97.K862.AQ5 T963.T852.QT9.J6"]
+[Auction "N"]
+2NT pass 4NT pass 6NT pass pass pass
 [Result ""]
 {Partner's 4NT bid is not Blackwood, it is the Quantitative 4NT. He is unsure whether to bid 6NT or not, so is inviting you to do so.
 
@@ -1545,30 +1266,22 @@ Two chances are always better than one. The way to take both chances is to duck 
 
 }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 33, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-2NT Pass 4NT Pass
-6NT Pass Pass Pass
-[Play "E"]
-C9
+[RotationNote "Board 33, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]C9
 
 [Event ""]
-{Baker 100NT 34}
 [Site ""]
 [Date ""]
 [Board "34"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 34}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:QT54.A842.963.T7 A9.QT63.852.QJ94 J73.KJ9.QJT4.852 K862.75.AK7.AK63"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:A9.QT63.852.QJ94 J73.KJ9.QJT4.852 K862.75.AK7.AK63 QT54.A842.963.T7"]
+[Auction "S"]
+1NT pass 2C pass 2S pass 2NT pass 3NT pass pass pass
 [Result ""]
 {With 9 points you have just enough to respond. And with a 4-card Major suit you should use Stayman so you bid 2\C. Partner duly replies 2\S. What do you say now? 
 
@@ -1596,31 +1309,22 @@ East could hold both the \HA and \HK, in which case leading toward dummy's \HQ w
 
 East could hold EITHER \H A J x OR\H K J x in which case finessing dummy's \HJ would be the winning play. This is the more likely distribution of the two.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 34, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2C Pass
-2S Pass 2NT Pass
-3NT Pass Pass Pass
-[Play "W"]
-DQ
+[RotationNote "Board 34, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]DQ
 
 [Event ""]
-{Baker 100NT 35}
 [Site ""]
 [Date ""]
 [Board "35"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 35}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "E:642.83.974.JT743 873.A6.J852.AQ62 KQJT.KJ9754.A.95 A95.QT2.KQT63.K8"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "W:KQJT.KJ9754.A.95 A95.QT2.KQT63.K8 642.83.974.JT743 873.A6.J852.AQ62"]
+[Auction "W"]
+1H 1NT pass 3NT pass pass pass
 [Result ""]
 {You should not make a takeout double with three cards in their suit. A 2\D overcall would be a reasonable choice. But with 15 points, balanced, and a stopper in \Hs a 1NT overcall is probably better.
 
@@ -1640,30 +1344,22 @@ Instead you should grab the first trick with dummy's \HA and start playing \Ds. 
 
 Don't give him the chance.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 35, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "W"]
-1H 1NT Pass 3NT
-Pass Pass Pass
-[Play "E"]
-H8
+[RotationNote "Board 35, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]H8
 
 [Event ""]
-{Baker 100NT 36}
 [Site ""]
 [Date ""]
 [Board "36"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 36}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:T2.K83.T854.QT62 K63.AT5.A762.A75 AQJ974..KQJ3.J83 85.QJ97642.9.K94"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:K63.AT5.A762.A75 AQJ974..KQJ3.J83 85.QJ97642.9.K94 T2.K83.T854.QT62"]
+[Auction "N"]
+1NT 2S 4H pass pass pass
 [Result ""]
 {You would really like to have a transfer bid in this situation, to make North bid \Hs.
 
@@ -1681,30 +1377,22 @@ So do it this way instead. Discard the \C loser on East's \SA! Another \S from E
 
 That was true, so instead you were able to discard it on a loser! }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 36, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT 2S 4H Pass
-Pass Pass
-[Play "W"]
-ST
+[RotationNote "Board 36, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]ST
 
 [Event ""]
-{Baker 100NT 37}
 [Site ""]
 [Date ""]
 [Board "37"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 37}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:92.JT982.94.A976 753.Q3.KJ62.8542 K864.K74.T73.QJ3 AQJT.A65.AQ85.KT"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "N:AQJT.A65.AQ85.KT 92.JT982.94.A976 753.Q3.KJ62.8542 K864.K74.T73.QJ3"]
+[Auction "N"]
+2NT pass 3NT pass pass pass
 [Result ""]
 {You are the Dealer.  
 
@@ -1722,30 +1410,22 @@ That would have been very unlucky.
 
 If you played your \D5 too early you would not have been able to enter dummy three times even when there was a 3-2 split. That would have been very unsmart.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 37, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-2NT Pass 3NT Pass
-Pass Pass
-[Play "E"]
-HJ
+[RotationNote "Board 37, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]HJ
 
 [Event ""]
-{Baker 100NT 38}
 [Site ""]
 [Date ""]
 [Board "38"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 38}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:76.KT7.QJ62.Q762 KJ3.J83.74.JT954 T8542.Q95.K85.83 AQ9.A642.AT93.AK"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:KJ3.J83.74.JT954 T8542.Q95.K85.83 AQ9.A642.AT93.AK 76.KT7.QJ62.Q762"]
+[Auction "S"]
+2NT pass 3NT pass pass pass
 [Result ""]
 {You have 6 HCP and a 5-card suit. Although you can't be sure, there is a good chance your hand will be useful to partner.
 
@@ -1767,30 +1447,22 @@ Those two entries can only be the \SK and \SJ. So you absolutely MUST win the fi
 
 You can only win 3 \S tricks however you play it, so you play to suit your entry needs.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 38, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-2NT Pass 3NT Pass
-Pass Pass
-[Play "W"]
-S4
+[RotationNote "Board 38, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]S4
 
 [Event ""]
-{Baker 100NT 39}
 [Site ""]
 [Date ""]
 [Board "39"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 39}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:KT862.QT4.J843.6 74.K752.95.AQ843 Q93.J98.QT72.K75 AJ5.A63.AK6.JT92"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "N:AJ5.A63.AK6.JT92 KT862.QT4.J843.6 74.K752.95.AQ843 Q93.J98.QT72.K75"]
+[Auction "N"]
+1NT pass 2C pass 2D pass 2NT pass 3NT pass pass pass
 [Result ""]
 {With no 4-card Major suit you respond 2\D to partner's Stayman bid. Partner now bids 2NT. What do you say? 
 
@@ -1814,31 +1486,22 @@ The answer key lies in the \C suit. You will be finessing through East, so West 
 
 But, if you hold up your \SA until the third round, West will have no \S left when he wins the \CK.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 39, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2C Pass
-2D Pass 2NT Pass
-3NT Pass Pass Pass
-[Play "E"]
-S6
+[RotationNote "Board 39, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]S6
 
 [Event ""]
-{Baker 100NT 40}
 [Site ""]
 [Date ""]
 [Board "40"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 40}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:T94.5.Q962.AT972 AQ3.K7.AJT4.K865 87.A9862.K75.QJ3 KJ652.QJT43.83.4"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AQ3.K7.AJT4.K865 87.A9862.K75.QJ3 KJ652.QJT43.83.4 T94.5.Q962.AT972"]
+[Auction "N"]
+1NT pass 2D pass 2H pass 2S pass 4S pass pass pass
 [Result ""]
 {When you are 5-5 in the Majors you can transfer to either suit. Most will say transfer first to \Hs when you have invitational strength. So you bid 2\D.
 
@@ -1862,31 +1525,22 @@ But it was very very lucky that the ruffer happened to be the defender with thre
 
 That meant you could pull trumps with two pulls, leaving that one important one in dummy.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 40, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2D Pass
-2H Pass 2S Pass
-4S Pass Pass Pass
-[Play "W"]
-H5
+[RotationNote "Board 40, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]H5
 
 [Event ""]
-{Baker 100NT 41}
 [Site ""]
 [Date ""]
 [Board "41"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 41}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:Q75.QJT852.A3.Q5 K82.64.QJ986.A76 T963.93.K5.T9842 AJ4.AK7.T742.KJ3"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "N:AJ4.AK7.T742.KJ3 Q75.QJT852.A3.Q5 K82.64.QJ986.A76 T963.93.K5.T9842"]
+[Auction "N"]
+1NT 2H 3D pass 3NT pass pass pass
 [Result ""]
 {Partner's 3\D bid shows a 5-card suit and is forcing to game. While 5\D is possibly the best contract your double \H stopper should sway you to 3NT instead. This is the old "9 tricks are easier than 11" principle.
 
@@ -1904,30 +1558,22 @@ On the other hand, if East takes the first \D trick he can certainly drive out y
 
 Finally, if East had only a 5-card \H suit, good defense would beat you. But they have to be sure West wins the first \D trick, and they might slip up. }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 41, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT 2H 3D Pass
-3NT Pass Pass Pass
-[Play "E"]
-HQ
+[RotationNote "Board 41, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]HQ
 
 [Event ""]
-{Baker 100NT 42}
 [Site ""]
 [Date ""]
 [Board "42"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 42}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:A74.KT42.J974.QJ K5.J753.Q62.8542 QT832.Q96.8.T973 J96.A8.AKT53.AK6"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "S:K5.J753.Q62.8542 QT832.Q96.8.T973 J96.A8.AKT53.AK6 A74.KT42.J974.QJ"]
+[Auction "S"]
+2NT pass 3C pass 3D pass 3NT pass pass pass
 [Result ""]
 {Partner's 2NT opening shows 20-21 points so you know you want to be in game. To find out which game you bid a Stayman 3\C. Partner replies 3\D. What do you say now? 
 
@@ -1953,31 +1599,22 @@ Suppose your first \D play had been dummy's \DQ. You could make your contract if
 
 By taking the SECOND \D trick with dummy's \DQ the 4-1 split is exposed at the right time.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 42, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-2NT Pass 3C Pass
-3D Pass 3NT Pass
-Pass Pass
-[Play "W"]
-S3
+[RotationNote "Board 42, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]S3
 
 [Event ""]
-{Baker 100NT 43}
 [Site ""]
 [Date ""]
 [Board "43"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 43}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:QJT52.84.J83.Q96 84.JT973.642.KJ5 97.K652.KQ9.T742 AK63.AQ.AT75.A83"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AK63.AQ.AT75.A83 QJT52.84.J83.Q96 84.JT973.642.KJ5 97.K652.KQ9.T742"]
+[Auction "N"]
+2NT pass 3D pass 3H pass 3NT pass pass pass
 [Result ""]
 {Partner's 3\D bid is a transfer; you dutifully reply 3\H. Partner now bids 3NT. What do you say? 
 
@@ -1999,31 +1636,22 @@ Now you are desperate. You need two entries to dummy, one so you can play \Hs to
 
 But don't get too smug. A lot of the plays work in these practice deals because they are set up to reward the correct Plan. In real life finesses only work half the time.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 43, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-2NT Pass 3D Pass
-3H Pass 3NT Pass
-Pass Pass
-[Play "E"]
-SQ
+[RotationNote "Board 43, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]SQ
 
 [Event ""]
-{Baker 100NT 44}
 [Site ""]
 [Date ""]
 [Board "44"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 44}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:K983.4.Q96.K9865 642.AQJT63.54.73 QT7.K982.JT82.QT AJ5.75.AK73.AJ42"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:642.AQJT63.54.73 QT7.K982.JT82.QT AJ5.75.AK73.AJ42 K983.4.Q96.K9865"]
+[Auction "S"]
+1NT pass 2D pass 2H pass 3H pass 4H pass pass pass
 [Result ""]
 {You have 9 points, an invitational strength hand. With 6 \Hs you transfer partner by bidding 2\D. Partner replies 2\H. What do you say now? 
 
@@ -2051,31 +1679,22 @@ The coup is accomplished by ruffing to shorten the trump holding so you won't ha
 
 Pretty much like this hand.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 44, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2D Pass
-2H Pass 3H Pass
-4H Pass Pass Pass
-[Play "W"]
-DJ
+[RotationNote "Board 44, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]DJ
 
 [Event ""]
-{Baker 100NT 45}
 [Site ""]
 [Date ""]
 [Board "45"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 45}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:KQT4.9862.54.853 A63.KQ73.Q87.J72 852.JT4.962.QT94 J97.A5.AKJT3.AK6"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "6NT"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "N:J97.A5.AKJT3.AK6 KQT4.9862.54.853 A63.KQ73.Q87.J72 852.JT4.962.QT94"]
+[Auction "N"]
+2NT pass 4NT pass 6NT pass pass pass
 [Result ""]
 {Because of his 3-4-3-3 distribution, partner chose not to look for a \H fit. If he had opted for Stayman the contract would have turned out the same. The 4NT response is quantitative, inviting you to bid 6NT if you have a maximum.
 
@@ -2097,30 +1716,22 @@ If East has thrown the \SQ you win your \SJ and dummy's two high \Hs. But since 
 
 You were lucky it wasn't West with the 4 \Hs.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 45, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-2NT Pass 4NT Pass
-6NT Pass Pass Pass
-[Play "E"]
-SK
+[RotationNote "Board 45, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]SK
 
 [Event ""]
-{Baker 100NT 46}
 [Site ""]
 [Date ""]
 [Board "46"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 46}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:73.T974.K76542.T J9862.Q2.AQ.8743 T5.AK65.JT3.QJ95 AKQ4.J83.98.AK62"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AKQ4.J83.98.AK62 73.T974.K76542.T J9862.Q2.AQ.8743 T5.AK65.JT3.QJ95"]
+[Auction "S"]
+1NT pass 2H pass 3S pass 4S pass pass pass
 [Result ""]
 {Partner expects you to bid 2\S.
 
@@ -2144,31 +1755,22 @@ But what if the \DK was actually with East, and the \Cs were splitting 3-2 all t
 
 You pull trumps first, then play two top \Cs. When both defenders follow you give up a \C. West wins and plays a \D, but you go up with dummy's \DA, enter your hand with a trump and NOW discard that \DQ on your good \C. }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 46, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2H Pass
-3S Pass 4S Pass
-Pass Pass
-[Play "W"]
-HT
+[RotationNote "Board 46, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]HT
 
 [Event ""]
-{Baker 100NT 47}
 [Site ""]
 [Date ""]
 [Board "47"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 47}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "E:8753.96.QJ85.A75 KJ4.75.A742.QT62 A62.QJT843.93.84 QT9.AK2.KT6.KJ93"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "W:A62.QJT843.93.84 QT9.AK2.KT6.KJ93 8753.96.QJ85.A75 KJ4.75.A742.QT62"]
+[Auction "W"]
+2H 2NT pass 3NT pass pass pass
 [Result ""]
 {You should be sure you and partner are on the same page with this bid. A 2NT overcall over a Weak-2 opener shows the same hand as a 1NT overcall over a 1 of a suit opener. In other words, 15-18 points, and at least 1 (preferably 2), stoppers in their suit.
 
@@ -2192,30 +1794,22 @@ If you win the first trick and then play \Cs, you will be unlucky. East will  ta
 
 If you hold up on first trick luck won't come into it. It will no longer matter which black suit you establish first.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 47, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "W"]
-2H 2NT Pass 3NT
-Pass Pass Pass
-[Play "E"]
-H9
+[RotationNote "Board 47, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]H9
 
 [Event ""]
-{Baker 100NT 48}
 [Site ""]
 [Date ""]
 [Board "48"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 48}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:JT95.73.JT74.743 Q63.842.Q8.KQT96 K82.QJT96.K952.A A74.AK5.A63.J852"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:Q63.842.Q8.KQT96 K82.QJT96.K952.A A74.AK5.A63.J852 JT95.73.JT74.743"]
+[Auction "S"]
+1NT 2H 3C pass 3NT pass pass pass
 [Result ""]
 {After the overcall of your partner's opening 1NT you must make a quick decision with this type of hand:Force to game or settle for partscore. Using lebensohl, a suit bid at the 3-level shows a 5-card or longer suit and is game forcing. You go for it by bidding 3\C (not Stayman) and partner says 3NT.
 
@@ -2235,30 +1829,22 @@ East has 3 \H winners in his hand. There is a good chance that he has the \SK an
 
 Always keep in the back of your mind the possibility of an elimination play. In this Deal that meant you needed to refuse the hold-up because you would need the third \H to throw East in with.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 48, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT 2H 3C Pass
-3NT Pass Pass Pass
-[Play "W"]
-HQ
+[RotationNote "Board 48, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]HQ
 
 [Event ""]
-{Baker 100NT 49}
 [Site ""]
 [Date ""]
 [Board "49"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 49}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:T.KQT9.QJ53.9542 AK7632.653.7.T86 QJ95.J4.KT82.J73 84.A872.A964.AKQ"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:84.A872.A964.AKQ T.KQT9.QJ53.9542 AK7632.653.7.T86 QJ95.J4.KT82.J73"]
+[Auction "N"]
+1NT pass 2H pass 2S pass 3S pass 4S pass pass pass
 [Result ""]
 {Partner's 2\H bid is a transfer; you respond 2\S. Partner now bids 3\S.  What do you bid? 
 
@@ -2284,31 +1870,22 @@ When they split badly, sometimes you can recover by ruffing with small trumps wh
 
 This is called "trump elopement".}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 49, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2H Pass
-2S Pass 3S Pass
-4S Pass Pass Pass
-[Play "E"]
-HK
+[RotationNote "Board 49, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]HK
 
 [Event ""]
-{Baker 100NT 50}
 [Site ""]
 [Date ""]
 [Board "50"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 50}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:T942.JT43.54.T85 876.Q85.AJ2.KQJ3 Q53.K96.T983.762 AKJ.A72.KQ76.A94"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "6NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:876.Q85.AJ2.KQJ3 Q53.K96.T983.762 AKJ.A72.KQ76.A94 T942.JT43.54.T85"]
+[Auction "S"]
+2NT pass 6NT pass pass pass
 [Result ""]
 {Sometimes bidding is easy. Partner has 20 or 21 points, balanced. You have 13 points, balanced. Total = 33 or 34 points, balanced. So you close your eyes and bid 6NT.
 
@@ -2334,30 +1911,22 @@ If the \SQ is in a favorable position, (with West), you are always going to make
 
 But if only the \HK is in a favorable position, (with East), you can make the contract only if you try \Hs first.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 50, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-2NT Pass 6NT Pass
-Pass Pass
-[Play "W"]
-DT
+[RotationNote "Board 50, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]DT
 
 [Event ""]
-{Baker 100NT 51}
 [Site ""]
 [Date ""]
 [Board "51"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 51}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:963.AT98.AQ5.JT9 742.KQJ65.73.A83 T85.3.KT92.76542 AKQJ.742.J864.KQ"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4H"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "N:AKQJ.742.J864.KQ 963.AT98.AQ5.JT9 742.KQJ65.73.A83 T85.3.KT92.76542"]
+[Auction "N"]
+1NT pass 2D pass 2H pass 3NT pass 4H pass pass pass
 [Result ""]
 {Partner's 2\D bid is a transfer; you respond 2\H. Partner now bids 3NT.  What do you bid? 
 
@@ -2381,31 +1950,22 @@ In fact it would only occur perhaps one time in seven.
 
 But there is no reason to go down once every seven times when you don't need to.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 51, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2D Pass
-2H Pass 3NT Pass
-4H Pass Pass Pass
-[Play "E"]
-CJ
+[RotationNote "Board 51, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]CJ
 
 [Event ""]
-{Baker 100NT 52}
 [Site ""]
 [Date ""]
 [Board "52"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 52}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:8763.94.T52.QJT4 AKJ5.AJT5.A64.83 T92.Q73.987.K962 Q4.K862.KQJ3.A75"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:Q4.K862.KQJ3.A75 8763.94.T52.QJT4 AKJ5.AJT5.A64.83 T92.Q73.987.K962"]
+[Auction "S"]
+1NT pass 2C pass 2H pass 6H pass pass pass
 [Result ""]
 {The 2\C bid was Stayman, so you bid your \Hs.
 
@@ -2425,31 +1985,22 @@ Pretty good odds, better than the going rate for finesses, which is 50% off.
 
 There was an alternate plan, just as good. After taking the two top trumps, run the \Ss, discarding two \Cs from your hand. As you see, either would have worked.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 52, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2C Pass
-2H Pass 6H Pass
-Pass Pass
-[Play "W"]
-CQ
+[RotationNote "Board 52, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]CQ
 
 [Event ""]
-{Baker 100NT 53}
 [Site ""]
 [Date ""]
 [Board "53"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 53}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:AT853.K5.8743.93 62.AT9.T65.KQ764 K97.87642.A9.T82 QJ4.QJ3.KQJ2.AJ5"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "N:QJ4.QJ3.KQJ2.AJ5 AT853.K5.8743.93 62.AT9.T65.KQ764 K97.87642.A9.T82"]
+[Auction "N"]
+1NT pass 2NT pass 3NT pass pass pass
 [Result ""]
 {Partner's 2NT bid invites you to bid game if you have a maximum hand. You aren't thrilled by all the Quacks in your hand but with 17 points you bid 3NT.
 
@@ -2465,30 +2016,22 @@ As much as you hate to put your contract in the hands of a 50% finesse chance, t
 
 So you have to play well and stay away from \Ds. }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 53, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2NT Pass
-3NT Pass Pass Pass
-[Play "E"]
-S5
+[RotationNote "Board 53, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]S5
 
 [Event ""]
-{Baker 100NT 54}
 [Site ""]
 [Date ""]
 [Board "54"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 54}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:QJT6.6.K8542.Q93 AK54.A32.QJT.J76 9832.T4.9763.KT5 7.KQJ9875.A.A842"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AK54.A32.QJT.J76 9832.T4.9763.KT5 7.KQJ9875.A.A842 QJT6.6.K8542.Q93"]
+[Auction "N"]
+1NT pass 4C pass 4S pass 6H pass pass pass
 [Result ""]
 {There would be nothing wrong with a transfer bid here, but probably no advantage either. What you really want to know is how many Aces partner has. So you ask him with a Gerber 4\C bid.
 
@@ -2516,31 +2059,22 @@ If East held the \DK the play would be slightly different; you would have to ruf
 
 Did you notice that you started with 3 \C losers and no \D loser, but you ended up losing 1 \D and no \Cs?}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 54, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 4C Pass
-4S Pass 6H Pass
-Pass Pass
-[Play "W"]
-SQ
+[RotationNote "Board 54, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]SQ
 
 [Event ""]
-{Baker 100NT 55}
 [Site ""]
 [Date ""]
 [Board "55"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 55}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:QJ.KQ3.QJT965.76 843.95.A73.KQ953 T765.JT62.8.A842 AK92.A874.K42.JT"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "N:AK92.A874.K42.JT QJ.KQ3.QJT965.76 843.95.A73.KQ953 T765.JT62.8.A842"]
+[Auction "N"]
+1NT 2D 2NT pass 3C pass 3NT pass pass pass
 [Result ""]
 {Partner's 2NT is the lebensohl convention. He requests that you bid 3\C as a relay, which you do. Partner now bids 3NT. What do you say? 
 
@@ -2560,31 +2094,22 @@ You have to assume that defenders good enough to hold up their \CA at the first 
 
 Then you will lose all those \C tricks in dummy.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 55, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT 2D 2NT Pass
-3C Pass 3NT Pass
-Pass Pass
-[Play "E"]
-DQ
+[RotationNote "Board 55, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]DQ
 
 [Event ""]
-{Baker 100NT 56}
 [Site ""]
 [Date ""]
 [Board "56"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 56}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "E:KJ7.K53.AQJ8.753 53.AJ862.752.KJ9 T964.74.963.Q842 AQ82.QT9.KT4.AT6"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:KJ7.K53.AQJ8.753 53.AJ862.752.KJ9 T964.74.963.Q842 AQ82.QT9.KT4.AT6"]
+[Auction "E"]
+1D 1NT pass 2D pass 2H pass 3NT pass 4H pass pass pass
 [Result ""]
 {<i></i>The question is: Do you use Transfers after a 1NT OVERCALL? And in particular, can you bid the opponent's suit and have it mean a transfer instead of a cue-bid? This is something you and your partner need to agree on - as for me and my partner, we think 2\D is a transfer. Partner replies 2\H. What do you say now? 
 
@@ -2610,32 +2135,22 @@ No, it is not a 50-50 guess. No, West doesn't have the \CQ, East does. If you wa
 
 But if you don't pay attention on all T0 of them you will miss the one time where your attention was needed.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 56, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "E"]
-1D 1NT Pass 2D
-Pass 2H Pass 3NT
-Pass 4H Pass Pass
-Pass
-[Play "W"]
-D9
+[RotationNote "Board 56, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]D9
 
 [Event ""]
-{Baker 100NT 57}
 [Site ""]
 [Date ""]
 [Board "57"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 57}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:QJT2.J86.A3.J742 8654.AK2.Q4.AKT3 AK9.QT54.JT9.Q86 73.973.K87652.95"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3D"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:8654.AK2.Q4.AKT3 AK9.QT54.JT9.Q86 73.973.K87652.95 QJT2.J86.A3.J742"]
+[Auction "S"]
+1NT pass 2S pass 3C pass 3D pass pass pass
 [Result ""]
 {In the old days (before transfer bids) you could have just bid a "drop-dead" 2\D. But those days are gone so you must improvise. You bid 2\S, transferring partner to \Cs.
 
@@ -2661,31 +2176,22 @@ When this happens you should play as if they actually DO lie in that way, even t
 
 This hand is a perfect example - your only hope was for East to hold \D A x, so -  you base your plan on East holding \D A x.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 57, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2S Pass
-3C Pass 3D Pass
-Pass Pass
-[Play "E"]
-SQ
+[RotationNote "Board 57, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]SQ
 
 [Event ""]
-{Baker 100NT 58}
 [Site ""]
 [Date ""]
 [Board "58"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 58}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:A765.75.KT94.J98 KQT93.QJ4.85.652 82.K9863.Q73.QT4 J4.AT2.AJ62.AK73"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "S:KQT93.QJ4.85.652 82.K9863.Q73.QT4 J4.AT2.AJ62.AK73 A765.75.KT94.J98"]
+[Auction "S"]
+1NT pass 2H pass 2S pass 2NT pass 3NT pass pass pass
 [Result ""]
 {With 9 points and a 5-card Major suit you should definitely transfer, so you bid 2\H. Partner replies 2\S. What do you say now? 
 
@@ -2713,31 +2219,22 @@ But if you take the first trick with a "spendthrift" \HA then dummy's \H Q J wil
 
 And notice - no matter which way you play it you still end up with exactly 2 \H tricks. So the play doesn't cost a trick, it just gains an entry.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 58, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2H Pass
-2S Pass 2NT Pass
-3NT Pass Pass Pass
-[Play "W"]
-H6
+[RotationNote "Board 58, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]H6
 
 [Event ""]
-{Baker 100NT 59}
 [Site ""]
 [Date ""]
 [Board "59"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 59}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:.QJ953.Q972.9765 KQ9653.62.J5.KT4 T84.KT74.T83.Q82 AJ72.A8.AK64.AJ3"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "6S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AJ72.A8.AK64.AJ3 .QJ953.Q972.9765 KQ9653.62.J5.KT4 T84.KT74.T83.Q82"]
+[Auction "N"]
+2NT pass 3H pass 4S pass 6S pass pass pass
 [Result ""]
 {With a maximum 2NT opener, 4 of partner's \Ss and a doubleton you jump to 4\S, the Super-Accept.
 
@@ -2759,31 +2256,22 @@ If you knew who held the \CQ then you wouldn't have to learn Elimination plays.
 
 You now play the \H, eliminating that suit from both hands. Whichever defender wins the trick must either play another \H and give you a ruff/sluff, or play a \C and give you a free finesse. Either way you will make the slam.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 59, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-2NT Pass 3H Pass
-4S Pass 6S Pass
-Pass Pass
-[Play "E"]
-HQ
+[RotationNote "Board 59, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]HQ
 
 [Event ""]
-{Baker 100NT 60}
 [Site ""]
 [Date ""]
 [Board "60"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 60}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:T9753.K87.QT.J84 J2.654.A8763.965 864.QT9.KJ5.QT72 AKQ.AJ32.942.AK3"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:J2.654.A8763.965 864.QT9.KJ5.QT72 AKQ.AJ32.942.AK3 T9753.K87.QT.J84"]
+[Auction "S"]
+2NT pass 3NT pass pass pass
 [Result ""]
 {Partner has 20 or 21 points, balanced, and you have 6. You bid 3NT, hoping partner has \D K Q x.
 
@@ -2807,30 +2295,22 @@ They can now cash their 2 \Cs, and you had to give them 2 \Ds. But that's the on
 
 In this case it was a double-duck.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 60, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-2NT Pass 3NT Pass
-Pass Pass
-[Play "W"]
-C2
+[RotationNote "Board 60, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]C2
 
 [Event ""]
-{Baker 100NT 61}
 [Site ""]
 [Date ""]
 [Board "61"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 61}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:T2.T9742.KT83.Q6 AQJ9876.5.AJ5.94 3.KQ863.Q94.JT72 K54.AJ.762.AK853"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "6S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AQJ9876.5.AJ5.94 3.KQ863.Q94.JT72 K54.AJ.762.AK853 T2.T9742.KT83.Q6"]
+[Auction "N"]
+1NT pass 2H pass 2S pass 6S pass pass pass
 [Result ""]
 {Wow. You can tell that this is going to be tough to bid scientifically. You decide to start with a transfer bid, 2\H. Partner replies 2\S. What do you say now? 
 
@@ -2860,31 +2340,22 @@ But what if the contract had been 7\S?
 
 Obviously you couldn't afford to lose a trick so you would have to bang down the two top \Cs, then ruff one and hope the suit was splitting 3-3.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 61, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2H Pass
-2S Pass 6S Pass
-Pass Pass
-[Play "E"]
-HK
+[RotationNote "Board 61, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+[Play "E"]HK
 
 [Event ""]
-{Baker 100NT 62}
 [Site ""]
 [Date ""]
 [Board "62"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 62}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:863.T752.52.A874 Q94.J84.AJ6.K953 A72.963.KQ9874.6 KJT5.AKQ.T3.QJT2"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:Q94.J84.AJ6.K953 A72.963.KQ9874.6 KJT5.AKQ.T3.QJT2 863.T752.52.A874"]
+[Auction "S"]
+1NT 2D 2NT pass 3C pass 3NT pass pass pass
 [Result ""]
 {When using lebensohl, a 2NT bid over an enemy overcall asks partner to bid 3\C. So partner replies 3\C. What do you say now? 
 
@@ -2912,31 +2383,22 @@ But if you hold up on the first trick and win the continuation, you will succeed
 
 The holdup would of course fail if East held both black Aces, but in this case no Plan would succeed.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 62, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT 2D 2NT Pass
-3C Pass 3NT Pass
-Pass Pass
-[Play "W"]
-DK
+[RotationNote "Board 62, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]DK
 
 [Event ""]
-{Baker 100NT 63}
 [Site ""]
 [Date ""]
 [Board "63"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 63}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:A82.652.84.AJ963 T94.Q83.AT72.K84 J763.JT94.K53.T7 KQ5.AK7.QJ96.Q52"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "N:KQ5.AK7.QJ96.Q52 A82.652.84.AJ963 T94.Q83.AT72.K84 J763.JT94.K53.T7"]
+[Auction "N"]
+1NT pass 2NT pass 3NT pass pass pass
 [Result ""]
 {Partner's 2NT bid invites you to bid game if you have a maximum hand. With 17 points you bid the game.
 
@@ -2956,30 +2418,22 @@ Play \Ss first and even though East can win and establish \Cs West will not have
 
 It goes without saying that if your \SK holds the trick you immediately switch to \Ds.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 63, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2NT Pass
-3NT Pass Pass Pass
-[Play "E"]
-C6
+[RotationNote "Board 63, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]C6
 
 [Event ""]
-{Baker 100NT 64}
 [Site ""]
 [Date ""]
 [Board "64"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 64}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:93.652.JT42.JT85 AQ5.KJ4.KQ63.K32 87642.T983.98.96 KJT.AQ7.A75.AQ74"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "7NT"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:AQ5.KJ4.KQ63.K32 87642.T983.98.96 KJT.AQ7.A75.AQ74 93.652.JT42.JT85"]
+[Auction "S"]
+2NT pass 7NT pass pass pass
 [Result ""]
 {Partner has 20 or 21 points, balanced, and you have 18. You've always wanted to do this haven't you?
 
@@ -3003,30 +2457,22 @@ When you play your sixth Major suit winner West is squeezed and must discard fro
 
 This is an Automatic Squeeze, which just means you don't have to do any preparatory work. All you have to do is play off all your non-threat winners before you play the squeezing suits.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 64, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-2NT Pass 7NT Pass
-Pass Pass
-[Play "W"]
-HT
+[RotationNote "Board 64, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]HT
 
 [Event ""]
-{Baker 100NT 65}
 [Site ""]
 [Date ""]
 [Board "65"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 65}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:A6.K92.KJ3.J8732 K98754.754.986.Q JT2.QJT3.AT4.T65 Q3.A86.Q752.AK94"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "2S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:K98754.754.986.Q JT2.QJT3.AT4.T65 Q3.A86.Q752.AK94 A6.K92.KJ3.J8732"]
+[Auction "N"]
+1NT pass 2H pass 2S pass pass pass
 [Result ""]
 {Surely this hand will play better in \Ss than in notrump. So you transfer with 2\H and partner bids 2\S. What do you say now? 
 
@@ -3052,30 +2498,22 @@ It depends on East. If he ducked the low \S then you could get TWO discards and 
 
 The method given here gives up the possibility of an overtrick for an improved chance of making the contract. You choose.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 65, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2H Pass
-2S Pass Pass Pass
-[Play "E"]
-HQ
+[RotationNote "Board 65, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+[Play "E"]HQ
 
 [Event ""]
-{Baker 100NT 66}
 [Site ""]
 [Date ""]
 [Board "66"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 66}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:8.752.JT73.K9852 QT94.AQ86.AK.AJ4 KJ62.3.9842.QT63 A753.KJT94.Q65.7"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:A753.KJT94.Q65.7 8.752.JT73.K9852 QT94.AQ86.AK.AJ4 KJ62.3.9842.QT63"]
+[Auction "S"]
+2NT pass 3C pass 3H pass 6H pass pass pass
 [Result ""]
 {First find out about Major suit fits by bidding Stayman. So bid 3\C and partner says 3\H. What now? 
 
@@ -3101,31 +2539,22 @@ If East led the singleton \S8 then you had better play the \SA or you will be do
 
 It is unlikely that East would lead the \S8 from any holding containing one or both of the honors.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 66, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-2NT Pass 3C Pass
-3H Pass 6H Pass
-Pass Pass
-[Play "W"]
-S8
+[RotationNote "Board 66, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]S8
 
 [Event ""]
-{Baker 100NT 67}
 [Site ""]
 [Date ""]
 [Board "67"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 67}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:QJT42.T.A9543.76 75.K853.T.AQ9842 986.QJ92.KQJ7.T5 AK3.A764.862.KJ3"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:75.K853.T.AQ9842 986.QJ92.KQJ7.T5 AK3.A764.862.KJ3 QJT42.T.A9543.76"]
+[Auction "N"]
+1NT pass 2C pass 2H pass 4H pass pass pass
 [Result ""]
 {Never mind trying to decide how to show the \C suit; with a 4-card Major your obligation is to use Stayman.
 
@@ -3153,31 +2582,22 @@ Instead just start playing good \Cs. West can ruff in whenever he wants but you 
 
 Here that principle applied even though there were TWO master trumps out.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 67, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2C Pass
-2H Pass 4H Pass
-Pass Pass
-[Play "E"]
-DK
+[RotationNote "Board 67, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+[Play "E"]DK
 
 [Event ""]
-{Baker 100NT 68}
 [Site ""]
 [Date ""]
 [Board "68"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 68}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:852.QT52.9742.K8 KQ3.A73.QJ3.T963 T974.J96.T85.AQJ AJ6.K84.AK6.7542"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "S:KQ3.A73.QJ3.T963 T974.J96.T85.AQJ AJ6.K84.AK6.7542 852.QT52.9742.K8"]
+[Auction "S"]
+1NT pass 3NT pass pass pass
 [Result ""]
 {With 12 points and no 4-card Major suit this one is easy. You bid 3NT of course.
 
@@ -3201,30 +2621,22 @@ And you did it without going down because the \Ss split 4-3.
 
 This may seem lucky to you, but don't knock it, it was your ONLY chance.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 68, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 3NT Pass
-Pass Pass
-[Play "W"]
-ST
+[RotationNote "Board 68, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]ST
 
 [Event ""]
-{Baker 100NT 69}
 [Site ""]
 [Date ""]
 [Board "69"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 69}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:T974.87.853.KQ52 J62.AKJ642.K.J64 K83.5.Q9642.T973 AQ5.QT93.AJT7.A8"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:J62.AKJ642.K.J64 K83.5.Q9642.T973 AQ5.QT93.AJT7.A8 T974.87.853.KQ52"]
+[Auction "N"]
+1NT pass 2D pass 3H pass 4NT pass 5S pass 6H all pass
 [Result ""]
 {Your partnership may play that a jump to 3\H shows a 6-card suit with slam interest, in other words, this very hand. If you do, then bid it. If you don't, use a transfer first. Let's say you bid 2\D. Partner jumps to 3\H. Now what do you bid? 
 
@@ -3254,32 +2666,22 @@ No problem. You ruff in dummy, come back to your hand with a trump and THEN disc
 
 You can try the \S finesse then, but you will make the slam whether it works or not.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 69, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2D Pass
-3H Pass 4NT Pass
-5S Pass 6H ALL
-Pass
-[Play "E"]
-CT
+[RotationNote "Board 69, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+[Play "E"]CT
 
 [Event ""]
-{Baker 100NT 70}
 [Site ""]
 [Date ""]
 [Board "70"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 70}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "E:Q95.KQ863.K62.A3 K63.742.QT9.8542 T874.J9.8543.KQT AJ2.AT5.AJ7.J976"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "1NT"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "E:Q95.KQ863.K62.A3 K63.742.QT9.8542 T874.J9.8543.KQT AJ2.AT5.AJ7.J976"]
+[Auction "E"]
+1H 1NT pass pass pass
 [Result ""]
 {With no reason to think you could improve the contract you just pass.
 
@@ -3299,30 +2701,22 @@ Finesse the \D again. If West ducks a second time you must now take the \S fines
 
 And you have to be careful to unblock so you don't inadvertently lose your place in dummy too soon.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 70, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "E"]
-1H 1NT Pass Pass
-Pass
-[Play "W"]
-HJ
+[RotationNote "Board 70, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]HJ
 
 [Event ""]
-{Baker 100NT 71}
 [Site ""]
 [Date ""]
 [Board "71"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 71}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:JT6.QJT98.863.K2 A753.K6.QJ52.T93 Q982.532.A9.8764 K4.A74.KT74.AQJ5"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "N:K4.A74.KT74.AQJ5 JT6.QJT98.863.K2 A753.K6.QJ52.T93 Q982.532.A9.8764"]
+[Auction "N"]
+1NT pass 2C pass 2D pass 2NT pass 3NT pass pass pass
 [Result ""]
 {With no 4-card Major suit you respond 2\D to partner's Stayman bid. Partner now bids 2NT. What do you say? 
 
@@ -3342,31 +2736,22 @@ If both the \DA and \CK are in East's hand then you won't make this contract. He
 
 But, if you finesse in \Cs first, East can win and establish the \H suit. But, when West wins the \DA, he will have no \H to return.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 71, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2C Pass
-2D Pass 2NT Pass
-3NT Pass Pass Pass
-[Play "E"]
-HQ
+[RotationNote "Board 71, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]HQ
 
 [Event ""]
-{Baker 100NT 72}
 [Site ""]
 [Date ""]
 [Board "72"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 72}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:Q62.Q65.T93.J754 AK73.KJ82.AQJ.98 T984.T4.8752.QT3 J5.A973.K64.AK62"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AK73.KJ82.AQJ.98 T984.T4.8752.QT3 J5.A973.K64.AK62 Q62.Q65.T93.J754"]
+[Auction "S"]
+1NT pass 2C pass 2H pass 4NT pass 5H pass 6H all pass
 [Result ""]
 {Did you consider bidding 6NT? You are balanced, and the points are right. But with two 4-card Majors you should use Stayman, so you bid 2\C. Partner bids 2\H. Now what do say next? 
 
@@ -3398,32 +2783,22 @@ But that is only correct as far as that suit is concerned. When you look at the 
 
 This is much more obvious play when you are missing 5 trumps including the Queen AND Jack because you don't have any choice then.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 72, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2C Pass
-2H Pass 4NT Pass
-5H Pass 6H ALL
-Pass
-[Play "W"]
-ST
+[RotationNote "Board 72, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]ST
 
 [Event ""]
-{Baker 100NT 73}
 [Site ""]
 [Date ""]
 [Board "73"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 73}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:KQJ963.8.93.AJ87 A75.K963.AK8.Q53 T82.A52.QJT64.T9 4.QJT74.752.K642"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:4.QJT74.752.K642 KQJ963.8.93.AJ87 A75.K963.AK8.Q53 T82.A52.QJT64.T9"]
+[Auction "S"]
+1NT 2S 2NT pass 3C pass 3H pass pass pass
 [Result ""]
 {When the opponents overcall your 1NT opener a 2NT bid by partner is lebensohl. You have been instructed to make a relay bid of 3\C, and you do so. Partner now bids 3\H. What do you say? 
 
@@ -3447,31 +2822,22 @@ The purpose of the hand is to point out the advantages of using lebensohl conven
 
 And just look at the EW hands. They can easily make 3\S.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 73, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT 2S 2NT Pass
-3C Pass 3H Pass
-Pass Pass
-[Play "E"]
-ST
+[RotationNote "Board 73, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+[Play "E"]ST
 
 [Event ""]
-{Baker 100NT 74}
 [Site ""]
 [Date ""]
 [Board "74"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 74}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:63.JT98.T8543.86 KJT84.A762.K.743 AQ52.Q3.J96.QJT9 97.K54.AQ72.AK52"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:97.K54.AQ72.AK52 63.JT98.T8543.86 KJT84.A762.K.743 AQ52.Q3.J96.QJT9"]
+[Auction "S"]
+1NT pass 2C pass 2D pass 3S pass 3NT pass pass pass
 [Result ""]
 {Partner bids Stayman; with no 4-card Major you respond 2\D. Partner now bids 3\S.  What do you bid? 
 
@@ -3497,31 +2863,22 @@ If East plays any other suit you have a double stopper and can establish \S tric
 
 East could play a \C, knocking out one of your \C A K. When East won his first \S he would establish the \Cs, and when he took the second \S he could cash 2 \C tricks. }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 74, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2C Pass
-2D Pass 3S Pass
-3NT Pass Pass Pass
-[Play "W"]
-HJ
+[RotationNote "Board 74, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]HJ
 
 [Event ""]
-{Baker 100NT 75}
 [Site ""]
 [Date ""]
 [Board "75"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 75}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:K42.QJ9853.Q72.Q AT98.AK2.95.8742 Q73.T.T8643.JT95 J65.764.AKJ.AK63"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:J65.764.AKJ.AK63 K42.QJ9853.Q72.Q AT98.AK2.95.8742 Q73.T.T8643.JT95"]
+[Auction "N"]
+1NT 2H 2NT pass 3C pass 3H pass 3NT pass pass pass
 [Result ""]
 {Partner's 2NT is lebensohl, requesting that you bid 3\C. You obey and partner now bids 3\H. What do you say? 
 
@@ -3537,31 +2894,22 @@ You do not need to hold up on the \H because you will be finessing twice into We
 
 Even if West held both honors you would STILL have established one \S winner and would have the possibility of a \D finesse. }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 75, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT 2H 2NT Pass
-3C Pass 3H Pass
-3NT Pass Pass Pass
-[Play "E"]
-HQ
+[RotationNote "Board 75, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]HQ
 
 [Event ""]
-{Baker 100NT 76}
 [Site ""]
 [Date ""]
 [Board "76"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 76}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "E:73.JT85.J6.QT873 52.A73.KT43.KJ62 KQJ864.92.Q87.94 AT9.KQ64.A952.A5"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "W:KQJ864.92.Q87.94 AT9.KQ64.A952.A5 73.JT85.J6.QT873 52.A73.KT43.KJ62"]
+[Auction "W"]
+2S pass pass 2NT pass 3NT pass pass pass
 [Result ""]
 {Partner's 1NT overcall shows 15-18 points and guarantees a \S stop. With 11 points and no 4-card \H suit you say 3NT.
 
@@ -3583,31 +2931,22 @@ When the remaining \Ds fall you have established your ninth trick.
 
 If he does that he hands you all four \D tricks!}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 76, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "W"]
-2S Pass Pass 2NT
-Pass 3NT Pass Pass
-Pass
-[Play "W"]
-SK
+[RotationNote "Board 76, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]SK
 
 [Event ""]
-{Baker 100NT 77}
 [Site ""]
 [Date ""]
 [Board "77"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 77}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:KQ5.KT4.JT95.J74 J98643.752.62.AQ 7.QJ963.Q84.KT53 AT2.A8.AK73.9862"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3S"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "N:AT2.A8.AK73.9862 KQ5.KT4.JT95.J74 J98643.752.62.AQ 7.QJ963.Q84.KT53"]
+[Auction "N"]
+1NT pass 2H pass 2S pass 3S pass pass pass
 [Result ""]
 {Partner's 2\H bid is a transfer; you respond 2\S. Partner now bids 3\S.  What do you bid? 
 
@@ -3629,31 +2968,22 @@ After this there is nothing the defense can do to stop you ruffing one \H in you
 
 East would have taken the second \S, then pulled your last \S. When the \C finesse failed you would make only 8 tricks.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 77, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2H Pass
-2S Pass 3S Pass
-Pass Pass
-[Play "E"]
-DJ
+[RotationNote "Board 77, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]DJ
 
 [Event ""]
-{Baker 100NT 78}
 [Site ""]
 [Date ""]
 [Board "78"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 78}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:J952.QJ5.92.T974 KQ863.62.K73.K62 74.AT98.QJT8.J83 AT.K743.A654.AQ5"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:KQ863.62.K73.K62 74.AT98.QJT8.J83 AT.K743.A654.AQ5 J952.QJ5.92.T974"]
+[Auction "S"]
+1NT pass 2H pass 2S pass 3NT pass pass pass
 [Result ""]
 {With 12 points and a 5-card Major you transfer partner to that Major. You bid 2\H. Partner bids 2\S. Now what do say next? 
 
@@ -3679,31 +3009,22 @@ There is a great safety play to protect against a 4-2 \S split. Play a low \S fr
 
 But visualize the \SJ and \S7 transposed. If you don't make the safety play it is true that the \SJ will fall. BUT, West will still take the fourth \S and when he gets in he will return the \HQ.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 78, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2H Pass
-2S Pass 3NT Pass
-Pass Pass
-[Play "W"]
-DQ
+[RotationNote "Board 78, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]DQ
 
 [Event ""]
-{Baker 100NT 79}
 [Site ""]
 [Date ""]
 [Board "79"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 79}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:A62.KJ852.98.T73 QT984.A4.Q72.865 753.Q6.JT64.KJ92 KJ.T973.AK53.AQ4"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "N:KJ.T973.AK53.AQ4 A62.KJ852.98.T73 QT984.A4.Q72.865 753.Q6.JT64.KJ92"]
+[Auction "N"]
+1NT pass 2H pass 2S pass 2NT pass 3NT pass pass pass
 [Result ""]
 {Partner's 2\H is a transfer, so you bid 2\S. Partner now bids 2NT. What do you say? 
 
@@ -3721,31 +3042,22 @@ So you should play the \HA immediately. If West puts on his small \H then his lo
 
 Play the \HA on the first trick and West is hog-tied. If he plays low the suit blocks, if he sacrifices his \HQ then your \H T 9 7 prevents East from running the suit. }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 79, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2H Pass
-2S Pass 2NT Pass
-3NT Pass Pass Pass
-[Play "E"]
-H5
+[RotationNote "Board 79, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]H5
 
 [Event ""]
-{Baker 100NT 80}
 [Site ""]
 [Date ""]
 [Board "80"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 80}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:QJ42.83.983.T865 K986.AT4.T752.A2 5.KQJ652.A64.943 AT73.97.KQJ.KQJ7"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4S"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:K986.AT4.T752.A2 5.KQJ652.A64.943 AT73.97.KQJ.KQJ7 QJ42.83.983.T865"]
+[Auction "S"]
+1NT 2H 2NT pass 3C pass 3H pass 3S pass 4S all pass
 [Result ""]
 {You need to find out if partner has 4 \Ss. Using lebensohl the way to do that is to first bid 2NT. Partner bids 2\C, the relay bid. What do say next? 
 
@@ -3773,32 +3085,22 @@ Now you will have to be lucky. Leave the two master trumps undrawn and start run
 
 West would have taken the two trump tricks, then East would have taken 5 \H tricks and the \DA.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 80, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT 2H 2NT Pass
-3C Pass 3H Pass
-3S Pass 4S ALL
-Pass
-[Play "W"]
-HK
+[RotationNote "Board 80, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]HK
 
 [Event ""]
-{Baker 100NT 81}
 [Site ""]
 [Date ""]
 [Board "81"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 81}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:KQT42.K82.4.T853 AJ7.764.KQ97.AQ2 8653.JT93.62.974 9.AQ5.AJT853.KJ6"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "6D"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AJ7.764.KQ97.AQ2 8653.JT93.62.974 9.AQ5.AJT853.KJ6 KQT42.K82.4.T853"]
+[Auction "S"]
+1NT pass 3D pass 4D pass 4H pass 4S pass 6D pass pass pass
 [Result ""]
 {With 17 points and a 6-card suit you are definitely thinking about slam. The way to suggest slam to partner is to jump in a suit, so you bid 3\D.
 
@@ -3830,32 +3132,22 @@ Sometimes being about 50% of the time on average.
 
 So whenever you see your contract depending on a finesse, just look again and see if perhaps an elimination play is available.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 81, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 3D Pass
-4D Pass 4H Pass
-4S Pass 6D Pass
-Pass Pass
-[Play "E"]
-SK
+[RotationNote "Board 81, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]SK
 
 [Event ""]
-{Baker 100NT 82}
 [Site ""]
 [Date ""]
 [Board "82"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 82}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "W:J942.T3.T9.JT984 AQ6.42.KJ54.K732 K73.QJ9865.Q862. T85.AK7.A73.AQ65"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:K73.QJ9865.Q862. T85.AK7.A73.AQ65 J942.T3.T9.JT984 AQ6.42.KJ54.K732"]
+[Auction "E"]
+2H 2NT pass 3NT pass pass pass
 [Result ""]
 {Over an opponent's Weak 2-bid a 2NT overcall is used to show basically the same as a 1NT opening bid, but promising stopper(s) in their suit.
 
@@ -3871,30 +3163,22 @@ Play your \HK, and when West follows suit play your \H7. East wins this trick an
 
 But it wouldn't matter, you would still play the same way. As long as you can strip East of any \Cs you can make the throw-in.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 82, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "E"]
-2H 2NT Pass 3NT
-Pass Pass Pass
-[Play "W"]
-HT
+[RotationNote "Board 82, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]HT
 
 [Event ""]
-{Baker 100NT 83}
 [Site ""]
 [Date ""]
 [Board "83"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 83}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:A5.QJ6.KJ92.T952 T862.T874.Q653.7 K73.K92.T74.KQJ4 QJ94.A53.A8.A863"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "2S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:T862.T874.Q653.7 K73.K92.T74.KQJ4 QJ94.A53.A8.A863 A5.QJ6.KJ92.T952"]
+[Auction "N"]
+1NT pass 2C pass 2S pass pass pass
 [Result ""]
 {You have a bad hand. Bad, bad, bad hand. But you think playing in \Ss, \Hs or \Ds would be better than playing 1NT. Can you get partner to bid one of those suits? Sure, you just say 2\C. Partner says 2\S. Your call. 
 
@@ -3918,30 +3202,22 @@ Lucky for you the defenders didn't see the advantage of playing three rounds of 
 
 It would be tough for West to come up with a \S lead from \S K 7 3, but it would have been great defense.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 83, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2C Pass
-2S Pass Pass Pass
-[Play "E"]
-CK
+[RotationNote "Board 83, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+[Play "E"]CK
 
 [Event ""]
-{Baker 100NT 84}
 [Site ""]
 [Date ""]
 [Board "84"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 84}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:T954.T753.JT3.85 K63.AKJ2.852.764 Q82.9.K974.KQJ92 AJ7.Q864.AQ6.AT3"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "S:K63.AKJ2.852.764 Q82.9.K974.KQJ92 AJ7.Q864.AQ6.AT3 T954.T753.JT3.85"]
+[Auction "S"]
+1NT pass 3NT pass pass pass
 [Result ""]
 {Holding a 4-card \H suit some bidders would use Stayman. However, when you have 4-3-3-3 distribution there is little chance of ruffing so others prefer not to use Stayman. You take the latter view and bid 3NT with your 11 points.
 
@@ -3963,30 +3239,22 @@ The answer is NO, you do not take either finesse. Instead you play a \C, hoping 
 
 If West had not followed to the second \C you might not have been able to use the endplay. Instead you would have run the \Hs, and if East did not discard a \C, you would have to guess as to which finesse to try. With the cards as shown neither would have worked.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 84, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 3NT Pass
-Pass Pass
-[Play "W"]
-CK
+[RotationNote "Board 84, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]CK
 
 [Event ""]
-{Baker 100NT 85}
 [Site ""]
 [Date ""]
 [Board "85"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 85}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:73.A953.876.QJT2 KQ9842.86.KT2.53 JT5.QJT2.Q54.K86 A6.K74.AJ93.A974"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "N:A6.K74.AJ93.A974 73.A953.876.QJT2 KQ9842.86.KT2.53 JT5.QJT2.Q54.K86"]
+[Auction "N"]
+1NT pass 2H pass 2S pass 4S pass pass pass
 [Result ""]
 {Partner transfers and you naturally respond 2\S. Partner bids the \S game and you pass. 
 
@@ -4004,31 +3272,22 @@ Missing 6 \Ds to the Queen of course you should finesse. And you will finesse th
 
 Another time East will hold the \DQ and you will make the contract, but no overtrick. }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 85, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2H Pass
-2S Pass 4S Pass
-Pass Pass
-[Play "E"]
-CQ
+[RotationNote "Board 85, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]CQ
 
 [Event ""]
-{Baker 100NT 86}
 [Site ""]
 [Date ""]
 [Board "86"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 86}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:KQJ3.KT4.J93.743 A75.975.K854.QT2 T62.QJ83.T762.K6 984.A62.AQ.AJ985"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:A75.975.K854.QT2 T62.QJ83.T762.K6 984.A62.AQ.AJ985 KQJ3.KT4.J93.743"]
+[Auction "S"]
+1NT pass 2NT pass 3NT pass pass pass
 [Result ""]
 {With 9 points and a balanced hand you go into Invitational Mode. Bid 2NT. Partner will raise to 3NT with a maximum, pass with a minimum. Today he has a middling 16 points, but bids 3NT anyway.
 
@@ -4054,30 +3313,22 @@ Not all finesses should be taken - certainly not this one.
 
 Another possibility, playing \CA first, should also be rejected. On the rare day where the \CK fell singleton you might be happy, but on the more frequent days where a defender held \C K x x and took the third \C trick you'd feel like a complete fool. Rightly so.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 86, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2NT Pass
-3NT Pass Pass Pass
-[Play "W"]
-H3
+[RotationNote "Board 86, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]H3
 
 [Event ""]
-{Baker 100NT 87}
 [Site ""]
 [Date ""]
 [Board "87"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 87}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "E:8542.QT5.JT8.985 K6.J64.K9754.J73 QJT93.K97.A3.QT4 A7.A832.Q62.AK62"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "W:QJT93.K97.A3.QT4 A7.A832.Q62.AK62 8542.QT5.JT8.985 K6.J64.K9754.J73"]
+[Auction "W"]
+1S 1NT pass 2NT pass 3NT pass pass pass
 [Result ""]
 {A takeout double would not be a terrible bid. But if you don't overcall 1NT right now it will be hard to later convince partner that you have 17 points balanced. So you bite the bullet and say 1NT. Partner now bids 2NT. What do you say? 
 
@@ -4097,31 +3348,22 @@ Then play a low \D from your hand, and DUCK IN DUMMY. West plays the \DA on this
 
 Sometimes you must try to visualize some possible distribution of the defender's cards which will allow you to make your bid and then just go ahead and play for that distribution. }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 87, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "W"]
-1S 1NT Pass 2NT
-Pass 3NT Pass Pass
-Pass
-[Play "E"]
-S8
+[RotationNote "Board 87, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]S8
 
 [Event ""]
-{Baker 100NT 88}
 [Site ""]
 [Date ""]
 [Board "88"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 88}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:J8.532.J985.KQT7 95.KQ7.KQ73.AJ96 QT64.A4.AT2.8432 AK732.JT986.64.5"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:95.KQ7.KQ73.AJ96 QT64.A4.AT2.8432 AK732.JT986.64.5 J8.532.J985.KQT7"]
+[Auction "N"]
+1NT pass 2H pass 2S pass 3H pass 4H pass pass pass
 [Result ""]
 {With two 5-card Major suits you can transfer to either one first. A good system is to use the "weaker" transfer to show an invitational hand, the "stronger" to show a forcing to game hand.
 
@@ -4147,31 +3389,22 @@ You must then pull West's last trump, leaving you with only one trump.
 
 When you give up the \S to East he could play a \C, forcing you to use your last trump, and although you could take your \S winner you wouldn't have the \D trick established. Not an easy hand.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 88, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2H Pass
-2S Pass 3H Pass
-4H Pass Pass Pass
-[Play "W"]
-H2
+[RotationNote "Board 88, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]H2
 
 [Event ""]
-{Baker 100NT 89}
 [Site ""]
 [Date ""]
 [Board "89"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 89}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:KJT.Q7.QJ9.KJ963 A7542.653.T65.84 Q8.JT984.K872.QT 963.AK2.A43.A752"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "1NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:A7542.653.T65.84 Q8.JT984.K872.QT 963.AK2.A43.A752 KJT.Q7.QJ9.KJ963"]
+[Auction "N"]
+1NT pass pass pass
 [Result ""]
 {Here is the question. Is 2\S a better contract than 1NT? If so, you should transfer partner, then pass. If not, you should just pass now. With just a 5-card suit, and with no singleton, pass is probably better.
 
@@ -4195,29 +3428,22 @@ You win the \CA and take the \DA and the 3 good \Ss in dummy. The 4 high cards f
 
 But since they may be right you need to be on the lookout for ducking plays because one entry in dummy may be all you are going to have.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 89, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass Pass Pass
-[Play "E"]
-HJ
+[RotationNote "Board 89, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+[Play "E"]HJ
 
 [Event ""]
-{Baker 100NT 90}
 [Site ""]
 [Date ""]
 [Board "90"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 90}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "E:974.JT72.9643.72 85.Q65.Q82.A9863 KQJ63.K94.KJT.T5 AT2.A83.A75.KQJ4"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "W:KQJ63.K94.KJT.T5 AT2.A83.A75.KQJ4 974.JT72.9643.72 85.Q65.Q82.A9863"]
+[Auction "W"]
+1S pass pass 1NT pass 2NT pass 3NT pass pass pass
 [Result ""]
 {It is good to be a little bold with your overcalls. But with a suit this tattered and only two outside Queens this is not good enough for a 2-level overcall. So you pass. Then you hear partner say 1NT.  
 
@@ -4245,31 +3471,22 @@ But you had to hold up on the first trick to make sure West couldn't gain entry 
 
 By the way, if East had a 6-card suit this plan wouldn't work. But then, no other plan would either.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 90, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "W"]
-1S Pass Pass 1NT
-Pass 2NT Pass 3NT
-Pass Pass Pass
-[Play "W"]
-SK
+[RotationNote "Board 90, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]SK
 
 [Event ""]
-{Baker 100NT 91}
 [Site ""]
 [Date ""]
 [Board "91"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 91}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:J3.J952.K65.A852 K972.6.743.QT743 Q64.AT83.T982.96 AT85.KQ74.AQJ.KJ"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AT85.KQ74.AQJ.KJ J3.J952.K65.A852 K972.6.743.QT743 Q64.AT83.T982.96"]
+[Auction "N"]
+2NT pass 3C pass 3H pass 3NT pass 4S pass pass pass
 [Result ""]
 {When you have 4 cards in both Majors you respond 2\H to a Stayman request. Partner now bids 3NT.  What do you bid? 
 
@@ -4287,31 +3504,22 @@ With one master trump still out you start on the \Cs, playing first the \CK, the
 
 But the other 50% of the time East will have the \DK. On those Deals you get your just reward.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 91, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-2NT Pass 3C Pass
-3H Pass 3NT Pass
-4S Pass Pass Pass
-[Play "E"]
-H2
+[RotationNote "Board 91, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]H2
 
 [Event ""]
-{Baker 100NT 92}
 [Site ""]
 [Date ""]
 [Board "92"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 92}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:9642.KQT.QT5.T62 73.65.J2.AJ98743 QJT8.J732.K974.K AK5.A984.A863.Q5"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:73.65.J2.AJ98743 QJT8.J732.K974.K AK5.A984.A863.Q5 9642.KQT.QT5.T62"]
+[Auction "S"]
+1NT pass 2NT pass 3NT pass pass pass
 [Result ""]
 {You do have 9 points, of a sort anyway. Hoping your \C suit will be of use, you invite with 2NT. Partner says 3NT.
 
@@ -4333,30 +3541,22 @@ So if you feel like gambling, go up with the \CA. But if you like the idea of a 
 
 The play went exactly as shown above. When her LHO played the \CK our declarer ducked in dummy and made the contract.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 92, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2NT Pass
-3NT Pass Pass Pass
-[Play "W"]
-SQ
+[RotationNote "Board 92, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]SQ
 
 [Event ""]
-{Baker 100NT 93}
 [Site ""]
 [Date ""]
 [Board "93"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 93}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:KJ96.JT54.T6.T85 AT43.73.KQ8742.7 Q.Q9862.95.KQJ93 8752.AK.AJ3.A642"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AT43.73.KQ8742.7 Q.Q9862.95.KQJ93 8752.AK.AJ3.A642 KJ96.JT54.T6.T85"]
+[Auction "N"]
+1NT pass 2C pass 2S pass 4S pass pass pass
 [Result ""]
 {It is tempting to just bid 3NT and hope the \Ds come in. But not when you have a 4-card Major suit. Instead you bid a Stayman 2\C. Partner says 2\S; what do you bid next? 
 
@@ -4384,31 +3584,22 @@ Considering probabilities it looks like this. If you play the second trump you w
 
 If you stop with the \Ss and start running \Ds you will make your contract T0% of the time but will never make an overtrick. }
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 93, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2C Pass
-2S Pass 4S Pass
-Pass Pass
-[Play "E"]
-CK
+[RotationNote "Board 93, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+[Play "E"]CK
 
 [Event ""]
-{Baker 100NT 94}
 [Site ""]
 [Date ""]
 [Board "94"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 94}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:A85.4.J97643.JT9 QJ3.A5.AK82.Q832 974.J972.QT.AK65 KT62.KQT863.5.74"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:QJ3.A5.AK82.Q832 974.J972.QT.AK65 KT62.KQT863.5.74 A85.4.J97643.JT9"]
+[Auction "N"]
+1NT pass 2C pass 2D pass 4H pass pass pass
 [Result ""]
 {Yes, you have a 6-card \H suit. But you also have 4 \Ss, so you start with a Stayman 2\C.
 
@@ -4440,31 +3631,22 @@ When you played a third \D to ruff with your \H8, East COULD have ruffed this. I
 
 By the way, ruffing a card to purposely shorten your trump holding is called a Trump Coup.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 94, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2C Pass
-2D Pass 4H Pass
-Pass Pass
-[Play "W"]
-CJ
+[RotationNote "Board 94, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]CJ
 
 [Event ""]
-{Baker 100NT 95}
 [Site ""]
 [Date ""]
 [Board "95"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 95}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:KQJ963.JT.QT9.94 T5.AQ63.8542.KJ8 84.98742.A7.T653 A72.K5.KJ63.AQ72"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "N:A72.K5.KJ63.AQ72 KQJ963.JT.QT9.94 T5.AQ63.8542.KJ8 84.98742.A7.T653"]
+[Auction "N"]
+1NT 2S 3S pass 3NT pass pass pass
 [Result ""]
 {Partner's cue-bid is the lebensohl version of Stayman, in this case promising 4 \Hs. Since it is an immediate cue-bid it denies a \S stopper.
 
@@ -4486,30 +3668,22 @@ But it isn't like that at all. If East has the \DA then he will take it no matte
 
 Smart you, if you had played the \DJ you'd be down 2.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 95, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT 2S 3S Pass
-3NT Pass Pass Pass
-[Play "E"]
-SK
+[RotationNote "Board 95, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]SK
 
 [Event ""]
-{Baker 100NT 96}
 [Site ""]
 [Date ""]
 [Board "96"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 96}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:QT4.KT52.AJ73.J5 A87632.8.KT5.982 J9.QJ973.Q84.T74 K5.A64.962.AKQ63"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4S"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:A87632.8.KT5.982 J9.QJ973.Q84.T74 K5.A64.962.AKQ63 QT4.KT52.AJ73.J5"]
+[Auction "S"]
+1NT pass 2H pass 2S pass 3S pass 4S pass pass pass
 [Result ""]
 {You have an invitational strength hand with a 6-card Major suit. It's a no-brainer; you transfer with a 2\H bid. Partner says 2\S; what do you bid next? 
 
@@ -4535,31 +3709,22 @@ Almost always the answer is "not to pull".
 
 The big exception is when you have a running suit in one hand but with no outside entries to it. A hand exactly like this one.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 96, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2H Pass
-2S Pass 3S Pass
-4S Pass Pass Pass
-[Play "W"]
-HQ
+[RotationNote "Board 96, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]HQ
 
 [Event ""]
-{Baker 100NT 97}
 [Site ""]
 [Date ""]
 [Board "97"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 97}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:T75.63.QJT9.J542 AJ3.KQ974.7642.T 98642.852.8.KQ96 KQ.AJT.AK53.A873"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AJ3.KQ974.7642.T 98642.852.8.KQ96 KQ.AJT.AK53.A873 T75.63.QJT9.J542"]
+[Auction "N"]
+2NT pass 3D pass 4H pass 4NT pass 5S pass 6H all pass
 [Result ""]
 {You know you may be in slam territory, but first you need to establish trumps. So you bid 3\D as a transfer and almost faint when partner jumps to 4\H, showing a super-accept. Now what do you bid? 
 
@@ -4591,32 +3756,22 @@ However it's a "role reversal", you pulled trumps with the short-trump hand and 
 
 But call it whatever you like, that's the way to make this Deal.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 97, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-2NT Pass 3D Pass
-4H Pass 4NT Pass
-5S Pass 6H ALL
-Pass
-[Play "E"]
-D8
+[RotationNote "Board 97, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+[Play "E"]D8
 
 [Event ""]
-{Baker 100NT 98}
 [Site ""]
 [Date ""]
 [Board "98"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 98}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:K43.843.JT94.972 A6.A65.K762.KQT3 T9852.972.83.865 QJ7.KQJT.AQ5.AJ4"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "7NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:A6.A65.K762.KQT3 T9852.972.83.865 QJ7.KQJT.AQ5.AJ4 K43.843.JT94.972"]
+[Auction "S"]
+2NT pass 4C pass 4S pass 7NT pass pass pass
 [Result ""]
 {You have 16 points and partner has 20-21. If you bid 7NT right now just because it is something you always wanted to do, then I don't blame you. But if you're cautious you'll use Gerber 4\C. Partner bids 4\S;  what do you bid next? 
 
@@ -4644,31 +3799,22 @@ That means you didn't have to do anything special, just play your winners in the
 
 Of course if the \Ds were breaking 3-3 all the time you haven't lost anything by playing for the squeeze.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 98, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-2NT Pass 4C Pass
-4S Pass 7NT Pass
-Pass Pass
-[Play "W"]
-ST
+[RotationNote "Board 98, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]ST
 
 [Event ""]
-{Baker 100NT 99}
 [Site ""]
 [Date ""]
 [Board "99"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 99}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:JT43.A3.KJ84.A53 K5.Q86.AQ73.KQ86 Q7.954.T952.JT97 A9862.KJT72.6.42"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:A9862.KJT72.6.42 JT43.A3.KJ84.A53 K5.Q86.AQ73.KQ86 Q7.954.T952.JT97"]
+[Auction "S"]
+1NT pass 2H pass 2S pass 3H pass 4H pass pass pass
 [Result ""]
 {Partner's bid is a transfer asking you to bid 2\S, so you do. Partner now bids 3\H;  what do you bid next? 
 
@@ -4694,31 +3840,19 @@ If it worked, all you could do would be to discard your fifth \S; but that was t
 
 It was the fourth \S that was a loser, and you couldn't get rid of that one.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 99, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2H Pass
-2S Pass 3H Pass
-4H Pass Pass Pass
-[Play "E"]
-CJ
+[RotationNote "Board 99, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+[Play "E"]CJ
 
-[Event ""]
+[Board ""]
 {Baker 100NT }
-[Site ""]
-[Date ""]
-[Board "100"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:Q832.KQT.T83.Q75 A964.8762.K75.K6 JT7.J5.QJ92.JT43 K5.A943.A64.A982"]
-[Scoring ""]
-[Declarer "S"]
+[Declarer "N"]
 [Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:A9862.KJT72.6.42 JT43.A3.KJ84.A53 K5.Q86.AQ73.KQ86 Q7.954.T952.JT97"]
+[Auction "N"]
+1NT pass 2C pass 2H pass 4H pass pass pass
 [Result ""]
 {With 10 points and two 4-card Majors you bid 2\C Stayman. Partner says 2\H;  what do you bid next? 
 
@@ -4726,11 +3860,11 @@ With 10 points and two 4-card Majors you bid 2\C Stayman. Partner says 2\H;  wha
 
 Now you add a point for your doubleton, get to 11 points, and bid 4\H.
 
-The contract would be 4\H played by South.
+The contract would be 4\H played by North.
 
-To make North the declarer  ROTATE. 
+To make South the declarer  ROTATE. 
 
-North plays 4\H. East leads the \DQ. Win the \DQ in either hand. Lets say you win with your \DA.
+South plays 4\H. West leads the \DQ. Win the \DQ in either hand. Lets say you win with your \DA.
 
 *Don't get overconfident with this loser list. It assumes that trumps break 3-2, (if they don't you cannot make it), and also assumes you will be able to cross-ruff 4 small black cards.
 
@@ -4738,16 +3872,10 @@ Cross-ruffing those 4 losers could be a problem. You can't afford to get over-ru
 
 It is actually simple to make sure exactly two rounds of trumps are drawn. At trick 2 just duck a \H in each hand. An opponent will win this, but you can take the next trick, (probably a \D), and then pull a second round of trumps with your \HA. Then leave the trumps alone and play your two black A K's, then start cross-ruffing with your 4 tiny trumps. The defender with the master trump can over-ruff when he can, and can even cash a \D. But that's all he can do so you will make your game. 
 
-West would have won the second one, and if he had then continued \Ds you would have made the contract.  
+East would have won the second one, and if he had then continued \Ds you would have made the contract.  
 
 But if he was a good enough defender to pull a THIRD round of trumps, getting 2 for the price of 1 value, you would have been defeated.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 100, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2C Pass
-2H Pass 4H Pass
-Pass Pass
-[Play "W"]
-DQ
+[RotationNote "Board 99, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+[Play "E"]DQ
+

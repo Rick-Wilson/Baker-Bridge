@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:05:34 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",10,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker 100Deals 77}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 77}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:K84.97.A94.QJT53 JT7.AQJ4.7652.97 2.T853.QJT3.K642 AQ9653.K62.K8.A8"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AQ9653.K62.K8.A8 K84.97.A94.QJT53 JT7.AQJ4.7652.97 2.T853.QJT3.K642"]
+[Auction "S"]
+1S pass 2S pass 3H pass 4S pass pass pass
 [Result ""]
 {You are South and it is your bid. Decide what you would say, then  on BID. 
 
@@ -76,31 +31,22 @@ So ask yourself: "How is East going to get the lead?" The only trick he could wi
 
 Then think about how to keep East from getting the lead - in this case holding up on the first trick.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1S Pass 2S Pass
-3H Pass 4S Pass
-Pass Pass
-[Play "W"]
-CQ
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]CQ
 
 [Event ""]
-{Baker 100Deals 78}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 78}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:A5.965.T762.AT84 KJ62.K73.J4.K762 8.QJT4.A953.QJ95 QT9743.A82.KQ8.3"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:KJ62.K73.J4.K762 8.QJT4.A953.QJ95 QT9743.A82.KQ8.3 A5.965.T762.AT84"]
+[Auction "S"]
+1S pass 3S pass 4S pass pass pass
 [Result ""]
 {You are North and it is your bid. Decide what you would say, then  on BID. 
 
@@ -124,30 +70,22 @@ Win the first trick with dummy's \HK and play \DJ. Continue \Ds until they take 
 
 A very important part of this Plan was where you chose to win the first trick. Since entries are a problem with either hand you had to save the high \H as entry to the hand that would have the eventual winner. }
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1S Pass 3S Pass
-4S Pass Pass Pass
-[Play "W"]
-HQ
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]HQ
 
 [Event ""]
-{Baker 100Deals 79}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 79}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:J94.62.AT72.QJ97 AK5.AQ93.KQ4.652 QT83.JT.J983.KT4 762.K8754.65.A83"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AK5.AQ93.KQ4.652 QT83.JT.J983.KT4 762.K8754.65.A83 J94.62.AT72.QJ97"]
+[Auction "N"]
+1C pass 1H pass 3H pass 4H pass pass pass
 [Result ""]
 {You are South and it is your bid. Decide what you would say, then  on BID. 
 
@@ -169,31 +107,22 @@ Win the first trick with your \CA. Immediately play a \D, putting up dummy's \DQ
 
 This wasn't a guaranteed Plan like some. If East held the \DA then you would go down.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1C Pass 1H Pass
-3H Pass 4H Pass
-Pass Pass
-[Play "W"]
-CQ
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]CQ
 
 [Event ""]
-{Baker 100Deals 80}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 80}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "W:K9763.Q52.54.KJ4 QJ5.764.KQT63.65 42.JT83.A92.QT73 AT8.AK9.J87.A982"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:42.JT83.A92.QT73 AT8.AK9.J87.A982 K9763.Q52.54.KJ4 QJ5.764.KQT63.65"]
+[Auction "E"]
+pass 1NT pass 2NT pass 3NT pass pass pass
 [Result ""]
 {You are South and it is your bid. Decide what you would say, then  on BID. 
 
@@ -219,12 +148,6 @@ Notice that no matter what you try West can prevent you from reaching dummy.
 
 Notice that West cannot prevent you from reaching dummy with the \S Q J.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "E"]
-Pass 1NT Pass 2NT
-Pass 3NT Pass Pass
-Pass
-[Play "W"]
-S6
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]S6
+

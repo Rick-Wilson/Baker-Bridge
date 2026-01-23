@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:07:43 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",10,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker 100NT 85}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 85}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:73.A953.876.QJT2 KQ9842.86.KT2.53 JT5.QJT2.Q54.K86 A6.K74.AJ93.A974"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:A6.K74.AJ93.A974 73.A953.876.QJT2 KQ9842.86.KT2.53 JT5.QJT2.Q54.K86"]
+[Auction "N"]
+1NT pass 2H pass 2S pass 4S pass pass pass
 [Result ""]
 {Partner transfers and you naturally respond 2\S. Partner bids the \S game and you pass. 
 
@@ -74,31 +29,22 @@ Missing 6 \Ds to the Queen of course you should finesse. And you will finesse th
 
 Another time East will hold the \DQ and you will make the contract, but no overtrick. }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2H Pass
-2S Pass 4S Pass
-Pass Pass
-[Play "E"]
-CQ
+[Play "W"]CQ
 
 [Event ""]
-{Baker 100NT 86}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 86}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "N:KQJ3.KT4.J93.743 A75.975.K854.QT2 T62.QJ83.T762.K6 984.A62.AQ.AJ985"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "3NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "E:A75.975.K854.QT2 T62.QJ83.T762.K6 984.A62.AQ.AJ985 KQJ3.KT4.J93.743"]
+[Auction "E"]
+1NT pass 2NT pass 3NT pass pass pass
 [Result ""]
 {With 9 points and a balanced hand you go into Invitational Mode. Bid 2NT. Partner will raise to 3NT with a maximum, pass with a minimum. Today he has a middling 16 points, but bids 3NT anyway.
 
@@ -124,30 +70,22 @@ Not all finesses should be taken - certainly not this one.
 
 Another possibility, playing \CA first, should also be rejected. On the rare day where the \CK fell singleton you might be happy, but on the more frequent days where a defender held \C K x x and took the third \C trick you'd feel like a complete fool. Rightly so.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 2, chOption: E, chBasis: N, basisKind:Declarer, nOption:1, nBasis: 0, nRot: 1, useStandardVul: true"]
-[Student "S"]
-[Auction "E"]
-1NT Pass 2NT Pass
-3NT Pass Pass Pass
-[Play "S"]
-H3
+[Play "E"]H3
 
 [Event ""]
-{Baker 100NT 87}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 87}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "W:8542.QT5.JT8.985 K6.J64.K9754.J73 QJT93.K97.A3.QT4 A7.A832.Q62.AK62"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:QJT93.K97.A3.QT4 A7.A832.Q62.AK62 8542.QT5.JT8.985 K6.J64.K9754.J73"]
+[Auction "E"]
+1S 1NT pass 2NT pass 3NT pass pass pass
 [Result ""]
 {A takeout double would not be a terrible bid. But if you don't overcall 1NT right now it will be hard to later convince partner that you have 17 points balanced. So you bite the bullet and say 1NT. Partner now bids 2NT. What do you say? 
 
@@ -167,31 +105,22 @@ Then play a low \D from your hand, and DUCK IN DUMMY. East plays the \DA on this
 
 Sometimes you must try to visualize some possible distribution of the defender's cards which will allow you to make your bid and then just go ahead and play for that distribution. }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
-[Student "S"]
-[Auction "E"]
-1S 1NT Pass 2NT
-Pass 3NT Pass Pass
-Pass
-[Play "W"]
-S8
+[Play "W"]S8
 
 [Event ""]
-{Baker 100NT 88}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 88}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "N:J8.532.J985.KQT7 95.KQ7.KQ73.AJ96 QT64.A4.AT2.8432 AK732.JT986.64.5"]
-[Scoring ""]
 [Declarer "W"]
 [Contract "4H"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "E:95.KQ7.KQ73.AJ96 QT64.A4.AT2.8432 AK732.JT986.64.5 J8.532.J985.KQT7"]
+[Auction "E"]
+1NT pass 2H pass 2S pass 3H pass 4H pass pass pass
 [Result ""]
 {With two 5-card Major suits you can transfer to either one first. A good system is to use the "weaker" transfer to show an invitational hand, the "stronger" to show a forcing to game hand.
 
@@ -217,12 +146,6 @@ You must then pull North's last trump, leaving you with only one trump.
 
 When you give up the \S to South he could play a \C, forcing you to use your last trump, and although you could take your \S winner you wouldn't have the \D trick established. Not an easy hand.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
-[Student "S"]
-[Auction "E"]
-1NT Pass 2H Pass
-2S Pass 3H Pass
-4H Pass Pass Pass
-[Play "N"]
-H2
+[Play "W"]H2
+

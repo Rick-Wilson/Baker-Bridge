@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:04:24 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker ThirdHand 13}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker ThirdHand 13}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:9752.82.T7643.K7 AT4.J63.AK82.QT5 J83.AK975.Q95.63 KQ6.QT4.J.AJ9842"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "E"]
+[Deal "N:AT4.J63.AK82.QT5 J83.AK975.Q95.63 KQ6.QT4.J.AJ9842 9752.82.T7643.K7"]
+[Auction "N"]
+1D 1H 2C pass 3C pass 3NT pass pass pass
 [Result ""]
 {The bidding has been as shown. Partner led the \H8, dummy played the \HJ and it is your play.
 
@@ -72,31 +27,22 @@ South wins the first trick easily, but must try to establish \Cs. He will enter 
 
 Not today. Partner takes the \CK and returns his \H2 to your four winners.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "E"]
-[Auction "N"]
-1D 1H 2C Pass
-3C Pass 3NT Pass
-Pass Pass
-[Play "W"]
-H8
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]H8
 
 [Event ""]
-{Baker ThirdHand 14}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker ThirdHand 14}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:K62.T64.AJ654.92 QJ93.KQJ5.93.QJT 84.973.T872.A653 AT75.A82.KQ.K874"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "E"]
+[Deal "S:AT75.A82.KQ.K874 K62.T64.AJ654.92 QJ93.KQJ5.93.QJT 84.973.T872.A653"]
+[Auction "S"]
+1NT pass 2C pass 2S pass 4S pass pass pass
 [Result ""]
 {The bidding has been as shown. Partner led the \C9, dummy played the \CT and it is your play.
 
@@ -110,31 +56,22 @@ If it is a singleton, then South must hold 5 \Cs. But you know South has 4 \Ss, 
 
 So partner's \C9 is not a singleton, and you should wait. Declarer then runs dummy's \SQ. Partner wins the \SK, returns his OTHER \C to your \CA, and NOW you give him the ruff. He takes the \DA for down 1.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "E"]
-[Auction "S"]
-1NT Pass 2C Pass
-2S Pass 4S Pass
-Pass Pass
-[Play "W"]
-C9
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]C9
 
 [Event ""]
-{Baker ThirdHand 15}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker ThirdHand 15}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "W:T83.T2.QJ8642.83 652.J98.95.KJT97 QJ97.KQ653.T.A64 AK4.A74.AK73.Q52"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "E"]
+[Deal "E:QJ97.KQ653.T.A64 AK4.A74.AK73.Q52 T83.T2.QJ8642.83 652.J98.95.KJT97"]
+[Auction "E"]
+1H X pass 2C pass 2NT pass 3NT pass pass pass
 [Result ""]
 {The bidding has been as shown. Partner led the \HT, dummy played the \HJ and it is your play.
 
@@ -146,31 +83,22 @@ Suppose you cover with your \HQ. South will win his \HA, then play \Cs until you
 
 Now suppose you duck the \HJ. Again South will push \Cs, and again you hold up until the third round. Ahh, what a difference. Now declarer cannot use the \Hs to enter dummy and he will never get to enjoy those two \C winners.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "E"]
-[Auction "E"]
-1H X Pass 2C
-Pass 2NT Pass 3NT
-Pass Pass Pass
-[Play "W"]
-HT
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]HT
 
 [Event ""]
-{Baker ThirdHand 16}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker ThirdHand 16}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:Q.T9652.J863.642 7542.KQ.A5.KJT85 KT986.874.Q74.AQ AJ3.AJ3.KT92.973"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "E"]
+[Deal "N:7542.KQ.A5.KJT85 KT986.874.Q74.AQ AJ3.AJ3.KT92.973 Q.T9652.J863.642"]
+[Auction "N"]
+1C 1S 2NT pass 3NT pass pass pass
 [Result ""]
 {The bidding has been as shown. Partner led the \SQ, a low card was played from dummy, and it is your play.
 
@@ -184,11 +112,6 @@ Now do it the right way. Play your \SK on partner's \SQ. Assume South takes the 
 
 Notice that South will always make two \S tricks, so your overtake costs nothing.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "E"]
-[Auction "N"]
-1C 1S 2NT Pass
-3NT Pass Pass Pass
-[Play "W"]
-SQ
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]SQ
+

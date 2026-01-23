@@ -1,0 +1,159 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:57:28 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Negative 5}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:54.AKJT93.K62.74 AQ62.872.85.KJ62 T98.Q54.T943.Q93 KJ73.6.AQJ7.AT85"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+Partner has indicated a 4-card \S suit. Since you also have 4 you will naturally bid them. However, with the \S fit your hand revalues to 17 points. So you jump to 2\S. Partner bids the game.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1D 1H X Pass
+2S Pass 4S Pass
+Pass Pass
+
+[Event ""]
+{Baker Negative 6}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:65.T7432.KJ52.72 73.AJ95.T64.AKJ3 KJT982..AQ98.984 AQ4.KQ86.73.QT65"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+With 13 points and 4 of the "other" Major you make a Negative Double. Partner's rebid is 2\H. What is your next bid? 
+
+Partner has 4 \Hs and an opening hand. You have 4 \Hs and an opening hand. That adds up to a game bid and an 8-card \H fit. You bid 4\H.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1C 1S X Pass
+2H Pass 4H Pass
+Pass Pass
+
+[Event ""]
+{Baker Negative 7}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:94.Q32.AQ543.972 AQ73.KJT7.82.T84 J8652.9865.97.A3 KT.A4.KJT6.KQJ65"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+Partner's Negative Double in this situation shows both Majors. You can't support either Major but with 18 points and good \D stoppers you jump to 2NT. Partner bids 3NT and everybody passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1C 1D X Pass
+2NT Pass 3NT Pass
+Pass Pass
+
+[Event ""]
+{Baker Negative 8}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:62.Q3.T4.J986542 K983.T4.KQ52.AKQ A75.AJ9852.J73.T QJT4.K76.A986.73"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+If you bid 1\S now it would be showing a 5-card \S suit. So instead you make a Negative Double. Partner jumps to 2\S. What do you bid? 
+
+Partner's jump shows a Medium hand, 16 - 18 points. Add your 11 and you have enough for game so you bid it.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1D 1H X Pass
+2S Pass 4S Pass
+Pass Pass

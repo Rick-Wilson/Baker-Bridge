@@ -1,0 +1,205 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:59:59 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Entries 17}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:QJT972.974.8.K93 4.KQJT3.T64.8764 853.8652.Q97.AT5 AK6.A.AKJ532.QJ2"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{South is to play 3NT. West leads the \SQ.
+
+Winners:   \S=2  \H=1  \D=2  \C=0  Total = 5
+
+There they are, four perfectly good \H tricks and no straightforward way to reach them. On the other hand, (I should say "In the other hand"), you have the possibility of 6 \D tricks, if the \DQ drops, in which case you won't need the \H tricks at all. Can you work those two possibilities into a strategy?
+
+Sure. The \D problem is that the outstanding \Ds may split 3-1 with one defender holding \D Q x x. So it would appear you could only get 5 \D winners. But you can thwart him like this.
+
+Win the \S. Unblock the \HA. Now play the \DJ. If Mr. \D Q x x takes this trick dummy's \DT will become an entry to those wonderful \Hs. But if he cleverly refuses to win the \DQ, then it will fall under your \D A K and you will get all 6 \D tricks.
+
+Maybe after the hand is over he will appreciate it more and congratulate you.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+2C Pass 2D Pass
+3D Pass 3H Pass
+3NT Pass Pass Pass
+[Play "W"]
+SQ
+
+[Event ""]
+{Baker Entries 18}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:8754.T8.J972.Q84 K.AK753.AKQ6.KT5 A62.QJ94.T3.9762 QJT93.62.854.AJ3"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{South is to play 3NT. West leads the \D2.
+
+Winners:   \S=1  \H=2  \D=3  \C=2  Total = 8
+
+The reason the Winners list shows 1 \S is that the defenders are going to have to let you win dummy's \SK. If they take that then you'll have 4 \S winners in your hand!
+
+So you only need one more winner really, and if you guess the \C finesse right you will have it. Which way will you finesse, and why?
+
+You will finesse through East. If he has the \CQ you will win all 3 \C tricks, but if West has the \CQ you may win even more. Just watch.
+
+Win the opening \D lead in dummy. Play the \SK which the defenders are not about to take while you have a \C entry to your hand. Now play the \CT and pass it to West. If West takes the \CQ then you will have TWO entries to your hand, one to get there for a \S lead, and the other to reach the \S winners after you have driven out the \SA. But if West DOESN'T take the \CQ, or if East actually has it, then you will have 3 \C tricks and your contract.
+
+}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+2C Pass 2S Pass
+3H Pass 3NT Pass
+Pass Pass
+[Play "W"]
+D2
+
+[Event ""]
+{Baker Entries 19}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:T9852.9752.J4.K5 Q6.AQJ84.753.642 J743.6.QT92.Q873 AK.KT3.AK86.AJT9"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6NT"]
+[Result ""]
+{South is to play 6NT. West leads the \ST.
+
+Winners:   \S = 2    \H = 5  \D = 2    \C = 1 Total = T
+
+You need two more winners and the best bet is to try to pick up three \C tricks. You will need the \CK and \CQ to lie in different hands, or both of them to be with East. That is about a 75% chance.
+
+But you may need to make 3 finesses, so that means 3 entries to dummy, all of which must be in the \H suit. Can it be done?
+
+Of course it can. Win the \S lead in your hand and play the \HK, overtaking with dummy's \HA. Now play a \C to your \C9, which loses to West's \CK. West plays another \S.
+
+Now play the \HT, and when West follows you are safe to overtake with dummy's \HJ since you can tell that East did not start with 4 \Hs. In fact, East shows out so it is West who started with 4 \Hs but that won't be a problem for you. Play another \C from dummy, finessing the \CT which wins.
+
+Now play your \H3 toward dummy, finessing the \H8 when West follows with a low card. Play dummy's two \H winners, discarding \Ds,  then the low \C to your \CJ. Wow.
+
+And as you have figured by now, assessing how many entries you are going to need is big part of that plan. Like here, if you had won a single \H trick in your hand then you wouldn't have had the three entries to dummy.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+2C Pass 2H Pass
+2NT Pass 6NT Pass
+Pass Pass
+[Play "W"]
+ST
+
+[Event ""]
+{Baker Entries 20}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:T4.J92.QJT3.T862 8.AK86543.854.Q3 6532.QT7.97.K974 AKQJ97..AK62.AJ5"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6S"]
+[Result ""]
+{Pretty bold bidding by South, but partner DID make a positive response. South is to play 6\S. West leads the \DQ.
+
+Losers:   \S=0  \H=0  \D=2  \C=1  Total = 3
+
+OK, the plan is to get over to dummy for those two \H winners.
+
+If you just play a small \C toward the \CQ that will work whenever West holds the \CK.
+
+How about playing \CA an a small \C, planning on ruffing your third \C to get to dummy? Naaah. They will win the second \C and play a trump.
+
+There is actually a play that is T0% certain, no matter who holds the \CK.
+
+Win the opening lead and lay down your \CJ. The defense is helpless. If they take the \CJ with the \CK, then you have a dummy entry in the form of the \CQ. If they refuse to take the trick you will counter by next laying down the \CA, then ruffing a third \C to get to dummy and the two golden eggs.
+
+My dream is that someday I will get a chance to use it at the table. If you ever do be sure and email me.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+2C Pass 2H Pass
+2S Pass 3H Pass
+6S Pass Pass Pass
+[Play "W"]
+DQ

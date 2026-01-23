@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:06:58 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",10,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker 100Deals 7}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 7}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:AK73.842.J93.T84 T64.KJ7.86.J7532 982.5.QT742.AK96 QJ5.AQT963.AK5.Q"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:QJ5.AQT963.AK5.Q AK73.842.J93.T84 T64.KJ7.86.J7532 982.5.QT742.AK96"]
+[Auction "N"]
+1H pass 2H pass 4H pass pass pass
 [Result ""]
 {You are North and it is your bid. Decide what you would say, then  on BID. 
 
@@ -76,30 +31,22 @@ The PLAN turns out simple. You can't avoid either of the three black losers so y
 
 Only a real beginner would have pulled all the trumps and not been able to ruff that \D.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-1H Pass 2H Pass
-4H Pass Pass Pass
-[Play "E"]
-SA
+[Play "W"]SA
 
 [Event ""]
-{Baker 100Deals 8}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 8}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "N:K653.Q974.T8.974 74.K53.AK962.KQ3 QJT82.T86.754.A5 A9.AJ2.QJ3.JT862"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "3NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "N:K653.Q974.T8.974 74.K53.AK962.KQ3 QJT82.T86.754.A5 A9.AJ2.QJ3.JT862"]
+[Auction "N"]
+pass 1C pass 1D pass 1NT pass 3NT pass pass pass
 [Result ""]
 {You are West and it is your bid. Decide what you would say, then  on BID. 
 
@@ -121,31 +68,22 @@ So that makes it clear that you need 3 \H tricks, and there's only one way to ge
 
 }
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 2, chOption: E, chBasis: N, basisKind:Declarer, nOption:1, nBasis: 0, nRot: 1, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-Pass 1C Pass 1D
-Pass 1NT Pass 3NT
-Pass Pass Pass
-[Play "S"]
-SQ
+[Play "E"]SQ
 
 [Event ""]
-{Baker 100Deals 9}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 9}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:A74.J863.T5.9843 952.KQ92.KQ83.J7 KQJ8..9764.QT652 T63.AT754.AJ2.AK"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:952.KQ92.KQ83.J7 KQJ8..9764.QT652 T63.AT754.AJ2.AK A74.J863.T5.9843"]
+[Auction "S"]
+1H pass 3H pass 4H pass pass pass
 [Result ""]
 {You are North and it is your bid. Decide what you would say, then  on BID. 
 
@@ -171,28 +109,21 @@ Finally visualize the situation if your first play was the \HK and it was West w
 
 Using the correct Plan guarantees the contract however \Hs split.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "S"]
-1H Pass 3H Pass
-4H Pass Pass Pass
 
 [Event ""]
-{Baker 100Deals 10}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 10}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "N:JT63.KQJ.T954.95 KQ92.952.K7.KQ83 .A874.QJ632.T764 A8754.T63.A8.AJ2"]
-[Scoring ""]
 [Declarer "W"]
 [Contract "4S"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "E:KQ92.952.K7.KQ83 .A874.QJ632.T764 A8754.T63.A8.AJ2 JT63.KQJ.T954.95"]
+[Auction "E"]
+1C pass 1S pass 2S pass 4S pass pass pass
 [Result ""]
 {You are West and it is your bid. Decide what you would say, then  on BID. 
 
@@ -218,29 +149,21 @@ If your first \S was \SK or \SQ then it would be too late.
 
 To summarize: If you are missing J x x x your first play should be from the hand with two honors. Then you will  be able to finesse in either direction. If you are missing J T x x your first play should be honor from the hand with only one. This will leave you with a double-finesse position in one direction. If the other defender has the trumps there is nothing you can do. }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
-[Student "S"]
-[Auction "E"]
-1C Pass 1S Pass
-2S Pass 4S Pass
-Pass Pass
 
 [Event ""]
-{Baker 100Deals 11}
 [Site ""]
 [Date ""]
 [Board "5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 11}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "E:Q54.J83.QT3.KT82 K82.754.K9542.Q3 JT97.KQT6.J6.J54 A63.A92.A87.A976"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "W:JT97.KQT6.J6.J54 A63.A92.A87.A976 Q54.J83.QT3.KT82 K82.754.K9542.Q3"]
+[Auction "W"]
+pass 1NT pass 2NT pass 3NT pass pass pass
 [Result ""]
 {You are North and it is your bid. Decide what you would say, then  on BID. 
 
@@ -260,31 +183,22 @@ Now you are on cruise-control. Play a \D to the \DA. Play another \D back to dum
 
 }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "W"]
-Pass 1NT Pass 2NT
-Pass 3NT Pass Pass
-Pass
-[Play "E"]
-C2
+[Play "W"]C2
 
 [Event ""]
-{Baker 100Deals 12}
 [Site ""]
 [Date ""]
 [Board "6"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 12}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "N:J96.KQT9.K5.JT87 85.J762.83.AKQ43 QT43.54.JT964.95 AK72.A83.AQ72.62"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "3NT"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "E:85.J762.83.AKQ43 QT43.54.JT964.95 AK72.A83.AQ72.62 J96.KQT9.K5.JT87"]
+[Auction "E"]
+1NT pass 2C pass 2S pass 3NT pass pass pass
 [Result ""]
 {You are West and it is your bid. Decide what you would say, then  on BID. 
 
@@ -308,12 +222,6 @@ If you played a high \C first you would never have an entry back to dummy. You w
 
 If you had just played the \Cs from the top you would have made an overtrick when they split 3-3, but gone down when they split 4-2. Making an overtrick about 40% of the time is a high price to pay for going down the other 60%.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 6, chOption: E, chBasis: N, basisKind:Declarer, nOption:1, nBasis: 0, nRot: 1, useStandardVul: true"]
-[Student "S"]
-[Auction "E"]
-1NT Pass 2C Pass
-2S Pass 3NT Pass
-Pass Pass
-[Play "S"]
-DJ
+[Play "E"]DJ
+

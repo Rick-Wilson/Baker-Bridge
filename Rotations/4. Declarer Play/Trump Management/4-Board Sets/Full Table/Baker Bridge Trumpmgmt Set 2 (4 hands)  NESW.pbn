@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:02:21 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker Trumpmgmt 5}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Trumpmgmt 5}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:J9.QT65.Q92.JT94 74.AK42.A854.Q62 QT832.J97.T6.873 AK65.83.KJ73.AK5"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "6D"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AK65.83.KJ73.AK5 J9.QT65.Q92.JT94 74.AK42.A854.Q62 QT832.J97.T6.873"]
+[Auction "N"]
+1D pass 1H pass 1S pass 3D pass 4C pass 4H pass 6D pass pass pass
 [Result ""]
 {The 4\C and 4\H bids were control-showing. North is to play 6\D. East leads the \CJ.
 
@@ -78,32 +33,22 @@ Leaving the master trump out, you would now proceed to take your two high \Cs, t
 
 Needing just three more tricks, and with two trumps in each hand you just cross-ruff \Hs and \S. East can ruff in with the \DQ at some point but he cannot prevent you from winning at least three of your trumps separately.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-1D Pass 1H Pass
-1S Pass 3D Pass
-4C Pass 4H Pass
-6D Pass Pass Pass
-[Play "E"]
-CJ
+[Play "W"]CJ
 
 [Event ""]
-{Baker Trumpmgmt 6}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Trumpmgmt 6}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "S:JT53.QJT3.T83.93 A82.K65.K42.QJ74 6.A872.QJ97.T852 KQ974.94.A65.AK6"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "4S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "W:A82.K65.K42.QJ74 6.A872.QJ97.T852 KQ974.94.A65.AK6 JT53.QJT3.T83.93"]
+[Auction "W"]
+1C pass 1S pass 1NT pass 2D pass 2S pass 4S pass pass pass
 [Result ""]
 {East's 2\D bid was New Minor Forcing, asking if West has 3 \Ss. West's 2\S response said "Yes, I have."East is to play 4\S. South leads the \HQ.
 
@@ -121,32 +66,22 @@ But don't give it to him now! Leave South with his master trump and switch to \C
 
 But you don't have to lose anything else as long as you don't lose trump control. So leave the master trump with South and just cash your minor suit winners. Let South ruff whenever he wants to because that will establish your \S9 to control any more \H leads. If he decides not to ruff at all then he can have the final trick with his high trump.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
-[Student "S"]
-[Auction "W"]
-1C Pass 1S Pass
-1NT Pass 2D Pass
-2S Pass 4S Pass
-Pass Pass
-[Play "S"]
-HQ
+[Play "W"]HQ
 
 [Event ""]
-{Baker Trumpmgmt 7}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Trumpmgmt 7}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:4.J952.QJT63.T84 T8.KQ86.872.9753 J762.T743.95.QJ6 AKQ953.A.AK4.AK2"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "6S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AKQ953.A.AK4.AK2 4.J952.QJT63.T84 T8.KQ86.872.9753 J762.T743.95.QJ6"]
+[Auction "S"]
+2C pass 2D pass 2S pass 3H pass 6S pass pass pass
 [Result ""]
 {South is to play 6\S. West leads the \DQ.
 
@@ -164,31 +99,22 @@ Even without a trump loser you will still go down 1 if you cannot take two disca
 
 So you give up a trump trick and gain two \H tricks in return. What a deal.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
-[Student "S"]
-[Auction "S"]
-2C Pass 2D Pass
-2S Pass 3H Pass
-6S Pass Pass Pass
-[Play "W"]
-DQ
+[Play "W"]DQ
 
 [Event ""]
-{Baker Trumpmgmt 8}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Trumpmgmt 8}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "N:JT863.Q87.AQT5.4 AQ.643.8742.6532 7542.KT52.KJ93.T K9.AJ9.6.AKQJ987"]
-[Scoring ""]
 [Declarer "W"]
 [Contract "5C"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "W:K9.AJ9.6.AKQJ987 JT863.Q87.AQT5.4 AQ.643.8742.6532 7542.KT52.KJ93.T"]
+[Auction "W"]
+1C pass 1NT pass 3C pass 4C pass 5C pass pass pass
 [Result ""]
 {West is to play 5\C. North leads the \SJ.
 
@@ -206,12 +132,6 @@ In dummy for the last time, play a \H to your \HJ and hope it wins.
 
 So you couldn't pull that one round of trumps because you couldn't waste either visit to dummy for anything other than the \H finesses.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
-[Student "S"]
-[Auction "W"]
-1C Pass 1NT Pass
-3C Pass 4C Pass
-5C Pass Pass Pass
-[Play "N"]
-SJ
+[Play "W"]SJ
+

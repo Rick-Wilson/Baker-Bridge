@@ -1,0 +1,200 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:16:19 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Bidpractice/Set1 6}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:KQ3.J63.K932.542 T84.K72.Q65.KJ93 J52.T985.T87.A76 A976.AQ4.AJ4.QT8"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{With 9 points NORTH is unable to decide the final contract. If SOUTH has 17 points then the partnership
+
+should be playing 3NT. If SOUTH opened with just 15 points then 3NT will be too high..
+
+So NORTH makes the temporizing bid of 2NT. This tells SOUTH that he must make the final call - go on to
+
+game if he has maximum, pass if he has minimum. On this Deal SOUTH has 17 points so he bids 3NT.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT Pass 2NT Pass
+3NT Pass Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set1 7}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:J95.Q52.K953.632 AT6.K98.AJ2.KT95 873.JT64.Q76.AQJ KQ42.A73.T84.874"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "2NT"]
+[Result ""]
+{This time SOUTH has a minimum 1NT opener; a balanced hand with 15 points.
+
+NORTH has 9 points; he knows that the partnership is somewhere between
+
+24 (9 + 15) and 26 (9 + 17). So he invites with a 2NT bid.
+
+SOUTH, with a minimum, declines the invitation by passing.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "E"]
+Pass 1NT Pass 2NT
+Pass Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set1 8}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:AT5.K62.K965.T64 J742.85.J42.9873 983.Q974.T873.AQ KQ6.AJT3.AQ.KJ52"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "2NT"]
+[Result ""]
+{SOUTH has a strong hand, 20 points and balanced distribution.
+
+It is just right to open 2NT (20-21 points).
+
+NORTH adds her 2 points to SOUTH's promised number of 20 or 21. Since she doesn't reach the
+
+magic game number of 26 points she just passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+2NT Pass Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set1 9}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:J95.KJ854.65.A43 AT8.AT9.KQT8.K97 Q642.63.A732.652 K73.Q72.J94.QJT8"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{SOUTH has an mid-range 1NT opener; a balanced hand with 16 points.
+
+NORTH has 9 points. He bids 2NT, asking SOUTH to pass if she has 15 or bid 3NT if she has 17.
+
+But SOUTH has 16 points, which leaves her with no clear choice.
+
+In this case she must decide whether her hand is a "good" 16 points or a "poor" 16 points.
+
+Since her supporting cards are mostly 10's, 9's and 8's she figures it as "good"
+
+and bids 3NT.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "E"]
+Pass 1NT Pass 2NT
+Pass 3NT Pass Pass
+Pass
+
+[Event ""]
+{Baker Bidpractice/Set1 10}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:A84.Q832.J32.542 T962.K75.954.KQ6 753.JT96.A76.T98 KQJ.A4.KQT8.AJ73"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{SOUTH has 20 points and 4-4-3-2 distribution, so he opens 2NT.
+
+NORTH has 8 points. She adds SOUTH's 20 or 21 for a total of 28 or 29, enough for game but
+
+nowhere close to the slam requirement. So she bids 3NT and SOUTH passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 5, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+2NT Pass 3NT Pass
+Pass Pass

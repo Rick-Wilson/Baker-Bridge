@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:01:13 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker Holdup 1}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Holdup 1}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:T84.652.KQJT5.K8 A76.QJ94.62.Q753 932.A873.974.JT2 KQJ5.KT.A83.A964"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:KQJ5.KT.A83.A964 T84.652.KQJT5.K8 A76.QJ94.62.Q753 932.A873.974.JT2"]
+[Auction "S"]
+1NT pass 2C pass 2S pass 2NT pass 3NT pass pass pass
 [Result ""]
 {South is to play 3NT. West leads the \DK.
 
@@ -70,31 +25,22 @@ You were fortunate it was East who took the \HA, and that he has no \D to return
 
 But if you had not held-up your \DA even good luck wouldn't have helped you.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2C Pass
-2S Pass 2NT Pass
-3NT Pass Pass Pass
-[Play "W"]
-DK
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]DK
 
 [Event ""]
-{Baker Holdup 2}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Holdup 2}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:KQJT5.JT.962.J76 A76.A8653.K5.AK5 943.Q972.A84.QT2 82.K4.QJT73.9843"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:A76.A8653.K5.AK5 943.Q972.A84.QT2 82.K4.QJT73.9843 KQJT5.JT.962.J76"]
+[Auction "N"]
+1H pass 1NT pass 3NT pass pass pass
 [Result ""]
 {South is to play 3NT. West leads the \SK.
 
@@ -110,30 +56,22 @@ But what if East actually held 4 \Ss? No problem, in that case the \Ss would hav
 
 The hold-up lets you make the contract whenever East holds the \DA. And if West happened to hold the \DA??? You go down.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1H Pass 1NT Pass
-3NT Pass Pass Pass
-[Play "W"]
-SK
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]SK
 
 [Event ""]
-{Baker Holdup 3}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Holdup 3}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:QJ732.T7.65.JT82 T5.K854.AT93.A65 A86.QJ92.K74.973 K94.A63.QJ82.KQ4"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:T5.K854.AT93.A65 A86.QJ92.K74.973 K94.A63.QJ82.KQ4 QJ732.T7.65.JT82"]
+[Auction "N"]
+pass pass 1NT pass 2C pass 2D pass 3NT pass pass pass
 [Result ""]
 {South is to play 3NT. West leads the \S3. East wins the first trick with the \SA and returns the \S8.
 
@@ -147,31 +85,22 @@ It's too bad the finesse didn't work, but it's not too too bad! Because East is 
 
 And as long as you had held up on the \SK until the third round you could ensure that East was out of \Ss if he had started with only 3.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-Pass Pass 1NT Pass
-2C Pass 2D Pass
-3NT Pass Pass Pass
-[Play "W"]
-S3
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]S3
 
 [Event ""]
-{Baker Holdup 4}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Holdup 4}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:T84.6542.KQJ4.75 Q6.AT9.752.KJT64 J932.Q83.T96.AQ3 AK75.KJ7.A83.982"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AK75.KJ7.A83.982 T84.6542.KQJ4.75 Q6.AT9.752.KJT64 J932.Q83.T96.AQ3"]
+[Auction "S"]
+1NT pass 3NT pass pass pass
 [Result ""]
 {South is to play 3NT. West leads the \DK.
 
@@ -189,30 +118,22 @@ The rest of the tricks are yours, nine in all.
 
 But with this layout you needed to hold up twice.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 3NT Pass
-Pass Pass
-[Play "W"]
-DK
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]DK
 
 [Event ""]
-{Baker Holdup 5}
 [Site ""]
 [Date ""]
 [Board "5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Holdup 5}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:6.AT864.T73.J832 AQ82.753.Q64.A95 K753.J9.J852.QT4 JT94.KQ2.AK9.K76"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:JT94.KQ2.AK9.K76 6.AT864.T73.J832 AQ82.753.Q64.A95 K753.J9.J852.QT4"]
+[Auction "S"]
+1NT pass 3NT pass pass pass
 [Result ""]
 {With his 4-3-3-3 distribution North chooses not to bother with Stayman. South is to play 3NT. West leads the \H6. East plays the \HJ.
 
@@ -228,30 +149,22 @@ Play off your 7 winners and give up a \C at the end.
 
 So you decide whether to hold up or not based on how you expect to play the hand.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 5, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 3NT Pass
-Pass Pass
-[Play "W"]
-H6
+[RotationNote "Board 5, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]H6
 
 [Event ""]
-{Baker Holdup 6}
 [Site ""]
 [Date ""]
 [Board "6"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Holdup 6}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:K3.AT864.T73.J83 JT94.753.AK9.A95 765.J9.J852.QT42 AQ82.KQ2.Q64.K76"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AQ82.KQ2.Q64.K76 K3.AT864.T73.J83 JT94.753.AK9.A95 765.J9.J852.QT42"]
+[Auction "S"]
+1NT pass 3NT pass pass pass
 [Result ""]
 {With his 4-3-3-3 distribution North chooses not to bother with Stayman. South is to play 3NT. West leads the \H6. East plays the \HJ.
 
@@ -269,11 +182,6 @@ But it sure makes a big difference in how you play the hand.
 
 This might have turned out even better. If West had decided to play his partner for the \HQ, (who would have played \HJ from a holding of \H Q J x), you would have made an overtrick!}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 6, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 3NT Pass
-Pass Pass
-[Play "W"]
-H6
+[RotationNote "Board 6, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]H6
+

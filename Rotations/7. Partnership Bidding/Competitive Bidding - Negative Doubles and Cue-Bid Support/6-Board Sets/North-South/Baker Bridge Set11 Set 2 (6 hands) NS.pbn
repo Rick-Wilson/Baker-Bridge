@@ -1,151 +1,91 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=UTF-8
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:12:17 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker Bidpractice/Set11 7}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set11 7}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:T.KQT54.QT53.A63 AK632.93.972.Q92 J854.A62.J84.875 Q97.J87.AK6.KJT4"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "2S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:Q97.J87.AK6.KJT4 8.KQT654.QT5.A76 AK632.93.972.Q92 JT54.A2.J843.853"]
+[Auction "S"]
+1C 1H 1S pass 2S pass pass pass
 [Result ""]
 {Compare this hand with Deal 6.
 
-NORTH has five â™ s, this time so she bids 1â™ .
+NORTH has five ♠s, this time so she bids 1♠.
 
 SOUTH knows there
 
 IS
 
-an 8-card fit in â™ s, so he bids 2â™ .
+an 8-card fit in ♠s, so he bids 2♠.
 
 NORTH has 10 points so she passes.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1C 1H 1S Pass
-2S Pass Pass Pass
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Bidpractice/Set11 8}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set11 8}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "E:Q43.J52.J842.Q63 A52.AQT93.97.AJ2 KJT86.6.AT53.875 97.K874.KQ6.KT94"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "E:T3.52.AT842.Q853 A52.AQT93.97.AJ2 KQJ864.J6.J53.76 97.K874.KQ6.KT94"]
+[Auction "E"]
+pass 1H 1S 2S pass 4H pass pass pass
 [Result ""]
 {NORTH has 11/12 points, a Limit Raise in
 
-â™¥
+♥
 
 s. So after the overcall
 
-he makes a Support Cue-bid of 2â™ .
+he makes a Support Cue-bid of 2♠.
 
 SOUTH adds her 16 to the 11 that NORTH has promised as a minimum and goes straight
 
 to 4
 
-â™¥
+♥
 
 .
 
 If NORTH had significantly more than 11 he could bid on, but in this case he should happily pass.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "E"]
-Pass 1H 1S 2S
-Pass 4H Pass Pass
-Pass
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
 
 [Event ""]
-{Baker Bidpractice/Set11 9}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set11 9}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "W:K43.J52.KJ42.J63 852.AQT93.97.AQ2 AQJT6.6.AQ53.875 97.K874.T86.KT94"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:QT3.J52.AKJ43.87 852.AQT93.97.AQ2 AKJ64.6.Q52.J653 97.K874.T86.KT94"]
+[Auction "W"]
+pass 1H 1S 3H pass pass pass
 [Result ""]
 {Compare this with Deal 8.
 
 SOUTH has 7 points, barely enough for a 2
 
-â™¥
+♥
 
 raise if there had been no overcall.
 
-But when EAST puts in the â™  bid, SOUTH can jump to 3
+But when EAST puts in the ♠ bid, SOUTH can jump to 3
 
-â™¥
+♥
 
 as a preemptive
 
@@ -153,106 +93,83 @@ measure. He knows NORTH won't think he has strength because he did not make a Su
 
 NORTH does know it and passes 3
 
-â™¥
+♥
 
 .}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 3, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "W"]
-Pass 1H 1S 3H
-Pass Pass Pass
+[RotationNote "Board 3, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Bidpractice/Set11 10}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set11 10}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "W:JT5.Q852.JT54.96 Q862.AK93.97.A82 4.JT7.AKQ82.Q753 AK973.64.63.KJT4"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:4.QJ.AKQ542.9763 AK973.64.63.KJT4 JT5.T8752.JT8.Q5 Q862.AK93.97.A82"]
+[Auction "E"]
+1D 1S pass 2D pass 3S pass 4S pass pass pass
 [Result ""]
-{NORTH has the strength for a raise to game in â™ s, but this could be dangerous since SOUTH
+{NORTH has the strength for a raise to game in ♠s, but this could be dangerous since SOUTH
 
 has overcalled rather than opened. Instead, NORTH shows her strength with a Support Cue-bid.
 
-SOUTH in fact had a pretty good overcall so he jumps to 3â™  and NORTH bids the game.
+SOUTH in fact had a pretty good overcall so he jumps to 3♠ and NORTH bids the game.
 
-With a weak overcall SOUTH would have just returned to 2â™  which NORTH would pass.}
+With a weak overcall SOUTH would have just returned to 2♠ which NORTH would pass.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "E"]
-1D 1S Pass 2D
-Pass 3S Pass 4S
-Pass Pass Pass
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Bidpractice/Set11 11}
 [Site ""]
 [Date ""]
 [Board "5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set11 11}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "E:.JT72.862.KQT954 Q862.AK93.97.A82 JT54.Q8.AKJT54.J AK973.654.Q3.763"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "2S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "W:4.QJ8.AKJ82.KQ94 AK973.654.Q3.763 JT5.T72.T654.JT5 Q862.AK93.97.A82"]
+[Auction "W"]
+1D 1S pass 2D pass 2S pass pass pass
 [Result ""]
 {Compare this to Deal 10.
 
-SOUTH has the strength for a raise to game in â™ s, but this could be dangerous since NORTH
+SOUTH has the strength for a raise to game in ♠s, but this could be dangerous since NORTH
 
 has overcalled rather than opened. Instead, SOUTH shows her strength with a Support Cue-bid.
 
-NORTH has very minimal overcall so he just bids 2â™  which SOUTH passes.}
+NORTH has very minimal overcall so he just bids 2♠ which SOUTH passes.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "W"]
-1D 1S Pass 2D
-Pass 2S Pass Pass
-Pass
+[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
 
 [Event ""]
-{Baker Bidpractice/Set11 12}
 [Site ""]
 [Date ""]
 [Board "6"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set11 12}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:AKJ93.65.763.J74 Q75.QJ93.AT82.Q8 T642.42.95.T9532 8.AKT87.KQJ4.AK6"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:8.AKT87.KQJ4.AK6 AKJT93.42.96.T73 Q75.QJ93.AT82.Q8 642.65.753.J9542"]
+[Auction "S"]
+1H 1S 2S pass 4NT pass 5D pass 6H pass pass pass
 [Result ""]
 {SOUTH has a maximum 1
 
-â™¥
+♥
 
 opening bid.
 
 NORTH would have made a Limit Raise in
 
-â™¥
+♥
 
 s, but after WEST's overcall she
 
@@ -262,10 +179,5 @@ SOUTH thinks there may be a slam and bids 4NT Blackwood to check for Aces. When 
 
 SOUTH bids the slam.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 6, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1H 1S 2S Pass
-4NT Pass 5D Pass
-6H Pass Pass Pass
+[RotationNote "Board 6, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+

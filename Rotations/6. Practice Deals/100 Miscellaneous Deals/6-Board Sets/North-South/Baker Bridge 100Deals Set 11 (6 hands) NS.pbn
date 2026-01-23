@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:06:35 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",10,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker 100Deals 61}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 61}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:T764.7.9642.KJ82 K8.J962.T853.T65 J932.K854.J7.A73 AQ5.AQT3.AKQ.Q94"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AQ5.AQT3.AKQ.Q94 T764.7.9642.KJ82 K8.J962.T853.T65 J932.K854.J7.A73"]
+[Auction "N"]
+2C pass 2D pass 2NT pass 3C pass 3H pass 4H pass pass pass
 [Result ""]
 {You are North and it is your bid. Decide what you would say, then  on BID. 
 
@@ -98,32 +53,22 @@ VISUALIZE:
 
 (2) That your first play from dummy was the \HJ and you played \HT under it. To stay in dummy one more trick you would have to play the \H9 and put the \H3 under it. But when you play the \H9 West will cover with his \HK. You can win with the \HA but are left with \H Q 3 and the lead will be in your hand. You will lose a trick to West's \H 8 5.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-2C Pass 2D Pass
-2NT Pass 3C Pass
-3H Pass 4H Pass
-Pass Pass
-[Play "E"]
-C2
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]C2
 
 [Event ""]
-{Baker 100Deals 62}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 62}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:T76.AQ874.Q953.7 A853.62.A8.AJT85 QJ92.T53.J64.Q92 K4.KJ9.KT72.K643"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:A853.62.A8.AJT85 QJ92.T53.J64.Q92 K4.KJ9.KT72.K643 T76.AQ874.Q953.7"]
+[Auction "N"]
+1C pass 2NT pass 3NT pass pass pass
 [Result ""]
 {You are South and it is your bid. Decide what you would say, then  on BID. 
 
@@ -145,30 +90,22 @@ That old guideline says you should finesse for a missing Queen when you and part
 
 All else being equal, it's a good guideline. But sometimes all else ISN'T equal, like in this hand where you absolutely must not let East get the lead. }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1C Pass 2NT Pass
-3NT Pass Pass Pass
-[Play "W"]
-H7
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]H7
 
 [Event ""]
-{Baker 100Deals 63}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 63}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:KT73.K84..JT9732 Q842.Q952.A74.86 AJ96.JT76.JT8.K5 5.A3.KQ96532.AQ4"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "5D"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "N:5.A3.KQ96532.AQ4 KT73.K84..JT9732 Q842.Q952.A74.86 AJ96.JT76.JT8.K5"]
+[Auction "N"]
+1D pass 1H pass 3D pass 4D pass 5D pass pass pass
 [Result ""]
 {You are North and it is your bid. Decide what you would say, then  on BID. 
 
@@ -196,31 +133,22 @@ If you ruffed the third \C with the \DA West would win a trump trick.
 
 So you couldn't ruff the third \C at all, you had to discard it on something. And the only "something" that dummy had was the \HQ.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1D Pass 1H Pass
-3D Pass 4D Pass
-5D Pass Pass Pass
-[Play "E"]
-CJ
+[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]CJ
 
 [Event ""]
-{Baker 100Deals 64}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 64}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:952.T6.Q86.JT972 764.Q873.A972.86 T3.AJ952.JT54.53 AKQJ8.K4.K3.AKQ4"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "6S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AKQJ8.K4.K3.AKQ4 952.T6.Q86.JT972 764.Q873.A972.86 T3.AJ952.JT54.53"]
+[Auction "S"]
+2C pass 2D pass 2S pass 3S pass 4NT pass 5D pass 6S pass pass pass
 [Result ""]
 {You are South and it is your bid. Decide what you would say, then  on BID. 
 
@@ -252,32 +180,22 @@ for proof that this elaborate Plan was the best.
 
 It made no difference in tricks whether you ruffed the third or fourth \C so that made it right to ruff the third one.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-2C Pass 2D Pass
-2S Pass 3S Pass
-4NT Pass 5D Pass
-6S Pass Pass Pass
-[Play "W"]
-CJ
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]CJ
 
 [Event ""]
-{Baker 100Deals 65}
 [Site ""]
 [Date ""]
 [Board "5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 65}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:53.QT62.Q83.K974 KQ72.J4.762.6532 T94.98753.AKT4.8 AJ86.AK.J95.AQJT"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:KQ72.J4.762.6532 T94.98753.AKT4.8 AJ86.AK.J95.AQJT 53.QT62.Q83.K974"]
+[Auction "N"]
+2NT pass 3C pass 3S pass 4S pass pass pass
 [Result ""]
 {You are South and it is your bid. Decide what you would say, then  on BID. 
 
@@ -303,31 +221,22 @@ The first part is realizing that you need to have three entries to dummy.
 
 The second part is figuring out that the \S suit could provide them.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 5, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-2NT Pass 3C Pass
-3S Pass 4S Pass
-Pass Pass
-[Play "E"]
-DA
+[RotationNote "Board 5, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+[Play "E"]DA
 
 [Event ""]
-{Baker 100Deals 66}
 [Site ""]
 [Date ""]
 [Board "6"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 66}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:KJ92.7.T6532.853 T73.KJ54.K7.AQT6 Q654.96.AQJ9.K72 A8.AQT832.84.J94"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:T73.KJ54.K7.AQT6 Q654.96.AQJ9.K72 A8.AQT832.84.J94 KJ92.7.T6532.853"]
+[Auction "N"]
+1C pass 1H pass 2H pass 4H pass pass pass
 [Result ""]
 {You are South and it is your bid. Decide what you would say, then  on BID. 
 
@@ -353,12 +262,6 @@ You had to lose one \S in any case, so you just choose to lose it to the defende
 
 Notice that the Danger Hand WAS on lead at one point - the opening lead. If West had been clairvoyant enough to lead a \D the contract could have been beaten. Opening leads are important to the defense.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 6, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1C Pass 1H Pass
-2H Pass 4H Pass
-Pass Pass
-[Play "W"]
-S2
+[RotationNote "Board 6, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]S2
+

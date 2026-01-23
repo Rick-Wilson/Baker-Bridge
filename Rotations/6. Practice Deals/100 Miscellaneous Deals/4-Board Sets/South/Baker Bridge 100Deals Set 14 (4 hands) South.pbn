@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:05:26 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",10,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker 100Deals 53}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 53}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:QT863.Q852.64.98 75.K64.AQ853.AJ2 K94.J93.K72.QT54 AJ2.AT7.JT9.K763"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AJ2.AT7.JT9.K763 QT863.Q852.64.98 75.K64.AQ853.AJ2 K94.J93.K72.QT54"]
+[Auction "S"]
+1C pass 1D pass 1NT pass 3NT pass pass pass
 [Result ""]
 {You are South and it is your bid. Decide what you would say, then  on BID. 
 
@@ -76,31 +31,22 @@ Now you take the \D finesse, losing to East's \DK (as expected). But it doesn't 
 
 If you did not have the \SJ you would never consider doing anything except hold up. But with it you start wondering if you can get a trick with it. Of course, as you see, the hold-up would be correct with \S A 3 2, and it is also correct with \S A J 2.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1C Pass 1D Pass
-1NT Pass 3NT Pass
-Pass Pass
-[Play "W"]
-S6
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]S6
 
 [Event ""]
-{Baker 100Deals 54}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 54}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:KJ8.K2.QJ98.T853 Q5.JT73.K65.9642 T9642.85.T72.AJ7 A73.AQ964.A43.KQ"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:A73.AQ964.A43.KQ KJ8.K2.QJ98.T853 Q5.JT73.K65.9642 T9642.85.T72.AJ7"]
+[Auction "S"]
+1H pass 2H pass 4H pass pass pass
 [Result ""]
 {You are South and it is your bid. Decide what you would say, then  on BID. 
 
@@ -126,30 +72,22 @@ But there are many situations when that is NOT the best plan. Perhaps because yo
 
 In this deal pulling trumps is secondary to finding a place for that slow \D loser. }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1H Pass 2H Pass
-4H Pass Pass Pass
-[Play "W"]
-DQ
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]DQ
 
 [Event ""]
-{Baker 100Deals 55}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 55}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:AQ94.5.Q975.QJT6 KJ6.QJ862.642.93 T853.94.KJT.K872 72.AKT73.A83.A54"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:72.AKT73.A83.A54 AQ94.5.Q975.QJT6 KJ6.QJ862.642.93 T853.94.KJT.K872"]
+[Auction "S"]
+1H pass 4H pass pass pass pass
 [Result ""]
 {You are South and it is your bid. Decide what you would say, then  on BID. 
 
@@ -169,30 +107,22 @@ Or, if West holds the \SQ and East the \SA then leading up to the \SJ would also
 
 But you should still ask yourself if there is some distribution that will allow you to be successful. And if there is, just assume that distribution and boldly play the cards out.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1H Pass 4H Pass
-Pass Pass Pass
-[Play "W"]
-CQ
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]CQ
 
 [Event ""]
-{Baker 100Deals 56}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 56}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:QJT7.JT9.94.Q865 K853.K6.J653.A72 92.AQ843.T872.94 A64.752.AKQ.KJT3"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:A64.752.AKQ.KJT3 QJT7.JT9.94.Q865 K853.K6.J653.A72 92.AQ843.T872.94"]
+[Auction "S"]
+1NT pass 2C pass 2D pass 3NT pass pass pass
 [Result ""]
 {You are South and it is your bid. Decide what you would say, then  on BID. 
 
@@ -212,12 +142,6 @@ Win the first trick with the \SA. (DO NOT HOLD UP, WEST MAY SWITCH). Play the \C
 
 Be on the lookout for this type of situation because many times you have a finesse that can be made either way. So you finesse into the Safe hand.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2C Pass
-2D Pass 3NT Pass
-Pass Pass
-[Play "W"]
-SQ
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]SQ
+

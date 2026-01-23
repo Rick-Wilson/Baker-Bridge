@@ -1,68 +1,23 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=UTF-8
-%Creator: BridgeComposer Version 5.111
-%Created: Sat Apr 12 07:45:30 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker Bidpractice/Set4 21}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set4 21}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:72.J8742.JT5.Q93 Q965.AQ93.KQ8.A6 A84.T6.7642.KJT5 KJT3.K5.A93.8742"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:Q965.AQ93.KQ8.A6 A84.T42.JT62.Q53 KJT3.K5.A93.8742 72.J876.754.KJT9"]
+[Auction "N"]
+1NT pass 2C pass 2H pass 3NT pass 4S pass pass pass
 [Result ""]
-{SOUTH uses Stayman because he has a 4-card â™  suit.
+{SOUTH uses Stayman because he has a 4-card ♠ suit.
 
 NORTH's 2
 
-â™¥
+♥
 
 response wasn't exactly what SOUTH was hoping for,
 
@@ -72,125 +27,97 @@ NORTH absolutely knows that SOUTH holds a 4-card Major -
 
 and also knows that it isn't
 
-â™¥
+♥
 
 s.
 
-So NORTH bids 4â™ .}
+So NORTH bids 4♠.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2C Pass
-2H Pass 3NT Pass
-4S Pass Pass Pass
 
 [Event ""]
-{Baker Bidpractice/Set4 22}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set4 22}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "S:832.T93.KJ9.A852 J974.Q862.T876.4 KQ5.J5.42.KQJ763 AT6.AK74.AQ53.T9"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "2H"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "E:AT6.AK74.AQ53.T9 KQ5.T93.J2.QJ732 J974.Q862.T876.4 832.J5.K94.AK865"]
+[Auction "E"]
+1NT pass 2C pass 2H pass pass pass
 [Result ""]
 {WEST has a rotten hand, and many players would just pass 1NT.
 
 But WEST figures that having EAST play any 4-4 fit would be better than 1NT so
 
-he bids 2â™£, Stayman. This is called "Garbage Stayman", and you can see why.
+he bids 2♣, Stayman. This is called "Garbage Stayman", and you can see why.
 
 EAST bids 2
 
-â™¥
+♥
 
 and WEST passes. He would have passed
 
-either 2â™  or 2
+either 2♠ or 2
 
-â™¦
+♦
 
 also.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
-[Student "S"]
-[Auction "E"]
-1NT Pass 2C Pass
-2H Pass Pass Pass
 
 [Event ""]
-{Baker Bidpractice/Set4 23}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set4 23}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:84.A7632.QJ7.J52 AQ62.KJ8.A62.K87 T95.T4.9853.AT64 KJ73.Q95.KT4.Q93"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:AQ62.KJ8.A62.K87 T854.T64.97.A652 KJ73.Q95.KT4.Q93 9.A732.QJ853.JT4"]
+[Auction "S"]
+1NT pass 3NT pass pass pass
 [Result ""]
 {Just having a 4-card Major doesn't mean you must automatically use Stayman.
 
-Here NORTH has a 4-card â™  suit, but decides not to seek a 4-4 fit because his
+Here NORTH has a 4-card ♠ suit, but decides not to seek a 4-4 fit because his
 
-hand wouldn't have any ruffing values in a â™  contract. He bids 3NT.
+hand wouldn't have any ruffing values in a ♠ contract. He bids 3NT.
 
-Notice that even though SOUTH also has four â™ s the 4-4 fit is not useful to them in
+Notice that even though SOUTH also has four ♠s the 4-4 fit is not useful to them in
 
-a â™  contract because neither hand can ruff any losers.}
+a ♠ contract because neither hand can ruff any losers.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 3NT Pass
-Pass Pass
 
 [Event ""]
-{Baker Bidpractice/Set4 24}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set4 24}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "N:52.A982.JT94.J62 QT864.Q73.A6.T84 A93.T6.852.KQ973 KJ7.KJ54.KQ73.A5"]
-[Scoring ""]
 [Declarer "W"]
 [Contract "4S"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "W:KJ7.KJ54.KQ73.A5 2.A86.9852.KJ973 QT864.Q73.A6.T84 A953.T92.JT4.Q62"]
+[Auction "W"]
+1NT pass 2H pass 2S pass 2NT pass 4S pass pass pass
 [Result ""]
-{EAST has an invitational (9 point) hand with five â™ s.
+{EAST has an invitational (9 point) hand with five ♠s.
 
-She bids it in the standard way - first transfer WEST to â™ s, then invite
+She bids it in the standard way - first transfer WEST to ♠s, then invite
 
 the game by bidding 2NT.
 
-WEST, with 17 points and three â™ s, accepts the game invitation and chooses 4â™ .}
+WEST, with 17 points and three ♠s, accepts the game invitation and chooses 4♠.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
-[Student "S"]
-[Auction "W"]
-1NT Pass 2H Pass
-2S Pass 2NT Pass
-4S Pass Pass Pass
 
 [Event ""]
 [Site ""]
@@ -202,15 +129,16 @@ WEST, with 17 points and three â™ s, accepts the game invitation and chooses
 [South ""]
 [Dealer "N"]
 [Vulnerable "NS"]
-[Deal "W:72.J8742.JT5.Q93 Q965.AQ93.KQ8.A6 A84.T6.7642.KJT5 KJT3.K5.A93.8742"]
+[Deal "N:Q965.AQ93.KQ8.A6 A84.T42.JT62.Q53 KJT3.K5.A93.8742 72.J876.754.KJT9"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -222,15 +150,16 @@ WEST, with 17 points and three â™ s, accepts the game invitation and chooses
 [South ""]
 [Dealer "E"]
 [Vulnerable "EW"]
-[Deal "S:832.T93.KJ9.A852 J974.Q862.T876.4 KQ5.J5.42.KQJ763 AT6.AK74.AQ53.T9"]
+[Deal "E:AT6.AK74.AQ53.T9 KQ5.T93.J2.QJ732 J974.Q862.T876.4 832.J5.K94.AK865"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -242,15 +171,16 @@ WEST, with 17 points and three â™ s, accepts the game invitation and chooses
 [South ""]
 [Dealer "S"]
 [Vulnerable "All"]
-[Deal "E:84.A7632.QJ7.J52 AQ62.KJ8.A62.K87 T95.T4.9853.AT64 KJ73.Q95.KT4.Q93"]
+[Deal "S:AQ62.KJ8.A62.K87 T854.T64.97.A652 KJ73.Q95.KT4.Q93 9.A732.QJ853.JT4"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -262,15 +192,16 @@ WEST, with 17 points and three â™ s, accepts the game invitation and chooses
 [South ""]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "N:52.A982.JT94.J62 QT864.Q73.A6.T84 A93.T6.852.KQ973 KJ7.KJ54.KQ73.A5"]
+[Deal "W:KJ7.KJ54.KQ73.A5 2.A86.9852.KJ973 QT864.Q73.A6.T84 A953.T92.JT4.Q62"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -282,15 +213,16 @@ WEST, with 17 points and three â™ s, accepts the game invitation and chooses
 [South ""]
 [Dealer "N"]
 [Vulnerable "EW"]
-[Deal "W:72.J8742.JT5.Q93 Q965.AQ93.KQ8.A6 A84.T6.7642.KJT5 KJT3.K5.A93.8742"]
+[Deal "N:Q965.AQ93.KQ8.A6 A84.T42.JT62.Q53 KJT3.K5.A93.8742 72.J876.754.KJT9"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -302,15 +234,16 @@ WEST, with 17 points and three â™ s, accepts the game invitation and chooses
 [South ""]
 [Dealer "E"]
 [Vulnerable "All"]
-[Deal "S:832.T93.KJ9.A852 J974.Q862.T876.4 KQ5.J5.42.KQJ763 AT6.AK74.AQ53.T9"]
+[Deal "E:AT6.AK74.AQ53.T9 KQ5.T93.J2.QJ732 J974.Q862.T876.4 832.J5.K94.AK865"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -322,15 +255,16 @@ WEST, with 17 points and three â™ s, accepts the game invitation and chooses
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "E:84.A7632.QJ7.J52 AQ62.KJ8.A62.K87 T95.T4.9853.AT64 KJ73.Q95.KT4.Q93"]
+[Deal "S:AQ62.KJ8.A62.K87 T854.T64.97.A652 KJ73.Q95.KT4.Q93 9.A732.QJ853.JT4"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -342,15 +276,16 @@ WEST, with 17 points and three â™ s, accepts the game invitation and chooses
 [South ""]
 [Dealer "W"]
 [Vulnerable "NS"]
-[Deal "N:52.A982.JT94.J62 QT864.Q73.A6.T84 A93.T6.852.KQ973 KJ7.KJ54.KQ73.A5"]
+[Deal "W:KJ7.KJ54.KQ73.A5 2.A86.9852.KJ973 QT864.Q73.A6.T84 A953.T92.JT4.Q62"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -362,15 +297,16 @@ WEST, with 17 points and three â™ s, accepts the game invitation and chooses
 [South ""]
 [Dealer "N"]
 [Vulnerable "All"]
-[Deal "W:72.J8742.JT5.Q93 Q965.AQ93.KQ8.A6 A84.T6.7642.KJT5 KJT3.K5.A93.8742"]
+[Deal "N:Q965.AQ93.KQ8.A6 A84.T42.JT62.Q53 KJT3.K5.A93.8742 72.J876.754.KJT9"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -382,15 +318,16 @@ WEST, with 17 points and three â™ s, accepts the game invitation and chooses
 [South ""]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "S:832.T93.KJ9.A852 J974.Q862.T876.4 KQ5.J5.42.KQJ763 AT6.AK74.AQ53.T9"]
+[Deal "E:AT6.AK74.AQ53.T9 KQ5.T93.J2.QJ732 J974.Q862.T876.4 832.J5.K94.AK865"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -402,15 +339,16 @@ WEST, with 17 points and three â™ s, accepts the game invitation and chooses
 [South ""]
 [Dealer "S"]
 [Vulnerable "NS"]
-[Deal "E:84.A7632.QJ7.J52 AQ62.KJ8.A62.K87 T95.T4.9853.AT64 KJ73.Q95.KT4.Q93"]
+[Deal "S:AQ62.KJ8.A62.K87 T854.T64.97.A652 KJ73.Q95.KT4.Q93 9.A732.QJ853.JT4"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -422,15 +360,16 @@ WEST, with 17 points and three â™ s, accepts the game invitation and chooses
 [South ""]
 [Dealer "W"]
 [Vulnerable "EW"]
-[Deal "N:52.A982.JT94.J62 QT864.Q73.A6.T84 A93.T6.852.KQ973 KJ7.KJ54.KQ73.A5"]
+[Deal "W:KJ7.KJ54.KQ73.A5 2.A86.9852.KJ973 QT864.Q73.A6.T84 A953.T92.JT4.Q62"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -442,15 +381,16 @@ WEST, with 17 points and three â™ s, accepts the game invitation and chooses
 [South ""]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:72.J8742.JT5.Q93 Q965.AQ93.KQ8.A6 A84.T6.7642.KJT5 KJT3.K5.A93.8742"]
+[Deal "N:Q965.AQ93.KQ8.A6 A84.T42.JT62.Q53 KJT3.K5.A93.8742 72.J876.754.KJT9"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -462,15 +402,16 @@ WEST, with 17 points and three â™ s, accepts the game invitation and chooses
 [South ""]
 [Dealer "E"]
 [Vulnerable "NS"]
-[Deal "S:832.T93.KJ9.A852 J974.Q862.T876.4 KQ5.J5.42.KQJ763 AT6.AK74.AQ53.T9"]
+[Deal "E:AT6.AK74.AQ53.T9 KQ5.T93.J2.QJ732 J974.Q862.T876.4 832.J5.K94.AK865"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -482,15 +423,16 @@ WEST, with 17 points and three â™ s, accepts the game invitation and chooses
 [South ""]
 [Dealer "S"]
 [Vulnerable "EW"]
-[Deal "E:84.A7632.QJ7.J52 AQ62.KJ8.A62.K87 T95.T4.9853.AT64 KJ73.Q95.KT4.Q93"]
+[Deal "S:AQ62.KJ8.A62.K87 T854.T64.97.A652 KJ73.Q95.KT4.Q93 9.A732.QJ853.JT4"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -502,15 +444,16 @@ WEST, with 17 points and three â™ s, accepts the game invitation and chooses
 [South ""]
 [Dealer "W"]
 [Vulnerable "All"]
-[Deal "N:52.A982.JT94.J62 QT864.Q73.A6.T84 A93.T6.852.KQ973 KJ7.KJ54.KQ73.A5"]
+[Deal "W:KJ7.KJ54.KQ73.A5 2.A86.9852.KJ973 QT864.Q73.A6.T84 A953.T92.JT4.Q62"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -522,15 +465,16 @@ WEST, with 17 points and three â™ s, accepts the game invitation and chooses
 [South ""]
 [Dealer "N"]
 [Vulnerable "NS"]
-[Deal "W:72.J8742.JT5.Q93 Q965.AQ93.KQ8.A6 A84.T6.7642.KJT5 KJT3.K5.A93.8742"]
+[Deal "N:Q965.AQ93.KQ8.A6 A84.T42.JT62.Q53 KJT3.K5.A93.8742 72.J876.754.KJT9"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -542,15 +486,16 @@ WEST, with 17 points and three â™ s, accepts the game invitation and chooses
 [South ""]
 [Dealer "E"]
 [Vulnerable "EW"]
-[Deal "S:832.T93.KJ9.A852 J974.Q862.T876.4 KQ5.J5.42.KQJ763 AT6.AK74.AQ53.T9"]
+[Deal "E:AT6.AK74.AQ53.T9 KQ5.T93.J2.QJ732 J974.Q862.T876.4 832.J5.K94.AK865"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -562,15 +507,16 @@ WEST, with 17 points and three â™ s, accepts the game invitation and chooses
 [South ""]
 [Dealer "S"]
 [Vulnerable "All"]
-[Deal "E:84.A7632.QJ7.J52 AQ62.KJ8.A62.K87 T95.T4.9853.AT64 KJ73.Q95.KT4.Q93"]
+[Deal "S:AQ62.KJ8.A62.K87 T854.T64.97.A652 KJ73.Q95.KT4.Q93 9.A732.QJ853.JT4"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -582,15 +528,16 @@ WEST, with 17 points and three â™ s, accepts the game invitation and chooses
 [South ""]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "N:52.A982.JT94.J62 QT864.Q73.A6.T84 A93.T6.852.KQ973 KJ7.KJ54.KQ73.A5"]
+[Deal "W:KJ7.KJ54.KQ73.A5 2.A86.9852.KJ973 QT864.Q73.A6.T84 A953.T92.JT4.Q62"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -602,15 +549,16 @@ WEST, with 17 points and three â™ s, accepts the game invitation and chooses
 [South ""]
 [Dealer "N"]
 [Vulnerable "EW"]
-[Deal "W:72.J8742.JT5.Q93 Q965.AQ93.KQ8.A6 A84.T6.7642.KJT5 KJT3.K5.A93.8742"]
+[Deal "N:Q965.AQ93.KQ8.A6 A84.T42.JT62.Q53 KJT3.K5.A93.8742 72.J876.754.KJT9"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "7"]
 
 [Event ""]
 [Site ""]
@@ -622,15 +570,16 @@ WEST, with 17 points and three â™ s, accepts the game invitation and chooses
 [South ""]
 [Dealer "E"]
 [Vulnerable "All"]
-[Deal "S:832.T93.KJ9.A852 J974.Q862.T876.4 KQ5.J5.42.KQJ763 AT6.AK74.AQ53.T9"]
+[Deal "E:AT6.AK74.AQ53.T9 KQ5.T93.J2.QJ732 J974.Q862.T876.4 832.J5.K94.AK865"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "7"]
 
 [Event ""]
 [Site ""]
@@ -642,15 +591,16 @@ WEST, with 17 points and three â™ s, accepts the game invitation and chooses
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "E:84.A7632.QJ7.J52 AQ62.KJ8.A62.K87 T95.T4.9853.AT64 KJ73.Q95.KT4.Q93"]
+[Deal "S:AQ62.KJ8.A62.K87 T854.T64.97.A652 KJ73.Q95.KT4.Q93 9.A732.QJ853.JT4"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "7"]
 
 [Event ""]
 [Site ""]
@@ -662,15 +612,16 @@ WEST, with 17 points and three â™ s, accepts the game invitation and chooses
 [South ""]
 [Dealer "W"]
 [Vulnerable "NS"]
-[Deal "N:52.A982.JT94.J62 QT864.Q73.A6.T84 A93.T6.852.KQ973 KJ7.KJ54.KQ73.A5"]
+[Deal "W:KJ7.KJ54.KQ73.A5 2.A86.9852.KJ973 QT864.Q73.A6.T84 A953.T92.JT4.Q62"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "7"]
 
 [Event ""]
 [Site ""]
@@ -682,15 +633,16 @@ WEST, with 17 points and three â™ s, accepts the game invitation and chooses
 [South ""]
 [Dealer "N"]
 [Vulnerable "All"]
-[Deal "W:72.J8742.JT5.Q93 Q965.AQ93.KQ8.A6 A84.T6.7642.KJT5 KJT3.K5.A93.8742"]
+[Deal "N:Q965.AQ93.KQ8.A6 A84.T42.JT62.Q53 KJT3.K5.A93.8742 72.J876.754.KJT9"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "8"]
 
 [Event ""]
 [Site ""]
@@ -702,15 +654,16 @@ WEST, with 17 points and three â™ s, accepts the game invitation and chooses
 [South ""]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "S:832.T93.KJ9.A852 J974.Q862.T876.4 KQ5.J5.42.KQJ763 AT6.AK74.AQ53.T9"]
+[Deal "E:AT6.AK74.AQ53.T9 KQ5.T93.J2.QJ732 J974.Q862.T876.4 832.J5.K94.AK865"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "8"]
 
 [Event ""]
 [Site ""]
@@ -722,15 +675,16 @@ WEST, with 17 points and three â™ s, accepts the game invitation and chooses
 [South ""]
 [Dealer "S"]
 [Vulnerable "NS"]
-[Deal "E:84.A7632.QJ7.J52 AQ62.KJ8.A62.K87 T95.T4.9853.AT64 KJ73.Q95.KT4.Q93"]
+[Deal "S:AQ62.KJ8.A62.K87 T854.T64.97.A652 KJ73.Q95.KT4.Q93 9.A732.QJ853.JT4"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "8"]
 
 [Event ""]
 [Site ""]
@@ -742,15 +696,16 @@ WEST, with 17 points and three â™ s, accepts the game invitation and chooses
 [South ""]
 [Dealer "W"]
 [Vulnerable "EW"]
-[Deal "N:52.A982.JT94.J62 QT864.Q73.A6.T84 A93.T6.852.KQ973 KJ7.KJ54.KQ73.A5"]
+[Deal "W:KJ7.KJ54.KQ73.A5 2.A86.9852.KJ973 QT864.Q73.A6.T84 A953.T92.JT4.Q62"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "8"]
 
 [Event ""]
 [Site ""]
@@ -762,15 +717,16 @@ WEST, with 17 points and three â™ s, accepts the game invitation and chooses
 [South ""]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:72.J8742.JT5.Q93 Q965.AQ93.KQ8.A6 A84.T6.7642.KJT5 KJT3.K5.A93.8742"]
+[Deal "N:Q965.AQ93.KQ8.A6 A84.T42.JT62.Q53 KJT3.K5.A93.8742 72.J876.754.KJT9"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "9"]
 
 [Event ""]
 [Site ""]
@@ -782,15 +738,16 @@ WEST, with 17 points and three â™ s, accepts the game invitation and chooses
 [South ""]
 [Dealer "E"]
 [Vulnerable "NS"]
-[Deal "S:832.T93.KJ9.A852 J974.Q862.T876.4 KQ5.J5.42.KQJ763 AT6.AK74.AQ53.T9"]
+[Deal "E:AT6.AK74.AQ53.T9 KQ5.T93.J2.QJ732 J974.Q862.T876.4 832.J5.K94.AK865"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "9"]
 
 [Event ""]
 [Site ""]
@@ -802,15 +759,16 @@ WEST, with 17 points and three â™ s, accepts the game invitation and chooses
 [South ""]
 [Dealer "S"]
 [Vulnerable "EW"]
-[Deal "E:84.A7632.QJ7.J52 AQ62.KJ8.A62.K87 T95.T4.9853.AT64 KJ73.Q95.KT4.Q93"]
+[Deal "S:AQ62.KJ8.A62.K87 T854.T64.97.A652 KJ73.Q95.KT4.Q93 9.A732.QJ853.JT4"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "9"]
 
 [Event ""]
 [Site ""]
@@ -822,12 +780,14 @@ WEST, with 17 points and three â™ s, accepts the game invitation and chooses
 [South ""]
 [Dealer "W"]
 [Vulnerable "All"]
-[Deal "N:52.A982.JT94.J62 QT864.Q73.A6.T84 A93.T6.852.KQ973 KJ7.KJ54.KQ73.A5"]
+[Deal "W:KJ7.KJ54.KQ73.A5 2.A86.9852.KJ973 QT864.Q73.A6.T84 A953.T92.JT4.Q62"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "9"]
+

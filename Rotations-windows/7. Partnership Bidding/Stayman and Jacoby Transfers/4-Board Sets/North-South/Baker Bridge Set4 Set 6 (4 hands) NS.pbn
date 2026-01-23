@@ -1,0 +1,193 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:14:15 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Bidpractice/Set4 21}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:72.J8742.JT5.Q93 Q965.AQ93.KQ8.A6 A84.T6.7642.KJT5 KJT3.K5.A93.8742"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4S"]
+[Result ""]
+{SOUTH uses Stayman because he has a 4-card â™  suit.
+
+NORTH's 2
+
+â™¥
+
+response wasn't exactly what SOUTH was hoping for,
+
+so SOUTH decides to bid 3NT.
+
+NORTH absolutely knows that SOUTH holds a 4-card Major -
+
+and also knows that it isn't
+
+â™¥
+
+s.
+
+So NORTH bids 4â™ .}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1NT Pass 2C Pass
+2H Pass 3NT Pass
+4S Pass Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set4 22}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:832.T93.KJ9.A852 J974.Q862.T876.4 KQ5.J5.42.KQJ763 AT6.AK74.AQ53.T9"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "2H"]
+[Result ""]
+{NORTH has a rotten hand, and many players would just pass 1NT.
+
+But NORTH figures that having SOUTH play any 4-4 fit would be better than 1NT so
+
+he bids 2â™£, Stayman. This is called "Garbage Stayman", and you can see why.
+
+SOUTH bids 2
+
+â™¥
+
+and NORTH passes. He would have passed
+
+either 2â™  or 2
+
+â™¦
+
+also.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT Pass 2C Pass
+2H Pass Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set4 23}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:84.A7632.QJ7.J52 AQ62.KJ8.A62.K87 T95.T4.9853.AT64 KJ73.Q95.KT4.Q93"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "3NT"]
+[Result ""]
+{Just having a 4-card Major doesn't mean you must automatically use Stayman.
+
+Here SOUTH has a 4-card â™  suit, but decides not to seek a 4-4 fit because his
+
+hand wouldn't have any ruffing values in a â™  contract. He bids 3NT.
+
+Notice that even though NORTH also has four â™ s the 4-4 fit is not useful to them in
+
+a â™  contract because neither hand can ruff any losers.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 3, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1NT Pass 3NT Pass
+Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set4 24}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:52.A982.JT94.J62 QT864.Q73.A6.T84 A93.T6.852.KQ973 KJ7.KJ54.KQ73.A5"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{NORTH has an invitational (9 point) hand with five â™ s.
+
+She bids it in the standard way - first transfer SOUTH to â™ s, then invite
+
+the game by bidding 2NT.
+
+SOUTH, with 17 points and three â™ s, accepts the game invitation and chooses 4â™ .}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT Pass 2H Pass
+2S Pass 2NT Pass
+4S Pass Pass Pass

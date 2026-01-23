@@ -1,0 +1,617 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:56:47 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Leben 1}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:J82.J5.QT2.A8762 AQ6.Q73.A85.KJ94 4.AKT982.KJ3.T53 KT9753.64.9764.Q"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "2S"]
+[Result ""]
+{This is a sign-off hand. If East hadn't bid you would either have bid 2\S, which partner would have passed, or 2\H, transferring partner to 2\S which YOU would have passed.
+
+With lebensohl you can do the same thing, so you bid 2\S and partner passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1NT 2H 2S Pass
+Pass Pass
+
+[Event ""]
+{Baker Leben 2}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:A.KT9643.QJ98.64 KQJ73.75.543.AJ7 9642.QJ2.T2.T852 T85.A8.AK76.KQ93"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{Partner's bid at the 3-level is forcing to game and shows a 5-card \S suit.
+
+With 3-card support you are happy to bid 4\S.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1NT 2H 3S Pass
+4S Pass Pass Pass
+
+[Event ""]
+{Baker Leben 3}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:J743.T2.64.JT952 A96.Q74.A85.AK76 QT2.953.KQJT93.Q K85.AKJ86.72.843"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{With 12 points opposite partner's 15-17, this is a forcing-to-game hand, so you bid 3\H. Don't think of it as a jump, just a 3-level bid showing at least 10 points and a 5+ card suit.  
+
+Partner has 3-card support and is happy to bid game in that suit.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1NT 2D 3H Pass
+4H Pass Pass Pass
+
+[Event ""]
+{Baker Leben 4}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:A52.4.Q72.AT8543 86.KQJ73.543.972 JT74.962.JT98.KQ KQ93.AT85.AK6.J6"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "2H"]
+[Result ""]
+{Partner's bid at the 2-level is a sign-off, the equivalent of the old "drop-dead" response.
+
+So even with your great support and maximum hand, you pass.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1NT 2C 2H Pass
+Pass Pass
+
+[Event ""]
+{Baker Leben 5}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:J7542.432.863.93 K9.AQ76.AK92.T76 63.T8.QT7.AKQJ52 AQT8.KJ95.J54.84"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{With 11 points opposite partner's 15-17, this is a forcing-to-game hand, and it is possible that a jump to 3NT (which says you have no \C stopper) would work. However, with two 4-card Major suits you should use the lebensohl equivalent of Stayman, which is a cue-bid of 3\C.
+
+Partner bids 3\H. What do you say? 
+
+With a known 8-card Major fit and a known 26-28 points you bid 4\H.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 5, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT 2C 3C Pass
+3H Pass 4H Pass
+Pass Pass
+
+[Event ""]
+{Baker Leben 6}
+[Site ""]
+[Date ""]
+[Board "6"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:AJ42.943.AKJ954. 76.KQJ7.T3.AT732 T85.62.872.J9854 KQ93.AT85.Q6.KQ6"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{Partner's direct cue-bid is the lebensohl equivalent of Stayman, but with no \D stopper.
+
+With 4 cards in both Majors you bid 3\H.
+
+Partner then bids 4\H which you pass.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 6, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT 2D 3D Pass
+3H Pass 4H Pass
+Pass Pass
+
+[Event ""]
+{Baker Leben 7}
+[Site ""]
+[Date ""]
+[Board "7"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:QT.KT974.T62.T52 A84.AQJ.KJ3.Q763 KJ9753.62.A.AJ98 62.853.Q98754.K4"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3D"]
+[Result ""]
+{With your hand you'd like to sign off in 3\D. But you cannot actually bid 3\D because that would show a forcing-to-game hand. So you bid a lebensohl 2NT.
+
+Partner makes the relay bid of 3\C. What do you say? 
+
+NOW you can bid 3\D, which partner passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 7, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1NT 2S 2NT Pass
+3C Pass 3D Pass
+Pass Pass
+
+[Event ""]
+{Baker Leben 8}
+[Site ""]
+[Date ""]
+[Board "8"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:JT9643.AT3.A2.A5 5.QJ9742.943.J74 KQ2.8.K875.T9832 A87.K65.QJT6.KQ6"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3H"]
+[Result ""]
+{Partner's 2NT bid is lebensohl, asking you to bid 3\C. You bid 3\C. Partner says 3\H.
+
+What do you say now? 
+
+How about . . . . pass? Partner just signed off with this sequence. He couldn't bid 3\H directly, that would have been a game-force.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 8, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1NT 2S 2NT Pass
+3C Pass 3H Pass
+Pass Pass
+
+[Event ""]
+{Baker Leben 9}
+[Site ""]
+[Date ""]
+[Board "9"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:J6.T74.7652.J962 752.AKQ6.A3.KT83 AKQT93.J2.T98.54 84.9853.KQJ4.AQ7"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{With your 12 point hand you need to force to game. It would also be nice to find out if partner has a 4-card \H suit. So you cue-bid 3\S. This is the lebensohl version of Stayman, but WITH NO \S STOPPER. (Direct Denies)
+
+Partner says 4\H and you pass.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 9, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT 2S 3S Pass
+4H Pass Pass Pass
+
+[Event ""]
+{Baker Leben 10}
+[Site ""]
+[Date ""]
+[Board "10"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:J32.KQ9864.8.AT3 KT5.52.AQJ73.875 Q864.73.9542.J62 A97.AJT.KT6.KQ94"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{Partner has promised at least a 5-card \D suit, and game-forcing strength. With your great \H stoppers you bid 3NT.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 10, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT 2H 3D Pass
+3NT Pass Pass Pass
+
+[Event ""]
+{Baker Leben 11}
+[Site ""]
+[Date ""]
+[Board "11"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:93.T9762.872.J52 752.AQ.AK53.KT83 KJT864.J4.T6.AQ9 AQ.K853.QJ94.764"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{With your 12 point hand you need to force to game. It would also be nice to find out if partner has a 4-card \H suit. Since you have West's \S suit stopped, you first bid a lebensohl 2NT.
+
+Partner says 3\C. What do you bid? 
+
+NOW you cue-bid 3\S. This is Stayman, but with a \S stopper, (SLOW SHOWS). Partner says 3NT and you pass.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 11, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT 2S 2NT Pass
+3C Pass 3S Pass
+3NT Pass Pass Pass
+
+[Event ""]
+{Baker Leben 12}
+[Site ""]
+[Date ""]
+[Board "12"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:A7.T9.KJ7432.A86 J964.KQ73.AQ9.T3 T532.8642.85.752 KQ8.AJ5.T6.KQJ94"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{Partner's 2NT bid requests that you bid 3\C, so you do.
+
+He next says 3\D.  
+
+Partner has just described a hand with which he wants to play in game, which has at least one 4-card Major suit, and has \Ds stopped. He wants you to pick the game.
+
+With no 4-card Major of your own, you pick 3NT.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 12, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT 2D 2NT Pass
+3C Pass 3D Pass
+3NT Pass Pass Pass
+
+[Event ""]
+{Baker Leben 13}
+[Site ""]
+[Date ""]
+[Board "13"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:T862.4.T9732.853 K95.AJ9.KQ85.AT2 QJ3.KQT852.4.QJ6 A74.763.AJ6.K974"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{With 12 points opposite partner's 15-17, this is a forcing-to-game hand. If it had not been for the \H overcall you would just have jumped to 3NT. 
+
+Playing lebensohl you do the same thing, jump to 3NT. Since you went directly to 3NT you are telling partner you have that type of hand, but DO NOT have a \H stopper (DIRECT DENIES).
+
+Partner does have them stopped so he passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 13, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT 2H 3NT Pass
+Pass Pass
+
+[Event ""]
+{Baker Leben 14}
+[Site ""]
+[Date ""]
+[Board "14"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:K63.AQT832.J62.J QT4.KJ6.A97.KT83 9872.54.54.96542 AJ5.97.KQT83.AQ7"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{Partner's 2NT bid requests that you bid 3\C, so you do.
+
+He next says 3NT.  
+
+Partner's bidding shows a hand with which he would have bid 3NT without the overcall. Furthermore, he promises a \H stopper. He expects you to pass, so you do.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 14, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT 2H 2NT Pass
+3C Pass 3NT Pass
+Pass Pass
+
+[Event ""]
+{Baker Leben 15}
+[Site ""]
+[Date ""]
+[Board "15"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:9.J97652.872.J52 742.AQ.AK53.KT93 KJT863.T4.T6.AQ8 AQ5.K83.QJ94.764"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{With your 12 point balanced hand you know you are going to play in game. Since you have no interest in looking for a 4-4 Major suit fit you also know that game is going to be 3NT. But you can't actually BID 3NT, because partner would almost surely take you out to a minor suit. Remember, a DIRECT 3NT bid DENIES a stopper in their suit. Since you have West's \S suit stopped, you first bid a lebensohl 2NT.
+
+Partner says 3\C. What do you bid? 
+
+You now complete the picture of your hand by bidding 3NT. (SLOW SHOWS). Partner passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 15, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT 2S 2NT Pass
+3C Pass 3NT Pass
+Pass Pass
+
+[Event ""]
+{Baker Leben 16}
+[Site ""]
+[Date ""]
+[Board "16"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "S:AQ9642.Q.94.QJ92 KJ73.964.J82.K65 .JT8532.AT65.T83 T85.AK7.KQ73.A74"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "2SX"]
+[Result ""]
+{Playing lebensohl, when partner doubles the overcall it is for penalties.
+
+Since you trust your partner, you pass.}
+[BCFlags "1f"]
+[OriginalRotationBasis "W"]
+[RotationNote "Board 16, chOption: S, chBasis: W, basisKind:Student, nOption:2, nBasis: 3, nRot: 3, useStandardVul: false"]
+[Student "S"]
+[Auction "E"]
+1NT 2S X Pass
+Pass Pass
+
+[Event ""]
+{Baker Leben 17}
+[Site ""]
+[Date ""]
+[Board "17"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:T9632.A432.JT.95 KJ5.KJ7.A96.KQT2 A8.8.KQ7542.J764 Q74.QT965.83.A83"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{With 9 points you don't want to sign-off with 2\H. But you aren't strong enough to force to game with a 3\H bid either. So you start an invitational sequence by bidding 2NT.
+
+Partner says 3\C. What do you bid? 
+
+Now you bid 3\H. Partner will realize you have better than a sign-off, but were not good enough to bid 3\H immediately. He has a maximum, and he knows you have a 5-card suit, so he bids 4\H.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 17, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1NT 2D 2NT Pass
+3C Pass 3H Pass
+4H Pass Pass Pass
+
+[Event ""]
+{Baker Leben 18}
+[Site ""]
+[Date ""]
+[Board "18"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:842.AKQ652.J92.6 AJ63.94.A85.KJT3 T97.J73.T64.9852 KQ5.T8.KQ73.AQ74"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "5C"]
+[Result ""]
+{Partner's bid asks if you have 4 \Ss, and denies a \H stopper. (DIRECT DENIES)
+
+You don't have 4 \Ss, nor can you stop \Hs. You have no choice but to bid one of the 4-card Minor suits, so you go up-the-line and bid 4\C. Partner bids 5\C.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 18, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT 2H 3H Pass
+4C Pass 5C Pass
+Pass Pass
+
+[Event ""]
+{Baker Leben 19}
+[Site ""]
+[Date ""]
+[Board "19"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:QJT96542.83.6.82 K73.A952.Q5.AKJ5 .KQJT.KT8432.Q73 A8.764.AJ97.T964"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "2DX"]
+[Result ""]
+{It is possible your side can make 3NT on this deal. You have 9 points, invitational strength, and your \D stopper is excellent.
+
+However you should look for an even bigger reward by doubling. South is in serious trouble, and when the opponents make a mistake you should punish them.}
+[BCFlags "1f"]
+[OriginalRotationBasis "E"]
+[RotationNote "Board 19, chOption: S, chBasis: E, basisKind:Student, nOption:2, nBasis: 1, nRot: 1, useStandardVul: false"]
+[Student "S"]
+[Auction "E"]
+1NT 2D X Pass
+Pass Pass
+
+[Event ""]
+{Baker Leben 20}
+[Site ""]
+[Date ""]
+[Board "20"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:A6.T9.KQ8432.J95 QT84.K6.AT7.KT83 752.J5432.J6.642 KJ93.AQ87.95.AQ7"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{Partner's 2NT bid requests that you bid 3\C, so you do. He next says 3\D.  
+
+Partner's bid is game-forcing Stayman, but with a \D stopper (SLOW SHOWS). Holding 4 cards in each Major you bid up-the-line, 4\H. Partner now bids 3NT. What do you say? 
+
+Partner would not have asked for a 4-card Major unless he held one himself. Since it wasn't \Hs it must be the other one. You bid 4\S.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 20, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT 2D 2NT Pass
+3C Pass 3D Pass
+3H Pass 3NT Pass
+4S Pass Pass Pass

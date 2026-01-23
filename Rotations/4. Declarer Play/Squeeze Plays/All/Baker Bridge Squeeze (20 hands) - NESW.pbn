@@ -1,8 +1,6 @@
 % PBN 2.1
 % EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:01:44 2025 -0700
+%Content-type: text/x-pbn; charset=UTF-8
 %BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
 %BidAndCardSpacing Thin
 %BoardsPerPage 1
@@ -17,7 +15,6 @@
 %Font:HandRecord "Georgia",11,400,0
 %GutterSize 500,500
 %HRTitleDate 2023.10.17
-%HRTitleEvent ""
 %HRTitleSetID ""
 %HRTitleSetIDPrefix ""
 %HRTitleSite ""
@@ -41,22 +38,23 @@
 %TSTReportOrder ByNumber
 %TSTReportShade Yes
 %Translate "Board %" "Deal %"
+%Creator: CSVtoPBN Version 1.00
+%Created: 2026-01-23 13:57:51
 %sourcefilename BakerBridgeFull.csv
+%HRTitleEvent Squeeze
 [Event ""]
-{Baker Squeeze 1}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Squeeze 1}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:76.76.8765.QJ987 AQ32.543.432.432 JT98.JT98.T9.T65 K54.AKQ2.AKQJ.AK"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "7NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:K54.AKQ2.AKQJ.AK 76.76.8765.QJ987 AQ32.543.432.432 JT98.JT98.T9.T65"]
+[Auction "N"]
+2C pass 2D pass 3D pass 3S pass 4NT pass 5D pass 7NT pass pass pass
 [Result ""]
 {Never mind the bidding. North is to play 7NT. East leads the \CQ.
 
@@ -74,32 +72,22 @@ This time it is East who holds the only Guards in both \Ss and \Hs.
 
 You play the \CA and he must give up one of those Guards.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-2C Pass 2D Pass
-3D Pass 3S Pass
-4NT Pass 5D Pass
-7NT Pass Pass Pass
-[Play "E"]
-CQ
+[Play "W"]CQ
 
 [Event ""]
-{Baker Squeeze 2}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Squeeze 2}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "S:862.AKT2.JT93.T3 975.Q863.Q742.64 QJT3.J9754.86.52 AK4..AK5.AKQJ987"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "7C"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "E:AK4..AK5.AKQJ987 862.AKT2.JT93.T3 975.Q863.Q742.64 QJT3.J9754.86.52"]
+[Auction "E"]
+2C pass 2D pass 3C pass 3H pass 4NT pass 5C pass 7C pass pass pass
 [Result ""]
 {East is to play 7\C. South leads the \HK.
 
@@ -121,32 +109,22 @@ You must play from dummy BEFORE North plays, so he just matches whatever you do.
 
 If you discard the \HQ North will throw his \HA. If you discard dummy's fourth \D, North will throw his fourth \D.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
-[Student "S"]
-[Auction "E"]
-2C Pass 2D Pass
-3C Pass 3H Pass
-4NT Pass 5C Pass
-7C Pass Pass Pass
-[Play "S"]
-HK
+[Play "W"]HK
 
 [Event ""]
-{Baker Squeeze 3}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Squeeze 3}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:95.T752.T3.KQJ42 AK73.Q93.A65.A86 JT62.84.J984.973 Q84.AKJ6.KQ72.T5"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "6NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:Q84.AKJ6.KQ72.T5 95.T752.T3.KQJ42 AK73.Q93.A65.A86 JT62.84.J984.973"]
+[Auction "S"]
+1NT pass 6NT pass pass pass
 [Result ""]
 {South is to play 6NT. West leads the \CK.
 
@@ -158,30 +136,22 @@ East has no problems on the first 3, he just plays his 2 \Hs and 1 \C.
 
 You will toss dummy's \C8 and East will have to decide whether it is better for him to throw a \S or a \D. He doesn't know that discarding either one is going to hand you the contract, so he will probably discard a \D.  }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 6NT Pass
-Pass Pass
-[Play "W"]
-CK
+[Play "W"]CK
 
 [Event ""]
-{Baker Squeeze 4}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Squeeze 4}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "N:KQT.QJ9852.T3.95 742.AK3.AQ74.KJ3 9865.T.9852.8642 AJ3.764.KJ6.AQT7"]
-[Scoring ""]
 [Declarer "W"]
 [Contract "6NT"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "W:AJ3.764.KJ6.AQT7 KQT.QJ9852.T3.95 742.AK3.AQ74.KJ3 9865.T.9852.8642"]
+[Auction "W"]
+1NT 2H 6NT pass pass pass
 [Result ""]
 {West is to play 6NT. North leads the \SK.
 
@@ -197,30 +167,22 @@ If he discards the \ST, then his \SQ will fall underneath your \SA, establishing
 
 But if he instead throws the \H9, both of dummy's \Hs will become winners.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
-[Student "S"]
-[Auction "W"]
-1NT 2H 6NT Pass
-Pass Pass
-[Play "N"]
-SK
+[Play "W"]SK
 
 [Event ""]
-{Baker Squeeze 5}
 [Site ""]
 [Date ""]
 [Board "5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Squeeze 5}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:T8.KQJ963.T4.763 AKQ6.742.KQJ7.K5 J943.5.8652.JT94 752.AT8.A93.AQ82"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "6NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "N:752.AT8.A93.AQ82 T8.KQJ963.T4.763 AKQ6.742.KQJ7.K5 J943.5.8652.JT94"]
+[Auction "N"]
+1C 2H X pass 2NT pass 6NT all pass
 [Result ""]
 {North is to play 6NT. East leads the \HK.
 
@@ -242,31 +204,22 @@ So West will no doubt throw a \C instead. In which case you win the last 4 \C tr
 
 Squeezes are so very satisfying.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-1C 2H X Pass
-2NT Pass 6NT ALL
-Pass
-[Play "E"]
-HK
+[Play "W"]HK
 
 [Event ""]
-{Baker Squeeze 6}
 [Site ""]
 [Date ""]
 [Board "6"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Squeeze 6}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "S:KT73.KQT6.32.T95 Q52.A82.Q864.KQ2 J9864.953.T.J863 A.J74.AKJ975.A74"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "6D"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "E:A.J74.AKJ975.A74 KT73.KQT6.32.T95 Q52.A82.Q864.KQ2 J9864.953.T.J863"]
+[Auction "E"]
+1D pass 2NT pass 4D pass 5D pass 6D pass pass pass
 [Result ""]
 {East is to play 6\D. South leads the \HK.
 
@@ -284,31 +237,22 @@ He cannot dump his \SK because you would throw the \H8 and dummy would be high.
 
 So he will discard the \HT instead. At this point you know that the \SQ is worthless so you discard it. You win the final two tricks with the \HA and \HJ.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 6, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
-[Student "S"]
-[Auction "E"]
-1D Pass 2NT Pass
-4D Pass 5D Pass
-6D Pass Pass Pass
-[Play "S"]
-HK
+[Play "W"]HK
 
 [Event ""]
-{Baker Squeeze 7}
 [Site ""]
 [Date ""]
 [Board "7"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Squeeze 7}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "W:6542.J.9843.JT93 AKJ.K73.A652.864 QT93.T54.KJT.AKQ 87.AQ9862.Q7.752"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:QT93.T54.KJT.AKQ 87.AQ9862.Q7.752 6542.J.9843.JT93 AKJ.K73.A652.864"]
+[Auction "E"]
+1NT 2H pass 4H pass pass pass
 [Result ""]
 {South is to play 4\H. West leads the \CJ. East wins \C A K Q then switches to a trump.
 
@@ -340,30 +284,22 @@ But if you discard dummy's \SJ instead, East will match that by throwing his \S9
 
 Only by visualizing the ending and using the Vienna Coup can this hand be made.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 7, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
-[Student "S"]
-[Auction "E"]
-1NT 2H Pass 4H
-Pass Pass Pass
-[Play "W"]
-CJ
+[Play "W"]CJ
 
 [Event ""]
-{Baker Squeeze 8}
 [Site ""]
 [Date ""]
 [Board "8"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Squeeze 8}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "N:JT65.KQJ75.92.84 A2.93.AK86.KQT65 K9843.T862.JT73. Q7.A4.Q54.AJ9732"]
-[Scoring ""]
 [Declarer "W"]
 [Contract "6C"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:Q7.A4.Q54.AJ9732 JT65.KQJ75.92.84 A2.93.AK86.KQT65 K9843.T862.JT73."]
+[Auction "W"]
+1C pass 2D pass 3C pass 4C pass 4H pass 4S pass 6C pass pass pass
 [Result ""]
 {West is to play 6\C. North leads the \HK.
 
@@ -377,32 +313,22 @@ He can see that if he discards a \D dummy will be high, so he will probably thro
 
 The only difference would be that to rectify the count you would have to hold up once on the opening \HK.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 8, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
-[Student "S"]
-[Auction "W"]
-1C Pass 2D Pass
-3C Pass 4C Pass
-4H Pass 4S Pass
-6C Pass Pass Pass
-[Play "N"]
-HK
+[Play "W"]HK
 
 [Event ""]
-{Baker Squeeze 9}
 [Site ""]
 [Date ""]
 [Board "9"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Squeeze 9}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:9.T532.QJ9642.T7 AKQ752.864.75.63 JT86.97.T83.J984 43.AKQJ.AK.AKQ52"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "7NT"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:AKQ752.864.75.63 JT86.97.T83.J984 43.AKQJ.AK.AKQ52 9.T532.QJ9642.T7"]
+[Auction "S"]
+2S pass 2NT pass 3NT pass 7NT pass pass pass
 [Result ""]
 {South's 3NT rebid shows 6 \Ss headed by A K Q and nothing else. North is to play 7NT. East leads the \DQ.
 
@@ -414,31 +340,22 @@ Play your \DA. West must give up.
 
 If he throws the \CJ, you win. But if he throws a \S you also win. This is what is called a Win-Win bridge play.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 9, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "S"]
-2S Pass 2NT Pass
-3NT Pass 7NT Pass
-Pass Pass
-[Play "E"]
-DQ
+[Play "W"]DQ
 
 [Event ""]
-{Baker Squeeze 10}
 [Site ""]
 [Date ""]
 [Board "10"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Squeeze 10}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "S:853.QT72.JT84.63 T6.AK86.973.AKQJ 9742.J4.A652.952 AKQJ.953.KQ.T874"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "6NT"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "N:9742.J4.A652.952 AKQJ.953.KQ.T874 853.QT72.JT84.63 T6.AK86.973.AKQJ"]
+[Auction "N"]
+pass 1NT pass 2C pass 2S pass 6NT pass pass pass
 [Result ""]
 {East is to play 6NT. South leads the \DJ. North takes the \DA and returns the \D2.
 
@@ -454,31 +371,22 @@ If he holds on to the \DT you will discard dummy's useless \D9 and hope the \Hs 
 
 If he discards the \DT then you throw dummy's small \H and dummy wins the last three tricks.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 10, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-Pass 1NT Pass 2C
-Pass 2S Pass 6NT
-Pass Pass Pass
-[Play "S"]
-DJ
+[Play "W"]DJ
 
 [Event ""]
-{Baker Squeeze 11}
 [Site ""]
 [Date ""]
 [Board "11"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Squeeze 11}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:742.JT963.864.J6 AKQ5.75.T72.AT75 JT86.A842.5.K942 93.KQ.AKQJ93.Q83"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "6NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AKQ5.75.T72.AT75 JT86.A842.5.K942 93.KQ.AKQJ93.Q83 742.JT963.864.J6"]
+[Auction "N"]
+1C pass 2D pass 2S pass 4NT pass 5H pass 6NT pass pass pass
 [Result ""]
 {South is to play 6NT. West leads the \HJ. East wins the \HA and returns the \H2.
 
@@ -496,32 +404,22 @@ You play your \D3 and discard dummy's \CT.
 
 East is squeezed. He can't throw his \CK without letting your \CQ become a winner. But if he discards a \S dummy's \S5 will win the last trick. This is soooo much fun.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 11, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-1C Pass 2D Pass
-2S Pass 4NT Pass
-5H Pass 6NT Pass
-Pass Pass
-[Play "W"]
-HJ
+[Play "W"]HJ
 
 [Event ""]
-{Baker Squeeze 12}
 [Site ""]
 [Date ""]
 [Board "12"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Squeeze 12}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "N:QJT64.T.T9742.82 93.K9863.A6.AKQ5 A852.4.KQ83.JT93 K7.AQJ752.J5.764"]
-[Scoring ""]
 [Declarer "W"]
 [Contract "6H"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "W:K7.AQJ752.J5.764 QJT64.T.T9742.82 93.K9863.A6.AKQ5 A852.4.KQ83.JT93"]
+[Auction "W"]
+1H pass 3C pass 3H pass 6H pass pass pass
 [Result ""]
 {West is to play 6\H. North leads the \SQ. South wins the \SA and plays the \DK.
 
@@ -533,31 +431,22 @@ Play your \H2 and dump dummy's \D6.
 
 South has no answer.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 12, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
-[Student "S"]
-[Auction "W"]
-1H Pass 3C Pass
-3H Pass 6H Pass
-Pass Pass
-[Play "N"]
-SQ
+[Play "W"]SQ
 
 [Event ""]
-{Baker Squeeze 13}
 [Site ""]
 [Date ""]
 [Board "13"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Squeeze 13}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "E:8.KQT75.T84.J952 A52.J6.AKJ753.K7 JT964.9832..QT63 KQ73.A4.Q962.A84"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "7NT"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "W:JT964.9832..QT63 KQ73.A4.Q962.A84 8.KQT75.T84.J952 A52.J6.AKJ753.K7"]
+[Auction "W"]
+pass 1NT pass 3D pass 4D pass 4NT pass 5H pass 7NT pass pass pass
 [Result ""]
 {North is to play 7NT. East leads the \HK.
 
@@ -587,32 +476,22 @@ And you win the last three tricks with \CK, \CA, \C8.
 
 This is called a Double Squeeze.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 13, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "W"]
-Pass 1NT Pass 3D
-Pass 4D Pass 4NT
-Pass 5H Pass 7NT
-Pass Pass Pass
-[Play "E"]
-HK
+[Play "W"]HK
 
 [Event ""]
-{Baker Squeeze 14}
 [Site ""]
 [Date ""]
 [Board "14"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Squeeze 14}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "S:QJT83.JT72.63.T6 952.6.AJ974.Q843 6.Q9843.852.J975 AK74.AK5.KQT.AK2"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "7NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:AK74.AK5.KQT.AK2 QJT83.JT72.63.T6 952.6.AJ974.Q843 6.Q9843.852.J975"]
+[Auction "E"]
+2C pass 3D pass 4NT pass 5D pass 7NT pass pass pass
 [Result ""]
 {East is to play 7NT. South leads the \SQ.
 
@@ -638,31 +517,22 @@ Now South is squeezed. He cannot discard the \SJ or he will set up dummy's \S9, 
 
 You win the last three \H tricks with another Double Squeeze.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 14, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
-[Student "S"]
-[Auction "E"]
-2C Pass 3D Pass
-4NT Pass 5D Pass
-7NT Pass Pass Pass
-[Play "S"]
-SQ
+[Play "W"]SQ
 
 [Event ""]
-{Baker Squeeze 15}
 [Site ""]
 [Date ""]
 [Board "15"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Squeeze 15}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:AKJ94.64.T72.QT2 T873.QT.KQ6.A975 Q62.752.J9843.J4 5.AKJ983.A5.K863"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:5.AKJ983.A5.K863 AKJ94.64.T72.QT2 T873.QT.KQ6.A975 Q62.752.J9843.J4"]
+[Auction "S"]
+1H 1S 2C pass 3H pass 4H pass 4NT pass 5D pass 6H pass pass pass
 [Result ""]
 {South is to play 6\H. West leads the \SA, then \SK.
 
@@ -680,32 +550,22 @@ Only West can guard dummy's \ST, and only West can guard dummy's\C9.
 
 So you play your \HA and West must give up one of his guards. If he holds on to the \SJ then you toss dummy's useless \ST. If he throws the \SJ then you toss dummy's \C9.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 15, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
-[Student "S"]
-[Auction "S"]
-1H 1S 2C Pass
-3H Pass 4H Pass
-4NT Pass 5D Pass
-6H Pass Pass Pass
-[Play "W"]
-SA
+[Play "W"]SA
 
 [Event ""]
-{Baker Squeeze 16}
 [Site ""]
 [Date ""]
 [Board "16"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Squeeze 16}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "N:AK932.T42.J9.J64 QT.KQ53.A863.852 865.J986.QT4.QT9 J74.A7.K752.AK73"]
-[Scoring ""]
 [Declarer "W"]
 [Contract "3NT"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "W:J74.A7.K752.AK73 AK932.T42.J9.J64 QT.KQ53.A863.852 865.J986.QT4.QT9"]
+[Auction "W"]
+1NT pass 2C pass 2D pass 3NT pass pass pass
 [Result ""]
 {West is to play 3NT. North leads the \S3. South plays the \S5.
 
@@ -739,31 +599,22 @@ You win in your hand and establish a \D winner by playing \DA, \DK, and a small 
 
 So you establish a \D winner and make your contract.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 16, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
-[Student "S"]
-[Auction "W"]
-1NT Pass 2C Pass
-2D Pass 3NT Pass
-Pass Pass
-[Play "N"]
-S3
+[Play "W"]S3
 
 [Event ""]
-{Baker Squeeze 17}
 [Site ""]
 [Date ""]
 [Board "17"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Squeeze 17}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:KQ963.Q985.9.T62 J8.K74.AJ8762.53 T7542.JT2.QT43.4 A.A63.K5.AKQJ987"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "7C"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:A.A63.K5.AKQJ987 KQ963.Q985.9.T62 J8.K74.AJ8762.53 T7542.JT2.QT43.4"]
+[Auction "N"]
+2C pass 3D pass 4NT pass 5D pass 5NT pass 6D pass 7C pass pass pass
 [Result ""]
 {North is to play 7\C. East leads the \SK.
 
@@ -785,32 +636,22 @@ West cannot throw the \DQ, so he gives up the \H2.
 
 And you take the last three tricks with the \H suit. There were only two defenders; one of them had to guard \Ss and the other had to guard \Ds. There was nobody left to guard \Hs.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 17, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-2C Pass 3D Pass
-4NT Pass 5D Pass
-5NT Pass 6D Pass
-7C Pass Pass Pass
-[Play "E"]
-SK
+[Play "W"]SK
 
 [Event ""]
-{Baker Squeeze 18}
 [Site ""]
 [Date ""]
 [Board "18"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Squeeze 18}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "S:AKJ86532.862.T.7 Q4.J973.K75.8652 T97.4.QJ942.JT93 .AKQT5.A863.AKQ4"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "6H"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "E:.AKQT5.A863.AKQ4 AKJ86532.862.T.7 Q4.J973.K75.8652 T97.4.QJ942.JT93"]
+[Auction "E"]
+2C 4S pass pass 5H pass 6H pass pass pass
 [Result ""]
 {East is to play 6\H. South leads the \SA.
 
@@ -828,31 +669,22 @@ North gets to choose his own fate - discarding a protector in one of the two sui
 
 Yet another slam, courtesy of the Squeeze Play!}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 18, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
-[Student "S"]
-[Auction "E"]
-2C 4S Pass Pass
-5H Pass 6H Pass
-Pass Pass
-[Play "S"]
-SA
+[Play "W"]SA
 
 [Event ""]
-{Baker Squeeze 19}
 [Site ""]
 [Date ""]
 [Board "19"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Squeeze 19}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "W:AQ9763.3.KQT2.97 KT4.T64.A875.Q53 J852.872.94.T842 .AKQJ95.J63.AKJ6"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:AQ9763.3.KQT2.97 KT4.T64.A875.Q53 J852.872.94.T842 .AKQJ95.J63.AKJ6"]
+[Auction "W"]
+1S pass pass X 2D 2NT pass 4H pass 6H pass pass pass
 [Result ""]
 {South is to play 6\H. West leads the \DK. Perhaps you wouldn't have bid slam with North's cards, but he has been watching you pull off some fantastic squeeze plays and he has every confidence you will do it again.
 
@@ -874,32 +706,22 @@ He obviously is not going to throw his \SA and make dummy high, so he will inste
 
 So you dump dummy's \SK and win the last two tricks with the \DA and then the \DJ.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 19, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
-[Student "S"]
-[Auction "W"]
-1S Pass Pass X
-2D 2NT Pass 4H
-Pass 6H Pass Pass
-Pass
-[Play "W"]
-DK
+[Play "W"]DK
 
 [Event ""]
-{Baker Squeeze 20}
 [Site ""]
 [Date ""]
 [Board "20"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Squeeze 20}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "N:6.A63.654.987532 T95.75.AQT72.AJ4 A3.K9842.K98.KT6 KQJ8742.QJT.J3.Q"]
-[Scoring ""]
 [Declarer "W"]
 [Contract "4S"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "S:A3.K9842.K98.KT6 KQJ8742.QJT.J3.Q 6.A63.654.987532 T95.75.AQT72.AJ4"]
+[Auction "S"]
+1H 1S pass 2H pass 4S pass pass pass
 [Result ""]
 {East's 2\H cue-bid shows \S support and at least a limit-raise or better. West is to play 4\S. North leads the \HA, then a \H to South's \HK. South plays a third round of \Hs.
 
@@ -929,12 +751,6 @@ Poor South will squirm and try to figure out which discard is best because he do
 
 But you aren't squirming because you know that whichever card he throws it will give you your contract.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 20, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
-[Student "S"]
-[Auction "S"]
-1H 1S Pass 2H
-Pass 4S Pass Pass
-Pass
-[Play "N"]
-HA
+[Play "W"]HA
+

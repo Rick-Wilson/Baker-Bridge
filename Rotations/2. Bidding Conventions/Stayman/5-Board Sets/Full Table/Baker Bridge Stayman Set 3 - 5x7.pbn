@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:55:05 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker Stayman 11}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Stayman 11}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:976.87542.KJ9.A9 AQJ.KJ.Q764.Q653 853..AT8532.KJT2 KT42.AQT963..874"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AQJ.KJ.Q764.Q653 93.742.KJT83.KT2 KT42.AQT963..874 8765.85.A952.AJ9"]
+[Auction "S"]
+1NT pass 2C pass 2D pass 4H pass pass pass
 [Result ""]
 {This is the follow-up to Deal T. South opens 1NT. What do you respond? 
 
@@ -66,29 +21,21 @@ With partner showing no 4-card Major the bidding takes a turn. With your 6 \Hs y
 
 In this case the strong hand does not become declarer, but the contract is the right one anyway.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2C Pass
-2D Pass 4H Pass
-Pass Pass
 
 [Event ""]
-{Baker Stayman 12}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Stayman 12}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "S:AJ9.652.K82.T543 83.KQ74.7643.A82 Q765.JT98.AT.J96 KT42.A3.QJ95.KQ7"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "2NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "E:KT42.A3.QJ95.KQ7 AJ5.JT6.K82.J963 83.KQ74.7643.A82 Q976.9852.AT.T54"]
+[Auction "E"]
+1NT pass 2C pass 2S pass 2NT pass pass pass
 [Result ""]
 {You open 1NT and partner responds 2\C. What do you bid? 
 
@@ -96,29 +43,21 @@ Partner has commanded you to bid a 4-card Major if you have one. You have one, s
 
 Partner evidently has 4 \Hs. He also evidently has about 9 points since he is INVITING you to bid 3NT. With your minimum 15 points you decline the invitation by passing.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
-[Student "S"]
-[Auction "E"]
-1NT Pass 2C Pass
-2S Pass 2NT Pass
-Pass Pass
 
 [Event ""]
-{Baker Stayman 13}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Stayman 13}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:7.KQ2.7642.JT962 JT83.JT86.KT.A84 A9654.754.A83.53 KQ2.A93.QJ95.KQ7"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:KQ2.A93.QJ95.KQ7 A764.7542.A74.T5 JT83.JT86.KT.A84 95.KQ.8632.J9632"]
+[Auction "S"]
+1NT pass 2C pass 2D pass 2NT pass 3NT pass pass pass
 [Result ""]
 {You open 1NT and partner responds 2\C. What do you bid? 
 
@@ -126,29 +65,21 @@ With no 4-card Major you reply 2\D. What do you bid after partner next says 2NT?
 
 Partner seems to have about 9 points and is inviting you to say 3NT. Since you have a maximum 17 point hand you accept the invitation.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2C Pass
-2D Pass 2NT Pass
-3NT Pass Pass Pass
 
 [Event ""]
-{Baker Stayman 14}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Stayman 14}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "N:J43.AJ.87652.T98 KT85.9852.A93.Q5 A9.KT74.T4.K6432 Q762.Q63.KQJ.AJ7"]
-[Scoring ""]
 [Declarer "W"]
 [Contract "3S"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "W:Q762.Q63.KQJ.AJ7 A3.KJT4.T874.984 KT85.9852.A93.Q5 J94.A7.652.KT632"]
+[Auction "W"]
+1NT pass 2C pass 2S pass 3S pass pass pass
 [Result ""]
 {You open 1NT and partner responds 2\C. What do you bid? 
 
@@ -156,29 +87,21 @@ You bid 2\S. Partner next says 3\S. What do you say now?
 
 Considering the bidding you have done so far you couldn't have a worse hand. With 4-3-3-3 distribution and a bare 15 points you most certainly don't want to accept any invitation from partner. So you pass. As you see, 9 tricks are not going to come easily.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
-[Student "S"]
-[Auction "W"]
-1NT Pass 2C Pass
-2S Pass 3S Pass
-Pass Pass
 
 [Event ""]
-{Baker Stayman 15}
 [Site ""]
 [Date ""]
 [Board "5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Stayman 15}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:8.QJ.T763.KJT982 QT93.K873.A5.764 AK754.642.982.53 J62.AT95.KQJ4.AQ"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4H"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "N:J62.AT95.KQJ4.AQ K5.Q64.97632.852 QT93.K873.A5.764 A874.J2.T8.KJT93"]
+[Auction "N"]
+1NT pass 2C pass 2H pass 3H pass 4H pass pass pass
 [Result ""]
 {You open 1NT and partner responds 2\C. What do you bid? 
 
@@ -186,13 +109,7 @@ You respond 2\H. Partner now says 3\H. What do you bid?
 
 Partner has told you he has 4 \Hs and approximately 9 points. Add that to your 4 \Hs and 17 points and the total equals a game bid in \Hs. So you say 4\H.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2C Pass
-2H Pass 3H Pass
-4H Pass Pass Pass
 
 [Event ""]
 [Site ""]
@@ -204,15 +121,16 @@ Partner has told you he has 4 \Hs and approximately 9 points. Add that to your 4
 [South ""]
 [Dealer "E"]
 [Vulnerable "EW"]
-[Deal "E:976.87542.KJ9.A9 AQJ.KJ.Q764.Q653 853..AT8532.KJT2 KT42.AQT963..874"]
+[Deal "S:AQJ.KJ.Q764.Q653 93.742.KJT83.KT2 KT42.AQT963..874 8765.85.A952.AJ9"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -224,15 +142,16 @@ Partner has told you he has 4 \Hs and approximately 9 points. Add that to your 4
 [South ""]
 [Dealer "S"]
 [Vulnerable "All"]
-[Deal "S:AJ9.652.K82.T543 83.KQ74.7643.A82 Q765.JT98.AT.J96 KT42.A3.QJ95.KQ7"]
+[Deal "E:KT42.A3.QJ95.KQ7 AJ5.JT6.K82.J963 83.KQ74.7643.A82 Q976.9852.AT.T54"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -244,15 +163,16 @@ Partner has told you he has 4 \Hs and approximately 9 points. Add that to your 4
 [South ""]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "W:7.KQ2.7642.JT962 JT83.JT86.KT.A84 A9654.754.A83.53 KQ2.A93.QJ95.KQ7"]
+[Deal "S:KQ2.A93.QJ95.KQ7 A764.7542.A74.T5 JT83.JT86.KT.A84 95.KQ.8632.J9632"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -264,15 +184,16 @@ Partner has told you he has 4 \Hs and approximately 9 points. Add that to your 4
 [South ""]
 [Dealer "N"]
 [Vulnerable "EW"]
-[Deal "N:J43.AJ.87652.T98 KT85.9852.A93.Q5 A9.KT74.T4.K6432 Q762.Q63.KQJ.AJ7"]
+[Deal "W:Q762.Q63.KQJ.AJ7 A3.KJT4.T874.984 KT85.9852.A93.Q5 J94.A7.652.KT632"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -284,15 +205,16 @@ Partner has told you he has 4 \Hs and approximately 9 points. Add that to your 4
 [South ""]
 [Dealer "E"]
 [Vulnerable "All"]
-[Deal "E:8.QJ.T763.KJT982 QT93.K873.A5.764 AK754.642.982.53 J62.AT95.KQJ4.AQ"]
+[Deal "N:J62.AT95.KQJ4.AQ K5.Q64.97632.852 QT93.K873.A5.764 A874.J2.T8.KJT93"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "5"]
 [VirtualDealer "N"]
 [VirtualVulnerable "NS"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -304,15 +226,16 @@ Partner has told you he has 4 \Hs and approximately 9 points. Add that to your 4
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "E:976.87542.KJ9.A9 AQJ.KJ.Q764.Q653 853..AT8532.KJT2 KT42.AQT963..874"]
+[Deal "S:AQJ.KJ.Q764.Q653 93.742.KJT83.KT2 KT42.AQT963..874 8765.85.A952.AJ9"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -324,15 +247,16 @@ Partner has told you he has 4 \Hs and approximately 9 points. Add that to your 4
 [South ""]
 [Dealer "W"]
 [Vulnerable "NS"]
-[Deal "S:AJ9.652.K82.T543 83.KQ74.7643.A82 Q765.JT98.AT.J96 KT42.A3.QJ95.KQ7"]
+[Deal "E:KT42.A3.QJ95.KQ7 AJ5.JT6.K82.J963 83.KQ74.7643.A82 Q976.9852.AT.T54"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -344,15 +268,16 @@ Partner has told you he has 4 \Hs and approximately 9 points. Add that to your 4
 [South ""]
 [Dealer "N"]
 [Vulnerable "All"]
-[Deal "W:7.KQ2.7642.JT962 JT83.JT86.KT.A84 A9654.754.A83.53 KQ2.A93.QJ95.KQ7"]
+[Deal "S:KQ2.A93.QJ95.KQ7 A764.7542.A74.T5 JT83.JT86.KT.A84 95.KQ.8632.J9632"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -364,15 +289,16 @@ Partner has told you he has 4 \Hs and approximately 9 points. Add that to your 4
 [South ""]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "N:J43.AJ.87652.T98 KT85.9852.A93.Q5 A9.KT74.T4.K6432 Q762.Q63.KQJ.AJ7"]
+[Deal "W:Q762.Q63.KQJ.AJ7 A3.KJT4.T874.984 KT85.9852.A93.Q5 J94.A7.652.KT632"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -384,15 +310,16 @@ Partner has told you he has 4 \Hs and approximately 9 points. Add that to your 4
 [South ""]
 [Dealer "S"]
 [Vulnerable "NS"]
-[Deal "E:8.QJ.T763.KJT982 QT93.K873.A5.764 AK754.642.982.53 J62.AT95.KQJ4.AQ"]
+[Deal "N:J62.AT95.KQJ4.AQ K5.Q64.97632.852 QT93.K873.A5.764 A874.J2.T8.KJT93"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "5"]
 [VirtualDealer "N"]
 [VirtualVulnerable "NS"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -404,15 +331,16 @@ Partner has told you he has 4 \Hs and approximately 9 points. Add that to your 4
 [South ""]
 [Dealer "W"]
 [Vulnerable "EW"]
-[Deal "E:976.87542.KJ9.A9 AQJ.KJ.Q764.Q653 853..AT8532.KJT2 KT42.AQT963..874"]
+[Deal "S:AQJ.KJ.Q764.Q653 93.742.KJT83.KT2 KT42.AQT963..874 8765.85.A952.AJ9"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -424,15 +352,16 @@ Partner has told you he has 4 \Hs and approximately 9 points. Add that to your 4
 [South ""]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "S:AJ9.652.K82.T543 83.KQ74.7643.A82 Q765.JT98.AT.J96 KT42.A3.QJ95.KQ7"]
+[Deal "E:KT42.A3.QJ95.KQ7 AJ5.JT6.K82.J963 83.KQ74.7643.A82 Q976.9852.AT.T54"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -444,15 +373,16 @@ Partner has told you he has 4 \Hs and approximately 9 points. Add that to your 4
 [South ""]
 [Dealer "E"]
 [Vulnerable "NS"]
-[Deal "W:7.KQ2.7642.JT962 JT83.JT86.KT.A84 A9654.754.A83.53 KQ2.A93.QJ95.KQ7"]
+[Deal "S:KQ2.A93.QJ95.KQ7 A764.7542.A74.T5 JT83.JT86.KT.A84 95.KQ.8632.J9632"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -464,15 +394,16 @@ Partner has told you he has 4 \Hs and approximately 9 points. Add that to your 4
 [South ""]
 [Dealer "S"]
 [Vulnerable "EW"]
-[Deal "N:J43.AJ.87652.T98 KT85.9852.A93.Q5 A9.KT74.T4.K6432 Q762.Q63.KQJ.AJ7"]
+[Deal "W:Q762.Q63.KQJ.AJ7 A3.KJT4.T874.984 KT85.9852.A93.Q5 J94.A7.652.KT632"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -484,15 +415,16 @@ Partner has told you he has 4 \Hs and approximately 9 points. Add that to your 4
 [South ""]
 [Dealer "W"]
 [Vulnerable "All"]
-[Deal "E:8.QJ.T763.KJT982 QT93.K873.A5.764 AK754.642.982.53 J62.AT95.KQJ4.AQ"]
+[Deal "N:J62.AT95.KQJ4.AQ K5.Q64.97632.852 QT93.K873.A5.764 A874.J2.T8.KJT93"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "5"]
 [VirtualDealer "N"]
 [VirtualVulnerable "NS"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -504,15 +436,16 @@ Partner has told you he has 4 \Hs and approximately 9 points. Add that to your 4
 [South ""]
 [Dealer "N"]
 [Vulnerable "NS"]
-[Deal "E:976.87542.KJ9.A9 AQJ.KJ.Q764.Q653 853..AT8532.KJT2 KT42.AQT963..874"]
+[Deal "S:AQJ.KJ.Q764.Q653 93.742.KJT83.KT2 KT42.AQT963..874 8765.85.A952.AJ9"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -524,15 +457,16 @@ Partner has told you he has 4 \Hs and approximately 9 points. Add that to your 4
 [South ""]
 [Dealer "E"]
 [Vulnerable "EW"]
-[Deal "S:AJ9.652.K82.T543 83.KQ74.7643.A82 Q765.JT98.AT.J96 KT42.A3.QJ95.KQ7"]
+[Deal "E:KT42.A3.QJ95.KQ7 AJ5.JT6.K82.J963 83.KQ74.7643.A82 Q976.9852.AT.T54"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -544,15 +478,16 @@ Partner has told you he has 4 \Hs and approximately 9 points. Add that to your 4
 [South ""]
 [Dealer "S"]
 [Vulnerable "All"]
-[Deal "W:7.KQ2.7642.JT962 JT83.JT86.KT.A84 A9654.754.A83.53 KQ2.A93.QJ95.KQ7"]
+[Deal "S:KQ2.A93.QJ95.KQ7 A764.7542.A74.T5 JT83.JT86.KT.A84 95.KQ.8632.J9632"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -564,15 +499,16 @@ Partner has told you he has 4 \Hs and approximately 9 points. Add that to your 4
 [South ""]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "N:J43.AJ.87652.T98 KT85.9852.A93.Q5 A9.KT74.T4.K6432 Q762.Q63.KQJ.AJ7"]
+[Deal "W:Q762.Q63.KQJ.AJ7 A3.KJT4.T874.984 KT85.9852.A93.Q5 J94.A7.652.KT632"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -584,15 +520,16 @@ Partner has told you he has 4 \Hs and approximately 9 points. Add that to your 4
 [South ""]
 [Dealer "N"]
 [Vulnerable "EW"]
-[Deal "E:8.QJ.T763.KJT982 QT93.K873.A5.764 AK754.642.982.53 J62.AT95.KQJ4.AQ"]
+[Deal "N:J62.AT95.KQJ4.AQ K5.Q64.97632.852 QT93.K873.A5.764 A874.J2.T8.KJT93"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "5"]
 [VirtualDealer "N"]
 [VirtualVulnerable "NS"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -604,15 +541,16 @@ Partner has told you he has 4 \Hs and approximately 9 points. Add that to your 4
 [South ""]
 [Dealer "E"]
 [Vulnerable "All"]
-[Deal "E:976.87542.KJ9.A9 AQJ.KJ.Q764.Q653 853..AT8532.KJT2 KT42.AQT963..874"]
+[Deal "S:AQJ.KJ.Q764.Q653 93.742.KJT83.KT2 KT42.AQT963..874 8765.85.A952.AJ9"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -624,15 +562,16 @@ Partner has told you he has 4 \Hs and approximately 9 points. Add that to your 4
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "S:AJ9.652.K82.T543 83.KQ74.7643.A82 Q765.JT98.AT.J96 KT42.A3.QJ95.KQ7"]
+[Deal "E:KT42.A3.QJ95.KQ7 AJ5.JT6.K82.J963 83.KQ74.7643.A82 Q976.9852.AT.T54"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -644,15 +583,16 @@ Partner has told you he has 4 \Hs and approximately 9 points. Add that to your 4
 [South ""]
 [Dealer "W"]
 [Vulnerable "NS"]
-[Deal "W:7.KQ2.7642.JT962 JT83.JT86.KT.A84 A9654.754.A83.53 KQ2.A93.QJ95.KQ7"]
+[Deal "S:KQ2.A93.QJ95.KQ7 A764.7542.A74.T5 JT83.JT86.KT.A84 95.KQ.8632.J9632"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -664,15 +604,16 @@ Partner has told you he has 4 \Hs and approximately 9 points. Add that to your 4
 [South ""]
 [Dealer "N"]
 [Vulnerable "All"]
-[Deal "N:J43.AJ.87652.T98 KT85.9852.A93.Q5 A9.KT74.T4.K6432 Q762.Q63.KQJ.AJ7"]
+[Deal "W:Q762.Q63.KQJ.AJ7 A3.KJT4.T874.984 KT85.9852.A93.Q5 J94.A7.652.KT632"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -684,15 +625,16 @@ Partner has told you he has 4 \Hs and approximately 9 points. Add that to your 4
 [South ""]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "E:8.QJ.T763.KJT982 QT93.K873.A5.764 AK754.642.982.53 J62.AT95.KQJ4.AQ"]
+[Deal "N:J62.AT95.KQJ4.AQ K5.Q64.97632.852 QT93.K873.A5.764 A874.J2.T8.KJT93"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "5"]
 [VirtualDealer "N"]
 [VirtualVulnerable "NS"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -704,15 +646,16 @@ Partner has told you he has 4 \Hs and approximately 9 points. Add that to your 4
 [South ""]
 [Dealer "S"]
 [Vulnerable "NS"]
-[Deal "E:976.87542.KJ9.A9 AQJ.KJ.Q764.Q653 853..AT8532.KJT2 KT42.AQT963..874"]
+[Deal "S:AQJ.KJ.Q764.Q653 93.742.KJT83.KT2 KT42.AQT963..874 8765.85.A952.AJ9"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "7"]
 
 [Event ""]
 [Site ""]
@@ -724,15 +667,16 @@ Partner has told you he has 4 \Hs and approximately 9 points. Add that to your 4
 [South ""]
 [Dealer "W"]
 [Vulnerable "EW"]
-[Deal "S:AJ9.652.K82.T543 83.KQ74.7643.A82 Q765.JT98.AT.J96 KT42.A3.QJ95.KQ7"]
+[Deal "E:KT42.A3.QJ95.KQ7 AJ5.JT6.K82.J963 83.KQ74.7643.A82 Q976.9852.AT.T54"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "7"]
 
 [Event ""]
 [Site ""]
@@ -744,15 +688,16 @@ Partner has told you he has 4 \Hs and approximately 9 points. Add that to your 4
 [South ""]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:7.KQ2.7642.JT962 JT83.JT86.KT.A84 A9654.754.A83.53 KQ2.A93.QJ95.KQ7"]
+[Deal "S:KQ2.A93.QJ95.KQ7 A764.7542.A74.T5 JT83.JT86.KT.A84 95.KQ.8632.J9632"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "7"]
 
 [Event ""]
 [Site ""]
@@ -764,15 +709,16 @@ Partner has told you he has 4 \Hs and approximately 9 points. Add that to your 4
 [South ""]
 [Dealer "E"]
 [Vulnerable "NS"]
-[Deal "N:J43.AJ.87652.T98 KT85.9852.A93.Q5 A9.KT74.T4.K6432 Q762.Q63.KQJ.AJ7"]
+[Deal "W:Q762.Q63.KQJ.AJ7 A3.KJT4.T874.984 KT85.9852.A93.Q5 J94.A7.652.KT632"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "7"]
 
 [Event ""]
 [Site ""]
@@ -784,12 +730,14 @@ Partner has told you he has 4 \Hs and approximately 9 points. Add that to your 4
 [South ""]
 [Dealer "S"]
 [Vulnerable "EW"]
-[Deal "E:8.QJ.T763.KJT982 QT93.K873.A5.764 AK754.642.982.53 J62.AT95.KQJ4.AQ"]
+[Deal "N:J62.AT95.KQJ4.AQ K5.Q64.97632.852 QT93.K873.A5.764 A874.J2.T8.KJT93"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "5"]
 [VirtualDealer "N"]
 [VirtualVulnerable "NS"]
+[BlockNumber "7"]
+

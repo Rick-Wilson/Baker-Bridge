@@ -1,8 +1,6 @@
 % PBN 2.1
 % EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 20:52:01 2025 -0700
+%Content-type: text/x-pbn; charset=UTF-8
 %BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
 %BidAndCardSpacing Thin
 %BoardsPerPage 1
@@ -17,7 +15,6 @@
 %Font:HandRecord "Georgia",11,400,0
 %GutterSize 500,500
 %HRTitleDate 2023.10.17
-%HRTitleEvent ""
 %HRTitleSetID ""
 %HRTitleSetIDPrefix ""
 %HRTitleSite ""
@@ -41,22 +38,23 @@
 %TSTReportOrder ByNumber
 %TSTReportShade Yes
 %Translate "Board %" "Deal %"
+%Creator: CSVtoPBN Version 1.00
+%Created: 2026-01-23 13:57:51
 %sourcefilename BakerBridgeFull.csv
+%HRTitleEvent Transfers
 [Event ""]
-{Baker Transfers 1}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Transfers 1}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:762.A52.A7.KJT93 AK53.QT.Q65.A742 QJT8.74.KJ9432.Q 94.KJ9863.T8.865"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "2H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AK53.QT.Q65.A742 QT762.72.K97.KQT 94.KJ9863.T8.865 J8.A54.AJ432.J93"]
+[Auction "S"]
+1NT pass 2D pass 2H pass pass pass
 [Result ""]
 {South opens 1NT. What do you respond? 
 
@@ -66,28 +64,21 @@ Of course you pass. You only have 6 points so there is no chance for game. You j
 
 As you can see from partner's hand you made the right call. Played in \Hs your hand will produce five tricks. At notrump your hand will win only one trick if the defenders hold up their \HA just one time.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 1, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2D Pass
-2H Pass Pass Pass
+[RotationNote "Board 1, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
 
 [Event ""]
-{Baker Transfers 2}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Transfers 2}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:2.KJT863.9.A8654 KT5.A5.QJ84.KQ73 AJ93.972.AT752.T Q8764.Q4.K63.J92"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:KT5.A5.QJ84.KQ73 AJ93.JT32.A2.864 Q8764.Q4.K63.J92 2.K9876.T975.AT5"]
+[Auction "S"]
+1NT pass 2H pass 2S pass 2NT pass 3S pass pass pass
 [Result ""]
 {South's 1NT opening shows 15-17 points. What is your bid? 
 
@@ -101,29 +92,21 @@ You might revalue your hand up to 10 points now that an 8-card fit has been disc
 
 As you can see, a 4\S contract would have no chance, losing 1 trick in each side suit and at least 1 \S. }
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2H Pass
-2S Pass 2NT Pass
-3S Pass Pass Pass
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
 
 [Event ""]
-{Baker Transfers 3}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Transfers 3}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:2.KQJ963.9.J8654 KT5.A5.QJ84.KQ73 A983.T82.AT752.T QJ764.74.K63.A92"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4S"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:KT5.A5.QJ84.KQ73 A2.QJT632.T752.4 QJ764.74.K63.A92 983.K98.A9.JT865"]
+[Auction "S"]
+1NT pass 2H pass 2S pass 3NT pass 4S pass pass pass
 [Result ""]
 {South's 1NT opening shows 15-17 points. What is your bid? 
 
@@ -137,29 +120,21 @@ You might revalue your hand up to 12 points now that an 8-card fit has been disc
 
 A 4\S contract is definitely the place to be. }
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2H Pass
-2S Pass 3NT Pass
-4S Pass Pass Pass
+[RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
 
 [Event ""]
-{Baker Transfers 4}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Transfers 4}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:KT94.JT.J82.AT32 AJ76.Q6.K753.KQ4 Q82.A53.Q94.J987 53.K98742.AT6.65"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3H"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "S:AJ76.Q6.K753.KQ4 QT84.J.Q92.AJT72 53.K98742.AT6.65 K92.AT53.J84.983"]
+[Auction "S"]
+1NT pass 2D pass 2H pass 3H pass pass pass
 [Result ""]
 {South opens 1NT. What do you respond? 
 
@@ -175,29 +150,21 @@ A comment is in order about revaluing your hand. Since partner must have at leas
 
 As you can see, making even 9 tricks is going to be a challenge.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2D Pass
-2H Pass 3H Pass
-Pass Pass
+[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
 
 [Event ""]
-{Baker Transfers 5}
 [Site ""]
 [Date ""]
 [Board "5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Transfers 5}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:AJ86.J9.9743.J32 QT9.K53.K62.AK84 K742.86.A85.QT97 53.AQT742.QJT.65"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:QT9.K53.K62.AK84 J642.98.A95.J972 53.AQT742.QJT.65 AK87.J6.8743.QT3"]
+[Auction "S"]
+1NT pass 2D pass 2H pass 4H pass pass pass
 [Result ""]
 {South opens 1NT. What do you respond? 
 
@@ -205,29 +172,21 @@ You should bid 2\D to transfer partner to \Hs. He bids 2\H. What do you say now?
 
 You know you have at least an 8-card \H fit. You know you have at least 26 points (15 + 11). She who knows, goes, so you bid 4\H.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 5, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2D Pass
-2H Pass 4H Pass
-Pass Pass
+[RotationNote "Board 5, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
 
 [Event ""]
-{Baker Transfers 6}
 [Site ""]
 [Date ""]
 [Board "6"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Transfers 6}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:2.QJT3.KQ5.T6432 QJ5.K8.AT62.AK98 A643.52.J974.QJ7 KT987.A9764.83.5"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:QJ5.K8.AT62.AK98 A64.T32.KQ7.J632 KT987.A9764.83.5 32.QJ5.J954.QT74"]
+[Auction "N"]
+1NT pass 2D pass 2H pass 2S pass 4S pass pass pass
 [Result ""]
 {North opens 1NT. What do you respond? 
 
@@ -239,29 +198,21 @@ At this point partner becomes the Captain. You have described an invitational (9
 
 Note that you must have at least one Major suit fit since partner cannot have a doubleton in both.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 6, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2D Pass
-2H Pass 2S Pass
-4S Pass Pass Pass
+[RotationNote "Board 6, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Transfers 7}
 [Site ""]
 [Date ""]
 [Board "7"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Transfers 7}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:32.J95.AQ5.J9642 Q6.A74.KJ92.KQ83 KT97.62.T8743.AT AJ854.KQT83.6.75"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:Q6.A74.KJ92.KQ83 KT73.J5.Q853.J62 AJ854.KQT83.6.75 92.962.AT74.AT94"]
+[Auction "N"]
+1NT pass 2H pass 2S pass 3H pass 4H pass pass pass
 [Result ""]
 {North opens 1NT. What do you respond? 
 
@@ -275,29 +226,21 @@ You show your second 5-card Major by bidding 3\H. Since this shows game-forcing 
 
 If you held an even stronger hand and wished to move toward a slam you would start out the same way but then bid again after partner's game bid.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 7, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2H Pass
-2S Pass 3H Pass
-4H Pass Pass Pass
+[RotationNote "Board 7, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Transfers 8}
 [Site ""]
 [Date ""]
 [Board "8"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Transfers 8}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:632.K93.K54.7432 J4.AQJ5.AQJ3.T96 K98.T8762.T72.J8 AQT75.4.986.AKQ5"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:J4.AQJ5.AQJ3.T96 K86.KT963.T72.73 AQT75.4.986.AKQ5 932.872.K54.J842"]
+[Auction "S"]
+1NT pass 2H pass 2S pass 3C pass 3NT pass pass pass
 [Result ""]
 {South opens 1NT. What do you respond? 
 
@@ -307,29 +250,21 @@ Your bid of a minor suit here shows at least 4 cards and is a slam try. With a w
 
 Having made the try, you accept whatever partner decides. In this case, with a 15 point minimum, a doubleton \S and no \C fit, partner settles on 3NT.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 8, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2H Pass
-2S Pass 3C Pass
-3NT Pass Pass Pass
+[RotationNote "Board 8, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
 
 [Event ""]
-{Baker Transfers 9}
 [Site ""]
 [Date ""]
 [Board "9"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Transfers 9}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:432.J83.A54.8632 KJ.KQ9.KT73.AJ74 986.T7652.QJ2.T9 AQT75.A4.986.KQ5"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "6NT"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:KJ.KQ9.KT73.AJ74 983.J75.J54.T982 AQT75.A4.986.KQ5 642.T8632.AQ2.63"]
+[Auction "S"]
+1NT pass 2H pass 2S pass 4NT pass 6NT pass pass pass
 [Result ""]
 {South opens 1NT. What do you respond? 
 
@@ -345,29 +280,21 @@ But you can see the problem with the bid - if partner mistakes it for Blackwood 
 
 Here both partners understood the bid and South bid 6NT.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 9, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2H Pass
-2S Pass 4NT Pass
-6NT Pass Pass Pass
+[RotationNote "Board 9, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
 
 [Event ""]
-{Baker Transfers 10}
 [Site ""]
 [Date ""]
 [Board "10"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Transfers 10}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:AJ98.965.752.A32 Q2.AJ3.AK64.KQJT KT643.T2.QJ8.965 75.KQ874.T93.874"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "S:Q2.AJ3.AK64.KQJT JT843.T5.J52.A53 75.KQ874.T93.874 AK96.962.Q87.962"]
+[Auction "S"]
+2NT pass D pass 3H pass 3NT pass 4H pass pass pass
 [Result ""]
 {South opens 2NT showing a balanced 20-21 point hand. What do you respond? 
 
@@ -379,29 +306,21 @@ On this Deal partner has 3 \Hs so he bids on to 4\H.
 
 Notice that when partner opens 2NT the invitation to game option is no longer available. As responder you must decide immediately whether to stop short of game (by transferring then passing) or to go to game. This is not a serious problem since the tighter (20-21) point range makes responder's decision easier to make.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 10, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-2NT Pass D Pass
-3H Pass 3NT Pass
-4H Pass Pass Pass
+[RotationNote "Board 10, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
 
 [Event ""]
-{Baker Transfers 11}
 [Site ""]
 [Date ""]
 [Board "11"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Transfers 11}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:T843.K4.J97.AT52 92.QT962.K54.K83 AJ6.A753.T832.96 KQ75.J8.AQ6.QJ74"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "2NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:KQ75.J8.AQ6.QJ74 AJT3.K74.T983.T5 92.QT962.K54.K83 864.A53.J72.A962"]
+[Auction "S"]
+1NT pass 2D pass 2H pass 2NT pass pass pass
 [Result ""]
 {You open 1NT and partner responds 2\D. What do you bid? 
 
@@ -413,29 +332,21 @@ Partner's bidding shows 9 points and exactly 5\H. He asks that you take him back
 
 So you pass.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 11, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2D Pass
-2H Pass 2NT Pass
-Pass Pass
+[RotationNote "Board 11, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Transfers 12}
 [Site ""]
 [Date ""]
 [Board "12"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Transfers 12}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:752.KT3.A64.7652 KJT63.96.982.KJ4 A98.J7542.J73.Q8 Q4.AQ8.KQT5.AT93"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:Q4.AQ8.KQT5.AT93 A75.T732.73.Q862 KJT63.96.982.KJ4 982.KJ54.AJ64.75"]
+[Auction "S"]
+1NT pass 2H pass 2S pass 2NT pass 3NT pass pass pass
 [Result ""]
 {You open 1NT and partner responds 2\H. What do you bid? 
 
@@ -447,29 +358,21 @@ Partner's bidding shows 9 points and exactly 5\S. He asks that you take him back
 
 So you bid 3NT.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 12, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2H Pass
-2S Pass 2NT Pass
-3NT Pass Pass Pass
+[RotationNote "Board 12, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Transfers 13}
 [Site ""]
 [Date ""]
 [Board "13"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Transfers 13}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:JT75.A4.J96.J732 93.QJT62.753.KQ4 KQ84.K93.T842.65 A62.875.AKQ.AT98"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:A62.875.AKQ.AT98 KQ4.A43.T9642.63 93.QJT62.753.KQ4 JT875.K9.J8.J752"]
+[Auction "S"]
+1NT pass 2D pass 2H pass 2NT pass 4H pass pass pass
 [Result ""]
 {You open 1NT and partner responds 2\D. What do you bid? 
 
@@ -483,29 +386,21 @@ So you bid 4\H.
 
 With your 3-3-3-4 distribution you might have been tempted to bid 3NT instead of 4\H. It's a good thing you didn't, they would have killed you in \Ss.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 13, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2D Pass
-2H Pass 2NT Pass
-4H Pass Pass Pass
+[RotationNote "Board 13, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Transfers 14}
 [Site ""]
 [Date ""]
 [Board "14"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Transfers 14}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:2.KQJ93.K8.Q9542 AK9753.842.53.76 QT84.T6.JT964.AT J6.A75.AQ72.KJ83"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:J6.A75.AQ72.KJ83 T.KQT963.T64.Q42 AK9753.842.53.76 Q842.J.KJ98.AT95"]
+[Auction "S"]
+1NT pass 2H pass 2S pass 3S pass pass pass
 [Result ""]
 {You open 1NT and partner responds 2\H. What do you bid? 
 
@@ -519,29 +414,21 @@ Partner has 9 points and you have 15. So a game contract is too high.
 
 You pass. And you're going to have to play great to make even 9 tricks!}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 14, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2H Pass
-2S Pass 3S Pass
-Pass Pass
+[RotationNote "Board 14, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Transfers 15}
 [Site ""]
 [Date ""]
 [Board "15"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Transfers 15}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:KJT5.QJ.T754.J32 873.AKT872.93.65 Q942.43.A86.QT74 A6.965.KQJ2.AK98"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:A6.965.KQJ2.AK98 KJT9.43.A875.QT4 873.AKT872.93.65 Q542.QJ.T64.J732"]
+[Auction "S"]
+1NT pass 2D pass 2H pass 3H pass 4H pass pass pass
 [Result ""]
 {You open 1NT and partner responds 2\D. What do you bid? 
 
@@ -551,29 +438,21 @@ Partner follows up with 3\H. What do you bid next?
 
 Partner has 9 points and 6 \Hs. You have 17 points and 3 \Hs. That adds up to 26 points and 9 \Hs. You have enough points for game and enough trumps to play \Hs so you bid 4\H.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 15, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2D Pass
-2H Pass 3H Pass
-4H Pass Pass Pass
+[RotationNote "Board 15, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Transfers 16}
 [Site ""]
 [Date ""]
 [Board "16"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Transfers 16}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:J52.A83.T86.QJ42 T9873.KQT.A4.T73 KQ4.J742.9753.65 A6.965.KQJ2.AK98"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:A6.965.KQJ2.AK98 K52.A8743.87.J62 T9873.KQT.A4.T73 QJ4.J2.T9653.Q54"]
+[Auction "S"]
+1NT pass 2H pass 2S pass 2NT pass 3NT pass pass pass
 [Result ""]
 {You open 1NT and partner responds 2\H. What do you bid? 
 
@@ -583,29 +462,21 @@ Partner has 9 points and a 5-card \S suit. He is inviting you to choose a game i
 
 Since you have 17 points you accept the invitation, but with only 2 \Ss you choose 3NT.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 16, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2H Pass
-2S Pass 2NT Pass
-3NT Pass Pass Pass
+[RotationNote "Board 16, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Transfers 17}
 [Site ""]
 [Date ""]
 [Board "17"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Transfers 17}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:6.94.QT963.AKT92 Q9854.KQT83.75.3 JT732.A72.82.Q74 AK.J65.AKJ4.J865"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AK.J65.AKJ4.J865 J76.A942.Q6.K974 Q9854.KQT83.75.3 T32.7.T9832.AQT2"]
+[Auction "S"]
+1NT pass 2D pass 2H pass 2S pass 4H pass pass pass
 [Result ""]
 {You open 1NT and partner responds 2\D. What do you bid? 
 
@@ -617,29 +488,21 @@ Partner has told you that he has an inviting, 9-point hand with 5 of each Major.
 
 Despite your \Ss being so beautiful there are only two of them so you pick \Hs. And since you have a maximum 17 points you bid the game, 4\H.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 17, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2D Pass
-2H Pass 2S Pass
-4H Pass Pass Pass
+[RotationNote "Board 17, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Transfers 18}
 [Site ""]
 [Date ""]
 [Board "18"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Transfers 18}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:J962.J3.AT32.T82 AK873.KT965.75.9 4.872.Q986.AQ743 QT5.AQ4.KJ4.KJ65"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:QT5.AQ4.KJ4.KJ65 9642.72.Q86.AT42 AK873.KT965.75.9 J.J83.AT932.Q873"]
+[Auction "S"]
+1NT pass 2H pass 2S pass 3H pass 4S pass pass pass
 [Result ""]
 {You open 1NT and partner responds 2\H. What do you bid? 
 
@@ -651,29 +514,21 @@ With 3 of each you might be inclined to choose your stronger one, \Hs, but in fa
 
 What does matter is those minor suits. If the opening lead is a \C or \D, which is very likely, you want the lead to be coming into your hand, not partner's. And in general you would prefer to have the stronger hand remain concealed. So you bid 4\S where you will be declarer, rather than 4\H where partner would be declarer.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 18, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2H Pass
-2S Pass 3H Pass
-4S Pass Pass Pass
+[RotationNote "Board 18, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Transfers 19}
 [Site ""]
 [Date ""]
 [Board "19"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Transfers 19}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:AJ863.62.J54.T72 KQ94.AJ973.83.A6 72.85.QT962.J543 T5.KQT4.AK7.KQ98"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:T5.KQT4.AK7.KQ98 J2.652.Q95.JT543 KQ94.AJ973.83.A6 A8763.8.JT642.72"]
+[Auction "S"]
+1NT pass 2D pass 3H pass 4C pass 4D pass 6H all pass
 [Result ""]
 {You open 1NT and partner responds 2\D. What do you bid? 
 
@@ -689,30 +544,21 @@ You continue the search for slam by showing your first round \D control, you bid
 
 That was all partner needed to hear, he jumps straight to 6\H.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 19, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2D Pass
-3H Pass 4C Pass
-4D Pass 6H ALL
-Pass
+[RotationNote "Board 19, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Transfers 20}
 [Site ""]
 [Date ""]
 [Board "20"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Transfers 20}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:AK72.84.Q53.T654 Q9853.72.8642.A3 6.QJT9653.JT.J72 JT4.AK.AK97.KQ98"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:JT4.AK.AK97.KQ98 A2.Q943.J53.J742 Q9853.72.8642.A3 K76.JT865.QT.T65"]
+[Auction "S"]
+2NT pass 3H pass 3S pass 3NT pass 4S pass pass pass
 [Result ""]
 {You open 2NT and partner responds 3\H. What do you bid? 
 
@@ -724,29 +570,21 @@ As you can see, 3NT would surely go down with a \H lead, while 4\S is cold.
 
 One hand doesn't mean it will always be like this, but usually if you have an 8-card fit the Major suit game will be better than 3NT.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 20, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-2NT Pass 3H Pass
-3S Pass 3NT Pass
-4S Pass Pass Pass
+[RotationNote "Board 20, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Transfers 21}
 [Site ""]
 [Date ""]
 [Board "21"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Transfers 21}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:Q974.42.432.A752 K6.AQJT7.T95.KQ3 8532.96.QJ876.T9 AJT.K853.AK.J864"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AJT.K853.AK.J864 Q853.642.Q842.T2 K6.AQJT7.T95.KQ3 9742.9.J763.A975"]
+[Auction "S"]
+1NT pass 2D pass 2H pass 4NT pass 6H pass pass pass
 [Result ""]
 {You open 1NT and partner responds 2\D. What do you bid? 
 
@@ -758,29 +596,21 @@ If you don't remember Deal 9 go back and look at it now. Partner is not bidding 
 
 Once you understand partner's bid, your next move is simple. You have a maximum and you prefer to play in the suit. So you bid 6\H.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 21, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2D Pass
-2H Pass 4NT Pass
-6H Pass Pass Pass
+[RotationNote "Board 21, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Transfers 22}
 [Site ""]
 [Date ""]
 [Board "22"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Transfers 22}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:KT97.82.J86.Q965 J3.AK953.42.AK72 852.QT74.QT93.T4 AQ64.J6.AK75.J83"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AQ64.J6.AK75.J83 T2.T742.QT83.Q95 J3.AK953.42.AK72 K9875.Q8.J96.T64"]
+[Auction "S"]
+1NT pass 2D pass 2H pass 3C pass 3NT pass pass pass
 [Result ""]
 {You open 1NT and partner responds 2\D. What do you bid? 
 
@@ -792,29 +622,21 @@ Partner has 5 \Hs and probably 4 \Cs.
 
 He is interested in slam and wants help from you in either of his suits. You have a minimum 1NT opener and no help for him so you try to dampen his enthusiasm by bidding 3NT. It works.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 22, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2D Pass
-2H Pass 3C Pass
-3NT Pass Pass Pass
+[RotationNote "Board 22, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Transfers 23}
 [Site ""]
 [Date ""]
 [Board "23"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Transfers 23}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:86.T752.T652.T43 AJT.KQJ93.Q43.72 KQ7532.4.J8.KQJ9 94.A86.AK97.A865"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:94.A86.AK97.A865 63.T54.652.JT943 AJT.KQJ93.Q43.72 KQ8752.72.JT8.KQ"]
+[Auction "S"]
+1NT pass 2D 2S pass pass 3NT pass 4H pass pass pass
 [Result ""]
 {You open 1NT and partner responds 2\D. However, your Right Hand Opponent injects a 2\S overcall.
 
@@ -828,29 +650,21 @@ Aha! Partner does have a good hand, at least 11 points and with 5 \Hs.
 
 You have a minimum, but with 3 \Hs you prefer the suit game to 3NT so you bid 4\H.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 23, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2D 2S
-Pass Pass 3NT Pass
-4H Pass Pass Pass
+[RotationNote "Board 23, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Transfers 24}
 [Site ""]
 [Date ""]
 [Board "24"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Transfers 24}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:J2.T.QJT74.KQT72 T86.Q97532.652.9 AKQ753.K4.83.J43 94.AJ86.AK9.A865"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:94.AJ86.AK9.A865 Q7..J873.KJT7432 T86.Q97532.652.9 AKJ532.KT4.QT4.Q"]
+[Auction "S"]
+1NT pass 2D 2S 3H pass pass pass
 [Result ""]
 {You open 1NT and partner responds 2\D. However, your Right Hand Opponent injects a 2\S overcall.
 
@@ -860,28 +674,21 @@ More often than not it is correct to pass after an opponent overcalls your partn
 
 However, in this case you know that your side has at least 9 \Hs, and you are weak in \Ss. So you bid 3\H, knowing that even if you go down it may be better than letting them play \Ss.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 24, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2D 2S
-3H Pass Pass Pass
+[RotationNote "Board 24, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Transfers 25}
 [Site ""]
 [Date ""]
 [Board "25"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Transfers 25}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "N:2.JT94.QJ542.T73 T95.AK753.83.K42 KQ8763.Q2.T6.QJ9 AJ4.86.AK97.A865"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "2S"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "W:AJ4.86.AK97.A865 7.QJT92.542.JT97 T95.AK753.83.K42 KQ8632.4.QJT6.Q3"]
+[Auction "W"]
+1NT pass 2D 2S pass pass X pass pass pass
 [Result ""]
 {You open 1NT and partner responds 2\D. However, your Right Hand Opponent injects a 2\S overcall. What do you bid? 
 
@@ -893,10 +700,5 @@ Partner's double is called a Cooperative Double. It doesn't mean he has a \S sta
 
 If you had good \Hs you might bid them now. Or, it is possible that you could make 3NT. But it is likely that you are going to make a bigger score in penalties so you pass.}
 [BCFlags "1f"]
-[OriginalRotationBasis "E"]
-[RotationNote "Board 25, chOption: S, chBasis: E, basisKind:Student, nOption:2, nBasis: 1, nRot: 1, useStandardVul: false"]
-[Student "S"]
-[Auction "W"]
-1NT Pass 2D 2S
-Pass Pass X Pass
-Pass Pass
+[RotationNote "Board 25, chOption: S, chBasis: E, basisKind:Declarer, nOption:2, nBasis: 1, nRot: 1, useStandardVul: true"]
+

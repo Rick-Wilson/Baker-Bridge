@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:08:08 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",10,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker 100NT 61}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 61}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:T2.T9742.KT83.Q6 AQJ9876.5.AJ5.94 3.KQ863.Q94.JT72 K54.AJ.762.AK853"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "6S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AQJ9876.5.AJ5.94 3.KQ863.Q94.JT72 K54.AJ.762.AK853 T2.T9742.KT83.Q6"]
+[Auction "N"]
+1NT pass 2H pass 2S pass 6S pass pass pass
 [Result ""]
 {Wow. You can tell that this is going to be tough to bid scientifically. You decide to start with a transfer bid, 2\H. Partner replies 2\S. What do you say now? 
 
@@ -86,31 +41,22 @@ But what if the contract had been 7\S?
 
 Obviously you couldn't afford to lose a trick so you would have to bang down the two top \Cs, then ruff one and hope the suit was splitting 3-3.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2H Pass
-2S Pass 6S Pass
-Pass Pass
-[Play "E"]
-HK
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+[Play "E"]HK
 
 [Event ""]
-{Baker 100NT 62}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 62}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:863.T752.52.A874 Q94.J84.AJ6.K953 A72.963.KQ9874.6 KJT5.AKQ.T3.QJT2"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:Q94.J84.AJ6.K953 A72.963.KQ9874.6 KJT5.AKQ.T3.QJT2 863.T752.52.A874"]
+[Auction "S"]
+1NT 2D 2NT pass 3C pass 3NT pass pass pass
 [Result ""]
 {When using lebensohl, a 2NT bid over an enemy overcall asks partner to bid 3\C. So partner replies 3\C. What do you say now? 
 
@@ -138,31 +84,22 @@ But if you hold up on the first trick and win the continuation, you will succeed
 
 The holdup would of course fail if East held both black Aces, but in this case no Plan would succeed.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT 2D 2NT Pass
-3C Pass 3NT Pass
-Pass Pass
-[Play "W"]
-DK
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]DK
 
 [Event ""]
-{Baker 100NT 63}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 63}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:A82.652.84.AJ963 T94.Q83.AT72.K84 J763.JT94.K53.T7 KQ5.AK7.QJ96.Q52"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "N:KQ5.AK7.QJ96.Q52 A82.652.84.AJ963 T94.Q83.AT72.K84 J763.JT94.K53.T7"]
+[Auction "N"]
+1NT pass 2NT pass 3NT pass pass pass
 [Result ""]
 {Partner's 2NT bid invites you to bid game if you have a maximum hand. With 17 points you bid the game.
 
@@ -182,30 +119,22 @@ Play \Ss first and even though East can win and establish \Cs West will not have
 
 It goes without saying that if your \SK holds the trick you immediately switch to \Ds.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2NT Pass
-3NT Pass Pass Pass
-[Play "E"]
-C6
+[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]C6
 
 [Event ""]
-{Baker 100NT 64}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 64}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:93.652.JT42.JT85 AQ5.KJ4.KQ63.K32 87642.T983.98.96 KJT.AQ7.A75.AQ74"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "7NT"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "S:AQ5.KJ4.KQ63.K32 87642.T983.98.96 KJT.AQ7.A75.AQ74 93.652.JT42.JT85"]
+[Auction "S"]
+2NT pass 7NT pass pass pass
 [Result ""]
 {Partner has 20 or 21 points, balanced, and you have 18. You've always wanted to do this haven't you?
 
@@ -229,11 +158,6 @@ When you play your sixth Major suit winner West is squeezed and must discard fro
 
 This is an Automatic Squeeze, which just means you don't have to do any preparatory work. All you have to do is play off all your non-threat winners before you play the squeezing suits.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-2NT Pass 7NT Pass
-Pass Pass
-[Play "W"]
-HT
+[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]HT
+

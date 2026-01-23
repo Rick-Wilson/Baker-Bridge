@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 20:59:49 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker Eliminations 13}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Eliminations 13}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:KQ2.K972.K753.T3 JT7.865.A62.AQ84 8543.J43.JT9.962 A96.AQT.Q84.KJ75"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:A96.AQT.Q84.KJ75 KQ2.K972.K753.T3 JT7.865.A62.AQ84 8543.J43.JT9.962"]
+[Auction "N"]
+1NT pass 3NT pass pass pass
 [Result ""]
 {North plays 3NT. East leads the \H2. West plays the \HJ which you win with the \HQ.
 
@@ -68,30 +23,22 @@ HE IS ENDPLAYED!. He has no \Cs, and whichever other suit he plays will give you
 
 }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 3NT Pass
-Pass Pass
-[Play "E"]
-H2
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]H2
 
 [Event ""]
-{Baker Eliminations 14}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Eliminations 14}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:Q83.JT84.KT62.T2 AT72.96.J54.QJ95 94.Q7532.A93.863 KJ65.AK.Q87.AK74"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:KJ65.AK.Q87.AK74 Q83.JT84.KT62.T2 AT72.96.J54.QJ95 94.Q7532.A93.863"]
+[Auction "S"]
+2NT pass 3C pass 3S pass 4S pass pass pass
 [Result ""]
 {South is to play 4\S after North's Stayman bid uncovered the 4-4 fit. West leads the \HJ which you win the your \HA.
 
@@ -109,31 +56,22 @@ But what if you considered yourself a really good guesser? So good that you felt
 
 You'd be no better off. Although you would avoid the \S loser you would now have to play the \Ds for yourself and you would lose three \Ds!}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-2NT Pass 3C Pass
-3S Pass 4S Pass
-Pass Pass
-[Play "W"]
-HJ
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]HJ
 
 [Event ""]
-{Baker Eliminations 15}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Eliminations 15}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:JT972.KT74.Q82.7 Q5.AJ62.A964.AJ5 K863.Q983.T75.82 A4.5.KJ3.KQT9643"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "6C"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:Q5.AJ62.A964.AJ5 K863.Q983.T75.82 A4.5.KJ3.KQT9643 JT972.KT74.Q82.7"]
+[Auction "S"]
+1NT pass 3C pass 4C pass 6C pass pass pass
 [Result ""]
 {North considered Blackwood, then realized if South showed either 2 or 3 Aces he was going to bid slam. But if South showed just one Ace he would have to maneuver to play 5NT which might be worse than 6\C. So he just bid the slam. North plays 6\C. East leads the \SJ.
 
@@ -151,31 +89,22 @@ DO NOT PLAY THE JACK! If the finesse is going to work now it will still work one
 
 Here you had two chances. First, East might have HAD to win the throw-in, either because he had all of the high \Ss, or more likely because he messed up. The second chance paid off when West took the throw-in but you found a fortunate position with the \Ds.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 3C Pass
-4C Pass 6C Pass
-Pass Pass
-[Play "E"]
-SJ
+[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]SJ
 
 [Event ""]
-{Baker Eliminations 16}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Eliminations 16}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:965.9843.KQT52.6 AT72.KQ.984.KQ84 Q43.T762.J76.953 KJ8.AJ5.A3.AJT72"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "6C"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:KJ8.AJ5.A3.AJT72 965.9843.KQT52.6 AT72.KQ.984.KQ84 Q43.T762.J76.953"]
+[Auction "S"]
+1C pass 1S pass 2NT pass 4C pass 6C pass pass pass
 [Result ""]
 {The slam was easy to bid, now you just have to make it. South plays 6\C. West leads the \DQ.
 
@@ -187,31 +116,22 @@ Perhaps Aunt Harriet isn't that lucky after all, perhaps she just knows how to p
 
 Hopefully in the future you will be the one with the reputation!}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1C Pass 1S Pass
-2NT Pass 4C Pass
-6C Pass Pass Pass
-[Play "W"]
-DQ
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]DQ
 
 [Event ""]
-{Baker Eliminations 17}
 [Site ""]
 [Date ""]
 [Board "5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Eliminations 17}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:QJ9.KQJ8742.9.T4 T7543.A3.A65.K63 .96.KQJT87.QJ972 AK862.T5.432.A85"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "N:AK862.T5.432.A85 QJ9.KQJ8742.9.T4 T7543.A3.A65.K63 .96.KQJT87.QJ972"]
+[Auction "N"]
+1S 4H 4S pass pass pass
 [Result ""]
 {When the bidding gets high in a hurry you sometimes have to guess what you can make. North plays 4\S. East leads the \HK.
 
@@ -235,30 +155,22 @@ You just wonder how many bridge players would have just conceded down 2 on this 
 
 Not you or me, of course.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1S 4H 4S Pass
-Pass Pass
-[Play "E"]
-HK
+[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]HK
 
 [Event ""]
-{Baker Eliminations 18}
 [Site ""]
 [Date ""]
 [Board "6"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Eliminations 18}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "W:6.K82.KQT32.T864 AT93.754.AJ6.Q75 85.JT96.9874.J92 KQJ742.AQ3.5.AK3"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "6S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:85.JT96.9874.J92 KQJ742.AQ3.5.AK3 6.K82.KQT32.T864 AT93.754.AJ6.Q75"]
+[Auction "E"]
+pass 1S pass 3S pass 4NT pass 5H pass 6S pass pass pass
 [Result ""]
 {North's 3\S is a limit raise, 11-12 points in support of \Ss. When you discover that the raise includes two Aces you bid the slam. South plays 6\S. West leads the \DK, won by you with dummy's \DA.
 
@@ -270,13 +182,6 @@ So here you are in dummy. Do you finesse the \H now? Of course not. You play the
 
 It is a pretty simple problem, but you are no doubt getting a lot better.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 6, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "E"]
-Pass 1S Pass 3S
-Pass 4NT Pass 5H
-Pass 6S Pass Pass
-Pass
-[Play "W"]
-DK
+[RotationNote "Board 6, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]DK
+

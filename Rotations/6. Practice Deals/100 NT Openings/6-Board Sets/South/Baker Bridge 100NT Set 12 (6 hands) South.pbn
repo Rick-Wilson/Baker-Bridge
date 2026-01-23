@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:09:33 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",10,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker 100NT 67}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 67}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:QJT42.T.A9543.76 75.K853.T.AQ9842 986.QJ92.KQJ7.T5 AK3.A764.862.KJ3"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:75.K853.T.AQ9842 986.QJ92.KQJ7.T5 AK3.A764.862.KJ3 QJT42.T.A9543.76"]
+[Auction "S"]
+1NT pass 2C pass 2H pass 4H pass pass pass
 [Result ""]
 {Never mind trying to decide how to show the \C suit; with a 4-card Major your obligation is to use Stayman.
 
@@ -84,31 +39,22 @@ Instead just start playing good \Cs. East can ruff in whenever he wants but you 
 
 Here that principle applied even though there were TWO master trumps out.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 1, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2C Pass
-2H Pass 4H Pass
-Pass Pass
-[Play "W"]
-DK
+[RotationNote "Board 1, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]DK
 
 [Event ""]
-{Baker 100NT 68}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 68}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:852.QT52.9742.K8 KQ3.A73.QJ3.T963 T974.J96.T85.AQJ AJ6.K84.AK6.7542"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:KQ3.A73.QJ3.T963 T974.J96.T85.AQJ AJ6.K84.AK6.7542 852.QT52.9742.K8"]
+[Auction "S"]
+1NT pass 3NT pass pass pass
 [Result ""]
 {With 12 points and no 4-card Major suit this one is easy. You bid 3NT of course.
 
@@ -132,30 +78,22 @@ And you did it without going down because the \Ss split 4-3.
 
 This may seem lucky to you, but don't knock it, it was your ONLY chance.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 3NT Pass
-Pass Pass
-[Play "W"]
-ST
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]ST
 
 [Event ""]
-{Baker 100NT 69}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 69}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:T974.87.853.KQ52 J62.AKJ642.K.J64 K83.5.Q9642.T973 AQ5.QT93.AJT7.A8"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "6H"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:J62.AKJ642.K.J64 K83.5.Q9642.T973 AQ5.QT93.AJT7.A8 T974.87.853.KQ52"]
+[Auction "S"]
+1NT pass 2D pass 3H pass 4NT pass 5S pass 6H all pass
 [Result ""]
 {Your partnership may play that a jump to 3\H shows a 6-card suit with slam interest, in other words, this very hand. If you do, then bid it. If you don't, use a transfer first. Let's say you bid 2\D. Partner jumps to 3\H. Now what do you bid? 
 
@@ -185,32 +123,22 @@ No problem. You ruff in dummy, come back to your hand with a trump and THEN disc
 
 You can try the \S finesse then, but you will make the slam whether it works or not.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2D Pass
-3H Pass 4NT Pass
-5S Pass 6H ALL
-Pass
-[Play "W"]
-CT
+[RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]CT
 
 [Event ""]
-{Baker 100NT 70}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 70}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "E:Q95.KQ863.K62.A3 K63.742.QT9.8542 T874.J9.8543.KQT AJ2.AT5.AJ7.J976"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "1NT"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "E:Q95.KQ863.K62.A3 K63.742.QT9.8542 T874.J9.8543.KQT AJ2.AT5.AJ7.J976"]
+[Auction "E"]
+1H 1NT pass pass pass
 [Result ""]
 {With no reason to think you could improve the contract you just pass.
 
@@ -230,30 +158,22 @@ Finesse the \D again. If West ducks a second time you must now take the \S fines
 
 And you have to be careful to unblock so you don't inadvertently lose your place in dummy too soon.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "E"]
-1H 1NT Pass Pass
-Pass
-[Play "W"]
-HJ
+[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]HJ
 
 [Event ""]
-{Baker 100NT 71}
 [Site ""]
 [Date ""]
 [Board "5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 71}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:JT6.QJT98.863.K2 A753.K6.QJ52.T93 Q982.532.A9.8764 K4.A74.KT74.AQJ5"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:K4.A74.KT74.AQJ5 JT6.QJT98.863.K2 A753.K6.QJ52.T93 Q982.532.A9.8764"]
+[Auction "S"]
+1NT pass 2C pass 2D pass 2NT pass 3NT pass pass pass
 [Result ""]
 {With no 4-card Major suit you respond 2\D to partner's Stayman bid. Partner now bids 2NT. What do you say? 
 
@@ -273,31 +193,22 @@ If both the \DA and \CK are in West's hand then you won't make this contract. He
 
 But, if you finesse in \Cs first, West can win and establish the \H suit. But, when East wins the \DA, he will have no \H to return.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 5, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2C Pass
-2D Pass 2NT Pass
-3NT Pass Pass Pass
-[Play "W"]
-HQ
+[RotationNote "Board 5, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]HQ
 
 [Event ""]
-{Baker 100NT 72}
 [Site ""]
 [Date ""]
 [Board "6"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 72}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:Q62.Q65.T93.J754 AK73.KJ82.AQJ.98 T984.T4.8752.QT3 J5.A973.K64.AK62"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "6H"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:AK73.KJ82.AQJ.98 T984.T4.8752.QT3 J5.A973.K64.AK62 Q62.Q65.T93.J754"]
+[Auction "S"]
+1NT pass 2C pass 2H pass 4NT pass 5H pass 6H all pass
 [Result ""]
 {Did you consider bidding 6NT? You are balanced, and the points are right. But with two 4-card Majors you should use Stayman, so you bid 2\C. Partner bids 2\H. Now what do say next? 
 
@@ -329,13 +240,6 @@ But that is only correct as far as that suit is concerned. When you look at the 
 
 This is much more obvious play when you are missing 5 trumps including the Queen AND Jack because you don't have any choice then.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 6, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2C Pass
-2H Pass 4NT Pass
-5H Pass 6H ALL
-Pass
-[Play "W"]
-ST
+[RotationNote "Board 6, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]ST
+

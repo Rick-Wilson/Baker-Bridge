@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:05:27 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",10,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker 100Deals 37}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 37}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:K9.KQT6.964.T752 AJ52.854.AKJ3.84 T74.AJ3.T852.J93 Q863.972.Q7.AKQ6"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AJ52.854.AKJ3.84 T74.AJ3.T852.J93 Q863.972.Q7.AKQ6 K9.KQT6.964.T752"]
+[Auction "S"]
+1D pass 1S pass 2S pass 4S pass pass pass
 [Result ""]
 {You are North and it is your bid. Decide what you would say, then  on BID. 
 
@@ -82,31 +37,22 @@ No, you only have one chance to make this contract - East must hold a doubleton 
 
 Since you would only have one more honor you'd be bound to lose a trick.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "S"]
-1D Pass 1S Pass
-2S Pass 4S Pass
-Pass Pass
-[Play "E"]
-HK
+[Play "W"]HK
 
 [Event ""]
-{Baker 100Deals 38}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 38}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "S:QJT984.A5.93.QJT A72.QJ3.Q862.964 53.T7642.A75.753 K6.K98.KJT4.AK82"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "3NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "E:K6.K98.KJT4.AK82 QJT984.A5.93.QJT A72.QJ3.Q862.964 53.T7642.A75.753"]
+[Auction "E"]
+1NT 2S 2NT pass 3NT pass pass pass
 [Result ""]
 {You are East and it is your bid. Decide what you would say, then  on BID. 
 
@@ -126,30 +72,22 @@ Play \Ds to drive out the \DA. If North has it he will not have another \S to fo
 
 With the holdup it didn't matter which red suit you established first.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
-[Student "S"]
-[Auction "E"]
-1NT 2S 2NT Pass
-3NT Pass Pass Pass
-[Play "S"]
-SQ
+[Play "W"]SQ
 
 [Event ""]
-{Baker 100Deals 39}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 39}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:A.QJ72.J753.KJ64 54.T963.AK92.Q85 T973.AK84.T8.AT3 KQJ862.5.Q64.972"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "2S"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:54.T963.AK92.Q85 T973.AK84.T8.AT3 KQJ862.5.Q64.972 A.QJ72.J753.KJ64"]
+[Auction "S"]
+2S pass pass pass
 [Result ""]
 {You are North and it is your bid. Decide what you would say, then  on BID. 
 
@@ -167,29 +105,22 @@ So after you ruff the \HK you do NOT play the \SK. Instead you play a \D to dumm
 
 It costs nothing to make a careful play. Most of the time it doesn't matter, but every now and again it pays off in a contract that couldn't be made without the careful play. }
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "S"]
-2S Pass Pass Pass
-[Play "W"]
-HA
+[Play "E"]HA
 
 [Event ""]
-{Baker 100Deals 40}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 40}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "S:42.KQT.AJ753.Q87 AK98653.62.Q4.52 QJT.3.KT962.AJ94 7.AJ98754.8.KT63"]
-[Scoring ""]
 [Declarer "W"]
 [Contract "3H"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "W:AK98653.62.Q4.52 QJT.3.KT962.AJ94 7.AJ98754.8.KT63 42.KQT.AJ753.Q87"]
+[Auction "W"]
+3H pass pass pass
 [Result ""]
 {You are East and it is your bid. Decide what you would say, then  on BID. 
 
@@ -209,10 +140,6 @@ The \S lead is about the best thing that could have happened to you. You win wit
 
 }
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 4, chOption: W, chBasis: N, basisKind:Declarer, nOption:3, nBasis: 0, nRot: 3, useStandardVul: true"]
-[Student "S"]
-[Auction "W"]
-3H Pass Pass Pass
-[Play "N"]
-SQ
+[Play "E"]SQ
+

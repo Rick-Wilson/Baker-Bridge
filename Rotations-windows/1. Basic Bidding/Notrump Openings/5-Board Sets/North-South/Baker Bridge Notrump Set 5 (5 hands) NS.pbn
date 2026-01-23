@@ -1,0 +1,194 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:48:36 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Notrump 21}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:K53.QT.7432.Q542 J9.A73.AQ95.A983 AQT842.42.KJT.76 76.KJ9865.86.KJT"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4H"]
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+Since partner opened 1NT he has at least 2 \Hs and you are assured of an 8-card fit. The only question is how high. With 10 points you are in the judgement zone.
+
+But unless you play Jacoby Transfers there isn't a method for inviting with this kind of hand. You have to decide for yourself and bid either 2\H or 4\H. Take the optimistic view and bid the game.
+
+As you see, it is going to take some luck.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT Pass 4H Pass
+Pass Pass
+
+[Event ""]
+{Baker Notrump 22}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:A632.Q92.T3.T632 K84.A73.KJ64.A75 7.KJ865.Q952.J84 QJT95.T4.A87.KQ9"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+With 13 points you must either bid game or make a bid that forces partner to game. If partner has 3 or more \Ss then the game should be 4\S. If partner has only a doubleton \S then the game should be 3NT. Only partner can decide, and the bid that tells him to make the decision is 3\S.
+
+Partner has 3 of them so he bids 4\S.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1NT Pass 3S Pass
+4S Pass Pass Pass
+
+[Event ""]
+{Baker Notrump 23}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:KT974.Q42.842.42 AJ3.AJ65.K5.QJ63 Q62.T983.QJ763.9 85.K7.AT9.AKT875"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "6C"]
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+With 16 points you may be in slam range. You should alert partner of your big hand by jumping to 3\C. Partner says 4\C and it is your bid again. 
+
+Don't make the mistake of bidding Blackwood when you have a doubleton-nothing in a suit. If partner has only one Ace you will be left not knowing what to do. Instead make a control-bid showing your \DA. Now partner bids 6\C which ends the auction.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT Pass 3C Pass
+4C Pass 4D Pass
+6C Pass Pass Pass
+
+[Event ""]
+{Baker Notrump 24}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:J42.Q8.J654.K753 KQ9.AJT.AQ2.AJT4 AT763.K65432..Q8 85.97.KT9873.962"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+You have 5 points, all in \Ds. That will take the partnership total to either 25 or 26, so you have a judgement call. If partner is unable to establish your \Ds then even 2NT will probably be too high, so you might as well assume that he will be able to use them and bid 3NT.
+
+You hit the jackpot.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+2NT Pass 3NT Pass
+Pass Pass
+
+[Event ""]
+{Baker Notrump 25}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:6.T7532.KJ32.T76 QT2.KQJ.AQ95.AJ5 A4.964.T874.9843 KJ98753.A8.6.KQ2"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "6S"]
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+You and partner better have a good agreement on which Ace-asking convention you use because you're going to use it now. Let's say it is Gerber. 
+
+You bid 4\C and partner replies 4\S. What do you bid next? 
+
+Missing one Ace you settle for the small slam.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 5, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+2NT Pass 4C Pass
+4S Pass 6S Pass
+Pass Pass

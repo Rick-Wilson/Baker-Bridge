@@ -1,137 +1,75 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=UTF-8
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:11:38 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker Bidpractice/Set7 13}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set7 13}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:QJ5.J7542.T5.Q53 K62.AT9.AK3.AK84 T9843.Q86.6.JT92 A7.K3.QJ98742.76"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "7NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:K62.AT9.AK3.AK84 QJ985.J764.T.T32 A7.K3.QJ98742.76 T43.Q852.65.QJ95"]
+[Auction "N"]
+2NT pass 4C pass 4NT pass 5C pass 5NT pass 7NT pass pass pass
 [Result ""]
 {SOUTH isn't sure just how much he can make, but surely 6
 
-â™¦
+♦
 
 isn't
 
 too much to hope for.
 
-He starts with a Gerber 4â™£ and NORTH shows three Aces.
+He starts with a Gerber 4♣ and NORTH shows three Aces.
 
-Hmmm, 5â™£ asks for Kings and NORTH shows three.
+Hmmm, 5♣ asks for Kings and NORTH shows three.
 
 Hmm, SOUTH can now count all thirteen tricks, so he forgets about the
 
-â™¦
+♦
 
 slam and bids 7NT.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-2NT Pass 4C Pass
-4NT Pass 5C Pass
-5NT Pass 7NT Pass
-Pass Pass
 
 [Event ""]
-{Baker Bidpractice/Set7 14}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set7 14}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "S:T94.T843.AJ97.43 J8.J72.85.AKQT96 76532.A95.T642.2 AKQ.KQ6.KQ3.J875"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "4NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "E:AKQ.KQ6.KQ3.J875 T97.AT854.J76.42 J8.J72.85.AKQT96 65432.93.AT942.3"]
+[Auction "E"]
+2NT pass 4C pass 4H pass 4NT pass pass pass
 [Result ""]
 {WEST has 13 points and can contribute six tricks so she figures that twelve tricks will be a slam (dunk).
 
 However, just to make sure the opponents don't take the first two tricks she checks with Gerber.
 
-Uh Oh, missing two Aces she signs off at 4NT. She could also happily play 5â™£, but it
+Uh Oh, missing two Aces she signs off at 4NT. She could also happily play 5♣, but it
 
 would be tricky to get there. Very tricky.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
-[Student "S"]
-[Auction "E"]
-2NT Pass 4C Pass
-4H Pass 4NT Pass
-Pass Pass
 
 [Event ""]
-{Baker Bidpractice/Set7 15}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set7 15}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:JT983.JT8.J5.J82 K75.Q96.A983.AQ7 42.A542.QT742.94 AQ6.K73.K6.KT653"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4NT"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:K75.Q96.A983.AQ7 JT94.AJT82.J54.2 AQ6.K73.K6.KT653 832.54.QT72.J984"]
+[Auction "S"]
+1NT pass 4NT pass pass pass
 [Result ""]
 {Yes, this has nothing to do with Gerber or Blackwood, but everything to do with smart bidding.
 
@@ -143,38 +81,31 @@ The way to find out is to bid 4NT - not Blackwood but merely an invitation to bi
 
 In this case, SOUTH has but 15 points and declines the invitation. If her
 
-â™¥
+♥
 
 Q
 
 were changed to the
 
-â™¥
+♥
 
 A she would bid 6NT and collect her twelve easy tricks.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 4NT Pass
-Pass Pass
 
 [Event ""]
-{Baker Bidpractice/Set7 16}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set7 16}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "N:T953.A854.96.963 KQJ4.K6.K4.KQJT5 2.T932.QT8752.74 A876.QJ7.AJ3.A82"]
-[Scoring ""]
 [Declarer "W"]
 [Contract "6NT"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "W:A876.QJ7.AJ3.A82 2.T9832.Q975.973 KQJ4.K6.K4.KQJT5 T953.A54.T862.64"]
+[Auction "W"]
+1NT pass 4C pass 4NT pass 6NT pass pass pass
 [Result ""]
 {When WEST opens 1NT EAST hopes his hand includes all four Aces so she can bid 7NT.
 
@@ -182,91 +113,49 @@ So she uses Gerber to find out.
 
 But, when she discovers they are missing an Ace she settles for 6NT.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
-[Student "S"]
-[Auction "W"]
-1NT Pass 4C Pass
-4NT Pass 6NT Pass
-Pass Pass
 
 [Event ""]
-{Baker Bidpractice/Set7 17}
 [Site ""]
 [Date ""]
 [Board "5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set7 17}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:QJT85.874.62.T83 AK.AQT96.AQJ3.AK 643.2.T9854.QJ95 972.KJ53.K7.7642"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "7NT"]
-[Result ""]
-[BCFlags "3f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 5, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-2C Pass 2D Pass
-2H Pass 3H Pass
-4NT Pass 5C Pass
-5NT Pass 6H Pass
-7NT ALL Pass
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "6"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer ""]
-[Vulnerable ""]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-[BCFlags "1f"]
-[OriginalRotationBasis ""]
-[RotationNote "Board 6, chOption: E, chBasis: , basisKind:Declarer, nOption:1, nBasis: 0, nRot: 1, useStandardVul: true"]
-
-[Event ""]
-{Baker Bidpractice/Set7 18}
-[Site ""]
-[Date ""]
-[Board "6"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
 [Vulnerable "None"]
-[Deal "E:QJ5.J7532.963.54 A62.AT4.K75.K862 T9843.Q86.82.T93 K7.K9.AQJT4.AQJ7"]
-[Scoring ""]
-[Declarer "S"]
-[Contract "7NT"]
+[Student "S"]
+[Deal "N:AK.AQT96.AQJ3.AK QT643.2.9542.Q98 972.KJ53.K7.7642 J85.874.T86.JT53"]
+[Auction "N"]
+2C pass 2D pass 2H pass 3H pass 4NT pass 5C pass 5NT pass 6H pass 7NT all pass
 [Result ""]
-{NORTH is just shy of a 2â™£ opening bid, and when SOUTH shows 13-15 points NORTH
+
+[BCFlags "1f"]
+[RotationNote "Board 5, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "6"]
+{Baker Bidpractice/Set7 18}
+[Dealer "W"]
+[Declarer "E"]
+[Contract "7NT"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "W:K7.K9.AQJT4.AQJ7 QJ8.32.98632.T53 A62.AT4.K75.K862 T9543.QJ8765..94"]
+[Auction "W"]
+1D pass 2NT pass 4C pass 4S pass 5C pass 5S pass 7NT pass pass pass
+[Result ""]
+{WEST is just shy of a 2♣ opening bid, and when EAST shows 13-15 points WEST
 
 wants to be in a slam.
 
-NORTH cannot use Blackwood because 4NT would be a natural invitation, but with SOUTH's latest bid
+WEST cannot use Blackwood because 4NT would be a natural invitation, but with EAST's latest bid
 
 being 2NT he can use Gerber.
 
-Two Major Aces and two Minor Kings fill the holes in NORTH's hand so he bids 7NT.}
+Two Major Aces and two Minor Kings fill the holes in WEST's hand so he bids 7NT.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 6, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-1D Pass 2NT Pass
-4C Pass 4S Pass
-5C Pass 5S Pass
-7NT Pass Pass Pass
+[RotationNote "Board 6, chOption: E, chBasis: N, basisKind:Declarer, nOption:1, nBasis: 0, nRot: 1, useStandardVul: true"]
+

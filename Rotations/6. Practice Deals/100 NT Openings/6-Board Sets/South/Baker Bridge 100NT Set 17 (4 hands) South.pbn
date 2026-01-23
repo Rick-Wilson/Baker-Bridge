@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:09:13 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",10,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker 100NT 97}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 97}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:T75.63.QJT9.J542 AJ3.KQ974.7642.T 98642.852.8.KQ96 KQ.AJT.AK53.A873"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AJ3.KQ974.7642.T 98642.852.8.KQ96 KQ.AJT.AK53.A873 T75.63.QJT9.J542"]
+[Auction "S"]
+2NT pass 3D pass 4H pass 4NT pass 5S pass 6H all pass
 [Result ""]
 {You know you may be in slam territory, but first you need to establish trumps. So you bid 3\D as a transfer and almost faint when partner jumps to 4\H, showing a super-accept. Now what do you bid? 
 
@@ -88,32 +43,22 @@ However it's a "role reversal", you pulled trumps with the short-trump hand and 
 
 But call it whatever you like, that's the way to make this Deal.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 1, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-2NT Pass 3D Pass
-4H Pass 4NT Pass
-5S Pass 6H ALL
-Pass
-[Play "W"]
-D8
+[RotationNote "Board 1, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]D8
 
 [Event ""]
-{Baker 100NT 98}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 98}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:K43.843.JT94.972 A6.A65.K762.KQT3 T9852.972.83.865 QJ7.KQJT.AQ5.AJ4"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "7NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:A6.A65.K762.KQT3 T9852.972.83.865 QJ7.KQJT.AQ5.AJ4 K43.843.JT94.972"]
+[Auction "S"]
+2NT pass 4C pass 4S pass 7NT pass pass pass
 [Result ""]
 {You have 16 points and partner has 20-21. If you bid 7NT right now just because it is something you always wanted to do, then I don't blame you. But if you're cautious you'll use Gerber 4\C. Partner bids 4\S;  what do you bid next? 
 
@@ -141,31 +86,22 @@ That means you didn't have to do anything special, just play your winners in the
 
 Of course if the \Ds were breaking 3-3 all the time you haven't lost anything by playing for the squeeze.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-2NT Pass 4C Pass
-4S Pass 7NT Pass
-Pass Pass
-[Play "W"]
-ST
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]ST
 
 [Event ""]
-{Baker 100NT 99}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 99}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:JT43.A3.KJ84.A53 K5.Q86.AQ73.KQ86 Q7.954.T952.JT97 A9862.KJT72.6.42"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "N:A9862.KJT72.6.42 JT43.A3.KJ84.A53 K5.Q86.AQ73.KQ86 Q7.954.T952.JT97"]
+[Auction "N"]
+1NT pass 2H pass 2S pass 3H pass 4H pass pass pass
 [Result ""]
 {Partner's bid is a transfer asking you to bid 2\S, so you do. Partner now bids 3\H;  what do you bid next? 
 
@@ -191,31 +127,19 @@ If it worked, all you could do would be to discard your fifth \S; but that was t
 
 It was the fourth \S that was a loser, and you couldn't get rid of that one.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2H Pass
-2S Pass 3H Pass
-4H Pass Pass Pass
-[Play "W"]
-CJ
+[RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]CJ
 
-[Event ""]
+[Board ""]
 {Baker 100NT }
-[Site ""]
-[Date ""]
-[Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:Q832.KQT.T83.Q75 A964.8762.K75.K6 JT7.J5.QJ92.JT43 K5.A943.A64.A982"]
-[Scoring ""]
+[Dealer "N"]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "N:A9862.KJT72.6.42 JT43.A3.KJ84.A53 K5.Q86.AQ73.KQ86 Q7.954.T952.JT97"]
+[Auction "S"]
+1NT pass 2C pass 2H pass 4H pass pass pass
 [Result ""]
 {With 10 points and two 4-card Majors you bid 2\C Stayman. Partner says 2\H;  what do you bid next? 
 
@@ -239,12 +163,6 @@ West would have won the second one, and if he had then continued \Ds you would h
 
 But if he was a good enough defender to pull a THIRD round of trumps, getting 2 for the price of 1 value, you would have been defeated.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2C Pass
-2H Pass 4H Pass
-Pass Pass
-[Play "W"]
-DQ
+[RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]DQ
+

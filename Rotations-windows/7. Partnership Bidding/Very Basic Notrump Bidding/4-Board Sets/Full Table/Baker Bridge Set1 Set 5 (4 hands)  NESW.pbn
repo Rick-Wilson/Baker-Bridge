@@ -1,0 +1,173 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:16:01 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Bidpractice/Set1 17}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:AQ52.743.T42.632 KJ9.AQ.KQJ95.KT4 874.KJ962.86.AJ7 T63.T85.A73.Q985"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "3NT"]
+[Result ""]
+{NORTH has 20 points, counting one extra for the fifth Diamond. Just right to open 2NT.
+
+SOUTH has 6 points, just enough to bid 3NT.
+
+(20 + 6 = 26) (21 + 6 = 27)}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "W"]
+Pass 2NT Pass 3NT
+Pass Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set1 18}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:A85.Q42.K732.643 KJ92.A98.QT8.KQJ 764.J753.J65.A98 QT3.KT6.A94.T752"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "3NT"]
+[Result ""]
+{After WEST passes initially, EAST opens 1NT.
+
+With 9 points, WEST has invitational strength, so he says 2NT.
+
+EAST has a small problem - WEST's bid tells her to bid 3NT with 17 points, but to pass
+
+with 15 points. Her problem is that she has 16! Since it looks to her like a "good" 16 points
+
+she bids 3NT. If those 10's and 9's had been 4's and 3's she would have passed.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 2, chOption: E, chBasis: N, basisKind:Declarer, nOption:1, nBasis: 0, nRot: 1, useStandardVul: true"]
+[Student "S"]
+[Auction "W"]
+Pass Pass 1NT Pass
+2NT Pass 3NT Pass
+Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set1 19}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:JT82.J753.82.A96 KQ93.KQT.AJ7.QT8 654.962.Q9543.53 A7.A84.KT6.KJ742"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6NT"]
+[Result ""]
+{SOUTH has a great 1NT hand - 17 points and 4-3-3-3 shape.
+
+NORTH has 16 points; he figures it is possible that SOUTH can make a slam, but only
+
+if she has a 17 point opener. So he bids 4NT, expecting SOUTH to bid 6NT if she has 17 points
+
+but to pass if she has fewer.
+
+He figured right - SOUTH had 17 points so she bid 6NT.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "E"]
+Pass 1NT Pass 4NT
+Pass 6NT Pass Pass
+Pass
+
+[Event ""]
+{Baker Bidpractice/Set1 20}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:QJ63.843.J76.754 K8.AK5.A8.QT9632 T952.JT72.T943.A A74.Q96.KQ52.KJ8"]
+[Scoring ""]
+[Declarer "W"]
+[Contract "6NT"]
+[Result ""]
+{EAST definitely does NOT have a balanced hand. She has two doubletons and a
+
+6-card Club suit.
+
+But she DOES have 18 points, (two extra for the fifth and sixth Clubs), and her 18 added to
+
+WEST's minimum of 15 is enough to bid 6NT.
+
+Notice how easy this will be to play once that Club suit is established.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
+[Student "S"]
+[Auction "W"]
+1NT Pass 6NT Pass
+Pass Pass

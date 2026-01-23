@@ -1,198 +1,125 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=UTF-8
-%Creator: BridgeComposer Version 5.111
-%Created: Sat Apr 12 07:44:51 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker Bidpractice/Set8 11}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set8 11}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:J98.J9543.93.972 AQ64.AKQ.A5.KJ63 .T762.QJT742.T85 KT7532.8.K86.AQ4"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "7NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AQ64.AKQ.A5.KJ63 9.T6432.J9732.95 KT7532.8.K86.AQ4 J8.J975.QT4.T872"]
+[Auction "S"]
+2C pass 2S pass 3S pass 4NT pass 5D pass 5H pass 6C pass 7NT pass pass pass
 [Result ""]
-{When SOUTH agrees to â™ s, NORTH will not stop short of a slam.
+{When SOUTH agrees to ♠s, NORTH will not stop short of a slam.
 
 The RKCB 4NT bid tells NORTH that they have all five Key Cards since SOUTH could hardly
 
-have a 2â™£ opening hand with no Aces.
+have a 2♣ opening hand with no Aces.
 
 NORTH's 5
 
-â™¥
+♥
 
 bid is the Queen Ask, and SOUTH's reply confirms that she holds
 
-the â™ Q, and also has the â™£K.
+the ♠Q, and also has the ♣K.
 
-NORTH figures the â™  suit will run, and this should be enough for Grand Slam. He chooses 7NT.}
+NORTH figures the ♠ suit will run, and this should be enough for Grand Slam. He chooses 7NT.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "S"]
-2C Pass 2S Pass
-3S Pass 4NT Pass
-5D Pass 5H Pass
-6C Pass 7NT Pass
-Pass Pass
 
 [Event ""]
-{Baker Bidpractice/Set8 12}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set8 12}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "N:JT94.A976.94.972 AK753.8.KQ72.KQ4 2.KT542.T863.T83 Q86.QJ3.AJ5.AJ65"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "6S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "W:Q86.QJ3.AJ5.AJ65 T9.K62.T643.T972 AK753.8.KQ72.KQ4 J42.AT9754.98.83"]
+[Auction "W"]
+1NT pass 3S pass 4S pass 4NT pass 5S pass 6S pass pass pass
 [Result ""]
 {EAST knows there are enough points for slam, but she is worried about the trump suit.
 
-WEST's support doesn't guarantee more than three â™ s, and if they are not headed
+WEST's support doesn't guarantee more than three ♠s, and if they are not headed
 
 by the Queen she could lose a trump trick.
 
-Her RKCB bid relieves her mind when EAST claims two Key Cards PLUS the â™ Q.
+Her RKCB bid relieves her mind when EAST claims two Key Cards PLUS the ♠Q.
 
-She bids 6â™  (and hopes for a 3-2 trump split!).}
+She bids 6♠ (and hopes for a 3-2 trump split!).}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 2, chOption: E, chBasis: N, basisKind:Declarer, nOption:1, nBasis: 0, nRot: 1, useStandardVul: true"]
-[Student "S"]
-[Auction "W"]
-1NT Pass 3S Pass
-4S Pass 4NT Pass
-5S Pass 6S Pass
-Pass Pass
 
 [Event ""]
-{Baker Bidpractice/Set8 13}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set8 13}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:874.J97.KJ43.QT3 K93.AT6.A9862.K9 T.Q543.T75.J7642 AQJ652.K82.Q.A85"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "6S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:K93.AT6.A9862.K9 T8.J975.43.QJ643 AQJ652.K82.Q.A85 74.Q43.KJT75.T72"]
+[Auction "N"]
+1NT pass 3S pass 4S pass 4NT pass 5D pass 6S pass pass pass
 [Result ""]
-{When SOUTH makes a slam try with a jump to 3â™ , the best approach for NORTH is to agree on
+{When SOUTH makes a slam try with a jump to 3♠, the best approach for NORTH is to agree on
 
-the trump suit immediately but indicate a minimum hand by bidding 4â™ .
+the trump suit immediately but indicate a minimum hand by bidding 4♠.
 
 SOUTH's next move is logical; RKCB 4NT.
 
 NORTH shows zero or three Key Cards, and since it could not possibly be zero, SOUTH knows they are
 
-the â™ K and both red Aces. Even possessing all the Key Cards SOUTH knows there aren't
+the ♠K and both red Aces. Even possessing all the Key Cards SOUTH knows there aren't
 
 enough points for a Grand slam.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 3S Pass
-4S Pass 4NT Pass
-5D Pass 6S Pass
-Pass Pass
 
 [Event ""]
-{Baker Bidpractice/Set8 14}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set8 14}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "S:QJ6.T5.T9862.K54 AK.QJ3.AKQ5.A962 T87432.6.J4.QJT3 95.AK98742.73.87"]
-[Scoring ""]
 [Declarer "W"]
 [Contract "7NT"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "E:95.AK98742.73.87 QJ4.65.T98.QT543 AK.QJ3.AKQ5.A962 T87632.T.J642.KJ"]
+[Auction "E"]
+3H pass 4NT pass 5H pass 7NT pass pass pass
 [Result ""]
 {It is usually not recommended to use any form of Blackwood when you have a suit with two quick
 
 losers, but WEST knows EAST would not preempt with a 10-high
 
-â™¥
+♥
 
 suit.
 
 EAST's reply to RKCB is 5
 
-â™¥
+♥
 
 , showing two Key Cards.
 
 WEST knows they are the
 
-â™¥
+♥
 
 A
 
-â™¥
+♥
 
 K
 
@@ -200,49 +127,35 @@ so she can count thirteen tricks.
 
 She bids a confident 7NT (and hopes EAST didn't open 3
 
-â™¥
+♥
 
 with a 6-card suit.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 4, chOption: W, chBasis: N, basisKind:Declarer, nOption:3, nBasis: 0, nRot: 3, useStandardVul: true"]
-[Student "S"]
-[Auction "E"]
-3H Pass 4NT Pass
-5H Pass 7NT Pass
-Pass Pass
 
 [Event ""]
-{Baker Bidpractice/Set8 15}
 [Site ""]
 [Date ""]
 [Board "5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set8 15}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:A.J982.642.T9762 QT875.K6.AK3.AKJ K2.T754.JT985.84 J9643.AQ3.Q7.Q53"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "5S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:QT875.K6.AK3.AKJ K.JT54.JT954.642 J9643.AQ3.Q7.Q53 A2.9872.862.T987"]
+[Auction "N"]
+1S pass 3S pass 4NT pass 5C pass 5S pass pass pass
 [Result ""]
 {NORTH has 21 points, and when she hears SOUTH make a limit raise she tries for slam with RKCB.
 
-SOUTH answers with just one Key Card so NORTH stops at 5â™ , knowing they are missing
+SOUTH answers with just one Key Card so NORTH stops at 5♠, knowing they are missing
 
 two Key Cards.
 
 Of course she didn't expect the two missing Key Cards to be the Ace and King of trumps!}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 5, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-1S Pass 3S Pass
-4NT Pass 5C Pass
-5S Pass Pass Pass
 
 [Event ""]
 [Site ""]
@@ -254,15 +167,16 @@ Of course she didn't expect the two missing Key Cards to be the Ace and King of 
 [South ""]
 [Dealer "E"]
 [Vulnerable "EW"]
-[Deal "E:J98.J9543.93.972 AQ64.AKQ.A5.KJ63 .T762.QJT742.T85 KT7532.8.K86.AQ4"]
+[Deal "S:AQ64.AKQ.A5.KJ63 9.T6432.J9732.95 KT7532.8.K86.AQ4 J8.J975.QT4.T872"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -274,15 +188,16 @@ Of course she didn't expect the two missing Key Cards to be the Ace and King of 
 [South ""]
 [Dealer "S"]
 [Vulnerable "All"]
-[Deal "N:JT94.A976.94.972 AK753.8.KQ72.KQ4 2.KT542.T863.T83 Q86.QJ3.AJ5.AJ65"]
+[Deal "W:Q86.QJ3.AJ5.AJ65 T9.K62.T643.T972 AK753.8.KQ72.KQ4 J42.AT9754.98.83"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -294,15 +209,16 @@ Of course she didn't expect the two missing Key Cards to be the Ace and King of 
 [South ""]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "W:874.J97.KJ43.QT3 K93.AT6.A9862.K9 T.Q543.T75.J7642 AQJ652.K82.Q.A85"]
+[Deal "N:K93.AT6.A9862.K9 T8.J975.43.QJ643 AQJ652.K82.Q.A85 74.Q43.KJT75.T72"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -314,15 +230,16 @@ Of course she didn't expect the two missing Key Cards to be the Ace and King of 
 [South ""]
 [Dealer "N"]
 [Vulnerable "EW"]
-[Deal "S:QJ6.T5.T9862.K54 AK.QJ3.AKQ5.A962 T87432.6.J4.QJT3 95.AK98742.73.87"]
+[Deal "E:95.AK98742.73.87 QJ4.65.T98.QT543 AK.QJ3.AKQ5.A962 T87632.T.J642.KJ"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -334,15 +251,16 @@ Of course she didn't expect the two missing Key Cards to be the Ace and King of 
 [South ""]
 [Dealer "E"]
 [Vulnerable "All"]
-[Deal "W:A.J982.642.T9762 QT875.K6.AK3.AKJ K2.T754.JT985.84 J9643.AQ3.Q7.Q53"]
+[Deal "N:QT875.K6.AK3.AKJ K.JT54.JT954.642 J9643.AQ3.Q7.Q53 A2.9872.862.T987"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "5"]
 [VirtualDealer "N"]
 [VirtualVulnerable "NS"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -354,15 +272,16 @@ Of course she didn't expect the two missing Key Cards to be the Ace and King of 
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "E:J98.J9543.93.972 AQ64.AKQ.A5.KJ63 .T762.QJT742.T85 KT7532.8.K86.AQ4"]
+[Deal "S:AQ64.AKQ.A5.KJ63 9.T6432.J9732.95 KT7532.8.K86.AQ4 J8.J975.QT4.T872"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -374,15 +293,16 @@ Of course she didn't expect the two missing Key Cards to be the Ace and King of 
 [South ""]
 [Dealer "W"]
 [Vulnerable "NS"]
-[Deal "N:JT94.A976.94.972 AK753.8.KQ72.KQ4 2.KT542.T863.T83 Q86.QJ3.AJ5.AJ65"]
+[Deal "W:Q86.QJ3.AJ5.AJ65 T9.K62.T643.T972 AK753.8.KQ72.KQ4 J42.AT9754.98.83"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -394,15 +314,16 @@ Of course she didn't expect the two missing Key Cards to be the Ace and King of 
 [South ""]
 [Dealer "N"]
 [Vulnerable "All"]
-[Deal "W:874.J97.KJ43.QT3 K93.AT6.A9862.K9 T.Q543.T75.J7642 AQJ652.K82.Q.A85"]
+[Deal "N:K93.AT6.A9862.K9 T8.J975.43.QJ643 AQJ652.K82.Q.A85 74.Q43.KJT75.T72"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -414,15 +335,16 @@ Of course she didn't expect the two missing Key Cards to be the Ace and King of 
 [South ""]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "S:QJ6.T5.T9862.K54 AK.QJ3.AKQ5.A962 T87432.6.J4.QJT3 95.AK98742.73.87"]
+[Deal "E:95.AK98742.73.87 QJ4.65.T98.QT543 AK.QJ3.AKQ5.A962 T87632.T.J642.KJ"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -434,15 +356,16 @@ Of course she didn't expect the two missing Key Cards to be the Ace and King of 
 [South ""]
 [Dealer "S"]
 [Vulnerable "NS"]
-[Deal "W:A.J982.642.T9762 QT875.K6.AK3.AKJ K2.T754.JT985.84 J9643.AQ3.Q7.Q53"]
+[Deal "N:QT875.K6.AK3.AKJ K.JT54.JT954.642 J9643.AQ3.Q7.Q53 A2.9872.862.T987"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "5"]
 [VirtualDealer "N"]
 [VirtualVulnerable "NS"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -454,15 +377,16 @@ Of course she didn't expect the two missing Key Cards to be the Ace and King of 
 [South ""]
 [Dealer "W"]
 [Vulnerable "EW"]
-[Deal "E:J98.J9543.93.972 AQ64.AKQ.A5.KJ63 .T762.QJT742.T85 KT7532.8.K86.AQ4"]
+[Deal "S:AQ64.AKQ.A5.KJ63 9.T6432.J9732.95 KT7532.8.K86.AQ4 J8.J975.QT4.T872"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -474,15 +398,16 @@ Of course she didn't expect the two missing Key Cards to be the Ace and King of 
 [South ""]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "N:JT94.A976.94.972 AK753.8.KQ72.KQ4 2.KT542.T863.T83 Q86.QJ3.AJ5.AJ65"]
+[Deal "W:Q86.QJ3.AJ5.AJ65 T9.K62.T643.T972 AK753.8.KQ72.KQ4 J42.AT9754.98.83"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -494,15 +419,16 @@ Of course she didn't expect the two missing Key Cards to be the Ace and King of 
 [South ""]
 [Dealer "E"]
 [Vulnerable "NS"]
-[Deal "W:874.J97.KJ43.QT3 K93.AT6.A9862.K9 T.Q543.T75.J7642 AQJ652.K82.Q.A85"]
+[Deal "N:K93.AT6.A9862.K9 T8.J975.43.QJ643 AQJ652.K82.Q.A85 74.Q43.KJT75.T72"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -514,15 +440,16 @@ Of course she didn't expect the two missing Key Cards to be the Ace and King of 
 [South ""]
 [Dealer "S"]
 [Vulnerable "EW"]
-[Deal "S:QJ6.T5.T9862.K54 AK.QJ3.AKQ5.A962 T87432.6.J4.QJT3 95.AK98742.73.87"]
+[Deal "E:95.AK98742.73.87 QJ4.65.T98.QT543 AK.QJ3.AKQ5.A962 T87632.T.J642.KJ"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -534,15 +461,16 @@ Of course she didn't expect the two missing Key Cards to be the Ace and King of 
 [South ""]
 [Dealer "W"]
 [Vulnerable "All"]
-[Deal "W:A.J982.642.T9762 QT875.K6.AK3.AKJ K2.T754.JT985.84 J9643.AQ3.Q7.Q53"]
+[Deal "N:QT875.K6.AK3.AKJ K.JT54.JT954.642 J9643.AQ3.Q7.Q53 A2.9872.862.T987"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "5"]
 [VirtualDealer "N"]
 [VirtualVulnerable "NS"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -554,15 +482,16 @@ Of course she didn't expect the two missing Key Cards to be the Ace and King of 
 [South ""]
 [Dealer "N"]
 [Vulnerable "NS"]
-[Deal "E:J98.J9543.93.972 AQ64.AKQ.A5.KJ63 .T762.QJT742.T85 KT7532.8.K86.AQ4"]
+[Deal "S:AQ64.AKQ.A5.KJ63 9.T6432.J9732.95 KT7532.8.K86.AQ4 J8.J975.QT4.T872"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -574,15 +503,16 @@ Of course she didn't expect the two missing Key Cards to be the Ace and King of 
 [South ""]
 [Dealer "E"]
 [Vulnerable "EW"]
-[Deal "N:JT94.A976.94.972 AK753.8.KQ72.KQ4 2.KT542.T863.T83 Q86.QJ3.AJ5.AJ65"]
+[Deal "W:Q86.QJ3.AJ5.AJ65 T9.K62.T643.T972 AK753.8.KQ72.KQ4 J42.AT9754.98.83"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -594,15 +524,16 @@ Of course she didn't expect the two missing Key Cards to be the Ace and King of 
 [South ""]
 [Dealer "S"]
 [Vulnerable "All"]
-[Deal "W:874.J97.KJ43.QT3 K93.AT6.A9862.K9 T.Q543.T75.J7642 AQJ652.K82.Q.A85"]
+[Deal "N:K93.AT6.A9862.K9 T8.J975.43.QJ643 AQJ652.K82.Q.A85 74.Q43.KJT75.T72"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -614,15 +545,16 @@ Of course she didn't expect the two missing Key Cards to be the Ace and King of 
 [South ""]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "S:QJ6.T5.T9862.K54 AK.QJ3.AKQ5.A962 T87432.6.J4.QJT3 95.AK98742.73.87"]
+[Deal "E:95.AK98742.73.87 QJ4.65.T98.QT543 AK.QJ3.AKQ5.A962 T87632.T.J642.KJ"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -634,15 +566,16 @@ Of course she didn't expect the two missing Key Cards to be the Ace and King of 
 [South ""]
 [Dealer "N"]
 [Vulnerable "EW"]
-[Deal "W:A.J982.642.T9762 QT875.K6.AK3.AKJ K2.T754.JT985.84 J9643.AQ3.Q7.Q53"]
+[Deal "N:QT875.K6.AK3.AKJ K.JT54.JT954.642 J9643.AQ3.Q7.Q53 A2.9872.862.T987"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "5"]
 [VirtualDealer "N"]
 [VirtualVulnerable "NS"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -654,15 +587,16 @@ Of course she didn't expect the two missing Key Cards to be the Ace and King of 
 [South ""]
 [Dealer "E"]
 [Vulnerable "All"]
-[Deal "E:J98.J9543.93.972 AQ64.AKQ.A5.KJ63 .T762.QJT742.T85 KT7532.8.K86.AQ4"]
+[Deal "S:AQ64.AKQ.A5.KJ63 9.T6432.J9732.95 KT7532.8.K86.AQ4 J8.J975.QT4.T872"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -674,15 +608,16 @@ Of course she didn't expect the two missing Key Cards to be the Ace and King of 
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "N:JT94.A976.94.972 AK753.8.KQ72.KQ4 2.KT542.T863.T83 Q86.QJ3.AJ5.AJ65"]
+[Deal "W:Q86.QJ3.AJ5.AJ65 T9.K62.T643.T972 AK753.8.KQ72.KQ4 J42.AT9754.98.83"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -694,15 +629,16 @@ Of course she didn't expect the two missing Key Cards to be the Ace and King of 
 [South ""]
 [Dealer "W"]
 [Vulnerable "NS"]
-[Deal "W:874.J97.KJ43.QT3 K93.AT6.A9862.K9 T.Q543.T75.J7642 AQJ652.K82.Q.A85"]
+[Deal "N:K93.AT6.A9862.K9 T8.J975.43.QJ643 AQJ652.K82.Q.A85 74.Q43.KJT75.T72"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -714,15 +650,16 @@ Of course she didn't expect the two missing Key Cards to be the Ace and King of 
 [South ""]
 [Dealer "N"]
 [Vulnerable "All"]
-[Deal "S:QJ6.T5.T9862.K54 AK.QJ3.AKQ5.A962 T87432.6.J4.QJT3 95.AK98742.73.87"]
+[Deal "E:95.AK98742.73.87 QJ4.65.T98.QT543 AK.QJ3.AKQ5.A962 T87632.T.J642.KJ"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -734,15 +671,16 @@ Of course she didn't expect the two missing Key Cards to be the Ace and King of 
 [South ""]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "W:A.J982.642.T9762 QT875.K6.AK3.AKJ K2.T754.JT985.84 J9643.AQ3.Q7.Q53"]
+[Deal "N:QT875.K6.AK3.AKJ K.JT54.JT954.642 J9643.AQ3.Q7.Q53 A2.9872.862.T987"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "5"]
 [VirtualDealer "N"]
 [VirtualVulnerable "NS"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -754,15 +692,16 @@ Of course she didn't expect the two missing Key Cards to be the Ace and King of 
 [South ""]
 [Dealer "S"]
 [Vulnerable "NS"]
-[Deal "E:J98.J9543.93.972 AQ64.AKQ.A5.KJ63 .T762.QJT742.T85 KT7532.8.K86.AQ4"]
+[Deal "S:AQ64.AKQ.A5.KJ63 9.T6432.J9732.95 KT7532.8.K86.AQ4 J8.J975.QT4.T872"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "7"]
 
 [Event ""]
 [Site ""]
@@ -774,15 +713,16 @@ Of course she didn't expect the two missing Key Cards to be the Ace and King of 
 [South ""]
 [Dealer "W"]
 [Vulnerable "EW"]
-[Deal "N:JT94.A976.94.972 AK753.8.KQ72.KQ4 2.KT542.T863.T83 Q86.QJ3.AJ5.AJ65"]
+[Deal "W:Q86.QJ3.AJ5.AJ65 T9.K62.T643.T972 AK753.8.KQ72.KQ4 J42.AT9754.98.83"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "7"]
 
 [Event ""]
 [Site ""]
@@ -794,15 +734,16 @@ Of course she didn't expect the two missing Key Cards to be the Ace and King of 
 [South ""]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:874.J97.KJ43.QT3 K93.AT6.A9862.K9 T.Q543.T75.J7642 AQJ652.K82.Q.A85"]
+[Deal "N:K93.AT6.A9862.K9 T8.J975.43.QJ643 AQJ652.K82.Q.A85 74.Q43.KJT75.T72"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "7"]
 
 [Event ""]
 [Site ""]
@@ -814,15 +755,16 @@ Of course she didn't expect the two missing Key Cards to be the Ace and King of 
 [South ""]
 [Dealer "E"]
 [Vulnerable "NS"]
-[Deal "S:QJ6.T5.T9862.K54 AK.QJ3.AKQ5.A962 T87432.6.J4.QJT3 95.AK98742.73.87"]
+[Deal "E:95.AK98742.73.87 QJ4.65.T98.QT543 AK.QJ3.AKQ5.A962 T87632.T.J642.KJ"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "7"]
 
 [Event ""]
 [Site ""]
@@ -834,12 +776,14 @@ Of course she didn't expect the two missing Key Cards to be the Ace and King of 
 [South ""]
 [Dealer "S"]
 [Vulnerable "EW"]
-[Deal "W:A.J982.642.T9762 QT875.K6.AK3.AKJ K2.T754.JT985.84 J9643.AQ3.Q7.Q53"]
+[Deal "N:QT875.K6.AK3.AKJ K.JT54.JT954.642 J9643.AQ3.Q7.Q53 A2.9872.862.T987"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "5"]
 [VirtualDealer "N"]
 [VirtualVulnerable "NS"]
+[BlockNumber "7"]
+

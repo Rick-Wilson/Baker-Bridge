@@ -1,0 +1,680 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%Creator: CSVtoPBN Version 1.00
+%Created: 2025-04-11 19:08:14
+%sourcefilename BakerBridgeFull.csv
+%HRTitleEvent Bidpractice/Set6
+[Board "1"]
+[Event ""]
+{Baker Bidpractice/Set6 1}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "2NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:Q64.QJ983.K95.62 AK9.AK2.A83.AJ74 JT53.T6.QT7.KQT8 872.754.J642.953"]
+[Auction "N"]
+2C pass 2D pass 2NT pass pass pass
+[Result ""]
+{NORTH has a perfect hand for an opening bid of 2♣.
+
+23 points and balanced distribution is just fine.
+
+SOUTH is glad to hear his partner has lots of points, because he was shortchanged.
+
+However, he must answer, so with 1 point he bids a negative 2
+
+♦
+
+.
+
+NORTH describes her hand by saying 2NT.
+
+SOUTH does not have to bid the double negative over a 2NT bid, so he passes.}
+[BCFlags "1f"]
+
+[Board "2"]
+[Event ""]
+{Baker Bidpractice/Set6 2}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:T64.64.A53.A9863 K73.Q82.T986.542 QJ95.JT93.742.J7 A82.AK75.KQJ.KQT"]
+[Auction "S"]
+2C pass 2D pass 2NT pass 3NT pass pass pass
+[Result ""]
+{SOUTH has a balanced hand with 22 points. He opens 2♣.
+
+NORTH, with 5 points, must respond
+
+♦
+
+. Both these
+
+bids are artificial.
+
+SOUTH now describes his hand by bidding 2NT.
+
+NORTH bids 3NT, knowing that the partnership holds at least 27 points.}
+[BCFlags "1f"]
+
+[Board "3"]
+[Event ""]
+{Baker Bidpractice/Set6 3}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:85.T64.KT5.QT972 K3.KQJ2.AQ98.AK4 A964.9873.J63.J8 QJT72.A5.742.653"]
+[Auction "N"]
+2C pass 2S pass 2NT pass 3NT pass pass pass
+[Result ""]
+{NORTH opens 2♣ with her balanced 22 points.
+
+SOUTH has 8 points AND a 5-card ♠ suit. This is strong enough for a positive response, so
+
+he bids 2♠.
+
+NORTH completes the description of her hand by saying 2NT.
+
+SOUTH does NOT rebid the ♠s; his first bid already promised a 5-card suit. He just
+
+bids 3NT.}
+[BCFlags "1f"]
+
+[Board "4"]
+[Event ""]
+{Baker Bidpractice/Set6 4}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:J864.J43.QJ4.K32 A3.T982.986.8764 T975.6.KT53.QJ95 KQ2.AKQ75.A72.AT"]
+[Auction "S"]
+2C pass 2D pass 2H pass 4H pass pass pass
+[Result ""]
+{SOUTH has 23 points and opens 2♣.
+
+NORTH, with 4 points, must respond 2
+
+♦
+
+.
+
+SOUTH now shows a
+
+♥
+
+suit (at least 5) by bidding 2
+
+♥
+
+.
+
+NORTH likes
+
+♥
+
+s, she has already told SOUTH she has fewer than 8 points, so she
+
+bids 4
+
+♥
+
+.}
+[BCFlags "1f"]
+
+[Board "5"]
+[Event ""]
+{Baker Bidpractice/Set6 5}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:94.Q64.KT73.8742 AJ87.AK.A86.AKQJ KT53.JT82.J94.T6 Q62.9753.Q52.953"]
+[Auction "N"]
+2C pass 2D pass 3NT pass pass pass
+[Result ""]
+{NORTH has lots of points - 26 to be exact. She opens 2♣.
+
+In the old days this hand would have been opened 3NT.
+
+SOUTH has 4 points and responds 2
+
+♦
+
+.
+
+NORTH now shows her full strength by jumping to 3NT (25-27 points, balanced).
+
+SOUTH knows there is no slam, so he passes 3NT.}
+[BCFlags "1f"]
+
+[Board "6"]
+[Event ""]
+{Baker Bidpractice/Set6 6}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:KJT98.J3.A43.Q72 642.754.J72.8653 Q5.T9.KQT95.JT94 A73.AKQ862.86.AK"]
+[Auction "S"]
+2C pass 2D pass 2H pass 3C pass 3H pass pass pass
+[Result ""]
+{SOUTH has 22 points and opens 2♣.
+
+NORTH is pretty weak, right? She responds 2
+
+♦
+
+.
+
+SOUTH bids his suit, 2
+
+♥
+
+.
+
+NORTH is so weak she bids the second negative - 3♣.
+
+SOUTH rebids his suit, 3
+
+♥
+
+, and NORTH passes.}
+[BCFlags "1f"]
+
+[Board "7"]
+[Event ""]
+{Baker Bidpractice/Set6 7}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:Q97.T63.T873.J42 AK63.AK82.KQJ.KQ JT85.4.964.AT986 42.QJ975.A52.753"]
+[Auction "N"]
+2C pass 2H pass 4NT pass 5D pass 6H pass pass pass
+[Result ""]
+{NORTH has a nice 2♣ opening hand.
+
+With 8 points, SOUTH can make a positive response so he bids his 5-card
+
+♥
+
+suit.
+
+NORTH likes
+
+♥
+
+s, knows there are at least 33 points, but needs to make
+
+sure the opponents don't have two Aces so she uses Blackwood.
+
+When SOUTH shows one Ace NORTH bids 6
+
+♥
+
+.}
+[BCFlags "1f"]
+
+[Board "8"]
+[Event ""]
+{Baker Bidpractice/Set6 8}
+[Dealer "S"]
+[Declarer "N"]
+[Contract "7S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:74.843.JT873.J32 AJ983.K72.6.A874 65.96.Q954.QT965 KQT2.AQJT5.AK2.K"]
+[Auction "S"]
+2C pass 2S pass 3S pass 4C pass 4D pass 4NT pass 5S pass 7S all pass
+[Result ""]
+
+[BCFlags "1f"]
+
+[Board "9"]
+[Event ""]
+{Baker Bidpractice/Set6 9}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:93.T54.JT763.K42 KQ86.AKJ2.AKQ.86 54.Q63.954.AJT97 AJT72.987.82.Q53"]
+[Auction "N"]
+2C pass 2S pass 3S pass 4S pass pass pass
+[Result ""]
+{NORTH has a minimum 2♣ opening.
+
+SOUTH, with 8 points and a 5-card suit, should make a positive response, 2♠.
+
+NORTH shows the ♠ support first, to set the trump suit, and to give SOUTH an opportunity
+
+for a move toward slam if he wants to do so.
+
+SOUTH would now make a Control-showing bid IF HE HAD A CONTROL. Since he doesn't he just returns
+
+to 4♠ which NORTH passes.}
+[BCFlags "1f"]
+
+[Board "10"]
+[Event ""]
+{Baker Bidpractice/Set6 10}
+[Dealer "S"]
+[Declarer "N"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:J74.JT763.Q92.62 K63.Q85.K764.953 T852.94.JT5.KQT8 AQ9.AK2.A83.AJ74"]
+[Auction "S"]
+2C pass 2NT pass 3NT pass pass pass
+[Result ""]
+{SOUTH, with 22 points and balanced, opens 2♣, expecting to rebid 2NT.
+
+But NORTH responds a positive 2NT, showing a balanced hand with 8 or more points.
+
+SOUTH bids what his hand is worth, 3NT and NORTH passes.}
+[BCFlags "1f"]
+
+[Board "11"]
+[Event ""]
+{Baker Bidpractice/Set6 11}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:T53.963.KJT53.62 AK9.AJ82.A6.AK93 864.K4.Q984.QJT7 QJ72.QT75.72.854"]
+[Auction "N"]
+2C pass 2D pass 2NT pass 3C pass 3H pass 4H pass pass pass
+[Result ""]
+{NORTH opens 2♣ and SOUTH responds 2
+
+♦
+
+showing fewer than 8 points.
+
+NORTH bids 2NT with a 23 point balanced hand.
+
+SOUTH has enough points to bid 3NT, but with two 4-card Major suits bids 3♣ Stayman instead. NORTH
+
+won't confuse this as the second negative since that bid isn't used after a 2NT rebid.
+
+So NORTH shows her 4-card
+
+♥
+
+suit and SOUTH bids 4
+
+♥
+
+.}
+[BCFlags "1f"]
+
+[Board "12"]
+[Event ""]
+{Baker Bidpractice/Set6 12}
+[Dealer "S"]
+[Declarer "N"]
+[Contract "6NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:J74.JT763.Q92.52 Q63.Q85.K764.KJ3 T852.94.JT5.T986 AK9.AK2.A83.AQ74"]
+[Auction "S"]
+2C pass 2NT pass 3NT pass 6NT pass pass pass
+[Result ""]
+{NORTH has a balanced hand with 11 points, so she responds 2NT to SOUTH's 2♣ opening bid.
+
+SOUTH bids 3NT. This shows 22-24 points, a hand he was planning to rebid 2NT.
+
+NORTH knows the side has at least 33 points, but no more than 35 so she bids 6NT.}
+[BCFlags "1f"]
+
+[Board "13"]
+[Event ""]
+{Baker Bidpractice/Set6 13}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:J53.J6.KJ983.K42 AKQ86.AKT82.A.86 T94.Q4.T65.AJT75 72.9753.Q742.Q93"]
+[Auction "N"]
+2C pass 2D pass 2S pass 2NT pass 3H pass 4H pass pass pass
+[Result ""]
+{NORTH has both Majors and enough points to open 2♣.
+
+SOUTH, with 4 points, responds with a negative 2
+
+♦
+
+.
+
+NORTH first bids her higher ranking suit, 2♠.
+
+SOUTH is too strong for second negative, he bids 2NT.
+
+NORTH now shows her second suit, 3
+
+♥
+
+.
+
+SOUTH is happy to bid the game in
+
+♥
+
+s.}
+[BCFlags "1f"]
+
+[Board "14"]
+[Event ""]
+{Baker Bidpractice/Set6 14}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "6NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:J85.JT64.T92.943 K73.982.AQJ86.J2 T964.73.43.A8765 AQ2.AKQ5.K75.KQT"]
+[Auction "S"]
+2C pass 3D pass 3NT pass 6NT pass pass pass
+[Result ""]
+{SOUTH has a balanced hand with 23 points. He opens 2♣ and expects to rebid 2NT.
+
+NORTH has 12 points so makes a positive response in her best suit. Since that suit is
+
+♦
+
+s she must jump to the 3-level.
+
+SOUTH now describes his balanced, minimum hand by bidding 3NT.
+
+NORTH bids 6NT, knowing that the partnership holds at least 34 points.}
+[BCFlags "1f"]
+
+[Board "15"]
+[Event ""]
+{Baker Bidpractice/Set6 15}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:843.83.A964.9764 K6.AKQJ2.KQJ.KQJ QJ5.T64.T73.T852 AT972.975.852.A3"]
+[Auction "N"]
+2C pass 2S pass 3H pass 4H pass 4NT pass 5H pass 6H pass pass pass pass pass
+[Result ""]
+{pass
+
+pass
+
+SOUTH, with 9 points and a 5-card suit, should make a positive response, 2♠.
+
+NORTH bids her
+
+♥
+
+s and SOUTH agrees the trump suit with a
+
+4
+
+♥
+
+bid.
+
+NORTH thinks there is a slam, so she invokes Blackwood. Hearing that SOUTH holds two Aces she bids
+
+6NT. She could also have bid 6
+
+♥
+
+but 6NT scores a little more.}
+[BCFlags "1f"]
+
+[Board "16"]
+[Event ""]
+{Baker Bidpractice/Set6 16}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:9765.QT3.A43.J72 J42.8752.J72.K63 8.J94.KQT95.T985 AKQT3.AK6.86.AQ4"]
+[Auction "S"]
+2C pass 2D pass 2S pass 3S pass 4S pass pass pass
+[Result ""]
+{NORTH has 5 points, so she responds 2
+
+♦
+
+to SOUTH's opening 2♣ bid.
+
+SOUTH bids his 5-card ♠ suit.
+
+NORTH is too good for the second negative, so she supports SOUTH's ♠.
+
+SOUTH doesn't have enough to think about slam, so he signs off at 4♠.}
+[BCFlags "1f"]
+
+[Board "17"]
+[Event ""]
+{Baker Bidpractice/Set6 17}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "6NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:T64.T964.KT5.Q72 AQ.KQJ2.AQ98.AK4 9853.83.763.JT98 KJ72.A75.J42.653"]
+[Auction "N"]
+2C pass 2NT pass 6NT pass pass pass
+[Result ""]
+{NORTH opens 2♣ with her balanced 25 points.
+
+SOUTH has 9 points but no 5-card suit. He should make a positive response of 2NT.
+
+NORTH figures SOUTH for 8 points and bids 6NT. If SOUTH has significantly more than
+
+8 it will be up to him to go to 7NT. But he doesn't.}
+[BCFlags "1f"]
+
+[Board "18"]
+[Event ""]
+{Baker Bidpractice/Set6 18}
+[Dealer "S"]
+[Declarer "N"]
+[Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:A64.T964.JT4.Q53 7.KQJ832.986.874 T953.7.Q753.JT96 KQJ82.A5.AK2.AK2"]
+[Auction "S"]
+2C pass 2H pass 2S pass 3H pass 6H pass pass all pass
+[Result ""]
+
+[BCFlags "1f"]
+
+[Board "19"]
+[Event ""]
+{Baker Bidpractice/Set6 19}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "6S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:93.J9743.983.J42 KQ87.AKQ2.AKJ6.6 642.T6.T54.AT987 AJT5.85.Q72.KQ53"]
+[Auction "N"]
+2C pass 2NT pass 3C pass 3S pass 4S pass 6S pass pass pass
+[Result ""]
+{After NORTH's 2♣ opening, SOUTH bids 2NT, showing a balanced hand of at least 8 points. SOUTH
+
+actually has 12 points, but the time to show the extra strength will be later.
+
+NORTH's 3♣ bid is Stayman, asking SOUTH for a 4-card Major. SOUTH mentions his ♠s and
+
+NORTH bids 4♠, showing a minimum 2♣ opener with 4 ♠s.
+
+Now SOUTH adds his 12 points to NORTH's 22 minimum and gets 34. He bids 6♠.}
+[BCFlags "1f"]
+
+[Board "20"]
+[Event ""]
+{Baker Bidpractice/Set6 20}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:J85.873.AQJ3.Q42 2.QJ52.9872.T763 T974.4.K54.KJ985 AKQ63.AKT96.T6.A"]
+[Auction "S"]
+2C pass 2D pass 2S pass 3C pass 3H pass 4H pass pass pass
+[Result ""]
+{NORTH has 3 points, so she responds 2
+
+♦
+
+to SOUTH's opening 2♣ bid,
+
+then bids 3♣ as a second-negative when SOUTH bids 2♠.
+
+However, when SOUTH then bids
+
+♥
+
+s, NORTH finds two more points
+
+and bids 4
+
+♥
+
+.}
+[BCFlags "1f"]
+
+[Board "21"]
+[Event ""]
+{Baker Bidpractice/Set6 21}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:74.J43.J64.A9842 QT85.AK6.AK8.KQJ A963.T982.953.T6 KJ2.Q75.QT72.753"]
+[Auction "N"]
+2C pass 2NT pass 3NT pass pass pass
+[Result ""]
+{NORTH expected to open 2♣, then bid 2NT at her second turn.
+
+But SOUTH, with 8 points and a balanced hand, responds 2NT, so NORTH must adapt. She shows
+
+her minimum, balanced, 22-point hand by bidding 3NT.
+
+Since NORTH has just the 8 points minimum that he promised, he passes 3NT.}
+[BCFlags "1f"]
+
+[Board "22"]
+[Event ""]
+{Baker Bidpractice/Set6 22}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:43.643.JT2.KJ985 K987.QJ82.986.74 T65.T97.A54.QT32 AQJ2.AK5.KQ73.A6"]
+[Auction "S"]
+2C pass 2D pass 2NT pass 3C pass 3S pass 4S all pass
+[Result ""]
+
+[BCFlags "1f"]
+
+[Board "23"]
+[Event ""]
+{Baker Bidpractice/Set6 23}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "7NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:Q953.J862.93.J62 A8.KQ4.AKQJ86.K4 JT64.T3.54.QT987 K72.A975.T72.A53"]
+[Auction "N"]
+2C pass 2NT pass 4C pass 4S pass 5C pass 5H pass 7NT all pass
+[Result ""]
+
+[BCFlags "1f"]
+
+[Board "24"]
+[Event ""]
+{Baker Bidpractice/Set6 24}
+[Dealer "S"]
+[Declarer "N"]
+[Contract "6D"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:AJT4.T84.T4.T752 973.62.QJ9863.A4 KQ652.J973.5.986 8.AKQ5.AK72.KQJ3"]
+[Auction "S"]
+2C pass 3D pass 4NT pass 5D pass 6D pass pass pass
+[Result ""]
+{When SOUTH opens 2♣ NORTH has enough strength (9 points) for a positive response. But,
+
+because her suit is
+
+♦
+
+s, she must jump to 3
+
+♦
+
+.
+
+SOUTH thinks slam and uses Blackwood to discover that NORTH holds one Ace.
+
+That's all NORTH needs to know to bid 6
+
+♦
+
+.}
+[BCFlags "1f"]
+

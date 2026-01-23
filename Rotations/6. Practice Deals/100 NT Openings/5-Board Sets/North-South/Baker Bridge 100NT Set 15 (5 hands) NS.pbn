@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:08:34 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",10,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker 100NT 71}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 71}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:JT6.QJT98.863.K2 A753.K6.QJ52.T93 Q982.532.A9.8764 K4.A74.KT74.AQJ5"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:K4.A74.KT74.AQJ5 JT6.QJT98.863.K2 A753.K6.QJ52.T93 Q982.532.A9.8764"]
+[Auction "N"]
+1NT pass 2C pass 2D pass 2NT pass 3NT pass pass pass
 [Result ""]
 {With no 4-card Major suit you respond 2\D to partner's Stayman bid. Partner now bids 2NT. What do you say? 
 
@@ -76,31 +31,22 @@ If both the \DA and \CK are in East's hand then you won't make this contract. He
 
 But, if you finesse in \Cs first, East can win and establish the \H suit. But, when West wins the \DA, he will have no \H to return.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2C Pass
-2D Pass 2NT Pass
-3NT Pass Pass Pass
-[Play "E"]
-HQ
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]HQ
 
 [Event ""]
-{Baker 100NT 72}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 72}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:Q62.Q65.T93.J754 AK73.KJ82.AQJ.98 T984.T4.8752.QT3 J5.A973.K64.AK62"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "6H"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:AK73.KJ82.AQJ.98 T984.T4.8752.QT3 J5.A973.K64.AK62 Q62.Q65.T93.J754"]
+[Auction "S"]
+1NT pass 2C pass 2H pass 4NT pass 5H pass 6H all pass
 [Result ""]
 {Did you consider bidding 6NT? You are balanced, and the points are right. But with two 4-card Majors you should use Stayman, so you bid 2\C. Partner bids 2\H. Now what do say next? 
 
@@ -132,32 +78,22 @@ But that is only correct as far as that suit is concerned. When you look at the 
 
 This is much more obvious play when you are missing 5 trumps including the Queen AND Jack because you don't have any choice then.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2C Pass
-2H Pass 4NT Pass
-5H Pass 6H ALL
-Pass
-[Play "W"]
-ST
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]ST
 
 [Event ""]
-{Baker 100NT 73}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 73}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:KQJ963.8.93.AJ87 A75.K963.AK8.Q53 T82.A52.QJT64.T9 4.QJT74.752.K642"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:4.QJT74.752.K642 KQJ963.8.93.AJ87 A75.K963.AK8.Q53 T82.A52.QJT64.T9"]
+[Auction "S"]
+1NT 2S 2NT pass 3C pass 3H pass pass pass
 [Result ""]
 {When the opponents overcall your 1NT opener a 2NT bid by partner is lebensohl. You have been instructed to make a relay bid of 3\C, and you do so. Partner now bids 3\H. What do you say? 
 
@@ -181,31 +117,22 @@ The purpose of the hand is to point out the advantages of using lebensohl conven
 
 And just look at the EW hands. They can easily make 3\S.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 3, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT 2S 2NT Pass
-3C Pass 3H Pass
-Pass Pass
-[Play "E"]
-ST
+[RotationNote "Board 3, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+[Play "E"]ST
 
 [Event ""]
-{Baker 100NT 74}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 74}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:63.JT98.T8543.86 KJT84.A762.K.743 AQ52.Q3.J96.QJT9 97.K54.AQ72.AK52"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:97.K54.AQ72.AK52 63.JT98.T8543.86 KJT84.A762.K.743 AQ52.Q3.J96.QJT9"]
+[Auction "S"]
+1NT pass 2C pass 2D pass 3S pass 3NT pass pass pass
 [Result ""]
 {Partner bids Stayman; with no 4-card Major you respond 2\D. Partner now bids 3\S.  What do you bid? 
 
@@ -231,31 +158,22 @@ If East plays any other suit you have a double stopper and can establish \S tric
 
 East could play a \C, knocking out one of your \C A K. When East won his first \S he would establish the \Cs, and when he took the second \S he could cash 2 \C tricks. }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2C Pass
-2D Pass 3S Pass
-3NT Pass Pass Pass
-[Play "W"]
-HJ
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]HJ
 
 [Event ""]
-{Baker 100NT 75}
 [Site ""]
 [Date ""]
 [Board "5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 75}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:K42.QJ9853.Q72.Q AT98.AK2.95.8742 Q73.T.T8643.JT95 J65.764.AKJ.AK63"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "N:J65.764.AKJ.AK63 K42.QJ9853.Q72.Q AT98.AK2.95.8742 Q73.T.T8643.JT95"]
+[Auction "N"]
+1NT 2H 2NT pass 3C pass 3H pass 3NT pass pass pass
 [Result ""]
 {Partner's 2NT is lebensohl, requesting that you bid 3\C. You obey and partner now bids 3\H. What do you say? 
 
@@ -271,12 +189,6 @@ You do not need to hold up on the \H because you will be finessing twice into We
 
 Even if West held both honors you would STILL have established one \S winner and would have the possibility of a \D finesse. }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT 2H 2NT Pass
-3C Pass 3H Pass
-3NT Pass Pass Pass
-[Play "E"]
-HQ
+[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]HQ
+

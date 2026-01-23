@@ -1,0 +1,184 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:51:26 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Transfers 1}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:762.A52.A7.KJT93 AK53.QT.Q65.A742 QJT8.74.KJ9432.Q 94.KJ9863.T8.865"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "2H"]
+[Result ""]
+{North opens 1NT. What do you respond? 
+
+With 6 \Hs of your own you can be sure that your side has at least an 8-card \H fit. So playing \Hs will be better than playing notrump. You bid 2\D, transferring partner to \Hs. Partner says 2\H.  
+
+Of course you pass. You only have 6 points so there is no chance for game. You just wanted to reach the best partscore and figured 2\H would be safer than 1NT.
+
+As you can see from partner's hand you made the right call. Played in \Hs your hand will produce five tricks. At notrump your hand will win only one trick if the defenders hold up their \HA just one time.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1NT Pass 2D Pass
+2H Pass Pass Pass
+
+[Event ""]
+{Baker Transfers 2}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:2.KJT863.9.A8654 KT5.A5.QJ84.KQ73 AJ93.972.AT752.T Q8764.Q4.K63.J92"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3S"]
+[Result ""]
+{South's 1NT opening shows 15-17 points. What is your bid? 
+
+With 9 points you have an invitational strength hand. With a 5-card \S suit you should transfer partner to \Ss by bidding 2\H. Partner dutifully responds 2\S. What do you say now? 
+
+With this next bid you must tell partner you only have invitational strength, and inform him that you have only 5 \Ss (remember, your transfer promised AT LEAST 5). The bid that says both of these facts at once is 2NT. Partner comes back with 3\S. What say you? 
+
+You say pass. Partner did not accept your invitation to game so he must have a minimum hand. His correction to 3\S indicates he has three of the suit and wants to play in \Ss rather than notrump.
+
+You might revalue your hand up to 10 points now that an 8-card fit has been discovered, but it is a really poor 10 points. Also, remember the warning about Responder revaluing for short suits.
+
+As you can see, a 4\S contract would have no chance, losing 1 trick in each side suit and at least 1 \S. }
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT Pass 2H Pass
+2S Pass 2NT Pass
+3S Pass Pass Pass
+
+[Event ""]
+{Baker Transfers 3}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:2.KQJ963.9.J8654 KT5.A5.QJ84.KQ73 A983.T82.AT752.T QJ764.74.K63.A92"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4S"]
+[Result ""]
+{North's 1NT opening shows 15-17 points. What is your bid? 
+
+With 11 points you are strong enough to force to game. With a 5-card \S suit you should transfer partner to \Ss by bidding 2\H. Partner dutifully responds 2\S. What do you say now? 
+
+You must make a bid that will force partner to game, but at the same time inform him that you have only 5 \Ss (remember, your transfer promised AT LEAST 5). The bid that says both of these facts at once is 3NT. Partner comes back with 4\S. What say you? 
+
+You say pass.
+
+You might revalue your hand up to 12 points now that an 8-card fit has been discovered, but with partner's maximum of 17 you are nowhere near slam range.
+
+A 4\S contract is definitely the place to be. }
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 3, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1NT Pass 2H Pass
+2S Pass 3NT Pass
+4S Pass Pass Pass
+
+[Event ""]
+{Baker Transfers 4}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:KT94.JT.J82.AT32 AJ76.Q6.K753.KQ4 Q82.A53.Q94.J987 53.K98742.AT6.65"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3H"]
+[Result ""]
+{South opens 1NT. What do you respond? 
+
+You have 9 points and 6 \Hs. You transfer partner to \Hs by bidding 2\D. He bids 2\H, as instructed.
+
+What is your next bid? 
+
+You want to tell partner you have invitational strength. You also want to tell him that you have 6 \Hs, and that the contract must be played in \Hs. The bid that says both is 3\H.
+
+Partner declines your invitation by passing.
+
+A comment is in order about revaluing your hand. Since partner must have at least a doubleton \H it is tempting to claim that with the 8-card fit you should add one point for each of your doubletons, bringing your total to 11. If you did this then you should be bidding game rather than just inviting. The problem with the revaluing is that counting doubleton points in the long-trump hand is deceiving. If you do end up ruffing one or both of those suits it will not add any tricks to your total since you would make your small trumps anyway. So when you have a 6-card suit it is more accurate to not revalue.
+
+As you can see, making even 9 tricks is going to be a challenge.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT Pass 2D Pass
+2H Pass 3H Pass
+Pass Pass

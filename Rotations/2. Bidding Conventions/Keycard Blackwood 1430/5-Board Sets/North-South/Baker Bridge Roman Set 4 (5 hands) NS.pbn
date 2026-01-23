@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 20:52:18 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker Roman 16}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Roman 16}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "E:2.976.KT964.Q963 AT843.QT84..KJT2 7.J532.AQJ32.874 KQJ965.AK.875.A5"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "7S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:2.J972.KJ43.9764 KQJ965.AK.875.A5 7.653.AQT962.Q83 AT843.QT84..KJT2"]
+[Auction "W"]
+pass 1S pass 4D pass 4NT pass 6D pass 7S pass pass pass
 [Result ""]
 {Partner's 4\D bid is a Splinter Bid. It shows opening hand strength, at least 4-card \S support, and a singleton or void in \Ds. Decide what you would say next, then  on BID above. 
 
@@ -64,30 +19,21 @@ Normally you would not ask for Key-Cards with this \D holding. But since you kno
 
 WOW! Partner has one Key-Card and a \D void. So the Key-Card is the \SA. You don't know what the rest of partner's hand is, but he can surely take care of that small \C. You bid 7\S.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "W"]
-Pass 1S Pass 4D
-Pass 4NT Pass 6D
-Pass 7S Pass Pass
-Pass
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
 
 [Event ""]
-{Baker Roman 17}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Roman 17}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:J63.QJ532.J5.653 AQ5.4.AKT863.AKQ T942.K987.2.9742 K87.AT6.Q974.JT8"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "7NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AQ5.4.AKT863.AKQ T42.KQJ953.5.962 K87.AT6.Q974.JT8 J963.872.J2.7543"]
+[Auction "N"]
+2C pass 2NT pass 3D pass 4D pass 4NT pass 5C pass 5H pass 5S pass 7NT all pass
 [Result ""]
 {Your 2NT response shows 8+ points, with no 5-card biddable suit. Decide what you would say next, then  on BID above. 
 
@@ -97,31 +43,21 @@ With \Ds as trump you have 1 Key-Card, the \HA. You answer 5\C and partner bids 
 
 This is the Queen Ask, wanting to know if you hold the \DQ. Since you do have it you should bid a suit in which you hold a King. So you bid 5\S. That spurred partner on - he was fishing for 7\D but when you told him you had the \DQ, \HA and \SK he was able to bid 7NT.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-2C Pass 2NT Pass
-3D Pass 4D Pass
-4NT Pass 5C Pass
-5H Pass 5S Pass
-7NT ALL Pass
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Roman 18}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Roman 18}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "W:K9752.54.A96.953 .KQT8632.53.JT82 AJT643..T8742.74 Q8.AJ97.KQJ.AKQ6"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:KJT9743..T842.75 Q8.AJ97.KQJ.AKQ6 A652.54.A976.943 .KQT8632.53.JT82"]
+[Auction "E"]
+pass 2C pass 2H pass 3H pass 3S pass 4NT pass 6H all pass
 [Result ""]
 {Partner's 2\H is a positive response, 8+ points with a 5+ card suit. Decide what you would say next, then  on BID above. 
 
@@ -129,30 +65,21 @@ Even though it is tempting, bidding RKCB now would be a mistake because of your 
 
 Partner promises first round \S control so NOW you can bid RCKB. When you bid 4NT partner answers 6\H. This shows 1 Key-Card and a void in a suit higher than \Hs. Knowing you are missing either the \DA or \HK you pass.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 3, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "E"]
-Pass 2C Pass 2H
-Pass 3H Pass 3S
-Pass 4NT Pass 6H
-ALL Pass
+[RotationNote "Board 3, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Roman 19}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Roman 19}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:6.JT93.9765.QT98 AQJ8543.7.AK4.AK 9.Q42.QJT2.J7532 KT72.AK865.83.64"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "7NT"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "S:AQJ8543.7.AK4.AK .J32.QJ752.T8752 KT72.AK865.83.64 96.QT94.T96.QJ93"]
+[Auction "S"]
+2C pass 2H pass 2S pass 3S pass 4NT pass 5H pass 5NT pass 6D pass 7NT all pass
 [Result ""]
 {Your 2\H response shows 8+ points, with at least 5 \Hs. Decide what you would say next, then  on BID above. 
 
@@ -162,31 +89,21 @@ With \Ss agreed as trumps you have two Key-Cards, the \SK and the \HA. With no t
 
 Partner is asking for Kings and you have just 1, the \HK. Remember, the \SK is not a King, it is a Key-Card which you have already counted. So you bid 6\D. Partner counts 13 tricks and bids 7NT.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-2C Pass 2H Pass
-2S Pass 3S Pass
-4NT Pass 5H Pass
-5NT Pass 6D Pass
-7NT ALL Pass
+[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
 
 [Event ""]
-{Baker Roman 20}
 [Site ""]
 [Date ""]
 [Board "5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Roman 20}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "E:T.J943.753.AQ763 QJ73.A8.T864.KJ5 82.T752.A9.T9842 AK9654.KQ6.KQJ2."]
-[Scoring ""]
 [Declarer "N"]
 [Contract "6S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "W:T2.J53.73.AQT432 AK9654.KQ6.KQJ2. 8.T9742.A95.9876 QJ73.A8.T864.KJ5"]
+[Auction "W"]
+pass 1S pass 3S pass 4C pass 4H pass 6S pass pass pass
 [Result ""]
 {Partner's 3\S is a limit raise, 11-12 points and good \S support. Decide what you would say next, then  on BID above. 
 
@@ -196,11 +113,5 @@ What you DO NOT say next is 4NT. If partner answered 1 Key-Card you would not kn
 
 Partner's bidding is like the Sherlock Holmes tale <u>Silver Blaze</u>, about the dog that didn't bark. Partner's \H bid shows that he DOES have the \HA, but equally important it shows that he DOES NOT have the \DA. So you know you don't have a \H loser but do have a \D loser. You bid 6\S.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "W"]
-Pass 1S Pass 3S
-Pass 4C Pass 4H
-Pass 6S Pass Pass
-Pass
+[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+

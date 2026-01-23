@@ -1,0 +1,238 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:13:12 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Bidpractice/Set9 11}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:T2.542.T65.KJ843 KQ.AJT976.97.A96 J7654..QJ832.QT5 A983.KQ83.AK4.72"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "6H"]
+[Result ""]
+{NORTH's 3
+
+â™¥
+
+bid shows extra strength and a 6-trump hand.
+
+The next three bids are all Control-showing cue bids.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1H Pass 2NT Pass
+3H Pass 3S Pass
+4C Pass 4D Pass
+6H Pass Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set9 12}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:T52.Q975.52.9754 K763.J83.KQ.AK83 J.T62.AJT7643.T6 AQ984.AK4.98.QJ2"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6S"]
+[Result ""]
+{SOUTH shows extra strength / five trumps.
+
+4â™£ and 4
+
+â™¥
+
+are Control-showing bids.
+
+NORTH knows they are missing the
+
+â™¦
+
+A, she uses
+
+Blackwood just to make certain SOUTH holds the trump Ace.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1S Pass 2NT Pass
+3NT Pass 4C Pass
+4H Pass 4NT Pass
+5H Pass 6S Pass
+Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set9 13}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:T542.T2.Q85.A832 KQJ.KQJ84.94.J65 A9876.76.K763.T7 3.A953.AJT2.KQ94"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4H"]
+[Result ""]
+{SOUTH's 3â™  bid, a double-jump, is a Splinter bid. It shows game-forcing strength, at
+
+least four cards in partner's suit, and a singleton or void in the Splintered suit.
+
+NORTH has just 14 points and the â™  shortness in SOUTH's hand doesn't improve her hand since
+
+she had just one â™  loser anyway. She signs off in 4
+
+â™¥
+
+.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 3, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1H Pass 3S Pass
+4H Pass Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set9 14}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:AKT98.72.985.JT7 764.KQJ84.K4.A65 QJ52.T6.Q763.832 3.A953.AJT2.KQ94"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6H"]
+[Result ""]
+{This is a companion hand to Deal 13.
+
+SOUTH has 14 points, the same strength she had in Deal 13. But what a difference.
+
+This time NORTH's â™  shortness complements her hand very well. She bids 4â™£
+
+to show her Control, and after NORTH shows the
+
+â™¦
+
+A she
+
+uses Blackwood to make sure NORTH also has the trump Ace.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1H Pass 3S Pass
+4C Pass 4D Pass
+4NT Pass 5H Pass
+6H Pass Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set9 15}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:T32.952.KQ6.A842 A75.QJT76.J8.KQ3 J9864.43.AT92.97 KQ.AK8.7543.JT65"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4H"]
+[Result ""]
+{SOUTH has 13 points and good 3-card support for NORTH's 1
+
+â™¥
+
+opening bid.
+
+But he should not bid 2NT since that bid promises 4+ cards in support. South must still insure
+
+they reach game, so he bids a forcing 2â™£.
+
+When NORTH next says 2NT SOUTH can jump to 4
+
+â™¥
+
+.
+
+NOTE: if you used Jacoby 2NT and reached the 4
+
+â™¥
+
+game, give yourself credit anyway.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 5, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1H Pass 2C Pass
+2NT Pass 4H Pass
+Pass Pass

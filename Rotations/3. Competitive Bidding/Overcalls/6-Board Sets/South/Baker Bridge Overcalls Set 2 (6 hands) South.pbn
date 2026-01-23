@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 20:58:13 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker Overcalls 7}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Overcalls 7}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "W:.J872.KQ4.JT7654 K842.A93.T5.KQ93 A765.T65.AJ972.A QJT93.KQ4.863.82"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:A7.J85.AQ74.T754 QJT93.KQ4.863.82 65.T762.KJ92.AJ6 K842.A93.T5.KQ93"]
+[Auction "E"]
+1D 1S pass 3S pass pass pass
 [Result ""]
 {The bidding has been as shown. It is your bid. 
 
@@ -66,28 +21,21 @@ The jump raise tells you partner has 11-14 points.
 
 With your minimum it's going to have to be better than that to get you excited. So you pass.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "E"]
-1D 1S Pass 3S
-Pass Pass Pass
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Overcalls 8}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Overcalls 8}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "E:T9.AKQJ9.KQJT3.6 AQJ64.3.9862.J82 2.T864.754.AKQT9 K8753.752.A.7543"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "E:T.AKQ98.J53.AKQ9 AQJ64.3.9862.J82 92.JT64.KQT74.T6 K8753.752.A.7543"]
+[Auction "E"]
+1H 1S 3H 4S pass pass pass
 [Result ""]
 {The bidding has been as shown. It is your bid. What do you say? 
 
@@ -95,28 +43,21 @@ You have 10 points, but in cases like this points don't matter that much. They M
 
 Looking at the hands you can see that partner is going to go down 1 at 4\S. However, that is an excellent result since they appear to be cold for 5\H.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "E"]
-1H 1S 3H 4S
-Pass Pass Pass
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
 
 [Event ""]
-{Baker Overcalls 9}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Overcalls 9}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "W:T98.65.T987.K763 AJ76.Q973.A54.92 KQ42.J2.QJ2.QJT8 53.AKT84.K63.A54"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:KQT4.5.QT9.KJT76 53.AKT84.K63.A54 982.J62.J872.Q83 AJ76.Q973.A54.92"]
+[Auction "E"]
+1C 1H pass 3H pass 4H pass pass pass
 [Result ""]
 {The bidding has been as shown. It is your bid. 
 
@@ -124,57 +65,41 @@ Nice hand. But not nice enough to double, then bid your \Hs. So you overcall 1\H
 
 The jump raise promises 11-14 points. Your 17 plus partner's 11 or so takes you right up to game. You bid 4\H.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "E"]
-1C 1H Pass 3H
-Pass 4H Pass Pass
-Pass
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Overcalls 10}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Overcalls 10}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "W:QJ9864.64.AKQ.T4 72.Q8.J52.AKJ972 T3.AJ973.863.865 AK5.KT52.T974.Q3"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:Q9863.A764.KQ.T6 72.Q8.J52.AKJ972 JT4.J93.A863.854 AK5.KT52.T974.Q3"]
+[Auction "W"]
+1S 2C pass 2NT pass 3NT pass pass pass
 [Result ""]
 {The bidding has been as shown. It is your bid. What do you say? 
 
 Partner has at least 11 points for his 2-level overcall. He might have as many as 16. You have a perfect invitational hand including two sure stoppers in their suit. So you bid 2NT. Partner raises to 3NT and you get to play it there.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "W"]
-1S 2C Pass 2NT
-Pass 3NT Pass Pass
-Pass
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Overcalls 11}
 [Site ""]
 [Date ""]
 [Board "5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Overcalls 11}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "W:765.75.Q8762.542 A832.KJT6.J93.T8 JT4.Q932.K4.AJ76 KQ9.A84.AT5.KQ93"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:J64.Q95.KQ.AJ542 KQ9.A84.AT5.KQ93 T75.732.87642.76 A832.KJT6.J93.T8"]
+[Auction "E"]
+1C 1NT pass 2C pass 2D pass 2NT pass 3NT pass pass pass
 [Result ""]
 {The bidding has been as shown. It is your bid. 
 
@@ -184,30 +109,21 @@ Don't get your systems crossed. Partner did not make a cue-bid, he is using Stay
 
 This is just a plain old 1NT/Stayman sequence. Partner is inviting, and since you have 18 points you accept.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 5, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "E"]
-1C 1NT Pass 2C
-Pass 2D Pass 2NT
-Pass 3NT Pass Pass
-Pass
+[RotationNote "Board 5, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Overcalls 12}
 [Site ""]
 [Date ""]
 [Board "6"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Overcalls 12}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "E:92.9532.AK43.A75 AKT75.J6.972.Q83 J4.T84.QJT8.J942 Q863.AKQ7.65.KT6"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4S"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "E:J92.852.AKT8.A95 AKT75.J6.972.Q83 4.T943.QJ43.J742 Q863.AKQ7.65.KT6"]
+[Auction "E"]
+1D 1S pass 2D pass 2S pass 4S pass pass pass
 [Result ""]
 {The bidding has been as shown. It is your bid. What do you say? 
 
@@ -215,10 +131,5 @@ Wow! Great \S support and 15 points. You cue-bid 2\D, forcing partner to bid. He
 
 Partner has not made a strong bid and it is possible that T tricks will be too high. But it is pretty likely that game can be made so you bid it. Be bold!}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 6, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "E"]
-1D 1S Pass 2D
-Pass 2S Pass 4S
-Pass Pass Pass
+[RotationNote "Board 6, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+

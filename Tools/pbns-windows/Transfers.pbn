@@ -1,0 +1,654 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%Creator: CSVtoPBN Version 1.00
+%Created: 2025-04-11 19:08:14
+%sourcefilename BakerBridgeFull.csv
+%HRTitleEvent Transfers
+[Board "1"]
+[Event ""]
+{Baker Transfers 1}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "2H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:762.A52.A7.KJT93 AK53.QT.Q65.A742 QJT8.74.KJ9432.Q 94.KJ9863.T8.865"]
+[Auction "N"]
+1NT pass 2D pass 2H pass pass pass
+[Result ""]
+{North opens 1NT. What do you respond? [BID 2\D]
+
+With 6 \Hs of your own you can be sure that your side has at least an 8-card \H fit. So playing \Hs will be better than playing notrump. You bid 2\D, transferring partner to \Hs. Partner says 2\H. What do you bid now? [BID pass]
+
+Of course you pass. You only have 6 points so there is no chance for game. You just wanted to reach the best partscore and figured 2\H would be safer than 1NT.
+
+As you can see from partner's hand you made the right call. Played in \Hs your hand will produce five tricks. At notrump your hand will win only one trick if the defenders hold up their \HA just one time.}
+[BCFlags "1f"]
+
+
+[Board "2"]
+[Event ""]
+{Baker Transfers 2}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "3S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:2.KJT863.9.A8654 KT5.A5.QJ84.KQ73 AJ93.972.AT752.T Q8764.Q4.K63.J92"]
+[Auction "N"]
+1NT pass 2H pass 2S pass 2NT pass 3S pass pass pass
+[Result ""]
+{North's 1NT opening shows 15-17 points. What is your bid? [BID 2\H]
+
+With 9 points you have an invitational strength hand. With a 5-card \S suit you should transfer partner to \Ss by bidding 2\H. Partner dutifully responds 2\S. What do you say now? [BID 2NT]
+
+With this next bid you must tell partner you only have invitational strength, and inform him that you have only 5 \Ss (remember, your transfer promised AT LEAST 5). The bid that says both of these facts at once is 2NT. Partner comes back with 3\S. What say you? [BID pass]
+
+You say pass. Partner did not accept your invitation to game so he must have a minimum hand. His correction to 3\S indicates he has three of the suit and wants to play in \Ss rather than notrump.
+
+You might revalue your hand up to 10 points now that an 8-card fit has been discovered, but it is a really poor 10 points. Also, remember the warning about Responder revaluing for short suits.
+
+As you can see, a 4\S contract would have no chance, losing 1 trick in each side suit and at least 1 \S. }
+[BCFlags "1f"]
+
+
+[Board "3"]
+[Event ""]
+{Baker Transfers 3}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:2.KQJ963.9.J8654 KT5.A5.QJ84.KQ73 A983.T82.AT752.T QJ764.74.K63.A92"]
+[Auction "N"]
+1NT pass 2H pass 2S pass 3NT pass 4S pass pass pass
+[Result ""]
+{North's 1NT opening shows 15-17 points. What is your bid? [BID 2\H]
+
+With 11 points you are strong enough to force to game. With a 5-card \S suit you should transfer partner to \Ss by bidding 2\H. Partner dutifully responds 2\S. What do you say now? [BID 3NT]
+
+You must make a bid that will force partner to game, but at the same time inform him that you have only 5 \Ss (remember, your transfer promised AT LEAST 5). The bid that says both of these facts at once is 3NT. Partner comes back with 4\S. What say you? [BID pass]
+
+You say pass.
+
+You might revalue your hand up to 12 points now that an 8-card fit has been discovered, but with partner's maximum of 17 you are nowhere near slam range.
+
+A 4\S contract is definitely the place to be. }
+[BCFlags "1f"]
+
+
+[Board "4"]
+[Event ""]
+{Baker Transfers 4}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "3H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:KT94.JT.J82.AT32 AJ76.Q6.K753.KQ4 Q82.A53.Q94.J987 53.K98742.AT6.65"]
+[Auction "N"]
+1NT pass 2D pass 2H pass 3H pass pass pass
+[Result ""]
+{North opens 1NT. What do you respond? [BID 2\D]
+
+You have 9 points and 6 \Hs. You transfer partner to \Hs by bidding 2\D. He bids 2\H, as instructed.
+
+What is your next bid? [BID 3\H]
+
+You want to tell partner you have invitational strength. You also want to tell him that you have 6 \Hs, and that the contract must be played in \Hs. The bid that says both is 3\H.
+
+Partner declines your invitation by passing.
+
+A comment is in order about revaluing your hand. Since partner must have at least a doubleton \H it is tempting to claim that with the 8-card fit you should add one point for each of your doubletons, bringing your total to 11. If you did this then you should be bidding game rather than just inviting. The problem with the revaluing is that counting doubleton points in the long-trump hand is deceiving. If you do end up ruffing one or both of those suits it will not add any tricks to your total since you would make your small trumps anyway. So when you have a 6-card suit it is more accurate to not revalue.
+
+As you can see, making even 9 tricks is going to be a challenge.}
+[BCFlags "1f"]
+
+
+[Board "5"]
+[Event ""]
+{Baker Transfers 5}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:AJ86.J9.9743.J32 QT9.K53.K62.AK84 K742.86.A85.QT97 53.AQT742.QJT.65"]
+[Auction "N"]
+1NT pass 2D pass 2H pass 4H pass pass pass
+[Result ""]
+{North opens 1NT. What do you respond? [BID 2\D]
+
+You should bid 2\D to transfer partner to \Hs. He bids 2\H. What do you say now? [BID 4\H]
+
+You know you have at least an 8-card \H fit. You know you have at least 26 points (15 + 11). She who knows, goes, so you bid 4\H.}
+[BCFlags "1f"]
+
+
+[Board "6"]
+[Event ""]
+{Baker Transfers 6}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:2.QJT3.KQ5.T6432 QJ5.K8.AT62.AK98 A643.52.J974.QJ7 KT987.A9764.83.5"]
+[Auction "N"]
+1NT pass 2D pass 2H pass 2S pass 4S pass pass pass
+[Result ""]
+{North opens 1NT. What do you respond? [BID 2\D]
+
+You transfer of course, but to which Major? It can work either way, but the preferred method is to first transfer partner to \Hs when you have an invitational hand. So you bid 2\D, and partner of course says 2\H. What do you bid next? [BID 2\S]
+
+You now show your second 5-card Major by bidding 2\S.
+
+At this point partner becomes the Captain. You have described an invitational (9 point) hand with 5-5 in the Majors. Partner's next bid should set the contract wherever he chooses. In this case, with a maximum 1NT opener and 3 \Ss he picks 4\S.
+
+Note that you must have at least one Major suit fit since partner cannot have a doubleton in both.}
+[BCFlags "1f"]
+
+
+[Board "7"]
+[Event ""]
+{Baker Transfers 7}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:32.J95.AQ5.J9642 Q6.A74.KJ92.KQ83 KT97.62.T8743.AT AJ854.KQT83.6.75"]
+[Auction "N"]
+1NT pass 2H pass 2S pass 3H pass 4H pass pass pass
+[Result ""]
+{North opens 1NT. What do you respond? [BID 2\H]
+
+This is the sequel to Deal 6. You are 5-5 in the Majors again, but this time you have game forcing strength.
+
+The preferred method for this hand is to transfer partner to \Ss, so you bid 2\H.
+
+What do you bid after partner completes the transfer? [BID 3\H]
+
+You show your second 5-card Major by bidding 3\H. Since this shows game-forcing strength (11+ points) partner may not pass, but must bid either 4\H or 4\S. In this Deal he naturally bids 4\H.
+
+If you held an even stronger hand and wished to move toward a slam you would start out the same way but then bid again after partner's game bid.}
+[BCFlags "1f"]
+
+
+[Board "8"]
+[Event ""]
+{Baker Transfers 8}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:632.K93.K54.7432 J4.AQJ5.AQJ3.T96 K98.T8762.T72.J8 AQT75.4.986.AKQ5"]
+[Auction "N"]
+1NT pass 2H pass 2S pass 3C pass 3NT pass pass pass
+[Result ""]
+{North opens 1NT. What do you respond? [BID 2\H]
+
+Initiate the transfer by bidding 2\H. After partner responds 2\S what do you bid? [BID 3\C]
+
+Your bid of a minor suit here shows at least 4 cards and is a slam try. With a weaker hand you would probably just bid 2NT or 3NT.
+
+Having made the try, you accept whatever partner decides. In this case, with a 15 point minimum, a doubleton \S and no \C fit, partner settles on 3NT.}
+[BCFlags "1f"]
+
+
+[Board "9"]
+[Event ""]
+{Baker Transfers 9}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "6NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:432.J83.A54.8632 KJ.KQ9.KT73.AJ74 986.T7652.QJ2.T9 AQT75.A4.986.KQ5"]
+[Auction "N"]
+1NT pass 2H pass 2S pass 4NT pass 6NT pass pass pass
+[Result ""]
+{North opens 1NT. What do you respond? [BID 2\H]
+
+With 16 points you have to be thinking about slam. But first things first, start the transfer process by bidding 2\H.
+
+What is your next bid after partner's 2\S? [BID 4NT]
+
+With 16 points you want to make an invitation to slam, but you also need to let partner know that you only have 5 \Ss so that he can play notrump when he only has a doubleton \S.
+
+The BEST way to say both these things is to bid 4NT. This is similar to the 2NT bid in Deal 2.
+
+But you can see the problem with the bid - if partner mistakes it for Blackwood 4NT things could get very confused. So don't use this unless you know both of you are on the same wavelength. 
+
+Here both partners understood the bid and North bid 6NT.}
+[BCFlags "1f"]
+
+
+[Board "10"]
+[Event ""]
+{Baker Transfers 10}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:AJ98.965.752.A32 Q2.AJ3.AK64.KQJT KT643.T2.QJ8.965 75.KQ874.T93.874"]
+[Auction "N"]
+2NT pass D pass 3H pass 3NT pass 4H pass pass pass
+[Result ""]
+{North opens 2NT showing a balanced 20-21 point hand. What do you respond? [BID \D]
+
+Jacoby Transfers work fine with 2NT openings also. You should bid 3\D as a transfer to \Hs. Partner complies by saying 3\H. What do you say now? [BID 3NT]
+
+You bid 3NT which tells partner you have just 5 \Hs and lets him decide on which game to play.
+
+On this Deal partner has 3 \Hs so he bids on to 4\H.
+
+Notice that when partner opens 2NT the invitation to game option is no longer available. As responder you must decide immediately whether to stop short of game (by transferring then passing) or to go to game. This is not a serious problem since the tighter (20-21) point range makes responder's decision easier to make.}
+[BCFlags "1f"]
+
+
+[Board "11"]
+[Event ""]
+{Baker Transfers 11}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "2NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:T843.K4.J97.AT52 92.QT962.K54.K83 AJ6.A753.T832.96 KQ75.J8.AQ6.QJ74"]
+[Auction "S"]
+1NT pass 2D pass 2H pass 2NT pass pass pass
+[Result ""]
+{You open 1NT and partner responds 2\D. What do you bid? [BID 2\H]
+
+This is an easy one. Partner has commanded you to say 2\H. So you say 2\H. Partner now bids 2NT.
+
+What is your bid? [BID pass]
+
+Partner's bidding shows 9 points and exactly 5\H. He asks that you take him back to \Hs if you have 3 of them. You don't. He is asking you to bid game if you have 17 points or a good 16. You don't.
+
+So you pass.}
+[BCFlags "1f"]
+
+
+[Board "12"]
+[Event ""]
+{Baker Transfers 12}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:752.KT3.A64.7652 KJT63.96.982.KJ4 A98.J7542.J73.Q8 Q4.AQ8.KQT5.AT93"]
+[Auction "S"]
+1NT pass 2H pass 2S pass 2NT pass 3NT pass pass pass
+[Result ""]
+{You open 1NT and partner responds 2\H. What do you bid? [BID 2\S]
+
+Naturally you say 2\S. Partner comes back with 2NT.
+
+What do you bid? [BID 3NT]
+
+Partner's bidding shows 9 points and exactly 5\S. He asks that you take him back to \Ss if you have 3 of them. You don't. He is asking you to bid game if you have 17 points. You do.
+
+So you bid 3NT.}
+[BCFlags "1f"]
+
+
+[Board "13"]
+[Event ""]
+{Baker Transfers 13}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:JT75.A4.J96.J732 93.QJT62.753.KQ4 KQ84.K93.T842.65 A62.875.AKQ.AT98"]
+[Auction "S"]
+1NT pass 2D pass 2H pass 2NT pass 4H pass pass pass
+[Result ""]
+{You open 1NT and partner responds 2\D. What do you bid? [BID 2\H]
+
+Partner's command is your wish - you say 2\H.
+
+He now bids 2NT. What do you say? [BID 4\H]
+
+Partner's bidding shows 9 points and exactly 5\H. He asks that you take him back to \Hs if you have 3 of them. You do. He is asking you to bid game if you have 17 points. You do.
+
+So you bid 4\H.
+
+With your 3-3-3-4 distribution you might have been tempted to bid 3NT instead of 4\H. It's a good thing you didn't, they would have killed you in \Ss.}
+[BCFlags "1f"]
+
+
+[Board "14"]
+[Event ""]
+{Baker Transfers 14}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:2.KQJ93.K8.Q9542 AK9753.842.53.76 QT84.T6.JT964.AT J6.A75.AQ72.KJ83"]
+[Auction "S"]
+1NT pass 2H pass 2S pass 3S pass pass pass
+[Result ""]
+{You open 1NT and partner responds 2\H. What do you bid? [BID 2\S]
+
+The initial response to a transfer is really easy. You bid 2\S.
+
+But what do you bid after partner then says 3\S? [BID pass]
+
+Partner has 6 \Ss and you have 2. So a \S contract is fine.
+
+Partner has 9 points and you have 15. So a game contract is too high.
+
+You pass. And you're going to have to play great to make even 9 tricks!}
+[BCFlags "1f"]
+
+
+[Board "15"]
+[Event ""]
+{Baker Transfers 15}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:KJT5.QJ.T754.J32 873.AKT872.93.65 Q942.43.A86.QT74 A6.965.KQJ2.AK98"]
+[Auction "S"]
+1NT pass 2D pass 2H pass 3H pass 4H pass pass pass
+[Result ""]
+{You open 1NT and partner responds 2\D. What do you bid? [BID 2\H]
+
+You follow orders and say 2\H.
+
+Partner follows up with 3\H. What do you bid next? [BID 4\H]
+
+Partner has 9 points and 6 \Hs. You have 17 points and 3 \Hs. That adds up to 26 points and 9 \Hs. You have enough points for game and enough trumps to play \Hs so you bid 4\H.}
+[BCFlags "1f"]
+
+
+[Board "16"]
+[Event ""]
+{Baker Transfers 16}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:J52.A83.T86.QJ42 T9873.KQT.A4.T73 KQ4.J742.9753.65 A6.965.KQJ2.AK98"]
+[Auction "S"]
+1NT pass 2H pass 2S pass 2NT pass 3NT pass pass pass
+[Result ""]
+{You open 1NT and partner responds 2\H. What do you bid? [BID 2\S]
+
+You say 2\S and partner rebids 2NT. What do you bid? [BID 3NT]
+
+Partner has 9 points and a 5-card \S suit. He is inviting you to choose a game if you have maximum.
+
+Since you have 17 points you accept the invitation, but with only 2 \Ss you choose 3NT.}
+[BCFlags "1f"]
+
+
+[Board "17"]
+[Event ""]
+{Baker Transfers 17}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:6.94.QT963.AKT92 Q9854.KQT83.75.3 JT732.A72.82.Q74 AK.J65.AKJ4.J865"]
+[Auction "S"]
+1NT pass 2D pass 2H pass 2S pass 4H pass pass pass
+[Result ""]
+{You open 1NT and partner responds 2\D. What do you bid? [BID 2\H]
+
+You obey partner and bid 2\H but he then bids 2\S.
+
+What do you bid? [BID 4\H]
+
+Partner has told you that he has an inviting, 9-point hand with 5 of each Major. He wants you to choose a Major and also decide whether to play game or partscore.
+
+Despite your \Ss being so beautiful there are only two of them so you pick \Hs. And since you have a maximum 17 points you bid the game, 4\H.}
+[BCFlags "1f"]
+
+
+[Board "18"]
+[Event ""]
+{Baker Transfers 18}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:J962.J3.AT32.T82 AK873.KT965.75.9 4.872.Q986.AQ743 QT5.AQ4.KJ4.KJ65"]
+[Auction "S"]
+1NT pass 2H pass 2S pass 3H pass 4S pass pass pass
+[Result ""]
+{You open 1NT and partner responds 2\H. What do you bid? [BID 2\S]
+
+You say 2\S. Partner then bids 3\H. What do you bid? [BID 4\S]
+
+Partner has a game forcing hand and is 5-5 in the Majors. He has asked you to choose one of them to bid game in.
+
+With 3 of each you might be inclined to choose your stronger one, \Hs, but in fact that doesn't really matter since partner is probably stronger in \Ss.
+
+What does matter is those minor suits. If the opening lead is a \C or \D, which is very likely, you want the lead to be coming into your hand, not partner's. And in general you would prefer to have the stronger hand remain concealed. So you bid 4\S where you will be declarer, rather than 4\H where partner would be declarer.}
+[BCFlags "1f"]
+
+
+[Board "19"]
+[Event ""]
+{Baker Transfers 19}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:AJ863.62.J54.T72 KQ94.AJ973.83.A6 72.85.QT962.J543 T5.KQT4.AK7.KQ98"]
+[Auction "S"]
+1NT pass 2D pass 3H pass 4C pass 4D pass 6H all pass
+[Result ""]
+{You open 1NT and partner responds 2\D. What do you bid? [BID 3\H]
+
+Just hold it a minute and DO NOT say 2\H. True, when partner transfers, you almost always just obey and complete the transfer. This is the one time when you don't. You had a 17 point 1NT opener with 4 \Hs and a doubleton. As soon as partner told you to bid \Hs your hand became worth 18 points because of the good trump support and the doubleton. So you inform partner of this by making the "super-accept" bid of 3\H. In other words, you complete the transfer with a jump. 
+
+Partner's eyes get big (but you aren't allowed to notice that) and he bids 4\C.
+
+What do you bid? [BID 4\D]
+
+Partner's \C bid was not a suit, you already have an agreed suit, \Hs. The \C bid was showing you first round control in \Cs, and is a slam try by partner.
+
+You continue the search for slam by showing your first round \D control, you bid 4\D. 
+
+That was all partner needed to hear, he jumps straight to 6\H.}
+[BCFlags "1f"]
+
+
+[Board "20"]
+[Event ""]
+{Baker Transfers 20}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:AK72.84.Q53.T654 Q9853.72.8642.A3 6.QJT9653.JT.J72 JT4.AK.AK97.KQ98"]
+[Auction "S"]
+2NT pass 3H pass 3S pass 3NT pass 4S pass pass pass
+[Result ""]
+{You open 2NT and partner responds 3\H. What do you bid? [BID 3\S]
+
+You bid 3\S, just as partner asked. He puts you in game at 3NT. What do you say? Bid or pass? [BID 4\S]
+
+Bid of course. You have an 8-card \S fit so you prefer \Ss to notrump.
+
+As you can see, 3NT would surely go down with a \H lead, while 4\S is cold.
+
+One hand doesn't mean it will always be like this, but usually if you have an 8-card fit the Major suit game will be better than 3NT.}
+[BCFlags "1f"]
+
+
+[Board "21"]
+[Event ""]
+{Baker Transfers 21}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:Q974.42.432.A752 K6.AQJT7.T95.KQ3 8532.96.QJ876.T9 AJT.K853.AK.J864"]
+[Auction "S"]
+1NT pass 2D pass 2H pass 4NT pass 6H pass pass pass
+[Result ""]
+{You open 1NT and partner responds 2\D. What do you bid? [BID 2\H]
+
+You are very close to being strong enough for a "Super-accept", but with this hand you should just complete the transfer to 2\H.
+
+Partner now says 4NT. What do you bid? [BID 6\H]
+
+If you don't remember Deal 9 go back and look at it now. Partner is not bidding Blackwood, he has about 16 points and is inviting you to bid a slam if you have a maximum. He is also telling you that he has just 5 \Hs and wants you to decide between the suit contract and notrump.
+
+Once you understand partner's bid, your next move is simple. You have a maximum and you prefer to play in the suit. So you bid 6\H.}
+[BCFlags "1f"]
+
+
+[Board "22"]
+[Event ""]
+{Baker Transfers 22}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:KT97.82.J86.Q965 J3.AK953.42.AK72 852.QT74.QT93.T4 AQ64.J6.AK75.J83"]
+[Auction "S"]
+1NT pass 2D pass 2H pass 3C pass 3NT pass pass pass
+[Result ""]
+{You open 1NT and partner responds 2\D. What do you bid? [BID 2\H]
+
+You complete the transfer by bidding 2\H.
+
+Partner now says 3\C. What do you bid? [BID 3NT]
+
+Partner has 5 \Hs and probably 4 \Cs.
+
+He is interested in slam and wants help from you in either of his suits. You have a minimum 1NT opener and no help for him so you try to dampen his enthusiasm by bidding 3NT. It works.}
+[BCFlags "1f"]
+
+
+[Board "23"]
+[Event ""]
+{Baker Transfers 23}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:86.T752.T652.T43 AJT.KQJ93.Q43.72 KQ7532.4.J8.KQJ9 94.A86.AK97.A865"]
+[Auction "S"]
+1NT pass 2D 2S pass pass 3NT pass 4H pass pass pass
+[Result ""]
+{You open 1NT and partner responds 2\D. However, your Right Hand Opponent injects a 2\S overcall.
+
+What do you bid? [BID pass]
+
+You don't want to bid 3\H because partner might have a very weak hand. Since you don't really have anything to add to your opening bid you PASS.
+
+Remember, you have a partner who heard your first bid and he knows more about the hand than you do. And he now bids 3NT. What do you say now?. [BID 4\H]
+
+Aha! Partner does have a good hand, at least 11 points and with 5 \Hs.
+
+You have a minimum, but with 3 \Hs you prefer the suit game to 3NT so you bid 4\H.}
+[BCFlags "1f"]
+
+
+[Board "24"]
+[Event ""]
+{Baker Transfers 24}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:J2.T.QJT74.KQT72 T86.Q97532.652.9 AKQ753.K4.83.J43 94.AJ86.AK9.A865"]
+[Auction "S"]
+1NT pass 2D 2S 3H pass pass pass
+[Result ""]
+{You open 1NT and partner responds 2\D. However, your Right Hand Opponent injects a 2\S overcall.
+
+What do you bid? [BID 3\H]
+
+More often than not it is correct to pass after an opponent overcalls your partner's transfer response. This is because your partner might be very weak, and in any case your partner knows a lot about your hand while you don't know much about his. 
+
+However, in this case you know that your side has at least 9 \Hs, and you are weak in \Ss. So you bid 3\H, knowing that even if you go down it may be better than letting them play \Ss.}
+[BCFlags "1f"]
+
+
+[Board "25"]
+[Event ""]
+{Baker Transfers 25}
+[Dealer "S"]
+[Declarer "E"]
+[Contract "2S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:2.JT94.QJ542.T73 T95.AK753.83.K42 KQ8763.Q2.T6.QJ9 AJ4.86.AK97.A865"]
+[Auction "S"]
+1NT pass 2D 2S pass pass X pass pass pass
+[Result ""]
+{You open 1NT and partner responds 2\D. However, your Right Hand Opponent injects a 2\S overcall. What do you bid? [BID pass]
+
+It is usually correct to pass in this situation, particularly if you are not strong in partner's suit. So you pass and partner doubles.
+
+What do you say now? [BID pass]
+
+Partner's double is called a Cooperative Double. It doesn't mean he has a \S stack, it just means that your side has the balance of power and East may have over-reached himself.
+
+If you had good \Hs you might bid them now. Or, it is possible that you could make 3NT. But it is likely that you are going to make a bigger score in penalties so you pass.}
+[BCFlags "1f"]
+
+

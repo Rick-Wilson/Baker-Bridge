@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:05:12 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",10,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker 100Deals 65}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 65}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:53.QT62.Q83.K974 KQ72.J4.762.6532 T94.98753.AKT4.8 AJ86.AK.J95.AQJT"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:KQ72.J4.762.6532 T94.98753.AKT4.8 AJ86.AK.J95.AQJT 53.QT62.Q83.K974"]
+[Auction "N"]
+2NT pass 3C pass 3S pass 4S pass pass pass
 [Result ""]
 {You are South and it is your bid. Decide what you would say, then  on BID. 
 
@@ -82,31 +37,22 @@ The first part is realizing that you need to have three entries to dummy.
 
 The second part is figuring out that the \S suit could provide them.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-2NT Pass 3C Pass
-3S Pass 4S Pass
-Pass Pass
-[Play "E"]
-DA
+[Play "E"]DA
 
 [Event ""]
-{Baker 100Deals 66}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 66}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "S:KJ92.7.T6532.853 T73.KJ54.K7.AQT6 Q654.96.AQJ9.K72 A8.AQT832.84.J94"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "4H"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "W:T73.KJ54.K7.AQT6 Q654.96.AQJ9.K72 A8.AQT832.84.J94 KJ92.7.T6532.853"]
+[Auction "W"]
+1C pass 1H pass 2H pass 4H pass pass pass
 [Result ""]
 {You are East and it is your bid. Decide what you would say, then  on BID. 
 
@@ -132,31 +78,22 @@ You had to lose one \S in any case, so you just choose to lose it to the defende
 
 Notice that the Danger Hand WAS on lead at one point - the opening lead. If South had been clairvoyant enough to lead a \D the contract could have been beaten. Opening leads are important to the defense.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
-[Student "S"]
-[Auction "W"]
-1C Pass 1H Pass
-2H Pass 4H Pass
-Pass Pass
-[Play "S"]
-S2
+[Play "W"]S2
 
 [Event ""]
-{Baker 100Deals 67}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 67}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:QJT84.4.763.K643 72.KQ8763.K94.85 9653.T952.A85.T9 AK.AJ.QJT2.AQJ72"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "6NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:72.KQ8763.K94.85 9653.T952.A85.T9 AK.AJ.QJT2.AQJ72 QJT84.4.763.K643"]
+[Auction "N"]
+2H pass 2NT pass 3D pass 6NT pass pass pass
 [Result ""]
 {You are South and it is your bid. Decide what you would say, then  on BID. 
 
@@ -188,31 +125,22 @@ But when you can make a plan that caters for the possibility you should certainl
 
 In this case dummy had a certain entry in the \D suit so you take advantage of that entry.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-2H Pass 2NT Pass
-3D Pass 6NT Pass
-Pass Pass
-[Play "W"]
-SQ
+[Play "W"]SQ
 
 [Event ""]
-{Baker 100Deals 68}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 68}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "S:KT9852.97.T2.QJ4 73.5432.Q4.AKT83 Q6.A.AKJ965.9752 AJ4.KQJT86.873.6"]
-[Scoring ""]
 [Declarer "W"]
 [Contract "3H"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "W:73.5432.Q4.AKT83 Q6.A.AKJ965.9752 AJ4.KQJT86.873.6 KT9852.97.T2.QJ4"]
+[Auction "W"]
+1H 2D 2H 2S pass pass 3H pass pass pass
 [Result ""]
 {You are East and it is your bid. Decide what you would say, then  on BID. 
 
@@ -240,12 +168,6 @@ So don't ruff at all. Discard a \S. Now you can ruff your other \S loser in dumm
 
 Often, like in this deal, you can discard a loser instead.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 4, chOption: W, chBasis: N, basisKind:Declarer, nOption:3, nBasis: 0, nRot: 3, useStandardVul: true"]
-[Student "S"]
-[Auction "W"]
-1H 2D 2H 2S
-Pass Pass 3H Pass
-Pass Pass
-[Play "N"]
-DA
+[Play "E"]DA
+

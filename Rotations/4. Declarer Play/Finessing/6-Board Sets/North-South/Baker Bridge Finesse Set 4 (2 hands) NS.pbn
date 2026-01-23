@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:00:47 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker Finesse 19}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Finesse 19}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "E:KJ953.T6.Q84.T85 T42.A83.AT72.K64 Q8.QJ942.95.J972 A76.K75.KJ63.AQ3"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:Q8.QJ942.95.J972 A76.K75.KJ63.AQ3 KJ953.T6.Q84.T85 T42.A83.AT72.K64"]
+[Auction "W"]
+pass 1NT pass 3NT pass pass pass
 [Result ""]
 {North is to play 3NT. East leads the \S5, West plays the \SQ.
 
@@ -72,30 +27,22 @@ Silly question. Of course you play the \DK from your hand, then a small \D fines
 
 But in a situation like this you don't play odds. By finessing East you guaranteed making the contract even if the finesse lost because West had no more \Ss. Even a losing \D finesse would have established the one trick you needed.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "W"]
-Pass 1NT Pass 3NT
-Pass Pass Pass
-[Play "E"]
-S5
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]S5
 
 [Event ""]
-{Baker Finesse 20}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Finesse 20}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:6.QJT3.9742.K872 AQJ9.65.AKQ.AQJ5 T842.K9742.853.6 K753.A8.JT6.T943"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "6S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AQJ9.65.AKQ.AQJ5 T842.K9742.853.6 K753.A8.JT6.T943 6.QJT3.9742.K872"]
+[Auction "N"]
+2C pass 2NT pass 3C pass 3S pass 4NT pass 5D pass 6S pass pass pass
 [Result ""]
 {South is to play 6\S after North's Stayman bid. West leads the \HQ.
 
@@ -111,13 +58,6 @@ Next play your \CT, putting on the \C5 from dummy when West plays low again. Thi
 
 But also you had to play to one of dummy's honors first so you could retain that \C5 for letting you stay in your hand to make the third finesse. Bridge is great.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-2C Pass 2NT Pass
-3C Pass 3S Pass
-4NT Pass 5D Pass
-6S Pass Pass Pass
-[Play "W"]
-HQ
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]HQ
+

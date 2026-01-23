@@ -1,0 +1,163 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:56:20 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Leben 5}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:J7542.432.863.93 K9.AQ76.AK92.T76 63.T8.QT7.AKQJ52 AQT8.KJ95.J54.84"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{With 11 points opposite partner's 15-17, this is a forcing-to-game hand, and it is possible that a jump to 3NT (which says you have no \C stopper) would work. However, with two 4-card Major suits you should use the lebensohl equivalent of Stayman, which is a cue-bid of 3\C.
+
+Partner bids 3\H. What do you say? 
+
+With a known 8-card Major fit and a known 26-28 points you bid 4\H.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 1, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT 2C 3C Pass
+3H Pass 4H Pass
+Pass Pass
+
+[Event ""]
+{Baker Leben 6}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:AJ42.943.AKJ954. 76.KQJ7.T3.AT732 T85.62.872.J9854 KQ93.AT85.Q6.KQ6"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{Partner's direct cue-bid is the lebensohl equivalent of Stayman, but with no \D stopper.
+
+With 4 cards in both Majors you bid 3\H.
+
+Partner then bids 4\H which you pass.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT 2D 3D Pass
+3H Pass 4H Pass
+Pass Pass
+
+[Event ""]
+{Baker Leben 7}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:QT.KT974.T62.T52 A84.AQJ.KJ3.Q763 KJ9753.62.A.AJ98 62.853.Q98754.K4"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3D"]
+[Result ""]
+{With your hand you'd like to sign off in 3\D. But you cannot actually bid 3\D because that would show a forcing-to-game hand. So you bid a lebensohl 2NT.
+
+Partner makes the relay bid of 3\C. What do you say? 
+
+NOW you can bid 3\D, which partner passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1NT 2S 2NT Pass
+3C Pass 3D Pass
+Pass Pass
+
+[Event ""]
+{Baker Leben 8}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:JT9643.AT3.A2.A5 5.QJ9742.943.J74 KQ2.8.K875.T9832 A87.K65.QJT6.KQ6"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3H"]
+[Result ""]
+{Partner's 2NT bid is lebensohl, asking you to bid 3\C. You bid 3\C. Partner says 3\H.
+
+What do you say now? 
+
+How about . . . . pass? Partner just signed off with this sequence. He couldn't bid 3\H directly, that would have been a game-force.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1NT 2S 2NT Pass
+3C Pass 3H Pass
+Pass Pass

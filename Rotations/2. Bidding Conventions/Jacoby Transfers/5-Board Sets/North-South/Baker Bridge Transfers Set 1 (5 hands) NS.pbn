@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 20:51:46 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker Transfers 1}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Transfers 1}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:762.A52.A7.KJT93 AK53.QT.Q65.A742 QJT8.74.KJ9432.Q 94.KJ9863.T8.865"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "2H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AK53.QT.Q65.A742 QT762.72.K97.KQT 94.KJ9863.T8.865 J8.A54.AJ432.J93"]
+[Auction "N"]
+1NT pass 2D pass 2H pass pass pass
 [Result ""]
 {North opens 1NT. What do you respond? 
 
@@ -66,28 +21,21 @@ Of course you pass. You only have 6 points so there is no chance for game. You j
 
 As you can see from partner's hand you made the right call. Played in \Hs your hand will produce five tricks. At notrump your hand will win only one trick if the defenders hold up their \HA just one time.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2D Pass
-2H Pass Pass Pass
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Transfers 2}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Transfers 2}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:2.KJT863.9.A8654 KT5.A5.QJ84.KQ73 AJ93.972.AT752.T Q8764.Q4.K63.J92"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:KT5.A5.QJ84.KQ73 AJ93.JT32.A2.864 Q8764.Q4.K63.J92 2.K9876.T975.AT5"]
+[Auction "S"]
+1NT pass 2H pass 2S pass 2NT pass 3S pass pass pass
 [Result ""]
 {South's 1NT opening shows 15-17 points. What is your bid? 
 
@@ -101,29 +49,21 @@ You might revalue your hand up to 10 points now that an 8-card fit has been disc
 
 As you can see, a 4\S contract would have no chance, losing 1 trick in each side suit and at least 1 \S. }
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2H Pass
-2S Pass 2NT Pass
-3S Pass Pass Pass
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
 
 [Event ""]
-{Baker Transfers 3}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Transfers 3}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:2.KQJ963.9.J8654 KT5.A5.QJ84.KQ73 A983.T82.AT752.T QJ764.74.K63.A92"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:KT5.A5.QJ84.KQ73 A2.QJT632.T752.4 QJ764.74.K63.A92 983.K98.A9.JT865"]
+[Auction "N"]
+1NT pass 2H pass 2S pass 3NT pass 4S pass pass pass
 [Result ""]
 {North's 1NT opening shows 15-17 points. What is your bid? 
 
@@ -137,29 +77,21 @@ You might revalue your hand up to 12 points now that an 8-card fit has been disc
 
 A 4\S contract is definitely the place to be. }
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 3, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2H Pass
-2S Pass 3NT Pass
-4S Pass Pass Pass
+[RotationNote "Board 3, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Transfers 4}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Transfers 4}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:KT94.JT.J82.AT32 AJ76.Q6.K753.KQ4 Q82.A53.Q94.J987 53.K98742.AT6.65"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3H"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "S:AJ76.Q6.K753.KQ4 QT84.J.Q92.AJT72 53.K98742.AT6.65 K92.AT53.J84.983"]
+[Auction "S"]
+1NT pass 2D pass 2H pass 3H pass pass pass
 [Result ""]
 {South opens 1NT. What do you respond? 
 
@@ -175,29 +107,21 @@ A comment is in order about revaluing your hand. Since partner must have at leas
 
 As you can see, making even 9 tricks is going to be a challenge.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2D Pass
-2H Pass 3H Pass
-Pass Pass
+[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
 
 [Event ""]
-{Baker Transfers 5}
 [Site ""]
 [Date ""]
 [Board "5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Transfers 5}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:AJ86.J9.9743.J32 QT9.K53.K62.AK84 K742.86.A85.QT97 53.AQT742.QJT.65"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:QT9.K53.K62.AK84 J642.98.A95.J972 53.AQT742.QJT.65 AK87.J6.8743.QT3"]
+[Auction "N"]
+1NT pass 2D pass 2H pass 4H pass pass pass
 [Result ""]
 {North opens 1NT. What do you respond? 
 
@@ -205,10 +129,5 @@ You should bid 2\D to transfer partner to \Hs. He bids 2\H. What do you say now?
 
 You know you have at least an 8-card \H fit. You know you have at least 26 points (15 + 11). She who knows, goes, so you bid 4\H.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 5, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2D Pass
-2H Pass 4H Pass
-Pass Pass
+[RotationNote "Board 5, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+

@@ -1,140 +1,81 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=UTF-8
-%Creator: BridgeComposer Version 5.111
-%Created: Sat Apr 12 07:42:48 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker Bidpractice/Set11 13}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set11 13}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:T3.K9652.Q52.K63 KQJ7.T7.A976.AT4 A9854.84.KT3.Q75 62.AQJ3.J84.J982"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "1NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:KQJ7.T7.A976.AT4 A9543.K652.Q.Q73 62.AQJ3.J84.J982 T8.984.KT532.K65"]
+[Auction "N"]
+1D 1S X pass 1NT pass pass pass
 [Result ""]
 {SOUTH has  9 points a a
 
-â™¥
+♥
 
 suit - good enough to make a
 
-Negative Double over EAST's 1â™  overcall.
+Negative Double over EAST's 1♠ overcall.
 
 But NORTH doesn't have
 
-â™¥
+♥
 
-s, she has â™ s and
+s, she has ♠s and
 
-â™¦
+♦
 
 s, so she bids 1NT to show
 
-her â™  stopper and a minimum opener.
+her ♠ stopper and a minimum opener.
 
 SOUTH should pass.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-1D 1S X Pass
-1NT Pass Pass Pass
 
 [Event ""]
-{Baker Bidpractice/Set11 14}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set11 14}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "N:JT8.AKQT52.J54.7 AK642.93.T97.982 53.64.Q32.AQJ653 Q97.J87.AK86.KT4"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "2S"]
-[Result ""]
-{With five â™ s EAST bids the suit rather than making a negative double.
-
-WEST knows this shows a 5-card suit so he can support with only three â™ s.
-
-EAST doesn't have anything extra so she passes 2â™ .}
-[BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 2, chOption: E, chBasis: N, basisKind:Declarer, nOption:1, nBasis: 0, nRot: 1, useStandardVul: true"]
+[Vulnerable "NS"]
 [Student "S"]
+[Deal "W:Q97.J87.AK86.KT4 JT.AK642.Q52.QJ7 AK642.93.T97.982 853.QT5.J43.A653"]
 [Auction "W"]
-1D 1H 1S Pass
-2S Pass Pass Pass
+1D 1H 1S pass 2S pass pass pass
+[Result ""]
+{With five ♠s EAST bids the suit rather than making a negative double.
+
+WEST knows this shows a 5-card suit so he can support with only three ♠s.
+
+EAST doesn't have anything extra so she passes 2♠.}
+[BCFlags "1f"]
+[RotationNote "Board 2, chOption: E, chBasis: N, basisKind:Declarer, nOption:1, nBasis: 0, nRot: 1, useStandardVul: true"]
 
 [Event ""]
-{Baker Bidpractice/Set11 15}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set11 15}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:T543.T2.JT932.73 AJ7.K987.KQ76.54 Q8.J64.A5.KQJT98 K962.AQ53.84.A62"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:AJ7.K987.KQ76.54 Q3.T62.AJ.KQJT83 K962.AQ53.84.A62 T854.J4.T9532.97"]
+[Auction "S"]
+1D 2C X pass 2H pass 4H pass pass pass
 [Result ""]
 {NORTH has both Majors and planned on bidding 1
 
-â™¥
+♥
 
 first, (up-the-line).
 
@@ -144,135 +85,107 @@ make a 2-level Negative Double.
 
 SOUTH bids 2
 
-â™¥
+♥
 
 , showing a 4-card suit and minimum opening hand. Notice
 
 that this is not a Reverse by SOUTH, showing extra strength. She is not really bidding
 
-â™¥
+♥
 
 s on her own, she is supporting partner's suit.
 
 NORTH has 13 points so he bids 4
 
-â™¥
+♥
 
 .}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "S"]
-1D 2C X Pass
-2H Pass 4H Pass
-Pass Pass
 
 [Event ""]
-{Baker Bidpractice/Set11 16}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set11 16}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "N:6.AQT52.973.AQ92 AK82.963.JT.8653 T943.KJ4.K542.74 QJ75.87.AQ86.KJT"]
-[Scoring ""]
 [Declarer "W"]
 [Contract "2S"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "W:QJ75.87.AQ86.KJT 64.KQJT4.K43.A97 AK82.963.JT.8653 T93.A52.9752.Q42"]
+[Auction "W"]
+1D 1H X 2H 2S pass pass pass
 [Result ""]
 {EAST has 8 points and she makes a Negative Double of the
 
-â™¥
+♥
 
 overcall
 
-to show exactly four â™ s.
+to show exactly four ♠s.
 
-WEST also has four â™ s so he bids 2â™  at his turn to show a minimum.
+WEST also has four ♠s so he bids 2♠ at his turn to show a minimum.
 
 EAST is happy to pass.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
-[Student "S"]
-[Auction "W"]
-1D 1H X 2H
-2S Pass Pass Pass
 
 [Event ""]
-{Baker Bidpractice/Set11 17}
 [Site ""]
 [Date ""]
 [Board "5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set11 17}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:K.9532.T8762.T85 T2.KQJ76.AQ5.963 AQ97643..J43.A74 J85.AT84.K9.KQJ2"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:T2.KQJ76.AQ5.963 AKQ9743.5.832.54 J85.AT84.K9.KQJ2 6.932.JT764.AT87"]
+[Auction "N"]
+1H 1S 2S pass 3H pass 4H pass pass pass
 [Result ""]
 {SOUTH's Support Cue-bid shows at least Limit Raise strength and
 
-â™¥
+♥
 
 support.
 
 NORTH has a minimum opening bid and can only return to 3
 
-â™¥
+♥
 
 .
 
 SOUTH actually has better than the 12 points he promised, so he now bids 4
 
-â™¥
+♥
 
 .}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 5, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-1H 1S 2S Pass
-3H Pass 4H Pass
-Pass Pass
 
 [Event ""]
-{Baker Bidpractice/Set11 18}
 [Site ""]
 [Date ""]
 [Board "6"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set11 18}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "S:AQJ543.T5.T652.5 862.63.KQ97.AQ82 KT.Q942.AJ8.9763 97.AKJ87.43.KJT4"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "3C"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "E:97.AKJ87.43.KJT4 AQJT53.T5.J65.93 862.63.KQ97.AQ82 K4.Q942.AT82.765"]
+[Auction "E"]
+1H 2S X pass 3C pass pass pass
 [Result ""]
-{WEST has a 11 points with both Minors and she doesn't want to sell out to SOUTH's 2â™ .
+{WEST has a 11 points with both Minors and she doesn't want to sell out to SOUTH's 2♠.
 
 So she makes a Negative Double, effectively bidding both minors at once.
 
-EAST has four â™£s so he bids the suit at the minimum level and WEST passes.}
+EAST has four ♣s so he bids the suit at the minimum level and WEST passes.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 6, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
-[Student "S"]
-[Auction "E"]
-1H 2S X Pass
-3C Pass Pass Pass
 
 [Event ""]
 [Site ""]
@@ -284,15 +197,16 @@ EAST has four â™£s so he bids the suit at the minimum level and WEST passes.
 [South ""]
 [Dealer "S"]
 [Vulnerable "All"]
-[Deal "W:T3.K9652.Q52.K63 KQJ7.T7.A976.AT4 A9854.84.KT3.Q75 62.AQJ3.J84.J982"]
+[Deal "N:KQJ7.T7.A976.AT4 A9543.K652.Q.Q73 62.AQJ3.J84.J982 T8.984.KT532.K65"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -304,15 +218,16 @@ EAST has four â™£s so he bids the suit at the minimum level and WEST passes.
 [South ""]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "N:JT8.AKQT52.J54.7 AK642.93.T97.982 53.64.Q32.AQJ653 Q97.J87.AK86.KT4"]
+[Deal "W:Q97.J87.AK86.KT4 JT.AK642.Q52.QJ7 AK642.93.T97.982 853.QT5.J43.A653"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -324,15 +239,16 @@ EAST has four â™£s so he bids the suit at the minimum level and WEST passes.
 [South ""]
 [Dealer "N"]
 [Vulnerable "EW"]
-[Deal "E:T543.T2.JT932.73 AJ7.K987.KQ76.54 Q8.J64.A5.KQJT98 K962.AQ53.84.A62"]
+[Deal "S:AJ7.K987.KQ76.54 Q3.T62.AJ.KQJT83 K962.AQ53.84.A62 T854.J4.T9532.97"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -344,15 +260,16 @@ EAST has four â™£s so he bids the suit at the minimum level and WEST passes.
 [South ""]
 [Dealer "E"]
 [Vulnerable "All"]
-[Deal "N:6.AQT52.973.AQ92 AK82.963.JT.8653 T943.KJ4.K542.74 QJ75.87.AQ86.KJT"]
+[Deal "W:QJ75.87.AQ86.KJT 64.KQJT4.K43.A97 AK82.963.JT.8653 T93.A52.9752.Q42"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -364,15 +281,16 @@ EAST has four â™£s so he bids the suit at the minimum level and WEST passes.
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:K.9532.T8762.T85 T2.KQJ76.AQ5.963 AQ97643..J43.A74 J85.AT84.K9.KQJ2"]
+[Deal "N:T2.KQJ76.AQ5.963 AKQ9743.5.832.54 J85.AT84.K9.KQJ2 6.932.JT764.AT87"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "5"]
 [VirtualDealer "N"]
 [VirtualVulnerable "NS"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -384,15 +302,16 @@ EAST has four â™£s so he bids the suit at the minimum level and WEST passes.
 [South ""]
 [Dealer "W"]
 [Vulnerable "NS"]
-[Deal "S:AQJ543.T5.T652.5 862.63.KQ97.AQ82 KT.Q942.AJ8.9763 97.AKJ87.43.KJT4"]
+[Deal "E:97.AKJ87.43.KJT4 AQJT53.T5.J65.93 862.63.KQ97.AQ82 K4.Q942.AT82.765"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "6"]
 [VirtualDealer "E"]
 [VirtualVulnerable "EW"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -404,15 +323,16 @@ EAST has four â™£s so he bids the suit at the minimum level and WEST passes.
 [South ""]
 [Dealer "N"]
 [Vulnerable "All"]
-[Deal "W:T3.K9652.Q52.K63 KQJ7.T7.A976.AT4 A9854.84.KT3.Q75 62.AQJ3.J84.J982"]
+[Deal "N:KQJ7.T7.A976.AT4 A9543.K652.Q.Q73 62.AQJ3.J84.J982 T8.984.KT532.K65"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -424,15 +344,16 @@ EAST has four â™£s so he bids the suit at the minimum level and WEST passes.
 [South ""]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "N:JT8.AKQT52.J54.7 AK642.93.T97.982 53.64.Q32.AQJ653 Q97.J87.AK86.KT4"]
+[Deal "W:Q97.J87.AK86.KT4 JT.AK642.Q52.QJ7 AK642.93.T97.982 853.QT5.J43.A653"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -444,15 +365,16 @@ EAST has four â™£s so he bids the suit at the minimum level and WEST passes.
 [South ""]
 [Dealer "S"]
 [Vulnerable "NS"]
-[Deal "E:T543.T2.JT932.73 AJ7.K987.KQ76.54 Q8.J64.A5.KQJT98 K962.AQ53.84.A62"]
+[Deal "S:AJ7.K987.KQ76.54 Q3.T62.AJ.KQJT83 K962.AQ53.84.A62 T854.J4.T9532.97"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -464,15 +386,16 @@ EAST has four â™£s so he bids the suit at the minimum level and WEST passes.
 [South ""]
 [Dealer "W"]
 [Vulnerable "EW"]
-[Deal "N:6.AQT52.973.AQ92 AK82.963.JT.8653 T943.KJ4.K542.74 QJ75.87.AQ86.KJT"]
+[Deal "W:QJ75.87.AQ86.KJT 64.KQJT4.K43.A97 AK82.963.JT.8653 T93.A52.9752.Q42"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -484,15 +407,16 @@ EAST has four â™£s so he bids the suit at the minimum level and WEST passes.
 [South ""]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:K.9532.T8762.T85 T2.KQJ76.AQ5.963 AQ97643..J43.A74 J85.AT84.K9.KQJ2"]
+[Deal "N:T2.KQJ76.AQ5.963 AKQ9743.5.832.54 J85.AT84.K9.KQJ2 6.932.JT764.AT87"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "5"]
 [VirtualDealer "N"]
 [VirtualVulnerable "NS"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -504,15 +428,16 @@ EAST has four â™£s so he bids the suit at the minimum level and WEST passes.
 [South ""]
 [Dealer "E"]
 [Vulnerable "NS"]
-[Deal "S:AQJ543.T5.T652.5 862.63.KQ97.AQ82 KT.Q942.AJ8.9763 97.AKJ87.43.KJT4"]
+[Deal "E:97.AKJ87.43.KJT4 AQJT53.T5.J65.93 862.63.KQ97.AQ82 K4.Q942.AT82.765"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "6"]
 [VirtualDealer "E"]
 [VirtualVulnerable "EW"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -524,15 +449,16 @@ EAST has four â™£s so he bids the suit at the minimum level and WEST passes.
 [South ""]
 [Dealer "S"]
 [Vulnerable "EW"]
-[Deal "W:T3.K9652.Q52.K63 KQJ7.T7.A976.AT4 A9854.84.KT3.Q75 62.AQJ3.J84.J982"]
+[Deal "N:KQJ7.T7.A976.AT4 A9543.K652.Q.Q73 62.AQJ3.J84.J982 T8.984.KT532.K65"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -544,15 +470,16 @@ EAST has four â™£s so he bids the suit at the minimum level and WEST passes.
 [South ""]
 [Dealer "W"]
 [Vulnerable "All"]
-[Deal "N:JT8.AKQT52.J54.7 AK642.93.T97.982 53.64.Q32.AQJ653 Q97.J87.AK86.KT4"]
+[Deal "W:Q97.J87.AK86.KT4 JT.AK642.Q52.QJ7 AK642.93.T97.982 853.QT5.J43.A653"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -564,15 +491,16 @@ EAST has four â™£s so he bids the suit at the minimum level and WEST passes.
 [South ""]
 [Dealer "N"]
 [Vulnerable "NS"]
-[Deal "E:T543.T2.JT932.73 AJ7.K987.KQ76.54 Q8.J64.A5.KQJT98 K962.AQ53.84.A62"]
+[Deal "S:AJ7.K987.KQ76.54 Q3.T62.AJ.KQJT83 K962.AQ53.84.A62 T854.J4.T9532.97"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -584,15 +512,16 @@ EAST has four â™£s so he bids the suit at the minimum level and WEST passes.
 [South ""]
 [Dealer "E"]
 [Vulnerable "EW"]
-[Deal "N:6.AQT52.973.AQ92 AK82.963.JT.8653 T943.KJ4.K542.74 QJ75.87.AQ86.KJT"]
+[Deal "W:QJ75.87.AQ86.KJT 64.KQJT4.K43.A97 AK82.963.JT.8653 T93.A52.9752.Q42"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -604,15 +533,16 @@ EAST has four â™£s so he bids the suit at the minimum level and WEST passes.
 [South ""]
 [Dealer "S"]
 [Vulnerable "All"]
-[Deal "W:K.9532.T8762.T85 T2.KQJ76.AQ5.963 AQ97643..J43.A74 J85.AT84.K9.KQJ2"]
+[Deal "N:T2.KQJ76.AQ5.963 AKQ9743.5.832.54 J85.AT84.K9.KQJ2 6.932.JT764.AT87"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "5"]
 [VirtualDealer "N"]
 [VirtualVulnerable "NS"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -624,15 +554,16 @@ EAST has four â™£s so he bids the suit at the minimum level and WEST passes.
 [South ""]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "S:AQJ543.T5.T652.5 862.63.KQ97.AQ82 KT.Q942.AJ8.9763 97.AKJ87.43.KJT4"]
+[Deal "E:97.AKJ87.43.KJT4 AQJT53.T5.J65.93 862.63.KQ97.AQ82 K4.Q942.AT82.765"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "6"]
 [VirtualDealer "E"]
 [VirtualVulnerable "EW"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -644,15 +575,16 @@ EAST has four â™£s so he bids the suit at the minimum level and WEST passes.
 [South ""]
 [Dealer "N"]
 [Vulnerable "EW"]
-[Deal "W:T3.K9652.Q52.K63 KQJ7.T7.A976.AT4 A9854.84.KT3.Q75 62.AQJ3.J84.J982"]
+[Deal "N:KQJ7.T7.A976.AT4 A9543.K652.Q.Q73 62.AQJ3.J84.J982 T8.984.KT532.K65"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -664,15 +596,16 @@ EAST has four â™£s so he bids the suit at the minimum level and WEST passes.
 [South ""]
 [Dealer "E"]
 [Vulnerable "All"]
-[Deal "N:JT8.AKQT52.J54.7 AK642.93.T97.982 53.64.Q32.AQJ653 Q97.J87.AK86.KT4"]
+[Deal "W:Q97.J87.AK86.KT4 JT.AK642.Q52.QJ7 AK642.93.T97.982 853.QT5.J43.A653"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -684,15 +617,16 @@ EAST has four â™£s so he bids the suit at the minimum level and WEST passes.
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "E:T543.T2.JT932.73 AJ7.K987.KQ76.54 Q8.J64.A5.KQJT98 K962.AQ53.84.A62"]
+[Deal "S:AJ7.K987.KQ76.54 Q3.T62.AJ.KQJT83 K962.AQ53.84.A62 T854.J4.T9532.97"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -704,15 +638,16 @@ EAST has four â™£s so he bids the suit at the minimum level and WEST passes.
 [South ""]
 [Dealer "W"]
 [Vulnerable "NS"]
-[Deal "N:6.AQT52.973.AQ92 AK82.963.JT.8653 T943.KJ4.K542.74 QJ75.87.AQ86.KJT"]
+[Deal "W:QJ75.87.AQ86.KJT 64.KQJT4.K43.A97 AK82.963.JT.8653 T93.A52.9752.Q42"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -724,15 +659,16 @@ EAST has four â™£s so he bids the suit at the minimum level and WEST passes.
 [South ""]
 [Dealer "N"]
 [Vulnerable "All"]
-[Deal "W:K.9532.T8762.T85 T2.KQJ76.AQ5.963 AQ97643..J43.A74 J85.AT84.K9.KQJ2"]
+[Deal "N:T2.KQJ76.AQ5.963 AKQ9743.5.832.54 J85.AT84.K9.KQJ2 6.932.JT764.AT87"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "5"]
 [VirtualDealer "N"]
 [VirtualVulnerable "NS"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -744,15 +680,16 @@ EAST has four â™£s so he bids the suit at the minimum level and WEST passes.
 [South ""]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "S:AQJ543.T5.T652.5 862.63.KQ97.AQ82 KT.Q942.AJ8.9763 97.AKJ87.43.KJT4"]
+[Deal "E:97.AKJ87.43.KJT4 AQJT53.T5.J65.93 862.63.KQ97.AQ82 K4.Q942.AT82.765"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "6"]
 [VirtualDealer "E"]
 [VirtualVulnerable "EW"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -764,15 +701,16 @@ EAST has four â™£s so he bids the suit at the minimum level and WEST passes.
 [South ""]
 [Dealer "S"]
 [Vulnerable "NS"]
-[Deal "W:T3.K9652.Q52.K63 KQJ7.T7.A976.AT4 A9854.84.KT3.Q75 62.AQJ3.J84.J982"]
+[Deal "N:KQJ7.T7.A976.AT4 A9543.K652.Q.Q73 62.AQJ3.J84.J982 T8.984.KT532.K65"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -784,15 +722,16 @@ EAST has four â™£s so he bids the suit at the minimum level and WEST passes.
 [South ""]
 [Dealer "W"]
 [Vulnerable "EW"]
-[Deal "N:JT8.AKQT52.J54.7 AK642.93.T97.982 53.64.Q32.AQJ653 Q97.J87.AK86.KT4"]
+[Deal "W:Q97.J87.AK86.KT4 JT.AK642.Q52.QJ7 AK642.93.T97.982 853.QT5.J43.A653"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -804,15 +743,16 @@ EAST has four â™£s so he bids the suit at the minimum level and WEST passes.
 [South ""]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "E:T543.T2.JT932.73 AJ7.K987.KQ76.54 Q8.J64.A5.KQJT98 K962.AQ53.84.A62"]
+[Deal "S:AJ7.K987.KQ76.54 Q3.T62.AJ.KQJT83 K962.AQ53.84.A62 T854.J4.T9532.97"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -824,15 +764,16 @@ EAST has four â™£s so he bids the suit at the minimum level and WEST passes.
 [South ""]
 [Dealer "E"]
 [Vulnerable "NS"]
-[Deal "N:6.AQT52.973.AQ92 AK82.963.JT.8653 T943.KJ4.K542.74 QJ75.87.AQ86.KJT"]
+[Deal "W:QJ75.87.AQ86.KJT 64.KQJT4.K43.A97 AK82.963.JT.8653 T93.A52.9752.Q42"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -844,15 +785,16 @@ EAST has four â™£s so he bids the suit at the minimum level and WEST passes.
 [South ""]
 [Dealer "S"]
 [Vulnerable "EW"]
-[Deal "W:K.9532.T8762.T85 T2.KQJ76.AQ5.963 AQ97643..J43.A74 J85.AT84.K9.KQJ2"]
+[Deal "N:T2.KQJ76.AQ5.963 AKQ9743.5.832.54 J85.AT84.K9.KQJ2 6.932.JT764.AT87"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "5"]
 [VirtualDealer "N"]
 [VirtualVulnerable "NS"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -864,12 +806,14 @@ EAST has four â™£s so he bids the suit at the minimum level and WEST passes.
 [South ""]
 [Dealer "W"]
 [Vulnerable "All"]
-[Deal "S:AQJ543.T5.T652.5 862.63.KQ97.AQ82 KT.Q942.AJ8.9763 97.AKJ87.43.KJT4"]
+[Deal "E:97.AKJ87.43.KJT4 AQJT53.T5.J65.93 862.63.KQ97.AQ82 K4.Q942.AT82.765"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "6"]
 [VirtualDealer "E"]
 [VirtualVulnerable "EW"]
+[BlockNumber "6"]
+

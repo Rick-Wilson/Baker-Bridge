@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:07:48 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",10,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker 100NT 25}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 25}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:K63.KT63.763.972 J94.875.AQJ2.K63 752.QJ94.854.A85 AQT8.A2.KT9.QJT4"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AQT8.A2.KT9.QJT4 K63.KT63.763.972 J94.875.AQJ2.K63 752.QJ94.854.A85"]
+[Auction "N"]
+1NT pass 3NT pass pass pass
 [Result ""]
 {Partner has about 11 points and he has no 4-card Major suit.
 
@@ -74,30 +29,22 @@ So win the \HA and drive out the \CA. They will take their 2 \H tricks next. If 
 
 While the answer may depend on the opponent, usually you should take their opening lead at face value. After all, their main goal is to give information to their partner, not to deceive you. }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 3NT Pass
-Pass Pass
-[Play "E"]
-H3
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]H3
 
 [Event ""]
-{Baker 100NT 26}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 26}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:K974.JT43.Q76.T8 8.AK8652.KT3.J74 QJT52.Q.A952.953 A63.97.J84.AKQ62"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:8.AK8652.KT3.J74 QJT52.Q.A952.953 A63.97.J84.AKQ62 K974.JT43.Q76.T8"]
+[Auction "S"]
+1NT pass 2D pass 2H pass 4H pass pass pass
 [Result ""]
 {Who knows whether you should use a transfer or just bid 4\H yourself. Assume you decide on the transfer and bid 2\D. Partner bids 2\H (of course). What do you say now? 
 
@@ -123,31 +70,22 @@ The exception is when you have a long suit you wish to run and you can't stand t
 
 This Deal is unusual in that there are two master trumps, but the principle is the same.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2D Pass
-2H Pass 4H Pass
-Pass Pass
-[Play "W"]
-SQ
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]SQ
 
 [Event ""]
-{Baker 100NT 27}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 27}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:KT6.JT76.A65.Q75 82.Q9.J73.J98632 QJ953.K43.K82.T4 A74.A852.QT94.AK"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3C"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "N:A74.A852.QT94.AK KT6.JT76.A65.Q75 82.Q9.J73.J98632 QJ953.K43.K82.T4"]
+[Auction "N"]
+1NT pass 2S pass 3C pass pass pass
 [Result ""]
 {The 2\S bid is used as a transfer to 3\C.
 
@@ -167,30 +105,22 @@ The real reason for covering was so you could establish the \H8 by force.
 
 Suppose you had not played the \HQ to trick one. West would have withheld the \HK and you'd have had to take your \HA. Later West would have taken dummy's \HQ with his \HK, then played a small \H through your \H8 to East's \H T 7.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2S Pass
-3C Pass Pass Pass
-[Play "E"]
-HJ
+[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]HJ
 
 [Event ""]
-{Baker 100NT 28}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 28}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:2.JT9.J863.87542 AKJ73.843.A54.K9 964.K652.T7.QJT3 QT85.AQ7.KQ92.A6"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "6S"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "S:AKJ73.843.A54.K9 964.K652.T7.QJT3 QT85.AQ7.KQ92.A6 2.JT9.J863.87542"]
+[Auction "S"]
+1NT pass 2H pass 3S pass 6S pass pass pass
 [Result ""]
 {You could either use a transfer or you could jump to 3\S. You decide on the transfer and bid 2\H. Partner jumps to 3\S! What do you say now? 
 
@@ -216,12 +146,6 @@ Your contract just became a sure thing!Play the \CK to strip both your hands of 
 
 But imagine that the \DJ is transposed to the East hand. He wins that \D trick but must give you the contract with his return.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2H Pass
-3S Pass 6S Pass
-Pass Pass
-[Play "W"]
-CQ
+[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]CQ
+

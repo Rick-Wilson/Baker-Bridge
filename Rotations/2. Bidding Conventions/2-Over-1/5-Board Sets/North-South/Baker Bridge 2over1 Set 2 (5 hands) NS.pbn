@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 20:49:16 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker 2over1 6}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 2over1 6}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "W:Q983.64.JT82.K65 65.AQ953.KQ63.Q9 K2.J82.74.AJT843 AJT74.KT7.A95.72"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:Q.J84.JT2.KJT543 AJT74.KT7.A95.72 K9832.62.874.A86 65.AQ953.KQ63.Q9"]
+[Auction "E"]
+pass 1S pass 2H pass 3H pass 4H pass pass pass
 [Result ""]
 {South opens 1\S and North, with 14 points, responds 2\H. Note that North is not permitted to make this bid without a 5-card or longer \H suit.
 
@@ -66,29 +21,21 @@ North has a minimum strength hand with no slam aspirations, so he uses Fast Arri
 
 2/1 is a good bidding method, and here, 4\H is a good contract. But you can see that it is not a laydown - there is no bidding system that will always reach T0% contracts. In this hand a 3-3 \D split will provide the Tth trick, or if that fails, taking 2 \S finesses provides a 75% chance of success.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "E"]
-Pass 1S Pass 2H
-Pass 3H Pass 4H
-Pass Pass Pass
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker 2over1 7}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 2over1 7}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:QJT4.Q42.A93.975 AK9652.T983.4.A8 83.J6.QJT85.J432 7.AK75.K762.KQT6"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:AK9652.T983.4.A8 JT8.Q2.AJ953.543 7.AK75.K762.KQT6 Q43.J64.QT8.J972"]
+[Auction "S"]
+1S pass 2C pass 2H pass 3H pass 4H pass pass pass
 [Result ""]
 {South has 13 points and naturally opens 1\S.
 
@@ -98,29 +45,21 @@ South has a nice 6-card \S suit, so you might think he would rebid them. But Ope
 
 You can see why it is important for Opener to show a 4-card Major. Since North couldn't bid \Hs in her first response the fit would have been lost if South had not mentioned the suit. North now confirms the trump suit with a 3\H bid, and South shows his minimum by just bidding the game.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1S Pass 2C Pass
-2H Pass 3H Pass
-4H Pass Pass Pass
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
 
 [Event ""]
-{Baker 2over1 8}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 2over1 8}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:JT64.762.K93.A54 AK92.AQ983.85.86 Q3.JT5.642.QJT32 875.K4.AQJT7.K97"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:AK92.AQ983.85.86 QJT6.JT5.942.QJ5 875.K4.AQJT7.K97 43.762.K63.AT432"]
+[Auction "S"]
+1H pass 2D pass 2S pass 2NT pass 3NT pass pass pass
 [Result ""]
 {South opens 1\H, his 5-card Major. North, with 14 points, naturally responds 2\D, forcing the partnership to game.
 
@@ -130,29 +69,21 @@ North assumes South to be 4-5 in the Majors, so she cannot support either. She b
 
 South does not have either 6 \Hs or 5 \Ss so he just bids 3NT. Notice that South never once considered the possibility of passing what might be a misfit - the initial 2/1 response unconditionally forced the partnership to reach a game somewhere.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1H Pass 2D Pass
-2S Pass 2NT Pass
-3NT Pass Pass Pass
+[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
 
 [Event ""]
-{Baker 2over1 9}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 2over1 9}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:JT65.652.AQ83.85 A9742.A983.K6.Q7 Q3.KQ4.JT42.T943 K8.JT7.975.AKJ62"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "S:A9742.A983.K6.Q7 J.Q64.AJ843.T984 K8.JT7.975.AKJ62 QT653.K52.QT2.53"]
+[Auction "S"]
+1S pass 2C pass 2H pass 3D pass 3NT pass pass pass
 [Result ""]
 {South opens 1\S, his 5-card Major. North, with 14 points, responds 2\C, a 2/1 force to game.
 
@@ -162,29 +93,21 @@ North assumes South to be 5-4 in the Majors, so she cannot support either. She c
 
 South now must find a bid. His choices include rebidding the 5-card \Ss, supporting North's \Cs with a doubleton Queen, or bidding 3NT with the \D K 6 as a stopper. He chooses this last option. It appears that 3NT is the best game for these two hands.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1S Pass 2C Pass
-2H Pass 3D Pass
-3NT Pass Pass Pass
+[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
 
 [Event ""]
-{Baker 2over1 10}
 [Site ""]
 [Date ""]
 [Board "5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 2over1 10}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:T952.92.AT75.K43 A4.KJT8653.KQ.87 Q8.4.J9632.T9652 KJ763.AQ7.84.AQJ"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:KJ763.AQ7.84.AQJ T9852.942.T5.KT6 A4.KJT8653.KQ.87 Q..AJ97632.95432"]
+[Auction "S"]
+1S pass 2H pass 3H pass 3S pass 4C pass 4NT pass 5H pass 6H all pass
 [Result ""]
 {South opens 1\S, her 5-card Major and North responds 2\H. South knows this is a 5-card suit, and bids 3\H, confirming the 8+card trump fit.
 
@@ -196,12 +119,5 @@ That was what North needed to hear; when Blackwood uncovers two Aces he bids 6\H
 
 The slam is a good one. If either the \SQ or \CK is right there are 12 tricks by way of a finesse. But the best way to play the hand would be to try to establish a \S in the South hand, and if that fails try the \C finesse.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 5, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1S Pass 2H Pass
-3H Pass 3S Pass
-4C Pass 4NT Pass
-5H Pass 6H ALL
-Pass
+[RotationNote "Board 5, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+

@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:02:01 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker Establishment 11}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Establishment 11}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:JT4.83.Q972.KQJT 86532.AKJ5.65.83 AK97.42.KT84.965 Q.QT976.AJ3.A742"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:Q.QT976.AJ3.A742 JT4.83.Q972.KQJT 86532.AKJ5.65.83 AK97.42.KT84.965"]
+[Auction "N"]
+1H pass 3H pass 4H pass pass pass
 [Result ""]
 {North is to play 4\H. East leads the \CK.
 
@@ -70,30 +25,22 @@ Whichever minor suit the defense plays next you ruff in dummy, then ruff the fou
 
 But that was your best shot.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-1H Pass 3H Pass
-4H Pass Pass Pass
-[Play "E"]
-CK
+[Play "W"]CK
 
 [Event ""]
-{Baker Establishment 12}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Establishment 12}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "S:J963.J2.QJT76.84 875.K8753.AK5.T2 QT4.QT96.932.763 AK2.A4.84.AKQJ95"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "7C"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "E:AK2.A4.84.AKQJ95 J963.J2.QJT76.84 875.K8753.AK5.T2 QT4.QT96.932.763"]
+[Auction "E"]
+2C pass 2H pass 3C pass 3NT pass 4NT pass 5D pass 5NT pass 6H pass 7C pass pass pass
 [Result ""]
 {East is to play 7\C. South leads the \DQ.
 
@@ -107,33 +54,22 @@ That extra entry can only be the \CT so you must delay pulling trumps until afte
 
 And if they had split 3-3 this Plan would still have worked.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
-[Student "S"]
-[Auction "E"]
-2C Pass 2H Pass
-3C Pass 3NT Pass
-4NT Pass 5D Pass
-5NT Pass 6H Pass
-7C Pass Pass Pass
-[Play "S"]
-DQ
+[Play "W"]DQ
 
 [Event ""]
-{Baker Establishment 13}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Establishment 13}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:QT64.J82.K84.Q83 83.75.AQT62.AK74 J97.QT96.J9.JT62 AK52.AK43.753.95"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:83.75.AQT62.AK74 J97.QT96.J9.JT62 AK52.AK43.753.95 QT64.J82.K84.Q83"]
+[Auction "N"]
+1D pass 1H pass 2C pass 3NT pass pass pass
 [Result ""]
 {South is to play 3NT. West leads the \S4.
 
@@ -149,31 +85,22 @@ Again don't hold up. Take the \SK and lead another small \D, finessing with dumm
 
 If looked different because of the two finesses you took.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-1D Pass 1H Pass
-2C Pass 3NT Pass
-Pass Pass
-[Play "W"]
-S4
+[Play "W"]S4
 
 [Event ""]
-{Baker Establishment 14}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Establishment 14}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "N:JT642.KJ8.T73.K2 97.43.8652.A8653 A85.QT96.QJ9.T74 KQ3.A752.AK4.QJ9"]
-[Scoring ""]
 [Declarer "W"]
 [Contract "3NT"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "E:97.43.8652.A8653 A85.QT96.QJ9.T74 KQ3.A752.AK4.QJ9 JT642.KJ8.T73.K2"]
+[Auction "E"]
+pass pass 1C pass 2C pass 3NT pass pass pass
 [Result ""]
 {West is to play 3NT. North leads the \S4. South puts on the \SA and returns the \S8.
 
@@ -187,31 +114,22 @@ You DUCK. If you take the \CA now you will never get back to dummy to enjoy thos
 
 North's play of the \CK may have made you want to jump up with the \CA, but you must stick to the original play of ducking one trick.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
-[Student "S"]
-[Auction "E"]
-Pass Pass 1C Pass
-2C Pass 3NT Pass
-Pass Pass
-[Play "N"]
-S4
+[Play "W"]S4
 
 [Event ""]
-{Baker Establishment 15}
 [Site ""]
 [Date ""]
 [Board "5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Establishment 15}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:KT82.KT4.872.KJ7 754.AQ875.963.84 J96.J92.QJT.T932 AQ3.63.AK54.AQ65"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:754.AQ875.963.84 J96.J92.QJT.T932 AQ3.63.AK54.AQ65 KT82.KT4.872.KJ7"]
+[Auction "S"]
+pass pass 1D pass 1H pass 2NT pass 3NT pass pass pass
 [Result ""]
 {North is to play 3NT. East leads the \S2. West puts on the \SJ.
 
@@ -225,12 +143,6 @@ Win the first trick with your \SQ and play a low \H, ducking in dummy. West will
 
 But, it is your only chance to make the contract.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "S"]
-Pass Pass 1D Pass
-1H Pass 2NT Pass
-3NT Pass Pass Pass
-[Play "E"]
-S2
+[Play "W"]S2
+

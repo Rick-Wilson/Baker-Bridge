@@ -1,0 +1,279 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:08:57 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",10,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker 100NT 26}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:K974.JT43.Q76.T8 8.AK8652.KT3.J74 QJT52.Q.A952.953 A63.97.J84.AKQ62"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4H"]
+[Result ""]
+{Who knows whether you should use a transfer or just bid 4\H yourself. Assume you decide on the transfer and bid 2\D. Partner bids 2\H (of course). What do you say now? 
+
+Who knows whether you should use a transfer or just bid 4\H yourself. Assume you decide on the transfer and bid 2\D. Partner bids 2\H (of course). What do you say now?
+
+Naturally you go ahead and bid 4\H, the final contract.
+
+The contract would be 4\H played by North.
+
+To make South the declarer  ROTATE. 
+
+South plays 4\H. West leads the \SQ and East follows with the \S9.
+
+You win the first trick with the \SA.
+
+The loser count is very confused, but that \C suit is not confused at all. You want to be able to run the \Cs so your plan is to play the \H A K, and if both defenders follow go ahead and knock out the last \H so they can't ruff your \C tricks.
+
+Unfortunately when you play \H A K, West plays the \HQ, then discards a \S. 
+
+You may think you should change your plan but you should go right ahead with it. East has two master trumps, but dummy still has 4 small ones. So play a \H to force out East's \HT. He will no doubt play another \S and force dummy to ruff. No problem, knock out East's final \H and dummy will still have one tiny trump left. When you get back in you can run the \Cs unimpeded.
+
+The exception is when you have a long suit you wish to run and you can't stand to have the running stopped by a ruff.
+
+This Deal is unusual in that there are two master trumps, but the principle is the same.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1NT Pass 2D Pass
+2H Pass 4H Pass
+Pass Pass
+[Play "E"]
+SQ
+
+[Event ""]
+{Baker 100NT 27}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:KT6.JT76.A65.Q75 82.Q9.J73.J98632 QJ953.K43.K82.T4 A74.A852.QT94.AK"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3C"]
+[Result ""]
+{The 2\S bid is used as a transfer to 3\C.
+
+If you don't use this in your system, just consider this hand; you might decide to incorporate it. So you bid 3\C and everybody passes.
+
+West leads the \HJ.
+
+You play dummy's \HQ hopefully, but East plays the \HK.
+
+That is one loser too many. The \CQ MIGHT drop . . . but she won't. There are no finesse positions. So you are going to have to establish a winner somewhere to discard dummy's small \S. 
+
+Do you see it? The \H8. Take the \HA. Then play your \C A K. As predicted, the \CQ doesn't fall. Then play a small \H to dummy's \H9. Of course West will take the \HT, but now your \H8 is high.
+
+As soon as you get the lead you play the \H8 and discard dummy's \S2. 
+
+The real reason for covering was so you could establish the \H8 by force.
+
+Suppose you had not played the \HQ to trick one. East would have withheld the \HK and you'd have had to take your \HA. Later East would have taken dummy's \HQ with his \HK, then played a small \H through your \H8 to West's \H T 7.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT Pass 2S Pass
+3C Pass Pass Pass
+[Play "W"]
+HJ
+
+[Event ""]
+{Baker 100NT 28}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:2.JT9.J863.87542 AKJ73.843.A54.K9 964.K652.T7.QJT3 QT85.AQ7.KQ92.A6"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "6S"]
+[Result ""]
+{You could either use a transfer or you could jump to 3\S. You decide on the transfer and bid 2\H. Partner jumps to 3\S! What do you say now? 
+
+You could either use a transfer or you could jump to 3\S. You decide on the transfer and bid 2\H. Partner jumps to 3\S! What do you say now?
+
+The 3\S bid is a "Super-accept", showing a maximum 1NT opener, 4 \Ss and a doubleton. In other words, partner's hand has revalued to 18 points. So you bid 6\S (or you could ask for Aces instead).
+
+The contract would be 6\S played by North.
+
+To make South the declarer  ROTATE. 
+
+South plays 6\S. West leads the \CQ, East follows with the \C2.
+
+You win the first trick with the \CA in your hand.
+
+There are two obvious possibilities for avoiding the \H loser. You could finesse East for the \HK; this is a 50% chance. The \Ds could split 3-3; this is a 36% chance.
+
+In fact, your chances are better than either of those percentages because you can try the \Ds first, and if they DON'T split you can then try the \H finesse. 
+
+Pull trumps; West shows up with 3 trumps. Play the \DK, then a small \D to dummy's \DA. On this trick West follows with the \DT.  
+
+Your contract just became a sure thing!Play the \CK to strip both your hands of \Cs. Lead dummy's last \D,  and when East plays low, finesse the \D9. If the finesse wins, discard a \H from dummy on your good \D. But if the finesse loses to West's \DJ, he will be endplayed and have to lead a \H into your \H A Q or give you a ruff/sluff with a \C. And on top of that your fourth \D will be good. 
+
+But imagine that the \DJ is transposed to the West hand. He wins that \D trick but must give you the contract with his return.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 3, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1NT Pass 2H Pass
+3S Pass 6S Pass
+Pass Pass
+[Play "E"]
+CQ
+
+[Event ""]
+{Baker 100NT 29}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:Q92.KQJ975.KQ3.6 873.62.754.AKQ53 JT54.84.JT96.J82 AK6.AT3.A82.T974"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{Partner's jump to 3NT is a lebensohl method.
+
+He is describing a hand with which he would have bid 3NT if there had been no overcall. But he is warning you that he DOES NOT HAVE a \H stopper!
+
+Since you DO have a \H stopper you decide to pass and play 3NT.
+
+You hold up your \HA until the third round.
+
+You need two more winners. Barring a 4-0 \C split your two extra winners will be the \C5 and \C3.
+
+So after winning the \HA, you play a \C to dummy's \CQ and breathe a sigh of relief when both defenders follow suit. 
+
+UhOh. Surely you didn't play your \C4 to dummy's \CQ???
+
+If you did then just look at the situation now. If the \CJ doesn't fall on the next trick the suit will be blocked. Now go back in time and play the \CT to dummy's \CQ. 
+
+That's better. Now under the \C A K you can unblock the \C 9 7, which will leave you with the \C4 to slip under dummy's \C5.
+
+}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT 2H 3NT Pass
+Pass Pass
+[Play "W"]
+HK
+
+[Event ""]
+{Baker 100NT 30}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:6.Q98532.QT.AJ63 KQJ953.KJ7.62.84 T87.T4.K975.KT95 A42.A6.AJ843.Q72"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4S"]
+[Result ""]
+{You decide to use a transfer so the lead will be into whatever holding partner has in the minor suits. You bid 2\H and partner bids  2\S. What do you say now? 
+
+You decide to use a transfer so the lead will be into whatever holding partner has in the minor suits. You bid 2\H and partner bids  2\S. What do you say now?
+
+You are nowhere near strong enough to be thinking of slam so you bid 4\S.
+
+The contract would be 4\S played by North.
+
+To make South the declarer  ROTATE. 
+
+South plays 4\S. West leads the \CT. East wins the \CA. They continue  \Cs and you ruff the third one in dummy.
+
+Those losers are based on dummy's hand, not yours. You can figure them either way but it is usually easier to determine losers based on the long-trump hand. It's important to remember it in this Deal because the zero losers in \Hs assumes you will ruff a \H in your hand. 
+
+Pull one round of trumps with dummy's \SK. Both defenders follow suit. Play the \HA, then \H6 to dummy's \HK. On this trick West follows with the \HT.  
+
+The Plan is still the same, you will ruff the \H in your hand, but you better be sure to ruff with your \SA. Aha! Your precaution pays off when West shows out of \Hs, but of course he cannot over-ruff your \SA.
+
+When you are ruffing, ruff with as high a trump as you can afford.
+
+Here, with only 2 trumps left out, you can afford the \SA.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 5, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1NT Pass 2H Pass
+2S Pass 4S Pass
+Pass Pass
+[Play "E"]
+CT

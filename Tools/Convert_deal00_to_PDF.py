@@ -3,9 +3,10 @@ import os
 from bs4 import BeautifulSoup
 from weasyprint import HTML
 
-# Define source and destination folders
-source_root = '/Users/rick/Documents/Bridge/Baker Bridge/Website/Baker Bridge/bakerbridge.coffeecup.com'
-dest_folder = '/Users/rick/Documents/Bridge/Baker Bridge/Tools/pdfs'
+# Define source and destination folders (relative to script location in Tools/)
+script_dir = os.path.dirname(os.path.abspath(__file__))
+source_root = os.path.join(script_dir, '..', 'Website', 'Baker Bridge', 'bakerbridge.coffeecup.com')
+dest_folder = os.path.join(script_dir, 'pdfs')
 
 # Create destination folder if it doesn't exist
 os.makedirs(dest_folder, exist_ok=True)

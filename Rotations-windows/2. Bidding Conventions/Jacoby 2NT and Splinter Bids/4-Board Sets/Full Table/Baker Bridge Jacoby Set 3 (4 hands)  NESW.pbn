@@ -1,0 +1,168 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:50:50 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Jacoby 9}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:KJ85.62.9642.962 3.QT95.AQ3.KJT83 AQ762.73.875.754 T94.AKJ84.KJT.AQ"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "6H"]
+[Result ""]
+{It is your bid. 
+
+Partner's 3\S bid is a Splinter, showing a singleton \S, good trump support, and 13-16 points. You bid your first-round \C control, and partner replies with 4\D. What do you bid next? 
+
+There isn't really anything else you want to know. You think you can make slam so you bid 6\H.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+1H Pass 3S Pass
+4C Pass 4D Pass
+6H Pass Pass Pass
+
+[Event ""]
+{Baker Jacoby 10}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:98754.82.A76.QJ4 K3.KJT974.KQ5.A9 JT.6.T432.K86532 AQ62.AQ53.J98.T7"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "6H"]
+[Result ""]
+{It is your bid. 
+
+You have a perfect Jacoby 2NT raise. Partner's rebid is 3\H. What is your next bid? 
+
+When partner shows an above average opener it is your duty to make a control bid if you can. So you bid 3\S. Partner now bids 4NT and it is your turn. 
+
+This is Blackwood. You respond 5\H for two Aces and partner bids the slam.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 2, chOption: E, chBasis: N, basisKind:Declarer, nOption:1, nBasis: 0, nRot: 1, useStandardVul: true"]
+[Student "S"]
+[Auction "E"]
+1H Pass 2NT Pass
+3H Pass 3S Pass
+4NT Pass 5H Pass
+6H Pass Pass Pass
+
+[Event ""]
+{Baker Jacoby 11}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:T.JT872.QJ943.Q5 AQ63.A9.T87.A964 4.654.652.KJT732 KJ98752.KQ3.AK.8"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "7NT"]
+[Result ""]
+{It is your bid. 
+
+Partner has at least opening hand and he has 4 \Ss. There is only one thing you need to know - how many Aces he has. You bid Blackwood 4NT and he responds 5\S. What is your next bid? 
+
+The three Aces does it for you. You can count 7 \S tricks, 3 \H tricks, 2 \D tricks and 1 \C. That is 13 total so you go ahead and bid 7NT.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+1S Pass 2NT Pass
+4NT Pass 5S Pass
+7NT Pass Pass Pass
+
+[Event ""]
+{Baker Jacoby 12}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "S:KJT3.42.J643.QT2 765.AJT96.KQ.A65 AQ842.73.T85.J98 9.KQ85.A972.K743"]
+[Scoring ""]
+[Declarer "W"]
+[Contract "6H"]
+[Result ""]
+{It is your bid. 
+
+You have an opening hand with four of partner's Major suit so naturally you want to force to game. Although you could bid a Jacoby 2NT, the presence of the singleton \S makes a Splinter Bid more attractive. So you double-jump to 3\S. Partner now bids 4\C. What do you say next? 
+
+Partner's 4\C bid is control showing, and indicates he is thinking slammish. You bid 4\D showing your control and partner bids 6\H.
+
+As you can see, West should make 12 tricks by discarding one \C loser on your \DA.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 4, chOption: W, chBasis: N, basisKind:Declarer, nOption:3, nBasis: 0, nRot: 3, useStandardVul: true"]
+[Student "S"]
+[Auction "W"]
+1H Pass 3S Pass
+4C Pass 4D Pass
+6H Pass Pass Pass

@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:07:38 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",10,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker 100NT 89}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 89}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:KJT.Q7.QJ9.KJ963 A7542.653.T65.84 Q8.JT984.K872.QT 963.AK2.A43.A752"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "1NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:A7542.653.T65.84 Q8.JT984.K872.QT 963.AK2.A43.A752 KJT.Q7.QJ9.KJ963"]
+[Auction "N"]
+1NT pass pass pass
 [Result ""]
 {Here is the question. Is 2\S a better contract than 1NT? If so, you should transfer partner, then pass. If not, you should just pass now. With just a 5-card suit, and with no singleton, pass is probably better.
 
@@ -80,29 +35,22 @@ You win the \CA and take the \DA and the 3 good \Ss in dummy. The 4 high cards f
 
 But since they may be right you need to be on the lookout for ducking plays because one entry in dummy may be all you are going to have.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass Pass Pass
-[Play "E"]
-HJ
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+[Play "E"]HJ
 
 [Event ""]
-{Baker 100NT 90}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 90}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "E:974.JT72.9643.72 85.Q65.Q82.A9863 KQJ63.K94.KJT.T5 AT2.A83.A75.KQJ4"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "W:KQJ63.K94.KJT.T5 AT2.A83.A75.KQJ4 974.JT72.9643.72 85.Q65.Q82.A9863"]
+[Auction "W"]
+1S pass pass 1NT pass 2NT pass 3NT pass pass pass
 [Result ""]
 {It is good to be a little bold with your overcalls. But with a suit this tattered and only two outside Queens this is not good enough for a 2-level overcall. So you pass. Then you hear partner say 1NT.  
 
@@ -130,31 +78,22 @@ But you had to hold up on the first trick to make sure West couldn't gain entry 
 
 By the way, if East had a 6-card suit this plan wouldn't work. But then, no other plan would either.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "W"]
-1S Pass Pass 1NT
-Pass 2NT Pass 3NT
-Pass Pass Pass
-[Play "W"]
-SK
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]SK
 
 [Event ""]
-{Baker 100NT 91}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 91}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:J3.J952.K65.A852 K972.6.743.QT743 Q64.AT83.T982.96 AT85.KQ74.AQJ.KJ"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4S"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "N:AT85.KQ74.AQJ.KJ J3.J952.K65.A852 K972.6.743.QT743 Q64.AT83.T982.96"]
+[Auction "N"]
+2NT pass 3C pass 3H pass 3NT pass 4S pass pass pass
 [Result ""]
 {When you have 4 cards in both Majors you respond 2\H to a Stayman request. Partner now bids 3NT.  What do you bid? 
 
@@ -172,31 +111,22 @@ With one master trump still out you start on the \Cs, playing first the \CK, the
 
 But the other 50% of the time East will have the \DK. On those Deals you get your just reward.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-2NT Pass 3C Pass
-3H Pass 3NT Pass
-4S Pass Pass Pass
-[Play "E"]
-H2
+[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]H2
 
 [Event ""]
-{Baker 100NT 92}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100NT 92}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:9642.KQT.QT5.T62 73.65.J2.AJ98743 QJT8.J732.K974.K AK5.A984.A863.Q5"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "S:73.65.J2.AJ98743 QJT8.J732.K974.K AK5.A984.A863.Q5 9642.KQT.QT5.T62"]
+[Auction "S"]
+1NT pass 2NT pass 3NT pass pass pass
 [Result ""]
 {You do have 9 points, of a sort anyway. Hoping your \C suit will be of use, you invite with 2NT. Partner says 3NT.
 
@@ -218,11 +148,6 @@ So if you feel like gambling, go up with the \CA. But if you like the idea of a 
 
 The play went exactly as shown above. When her LHO played the \CK our declarer ducked in dummy and made the contract.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1NT Pass 2NT Pass
-3NT Pass Pass Pass
-[Play "W"]
-SQ
+[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]SQ
+

@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:19:28 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker 2over1 13}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 2over1 13}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "E:9843.J7.K975.K53 AJT62.A62.QJ.T87 Q7.T.T8632.QJ962 K5.KQ98543.A4.A4"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:9.JT7.T987.KJ962 AJT62.A62.QJ.T87 Q8743..K6532.Q53 K5.KQ98543.A4.A4"]
+[Auction "E"]
+pass 1S pass 2H pass 3H pass 4NT pass 5H pass 5NT pass 6C pass 6H pass pass pass
 [Result ""]
 {South opens 1\S. North has a powerhouse, plenty strong enough to jump-shift. But playing 2/1 it's usually simpler when you make the 2/1 response, and save your jumping for later - if at all. So North bids just 2\H, knowing South must keep the bidding open.
 
@@ -68,31 +23,21 @@ Still hoping for the Grand, North bids 5NT. Oops, South doesn't have any kings s
 
 This is a good slam, cold if East makes any opening lead other than a \C. With a \C lead, North will have to pull trumps and play to discard a loser on the \ST.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "E"]
-Pass 1S Pass 2H
-Pass 3H Pass 4NT
-Pass 5H Pass 5NT
-Pass 6C Pass 6H
-Pass Pass Pass
 
 [Event ""]
-{Baker 2over1 14}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 2over1 14}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "S:KT75.842.J3.A532 QJ2.KT.KQ865.Q87 98643.96.AT9.T96 A.AQJ753.742.KJ4"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "4H"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "E:A.AQJ753.742.KJ4 K875.86.AT9.T532 QJ2.KT.KQ865.Q87 T9643.942.J3.A96"]
+[Auction "E"]
+1H pass 2D pass 2H pass 4H pass pass pass
 [Result ""]
 {East opens 1\H and West responds 2\D.
 
@@ -102,29 +47,21 @@ Knowing that East holds 6 \Hs, West can support with the honor doubleton so he a
 
 East has some extra strength, but not enough to push on after West's weak bid. Notice that if East DID try a 4\S Control bid West would just bid 5\H and the pair might be one trick too high.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
-[Student "S"]
-[Auction "E"]
-1H Pass 2D Pass
-2H Pass 4H Pass
-Pass Pass
 
 [Event ""]
-{Baker 2over1 15}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 2over1 15}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:T95.A982.A98.J63 AQ862.T4.K65.K87 K743.6.QJT7.AT92 J.KQJ753.432.Q54"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "2H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AQ862.T4.K65.K87 T743.862.AQJ7.A3 J.KQJ753.432.Q54 K95.A9.T98.JT962"]
+[Auction "N"]
+1S pass 1NT pass 2C pass 2H pass pass pass
 [Result ""]
 {North opens 1\S. South has 11 points, enough to respond 2\H in standard bidding, but not when using 2/1. So she bids 1NT.
 
@@ -134,29 +71,21 @@ North was forced to reply to 1NT, but he is not forced to bid again. With his mi
 
 This hand demonstrates one of the benefits of Forcing 1NT. In standard bidding South's first response would be 2\H, and North would have to bid again, probably 2NT. The partnership might go even higher but in any case would probably not reach a good contract.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-1S Pass 1NT Pass
-2C Pass 2H Pass
-Pass Pass
 
 [Event ""]
-{Baker 2over1 16}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 2over1 16}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "N:JT93.QT86.J4.QT6 AQ862.A4.95.AK87 754.J92.KQ876.32 K.K753.AT32.J954"]
-[Scoring ""]
 [Declarer "W"]
 [Contract "3NT"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "E:AQ862.A4.95.AK87 J9.JT986.Q874.Q6 K.K753.AT32.J954 T7543.Q2.KJ6.T32"]
+[Auction "E"]
+1S pass 1NT pass 2C pass 2NT pass 3NT pass pass pass
 [Result ""]
 {East opens 1\S. West has 11 points, enough to respond 2\C, (or 2\D), in standard bidding, but not when using 2/1. So she bids 1NT.
 
@@ -166,13 +95,7 @@ East is happy to play Notrump. He assumes West must have something useful in \Ds
 
 3NT seems to be a good contract. There are 8 top tricks and possibilities for a ninth winner in either \Ss, \Ds, or, (the best chance), \Cs.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
-[Student "S"]
-[Auction "E"]
-1S Pass 1NT Pass
-2C Pass 2NT Pass
-3NT Pass Pass Pass
 
 [Event ""]
 [Site ""]
@@ -184,15 +107,16 @@ East is happy to play Notrump. He assumes West must have something useful in \Ds
 [South ""]
 [Dealer "N"]
 [Vulnerable "NS"]
-[Deal "E:9843.J7.K975.K53 AJT62.A62.QJ.T87 Q7.T.T8632.QJ962 K5.KQ98543.A4.A4"]
+[Deal "E:9.JT7.T987.KJ962 AJT62.A62.QJ.T87 Q8743..K6532.Q53 K5.KQ98543.A4.A4"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -204,15 +128,16 @@ East is happy to play Notrump. He assumes West must have something useful in \Ds
 [South ""]
 [Dealer "E"]
 [Vulnerable "EW"]
-[Deal "S:KT75.842.J3.A532 QJ2.KT.KQ865.Q87 98643.96.AT9.T96 A.AQJ753.742.KJ4"]
+[Deal "E:A.AQJ753.742.KJ4 K875.86.AT9.T532 QJ2.KT.KQ865.Q87 T9643.942.J3.A96"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -224,15 +149,16 @@ East is happy to play Notrump. He assumes West must have something useful in \Ds
 [South ""]
 [Dealer "S"]
 [Vulnerable "All"]
-[Deal "W:T95.A982.A98.J63 AQ862.T4.K65.K87 K743.6.QJT7.AT92 J.KQJ753.432.Q54"]
+[Deal "N:AQ862.T4.K65.K87 T743.862.AQJ7.A3 J.KQJ753.432.Q54 K95.A9.T98.JT962"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -244,15 +170,16 @@ East is happy to play Notrump. He assumes West must have something useful in \Ds
 [South ""]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "N:JT93.QT86.J4.QT6 AQ862.A4.95.AK87 754.J92.KQ876.32 K.K753.AT32.J954"]
+[Deal "E:AQ862.A4.95.AK87 J9.JT986.Q874.Q6 K.K753.AT32.J954 T7543.Q2.KJ6.T32"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -264,15 +191,16 @@ East is happy to play Notrump. He assumes West must have something useful in \Ds
 [South ""]
 [Dealer "N"]
 [Vulnerable "EW"]
-[Deal "E:9843.J7.K975.K53 AJT62.A62.QJ.T87 Q7.T.T8632.QJ962 K5.KQ98543.A4.A4"]
+[Deal "E:9.JT7.T987.KJ962 AJT62.A62.QJ.T87 Q8743..K6532.Q53 K5.KQ98543.A4.A4"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -284,15 +212,16 @@ East is happy to play Notrump. He assumes West must have something useful in \Ds
 [South ""]
 [Dealer "E"]
 [Vulnerable "All"]
-[Deal "S:KT75.842.J3.A532 QJ2.KT.KQ865.Q87 98643.96.AT9.T96 A.AQJ753.742.KJ4"]
+[Deal "E:A.AQJ753.742.KJ4 K875.86.AT9.T532 QJ2.KT.KQ865.Q87 T9643.942.J3.A96"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -304,15 +233,16 @@ East is happy to play Notrump. He assumes West must have something useful in \Ds
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:T95.A982.A98.J63 AQ862.T4.K65.K87 K743.6.QJT7.AT92 J.KQJ753.432.Q54"]
+[Deal "N:AQ862.T4.K65.K87 T743.862.AQJ7.A3 J.KQJ753.432.Q54 K95.A9.T98.JT962"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -324,15 +254,16 @@ East is happy to play Notrump. He assumes West must have something useful in \Ds
 [South ""]
 [Dealer "W"]
 [Vulnerable "NS"]
-[Deal "N:JT93.QT86.J4.QT6 AQ862.A4.95.AK87 754.J92.KQ876.32 K.K753.AT32.J954"]
+[Deal "E:AQ862.A4.95.AK87 J9.JT986.Q874.Q6 K.K753.AT32.J954 T7543.Q2.KJ6.T32"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -344,15 +275,16 @@ East is happy to play Notrump. He assumes West must have something useful in \Ds
 [South ""]
 [Dealer "N"]
 [Vulnerable "All"]
-[Deal "E:9843.J7.K975.K53 AJT62.A62.QJ.T87 Q7.T.T8632.QJ962 K5.KQ98543.A4.A4"]
+[Deal "E:9.JT7.T987.KJ962 AJT62.A62.QJ.T87 Q8743..K6532.Q53 K5.KQ98543.A4.A4"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -364,15 +296,16 @@ East is happy to play Notrump. He assumes West must have something useful in \Ds
 [South ""]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "S:KT75.842.J3.A532 QJ2.KT.KQ865.Q87 98643.96.AT9.T96 A.AQJ753.742.KJ4"]
+[Deal "E:A.AQJ753.742.KJ4 K875.86.AT9.T532 QJ2.KT.KQ865.Q87 T9643.942.J3.A96"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -384,15 +317,16 @@ East is happy to play Notrump. He assumes West must have something useful in \Ds
 [South ""]
 [Dealer "S"]
 [Vulnerable "NS"]
-[Deal "W:T95.A982.A98.J63 AQ862.T4.K65.K87 K743.6.QJT7.AT92 J.KQJ753.432.Q54"]
+[Deal "N:AQ862.T4.K65.K87 T743.862.AQJ7.A3 J.KQJ753.432.Q54 K95.A9.T98.JT962"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -404,15 +338,16 @@ East is happy to play Notrump. He assumes West must have something useful in \Ds
 [South ""]
 [Dealer "W"]
 [Vulnerable "EW"]
-[Deal "N:JT93.QT86.J4.QT6 AQ862.A4.95.AK87 754.J92.KQ876.32 K.K753.AT32.J954"]
+[Deal "E:AQ862.A4.95.AK87 J9.JT986.Q874.Q6 K.K753.AT32.J954 T7543.Q2.KJ6.T32"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -424,15 +359,16 @@ East is happy to play Notrump. He assumes West must have something useful in \Ds
 [South ""]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "E:9843.J7.K975.K53 AJT62.A62.QJ.T87 Q7.T.T8632.QJ962 K5.KQ98543.A4.A4"]
+[Deal "E:9.JT7.T987.KJ962 AJT62.A62.QJ.T87 Q8743..K6532.Q53 K5.KQ98543.A4.A4"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -444,15 +380,16 @@ East is happy to play Notrump. He assumes West must have something useful in \Ds
 [South ""]
 [Dealer "E"]
 [Vulnerable "NS"]
-[Deal "S:KT75.842.J3.A532 QJ2.KT.KQ865.Q87 98643.96.AT9.T96 A.AQJ753.742.KJ4"]
+[Deal "E:A.AQJ753.742.KJ4 K875.86.AT9.T532 QJ2.KT.KQ865.Q87 T9643.942.J3.A96"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -464,15 +401,16 @@ East is happy to play Notrump. He assumes West must have something useful in \Ds
 [South ""]
 [Dealer "S"]
 [Vulnerable "EW"]
-[Deal "W:T95.A982.A98.J63 AQ862.T4.K65.K87 K743.6.QJT7.AT92 J.KQJ753.432.Q54"]
+[Deal "N:AQ862.T4.K65.K87 T743.862.AQJ7.A3 J.KQJ753.432.Q54 K95.A9.T98.JT962"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -484,15 +422,16 @@ East is happy to play Notrump. He assumes West must have something useful in \Ds
 [South ""]
 [Dealer "W"]
 [Vulnerable "All"]
-[Deal "N:JT93.QT86.J4.QT6 AQ862.A4.95.AK87 754.J92.KQ876.32 K.K753.AT32.J954"]
+[Deal "E:AQ862.A4.95.AK87 J9.JT986.Q874.Q6 K.K753.AT32.J954 T7543.Q2.KJ6.T32"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -504,15 +443,16 @@ East is happy to play Notrump. He assumes West must have something useful in \Ds
 [South ""]
 [Dealer "N"]
 [Vulnerable "NS"]
-[Deal "E:9843.J7.K975.K53 AJT62.A62.QJ.T87 Q7.T.T8632.QJ962 K5.KQ98543.A4.A4"]
+[Deal "E:9.JT7.T987.KJ962 AJT62.A62.QJ.T87 Q8743..K6532.Q53 K5.KQ98543.A4.A4"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -524,15 +464,16 @@ East is happy to play Notrump. He assumes West must have something useful in \Ds
 [South ""]
 [Dealer "E"]
 [Vulnerable "EW"]
-[Deal "S:KT75.842.J3.A532 QJ2.KT.KQ865.Q87 98643.96.AT9.T96 A.AQJ753.742.KJ4"]
+[Deal "E:A.AQJ753.742.KJ4 K875.86.AT9.T532 QJ2.KT.KQ865.Q87 T9643.942.J3.A96"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -544,15 +485,16 @@ East is happy to play Notrump. He assumes West must have something useful in \Ds
 [South ""]
 [Dealer "S"]
 [Vulnerable "All"]
-[Deal "W:T95.A982.A98.J63 AQ862.T4.K65.K87 K743.6.QJT7.AT92 J.KQJ753.432.Q54"]
+[Deal "N:AQ862.T4.K65.K87 T743.862.AQJ7.A3 J.KQJ753.432.Q54 K95.A9.T98.JT962"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -564,15 +506,16 @@ East is happy to play Notrump. He assumes West must have something useful in \Ds
 [South ""]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "N:JT93.QT86.J4.QT6 AQ862.A4.95.AK87 754.J92.KQ876.32 K.K753.AT32.J954"]
+[Deal "E:AQ862.A4.95.AK87 J9.JT986.Q874.Q6 K.K753.AT32.J954 T7543.Q2.KJ6.T32"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -584,15 +527,16 @@ East is happy to play Notrump. He assumes West must have something useful in \Ds
 [South ""]
 [Dealer "N"]
 [Vulnerable "EW"]
-[Deal "E:9843.J7.K975.K53 AJT62.A62.QJ.T87 Q7.T.T8632.QJ962 K5.KQ98543.A4.A4"]
+[Deal "E:9.JT7.T987.KJ962 AJT62.A62.QJ.T87 Q8743..K6532.Q53 K5.KQ98543.A4.A4"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "7"]
 
 [Event ""]
 [Site ""]
@@ -604,15 +548,16 @@ East is happy to play Notrump. He assumes West must have something useful in \Ds
 [South ""]
 [Dealer "E"]
 [Vulnerable "All"]
-[Deal "S:KT75.842.J3.A532 QJ2.KT.KQ865.Q87 98643.96.AT9.T96 A.AQJ753.742.KJ4"]
+[Deal "E:A.AQJ753.742.KJ4 K875.86.AT9.T532 QJ2.KT.KQ865.Q87 T9643.942.J3.A96"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "7"]
 
 [Event ""]
 [Site ""]
@@ -624,15 +569,16 @@ East is happy to play Notrump. He assumes West must have something useful in \Ds
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:T95.A982.A98.J63 AQ862.T4.K65.K87 K743.6.QJT7.AT92 J.KQJ753.432.Q54"]
+[Deal "N:AQ862.T4.K65.K87 T743.862.AQJ7.A3 J.KQJ753.432.Q54 K95.A9.T98.JT962"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "7"]
 
 [Event ""]
 [Site ""]
@@ -644,15 +590,16 @@ East is happy to play Notrump. He assumes West must have something useful in \Ds
 [South ""]
 [Dealer "W"]
 [Vulnerable "NS"]
-[Deal "N:JT93.QT86.J4.QT6 AQ862.A4.95.AK87 754.J92.KQ876.32 K.K753.AT32.J954"]
+[Deal "E:AQ862.A4.95.AK87 J9.JT986.Q874.Q6 K.K753.AT32.J954 T7543.Q2.KJ6.T32"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "7"]
 
 [Event ""]
 [Site ""]
@@ -664,15 +611,16 @@ East is happy to play Notrump. He assumes West must have something useful in \Ds
 [South ""]
 [Dealer "N"]
 [Vulnerable "All"]
-[Deal "E:9843.J7.K975.K53 AJT62.A62.QJ.T87 Q7.T.T8632.QJ962 K5.KQ98543.A4.A4"]
+[Deal "E:9.JT7.T987.KJ962 AJT62.A62.QJ.T87 Q8743..K6532.Q53 K5.KQ98543.A4.A4"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "8"]
 
 [Event ""]
 [Site ""]
@@ -684,15 +632,16 @@ East is happy to play Notrump. He assumes West must have something useful in \Ds
 [South ""]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "S:KT75.842.J3.A532 QJ2.KT.KQ865.Q87 98643.96.AT9.T96 A.AQJ753.742.KJ4"]
+[Deal "E:A.AQJ753.742.KJ4 K875.86.AT9.T532 QJ2.KT.KQ865.Q87 T9643.942.J3.A96"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "8"]
 
 [Event ""]
 [Site ""]
@@ -704,15 +653,16 @@ East is happy to play Notrump. He assumes West must have something useful in \Ds
 [South ""]
 [Dealer "S"]
 [Vulnerable "NS"]
-[Deal "W:T95.A982.A98.J63 AQ862.T4.K65.K87 K743.6.QJT7.AT92 J.KQJ753.432.Q54"]
+[Deal "N:AQ862.T4.K65.K87 T743.862.AQJ7.A3 J.KQJ753.432.Q54 K95.A9.T98.JT962"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "8"]
 
 [Event ""]
 [Site ""]
@@ -724,15 +674,16 @@ East is happy to play Notrump. He assumes West must have something useful in \Ds
 [South ""]
 [Dealer "W"]
 [Vulnerable "EW"]
-[Deal "N:JT93.QT86.J4.QT6 AQ862.A4.95.AK87 754.J92.KQ876.32 K.K753.AT32.J954"]
+[Deal "E:AQ862.A4.95.AK87 J9.JT986.Q874.Q6 K.K753.AT32.J954 T7543.Q2.KJ6.T32"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "8"]
 
 [Event ""]
 [Site ""]
@@ -744,15 +695,16 @@ East is happy to play Notrump. He assumes West must have something useful in \Ds
 [South ""]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "E:9843.J7.K975.K53 AJT62.A62.QJ.T87 Q7.T.T8632.QJ962 K5.KQ98543.A4.A4"]
+[Deal "E:9.JT7.T987.KJ962 AJT62.A62.QJ.T87 Q8743..K6532.Q53 K5.KQ98543.A4.A4"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "9"]
 
 [Event ""]
 [Site ""]
@@ -764,15 +716,16 @@ East is happy to play Notrump. He assumes West must have something useful in \Ds
 [South ""]
 [Dealer "E"]
 [Vulnerable "NS"]
-[Deal "S:KT75.842.J3.A532 QJ2.KT.KQ865.Q87 98643.96.AT9.T96 A.AQJ753.742.KJ4"]
+[Deal "E:A.AQJ753.742.KJ4 K875.86.AT9.T532 QJ2.KT.KQ865.Q87 T9643.942.J3.A96"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "9"]
 
 [Event ""]
 [Site ""]
@@ -784,15 +737,16 @@ East is happy to play Notrump. He assumes West must have something useful in \Ds
 [South ""]
 [Dealer "S"]
 [Vulnerable "EW"]
-[Deal "W:T95.A982.A98.J63 AQ862.T4.K65.K87 K743.6.QJT7.AT92 J.KQJ753.432.Q54"]
+[Deal "N:AQ862.T4.K65.K87 T743.862.AQJ7.A3 J.KQJ753.432.Q54 K95.A9.T98.JT962"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "9"]
 
 [Event ""]
 [Site ""]
@@ -804,12 +758,14 @@ East is happy to play Notrump. He assumes West must have something useful in \Ds
 [South ""]
 [Dealer "W"]
 [Vulnerable "All"]
-[Deal "N:JT93.QT86.J4.QT6 AQ862.A4.95.AK87 754.J92.KQ876.32 K.K753.AT32.J954"]
+[Deal "E:AQ862.A4.95.AK87 J9.JT986.Q874.Q6 K.K753.AT32.J954 T7543.Q2.KJ6.T32"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "9"]
+

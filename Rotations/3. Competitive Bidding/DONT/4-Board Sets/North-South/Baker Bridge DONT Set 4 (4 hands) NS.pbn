@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 20:55:59 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker DONT 13}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker DONT 13}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "W:KT932.J94.T73.T4 A864.QT87.K642.Q QJ.AK63.AJ8.7652 75.52.Q95.AKJ983"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "2C"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:KQT.AK643.AJ.T42 75.52.Q95.AKJ983 J932.J9.T873.765 A864.QT87.K642.Q"]
+[Auction "E"]
+1NT X pass 2C pass pass pass
 [Result ""]
 {This is a perfect hand with which to Disturb the Opponent's No Trump. You double and partner bids 2\C, the relay bid.
 
@@ -64,28 +19,21 @@ What do you say next?
 
 You say pass, of course.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "E"]
-1NT X Pass 2C
-Pass Pass Pass
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker DONT 14}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker DONT 14}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "E:JT2.AK7.KT95.AT3 KQ985.64.86.KQ92 43.J982.AQ3.J764 A76.QT53.J742.85"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "2S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "E:JT2.AJ87.AK.AT64 KQ985.64.86.KQ92 43.K92.QT953.J73 A76.QT53.J742.85"]
+[Auction "E"]
+1NT 2C pass 2D pass 2S pass pass pass
 [Result ""]
 {Partner has two suits, \Cs and something else.
 
@@ -93,29 +41,21 @@ With \Cs your worst suit, you prefer to play in something else. So you bid the n
 
 Partner corrects to 2\S, his "something else" and you pass.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "E"]
-1NT 2C Pass 2D
-Pass 2S Pass Pass
-Pass
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
 
 [Event ""]
-{Baker DONT 15}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker DONT 15}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "W:QJ4.A632.AK4.JT6 87.KQJT87.965.83 T95.5.QJT732.A42 AK632.94.8.KQ975"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "2H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:QJ5.A5.AJT74.A62 87.KQJT87.965.83 T94.632.KQ32.JT4 AK632.94.8.KQ975"]
+[Auction "W"]
+1NT pass pass 2C pass 2H pass pass pass
 [Result ""]
 {You have 12 HCP, certainly enough to use DONT in either seat. With your black 2-suiter you bid the lowest one, 2\C.
 
@@ -125,29 +65,21 @@ Partner would have bid 2\D, the next suit up the line, to ask you to name your o
 
 So you pass.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 3, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "W"]
-1NT Pass Pass 2C
-Pass 2H Pass Pass
-Pass
+[RotationNote "Board 3, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker DONT 16}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker DONT 16}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "E:85.87.J9432.QJ97 Q9742.KT94.75.42 KJT6.AQ32.KT.AT5 A3.J65.AQ86.K863"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "2H"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "W:K85.Q832.KT3.AQJ A3.J65.AQ86.K863 JT6.A7.J942.T975 Q9742.KT94.75.42"]
+[Auction "W"]
+1NT pass pass 2H pass pass pass
 [Result ""]
 {You would have opened 1\D but after West opens 1NT you must pass.
 
@@ -157,9 +89,5 @@ The 2\H bid shows \Hs and \Ss.
 
 You like \Hs better and don't have enough strength to think about game so you pass.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "W"]
-1NT Pass Pass 2H
-Pass Pass Pass
+[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+

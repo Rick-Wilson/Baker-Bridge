@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Sat Apr 12 07:01:56 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",10,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker 100Deals 85}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 85}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:K73.QT.JT952.K65 62.532.AKQ764.42 JT985.KJ874..Q98 AQ4.A96.83.AJT73"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AQ4.A96.83.AJT73 K73.QT.JT952.K65 62.532.AKQ764.42 JT985.KJ874..Q98"]
+[Auction "S"]
+2D pass 2NT pass 3NT pass pass pass
 [Result ""]
 {You are South and it is your bid. Decide what you would say, then  on BID. 
 
@@ -88,30 +43,22 @@ When the \Ds turned out to be 5-0 you had to get lucky. Your back-up Plan wasn't
 
 But there was no other choice so you have to try it. }
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
-[Student "S"]
-[Auction "S"]
-2D Pass 2NT Pass
-3NT Pass Pass Pass
-[Play "E"]
-SJ
+[Play "E"]SJ
 
 [Event ""]
-{Baker 100Deals 86}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 86}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "S:QJT83.63.AJ3.KT7 65.K9.87642.A853 94.Q52.QT9.QJ962 AK72.AJT874.K5.4"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "4H"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "E:AK72.AJT874.K5.4 QJT83.63.AJ3.KT7 65.K9.87642.A853 94.Q52.QT9.QJ962"]
+[Auction "E"]
+1H 1S pass pass 3H pass 4H pass pass pass
 [Result ""]
 {You are East and it is your bid. Decide what you would say, then  on BID. 
 
@@ -131,31 +78,22 @@ You will lose two \Ds and the \HQ but no more.
 
 The problem is that North would have over-ruffed the \H9 and then played another \H and you would not have gotten to ruff either \S,}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
-[Student "S"]
-[Auction "E"]
-1H 1S Pass Pass
-3H Pass 4H Pass
-Pass Pass
-[Play "S"]
-SQ
+[Play "W"]SQ
 
 [Event ""]
-{Baker 100Deals 87}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 87}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:KT76.832.K65.J84 J9854.Q6.JT4.A72 Q32.95.Q872.KQT9 A.AKJT74.A93.653"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:J9854.Q6.JT4.A72 Q32.95.Q872.KQT9 A.AKJT74.A93.653 KT76.832.K65.J84"]
+[Auction "S"]
+1H pass 1S pass 3H pass 4H pass pass pass
 [Result ""]
 {You are North and it is your bid. Decide what you would say, then  on BID. 
 
@@ -179,31 +117,22 @@ Win the first trick with the \CA and play the \DJ, letting it ride if West doesn
 
 This will happen about 75% of the time, so the double finesse is a good Plan. And on this Deal it was the only plan available.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "S"]
-1H Pass 1S Pass
-3H Pass 4H Pass
-Pass Pass
-[Play "W"]
-CK
+[Play "E"]CK
 
 [Event ""]
-{Baker 100Deals 88}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 88}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "S:KQT3.973.KJ62.82 AJ652.T4.Q743.J6 984.J5.T98.AKT74 7.AKQ862.A5.Q953"]
-[Scoring ""]
 [Declarer "W"]
 [Contract "4H"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "W:AJ652.T4.Q743.J6 984.J5.T98.AKT74 7.AKQ862.A5.Q953 KQT3.973.KJ62.82"]
+[Auction "W"]
+1H pass 1S pass 3H pass 4H pass pass pass
 [Result ""]
 {You are East and it is your bid. Decide what you would say, then  on BID. 
 
@@ -229,15 +158,8 @@ But you know that plan won't work because North IS going to ruff this \C if you 
 
 So you won that trick and still had your \CQ to use after you pulled trumps.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 4, chOption: W, chBasis: N, basisKind:Declarer, nOption:3, nBasis: 0, nRot: 3, useStandardVul: true"]
-[Student "S"]
-[Auction "W"]
-1H Pass 1S Pass
-3H Pass 4H Pass
-Pass Pass
-[Play "N"]
-CA
+[Play "E"]CA
 
 [Event ""]
 [Site ""]
@@ -249,15 +171,16 @@ CA
 [South ""]
 [Dealer "N"]
 [Vulnerable "NS"]
-[Deal "W:K73.QT.JT952.K65 62.532.AKQ764.42 JT985.KJ874..Q98 AQ4.A96.83.AJT73"]
+[Deal "S:AQ4.A96.83.AJT73 K73.QT.JT952.K65 62.532.AKQ764.42 JT985.KJ874..Q98"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -269,15 +192,16 @@ CA
 [South ""]
 [Dealer "E"]
 [Vulnerable "EW"]
-[Deal "S:QJT83.63.AJ3.KT7 65.K9.87642.A853 94.Q52.QT9.QJ962 AK72.AJT874.K5.4"]
+[Deal "E:AK72.AJT874.K5.4 QJT83.63.AJ3.KT7 65.K9.87642.A853 94.Q52.QT9.QJ962"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -289,15 +213,16 @@ CA
 [South ""]
 [Dealer "S"]
 [Vulnerable "All"]
-[Deal "E:KT76.832.K65.J84 J9854.Q6.JT4.A72 Q32.95.Q872.KQT9 A.AKJT74.A93.653"]
+[Deal "S:J9854.Q6.JT4.A72 Q32.95.Q872.KQT9 A.AKJT74.A93.653 KT76.832.K65.J84"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -309,15 +234,16 @@ CA
 [South ""]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "S:KQT3.973.KJ62.82 AJ652.T4.Q743.J6 984.J5.T98.AKT74 7.AKQ862.A5.Q953"]
+[Deal "W:AJ652.T4.Q743.J6 984.J5.T98.AKT74 7.AKQ862.A5.Q953 KQT3.973.KJ62.82"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "2"]
 
 [Event ""]
 [Site ""]
@@ -329,15 +255,16 @@ CA
 [South ""]
 [Dealer "N"]
 [Vulnerable "EW"]
-[Deal "W:K73.QT.JT952.K65 62.532.AKQ764.42 JT985.KJ874..Q98 AQ4.A96.83.AJT73"]
+[Deal "S:AQ4.A96.83.AJT73 K73.QT.JT952.K65 62.532.AKQ764.42 JT985.KJ874..Q98"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -349,15 +276,16 @@ CA
 [South ""]
 [Dealer "E"]
 [Vulnerable "All"]
-[Deal "S:QJT83.63.AJ3.KT7 65.K9.87642.A853 94.Q52.QT9.QJ962 AK72.AJT874.K5.4"]
+[Deal "E:AK72.AJT874.K5.4 QJT83.63.AJ3.KT7 65.K9.87642.A853 94.Q52.QT9.QJ962"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -369,15 +297,16 @@ CA
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "E:KT76.832.K65.J84 J9854.Q6.JT4.A72 Q32.95.Q872.KQT9 A.AKJT74.A93.653"]
+[Deal "S:J9854.Q6.JT4.A72 Q32.95.Q872.KQT9 A.AKJT74.A93.653 KT76.832.K65.J84"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -389,15 +318,16 @@ CA
 [South ""]
 [Dealer "W"]
 [Vulnerable "NS"]
-[Deal "S:KQT3.973.KJ62.82 AJ652.T4.Q743.J6 984.J5.T98.AKT74 7.AKQ862.A5.Q953"]
+[Deal "W:AJ652.T4.Q743.J6 984.J5.T98.AKT74 7.AKQ862.A5.Q953 KQT3.973.KJ62.82"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "3"]
 
 [Event ""]
 [Site ""]
@@ -409,15 +339,16 @@ CA
 [South ""]
 [Dealer "N"]
 [Vulnerable "All"]
-[Deal "W:K73.QT.JT952.K65 62.532.AKQ764.42 JT985.KJ874..Q98 AQ4.A96.83.AJT73"]
+[Deal "S:AQ4.A96.83.AJT73 K73.QT.JT952.K65 62.532.AKQ764.42 JT985.KJ874..Q98"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -429,15 +360,16 @@ CA
 [South ""]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "S:QJT83.63.AJ3.KT7 65.K9.87642.A853 94.Q52.QT9.QJ962 AK72.AJT874.K5.4"]
+[Deal "E:AK72.AJT874.K5.4 QJT83.63.AJ3.KT7 65.K9.87642.A853 94.Q52.QT9.QJ962"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -449,15 +381,16 @@ CA
 [South ""]
 [Dealer "S"]
 [Vulnerable "NS"]
-[Deal "E:KT76.832.K65.J84 J9854.Q6.JT4.A72 Q32.95.Q872.KQT9 A.AKJT74.A93.653"]
+[Deal "S:J9854.Q6.JT4.A72 Q32.95.Q872.KQT9 A.AKJT74.A93.653 KT76.832.K65.J84"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -469,15 +402,16 @@ CA
 [South ""]
 [Dealer "W"]
 [Vulnerable "EW"]
-[Deal "S:KQT3.973.KJ62.82 AJ652.T4.Q743.J6 984.J5.T98.AKT74 7.AKQ862.A5.Q953"]
+[Deal "W:AJ652.T4.Q743.J6 984.J5.T98.AKT74 7.AKQ862.A5.Q953 KQT3.973.KJ62.82"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "4"]
 
 [Event ""]
 [Site ""]
@@ -489,15 +423,16 @@ CA
 [South ""]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:K73.QT.JT952.K65 62.532.AKQ764.42 JT985.KJ874..Q98 AQ4.A96.83.AJT73"]
+[Deal "S:AQ4.A96.83.AJT73 K73.QT.JT952.K65 62.532.AKQ764.42 JT985.KJ874..Q98"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -509,15 +444,16 @@ CA
 [South ""]
 [Dealer "E"]
 [Vulnerable "NS"]
-[Deal "S:QJT83.63.AJ3.KT7 65.K9.87642.A853 94.Q52.QT9.QJ962 AK72.AJT874.K5.4"]
+[Deal "E:AK72.AJT874.K5.4 QJT83.63.AJ3.KT7 65.K9.87642.A853 94.Q52.QT9.QJ962"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -529,15 +465,16 @@ CA
 [South ""]
 [Dealer "S"]
 [Vulnerable "EW"]
-[Deal "E:KT76.832.K65.J84 J9854.Q6.JT4.A72 Q32.95.Q872.KQT9 A.AKJT74.A93.653"]
+[Deal "S:J9854.Q6.JT4.A72 Q32.95.Q872.KQT9 A.AKJT74.A93.653 KT76.832.K65.J84"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -549,15 +486,16 @@ CA
 [South ""]
 [Dealer "W"]
 [Vulnerable "All"]
-[Deal "S:KQT3.973.KJ62.82 AJ652.T4.Q743.J6 984.J5.T98.AKT74 7.AKQ862.A5.Q953"]
+[Deal "W:AJ652.T4.Q743.J6 984.J5.T98.AKT74 7.AKQ862.A5.Q953 KQT3.973.KJ62.82"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "5"]
 
 [Event ""]
 [Site ""]
@@ -569,15 +507,16 @@ CA
 [South ""]
 [Dealer "N"]
 [Vulnerable "NS"]
-[Deal "W:K73.QT.JT952.K65 62.532.AKQ764.42 JT985.KJ874..Q98 AQ4.A96.83.AJT73"]
+[Deal "S:AQ4.A96.83.AJT73 K73.QT.JT952.K65 62.532.AKQ764.42 JT985.KJ874..Q98"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -589,15 +528,16 @@ CA
 [South ""]
 [Dealer "E"]
 [Vulnerable "EW"]
-[Deal "S:QJT83.63.AJ3.KT7 65.K9.87642.A853 94.Q52.QT9.QJ962 AK72.AJT874.K5.4"]
+[Deal "E:AK72.AJT874.K5.4 QJT83.63.AJ3.KT7 65.K9.87642.A853 94.Q52.QT9.QJ962"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -609,15 +549,16 @@ CA
 [South ""]
 [Dealer "S"]
 [Vulnerable "All"]
-[Deal "E:KT76.832.K65.J84 J9854.Q6.JT4.A72 Q32.95.Q872.KQT9 A.AKJT74.A93.653"]
+[Deal "S:J9854.Q6.JT4.A72 Q32.95.Q872.KQT9 A.AKJT74.A93.653 KT76.832.K65.J84"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -629,15 +570,16 @@ CA
 [South ""]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "S:KQT3.973.KJ62.82 AJ652.T4.Q743.J6 984.J5.T98.AKT74 7.AKQ862.A5.Q953"]
+[Deal "W:AJ652.T4.Q743.J6 984.J5.T98.AKT74 7.AKQ862.A5.Q953 KQT3.973.KJ62.82"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "6"]
 
 [Event ""]
 [Site ""]
@@ -649,15 +591,16 @@ CA
 [South ""]
 [Dealer "N"]
 [Vulnerable "EW"]
-[Deal "W:K73.QT.JT952.K65 62.532.AKQ764.42 JT985.KJ874..Q98 AQ4.A96.83.AJT73"]
+[Deal "S:AQ4.A96.83.AJT73 K73.QT.JT952.K65 62.532.AKQ764.42 JT985.KJ874..Q98"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "7"]
 
 [Event ""]
 [Site ""]
@@ -669,15 +612,16 @@ CA
 [South ""]
 [Dealer "E"]
 [Vulnerable "All"]
-[Deal "S:QJT83.63.AJ3.KT7 65.K9.87642.A853 94.Q52.QT9.QJ962 AK72.AJT874.K5.4"]
+[Deal "E:AK72.AJT874.K5.4 QJT83.63.AJ3.KT7 65.K9.87642.A853 94.Q52.QT9.QJ962"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "7"]
 
 [Event ""]
 [Site ""]
@@ -689,15 +633,16 @@ CA
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "E:KT76.832.K65.J84 J9854.Q6.JT4.A72 Q32.95.Q872.KQT9 A.AKJT74.A93.653"]
+[Deal "S:J9854.Q6.JT4.A72 Q32.95.Q872.KQT9 A.AKJT74.A93.653 KT76.832.K65.J84"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "7"]
 
 [Event ""]
 [Site ""]
@@ -709,15 +654,16 @@ CA
 [South ""]
 [Dealer "W"]
 [Vulnerable "NS"]
-[Deal "S:KQT3.973.KJ62.82 AJ652.T4.Q743.J6 984.J5.T98.AKT74 7.AKQ862.A5.Q953"]
+[Deal "W:AJ652.T4.Q743.J6 984.J5.T98.AKT74 7.AKQ862.A5.Q953 KQT3.973.KJ62.82"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "7"]
 
 [Event ""]
 [Site ""]
@@ -729,15 +675,16 @@ CA
 [South ""]
 [Dealer "N"]
 [Vulnerable "All"]
-[Deal "W:K73.QT.JT952.K65 62.532.AKQ764.42 JT985.KJ874..Q98 AQ4.A96.83.AJT73"]
+[Deal "S:AQ4.A96.83.AJT73 K73.QT.JT952.K65 62.532.AKQ764.42 JT985.KJ874..Q98"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "8"]
 
 [Event ""]
 [Site ""]
@@ -749,15 +696,16 @@ CA
 [South ""]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "S:QJT83.63.AJ3.KT7 65.K9.87642.A853 94.Q52.QT9.QJ962 AK72.AJT874.K5.4"]
+[Deal "E:AK72.AJT874.K5.4 QJT83.63.AJ3.KT7 65.K9.87642.A853 94.Q52.QT9.QJ962"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "8"]
 
 [Event ""]
 [Site ""]
@@ -769,15 +717,16 @@ CA
 [South ""]
 [Dealer "S"]
 [Vulnerable "NS"]
-[Deal "E:KT76.832.K65.J84 J9854.Q6.JT4.A72 Q32.95.Q872.KQT9 A.AKJT74.A93.653"]
+[Deal "S:J9854.Q6.JT4.A72 Q32.95.Q872.KQT9 A.AKJT74.A93.653 KT76.832.K65.J84"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "8"]
 
 [Event ""]
 [Site ""]
@@ -789,15 +738,16 @@ CA
 [South ""]
 [Dealer "W"]
 [Vulnerable "EW"]
-[Deal "S:KQT3.973.KJ62.82 AJ652.T4.Q743.J6 984.J5.T98.AKT74 7.AKQ862.A5.Q953"]
+[Deal "W:AJ652.T4.Q743.J6 984.J5.T98.AKT74 7.AKQ862.A5.Q953 KQT3.973.KJ62.82"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "8"]
 
 [Event ""]
 [Site ""]
@@ -809,15 +759,16 @@ CA
 [South ""]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:K73.QT.JT952.K65 62.532.AKQ764.42 JT985.KJ874..Q98 AQ4.A96.83.AJT73"]
+[Deal "S:AQ4.A96.83.AJT73 K73.QT.JT952.K65 62.532.AKQ764.42 JT985.KJ874..Q98"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "1"]
 [VirtualDealer "N"]
 [VirtualVulnerable "None"]
+[BlockNumber "9"]
 
 [Event ""]
 [Site ""]
@@ -829,15 +780,16 @@ CA
 [South ""]
 [Dealer "E"]
 [Vulnerable "NS"]
-[Deal "S:QJT83.63.AJ3.KT7 65.K9.87642.A853 94.Q52.QT9.QJ962 AK72.AJT874.K5.4"]
+[Deal "E:AK72.AJT874.K5.4 QJT83.63.AJ3.KT7 65.K9.87642.A853 94.Q52.QT9.QJ962"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "2"]
 [VirtualDealer "E"]
 [VirtualVulnerable "NS"]
+[BlockNumber "9"]
 
 [Event ""]
 [Site ""]
@@ -849,15 +801,16 @@ CA
 [South ""]
 [Dealer "S"]
 [Vulnerable "EW"]
-[Deal "E:KT76.832.K65.J84 J9854.Q6.JT4.A72 Q32.95.Q872.KQT9 A.AKJT74.A93.653"]
+[Deal "S:J9854.Q6.JT4.A72 Q32.95.Q872.KQT9 A.AKJT74.A93.653 KT76.832.K65.J84"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "3"]
 [VirtualDealer "S"]
 [VirtualVulnerable "EW"]
+[BlockNumber "9"]
 
 [Event ""]
 [Site ""]
@@ -869,12 +822,14 @@ CA
 [South ""]
 [Dealer "W"]
 [Vulnerable "All"]
-[Deal "S:KQT3.973.KJ62.82 AJ652.T4.Q743.J6 984.J5.T98.AKT74 7.AKQ862.A5.Q953"]
+[Deal "W:AJ652.T4.Q743.J6 984.J5.T98.AKT74 7.AKQ862.A5.Q953 KQT3.973.KJ62.82"]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "100001f"]
+[BCFlags "1f"]
 [VirtualBoard "4"]
 [VirtualDealer "W"]
 [VirtualVulnerable "All"]
+[BlockNumber "9"]
+

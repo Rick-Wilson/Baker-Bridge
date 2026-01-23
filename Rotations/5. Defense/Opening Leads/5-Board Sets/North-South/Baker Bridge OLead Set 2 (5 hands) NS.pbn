@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:03:28 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker OLead 6}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker OLead 6}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:943.964.AQT8.983 KJ72.KJT32.7.A74 85.AQ85.543.QJT2 AQT6.7.KJ962.K65"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "W"]
+[Deal "N:AQT6.7.KJ962.K65 943.964.AQT8.983 KJ72.KJT32.7.A74 85.AQ85.543.QJT2"]
+[Auction "N"]
+1D pass 1H pass 1S pass 4S pass pass pass
 [Result ""]
 {The bidding has been as shown. The contract is 4\S and it is your lead.
 
@@ -72,29 +27,21 @@ Just imagine that declarer wins the first \S in his hand and plays a \H to dummy
 
 As you can imagine, declarer will be in a whole lot of trouble.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "W"]
-[Auction "N"]
-1D Pass 1H Pass
-1S Pass 4S Pass
-Pass Pass
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
 
 [Event ""]
-{Baker OLead 7}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker OLead 7}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:KJ943.653.82.T62 872.K87.KQJ.A854 T5.JT42.96543.J9 AQ6.AQ9.AT7.KQ73"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "6NT"]
+[Vulnerable "None"]
+[Student "W"]
+[Deal "S:AQ6.AQ9.AT7.KQ73 KJ943.653.82.T62 872.K87.KQJ.A854 T5.JT42.96543.J9"]
+[Auction "S"]
+2NT pass 6NT pass pass pass
 [Result ""]
 {The bidding has been as shown. The contract is 6NT and it is your lead.
 
@@ -108,30 +55,22 @@ So any passive lead would be OK, you pick the \H just because they are less like
 
 Declarer has 11 winners sitting there; if you had led a low \S you would have handed him his 12 trick on a platter.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "W"]
-[Auction "S"]
-2NT Pass 6NT Pass
-Pass Pass
-[Play "W"]
-H6
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]H6
 
 [Event ""]
-{Baker OLead 8}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker OLead 8}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:K854.8652.K62.T2 A2.A97.T53.AKQ76 Q9763.T43.4.9843 JT.KQJ.AQJ987.J5"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "6D"]
+[Vulnerable "EW"]
+[Student "W"]
+[Deal "N:JT.KQJ.AQJ987.J5 K854.8652.K62.T2 A2.A97.T53.AKQ76 Q9763.T43.4.9843"]
+[Auction "N"]
+1D pass 2C pass 3D pass 4NT pass 5D pass 6D pass pass pass
 [Result ""]
 {The bidding has been as shown. The contract is 6\D and it is your lead.
 
@@ -145,32 +84,22 @@ Your most promising suit is \Ss. Obviously partner has a very weak hand, but if 
 
 Without a \S lead declarer will have smooth sailing.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "W"]
-[Auction "N"]
-1D Pass 2C Pass
-3D Pass 4NT Pass
-5D Pass 6D Pass
-Pass Pass
-[Play "E"]
-S4
+[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]S4
 
 [Event ""]
-{Baker OLead 9}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker OLead 9}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:QJT8.QT542.73.A3 975.J7.KQ8.KJ982 K62.K63.9542.765 A43.A98.AJT6.QT4"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "W"]
+[Deal "S:A43.A98.AJT6.QT4 QJT8.QT542.73.A3 975.J7.KQ8.KJ982 K62.K63.9542.765"]
+[Auction "S"]
+1NT pass 3NT pass pass pass
 [Result ""]
 {The bidding has been as shown. The contract is 3NT and it is your lead.
 
@@ -180,30 +109,22 @@ This is a close call. The top of your \S honor sequence is very tempting, but ev
 
 Leading a \H from your 5-card suit is riskier, but it has the potential of setting up an additional winner. In this hand, as you see, the \H lead gets you 4 \H winners to go with your \CA. }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "W"]
-[Auction "S"]
-1NT Pass 3NT Pass
-Pass Pass
-[Play "W"]
-H4
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]H4
 
 [Event ""]
-{Baker OLead 10}
 [Site ""]
 [Date ""]
 [Board "5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker OLead 10}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:84.982.AT53.AJ62 KJ75.AK65.8742.5 QT62.T.QJ96.QT93 A93.QJ743.K.K874"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4H"]
+[Vulnerable "NS"]
+[Student "W"]
+[Deal "N:A93.QJ743.K.K874 84.982.AT53.AJ62 KJ75.AK65.8742.5 QT62.T.QJ96.QT93"]
+[Auction "N"]
+1H pass 1S pass 2C pass 4H pass pass pass
 [Result ""]
 {The bidding has been as shown. The contract is 4\H and it is your lead.
 
@@ -217,12 +138,6 @@ So by process of elimination you lead a trump, probably the \H9.
 
 And when North plays \Cs, (preparing to ruff in dummy), you will win and play another trump. Even if North guesses the \Ss correctly he will not be able to make the contract. }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "W"]
-[Auction "N"]
-1H Pass 1S Pass
-2C Pass 4H Pass
-Pass Pass
-[Play "E"]
-H9
+[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]H9
+

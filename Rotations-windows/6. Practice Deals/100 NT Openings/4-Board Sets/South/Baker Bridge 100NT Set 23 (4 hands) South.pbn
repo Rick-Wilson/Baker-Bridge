@@ -1,0 +1,228 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:07:38 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",10,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker 100NT 89}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:KJT.Q7.QJ9.KJ963 A7542.653.T65.84 Q8.JT984.K872.QT 963.AK2.A43.A752"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "1NT"]
+[Result ""]
+{Here is the question. Is 2\S a better contract than 1NT? If so, you should transfer partner, then pass. If not, you should just pass now. With just a 5-card suit, and with no singleton, pass is probably better.
+
+The contract would be 1NT played by South.
+
+To make North the declarer  ROTATE. 
+
+North plays 1NT. East leads the \HJ and West plays the \HQ.
+
+Do you hold up or not?
+
+Outside \Ss you have 6 combined cards in each suit, so you must assume that you aren't any worse off in \Hs than in one of the minors. And, in \Hs you have 2 stops. So don't hold up.
+
+You need 2 additional \S winners, but dummy has but one entry. So? 
+
+So you must duck twice. Win the \HK and play a low \S from each hand. A defender will win and probably continue \Hs.
+
+Win the \HA and play another low \S from each hand. East wins and cashes 3 \Hs. He then plays the \CQ. 
+
+You win the \CA and take the \DA and the 3 good \Ss in dummy. The 4 high cards from your hand plus the 3 \S tricks from dummy add up to 7. Hallelujah.
+
+But since they may be right you need to be on the lookout for ducking plays because one entry in dummy may be all you are going to have.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 1, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT Pass Pass Pass
+[Play "W"]
+HJ
+
+[Event ""]
+{Baker 100NT 90}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "E:974.JT72.9643.72 85.Q65.Q82.A9863 KQJ63.K94.KJT.T5 AT2.A83.A75.KQJ4"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{It is good to be a little bold with your overcalls. But with a suit this tattered and only two outside Queens this is not good enough for a 2-level overcall. So you pass. Then you hear partner say 1NT.  
+
+It is good to be a little bold with your overcalls. But with a suit this tattered and only two outside Queens this is not good enough for a 2-level overcall. So you pass. Then you hear partner say 1NT. 
+
+A 1NT overcall shows 15-18 points and a stopper(s) in their suit. With 9 points you invite with 2NT and partner bids the game.
+
+The contract would be 3NT played by South.
+
+To make North the declarer  ROTATE. 
+
+North plays 3NT. East leads the \SK. Do you hold up twice? Or just once? Or not at all?
+
+You need to find one winner and it seems that it must come from one of dummy's red Queens. You are certain that East has both red Kings for his opening bid, (you and dummy have 26 HCP between you so that only leaves 14). But you also know that East has at least 5 \Ss, so if you lead toward a red Queen East will grab his red King plus 4 \S tricks.
+
+Does that resolve the holdup question for you? 
+
+Yes. You hold up ONCE, and take the \SA at trick 2. Next you play \C K Q J to strip East of that suit. Then play the \ST to throw East into the lead.
+
+He can take his other 3 \S winners, but after that he must lead a red card. Of course you confidently put up dummy's Queen which will be your ninth trick.
+
+Here you couldn't afford to hold up twice because then you would not have a throw in card left to put East on lead. 
+
+But you had to hold up on the first trick to make sure West couldn't gain entry in the suit.
+
+By the way, if East had a 6-card suit this plan wouldn't work. But then, no other plan would either.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "W"]
+1S Pass Pass 1NT
+Pass 2NT Pass 3NT
+Pass Pass Pass
+[Play "W"]
+SK
+
+[Event ""]
+{Baker 100NT 91}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:J3.J952.K65.A852 K972.6.743.QT743 Q64.AT83.T982.96 AT85.KQ74.AQJ.KJ"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{When you have 4 cards in both Majors you respond 2\H to a Stayman request. Partner now bids 3NT.  What do you bid? 
+
+When you have 4 cards in both Majors you respond 2\H to a Stayman request. Partner now bids 3NT.  What do you bid? 
+
+Partner denies having 4 \Hs so he must have 4 \Ss (or he would not have used Stayman). You correct the contract to4\S.
+
+East grabs the opening lead with the \HA and plays the \DT.
+
+The \S, \H and \C losers are inevitable so you'd better not lose a \D. Even though East has returned a \D it is still possible that he holds the \DK so the finesse has a chance of working. Let's say a 50% chance. Do you take it? 
+
+No, of course not. Not when you have a play that offers almost a T0% chance. Win the \DA, play \SK, \SA, then \H K Q, discarding dummy's 2 \D losers.  
+
+With one master trump still out you start on the \Cs, playing first the \CK, then overtake the \CJ with dummy's \CQ. The defense is welcome to take their \CA whenever they want, and they are also welcome to their trump trick. You are so gracious because you have your ten tricks!
+
+But the other 50% of the time West will have the \DK. On those Deals you get your just reward.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+2NT Pass 3C Pass
+3H Pass 3NT Pass
+4S Pass Pass Pass
+[Play "W"]
+H2
+
+[Event ""]
+{Baker 100NT 92}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:9642.KQT.QT5.T62 73.65.J2.AJ98743 QJT8.J732.K974.K AK5.A984.A863.Q5"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{You do have 9 points, of a sort anyway. Hoping your \C suit will be of use, you invite with 2NT. Partner says 3NT.
+
+The contract would be 3NT played by South.
+
+To make North the declarer  ROTATE. 
+
+North plays 3NT. East leads the \SQ, West following with the \S2. Do you hold up or not?
+
+No, don't hold up. At least you have \Ss stopped twice, your other suits are stopped only once.
+
+Realizing that your only hope is for a bunch of \C tricks you win the \SK and play the \CQ. East covers with the \CK. What do you do? 
+
+If you win with dummy's \CA, and if the \Cs split 2-2, you can win 7 \C tricks and 4 other high cards. Wow! 
+
+But if it turns out that the \CK was singleton you will win just TWO \C tricks because dummy has no other entries. 
+
+So if you feel like gambling, go up with the \CA. But if you like the idea of a guaranteed contract let East hold the \CK, and you make sure of the six other \Cs.
+
+The play went exactly as shown above. When her LHO played the \CK our declarer ducked in dummy and made the contract.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT Pass 2NT Pass
+3NT Pass Pass Pass
+[Play "W"]
+SQ

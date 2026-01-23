@@ -1,8 +1,6 @@
 % PBN 2.1
 % EXPORT
 %Content-type: text/x-pbn; charset=UTF-8
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:12:56 2025 -0700
 %BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
 %BidAndCardSpacing Thin
 %BoardsPerPage 1
@@ -17,7 +15,6 @@
 %Font:HandRecord "Georgia",11,400,0
 %GutterSize 500,500
 %HRTitleDate 2023.10.17
-%HRTitleEvent ""
 %HRTitleSetID ""
 %HRTitleSetIDPrefix ""
 %HRTitleSite ""
@@ -41,22 +38,23 @@
 %TSTReportOrder ByNumber
 %TSTReportShade Yes
 %Translate "Board %" "Deal %"
+%Creator: CSVtoPBN Version 1.00
+%Created: 2026-01-23 13:57:51
 %sourcefilename BakerBridgeFull.csv
+%HRTitleEvent Bidpractice/Set10
 [Event ""]
-{Baker Bidpractice/Set10 1}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set10 1}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "W:8.AKQJ43.T54.AJ3 AKJ74.87.A76.Q54 T53.T6.QJ832.KT7 Q962.952.K9.9862"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "1S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:T5.AKQJ43.J532.3 AKJ74.87.A76.Q54 83.T6.QT84.AKJT7 Q962.952.K9.9862"]
+[Auction "W"]
+1H 1S pass pass pass
 [Result ""]
 {NORTH has an opening hand, 15 points, and a 5-card ♠ suit. Unfortunately WEST beat her to
 
@@ -74,28 +72,21 @@ SOUTH has 6 points. If NORTH had actually OPENED 1♠, SOUTH would be obligated 
 
 the Overcall will not be made with more than 16 points, SOUTH just passes.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "W"]
-1H 1S Pass Pass
-Pass
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Bidpractice/Set10 2}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set10 2}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "W:T53.94.T952.A972 Q962.T52.KQ4.KJ6 8.AKQJ63.J83.T83 AKJ74.87.A76.Q54"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:T.AKQ964.J9.A932 AKJ74.87.A76.Q54 853.J3.T8532.T87 Q962.T52.KQ4.KJ6"]
+[Auction "E"]
+1H 1S pass 2S pass 4S pass pass pass
 [Result ""]
 {SOUTH has an opening hand, 15 points and five ♠s. But EAST beat him to the punch,
 
@@ -109,29 +100,21 @@ pass a 1♠ Overcall with 6 points, here it is correct to just raise to 2♠ wit
 
 SOUTH actually has a strong Overcall so he bids 4♠.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "E"]
-1H 1S Pass 2S
-Pass 4S Pass Pass
-Pass
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Bidpractice/Set10 3}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set10 3}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "W:8.AKQJ43.T54.AT3 AKJ74.87.976.J54 T53.96.QJ832.Q97 Q962.T52.AK.K862"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:8.AKJ93.542.AQT9 AKJ74.87.976.J54 T53.Q64.QJT83.73 Q962.T52.AK.K862"]
+[Auction "W"]
+1H 1S pass 3S pass pass pass
 [Result ""]
 {This time NORTH has just 10 points, nowhere near an opening hand. Still, when WEST opens
 
@@ -149,28 +132,21 @@ Open, she just Overcalled. So SOUTH must be more cautious. He jumps to 3♠ and 
 
 minimum type hand by passing.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 3, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "W"]
-1H 1S Pass 3S
-Pass Pass Pass
+[RotationNote "Board 3, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Bidpractice/Set10 4}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set10 4}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "E:4.Q832.J654.JT93 AT53.T75.Q8.A862 QJ72.AKJ96.T92.4 K986.4.AK73.KQ75"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4S"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "W:QJ74.AK9832.4.J9 K986.4.AK73.KQ75 2.QJ6.JT9652.T43 AT53.T75.Q8.A862"]
+[Auction "W"]
+1H X pass 2S pass 4S pass pass pass
 [Result ""]
 {NORTH has 15 points, a singleton in the opponent's suit and 4-card support for any suit
 
@@ -182,29 +158,21 @@ NORTH's hand is now worth 17 points because of the singleton. Since he is quite 
 
 ♠s he bids 4♠.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "W"]
-1H X Pass 2S
-Pass 4S Pass Pass
-Pass
+[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
 
 [Event ""]
-{Baker Bidpractice/Set10 5}
 [Site ""]
 [Date ""]
 [Board "5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set10 5}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "E:KQJT98.K85.52.A6 53.AJ42.KQJ.K742 A.QT9.AT973.QT53 7642.763.864.J98"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "2C"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "E:AQJT8.QT9.32.A65 53.AJ42.KQJ.K742 K9.K85.AT975.QT3 7642.763.864.J98"]
+[Auction "E"]
+1S X pass 2C pass pass pass
 [Result ""]
 {SOUTH has 14 points, a doubleton in the opponent's ♠ suit and at least three cards in
 
@@ -218,28 +186,21 @@ But he cannot pass. Partner's Double said "Bid your best suit.", so he bids 2♣
 
 Mercifully SOUTH also passes.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "E"]
-1S X Pass 2C
-Pass Pass Pass
+[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
 
 [Event ""]
-{Baker Bidpractice/Set10 6}
 [Site ""]
 [Date ""]
 [Board "6"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set10 6}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "E:4.9632.7642.QT95 AJT7.J7.QJ95.A83 K632.A84.T8.KJ76 Q985.KQT5.AK3.42"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4S"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "W:K62.A84.642.KQ97 Q985.KQT5.AK3.42 43.9632.T87.JT65 AJT7.J7.QJ95.A83"]
+[Auction "W"]
+1C X pass 2C pass 2H pass 2S pass 4S pass pass pass
 [Result ""]
 {With 14 points, ♣ shortage, and support for the other suits NORTH makes a Takeout Double.
 
@@ -261,30 +222,21 @@ s so she suggests ♠s.
 
 NORTH agrees with ♠s and bids game, 4♠.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 6, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "W"]
-1C X Pass 2C
-Pass 2H Pass 2S
-Pass 4S Pass Pass
-Pass
+[RotationNote "Board 6, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
 
 [Event ""]
-{Baker Bidpractice/Set10 7}
 [Site ""]
 [Date ""]
 [Board "7"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set10 7}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "E:6.AKQJ43.864.QT2 Q74.9652.Q5.A863 T52.T8.T972.KJ94 AKJ983.7.AKJ3.75"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4S"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "E:5.KQJ843.76.KQJ4 Q74.9652.Q5.A863 T62.AT.T9842.T92 AKJ983.7.AKJ3.75"]
+[Auction "E"]
+1H pass pass X pass 2C pass 2S pass 4S pass pass pass
 [Result ""]
 {EAST's 1
 
@@ -304,30 +256,21 @@ he shows a good suit and 17+ points.
 
 SOUTH raises to 4♠.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 7, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "E"]
-1H Pass Pass X
-Pass 2C Pass 2S
-Pass 4S Pass Pass
-Pass
+[RotationNote "Board 7, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
 
 [Event ""]
-{Baker Bidpractice/Set10 8}
 [Site ""]
 [Date ""]
 [Board "8"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set10 8}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "W:T3.T543.983.T742 87.A976.A62.K963 KQ6542.J2.KJT5.J AJ9.KQ8.Q74.AQ85"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:KQ542.J4.KJ985.J AJ9.KQ8.Q74.AQ85 T63.T532.T3.T742 87.A976.A62.K963"]
+[Auction "E"]
+1S 1NT pass 2C pass 2D pass 3NT pass pass pass
 [Result ""]
 {SOUTH has 18 points, a balanced hand, and a good stopper in their suit. He should overcall 1NT.
 
@@ -339,29 +282,21 @@ a 4-card Major NORTH has enough points to bid 3NT. She doesn't worry about a ♠
 
 since SOUTH promised he had the suit controlled.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 8, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "E"]
-1S 1NT Pass 2C
-Pass 2D Pass 3NT
-Pass Pass Pass
+[RotationNote "Board 8, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Bidpractice/Set10 9}
 [Site ""]
 [Date ""]
 [Board "9"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set10 9}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "W:Q73.A9.KT54.A975 A86.KQJ.AJ97.KQ4 K94.T853.Q32.T32 JT52.7642.86.J86"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "1NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:4.A93.KQ5432.AT7 A86.KQJ.AJ97.KQ4 KQ973.T85.T.9532 JT52.7642.86.J86"]
+[Auction "W"]
+1D X pass 1S pass 1NT pass pass pass
 [Result ""]
 {NORTH has 20 points, excellent
 
@@ -377,29 +312,21 @@ to hear his best suit.
 
 NORTH now bids 1NT, showing the balanced 19-21 point hand. SOUTH passes, of course.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 9, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "W"]
-1D X Pass 1S
-Pass 1NT Pass Pass
-Pass
+[RotationNote "Board 9, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Bidpractice/Set10 10}
 [Site ""]
 [Date ""]
 [Board "10"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set10 10}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "W:T8.932.T9642.T53 KJ62.65.AQ3.9874 A953.KJ874.8.QJ2 Q74.AQT.KJ75.AK6"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:A3.KJ8732.84.QJT Q74.AQT.KJ75.AK6 T985.94.T962.532 KJ62.65.AQ3.9874"]
+[Auction "E"]
+1H X pass 2S pass 3NT pass pass pass
 [Result ""]
 {SOUTH has a 19 point balanced hand, including a stop in
 
@@ -415,29 +342,21 @@ In theory SOUTH could now bid 2NT to continue the description of his hand, but h
 
 go ahead and bid 3NT instead.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 10, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "E"]
-1H X Pass 2S
-Pass 3NT Pass Pass
-Pass
+[RotationNote "Board 10, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Bidpractice/Set10 11}
 [Site ""]
 [Date ""]
 [Board "11"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set10 11}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "W:97.KQ932.A984.Q8 AQT53.64.QT.A974 86.JT7.765.KT653 KJ42.A85.KJ32.J2"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:.KQT73.A9875.Q53 AQT53.64.QT.A974 9876.J92.64.KT86 KJ42.A85.KJ32.J2"]
+[Auction "W"]
+1H 1S pass 3S pass 4S pass pass pass
 [Result ""]
 {With a 5-card ♠ suit and 13 points NORTH should overcall 1♠.
 
@@ -447,29 +366,21 @@ to insist on game. But since NORTH overcalled, SOUTH merely invites with a jump 
 
 NORTH has better than a minimum overcall so she accepts the invitation and bids 4♠.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 11, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "W"]
-1H 1S Pass 3S
-Pass 4S Pass Pass
-Pass
+[RotationNote "Board 11, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Bidpractice/Set10 12}
 [Site ""]
 [Date ""]
 [Board "12"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set10 12}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "E:T852.3.J987.Q876 Q3.KQ9864.A52.95 A97.A2.KQT43.T42 KJ64.JT75.6.AKJ3"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "W:A82.A3.KJT4.Q864 KJ64.JT75.6.AKJ3 T975.2.Q9873.T72 Q3.KQ9864.A52.95"]
+[Auction "W"]
+1D X pass 4H pass pass pass
 [Result ""]
 {NORTH has a very minimum Takeout Double of 1
 
@@ -487,28 +398,21 @@ SOUTH has 13 points and only wants to play in one contract, 4
 
 NORTH passes happily.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 12, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "W"]
-1D X Pass 4H
-Pass Pass Pass
+[RotationNote "Board 12, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
 
 [Event ""]
-{Baker Bidpractice/Set10 13}
 [Site ""]
 [Date ""]
 [Board "13"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set10 13}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "E:KQ.A94.KT83.J653 AT94.KQJ7.Q6.AQ4 8532.863.752.987 J76.T52.AJ94.KT2"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "E:K5.A4.K8753.J763 AT94.KQJ7.Q6.AQ4 Q832.9863.T2.985 J76.T52.AJ94.KT2"]
+[Auction "E"]
+1D X pass 1NT pass 3NT pass pass pass
 [Result ""]
 {SOUTH has 18 points, a doubleton in the opponent's suit, and at least three cards in the unbid suits.
 
@@ -530,29 +434,21 @@ s are covered,
 
 so she bids 3NT.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 13, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "E"]
-1D X Pass 1NT
-Pass 3NT Pass Pass
-Pass
+[RotationNote "Board 13, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
 
 [Event ""]
-{Baker Bidpractice/Set10 14}
 [Site ""]
 [Date ""]
 [Board "14"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set10 14}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "E:JT732.76.T9853.4 Q8.AJ92.AJ6.Q983 5.KT843.Q2.AK652 AK964.Q5.K74.JT7"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:JT.KT763.Q985.AK AK964.Q5.K74.JT7 7532.84.T32.6542 Q8.AJ92.AJ6.Q983"]
+[Auction "W"]
+1H 1S pass 2NT pass 3NT pass pass pass
 [Result ""]
 {NORTH has an opening hand, 14 points and five ♠s. But WEST beat him to the punch,
 
@@ -572,29 +468,21 @@ Since NORTH has several points more than he might have had, and no 6-card ♠ su
 
 he happily bids 3NT.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 14, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "W"]
-1H 1S Pass 2NT
-Pass 3NT Pass Pass
-Pass
+[RotationNote "Board 14, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
 
 [Event ""]
-{Baker Bidpractice/Set10 15}
 [Site ""]
 [Date ""]
 [Board "15"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set10 15}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "W:KQJT6.A64.JT4.T9 87.KQ97.AK83.QJ4 542.82.9762.7532 A93.JT53.Q5.AK86"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:KQJ642.A42.J.T95 87.KQ97.AK83.QJ4 T5.86.T97642.732 A93.JT53.Q5.AK86"]
+[Auction "W"]
+1S X pass 2S pass 3H pass 4H pass pass pass
 [Result ""]
 {NORTH has 15 points and all the requirements for a Takeout Double of 1♠.
 
@@ -614,29 +502,21 @@ makes it easy for SOUTH - he bids 4
 
 .}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 15, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "W"]
-1S X Pass 2S
-Pass 3H Pass 4H
-Pass Pass Pass
+[RotationNote "Board 15, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Bidpractice/Set10 16}
 [Site ""]
 [Date ""]
 [Board "16"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set10 16}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "W:T83.94.T964.KJ53 K75.852.KQ3.9762 9.KQJT63.A85.QT4 AQJ642.A7.J72.A8"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:93.KQJ96.T954.KQ AQJ642.A7.J72.A8 T8.T43.A86.JT543 K75.852.KQ3.9762"]
+[Auction "E"]
+1H X pass 2C pass 2S pass 4S pass pass pass
 [Result ""]
 {There is only one reason that SOUTH should not overcall with 1♠. He is too strong.
 
@@ -648,29 +528,21 @@ type hand, but with 17 or more points.
 
 NORTH has fine trump support and 8 points so she bids a confident 4♠.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 16, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "E"]
-1H X Pass 2C
-Pass 2S Pass 4S
-Pass Pass Pass
+[RotationNote "Board 16, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Bidpractice/Set10 17}
 [Site ""]
 [Date ""]
 [Board "17"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set10 17}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "W:AT.QJ82.AJ83.543 K983.76.KQ5.AJ76 7654.T95.T962.T9 QJ2.AK43.74.KQ82"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:A64.Q8.AJT832.T4 K983.76.KQ5.AJ76 T75.JT952.96.953 QJ2.AK43.74.KQ82"]
+[Auction "W"]
+1D pass pass X pass 2D pass 2H pass 2S pass 3C pass 3NT pass pass pass
 [Result ""]
 {NORTH has 13 points but has no bid over 1
 
@@ -696,31 +568,21 @@ NORTH shows her ♠ suit, SOUTH doesn't like it.
 
 SOUTH shows his ♣ suit, NORTH likes it fine, but decides 3NT will be easier than 5♣.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 17, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "W"]
-1D Pass Pass X
-Pass 2D Pass 2H
-Pass 2S Pass 3C
-Pass 3NT Pass Pass
-Pass
+[RotationNote "Board 17, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Bidpractice/Set10 18}
 [Site ""]
 [Date ""]
 [Board "18"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set10 18}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "N:8.KT84.QT93.AJ83 96.Q65.J754.KT62 KQ532.J92.K2.Q74 AJT74.A73.A86.95"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "1S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:KQ532.82.KQ32.QJ AJT74.A73.A86.95 8.KJT94.T9.A8743 96.Q65.J754.KT62"]
+[Auction "S"]
+1S pass pass pass
 [Result ""]
 {WEST would have had a great opening 1♠ bid. But when SOUTH opened 1♠
 
@@ -730,27 +592,21 @@ and he sure couldn't bid ♠s. So he must pass.
 
 And so does everybody else pass.}
 [BCFlags "1f"]
-[OriginalRotationBasis "E"]
-[RotationNote "Board 18, chOption: S, chBasis: E, basisKind:Student, nOption:2, nBasis: 1, nRot: 1, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1S Pass Pass Pass
+[RotationNote "Board 18, chOption: S, chBasis: E, basisKind:Declarer, nOption:2, nBasis: 1, nRot: 1, useStandardVul: true"]
 
 [Event ""]
-{Baker Bidpractice/Set10 19}
 [Site ""]
 [Date ""]
 [Board "19"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set10 19}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "W:T4.A83.T74.AKJ94 KQJ9753.74.Q3.62 6.KQT96.AJ52.QT8 A82.J52.K986.753"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:64.KQ96.A4.AQ984 KQJ9753.74.Q3.62 T.AT83.JT752.KJT A82.J52.K986.753"]
+[Auction "W"]
+1C 3S pass pass pass
 [Result ""]
 {If West had passed, NORTH would have opened with a preemptive 3♠.
 
@@ -762,28 +618,21 @@ SOUTH treats it just like a Preemptive 3-bid, even though it is now called a Wea
 
 In this case, SOUTH passes.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 19, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "W"]
-1C 3S Pass Pass
-Pass
+[RotationNote "Board 19, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Bidpractice/Set10 20}
 [Site ""]
 [Date ""]
 [Board "20"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set10 20}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "W:9.KT972.Q72.KQ72 K72.QJ54.63.9864 Q643.A8.K94.AJT5 AJT85.63.AJT85.3"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "1S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:4.A98.KQ74.AKJT5 AJT85.63.AJT85.3 Q963.KT72.92.Q72 K72.QJ54.63.9864"]
+[Auction "E"]
+1C 1S pass pass pass
 [Result ""]
 {SOUTH has 12 points, but with two 5-card suits worthy of an overcall. There isn't really a
 
@@ -795,28 +644,21 @@ In this Deal, after SOUTH overcalls 1♠, that later possibility never happens b
 
 everybody should pass.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 20, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "E"]
-1C 1S Pass Pass
-Pass
+[RotationNote "Board 20, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Bidpractice/Set10 21}
 [Site ""]
 [Date ""]
 [Board "21"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set10 21}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "N:KJT97.KT95.Q6.AK A53.42.AK2.J7642 42.AJ7.JT75.QT93 Q86.Q863.9843.85"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "1S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "N:KJT742.A9.T6.AKQ A53.42.AK2.J7642 9.KJT75.QJ75.T93 Q86.Q863.9843.85"]
+[Auction "N"]
+1S pass pass pass
 [Result ""]
 {EAST has 13 points but she has to pass.
 
@@ -832,27 +674,21 @@ She cannot overcall 2♣ with a terrible suit like that.
 
 And WEST of course must also pass.}
 [BCFlags "1f"]
-[OriginalRotationBasis "W"]
-[RotationNote "Board 21, chOption: N, chBasis: W, basisKind:Student, nOption:0, nBasis: 3, nRot: 1, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1S Pass Pass Pass
+[RotationNote "Board 21, chOption: N, chBasis: W, basisKind:Declarer, nOption:0, nBasis: 3, nRot: 1, useStandardVul: true"]
 
 [Event ""]
-{Baker Bidpractice/Set10 22}
 [Site ""]
 [Date ""]
 [Board "22"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set10 22}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "N:.T943.T96432.KT4 T3.KJ76.KJ5.AQ72 A9765.A85.A.J965 KQJ842.Q2.Q87.83"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "1S"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:A9765.A85.AT9.65 KQJ842.Q2.Q87.83 .T943.6432.KJT94 T3.KJ76.KJ5.AQ72"]
+[Auction "S"]
+1S pass pass X pass pass pass
 [Result ""]
 {WEST obviously has to pass when SOUTH opens 1♠.
 
@@ -866,28 +702,21 @@ when you don't. WEST's ♠ are so good that he passes, converting the Takeout Do
 
 Penalty Double.}
 [BCFlags "1f"]
-[OriginalRotationBasis "E"]
-[RotationNote "Board 22, chOption: S, chBasis: E, basisKind:Student, nOption:2, nBasis: 1, nRot: 1, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1S Pass Pass X
-Pass Pass Pass
+[RotationNote "Board 22, chOption: S, chBasis: E, basisKind:Declarer, nOption:2, nBasis: 1, nRot: 1, useStandardVul: true"]
 
 [Event ""]
-{Baker Bidpractice/Set10 23}
 [Site ""]
 [Date ""]
 [Board "23"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set10 23}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "W:T.754.QJT4.AKJ73 AK872.J98.K76.65 9643.T63.32.QT98 QJ5.AKQ2.A985.42"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:943.T65.Q42.AKQ7 AK872.J98.K76.65 T6.743.JT3.JT983 QJ5.AKQ2.A985.42"]
+[Auction "W"]
+1C 1S pass 4S pass pass pass
 [Result ""]
 {NORTH has a normal overcall of 1♠.
 
@@ -895,28 +724,21 @@ SOUTH has a really good hand, but he doesn't have to worry about missing a slam 
 
 not have more than 16 points. So he just bids what he thinks NORTH can make, 4♠.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 23, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "W"]
-1C 1S Pass 4S
-Pass Pass Pass
+[RotationNote "Board 23, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Bidpractice/Set10 24}
 [Site ""]
 [Date ""]
 [Board "24"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Bidpractice/Set10 24}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "E:J842.T2.Q87.K975 T65.84.KJT3.AJ84 A97.A976.A42.Q32 KQ3.KQJ53.965.T6"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "1NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:AJ72.T9.AQ72.732 KQ3.KQJ53.965.T6 984.A762.84.KQ95 T65.84.KJT3.AJ84"]
+[Auction "W"]
+1D 1H pass 1NT pass pass pass
 [Result ""]
 {NORTH has 12 points and a good enough suit to overcall 1
 
@@ -932,9 +754,5 @@ stopper. She bids 1NT.
 
 NORTH has nothing more to say, and lets SOUTH play 1NT.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 24, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "W"]
-1D 1H Pass 1NT
-Pass Pass Pass
+[RotationNote "Board 24, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+

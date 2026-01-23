@@ -1,0 +1,182 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:58:26 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Cue-bid 1}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:2.KT9.T8532.T754 AQ876.73.KQJ7.Q2 J54.AQJ852.9.A63 KT93.64.A64.KJ98"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{You have a limit raise in \Ss; if West had not overcalled you would have bid 3\S. 
+
+Instead, you cue-bid 3\H, promising at least 11 points and support for \Ss. Partner bids the game.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 1, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1S 2H 3H Pass
+4S Pass Pass Pass
+
+[Event ""]
+{Baker Cue-bid 2}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:J72.KQ.J9.KJT976 KQ63.A873.Q8.842 5.JT52.T65432.Q3 AT984.964.AK7.A5"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{Partner has a limit raise or better in \Ss. 
+
+With your 17 revalued points you know that your side has at least enough for game, so bid 4\S.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1S 2C 3C Pass
+4S Pass Pass Pass
+
+[Event ""]
+{Baker Cue-bid 3}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:6.JT2.T62.AKT876 742.AK654.AJ3.43 AKQJT93.8.9875.5 85.Q973.KQ4.QJ92"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3H"]
+[Result ""]
+{You have a limit raise in \Hs; if West had not overcalled you would have bid 3\H. 
+
+Instead, you cue-bid 2\S, promising at least 11 points and support for \Hs. Partner bids 3\H. What do you say? 
+
+Pass. Partner indicates a minimum hand and you don't have enough extra to bid more.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1H 1S 2S Pass
+3H Pass Pass Pass
+
+[Event ""]
+{Baker Cue-bid 4}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:KQ752.962.A5.T96 A3.Q874.J62.8742 JT8.T.KQT83.QJ53 964.AKJ53.974.AK"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3H"]
+[Result ""]
+{You have a pretty good hand and if partner has a limit raise or better you should bid 4\H. 
+
+But partner doesn't have a limit raise - if he did he would have cue-bid. So you pass. }
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1H 1S 3H Pass
+Pass Pass
+
+[Event ""]
+{Baker Cue-bid 5}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:J42.AJ2.T53.AJ74 AQ876.73.KQJ7.92 5.KQT985.982.KQ5 KT93.64.A64.T863"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3S"]
+[Result ""]
+{You would have bid 2\S if West had not overcalled. 
+
+Instead, with 4 trumps you can jump to 3\S as a preemptive measure. Partner will not mistake this for a limit raise since you would have cue-bid with 11+ points and support.
+
+The jump to 3 is based on the Law of Total Tricks - bidding to a trick level equal to the number of your side's trumps.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 5, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1S 2H 3S Pass
+Pass Pass

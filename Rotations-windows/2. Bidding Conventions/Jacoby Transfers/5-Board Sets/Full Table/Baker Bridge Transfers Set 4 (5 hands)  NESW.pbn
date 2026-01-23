@@ -1,0 +1,216 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:51:39 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Transfers 16}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:J52.A83.T86.QJ42 T9873.KQT.A4.T73 KQ4.J742.9753.65 A6.965.KQJ2.AK98"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "3NT"]
+[Result ""]
+{You open 1NT and partner responds 2\H. What do you bid? 
+
+You say 2\S and partner rebids 2NT. What do you bid? 
+
+Partner has 9 points and a 5-card \S suit. He is inviting you to choose a game if you have maximum.
+
+Since you have 17 points you accept the invitation, but with only 2 \Ss you choose 3NT.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+1NT Pass 2H Pass
+2S Pass 2NT Pass
+3NT Pass Pass Pass
+
+[Event ""]
+{Baker Transfers 17}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "S:6.94.QT963.AKT92 Q9854.KQT83.75.3 JT732.A72.82.Q74 AK.J65.AKJ4.J865"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "4H"]
+[Result ""]
+{You open 1NT and partner responds 2\D. What do you bid? 
+
+You obey partner and bid 2\H but he then bids 2\S.
+
+What do you bid? 
+
+Partner has told you that he has an inviting, 9-point hand with 5 of each Major. He wants you to choose a Major and also decide whether to play game or partscore.
+
+Despite your \Ss being so beautiful there are only two of them so you pick \Hs. And since you have a maximum 17 points you bid the game, 4\H.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+[Student "S"]
+[Auction "E"]
+1NT Pass 2D Pass
+2H Pass 2S Pass
+4H Pass Pass Pass
+
+[Event ""]
+{Baker Transfers 18}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:J962.J3.AT32.T82 AK873.KT965.75.9 4.872.Q986.AQ743 QT5.AQ4.KJ4.KJ65"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{You open 1NT and partner responds 2\H. What do you bid? 
+
+You say 2\S. Partner then bids 3\H. What do you bid? 
+
+Partner has a game forcing hand and is 5-5 in the Majors. He has asked you to choose one of them to bid game in.
+
+With 3 of each you might be inclined to choose your stronger one, \Hs, but in fact that doesn't really matter since partner is probably stronger in \Ss.
+
+What does matter is those minor suits. If the opening lead is a \C or \D, which is very likely, you want the lead to be coming into your hand, not partner's. And in general you would prefer to have the stronger hand remain concealed. So you bid 4\S where you will be declarer, rather than 4\H where partner would be declarer.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "S"]
+1NT Pass 2H Pass
+2S Pass 3H Pass
+4S Pass Pass Pass
+
+[Event ""]
+{Baker Transfers 19}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:AJ863.62.J54.T72 KQ94.AJ973.83.A6 72.85.QT962.J543 T5.KQT4.AK7.KQ98"]
+[Scoring ""]
+[Declarer "W"]
+[Contract "6H"]
+[Result ""]
+{You open 1NT and partner responds 2\D. What do you bid? 
+
+Just hold it a minute and DO NOT say 2\H. True, when partner transfers, you almost always just obey and complete the transfer. This is the one time when you don't. You had a 17 point 1NT opener with 4 \Hs and a doubleton. As soon as partner told you to bid \Hs your hand became worth 18 points because of the good trump support and the doubleton. So you inform partner of this by making the "super-accept" bid of 3\H. In other words, you complete the transfer with a jump. 
+
+Partner's eyes get big (but you aren't allowed to notice that) and he bids 4\C.
+
+What do you bid? 
+
+Partner's \C bid was not a suit, you already have an agreed suit, \Hs. The \C bid was showing you first round control in \Cs, and is a slam try by partner.
+
+You continue the search for slam by showing your first round \D control, you bid 4\D. 
+
+That was all partner needed to hear, he jumps straight to 6\H.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
+[Student "S"]
+[Auction "W"]
+1NT Pass 2D Pass
+3H Pass 4C Pass
+4D Pass 6H ALL
+Pass
+
+[Event ""]
+{Baker Transfers 20}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:AK72.84.Q53.T654 Q9853.72.8642.A3 6.QJT9653.JT.J72 JT4.AK.AK97.KQ98"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4S"]
+[Result ""]
+{You open 2NT and partner responds 3\H. What do you bid? 
+
+You bid 3\S, just as partner asked. He puts you in game at 3NT. What do you say? Bid or pass? 
+
+Bid of course. You have an 8-card \S fit so you prefer \Ss to notrump.
+
+As you can see, 3NT would surely go down with a \H lead, while 4\S is cold.
+
+One hand doesn't mean it will always be like this, but usually if you have an 8-card fit the Major suit game will be better than 3NT.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+2NT Pass 3H Pass
+3S Pass 3NT Pass
+4S Pass Pass Pass

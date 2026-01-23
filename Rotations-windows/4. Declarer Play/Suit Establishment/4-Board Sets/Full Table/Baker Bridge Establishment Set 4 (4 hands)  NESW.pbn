@@ -1,0 +1,197 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:01:47 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Establishment 13}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:QT64.J82.K84.Q83 83.75.AQT62.AK74 J97.QT96.J9.JT62 AK52.AK43.753.95"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "3NT"]
+[Result ""]
+{North is to play 3NT. East leads the \S4.
+
+Winners:   \S=2  \H=2  \D=1  \C=2  Total = 7
+
+You need two more winners. They cannot possibly come from \Ss, \Hs, or \Cs since one defender must hold at least 4 cards in each of those suits. So your two extra winners must come from the \D suit.
+
+There is no reason to hold up on the \S since the \H and \C suits also have just two stoppers. You win the \SA.
+
+You best play next is to finesse the \DT. This may gain a trick by virtue of the finesse if East happens to hold the \DJ, but primarily you are working to establish the \D suit. Assume West wins the \DJ and returns a \S.
+
+Again don't hold up. Take the \SK and lead another small \D, finessing with dummy's \DQ. Happily this time the finesse works, and even more happily both defenders follow suit. That means the rest of the \Ds are good and you make an overtrick.
+
+If looked different because of the two finesses you took.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "S"]
+1D Pass 1H Pass
+2C Pass 3NT Pass
+Pass Pass
+[Play "E"]
+S4
+
+[Event ""]
+{Baker Establishment 14}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "S:JT642.KJ8.T73.K2 97.43.8652.A8653 A85.QT96.QJ9.T74 KQ3.A752.AK4.QJ9"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "3NT"]
+[Result ""]
+{East is to play 3NT. South leads the \S4. North puts on the \SA and returns the \S8.
+
+Winners:   \S=2  \H=1  \D=2  \C=1  Total = 6
+
+Needing three more winners you are going to have to establish the \C suit. You are also going to have to be lucky!
+
+You win the second \S and play your \CQ. South covers with the \CK. What do you do next?
+
+You DUCK. If you take the \CA now you will never get back to dummy to enjoy those other \Cs. So let South have the \CK. You win his return, (probably a \S), and play \CJ, then \C9 to dummy's \CA. As long as \Cs split 3-2 you will get the three winners you need.
+
+South's play of the \CK may have made you want to jump up with the \CA, but you must stick to the original play of ducking one trick.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+[Student "S"]
+[Auction "W"]
+Pass Pass 1C Pass
+2C Pass 3NT Pass
+Pass Pass
+[Play "S"]
+S4
+
+[Event ""]
+{Baker Establishment 15}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:KT82.KT4.872.KJ7 754.AQ875.963.84 J96.J92.QJT.T932 AQ3.63.AK54.AQ65"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{South is to play 3NT. West leads the \S2. East puts on the \SJ.
+
+Winners:   \S=2  \H=1  \D=2  \C=1  Total = 6
+
+You need three more winners. It is possible your fourth \D can be established, but that needs a 3-3 split. It's also possible that the \C finesse will work, and also the \H finesse. Since you need the \H finesse anyway you should go ahead and try to establish the \Hs. 
+
+Win the first trick with your \SQ and play a low \H, ducking in dummy. East will no doubt win a cheap trick but no matter. When you next gain the lead play your other low \H and finesse the \HQ. Assume this wins (if it doesn't you will be going down for sure). Play the \HA and if both defenders follow your other 2 \Hs are good and your contract is made.
+
+ to see the full Deal and whether you made the contract or not. 
+
+But, it is your only chance to make the contract.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+Pass Pass 1D Pass
+1H Pass 2NT Pass
+3NT Pass Pass Pass
+[Play "W"]
+S2
+
+[Event ""]
+{Baker Establishment 16}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:KQJT.T9.743.KT72 8653.K54.KJT85.Q A92.J73.A92.J965 74.AQ862.Q6.A843"]
+[Scoring ""]
+[Declarer "W"]
+[Contract "4H"]
+[Result ""]
+{Some pretty agressive bidding gets you to a challenging game. West is to play 4\H. North leads the \SK, overtaken by South's \SA. South returns a \S to North's \ST, and he then plays the \SQ.
+
+Losers:   \S=2  \H=0  \D=1  \C=3  Total = 6
+
+With 2 tricks already gone you still have 4 losers. You could consider ruffing the 3 \C losers in dummy but that would just create a trump loser even when trumps are splitting 3-2. So it looks like you will have to establish the \D suit for discards. You could pull trumps and then play your \DQ, hoping the defenders will grab their \DA immediately. But unless they are real novices they will hold it up one round and you'll no longer be able to reach dummy.
+
+The solution is to establish the \Ds before you use up dummy's \HK.
+
+Ruff the third \S, then play \DQ, (which they will duck), and another \D, (which they will probably take). Win whatever they return, pull trumps ending in dummy, and enjoy your 3 \D winners.
+
+}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
+[Student "S"]
+[Auction "W"]
+1H Pass 3H Pass
+4H Pass Pass Pass
+Pass
+[Play "N"]
+SK

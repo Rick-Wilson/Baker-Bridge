@@ -1,0 +1,175 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:52:08 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Roman 17}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:J63.QJ532.J5.653 AQ5.4.AKT863.AKQ T942.K987.2.9742 K87.AT6.Q974.JT8"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "7NT"]
+[Result ""]
+{Your 2NT response shows 8+ points, with no 5-card biddable suit. Decide what you would say next, then  on BID above. 
+
+You support the \Ds and partner bids 4NT. What is your next bid? 
+
+With \Ds as trump you have 1 Key-Card, the \HA. You answer 5\C and partner bids 5\H. What is your bid? 
+
+This is the Queen Ask, wanting to know if you hold the \DQ. Since you do have it you should bid a suit in which you hold a King. So you bid 5\S. That spurred partner on - he was fishing for 7\D but when you told him you had the \DQ, \HA and \SK he was able to bid 7NT.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+2C Pass 2NT Pass
+3D Pass 4D Pass
+4NT Pass 5C Pass
+5H Pass 5S Pass
+7NT ALL Pass
+
+[Event ""]
+{Baker Roman 18}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "E:K9752.54.A96.953 .KQT8632.53.JT82 AJT643..T8742.74 Q8.AJ97.KQJ.AKQ6"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6H"]
+[Result ""]
+{Partner's 2\H is a positive response, 8+ points with a 5+ card suit. Decide what you would say next, then  on BID above. 
+
+Even though it is tempting, bidding RKCB now would be a mistake because of your doubleton \S loser. Instead just support the \Hs. Partner cannot pass, you both know you are forced to game. In fact, partner bids 3\S. What do you bid next? 
+
+Partner promises first round \S control so NOW you can bid RCKB. When you bid 4NT partner answers 6\H. This shows 1 Key-Card and a void in a suit higher than \Hs. Knowing you are missing either the \DA or \HK you pass.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "W"]
+Pass 2C Pass 2H
+Pass 3H Pass 3S
+Pass 4NT Pass 6H
+ALL Pass
+
+[Event ""]
+{Baker Roman 19}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:6.JT93.9765.QT98 AQJ8543.7.AK4.AK 9.Q42.QJT2.J7532 KT72.AK865.83.64"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "7NT"]
+[Result ""]
+{Your 2\H response shows 8+ points, with at least 5 \Hs. Decide what you would say next, then  on BID above. 
+
+Your hand is looking better and better. You already gave a positive response so you know you are forced to game. It is better to keep the bidding low to allow more investigating room so you bid 3\S. Partner bids 4NT. What is your response? 
+
+With \Ss agreed as trumps you have two Key-Cards, the \SK and the \HA. With no trump Queen you respond 5\H. Partner now says 5NT. What do you reply? 
+
+Partner is asking for Kings and you have just 1, the \HK. Remember, the \SK is not a King, it is a Key-Card which you have already counted. So you bid 6\D. Partner counts 13 tricks and bids 7NT.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 3, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+2C Pass 2H Pass
+2S Pass 3S Pass
+4NT Pass 5H Pass
+5NT Pass 6D Pass
+7NT ALL Pass
+
+[Event ""]
+{Baker Roman 20}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "W:T.J943.753.AQ763 QJ73.A8.T864.KJ5 82.T752.A9.T9842 AK9654.KQ6.KQJ2."]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6S"]
+[Result ""]
+{Partner's 3\S is a limit raise, 11-12 points and good \S support. Decide what you would say next, then  on BID above. 
+
+What you DO NOT say next is 4NT. If partner answered 1 Key-Card you would not know what to do. If he has a red Ace you can make slam, but if his one Key-Card were the \CA you couldn't. Instead you make a control-showing bid of 4\C, promising first round control. Partner obliges you by bidding 4\H. What is your next bid? 
+
+</table>
+
+Partner's bidding is like the Sherlock Holmes tale <u>Silver Blaze</u>, about the dog that didn't bark. Partner's \H bid shows that he DOES have the \HA, but equally important it shows that he DOES NOT have the \DA. So you know you don't have a \H loser but do have a \D loser. You bid 6\S.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "E"]
+Pass 1S Pass 3S
+Pass 4C Pass 4H
+Pass 6S Pass Pass
+Pass

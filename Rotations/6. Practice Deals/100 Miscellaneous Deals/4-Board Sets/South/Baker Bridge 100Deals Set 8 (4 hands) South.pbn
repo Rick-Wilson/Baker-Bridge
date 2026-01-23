@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:05:32 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",10,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker 100Deals 29}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 29}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "W:T52.J98.64.KQJT4 AQ6.K752.A873.75 J984.QT3.K92.963 K73.A64.QJT5.A82"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:J984.QT3.K92.963 K73.A64.QJT5.A82 T52.J98.64.KQJT4 AQ6.K752.A873.75"]
+[Auction "E"]
+pass 1D pass 1H pass 1NT pass 3NT pass pass pass
 [Result ""]
 {You are South and it is your bid. Decide what you would say, then  on BID. 
 
@@ -80,31 +35,22 @@ But what if East DID have another \C when he won the \DK?
 
 When East won the \DK  here he had a fourth \C to return to West's hand. That means the \C suit split 4-4 so you would have lost only 3 \C tricks and the \DK.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "E"]
-Pass 1D Pass 1H
-Pass 1NT Pass 3NT
-Pass Pass Pass
-[Play "W"]
-CK
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]CK
 
 [Event ""]
-{Baker 100Deals 30}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 30}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:J93.A53.AKJT54.6 Q72.KQ86.Q92.KQ7 T.T9742.73.T9542 AK8654.J.86.AJ83"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AK8654.J.86.AJ83 J93.A53.AKJT54.6 Q72.KQ86.Q92.KQ7 T.T9742.73.T9542"]
+[Auction "S"]
+1S 2D 3D pass 4S pass pass pass
 [Result ""]
 {You are South and it is your bid. Decide what you would say, then  on BID. 
 
@@ -130,30 +76,22 @@ But though the loser count is confused your plan should not be. You DO NOT over-
 
 But did you notice that West made a bad play? He should have cashed his \HA before he led the third \D for his partner to ruff. Then when his partner ruffed with the \ST your goose would have been cooked. }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1S 2D 3D Pass
-4S Pass Pass Pass
-[Play "W"]
-DA
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]DA
 
 [Event ""]
-{Baker 100Deals 31}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 31}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:QT4.J98.QJ4.JT72 A983.AK72.965.83 J6.QT53.KT72.Q95 K752.64.A83.AK64"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4S"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:A983.AK72.965.83 J6.QT53.KT72.Q95 K752.64.A83.AK64 QT4.J98.QJ4.JT72"]
+[Auction "S"]
+1C pass 1H pass 1S pass 3S pass 4S pass pass pass
 [Result ""]
 {You are North and it is your bid. Decide what you would say, then  on BID. 
 
@@ -179,31 +117,22 @@ South and North were able to make all their small trumps individually.
 
 If West ruffs the fourth \H with his master \SQ North just discards a \D loser and makes an overtrick.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1C Pass 1H Pass
-1S Pass 3S Pass
-4S Pass Pass Pass
-[Play "W"]
-D2
+[RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Play "E"]D2
 
 [Event ""]
-{Baker 100Deals 32}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker 100Deals 32}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "W:K652.QJT2.Q73.Q8 J4.653.J4.AK9652 QT7.984.KT52.JT3 A983.AK7.A986.74"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:QT7.984.KT52.JT3 A983.AK7.A986.74 K652.QJT2.Q73.Q8 J4.653.J4.AK9652"]
+[Auction "E"]
+pass 1NT pass 3NT pass pass pass
 [Result ""]
 {You are South and it is your bid. Decide what you would say, then  on BID. 
 
@@ -221,11 +150,6 @@ Instead, you play your \C4 to the second trick and also play a low card from dum
 
 But just imagine you had played \CA, \CK, \C2. At that point \C 9 6 5 would all be winners, but don't think East is going to let you reach dummy with either of those two Jacks!}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "E"]
-Pass 1NT Pass 3NT
-Pass Pass Pass
-[Play "W"]
-HQ
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]HQ
+

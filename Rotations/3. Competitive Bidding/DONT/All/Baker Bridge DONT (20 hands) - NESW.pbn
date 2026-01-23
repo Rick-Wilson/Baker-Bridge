@@ -1,8 +1,6 @@
 % PBN 2.1
 % EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 20:56:16 2025 -0700
+%Content-type: text/x-pbn; charset=UTF-8
 %BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
 %BidAndCardSpacing Thin
 %BoardsPerPage 1
@@ -17,7 +15,6 @@
 %Font:HandRecord "Georgia",11,400,0
 %GutterSize 500,500
 %HRTitleDate 2023.10.17
-%HRTitleEvent ""
 %HRTitleSetID ""
 %HRTitleSetIDPrefix ""
 %HRTitleSite ""
@@ -41,22 +38,23 @@
 %TSTReportOrder ByNumber
 %TSTReportShade Yes
 %Translate "Board %" "Deal %"
+%Creator: CSVtoPBN Version 1.00
+%Created: 2026-01-23 13:57:51
 %sourcefilename BakerBridgeFull.csv
+%HRTitleEvent DONT
 [Event ""]
-{Baker DONT 1}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker DONT 1}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "W:QT7.753.Q52.J982 A932.JT6.73.KQ65 KJ86.A4.K84.AT74 54.KQ982.AJT96.3"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "2H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:KJ6.A53.K54.AT92 54.KQ982.AJT96.3 QT87.74.Q82.J874 A932.JT6.73.KQ65"]
+[Auction "E"]
+1NT 2D pass 2H pass pass pass
 [Result ""]
 {With T HCP and T red cards you have a good enough hand for an immediate DONT bid. So you bid 2\D, promising that suit and a Major.
 
@@ -64,28 +62,21 @@ Partner responds 2\H.
 
 Don't get carried away, partner isn't really bidding a \H suit as much as he is letting you know he doesn't like \Ds. You were only competing for a partscore and here you are in a partscore. You pass.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
-[Student "S"]
-[Auction "E"]
-1NT 2D Pass 2H
-Pass Pass Pass
 
 [Event ""]
-{Baker DONT 2}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker DONT 2}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "N:KQT.Q4.KJT.KQJ84 A92.AKJT63.73.65 J873.75.Q942.AT2 654.982.A865.973"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "2H"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "N:K7.Q75.KQT4.AQT2 A92.AKJT63.73.65 QJT83.4.J92.KJ84 654.982.A865.973"]
+[Auction "N"]
+1NT X pass 2C pass 2H pass pass pass
 [Result ""]
 {You have a terrible hand but you still cannot pass partner's double. He is requesting you to bid 2\C as a relay bid so he can name his suit.
 
@@ -93,29 +84,21 @@ You dutifully respond 2\C and he says 2\H.
 
 You didn't want to bid the first time, this time you definitely pass.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 2, chOption: E, chBasis: N, basisKind:Declarer, nOption:1, nBasis: 0, nRot: 1, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-1NT X Pass 2C
-Pass 2H Pass Pass
-Pass
 
 [Event ""]
-{Baker DONT 3}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker DONT 3}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "E:A7.KJ753.AK4.T84 KJ9.A4.Q872.A965 632.6.JT96.KQJ32 QT854.QT982.53.7"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "2S"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "E:A763.63.AKJ.QJT2 KJ9.A4.Q872.A965 2.KJ75.T964.K843 QT854.QT982.53.7"]
+[Auction "E"]
+1NT pass pass 2H pass 2S pass pass pass
 [Result ""]
 {OK, you only have 4 HCP. But you have T cards in the Majors. And, you are in the balancing seat. If West is willing to let it die at 1NT your partner must have some strength. So you should use DONT. Youbid 2\H, showing both Major suits.
 
@@ -123,29 +106,21 @@ Partner responds 2\S.
 
 Partner prefers \Ss to \Hs. Since you were bare minimum you pass.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "E"]
-1NT Pass Pass 2H
-Pass 2S Pass Pass
-Pass
 
 [Event ""]
-{Baker DONT 4}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker DONT 4}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "S:KJT6.T75.JT8.JT9 A975.63.KQ752.65 Q42.AQ94.A3.K842 83.KJ82.964.AQ73"]
-[Scoring ""]
 [Declarer "W"]
 [Contract "2D"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "N:KQT6.AQT.JT3.K84 83.KJ82.964.AQ73 J42.9754.A8.JT92 A975.63.KQ752.65"]
+[Auction "N"]
+1NT pass pass 2D pass pass pass
 [Result ""]
 {Your hand is too balanced to intervene over North's 1NT so you pass.
 
@@ -155,83 +130,61 @@ Partner has two suits, \Ds and one of the Majors. If his other suit is \Hs then 
 
 Since you can tolerate \Ds your safest call is pass.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 4, chOption: W, chBasis: N, basisKind:Declarer, nOption:3, nBasis: 0, nRot: 3, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-1NT Pass Pass 2D
-Pass Pass Pass
 
 [Event ""]
-{Baker DONT 5}
 [Site ""]
 [Date ""]
 [Board "5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker DONT 5}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "E:83.T6.J8432.QT75 QJ4.74.Q75.AJ962 AK962.A53.KT.K84 T75.KQJ982.A96.3"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "2H"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "W:A8.AT5.K32.KQ874 T75.KQJ982.A96.3 K9632.63.JT84.T5 QJ4.74.Q75.AJ962"]
+[Auction "W"]
+1NT X pass 2C pass 2H pass pass pass
 [Result ""]
 {With T HCP and a solid 6-card suit this is an ideal DONT bid. You double and partner follows procedure by saying 2\C.
 
 Now you follow procedure by showing your 6-card suit. You bid 2\H and everybody passes.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "W"]
-1NT X Pass 2C
-Pass 2H Pass Pass
-Pass
 
 [Event ""]
-{Baker DONT 6}
 [Site ""]
 [Date ""]
 [Board "6"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker DONT 6}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "S:A2.KQT.KQT3.J984 T7.AJ9742.A82.KQ K5.83.J765.A7653 QJ98643.65.94.T2"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "2S"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:A2.KQ83.Q65.AJ94 T7.AJ9742.A82.KQ K5.T.KJT73.87653 QJ98643.65.94.T2"]
+[Auction "S"]
+1NT X pass 2S pass pass pass
 [Result ""]
 {Partner's double asks you to bid 2\C as a relay bid so he can name his suit.
 
 But you don't want him to bid his 6-card suit, your hand is useless unless \Ss are trumps. So ignore the relay request and bid 2\S. Everybody passes.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 6, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
-[Student "S"]
-[Auction "S"]
-1NT X Pass 2S
-Pass Pass Pass
 
 [Event ""]
-{Baker DONT 7}
 [Site ""]
 [Date ""]
 [Board "7"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker DONT 7}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "W:K83.AT54.AJT9.K3 AJ97.J73.KQ5.QJ4 QT652..742.A9862 4.KQ9862.863.T75"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "2H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:KQ3.A54.A94.K832 AJ97.J73.KQ5.QJ4 T8652.T.JT72.A96 4.KQ9862.863.T75"]
+[Auction "W"]
+1NT pass pass X pass 2C pass 2H pass pass pass
 [Result ""]
 {In the balancing seat it is distribution that counts, not point count. With a 6-card Major suit and a singleton you should not let them play 1NT. Youdouble.
 
@@ -239,29 +192,21 @@ Partner makes the relay bid of 2\C.
 
 You bid your suit, 2\H, and everybody passes. Notice that partner had a decent hand, but could not bid over 1NT in the immediate seat.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 7, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
-[Student "S"]
-[Auction "W"]
-1NT Pass Pass X
-Pass 2C Pass 2H
-Pass Pass Pass
 
 [Event ""]
-{Baker DONT 8}
 [Site ""]
 [Date ""]
 [Board "8"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker DONT 8}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "N:QJ54.AQT97.T.T87 K2.63.753.KJ9653 T96.K4.AKJ82.A42 A873.J852.Q964.Q"]
-[Scoring ""]
 [Declarer "W"]
 [Contract "2C"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:Q6.KQ9.AJT.AT742 A873.J852.Q964.Q JT954.AT74.K82.8 K2.63.753.KJ9653"]
+[Auction "S"]
+1NT pass pass X pass 2C pass pass pass
 [Result ""]
 {You don't have a 6-card suit, nor do you have a 5-4 pair of suits. So even with a singleton you don't want to use DONT here. So you pass.
 
@@ -271,56 +216,41 @@ Right now you probably have a premonition about what is going to happen next. Bu
 
 Your premonition came true. Partner passes and you are left playing 2\C with a singleton. Nobody promised that DONT would always get you to a good contract.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 8, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
-[Student "S"]
-[Auction "S"]
-1NT Pass Pass X
-Pass 2C Pass Pass
-Pass
 
 [Event ""]
-{Baker DONT 9}
 [Site ""]
 [Date ""]
 [Board "9"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker DONT 9}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "W:KQ963.6.QJ842.54 J4.KQJT743.75.62 AT72.A95.AK3.QT7 85.82.T96.AKJ983"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "2H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:A96.A965.AQ.QT75 85.82.T96.AKJ983 KQT732..KJ8432.4 J4.KQJT743.75.62"]
+[Auction "E"]
+1NT X pass 2H pass pass pass pass
 [Result ""]
 {You only have 8 HCP but with such a good 6-card suit you should interfere with a DONT bid. You double and partner surprises you by saying 2\H.
 
 There is a reason partner didn't say 2\C (which you were going to pass). And the reason is that he figures you will be better off in his \Hs. Since you trust your partner you pass.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 9, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
-[Student "S"]
-[Auction "E"]
-1NT X Pass 2H
-Pass Pass Pass Pass
 
 [Event ""]
-{Baker DONT 10}
 [Site ""]
 [Date ""]
 [Board "10"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker DONT 10}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "N:T65.K5.AJ95.AQJ6 KQJ83.AT764.6.K8 A942.93.832.T542 7.QJ82.KQT74.973"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "4H"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "N:AT6.K5.A952.AJ54 KQJ83.AT764.6.K8 9542.93.J83.QT62 7.QJ82.KQT74.973"]
+[Auction "N"]
+1NT 2H pass 3H pass 4H pass pass pass
 [Result ""]
 {Since partner has entered the bidding in the immediate seat he should have a pretty good hand, with 9+ cards in \Hs and \Ss.
 
@@ -328,29 +258,21 @@ Usually you are happy to settle for partscore after a DONT sequence, but with su
 
 So you bid 3\H and partner says 4\H.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 10, chOption: E, chBasis: N, basisKind:Declarer, nOption:1, nBasis: 0, nRot: 1, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-1NT 2H Pass 3H
-Pass 4H Pass Pass
-Pass
 
 [Event ""]
-{Baker DONT 11}
 [Site ""]
 [Date ""]
 [Board "11"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker DONT 11}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "W:Q54.AQ85.K42.AQ3 KJ96.K973.AQ65.8 87.JT2.JT73.J642 AT32.64.98.KT975"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "2S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:Q87.AQT8.K2.AJ63 KJ96.K973.AQ65.8 54.J52.JT743.Q42 AT32.64.98.KT975"]
+[Auction "W"]
+1NT pass pass 2C pass 2D pass 2S pass pass pass
 [Result ""]
 {You have only 7 HCP but expect partner to have a reasonable hand since East could not keep the bidding open. With your black 2-suiter you bid the lowest one, 2\C.
 
@@ -360,29 +282,21 @@ Partner's 2\D bid, the next suit up the line, asks you to name your other suit (
 
 You bid 2\S and everybody passes.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 11, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
-[Student "S"]
-[Auction "W"]
-1NT Pass Pass 2C
-Pass 2D Pass 2S
-Pass Pass Pass
 
 [Event ""]
-{Baker DONT 12}
 [Site ""]
 [Date ""]
 [Board "12"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker DONT 12}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "S:9.T872.J3.AT9542 KT8652.J63.T5.87 Q4.A54.K9742.KQJ AJ73.KQ9.AQ86.63"]
-[Scoring ""]
 [Declarer "W"]
 [Contract "4S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "N:Q94.A42.KJ942.AK AJ73.KQ9.AQ86.63 .T875.73.QJT9542 KT8652.J63.T5.87"]
+[Auction "N"]
+1NT pass pass 2S pass 4S pass pass pass
 [Result ""]
 {You would have opened 1NT but North beat you to it. You cannot double for penalties when you use DONT, so you pass.
 
@@ -392,29 +306,21 @@ The 2\S bid shows a weak hand, with more strength partner would have first doubl
 
 Still, you know he has a 6-card suit and you also know that every finesse is going to work. You either bid 3\S or 4\S. Be bold.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 12, chOption: W, chBasis: N, basisKind:Declarer, nOption:3, nBasis: 0, nRot: 3, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-1NT Pass Pass 2S
-Pass 4S Pass Pass
-Pass
 
 [Event ""]
-{Baker DONT 13}
 [Site ""]
 [Date ""]
 [Board "13"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker DONT 13}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "W:KT932.J94.T73.T4 A864.QT87.K642.Q QJ.AK63.AJ8.7652 75.52.Q95.AKJ983"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "2C"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:KQT.AK643.AJ.T42 75.52.Q95.AKJ983 J932.J9.T873.765 A864.QT87.K642.Q"]
+[Auction "E"]
+1NT X pass 2C pass pass pass
 [Result ""]
 {This is a perfect hand with which to Disturb the Opponent's No Trump. You double and partner bids 2\C, the relay bid.
 
@@ -422,28 +328,21 @@ What do you say next?
 
 You say pass, of course.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 13, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
-[Student "S"]
-[Auction "E"]
-1NT X Pass 2C
-Pass Pass Pass
 
 [Event ""]
-{Baker DONT 14}
 [Site ""]
 [Date ""]
 [Board "14"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker DONT 14}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "N:JT2.AK7.KT95.AT3 KQ985.64.86.KQ92 43.J982.AQ3.J764 A76.QT53.J742.85"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "2S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:JT2.AJ87.AK.AT64 KQ985.64.86.KQ92 43.K92.QT953.J73 A76.QT53.J742.85"]
+[Auction "N"]
+1NT 2C pass 2D pass 2S pass pass pass
 [Result ""]
 {Partner has two suits, \Cs and something else.
 
@@ -451,29 +350,21 @@ With \Cs your worst suit, you prefer to play in something else. So you bid the n
 
 Partner corrects to 2\S, his "something else" and you pass.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 14, chOption: E, chBasis: N, basisKind:Declarer, nOption:1, nBasis: 0, nRot: 1, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-1NT 2C Pass 2D
-Pass 2S Pass Pass
-Pass
 
 [Event ""]
-{Baker DONT 15}
 [Site ""]
 [Date ""]
 [Board "15"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker DONT 15}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "E:QJ4.A632.AK4.JT6 87.KQJT87.965.83 T95.5.QJT732.A42 AK632.94.8.KQ975"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "2H"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "E:QJ5.A5.AJT74.A62 87.KQJT87.965.83 T94.632.KQ32.JT4 AK632.94.8.KQ975"]
+[Auction "E"]
+1NT pass pass 2C pass 2H pass pass pass
 [Result ""]
 {You have 12 HCP, certainly enough to use DONT in either seat. With your black 2-suiter you bid the lowest one, 2\C.
 
@@ -483,29 +374,21 @@ Partner would have bid 2\D, the next suit up the line, to ask you to name your o
 
 So you pass.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 15, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "E"]
-1NT Pass Pass 2C
-Pass 2H Pass Pass
-Pass
 
 [Event ""]
-{Baker DONT 16}
 [Site ""]
 [Date ""]
 [Board "16"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker DONT 16}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "S:85.87.J9432.QJ97 Q9742.KT94.75.42 KJT6.AQ32.KT.AT5 A3.J65.AQ86.K863"]
-[Scoring ""]
 [Declarer "W"]
 [Contract "2H"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "N:K85.Q832.KT3.AQJ A3.J65.AQ86.K863 JT6.A7.J942.T975 Q9742.KT94.75.42"]
+[Auction "N"]
+1NT pass pass 2H pass pass pass
 [Result ""]
 {You would have opened 1\D but after North opens 1NT you must pass.
 
@@ -515,55 +398,41 @@ The 2\H bid shows \Hs and \Ss.
 
 You like \Hs better and don't have enough strength to think about game so you pass.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
 [RotationNote "Board 16, chOption: W, chBasis: N, basisKind:Declarer, nOption:3, nBasis: 0, nRot: 3, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-1NT Pass Pass 2H
-Pass Pass Pass
 
 [Event ""]
-{Baker DONT 17}
 [Site ""]
 [Date ""]
 [Board "17"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker DONT 17}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "E:2.K76.7432.KJT64 T64.JT83.AJ8.A75 A83.AQ94.KT6.Q92 KQJ975.52.Q95.83"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "2S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:A83.AQ9.763.KQJ2 KQJ975.52.Q95.83 2.K764.KT42.T964 T64.JT83.AJ8.A75"]
+[Auction "W"]
+1NT 2S pass pass pass
 [Result ""]
 {You have a good 6-card suit but only 8 HCP. This is bare minimum for a DONT bid. The fact that your suit is \Ss should sway you toward bidding.
 
 But with the weak hand you bid 2\S instead of double. Everybody passes.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 17, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "W"]
-1NT 2S Pass Pass
-Pass
 
 [Event ""]
-{Baker DONT 18}
 [Site ""]
 [Date ""]
 [Board "18"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker DONT 18}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "W:9742.AT5.832.542 8653.Q92.754.Q63 KQ.8643.AKT.KJ98 AJT.KJ7.QJ96.AT7"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "1NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:KQ7.AT653.AK3.J9 AJT.KJ7.QJ96.AT7 942.84.T82.K8542 8653.Q92.754.Q63"]
+[Auction "E"]
+1NT pass pass pass
 [Result ""]
 {With 16 points and a balanced hand you were planning on opening 1NT yourself.
 
@@ -571,54 +440,41 @@ But one of the consequences of playing DONT is that you have no bid to describe 
 
 So you pass.}
 [BCFlags "1f"]
-[OriginalRotationBasis "E"]
 [RotationNote "Board 18, chOption: E, chBasis: E, basisKind:Declarer, nOption:1, nBasis: 1, nRot: 0, useStandardVul: true"]
-[Student "S"]
-[Auction "E"]
-1NT Pass Pass Pass
 
 [Event ""]
-{Baker DONT 19}
 [Site ""]
 [Date ""]
 [Board "19"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker DONT 19}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "W:A75.J4.AT753.AQ6 J64.AT865.KQ9.K4 8.KQ732.J2.JT832 KQT932.9.864.975"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "2S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:A5.KJ7.T532.AQJ8 J64.AT865.KQ9.K4 87.Q432.AJ7.T632 KQT932.9.864.975"]
+[Auction "W"]
+1NT pass pass 2S pass pass pass
 [Result ""]
 {Would you really bid over 1NT with only 5 HCP? In the balancing seat you should. Partner is marked with a pretty good hand, and you have a 6-card Major suit.
 
 You do bid just 2\S though, rather than a double followed by 2\S, which would show a stronger hand. Everybody passes.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 19, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
-[Student "S"]
-[Auction "W"]
-1NT Pass Pass 2S
-Pass Pass Pass
 
 [Event ""]
-{Baker DONT 20}
 [Site ""]
 [Date ""]
 [Board "20"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker DONT 20}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "N:85.82.KJ9743.JT6 QT742.KT974.5.42 AK6.QJ3.T2.AQ975 J93.A65.AQ86.K83"]
-[Scoring ""]
 [Declarer "W"]
 [Contract "2S"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "S:A65.J32.KJT73.AQ J93.A65.AQ86.K83 K8.Q8.942.JT9765 QT742.KT974.5.42"]
+[Auction "S"]
+1NT pass pass 2H pass 2S pass pass pass
 [Result ""]
 {You would have opened 1\D but after South opens 1NT you must pass.
 
@@ -628,10 +484,5 @@ The 2\H bid shows \Hs and \Ss.
 
 You have absolutely no preference between the two suits. But you do have a preference as to where the opening lead will be coming from - you'd like North to have to lead through South's strength. Besides you feel like playing the last hand so you say 2\S and everybody passes.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 20, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
-[Student "S"]
-[Auction "S"]
-1NT Pass Pass 2H
-Pass 2S Pass Pass
-Pass
+

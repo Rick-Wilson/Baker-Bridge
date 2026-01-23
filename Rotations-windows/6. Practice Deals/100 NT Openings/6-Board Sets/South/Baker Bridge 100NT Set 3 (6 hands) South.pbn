@@ -1,0 +1,318 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:09:45 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",10,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker 100NT 13}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:85.T42.QJT5.QT94 AJ74.J96.62.7532 Q62.873.K9743.KJ KT93.AKQ5.A8.A86"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{Partner's 3\C bid is Stayman; with 4 cards in both Majors you respond 3\H. Partner now bids 3NT.  What do you bid? 
+
+Partner's 3\C bid is Stayman; with 4 cards in both Majors you respond 3\H. Partner now bids 3NT.  What do you bid? 
+
+Partner would not use Stayman unless he held a 4-card Major suit himself. Since he didn't like your \Hs it follows that he must have 4 \Ss.
+
+So you correct the 3NT contract to 4\S. 
+
+If you had left it in 3NT you'd have 8 top tricks and a \S finesse for 9.
+
+But you're in 4\S. 
+
+If you can guess the \SQ your problems are over. But just in case you dislike those 50% guesses, try to find a better Plan. 
+
+Another possibility is that a defender holds either a singleton or doubleton \SQ so you can pick up the suit by leading \S A K. This is smaller than a 50% chance. 
+
+But there is more to the odds than that. Suppose you try the second possibility and play off both the \SA and \SK but the \SQ does NOT drop. You are still not dead! You just leave the \SQ out there and start on \Hs. As long as the defender who holds the \SQ has at least 3 \Hs he will be unable to ruff until after you have discarded dummy's \D loser.
+
+The extra chance makes this Plan your best hope.
+
+ to see which plan works. 
+
+You could have gone down easily by playing West for the \SQ.
+
+Or you could have made it whoever held the \SQ by using the "improved" plan.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+2NT Pass 3C Pass
+3H Pass 3NT Pass
+4S Pass Pass Pass
+[Play "W"]
+DQ
+
+[Event ""]
+{Baker 100NT 14}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:K873.5.KQ942.943 AQ5.J3.AJT3.QJT8 942.AQ8742.6.K75 JT6.KT96.875.A62"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "2HX"]
+[Result ""]
+{Sometimes the opponents make overcalls which disrupt the smooth flow of your side's bidding. You and your partner need to have ways of dealing with these disruptions. One possibility is the lebensohl convention which is used a few times in these T0 Deals. There are lots of other methods out there, and you may not care for lebensohl. One of the big reasons we use it is that it includes a penalty double - some other methods use the double for other reasons.
+
+So, in lebensohl an immediate double of their overcall of partner's 1NT opener is for penalties. Just like this one - punish them if they dare try to disrupt your bidding!
+
+To see all the hands  
+
+This is the only Deal like this out of the T0.
+
+No Declarer Plan for you to make, no tricks to look for.
+
+Just play through the deal as you think it might go and see how many tricks you can set South. Enjoy.}
+[BCFlags "1f"]
+[OriginalRotationBasis "E"]
+[RotationNote "Board 2, chOption: S, chBasis: E, basisKind:Student, nOption:2, nBasis: 1, nRot: 1, useStandardVul: false"]
+[Student "S"]
+[Auction "E"]
+1NT 2H X Pass
+Pass Pass
+[Play "W"]
+SJ
+
+[Event ""]
+{Baker 100NT 15}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:953.JT86.Q972.94 A6.972.KT83.AKQ5 T742.A543.J4.T82 KQJ8.KQ.A65.J763"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6NT"]
+[Result ""]
+{Partner's 4NT bid is not Blackwood, it is the Quantitative 4NT. He is unsure whether to bid 6NT or not, so is inviting you to do so.
+
+With 15 points you are supposed to pass. With 17 points you are supposed to bid 6NT. Wouldn't you know it, 16 points. Today you feel bold, so you say 6NT.
+
+East plays the \HA and returns the \H3.
+
+Winner List: \S = 4 : \H = 1 : \D = 2 : \C = 4 :: Total = 11
+
+One trick is already lost and at first glance it looks like your only slim chance will be for the \D Q J to fall doubleton.
+
+But a dummy has a very important card, the \H9. You know from the opening lead that West holds the \HT, so if he happens to hold the only guard in \Ds you will be able to squeeze him in the red suits.  
+
+You don't even have to do anything special. Play your 4 \C winners, then 3 \S winners. 
+
+Now play the \SJ and watch West's discard. If he throws the \HT dummy's \H9 will become a winner. If he doesn't throw the \HT then you know dummy's \H9 is worthless so discard it and hope the \Ds are good.
+
+ to see. 
+
+But not always. Sometimes they just happen, like this one. You were really hoping for the \DQ and \DJ to fall and you fell into the squeeze instead.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT Pass 4NT Pass
+6NT Pass Pass Pass
+[Play "W"]
+HJ
+
+[Event ""]
+{Baker 100NT 16}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:T.K74.9842.T6532 Q73.AT53.AJ7.KQ9 AKJ964.J.T53.J74 852.Q9862.KQ6.A8"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{When partner opens 1NT, interference can easily gum up your smooth bidding sequences. Playing the lebensohl convention, your 3\H bid shows a 5-card suit and is forcing to game.
+
+It doesn't always work out so well, but here partner had an easy 4\H bid.
+
+Whatever you play, East takes the \S A K J and then plays a small \C. West started with just one \S.
+
+Don't let that Question Mark by the \H losers mislead you - if you are going to make this contract you cannot lose a \H trick at all!Is there any hope? 
+
+The odds aren't good, but you actually have TWO possibilities for success. If West holds the singleton \HK, you can play a small \H to dummy's \HA, dropping the \HK, then finesse East out of his \HJ. Or, if East holds the singleton \HJ you can play your \HQ, finessing West for the \HK and at the same time smothering East's \HJ.
+
+Which basket will you put your eggs into? 
+
+The answer is simple Bridge math!East started with 6 \Ss leaving him 7 cards outside the \S suit. West started with just 1 \S, leaving him with 12 cards outside the \S suit. Obviously East is much more likely to have a singleton \H than West.
+
+So you win the \CA in your hand, play the \HQ and let it ride if West does not cover.
+
+Then you  to see how things turned out. 
+
+But to tell the truth, the Bridge math wasn't really complete. Distribution-wise it was just fine, but there is also the question of strength.
+
+The fact that East overcalled makes it more likely that he holds more high cards than West, and this skews the odds toward East holding the \HK.
+
+But think about it. If East does in fact hold the singleton \HK, and if you cleverly drop it by playing dummy's \HA it won't help you. You will then have to lose a trick to West's \HJ.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1NT 2S 3H Pass
+4H Pass Pass Pass
+[Play "W"]
+ST
+
+[Event ""]
+{Baker 100NT 17}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:T85.A62.QJT75.J6 AQ6.8743.83.AT82 973.QJT9.942.Q53 KJ42.K5.AK6.K974"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{In response to partner's Stayman bid you show your 4-card \S suit. Partner now bids 2NT. What do you say? 
+
+In response to partner's Stayman bid you show your 4-card \S suit. Partner now bids 2NT. What do you say?
+
+Partner had \Hs, not \Ss. His 2NT bid is invitational, 9-10 points, so with 17 points you say 3NT.
+
+You need one more winner. Although the \HK is a possibility, there is a real danger of losing 4 tricks in the suit if West holds the \HA.
+
+A much better idea is to try to establish a \C trick, a suit where you hold 8 cards. 
+
+You must give up one \C trick in order to establish a winner there. It is important that you give up that \C trick to West. East is the Danger hand because if he wins a \C he might lead through your precarious \HK. So win the first trick, enter dummy with a \S honor, and play a small \C, finessing the \C9 when East plays low.  
+
+West wins the \CJ, but you win the game. West cannot profitably play \Hs, so he will probably continue with another \D. But since the \CQ will now drop under the \C A K you have your ninth trick.
+
+The key is your ability to choose which defender you want to duck the trick into. }
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 5, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT Pass 2C Pass
+2S Pass 2NT Pass
+3NT Pass Pass Pass
+[Play "W"]
+DQ
+
+[Event ""]
+{Baker 100NT 18}
+[Site ""]
+[Date ""]
+[Board "6"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:QJ97.T54.J96.Q96 K862.Q8.A83.K543 T5.AJ962.T754.J8 A43.K73.KQ2.AT72"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{With 12 points and a 4-card Major suit you automatically use Stayman; bid 2\C. Partner responds 2\D.  
+
+With 12 points and a 4-card Major suit you automatically use Stayman; bid 2\C. Partner responds 2\D. 
+
+You have plenty of points for game; with no 4-4 Major suit fit you bid 3NT.
+
+The contract would be 3NT played by South.
+
+To make North the declarer  ROTATE. 
+
+North plays 3NT. East leads the \H6.
+
+First big decision. Which \H do you play from dummy?
+
+The Rule of Eleven tells you there are 5 \Hs in South, West and North which are higher than the \H6. You and dummy hold 4 of them so you can place West with just 1. The missing high cards are \H A J T 9. Elementary, Watson; West must hold the \HT because from \H A J T 6, \H A T 9 6 or \H J T 9 6 East would NOT have led the \H6. So your first smart move is to play dummy's \HQ, which holds the trick. What next? 
+
+You need to find one more winner and your best chance is the \C suit. You will need a 3-2 split in the suit, but you must establish the \C winner without letting West get the lead. West is the Danger Hand because he can play a \H throughyour \H K 7. Therefore it would be unwise to play \CA, \CK, then another \C because West is very likely to be the one with 3 \Cs. 
+
+Did you get it? Play a small \C toward your hand and put on the \CT if West plays low. You don't expect the \CT to win the trick, it is more of a duck than a finesse. East takes this with his \CJ but he can do you no harm. If he continues with \Hs your \HK will be a second stopper. If he plays any other suit you will scamper home with your 9 tricks, which of course now include those 3 \Cs.
+
+But what if West had figured out what you were going to try and played his \CQ when you led from dummy?
+
+He would have been very, very sorry. You would have had no choice but to win the trick, and when East's \CJ fell on the next trick you would have all 4 \C tricks!}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 6, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT Pass 2C Pass
+2D Pass 3NT Pass
+Pass Pass
+[Play "W"]
+H6

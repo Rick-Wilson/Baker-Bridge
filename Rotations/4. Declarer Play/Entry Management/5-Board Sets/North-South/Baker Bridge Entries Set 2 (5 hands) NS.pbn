@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:00:05 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker Entries 6}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Entries 6}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:T8752.K4.K97.Q85 AQ9.A753.AJ64.AK 63.JT982.QT2.974 KJ4.Q6.853.JT632"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AQ9.A753.AJ64.AK 63.JT982.QT2.974 KJ4.Q6.853.JT632 T8752.K4.K97.Q85"]
+[Auction "S"]
+2C pass 2NT pass 3NT pass pass pass
 [Result ""]
 {North is to play 3NT. East leads the \S5. 
 
@@ -72,30 +27,22 @@ Win the \SA. Play off dummy's \C A K. Lead the \S9 to your \SJ. Play your \CJ (a
 
 You'd have to be very careless to miss this one.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-2C Pass 2NT Pass
-3NT Pass Pass Pass
-[Play "E"]
-S5
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]S5
 
 [Event ""]
-{Baker Entries 7}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Entries 7}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:Q85.K72.864.QT75 T7.865.KQ73.J942 KJ92.QT93.T952.6 A643.AJ4.AJ.AK83"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:T7.865.KQ73.J942 KJ92.QT93.T952.6 A643.AJ4.AJ.AK83 Q85.K72.864.QT75"]
+[Auction "N"]
+pass pass 2NT pass 3NT pass pass pass
 [Result ""]
 {South is to play 3NT. West leads the \C5. You play low from dummy and East plays the \C6. 
 
@@ -111,30 +58,22 @@ You probably would have played the hand the same way you just did, unblock \Ds, 
 
 It is only because the \C opening lead gives you the chance for a Cheap-Trick that you are tempted to go wrong.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-Pass Pass 2NT Pass
-3NT Pass Pass Pass
-[Play "W"]
-C5
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]C5
 
 [Event ""]
-{Baker Entries 8}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Entries 8}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:QJT95.A93.983.T8 83.J74.A642.7653 K742.QT86.T7.K92 A6.K52.KQJ5.AQJ4"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:83.J74.A642.7653 K742.QT86.T7.K92 A6.K52.KQJ5.AQJ4 QJT95.A93.983.T8"]
+[Auction "S"]
+pass pass 2NT pass 3NT pass pass pass
 [Result ""]
 {North is to play 3NT. East leads the \SQ. West plays the \SK, then the \S2 when you hold up. 
 
@@ -150,30 +89,22 @@ Maybe in \Ds. Play the \DK, then \DQ, watching the defender's cards carefully. W
 
 Then your chance of success goes way down. You would have to find West with the doubleton \CK.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-Pass Pass 2NT Pass
-3NT Pass Pass Pass
-[Play "E"]
-SQ
+[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]SQ
 
 [Event ""]
-{Baker Entries 9}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Entries 9}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:J862.Q98.QJT2.T3 AKQ73.764.853.98 T954.KJT3.974.62 .A52.AK6.AKQJ754"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "6C"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:.A52.AK6.AKQJ754 J862.Q98.QJT2.T3 AKQ73.764.853.98 T954.KJT3.974.62"]
+[Auction "S"]
+2C pass 2S pass 3C pass 3NT pass 6C pass pass pass
 [Result ""]
 {South is to play 6\C. West leads the \DQ.
 
@@ -193,31 +124,22 @@ When you are missing 4 cards the probability of a 3-1 split is about 50%.
 
 But the singleton can be any one of four cards - in this case it can be the \CT, \C6, \C3 or \C2. So the chance of one of the opponents holding specifically the singleton \CT is only one-fourth of 50%, about 12.5%.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-2C Pass 2S Pass
-3C Pass 3NT Pass
-6C Pass Pass Pass
-[Play "W"]
-DQ
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]DQ
 
 [Event ""]
-{Baker Entries 10}
 [Site ""]
 [Date ""]
 [Board "5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Entries 10}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:AKJ74.3.J982.T62 9.QT4.65.KQJ8753 QT652.652.AQ7.94 83.AKJ987.KT43.A"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4H"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "N:83.AKJ987.KT43.A AKJ74.3.J982.T62 9.QT4.65.KQJ8753 QT652.652.AQ7.94"]
+[Auction "N"]
+1H pass 2C pass 3H pass 4H pass pass pass
 [Result ""]
 {North is to play 4\H. East leads the \SA, then \SK.
 
@@ -231,12 +153,6 @@ Do NOT ruff the second \S in dummy, just discard a \D. If East plays a third \S 
 
 }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1H Pass 2C Pass
-3H Pass 4H Pass
-Pass Pass
-[Play "E"]
-SA
+[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]SA
+

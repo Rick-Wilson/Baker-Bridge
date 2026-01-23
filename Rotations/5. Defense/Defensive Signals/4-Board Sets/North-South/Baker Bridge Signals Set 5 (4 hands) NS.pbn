@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:02:54 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker Signals 17}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Signals 17}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:5.973.A87.AK9864 AT6.AKQ4.QT3.QJ2 83.JT62.KJ9542.3 KQJ9742.85.6.T75"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "E"]
+[Deal "N:KQJ9742.85.6.T75 5.973.A87.AK9864 AT6.AKQ4.QT3.QJ2 83.JT62.KJ9542.3"]
+[Auction "N"]
+3S pass 4S pass pass pass
 [Result ""]
 {You are West. The bidding has been as shown. Partner led the \CA. Seeing your \C3 he next played the \DA. What will you play on this trick?
 
@@ -66,30 +21,22 @@ Normally with this holding you would play the \D9 to encourage East to play a se
 
 But this time you really want him to take his \CK. So play the discouraging \D2 and hope he gets the message to go back to \Cs. If he does play the \CK next it will win and he can then give you a \C ruff.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "E"]
-[Auction "N"]
-3S Pass 4S Pass
-Pass Pass
-[Play "E"]
-CA
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]CA
 
 [Event ""]
-{Baker Signals 18}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Signals 18}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:985.KQ853.962.J4 642.964.KQ83.K73 JT73.J72.T75.A95 AKQ.AT.AJ4.QT862"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "E"]
+[Deal "S:AKQ.AT.AJ4.QT862 985.KQ853.962.J4 642.964.KQ83.K73 JT73.J72.T75.A95"]
+[Auction "S"]
+2NT pass 3NT pass pass pass
 [Result ""]
 {You are East. The bidding has been as shown. Partner led the \H5, you put on the \HJ, South won with the \HA. The second trick was \DA, \D2, \D3, \D5. The third trick was \DJ, \D6, \D8, \D7. South then put the \CQ on the table.
 
@@ -101,30 +48,22 @@ But don't believe Declarer, believe your partner. On the first \D West played th
 
 So grab your \CA and return partner's \H suit. }
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "E"]
-[Auction "S"]
-2NT Pass 3NT Pass
-Pass Pass
-[Play "W"]
-H5
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]H5
 
 [Event ""]
-{Baker Signals 19}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Signals 19}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:75.9742.862.7652 K9864.A6.QJ3.AK9 T3.KQ85.9754.Q84 AQJ2.JT3.AKT.JT3"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "6S"]
+[Vulnerable "EW"]
+[Student "E"]
+[Deal "N:AQJ2.JT3.AKT.JT3 75.9742.862.7652 K9864.A6.QJ3.AK9 T3.KQ85.9754.Q84"]
+[Auction "N"]
+1NT pass 2H pass 2S pass 5NT pass 6S pass pass pass
 [Result ""]
 {You are West. The bidding has been as shown. The 2\H bid was a transfer. The 5NT bid meant to choose either 6\S or 6NT. North liked the suit. Partner led the \S5, won by North's \SQ. North pulls one more trump with his \SA, then wins three high \Ds. Next comes dummy's \HA on which he plays the \H3 and East plays the \H9. Then he leads dummy's \H6 which you win with the \HQ. On this trick North drops the \HJ and East the \H2. It is your play.
 
@@ -136,31 +75,22 @@ But you shouldn't believe North when your partner has sent you a clear signal th
 
 If you had not been paying attention to East's signal you might have decided to risk a \C lead - with a disastrous result.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "E"]
-[Auction "N"]
-1NT Pass 2H Pass
-2S Pass 5NT Pass
-6S Pass Pass Pass
-[Play "E"]
-S5
+[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]S5
 
 [Event ""]
-{Baker Signals 20}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Signals 20}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "W:AQT.92.852.AKT63 64.AJ8.AQJ6.8754 98752.T5.9743.Q2 KJ3.KQ7643.KT.J9"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4H"]
+[Vulnerable "None"]
+[Student "W"]
+[Deal "W:AQT.92.852.AKT63 64.AJ8.AQJ6.8754 98752.T5.9743.Q2 KJ3.KQ7643.KT.J9"]
+[Auction "W"]
+1C pass pass 1H pass 2C pass 4H pass pass pass
 [Result ""]
 {You are West. The bidding has been as shown. You led the \CA, East played the \C2 and South the \C9. What should you play to the second trick?
 
@@ -172,12 +102,6 @@ After the first trick you know the location of every \C except the \CQ and \CJ. 
 
 It turns out that he wins with the \CQ, then leads a \S back to your \S A Q.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "W"]
-[Auction "W"]
-1C Pass Pass 1H
-Pass 2C Pass 4H
-Pass Pass Pass
-[Play "W"]
-CA
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]CA
+

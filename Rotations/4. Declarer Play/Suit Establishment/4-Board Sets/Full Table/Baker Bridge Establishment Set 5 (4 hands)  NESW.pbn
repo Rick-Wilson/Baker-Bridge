@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:01:55 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker Establishment 17}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Establishment 17}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:KT86.963.Q72.J92 QJ9.KQT54.94.863 432.A82.KJ5.QT74 A75.J7.AT863.AK5"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:A75.J7.AT863.AK5 KT86.963.Q72.J92 QJ9.KQT54.94.863 432.A82.KJ5.QT74"]
+[Auction "N"]
+1NT pass 2D pass 2H pass 2NT pass 3NT pass pass pass
 [Result ""]
 {South's 3\D bid was a transfer to \Hs, and his 2NT bid showed exactly 5 \Hs with an invitational strength hand. North is to play 3NT. East leads the \S6, you play dummy's \S9 and  West contributes the \S2.
 
@@ -68,31 +23,22 @@ The \S Q J will provide that entry IF you make sure to win the first trick with 
 
 But if you win the first trick with the \SA, then dummy's \S Q J will provide a guaranteed entry to the good \Hs.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 2D Pass
-2H Pass 2NT Pass
-3NT Pass Pass Pass
-[Play "E"]
-S6
+[Play "W"]S6
 
 [Event ""]
-{Baker Establishment 18}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Establishment 18}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "S:Q972.K64.T82.Q63 KJ4.QJT53.754.82 863.A82.QJ9.JT74 AT5.97.AK63.AK95"]
-[Scoring ""]
 [Declarer "E"]
 [Contract "3NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:Q972.K64.T82.Q63 KJ4.QJT53.754.82 863.A82.QJ9.JT74 AT5.97.AK63.AK95"]
+[Auction "S"]
+pass pass pass 1D pass 1H pass 2NT pass 3NT pass pass pass
 [Result ""]
 {East is to play 3NT. South leads the \S2, you play dummy's \S4 and  North plays the \S8.
 
@@ -106,32 +52,22 @@ Instead you should win the first trick with your \SA. Now when you attack \Hs a 
 
 So the \S finesse is an odds-on play to get a second dummy entry.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
-[Student "S"]
-[Auction "S"]
-Pass Pass Pass 1D
-Pass 1H Pass 2NT
-Pass 3NT Pass Pass
-Pass
-[Play "S"]
-S2
+[Play "W"]S2
 
 [Event ""]
-{Baker Establishment 19}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Establishment 19}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "W:T96.QT72.943.KQ8 QJ82.A63.QT8.943 AK7543.J95..JT72 .K84.AKJ7652.A65"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "5D"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:AK7543.J95..JT72 .K84.AKJ7652.A65 T96.QT72.943.KQ8 QJ82.A63.QT8.943"]
+[Auction "E"]
+2S X pass 2NT pass 3D pass 4D pass 5D pass pass pass
 [Result ""]
 {3NT would have been a lot easier, but you didn't get there. South is to play 5\D. West leads the \ST.
 
@@ -149,32 +85,22 @@ Pull West's last trump and enter dummy with the \HA and FINALLY discard a loser 
 
 Here you needed \S T 9 x to be with West if you were to make the contract so you played for just that holding.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
-[Student "S"]
-[Auction "E"]
-2S X Pass 2NT
-Pass 3D Pass 4D
-Pass 5D Pass Pass
-Pass
-[Play "W"]
-ST
+[Play "W"]ST
 
 [Event ""]
-{Baker Establishment 20}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Establishment 20}
 [Dealer "E"]
-[Vulnerable "None"]
-[Deal "N:53.J764.KJ732.T5 K64.A93.86.98643 82.Q82.QT94.QJ72 AQJT97.KT5.A5.AK"]
-[Scoring ""]
 [Declarer "W"]
 [Contract "6S"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "E:K64.A93.86.98643 82.Q82.QT94.QJ72 AQJT97.KT5.A5.AK 53.J764.KJ732.T5"]
+[Auction "E"]
+pass pass 2C pass 2NT pass 3S pass 4S pass 4NT pass 5D pass 6S pass pass pass
 [Result ""]
 {West is to play 6\S. North leads the \S5.
 
@@ -192,14 +118,6 @@ You ruff in your hand, play a trump to dummy's \SK and ruff the \C8, establishin
 
 This was a combination of Suit Establishment and End-play. The lesson on Eliminations contains a lot more of this type of hand.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
 [RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
-[Student "S"]
-[Auction "E"]
-Pass Pass 2C Pass
-2NT Pass 3S Pass
-4S Pass 4NT Pass
-5D Pass 6S Pass
-Pass Pass
-[Play "N"]
-S5
+[Play "W"]S5
+

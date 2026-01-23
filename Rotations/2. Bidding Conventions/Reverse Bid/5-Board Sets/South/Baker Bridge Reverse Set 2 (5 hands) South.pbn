@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 20:53:45 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker Reverse 6}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Reverse 6}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:A982.T4.J92.K976 T75.82.AQ53.JT84 3.Q953.T874.AQ32 KQJ64.AKJ76.K6.5"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:KQJ64.AKJ76.K6.5 A32.T543.972.KQ6 T75.82.AQ53.JT84 98.Q9.JT84.A9732"]
+[Auction "S"]
+1S pass 2S pass 4S pass pass pass
 [Result ""]
 {You are the dealer.  
 
@@ -70,28 +25,21 @@ If you had opened 1\H partner would have replied 1NT. Then when you Reversed wit
 
 Things would have gotten confusing, to say the least.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1S Pass 2S Pass
-4S Pass Pass Pass
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Reverse 7}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Reverse 7}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "E:Q9653.Q74.Q85.62 AK.52.A642.AKT74 J82.AT63.JT9.QJ3 T74.KJ98.K73.985"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3C"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:AK.52.A642.AKT74 QJ853.AT76.QT.32 T74.KJ98.K73.985 962.Q43.J985.QJ6"]
+[Auction "S"]
+1C pass 1H pass 2D pass 3C pass pass pass
 [Result ""]
 {You would really love to pass. You have a terrible hand and you like the \Ds better than the \Cs.
 
@@ -99,55 +47,39 @@ But you are forced to bid. And since partner has 5 \Cs and only 4 \Ds, you shoul
 
 Mercifully he passes.}
 [BCFlags "1f"]
-[OriginalRotationBasis "N"]
-[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1C Pass 1H Pass
-2D Pass 3C Pass
-Pass Pass
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
 
 [Event ""]
-{Baker Reverse 8}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Reverse 8}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:832.JT9.732.A865 J7.AK63.KQT85.KT A964.7542.A6.432 KQT5.Q8.J94.QJ97"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:J7.AK63.KQT85.KT A98432.J2.3.8642 KQT5.Q8.J94.QJ97 6.T9754.A762.A53"]
+[Auction "N"]
+1D pass 1S pass 2H pass 3NT pass pass pass
 [Result ""]
 {When partner shows 17+ points with his Reverse you are sure you belong in game. Since he did not support your \Ss you know he doesn't have four of them. You also know you have an 8-card fit in \Ds, but surely nine tricks in Notrump will be easier than eleven in \Ds.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1D Pass 1S Pass
-2H Pass 3NT Pass
-Pass Pass
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Reverse 9}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Reverse 9}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:AJ987.J94.A42.95 Q52.A863.753.843 KT4.QT72.T98.QJ6 63.K5.KQJ6.AKT72"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "3C"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:63.K5.KQJ6.AKT72 JT87.QJ97.AT2.Q6 Q52.A863.753.843 AK94.T42.984.J95"]
+[Auction "S"]
+1C pass 1H pass 2D pass 3C pass pass pass
 [Result ""]
 {With 17 points you have a perfect hand for a Reverse. So you bid 2\D. Partner then says 3\C. What do you say? 
 
@@ -155,36 +87,23 @@ Partner's return to your \C suit shows he has fewer than 9 points. Although it i
 
 So you pass. It's a good thing, too.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-1C Pass 1H Pass
-2D Pass 3C Pass
-Pass Pass
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
 
 [Event ""]
-{Baker Reverse 10}
 [Site ""]
 [Date ""]
 [Board "5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Reverse 10}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "W:AQ642.63.QT2.Q52 J73.J.AK64.AK983 K9.AT52.J975.JT4 T85.KQ9874.83.76"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "2H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:J73.J.AK64.AK983 AK962.A6.T975.42 T85.KQ9874.83.76 Q4.T532.QJ2.QJT5"]
+[Auction "N"]
+1C pass 1H pass 2D pass 2H pass pass pass
 [Result ""]
 {You have 7 points, and basically nothing but s\H. You must make a minimum bid, and the only reasonable one is 2\H. Despite his 17 points, partner passes.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 5, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1C Pass 1H Pass
-2D Pass 2H Pass
-Pass Pass
+[RotationNote "Board 5, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+

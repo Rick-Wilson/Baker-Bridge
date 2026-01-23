@@ -1,62 +1,17 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=ISO-8859-1
-%Creator: BridgeComposer Version 5.111
-%Created: Fri Apr 11 21:00:35 2025 -0700
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleEvent ""
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%sourcefilename BakerBridgeFull.csv
+
 [Event ""]
-{Baker Finesse 11}
 [Site ""]
 [Date ""]
 [Board "1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Finesse 11}
 [Dealer "W"]
-[Vulnerable "None"]
-[Deal "E:K86.Q432.5.KQT42 743.J6.AJT72.876 JT92.T98.4.AJ953 AQ5.AK75.KQ9863."]
-[Scoring ""]
 [Declarer "N"]
 [Contract "6D"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:JT92.T98.4.AJ953 AQ5.AK75.KQ9863. K86.Q432.5.KQT42 743.J6.AJT72.876"]
+[Auction "W"]
+pass 1D pass 2D pass 3H pass 5D pass 6D pass pass pass
 [Result ""]
 {North is to play 6\D. East leads the \CK.
 
@@ -76,32 +31,22 @@ Then you would have to rely on the \S finesse after all. You'd be no worse off b
 
 This method of play gave you two chances instead of just one.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "W"]
-Pass 1D Pass 2D
-Pass 3H Pass 5D
-Pass 6D Pass Pass
-Pass
-[Play "E"]
-CK
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]CK
 
 [Event ""]
-{Baker Finesse 12}
 [Site ""]
 [Date ""]
 [Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Finesse 12}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:T982.Q63.953.843 KJ7.K7.AJT8.KJ96 64.T9542.7642.Q5 AQ53.AJ8.KQ.AT72"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "7NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AQ53.AJ8.KQ.AT72 T982.Q63.953.843 KJ7.K7.AJT8.KJ96 64.T9542.7642.Q5"]
+[Auction "S"]
+2NT pass 4C pass 4NT pass 7NT pass pass pass
 [Result ""]
 {South is to play 7NT. West leads the \ST.
 
@@ -121,31 +66,22 @@ It always pays to look for a second chance. Here you try to drop the \CQ, and if
 
 Why not try to drop the \HQ and keep the finesse for the \CQ in reserve? Because you and dummy had 8 \Cs between you and only 6 \Hs. So the \CQ was far more likely to be doubleton than the \HQ.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-2NT Pass 4C Pass
-4NT Pass 7NT Pass
-Pass Pass
-[Play "W"]
-ST
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]ST
 
 [Event ""]
-{Baker Finesse 13}
 [Site ""]
 [Date ""]
 [Board "3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Finesse 13}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:AJ4.QT73.T94.943 QT5.864.A75.KQ86 K962.J95.QJ62.T7 873.AK2.K83.AJ52"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "N:873.AK2.K83.AJ52 AJ4.QT73.T94.943 QT5.864.A75.KQ86 K962.J95.QJ62.T7"]
+[Auction "N"]
+1NT pass 3NT pass pass pass
 [Result ""]
 {North is to play 3NT. East leads the \H3.
 
@@ -161,30 +97,22 @@ Whenever the \SA and \SK are in different hands, the only thing that matters is 
 
 So it is basically a 50% chance.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1NT Pass 3NT Pass
-Pass Pass
-[Play "E"]
-H3
+[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]H3
 
 [Event ""]
-{Baker Finesse 14}
 [Site ""]
 [Date ""]
 [Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Finesse 14}
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "W:7.QT83.KJ92.9842 Q962.A65.864.653 K543.J972.AT7.T7 AJT8.K4.Q53.AKQJ"]
-[Scoring ""]
 [Declarer "S"]
 [Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AJT8.K4.Q53.AKQJ 7.QT83.KJ92.9842 Q962.A65.864.653 K543.J972.AT7.T7"]
+[Auction "S"]
+2NT pass 3C pass 3S pass 4S pass pass pass
 [Result ""]
 {South is to play 4\S. West leads the \D2. The defenders win 3 \D tricks, then play a \C.
 
@@ -200,31 +128,22 @@ True, the chances of East holding 4 \Ss to the King are pretty small, but it cos
 
 And the rewards are great.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
-[Student "S"]
-[Auction "S"]
-2NT Pass 3C Pass
-3S Pass 4S Pass
-Pass Pass
-[Play "W"]
-D2
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]D2
 
 [Event ""]
-{Baker Finesse 15}
 [Site ""]
 [Date ""]
 [Board "5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
+{Baker Finesse 15}
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "E:J84.QJ873.J94.94 QT7.T5.Q72.AQT85 9652.A962.T83.K3 AK3.K4.AK65.J762"]
-[Scoring ""]
 [Declarer "N"]
 [Contract "3NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "N:AK3.K4.AK65.J762 J84.QJ873.J94.94 QT7.T5.Q72.AQT85 9652.A962.T83.K3"]
+[Auction "N"]
+1D pass 2C pass 3NT pass pass pass
 [Result ""]
 {North is to play 3NT. East leads the \H7. West takes the \HA and returns the \H2.
 
@@ -240,11 +159,6 @@ Now you have a problem. You have won 5 tricks so far and you have 4 more winners
 
 But at Match Point Pairs the reward would be much greater, a probable very high board. Of course with this layout it might have gotten you a bottom board.}
 [BCFlags "1f"]
-[OriginalRotationBasis "S"]
-[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
-[Student "S"]
-[Auction "N"]
-1D Pass 2C Pass
-3NT Pass Pass Pass
-[Play "E"]
-H7
+[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]H7
+

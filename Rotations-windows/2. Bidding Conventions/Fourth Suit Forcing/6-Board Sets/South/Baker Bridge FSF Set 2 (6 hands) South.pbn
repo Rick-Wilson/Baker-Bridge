@@ -1,0 +1,234 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:50:23 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker FSF 7}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:T32.T742.A932.K4 4.AJ863.QJT7.AJ9 A985.95.85.QT752 KQJ76.KQ.K64.863"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{You have 15 points and you respond 1\S. Partner rebids 2\D. What do you say next? 
+
+You would love to play 4\S if partner has 3 \Ss. Or, you would love partner to play 3NT if he has \Cs stopped.
+
+So you say 3\C (FSF) to find out if either possibility exists. Partner does have \Cs stopped and bids 3NT.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 1, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1H Pass 1S Pass
+2D Pass 3C Pass
+3NT Pass Pass Pass
+
+[Event ""]
+{Baker FSF 8}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:Q32.953.QJ732.Q3 KT854.AKT7.85.K4 AJ97.64.64.JT762 6.QJ82.AKT9.A985"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{You are the dealer.  
+
+With both 4-card minors you open 1\D. Partner responds 1\S. What do you bid next? 
+
+You cannot bid 2\H since you are not strong enough to reverse, so you bid 2\C.
+
+Partner jumps to 3\H. What do you bid? 
+
+Since partner jumped this is NOT FSF. Partner has a \H suit and a pretty good hand to go with it. You also have a \H suit so you bid 4\H.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1D Pass 1S Pass
+2C Pass 3H Pass
+4H Pass Pass Pass
+
+[Event ""]
+{Baker FSF 9}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:T872.T3.9654.AK8 A3.AQJ72.QT83.64 964.K95.J2.QJT32 KQJ5.864.AK7.975"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{You have a totally square 13 points. Still, you don't want to ignore a 4-card \S suit so you respond 1\S. Partner rebids 2\D. What do you say next? 
+
+You COULD bid 3\C, FSF, to find out if partner has a \C stopper but that would be pointless. You already know of an 8-card \H fit so you say 4\H.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1H Pass 1S Pass
+2D Pass 4H Pass
+Pass Pass
+
+[Event ""]
+{Baker FSF 10}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:T.AQJ854.Q9432.3 KQJ62.963.A6.K54 A985.T7.75.JT872 743.K2.KJT8.AQ96"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{You are the dealer.  
+
+With both 4-card minors you open 1\D. Partner responds 1\S.  
+
+You cannot support \Ss with only 3 of them. Instead you bid 2\C. Partner says 2\H.  
+
+This is FSF, asking you to further describe your hand, and you have a problem. You do have a \H stopper so you COULD bid 2NT. You also have 3 \Ss so you COULD bid 2\S. Either way might turn out best, but that \HK looks pretty lonesome so you choose 2\S and partner raises to 4\S.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1D Pass 1S Pass
+2C Pass 2H Pass
+2S Pass 4S ALL
+Pass
+
+[Event ""]
+{Baker FSF 11}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:AT842.KJ8.32.752 KJ3.QT975.AQ96.6 Q6.A42.J8754.T94 975.63.KT.AKQJ83"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{You respond 2\C. Partner rebids 2\D. What is your next bid? 
+
+With 13 HCP and that \C suit you could jump to 4\C. However, that would sail you right past 3NT which is very likely to turn out your best game. Rather than rebid \Cs, find out whether partner has \Ss stopped by using FSF.
+
+You bid 2\S and partner then says 2NT. Where do you go from here? 
+
+It couldn't have worked out better. Notrump played from partner's side. You bid 3NT.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 5, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1H Pass 2C Pass
+2D Pass 2S Pass
+2NT Pass 3NT Pass
+Pass Pass
+
+[Event ""]
+{Baker FSF 12}
+[Site ""]
+[Date ""]
+[Board "6"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:J74.T82.QT752.A7 KQ95.K3.AJ863.93 T2.Q964.K4.JT852 A863.AJ75.9.KQ64"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{You are the dealer.  
+
+There is only one possibility; you open 1\C. Partner responds 1\D.  
+
+You rebid "up-the-line", so you now say 1\H. Partner says 1\S. What do you bid? 
+
+Be careful! This is NOT Fourth Suit Forcing. It is true that you are forced to bid, but the difference is that in this sequence partner has a real \S suit. With 4-card support you bid 2\S and partner raises to 4\S.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 6, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1C Pass 1D Pass
+1H Pass 1S Pass
+2S Pass 4S ALL
+Pass

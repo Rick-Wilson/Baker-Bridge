@@ -1,0 +1,975 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:10:33 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Bidpractice/Set12 1}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:965.964.93.AK986 A73.QJT82.K86.Q4 T8.A73.QJT74.JT2 KQJ42.K5.A52.753"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{SOUTH's 2
+
+♦
+
+bid is New Minor Forcing.
+
+SOUTH chose
+
+♦
+
+s rather than ♣s simply
+
+because the
+
+♦
+
+s were stronger.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1H Pass 1S Pass
+1NT Pass 2D Pass
+2S Pass 4S Pass
+Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set12 2}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:T62.75.J984.AKQ4 J84.KQ84.Q52.763 AQ973.T3.T763.T9 K5.AJ962.AK.J852"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3H"]
+[Result ""]
+{SOUTH is unlikely to win 10 tricks if NORTH has three ♣ losers.
+
+SOUTH's 3♣ bid is a Help Suit Game try.
+
+With no help in ♣s and no ruffing values, NORTH's 8 points are
+
+not enough to think of game, so NORTH signs off in 3
+
+♥
+
+.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1H Pass 2H Pass
+3C Pass 3H Pass
+Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set12 3}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:T54.A76.932.Q865 AJ762.KT94.KQ6.4 Q93.J32.AT75.T92 K8.Q85.J84.AKJ73"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{NORTH's 3
+
+♦
+
+bid is Fourth Suit Forcing and
+
+does NOT show a
+
+♦
+
+stopper.
+
+The bid asks SOUTH to further describe her hand.
+
+SOUTH does not have a rebiddable suit, but does have
+
+♦
+
+s stopped so she bids 3NT.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1S Pass 2C Pass
+2H Pass 3D Pass
+3NT Pass Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set12 4}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:KT4.KT9.852.A653 Q9652.763.AQ.Q84 AJ3.J842.J76.J92 87.AQ5.KT943.KT7"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "2NT"]
+[Result ""]
+{NORTH cannot rebid the 5-card ♠ suit, cannot support SOUTH's
+
+♦
+
+s,
+
+and cannot bid Notrump without a
+
+♥
+
+stopper.
+
+So she bids 3♣, New Minor Forcing, asking SOUTH to describe his hand further.
+
+SOUTH doesn't have three ♠s, nor does he have four
+
+♥
+
+s.
+
+But he does have
+
+♥
+
+s stopped, so bids 2NT. North is not strong
+
+enough to bid game so she passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1D Pass 1S Pass
+1NT Pass 2C Pass
+2NT Pass Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set12 5}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:J87.JT.Q872.AQ43 AKT62.A43.K964.7 9.KQ9862.5.KJT98 Q543.75.AJT3.652"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{SOUTH's 3
+
+♦
+
+bid is a Help Suit Game Try.
+
+NORTH has excellent help in
+
+♦
+
+s
+
+so with 8 points he bids the game.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 5, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1S Pass 2S Pass
+3D Pass 4S Pass
+Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set12 6}
+[Site ""]
+[Date ""]
+[Board "6"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:9.8653.AT862.J95 QJ83.AQJ7.J9.KT2 K7642.K92.53.Q74 AT5.T4.KQ74.A863"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{NORTH has no reason to consider New Minor Forcing with this hand.
+
+SOUTH does not have four
+
+♥
+
+s or he would have already supported, and
+
+he does not have four ♠s or he would not have bid 1NT.
+
+So NORTH should bid the Notrump game.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 6, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1D Pass 1H Pass
+1NT Pass 3NT Pass
+Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set12 7}
+[Site ""]
+[Date ""]
+[Board "7"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:JT5.AJT6.J83.973 K64.KQ974.4.AJ65 83.32.KQT752.K82 AQ972.85.A96.QT4"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{SOUTH might well bid 3NT at his second turn, and this may turn out to be the
+
+final contract anyway.
+
+But it doesn't hurt to bid 2
+
+♦
+
+(Fourth Suit Forcing) just to
+
+see if NORTH happens to have three ♠s. She does, so 4♠ becomes the better game.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 7, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1H Pass 1S Pass
+2C Pass 2D Pass
+2S Pass 4S Pass
+Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set12 8}
+[Site ""]
+[Date ""]
+[Board "8"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:QT9.A6.T8753.K76 AK763.KT84.K4.52 J42.532.J62.QJT9 85.QJ97.AQ9.A843"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{SOUTH isn't strong enough to make a Reverse bid of 2
+
+♥
+
+at his second turn.
+
+NORTH uses the 2
+
+♦
+
+(NMF) bid to ask SOUTH for further description.
+
+SOUTH should first show a 4-card
+
+♥
+
+suit, and next show 3-card ♠ support.
+
+Change SOUTH's
+
+♥
+
+9 to the ♠9 and the contract would be 4♠.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 8, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1C Pass 1S Pass
+1NT Pass 2D Pass
+2H Pass 4H Pass
+Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set12 9}
+[Site ""]
+[Date ""]
+[Board "9"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:853.QJ2.AKJT6.32 K942.8.87542.Q97 6.AKT943.Q9.JT65 AQJT7.765.3.AK84"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{SOUTH's 3
+
+♥
+
+bid is a Help Suit Game Try.
+
+NORTH barely had enough strength to respond in the first place, but revaluing the hand,
+
+(and particularly the singleton
+
+♥
+
+), makes it worth a
+
+raise to game.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 9, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+Pass Pass 1S Pass
+2S Pass 3H Pass
+4S Pass Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set12 10}
+[Site ""]
+[Date ""]
+[Board "10"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:Q9632.QJ.AT3.854 AJ75.K6.874.AJT3 84.T832.J95.KQ72 KT.A9754.KQ62.96"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{SOUTH has no reason to consider Fourth Suit Forcing with this hand.
+
+NORTH does not have four ♠s or he would have already supported.
+
+So SOUTH should bid the Notrump game.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 10, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1H Pass 1S Pass
+2D Pass 3NT Pass
+Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set12 11}
+[Site ""]
+[Date ""]
+[Board "11"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:Q964.KJ.T32.K854 A7.QT976.Q7.AT96 KT52.54.AJ95.QJ3 J83.A832.K864.72"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "2H"]
+[Result ""]
+{SOUTH should pass 2
+
+♥
+
+. She is not strong enough to
+
+try for game.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 11, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1H Pass 2H Pass
+Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set12 12}
+[Site ""]
+[Date ""]
+[Board "12"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:A952.965.KJ2.J93 KQT63.KQJ8.95.Q8 J7.432.A87.T7654 84.AT7.QT643.AK2"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{NORTH knows there should be game, but doesn't know whether it will be 4♠,
+
+4
+
+♥
+
+or 3NT. To find out which she uses NMF and
+
+bids 2♣ at her second turn.
+
+SOUTH does not have a 4-card
+
+♥
+
+suit, nor does he have
+
+three ♠s, but he does have ♣s stopped so he bids 2NT, which North raises to 3NT.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 12, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1D Pass 1S Pass
+1NT Pass 2C Pass
+2NT Pass 3NT Pass
+Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set12 13}
+[Site ""]
+[Date ""]
+[Board "13"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:T874.A7.J32.A876 AJ.KQJ84.A5.J542 Q962.62.KQT7.T93 K53.T953.9864.KQ"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{SOUTH cannot see a game unless NORTH has help in ♣s so she makes a Help Suit Game Try.
+
+NORTH has 8 points and the doubleton ♣ K Q so he bids the game.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 13, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1H Pass 2H Pass
+3C Pass 4H Pass
+Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set12 14}
+[Site ""]
+[Date ""]
+[Board "14"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:762.K8.A652.T832 985.J74.KQT3.AK5 KQ43.9652.J87.97 AJT.AQT3.94.QJ64"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{NORTH has a perfect hand on which to use Fourth Suit Forcing. If South can stop
+
+♠s, then 3NT would be a great contract.
+
+There is one problem - if NORTH bids 1♠ at her second turn it is NOT considered
+
+FSF, so she must jump to 2♠.
+
+SOUTH, win a fine ♠ stopper, bids 3NT.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 14, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1C Pass 1D Pass
+1H Pass 2S Pass
+3NT Pass Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set12 15}
+[Site ""]
+[Date ""]
+[Board "15"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:AT6.A954.T942.92 Q75.JT76.A8.KQJ3 J9.2.KQJ65.T8764 K8432.KQ83.73.A5"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{NORTH's 2
+
+♦
+
+bid is a perfect example of NMF.
+
+It provides SOUTH with the opportunity to show either a 4-card
+
+♥
+
+suit,
+
+OR 3-card ♠ support.
+
+In this hand SOUTH actually has both. When that happens, showing the
+
+♥
+
+s is
+
+first priority.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 15, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1C Pass 1S Pass
+1NT Pass 2D Pass
+2H Pass 4H Pass
+Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set12 16}
+[Site ""]
+[Date ""]
+[Board "16"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:54.JT4.943.KQ753 KJ97.87.AKJ62.T2 A62.Q932.Q875.J6 QT83.AK65.T.A984"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{SOUTH's 1♠ bid is definitely forcing, but it is not FSF. In this one instance, all
+
+bids at the one level, the ♠ bid shows a real suit.
+
+So NORTH shows the 4-card support and SOUTH bids game.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 16, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1C Pass 1D Pass
+1H Pass 1S Pass
+2S Pass 4S Pass
+Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set12 17}
+[Site ""]
+[Date ""]
+[Board "17"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:J52.T8.AQJ52.QT3 A64.AK972.7.K865 KQT83.J4.K964.94 97.Q653.T83.AJ72"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{SOUTH could make a Help Suit Game Try in either ♠s or ♣s.
+
+But she doesn't need the ♠ help as much as she does in ♣s, so she chooses ♣s.
+
+NORTH doesn't have a strong hand but has excellent help in ♣s
+
+so he bids the game.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 17, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1H Pass 2H Pass
+3C Pass 4H Pass
+Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set12 18}
+[Site ""]
+[Date ""]
+[Board "18"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:872.A7.Q32.T9642 Q6.KJ85.A9854.K8 A943.Q432.JT6.75 KJT5.T96.K7.AQJ3"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{Could SOUTH bid 2
+
+♥
+
+, (FSF), even though she actually has the suit?
+
+Perhaps, but there is no reason to do so. NORTH does not have four
+
+♥
+
+s
+
+or he would have mentioned them before bidding ♠s.
+
+SOUTH should ignore the
+
+♥
+
+suit and bid 3NT.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 18, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1C Pass 1D Pass
+1S Pass 3NT Pass
+Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set12 19}
+[Site ""]
+[Date ""]
+[Board "19"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:972.J43.72.KQ963 Q54.76.AK98.A874 J8.AT2.QJT54.JT2 AKT63.KQ985.63.5"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{SOUTH cannot bid 2
+
+♥
+
+at his second turn; that would be
+
+Fourth Suit Forcing and wouldn't show the
+
+♥
+
+suit at all.
+
+With a game-forcing two-suiter he jumps to 3
+
+♥
+
+instead.
+
+NORTH recognizes that SOUTH must hold five ♠s and bids the ♠ game.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 19, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1D Pass 1S Pass
+2C Pass 3H Pass
+4S Pass Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set12 20}
+[Site ""]
+[Date ""]
+[Board "20"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:AT92.Q2.T853.K75 K76.KJ873.A94.92 J43.T964.7.AQJT8 Q85.A5.KQJ62.643"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "2D"]
+[Result ""]
+{NORTH bids 2♣ as New Minor Forcing, hoping SOUTH has three
+
+♥
+
+s.
+
+SOUTH does not have three
+
+♥
+
+s and he has no other bid to make that
+
+will describe his hand any better. He cannot bid Notrump again without a ♣ stopper.
+
+So SOUTH rebids the 5-card
+
+♦
+
+suit.
+
+NORTH has nowhere to go, so passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 20, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1D Pass 1H Pass
+1NT Pass 2C Pass
+2D Pass Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set12 21}
+[Site ""]
+[Date ""]
+[Board "21"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:K97.T8.T8732.K43 84.AK943.AJ96.75 T52.762.Q5.AQJ86 AQJ63.QJ5.K4.T92"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{NORTH should not use Fourth Suit Forcing to see if SOUTH holds three ♠s because
+
+that information is irrelevant.
+
+NORTH already knows there is an 8-card
+
+♥
+
+fit and enough
+
+points to be in game so he bids it.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 21, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1H Pass 1S Pass
+2D Pass 4H Pass
+Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set12 22}
+[Site ""]
+[Date ""]
+[Board "22"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:T54.KQ.QJ965.J42 Q93.7642.KT82.Q5 72.AT98.A74.T987 AKJ86.J53.3.AK63"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3S"]
+[Result ""]
+{SOUTH thinks there might be game if NORTH can help with the three
+
+♥
+
+losers. So he bids 3
+
+♥
+
+as a Help Suit Game Try.
+
+NORTH cannot provide any help at all, so quickly signs off in 3♠ which SOUTH passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 22, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1S Pass 2S Pass
+3H Pass 3S Pass
+Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set12 23}
+[Site ""]
+[Date ""]
+[Board "23"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:Q74.T8.QJT52.K32 K95.KJ2.A963.Q64 T3.A7654.8.AJT97 AJ862.Q93.K74.85"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "2S"]
+[Result ""]
+{SOUTH bids 2♣ as New Minor Forcing, hoping NORTH will show three ♠s.
+
+NORTH does show three ♠s, but also shows a minimum hand so South passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 23, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1D Pass 1S Pass
+1NT Pass 2C Pass
+2S Pass Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set12 24}
+[Site ""]
+[Date ""]
+[Board "24"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:J642.J9.T32.A874 KT7.AK652.J98.Q5 Q83.Q873.A65.T92 A95.T4.KQ74.KJ63"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{NORTH wants to be in game but doesn't know which one.
+
+If SOUTH holds three
+
+♥
+
+s she would prefer 4
+
+♥
+
+,
+
+otherwise she would try 3NT. NORTH bids 2♠, Fourth Suit Forcing.
+
+SOUTH denies three
+
+♥
+
+s but confirms a ♠ honor by
+
+bidding 2NT, so NORTH bids the game in Notrump.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 24, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1D Pass 1H Pass
+2C Pass 2S Pass
+2NT Pass 3NT Pass
+Pass Pass
