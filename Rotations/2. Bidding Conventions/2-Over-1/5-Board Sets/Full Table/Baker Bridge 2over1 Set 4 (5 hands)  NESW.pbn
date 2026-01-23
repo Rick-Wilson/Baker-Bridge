@@ -1,0 +1,200 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:49:08 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker 2over1 16}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:JT93.QT86.J4.QT6 AQ862.A4.95.AK87 754.J92.KQ876.32 K.K753.AT32.J954"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "3NT"]
+[Result ""]
+{South opens 1\S. North has 11 points, enough to respond 2\C, (or 2\D), in standard bidding, but not when using 2/1. So she bids 1NT.
+
+South is forced to bid again, but unlike the previous hand, here he wants to keep bidding. He bids 2\C. North knows South doesn't have \Hs, so she shows her above-minimum hand by bidding 2NT.
+
+South is happy to play Notrump. He assumes North must have something useful in \Ds and bids 3NT.
+
+3NT seems to be a good contract. There are 8 top tricks and possibilities for a ninth winner in either \Ss, \Ds, or, (the best chance), \Cs.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "S"]
+1S Pass 1NT Pass
+2C Pass 2NT Pass
+3NT Pass Pass Pass
+
+[Event ""]
+{Baker 2over1 17}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:JT.K82.QJ6.KQ863 862.AQJ753.95.A2 AQ743.94.A874.97 K95.T6.KT32.JT54"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "2H"]
+[Result ""]
+{East opens 1\H. West responds 1NT, just as in standard bidding. The difference is that in this case the 1NT response is forcing on East.
+
+East has an easy second bid, he rebids his 6-card suit. West has nothing to say over 2\H except pass.
+
+Notice that this is the same bidding and same final contract that would have been reached with standard bidding. Using 2/1 is often like that.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 2, chOption: E, chBasis: N, basisKind:Declarer, nOption:1, nBasis: 0, nRot: 1, useStandardVul: true"]
+[Student "S"]
+[Auction "E"]
+1H Pass 1NT Pass
+2H Pass Pass Pass
+
+[Event ""]
+{Baker 2over1 18}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:763.AKJ52.42.T54 KJ2.874.AQ975.Q2 84.Q3.J3.KJ98763 AQT95.T96.KT86.A"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{South opens 1\S. North responds 2\D, a 2/1 force to game. 
+
+South cannot rebid her \Ss, but has decent support for partner's \Ds. So she bids 3\D.
+
+North always intended to play a \S contract. He now bids 4\S, using Fast Arrival to indicate he has no slam aspirations.
+
+4\S is cold, and if the defenders don't take their \H tricks immediately South will make an overtrick.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "S"]
+1S Pass 2D Pass
+3D Pass 4S Pass
+Pass Pass
+
+[Event ""]
+{Baker 2over1 19}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:Q73.JT6532.AQ4.4 K92.AK874.KT7.T8 A854.Q.J962.A763 JT6.9.853.KQJ952"]
+[Scoring ""]
+[Declarer "W"]
+[Contract "2C"]
+[Result ""]
+{East opens 1\H and South Doubles.
+
+After the intervening Takeout Double 2/1 is OFF. If West had T or more points she would Redouble. So even with only 9 points West can bid 2\C without fear that East will think she has a strong hand.
+
+East also knows everything mentioned above so he passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
+[Student "S"]
+[Auction "E"]
+1H X 2C Pass
+Pass Pass
+
+[Event ""]
+{Baker 2over1 20}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:53.T9854.A94.943 QJ2.J2.QJ862.AKJ T.A63.T5.QT87652 AK98764.KQ7.K73."]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4S"]
+[Result ""]
+{North opens 1\S. South responds 2\D, a 2/1 force to game. 
+
+North has a big hand, perhaps in the slam range, but first priority is to set a trump suit. So she contents herself with a rebid of 2\S.  South agrees on trumps by bidding 3\S (not Fast Arrival).
+
+North now makes her slam try by using a Control-showing cue-bid. She bids 4\C, showing first round control of the suit (Ace or Void).
+
+South's next bid would be a control-showing bid of her own - IF SHE HAD ONE. Since she cannot win the first round of either red suit she just returns to 4\S. North realizes that they are off two red Aces and passes.
+
+Notice that North did not fall into the Blackwood trap. If she HAD asked for Aces, South would have shown one Ace and North wouldn't know what to do next. She might have figured the odds favored that one Ace being a red one and tried the slam. Moral: Don't use Blackwood when you have a void.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+1S Pass 2D Pass
+2S Pass 3S Pass
+4C Pass 4S ALL
+Pass

@@ -1,0 +1,218 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:06:48 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",10,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker 100Deals 97}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:QJ7.83.QJT2.Q952 KT4.T6.753.T8643 A952.42.9864.AKJ 863.AKQJ975.AK.7"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4H"]
+[Result ""]
+{You are North and it is your bid. Decide what you would say, then  on BID. 
+
+One school of thought says to open 2\C with a hand that is within one trick of game, even though the point count is below 22.
+
+Another school of thought says to go ahead and bid the game, hoping to keep the opponents away from any competition.
+
+Today you take the second and bid 4\H.
+
+North plays 4\H. East leads the \DQ.
+
+Losers: \S 3 : \H 0 : \D 0 : \C 1 : Total = 4
+
+You are going to lose the \C for sure, so you need to find a way to hold the \S losers to 2. The obvious possibility is for East to hold the \SA and you lead through him to make the \SK a winner. That's a 50% possibility.
+
+But you can improve on that a little bit. If East holds both the \S Q J you could make a deep finesse of dummy's \ST and West would have to play his \SA to win the trick. And if it didn't work and West won with a lesser \S you would still have time to play toward the \SK.
+
+Win the \D, pull trumps, lead the \S3 to dummy's \ST. 
+
+You must modify the Plan a little bit. Now your only hope is that East still holds the \SJ. So you win the next trick in your hand and lead a \S toward dummy's \ST. This time East is caught. He plays the \SJ hoping you had a doubleton, but you still have a \S to get to the now high \ST.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+4H Pass Pass Pass
+[Play "E"]
+DQ
+
+[Event ""]
+{Baker 100Deals 98}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:AKQ63.82.JT9.842 8.A4.AK873.AT965 JT542.K7.Q54.KJ7 97.QJT9653.62.Q3"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{You are South and it is your bid. Decide what you would say, then  on BID. 
+
+You are very weak. But you are also not vulnerable.
+
+So with 5 playing tricks you leap to 3\H. Partner raises to 4\H and you pass.
+
+South plays 4\H. West leads \SA, then \H8.
+
+Losers: \S 2 : \H 1 : \D 0 : \C 1 : Total = 4
+
+You've already lost 1 \S, you can't escape the \C and it looks like the \H is unavoidable also. So that means you can't afford to lose that second \S.
+
+If you play dummy's \H4 East will win the \HK and play another \H. You will lose that second \S and go down 1.
+
+Instead you should rise with dummy's \HA, play \DA, \DK and then a small \D which you ruff. Now play your \S9 and ruff with dummy's last trump.
+
+But you don't want to get into the habit of doing what is USUALLY good without thinking through the consequences.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+3H Pass 4H Pass
+Pass Pass
+[Play "W"]
+SA
+
+[Event ""]
+{Baker 100Deals 99}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:Q9753.K9.963.JT4 AJ6.Q73.Q852.762 842.AJT64.KJT.53 KT.852.A74.AKQ98"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "3NT"]
+[Result ""]
+{You are North and it is your bid. Decide what you would say, then  on BID. 
+
+With a balanced, 17 point hand you open 1NT. Partner responds 2NT. What do you bid? 
+
+You were invited to bid 3NT if you have a maximum opener. With 17 points you accept the invitation.
+
+North plays 3NT. East leads \S5. You put on dummy's \S6 and West plays the \S8.
+
+Winner count: \S 2 : \H 0 : \D 1 : \C 5 : Total = 8
+
+The good news is that they didn't lead a \H. The bad news is that if you give up the lead they probably will. 
+
+Assuming the \Cs behave you need to get one more winner. It's possible you could lead toward dummy's \DQ but even if it works they would probably attack \Hs. Your best chance of getting an extra trick lies in the \S suit.
+
+It is almost certain that East holds the \SQ. Of course defenders sometimes don't lead according to the guidelines, but if West had the \SQ he would likely have played it at the first trick. In addition, the Rule of 11 tells you there were 6 cards in the South, West and North hands higher than the \S5. You can account for all of them, so East must have the \SQ. In that case you can assure the contract by winning the first trick with the \SK rather than the \ST. In this way you will be able to gain a trick by finessing East for the \SQ. It's true that if you won with the \ST you would still have both the \SK and \SA remaining, but you wouldn't have the dummy entry you needed.
+
+Notice how strange this game can be. If your holding was \S K 2 rather than \S K T you would have had no difficulty coming up with the correct play. But the fact that you can win a cheap trick with the \ST tries to lure you into making an inferior play. }
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1NT Pass 2NT Pass
+3NT Pass Pass Pass
+[Play "E"]
+S5
+
+[Event ""]
+{Baker 100Deals 100}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:JT2.J854.T98.K94 964.K62.Q62.J753 87.T9.AKJ73.QT62 AKQ53.AQ73.54.A8"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{You are South and it is your bid. Decide what you would say, then  on BID. 
+
+You have a nice hand, but can only open 1\S.
+
+Partner raises to 2\S. What do you bid? 
+
+Partner has 6-10 points, you have 20 points.
+
+The math works so you bid 4\S.
+
+South plays 4\S. West leads the \DT, you cover and East plays the three high \Ds.
+
+Losers: \S 0 : \H 1 : \D 2 : \C 1 : Total = 4
+
+To start with, you ruff the third \D. You cannot avoid the \C loser, so you might think that \Hs must break evenly to give you a fourth \H trick. In fact, there is a chance that you might ruff the fourth \H.
+
+Play exactly two rounds of trumps with the \SA and \SK. Then play \HK, \HA and \HQ. If both defenders follow to three leads your fourth \H is good so you pull the last trump. If somebody shows out on the third lead and does not ruff then play your last \H and ruff in dummy. Return to your hand with the \CA and pull trumps.
+
+By pulling exactly 2 rounds of trumps first you can also succeed in the case where \Hs split 4-2 and the defender with the doubleton \H also has a doubleton trump.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1S Pass 2S Pass
+4S Pass Pass Pass
+[Play "W"]
+DT

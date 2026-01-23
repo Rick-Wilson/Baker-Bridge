@@ -1,0 +1,875 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Sat Apr 12 07:00:24 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker SecondHand 7}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:J873.T.JT9852.Q5 AK94.KQ6.AQ4.T86 T62.73.K763.A942 Q5.AJ98542..KJ73"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "6H"]
+[Result ""]
+{You are West. The bidding has been as shown, (wild).
+
+Partner led the \DJ; \DQ from dummy, \DK from you and ruffed by North.
+
+North then pulls two rounds of trumps, (East discards on the second one), followed by his \SQ, dummy's \S A K and dummy's \DA. North discards \Cs on the last two cards.
+
+The \C6 is then played from dummy and you must make a decision - \CA or \C2?
+
+When you have made your choice  
+
+You have a full count on North's hand. He started with 2 \Ss, 7 \Hs, and no \Ds. His other 4 cards must have been \Cs, and he has discarded 2 of them.
+
+So he has 2 \Cs left in his hand. If one of them is the \CK and you play your \CA then you have handed him the contract.
+
+By playing low you give him a guess to make. If he plays the \CK he will make the contract, but if he plays the \CJ he will go down. He will probably play the \CJ, figuring you woudn't have the nerve to duck with the \CA. He'll know better next time he plays against you.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Student "E"]
+[Auction "S"]
+1C Pass 1H Pass
+2NT Pass 6H Pass
+Pass Pass
+[Play "E"]
+DJ
+
+[Event ""]
+{Baker SecondHand 8}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "S:KQ4.74.J9754.AJ3 862.AKQJT.83.QT6 AT73.8652.T62.84 J95.93.AKQ.K9752"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "3NT"]
+[Result ""]
+{You are South. The bidding has been as shown.
+
+You lead the \D5; \D3, \DT and won by East with \DK. East now leads the \C9 from his hand and it is your play.
+
+When you have made your choice  
+
+First ask yourself "Where are the \DA and \DQ?"North doesn't have either one or he would have played it at the first trick. So East has both of them. So with those 3 tricks and the 5 \Hs in dummy East only needs to find one more winner. Assuming he has the \CK, (or why play the suit), if you play low he will find that one more winner whichever high \C he plays.
+
+Next ask yourself "Where is the \SA?"Clearly North DOES have this card; otherwise East has his 9 tricks.
+
+So the way to beat the contract is to go up with your \CA, then play \SK, \SQ and a third \S, hoping North holds \S A x x x.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+[Student "W"]
+[Auction "E"]
+1C Pass 1H Pass
+1NT Pass 3NT Pass
+Pass Pass
+[Play "S"]
+D5
+
+[Event ""]
+{Baker SecondHand 9}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:852.AQ643.74.T63 AK.T97.T962.KQ85 J9743.52.A85.974 QT6.KJ8.KQJ3.AJ2"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{You are East. The bidding has been as shown.
+
+Partner led the \H4, won by South's \H8.
+
+South enters dummy with the \SK and leads the \DT. What do you play?
+
+When you have made your choice  
+
+You don't have much in your hand, but you do have the \DA, and you also have the responsibility to help West set up his suit.
+
+So even though you don't know for sure how good that suit is, your plan of action should be to take the \DA and return a \H.
+
+As you see, this will defeat the contract. Had you played a low \D South would have pocketed that trick and added 4 \Cs and 3 \Ss to go with the \H he had already won.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Student "E"]
+[Auction "S"]
+1NT Pass 3NT Pass
+Pass Pass
+[Play "W"]
+H4
+
+[Event ""]
+{Baker SecondHand 10}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:KT874.J872.T2.KJ 953.AQ.A6.QT9852 62.T94.QJ874.A74 AQJ.K653.K953.63"]
+[Scoring ""]
+[Declarer "W"]
+[Contract "3NT"]
+[Result ""]
+{You are North. The bidding has been as shown.
+
+You lead the \S7; \S3, \S2 and won by West with \SQ.
+
+West then plays the \C6 from his hand. Which \C should you play?
+
+When you have made your choice  
+
+You should not allow yourself to be misled by West winning the first trick with the \SQ. South does not hold either the \SA or the \SJ or he would have played it. West is just trying to be deceptive.
+
+That means you need the next \S play to come from South, so you play your \CJ and let South win his \CA. You can be sure South has the \CA because West would have played the suit differently if he held the Ace.
+
+South will win the \CA and return his \S through West's \S A Q. This allows you to set up your \S suit while you still have the \CK for an entry.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
+[Student "W"]
+[Auction "E"]
+1C Pass 1D Pass
+2C Pass 3NT Pass
+Pass Pass
+[Play "N"]
+S7
+
+[Event ""]
+{Baker SecondHand 11}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:QT8532.73.QJT.94 K6.852.97542.Q73 7.964.K863.JT862 AJ94.AKQJT.A.AK5"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "6H"]
+[Result ""]
+{You are West. The bidding has been as shown. Partner led the \DQ, you signaled with the \D8 and North won the \DA.
+
+North then played low to dummy's \SK, and led dummy's \S6. Your decision is not whether to play high or low, but whether to ruff or not, which amounts to the same thing.
+
+When you have made your choice  
+
+Even though North holds the \SA, if you ruff now he will just put on a small \S and you will be ruffing a loser. Instead discard a \D.
+
+North will win the \SA, but will not be able to ruff any \S losers in dummy because your trumps can overruff any of South's trumps.
+
+Suppose you had ruffed the \S. North would have played his \S9, leaving himself with \S A J. He would then get the lead and pull your two remaining trumps. That would leave one trump in dummy to ruff his \SJ, his only remaining loser.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Student "E"]
+[Auction "N"]
+2C Pass 2D Pass
+2H Pass 3H Pass
+6H Pass Pass Pass
+[Play "E"]
+DQ
+
+[Event ""]
+{Baker SecondHand 12}
+[Site ""]
+[Date ""]
+[Board "6"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "S:Q92.Q3.QJT6.KQJ8 J63.AKT98.82.T94 AT74.J652.954.53 K85.74.AK73.A762"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "1NT"]
+[Result ""]
+{You are South. The bidding has been as shown.
+
+You lead the \CK and continue with the \CJ then \CQ, taken by East's \CA. To trick 4 East plays the \H4. What do you play?
+
+When you have made your choice  
+
+To see why you should play the \HQ, just visualize the result if you play low. East will finesse with dummy's \H8. If North wins his \HJ on this trick there will be 4 good \H tricks in dummy. If North withholds his \HJ then Declarer will have 3 \H winners.
+
+Now visualize the result of playing the \HQ. Whether East takes this trick or not he cannot win more than 2 \Hs.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 6, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+[Student "W"]
+[Auction "E"]
+1D Pass 1H Pass
+1NT Pass Pass Pass
+[Play "S"]
+CK
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "7"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "E:J873.T.JT9852.Q5 AK94.KQ6.AQ4.T86 T62.73.K763.A942 Q5.AJ98542..KJ73"]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "100001f"]
+[VirtualBoard "1"]
+[VirtualDealer "N"]
+[VirtualVulnerable "None"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "8"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "S:KQ4.74.J9754.AJ3 862.AKQJT.83.QT6 AT73.8652.T62.84 J95.93.AKQ.K9752"]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "100001f"]
+[VirtualBoard "2"]
+[VirtualDealer "E"]
+[VirtualVulnerable "NS"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "9"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "W:852.AQ643.74.T63 AK.T97.T962.KQ85 J9743.52.A85.974 QT6.KJ8.KQJ3.AJ2"]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "100001f"]
+[VirtualBoard "3"]
+[VirtualDealer "S"]
+[VirtualVulnerable "EW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "10"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:KT874.J872.T2.KJ 953.AQ.A6.QT9852 62.T94.QJ874.A74 AQJ.K653.K953.63"]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "100001f"]
+[VirtualBoard "4"]
+[VirtualDealer "W"]
+[VirtualVulnerable "All"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "11"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:QT8532.73.QJT.94 K6.852.97542.Q73 7.964.K863.JT862 AJ94.AKQJT.A.AK5"]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "100001f"]
+[VirtualBoard "5"]
+[VirtualDealer "N"]
+[VirtualVulnerable "NS"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "12"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "S:Q92.Q3.QJT6.KQJ8 J63.AKT98.82.T94 AT74.J652.954.53 K85.74.AK73.A762"]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "100001f"]
+[VirtualBoard "6"]
+[VirtualDealer "E"]
+[VirtualVulnerable "EW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "13"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "E:J873.T.JT9852.Q5 AK94.KQ6.AQ4.T86 T62.73.K763.A942 Q5.AJ98542..KJ73"]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "100001f"]
+[VirtualBoard "1"]
+[VirtualDealer "N"]
+[VirtualVulnerable "None"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "14"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "S:KQ4.74.J9754.AJ3 862.AKQJT.83.QT6 AT73.8652.T62.84 J95.93.AKQ.K9752"]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "100001f"]
+[VirtualBoard "2"]
+[VirtualDealer "E"]
+[VirtualVulnerable "NS"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "15"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "W:852.AQ643.74.T63 AK.T97.T962.KQ85 J9743.52.A85.974 QT6.KJ8.KQJ3.AJ2"]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "100001f"]
+[VirtualBoard "3"]
+[VirtualDealer "S"]
+[VirtualVulnerable "EW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "16"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "N:KT874.J872.T2.KJ 953.AQ.A6.QT9852 62.T94.QJ874.A74 AQJ.K653.K953.63"]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "100001f"]
+[VirtualBoard "4"]
+[VirtualDealer "W"]
+[VirtualVulnerable "All"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "17"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:QT8532.73.QJT.94 K6.852.97542.Q73 7.964.K863.JT862 AJ94.AKQJT.A.AK5"]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "100001f"]
+[VirtualBoard "5"]
+[VirtualDealer "N"]
+[VirtualVulnerable "NS"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "18"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "S:Q92.Q3.QJT6.KQJ8 J63.AKT98.82.T94 AT74.J652.954.53 K85.74.AK73.A762"]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "100001f"]
+[VirtualBoard "6"]
+[VirtualDealer "E"]
+[VirtualVulnerable "EW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "19"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "E:J873.T.JT9852.Q5 AK94.KQ6.AQ4.T86 T62.73.K763.A942 Q5.AJ98542..KJ73"]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "100001f"]
+[VirtualBoard "1"]
+[VirtualDealer "N"]
+[VirtualVulnerable "None"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "20"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "S:KQ4.74.J9754.AJ3 862.AKQJT.83.QT6 AT73.8652.T62.84 J95.93.AKQ.K9752"]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "100001f"]
+[VirtualBoard "2"]
+[VirtualDealer "E"]
+[VirtualVulnerable "NS"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "21"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "W:852.AQ643.74.T63 AK.T97.T962.KQ85 J9743.52.A85.974 QT6.KJ8.KQJ3.AJ2"]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "100001f"]
+[VirtualBoard "3"]
+[VirtualDealer "S"]
+[VirtualVulnerable "EW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "22"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:KT874.J872.T2.KJ 953.AQ.A6.QT9852 62.T94.QJ874.A74 AQJ.K653.K953.63"]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "100001f"]
+[VirtualBoard "4"]
+[VirtualDealer "W"]
+[VirtualVulnerable "All"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "23"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "E:QT8532.73.QJT.94 K6.852.97542.Q73 7.964.K863.JT862 AJ94.AKQJT.A.AK5"]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "100001f"]
+[VirtualBoard "5"]
+[VirtualDealer "N"]
+[VirtualVulnerable "NS"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "24"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "S:Q92.Q3.QJT6.KQJ8 J63.AKT98.82.T94 AT74.J652.954.53 K85.74.AK73.A762"]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "100001f"]
+[VirtualBoard "6"]
+[VirtualDealer "E"]
+[VirtualVulnerable "EW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "25"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "E:J873.T.JT9852.Q5 AK94.KQ6.AQ4.T86 T62.73.K763.A942 Q5.AJ98542..KJ73"]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "100001f"]
+[VirtualBoard "1"]
+[VirtualDealer "N"]
+[VirtualVulnerable "None"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "26"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "S:KQ4.74.J9754.AJ3 862.AKQJT.83.QT6 AT73.8652.T62.84 J95.93.AKQ.K9752"]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "100001f"]
+[VirtualBoard "2"]
+[VirtualDealer "E"]
+[VirtualVulnerable "NS"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "27"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:852.AQ643.74.T63 AK.T97.T962.KQ85 J9743.52.A85.974 QT6.KJ8.KQJ3.AJ2"]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "100001f"]
+[VirtualBoard "3"]
+[VirtualDealer "S"]
+[VirtualVulnerable "EW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "28"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "N:KT874.J872.T2.KJ 953.AQ.A6.QT9852 62.T94.QJ874.A74 AQJ.K653.K953.63"]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "100001f"]
+[VirtualBoard "4"]
+[VirtualDealer "W"]
+[VirtualVulnerable "All"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "29"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "E:QT8532.73.QJT.94 K6.852.97542.Q73 7.964.K863.JT862 AJ94.AKQJT.A.AK5"]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "100001f"]
+[VirtualBoard "5"]
+[VirtualDealer "N"]
+[VirtualVulnerable "NS"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "30"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "S:Q92.Q3.QJT6.KQJ8 J63.AKT98.82.T94 AT74.J652.954.53 K85.74.AK73.A762"]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "100001f"]
+[VirtualBoard "6"]
+[VirtualDealer "E"]
+[VirtualVulnerable "EW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "31"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "E:J873.T.JT9852.Q5 AK94.KQ6.AQ4.T86 T62.73.K763.A942 Q5.AJ98542..KJ73"]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "100001f"]
+[VirtualBoard "1"]
+[VirtualDealer "N"]
+[VirtualVulnerable "None"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "32"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "S:KQ4.74.J9754.AJ3 862.AKQJT.83.QT6 AT73.8652.T62.84 J95.93.AKQ.K9752"]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "100001f"]
+[VirtualBoard "2"]
+[VirtualDealer "E"]
+[VirtualVulnerable "NS"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "33"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:852.AQ643.74.T63 AK.T97.T962.KQ85 J9743.52.A85.974 QT6.KJ8.KQJ3.AJ2"]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "100001f"]
+[VirtualBoard "3"]
+[VirtualDealer "S"]
+[VirtualVulnerable "EW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "34"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:KT874.J872.T2.KJ 953.AQ.A6.QT9852 62.T94.QJ874.A74 AQJ.K653.K953.63"]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "100001f"]
+[VirtualBoard "4"]
+[VirtualDealer "W"]
+[VirtualVulnerable "All"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "35"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "E:QT8532.73.QJT.94 K6.852.97542.Q73 7.964.K863.JT862 AJ94.AKQJT.A.AK5"]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "100001f"]
+[VirtualBoard "5"]
+[VirtualDealer "N"]
+[VirtualVulnerable "NS"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "36"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "S:Q92.Q3.QJT6.KQJ8 J63.AKT98.82.T94 AT74.J652.954.53 K85.74.AK73.A762"]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "100001f"]
+[VirtualBoard "6"]
+[VirtualDealer "E"]
+[VirtualVulnerable "EW"]

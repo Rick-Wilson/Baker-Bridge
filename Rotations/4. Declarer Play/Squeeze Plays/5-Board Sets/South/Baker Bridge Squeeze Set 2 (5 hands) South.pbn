@@ -1,0 +1,255 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:01:32 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Squeeze 6}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:KT73.KQT6.32.T95 Q52.A82.Q864.KQ2 J9864.953.T.J863 A.J74.AKJ975.A74"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6D"]
+[Result ""]
+{South is to play 6\D. West leads the \HK.
+
+At first things look hopeless, but remember this is a lesson on squeeze plays. From the opening lead you know that West must hold the \HQ. If he also holds the \SK you will be able to squeeze him in \Hs and \Ss.
+
+You let the \HK win, (hoping he will play another \H), but he plays a small trump instead which you win in your hand. 
+
+Then take your 3 \C winners, ending in your hand. 
+
+Discard the \S5 from dummy on the third \D.  
+
+But when you play the \D7 he is squeezed.
+
+He cannot dump his \SK because you would throw the \H8 and dummy would be high.
+
+So he will discard the \HT instead. At this point you know that the \SQ is worthless so you discard it. You win the final two tricks with the \HA and \HJ.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1D Pass 2NT Pass
+4D Pass 5D Pass
+6D Pass Pass Pass
+[Play "W"]
+HK
+
+[Event ""]
+{Baker Squeeze 7}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "W:6542.J.9843.JT93 AKJ.K73.A652.864 QT93.T54.KJT.AKQ 87.AQ9862.Q7.752"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{South is to play 4\H. West leads the \CJ. East wins \C A K Q then switches to a trump.
+
+You must win the next T tricks but you only have 9 winners.
+
+East opened 1NT, showing 15-17 points, and West has already produced 2 Jacks. So both the \SQ and \DK are with East and you will have to put the squeeze on him. 
+
+Since you need all the tricks the count is already rectified.
+
+You plan to squeeze East by running the long \Hs in your hand, but the problem is that the \DQ is not a Threat card yet. To make it a Threat you need to unblock dummy's \DA. So play the \DA, then pull trumps with the \H A Q. 
+
+With 6 cards left to be played you are ready to apply pressure to East.
+
+Play the \H 9 8, discarding \Ds from dummy. East is not troubled yet, he can discard the \DJ and the \S3. 
+
+Play the \H6 and throw dummy's \D6.
+
+East can choose his fate. If he throws the \S9 you will know that his \SQ will drop since his third card MUST be the \DK. So you would just play to the high \Ss and the \SJ would be good.
+
+Or, he can throw his \DK which makes your \DQ a winner. 
+
+Let's back up and pretend you had NOT unblocked the \DA. We will just add one \D to everybody's hand and look at the ending.
+
+Now when you play your \H6 as a squeeze card you have a problem. You are squeezing dummy, not East.
+
+If you discard the \D6 East will throw his \DJ, then sit back and wait for his \SQ trick.
+
+But if you discard dummy's \SJ instead, East will match that by throwing his \S9, then sit back and wait for his \DK trick.
+
+Only by visualizing the ending and using the Vienna Coup can this hand be made.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "E"]
+1NT 2H Pass 4H
+Pass Pass Pass
+[Play "W"]
+CJ
+
+[Event ""]
+{Baker Squeeze 8}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:JT65.KQJ75.92.84 A2.93.AK86.KQT65 K9843.T862.JT73. Q7.A4.Q54.AJ9732"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6C"]
+[Result ""]
+{South is to play 6\C. West leads the \HK.
+
+In case the squeeze becomes necessary you should rectify the count, so you win the first trick, pull trumps in two rounds, then give up a \H trick. 
+
+You now make the key play of taking dummy's \SA before running three rounds of \Cs. 
+
+As you see, East was able to find discards on your first three trump leads, but when you play the \C7 and discard dummy's \S2 he is squeezed.
+
+He can see that if he discards a \D dummy will be high, so he will probably throw the \SK in hopes that his partner holds the \SQ. But you have that card and you make the slam. 
+
+The only difference would be that to rectify the count you would have to hold up once on the opening \HK.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1C Pass 2D Pass
+3C Pass 4C Pass
+4H Pass 4S Pass
+6C Pass Pass Pass
+[Play "W"]
+HK
+
+[Event ""]
+{Baker Squeeze 9}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:9.T532.QJ9642.T7 AKQ752.864.75.63 JT86.97.T83.J984 43.AKQJ.AK.AKQ52"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "7NT"]
+[Result ""]
+{North's 3NT rebid shows 6 \Ss headed by A K Q and nothing else. South is to play 7NT. West leads the \DQ.
+
+Win the \DK and (IMPORTANT!) test the \Cs first by playing \C A K Q. Darn. West discards a \D on the \CQ. 
+
+Play your 4 \H winner's next. West follows suit while East follows twice, then discards 2 \Ds.  
+
+Play your \DA. East must give up. 
+
+If he throws the \CJ, you win. But if he throws a \S you also win. This is what is called a Win-Win bridge play.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+2S Pass 2NT Pass
+3NT Pass 7NT Pass
+Pass Pass
+[Play "W"]
+DQ
+
+[Event ""]
+{Baker Squeeze 10}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "W:853.QT72.JT84.63 T6.AK86.973.AKQJ 9742.J4.A652.952 AKQJ.953.KQ.T874"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6NT"]
+[Result ""]
+{South is to play 6NT. West leads the \DJ. East takes the \DA and returns the \D2.
+
+With all those high \Ds falling on the first two tricks dummy's \D 9 has become a threat against West. If it should happen that West also holds the only \H stopper you can squeeze him in the red suits. 
+
+On the last 2 \Cs West discards a \D and a \H. 
+
+You discard a small \H from dummy while West follows suit three times. 
+
+Play your \SJ and watch what West discards.
+
+If he holds on to the \DT you will discard dummy's useless \D9 and hope the \Hs all fall under the \H A K.
+
+If he discards the \DT then you throw dummy's small \H and dummy wins the last three tricks.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 5, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "E"]
+Pass 1NT Pass 2C
+Pass 2S Pass 6NT
+Pass Pass Pass
+[Play "W"]
+DJ

@@ -1,0 +1,201 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:03:52 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker SecondHand 5}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:953.9872.8653.K6 K74.AJT.QJ4.QJT7 QJ62.653.972.543 AT8.KQ4.AKT.A982"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "6NT"]
+[Result ""]
+{You are West. The bidding has been as shown.
+
+Partner led the \H9, taken by dummy's \HT. The \S4 is then played from dummy. Do you play low? or split your honors?
+
+When you have made your choice  
+
+You should always make a point count check as soon as you see dummy. North's 2NT promises 20 or 21 points, South has 14 and you have 3; total = 37 or 38. Therefore East must have either 2 or 3 points. He cannot have two Jacks because you can see all four of them. Likewise he cannot have a Queen because you can see three of them and his \H lead (top of nothing) denied that Queen.
+
+It follows that East MUST have a King, and it must be \Cs or \Ds since he has denied any \H Honor.
+
+Since East will definitely win his King, you need to take one trick yourself, and the best way to do that is to split your Honors to establish one \S winner.
+
+North has no defense to this, but if you had played low he would have played the \ST and made the slam. }
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "E"]
+[Auction "N"]
+2NT Pass 6NT Pass
+Pass Pass
+[Play "E"]
+H9
+
+[Event ""]
+{Baker SecondHand 6}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:T982.9632.53.KQ4 KJ5.Q74.T72.AJ95 763.KJT.KJ96.T72 AQ4.A85.AQ84.863"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{You are West. The bidding has been as shown.
+
+You lead the \ST; low cards from North and East, won by South with the \SA.
+
+South next plays the \C3 and you must decide whether to split your \C K Q.
+
+When you have made your choice  
+
+If you split your Honors, playing the \CQ perhaps, dummy's \CA will take the trick and South will later play through your \CK toward dummy's \C J 9 5. Played in this way he will establish 3 \C winners (which he needs for the contract).
+
+If you play low, he MIGHT finesse the \CJ and again establish 3 \C winners. But South's correct play would be to put on dummy's \C9, finessing West for the \CT. This is because \C K T or \C Q T are twice as likely as \C K Q.
+
+If he does play this way East will win the \CT and your \C K Q will get one more trick.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "W"]
+[Auction "S"]
+1NT Pass 3NT Pass
+Pass Pass
+[Play "W"]
+ST
+
+[Event ""]
+{Baker SecondHand 7}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:J873.T.JT9852.Q5 AK94.KQ6.AQ4.T86 T62.73.K763.A942 Q5.AJ98542..KJ73"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "6H"]
+[Result ""]
+{You are West. The bidding has been as shown, (wild).
+
+Partner led the \DJ; \DQ from dummy, \DK from you and ruffed by North.
+
+North then pulls two rounds of trumps, (East discards on the second one), followed by his \SQ, dummy's \S A K and dummy's \DA. North discards \Cs on the last two cards.
+
+The \C6 is then played from dummy and you must make a decision - \CA or \C2?
+
+When you have made your choice  
+
+You have a full count on North's hand. He started with 2 \Ss, 7 \Hs, and no \Ds. His other 4 cards must have been \Cs, and he has discarded 2 of them.
+
+So he has 2 \Cs left in his hand. If one of them is the \CK and you play your \CA then you have handed him the contract.
+
+By playing low you give him a guess to make. If he plays the \CK he will make the contract, but if he plays the \CJ he will go down. He will probably play the \CJ, figuring you woudn't have the nerve to duck with the \CA. He'll know better next time he plays against you.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "E"]
+[Auction "S"]
+1C Pass 1H Pass
+2NT Pass 6H Pass
+Pass Pass
+[Play "E"]
+DJ
+
+[Event ""]
+{Baker SecondHand 8}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:KQ4.74.J9754.AJ3 862.AKQJT.83.QT6 AT73.8652.T62.84 J95.93.AKQ.K9752"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{You are West. The bidding has been as shown.
+
+You lead the \D5; \D3, \DT and won by South with \DK. South now leads the \C9 from his hand and it is your play.
+
+When you have made your choice  
+
+First ask yourself "Where are the \DA and \DQ?"East doesn't have either one or he would have played it at the first trick. So South has both of them. So with those 3 tricks and the 5 \Hs in dummy South only needs to find one more winner. Assuming he has the \CK, (or why play the suit), if you play low he will find that one more winner whichever high \C he plays.
+
+Next ask yourself "Where is the \SA?"Clearly East DOES have this card; otherwise South has his 9 tricks.
+
+So the way to beat the contract is to go up with your \CA, then play \SK, \SQ and a third \S, hoping East holds \S A x x x.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "W"]
+[Auction "S"]
+1C Pass 1H Pass
+1NT Pass 3NT Pass
+Pass Pass
+[Play "W"]
+D5

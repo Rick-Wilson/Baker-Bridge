@@ -1,0 +1,194 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:00:23 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Finesse 5}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:T873.K83.62.Q964 AQJ2.976.AK5.AJT 64.JT54.943.K752 K95.AQ2.QJT87.83"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "6NT"]
+[Result ""]
+{North is to play 6NT. East leads the \S3.
+
+Winners:   \S=4  \H=1  \D=5  \C=1  Total = 11
+
+You need one more winner from the \H or \C suit. The straight finesse of the \HK offers a 50% chance of success. The double finesse of the \C K Q offers a 75% chance of success. It's a no-brainer. Run 4 \Ss and 5 \Ds ending in your hand. Be very careful not to discard a \C from your hand.
+
+Lead a small \C and play the \CT if East plays low. Let's say West wins the \CK and returns a \H.
+
+DO NOT FINESSE THE \H. Stick with your original 75% plan. Take the \HA and play your small \C, finessing the \CJ. This is why you couldn't discard a \C earlier.
+
+The double \C finesse is much better because its success depends on East holding either of two cards, the \CQ OR the \CK.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "S"]
+1C Pass 2NT Pass
+6NT Pass Pass Pass
+[Play "E"]
+S3
+
+[Event ""]
+{Baker Finesse 6}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "S:65.T83.KQJT7.842 43.752.A653.JT95 K72.K964.92.K763 AQJT98.AQJ.84.AQ"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "4S"]
+[Result ""]
+{East is to play 4\S. South leads the \DK.
+
+Losers:   \S=1  \H=1  \D=1  \C=1  Total = 4
+
+South has made another great lead. Any other suit would have given you a free finesse. You should duck the first \D. It is very possible that South has led from \D K Q T and will be afraid to continue for fear you have the \DJ in your hand. You'd be very happy to see him switch to any other suit. But he doesn't, he continues with the \DQ which you take with dummy's \DA.
+
+You are in dummy for the first, last, and only time. You need to try a finesse right now, but which one? At first you might think it makes no difference but, in fact, there is only one reasonable choice. If you finesse the \SK successfully you may still have a \S loser. If you finesse the \HK successfully you will surely still have a \H loser. But if you finesse the \CK successfully you will eliminate your \C loser.
+
+But as you can see, only the \C finesse will actually save you a trick.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+[Student "S"]
+[Auction "E"]
+2C Pass 2D Pass
+2S Pass 2NT Pass
+4S Pass Pass Pass
+[Play "S"]
+DK
+
+[Event ""]
+{Baker Finesse 7}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:T2.KQJ52.QT8.943 A873.96.763.AQJT .T873.KJ94.K8652 KQJ9654.A4.A52.7"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6S"]
+[Result ""]
+{South is to play 6\S. West leads the \HK.
+
+Losers:   \S=0  \H=1  \D=2  \C=0  Total = 3
+
+Your only hope for ridding yourself of two of those losers is dummy's \C suit. One possibility would be to finesse West for the \CK, and if that works, discard your \H loser on the \CA. You could then establish another \C winner for one of the \D losers. The problem with that plan is that if the finesse fails the defense will immediately take the setting \H trick.
+
+A better plan is a ruffing finesse. Win the first trick with your \HA and pull trumps with your \S K Q. 
+
+Next play your \C7 to dummy's \CA. Then lead the \CQ from dummy. If East plays the \CK you will ruff, enter dummy, and discard two red losers on the \C J T. If East plays low instead, you discard your \H loser. West may be able to win the trick but you can ruff a \H return, and dummy will have two good \Cs on which you can discard 2 \D losers.
+
+But they are easy to overlook, mainly because we don't use them often.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "S"]
+1S Pass 3S Pass
+4NT Pass 5H Pass
+6S Pass Pass Pass
+[Play "W"]
+HK
+
+[Event ""]
+{Baker Finesse 8}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:KJ3.Q73.KQJ95.84 942.AT5.763.AK65 T876.8642.82.T73 AQ5.KJ9.AT4.QJ92"]
+[Scoring ""]
+[Declarer "W"]
+[Contract "3NT"]
+[Result ""]
+{West is to play 3NT. North leads the \DK.
+
+Winners:   \S=1  \H=2  \D=1  \C=4  Total = 8
+
+You only need one more winner. If South has the \SK you can finesse him out of it. Or, you have a two-way finesse for the \HQ.
+
+It is an easy choice. The defenders only have 12 HCP and North opened the bidding. So you know he must have both of the cards you are interested in.
+
+Hold up the \DA until the third round just to be safe. Then play four rounds of \Cs ending in your hand.
+
+Now play the \HJ. If North doesn't cover, you will let it ride for your ninth trick. But North does cover so you take dummy's \HA, then your other 2 \H tricks. The \SA  is your ninth trick.
+
+Sometimes that may be right. But there are other times when information from the bidding or the opening lead allows you to make a higher-percentage guess.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+1D Pass Pass 1NT
+Pass 3NT Pass Pass
+Pass
+[Play "N"]
+DK

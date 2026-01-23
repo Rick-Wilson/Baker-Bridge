@@ -1,0 +1,150 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:53:07 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Ogust 7}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:Q75.KJ987.753.T5 KJ94.A63.J2.AK76 AT62.Q54.98.QJ32 83.T2.AKQT64.984"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "3NT"]
+[Result ""]
+{Having opened 2\D, you reply to partner's Ogust 2NT bid with 3NT, showing a \D suit headed by A K Q. Partner passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "S"]
+2D Pass 2NT Pass
+3NT Pass Pass Pass
+
+[Event ""]
+{Baker Ogust 8}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:K75.J9.9832.KT53 2.AKQT83.765.964 AJ9864.642.JT.QJ QT3.75.AKQ4.A872"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "4H"]
+[Result ""]
+{This is a perfect hand for Ogust - when you're not sure what to do! So you bid 2NT. Partner responds 3NT. What do you bid next? 
+
+Partner's 3NT bid describes his hand exactly; \H A K Q x x x and nothing else. You MIGHT have a \S stopper, but they might be arranged so the defenders could take the first 5 \S tricks. So you bid the "safe" 4\H game which depends only on a 3-2 trump split.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 2, chOption: E, chBasis: N, basisKind:Declarer, nOption:1, nBasis: 0, nRot: 1, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+Pass 2H Pass 2NT
+Pass 3NT Pass 4H
+Pass Pass Pass
+
+[Event ""]
+{Baker Ogust 9}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:J94.J832.K32.KT5 A876.K5.A974.A86 QT52.T.QJT6.QJ42 K3.AQ9764.85.973"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{After opening 2\H you reply to partner's Ogust 2NT with 3\S, showing a maximum hand along with a good suit. Partner bids 4\H and you pass.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "S"]
+2H Pass 2NT Pass
+3S Pass 4H Pass
+Pass Pass
+
+[Event ""]
+{Baker Ogust 10}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:J52.AQT2.T3.J953 AQ9874.873.75.K4 6.KJ964.J862.QT6 KT3.5.AKQ94.A872"]
+[Scoring ""]
+[Declarer "W"]
+[Contract "6S"]
+[Result ""]
+{Before you read this lesson you might have just jumped to a Blackwood 4NT. But now you bid an Ogust 2NT. Partner rebids 3\S. What do you bid next? 
+
+Wow! Partner has a maximum Weak 2-bid and a good trump suit, no doubt headed by the A Q.  If he also has the \HA you might be cold for 7\S. Bid Blackwood if you must, but you don't really need to since partner could not possibly have The \HA AND \S A Q x x x x. Too many points for a Weak 2-bid. So you bid 6\S.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 4, chOption: W, chBasis: N, basisKind:Declarer, nOption:3, nBasis: 0, nRot: 3, useStandardVul: true"]
+[Student "S"]
+[Auction "S"]
+Pass 2S Pass 2NT
+Pass 3S Pass 6S
+Pass Pass Pass

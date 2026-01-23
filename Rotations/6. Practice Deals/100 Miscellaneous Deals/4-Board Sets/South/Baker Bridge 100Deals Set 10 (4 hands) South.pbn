@@ -1,0 +1,218 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:05:28 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",10,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker 100Deals 37}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:K9.KQT6.964.T752 AJ52.854.AKJ3.84 T74.AJ3.T852.J93 Q863.972.Q7.AKQ6"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{You are South and it is your bid. Decide what you would say, then  on BID. 
+
+A jump to 2NT would not be a terrible bid. But it is more important to show your 4-card Major.
+
+So you bid 1\S instead. Partner raises to 2\S.
+
+What do you bid next? 
+
+It's another case of HE WHO KNOWS, GOES. You know you have at least 26 points and 8 \Ss. Of course you trust that partner would not raise a suit you bid as responder with only 3 trumps. So you bid 4\S.
+
+South plays 4\S. West leads the \HK. The defense takes the first three \H tricks, then switch to a \C.
+
+Losers: \S ? : \H 3 : \D 0 : \C 0 : Total = 3?
+
+It kinda makes you wish you'd bid 2NT after all doesn't it?
+
+At least the picture is clear. Very clear. You have no wiggle room left so you must bring in the \Ss without losing a trick. So West MUST have the \SK. Therefore you assume West does hold the \SK. 
+
+Suppose you lead the \SQ. West will play his \SK and force you to play dummy's \SA. Then one of the defenders will win the third \S with the \ST or \S9.
+
+No, you only have one chance to make this contract - West must hold a doubleton \S K x. So you lead a SMALL \S from your hand and finesse dummy's \SJ. Then play the \SA, dropping West's \SK, then pull the last trump with the \SQ.
+
+Since you would only have one more honor you'd be bound to lose a trick.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1D Pass 1S Pass
+2S Pass 4S Pass
+Pass Pass
+[Play "W"]
+HK
+
+[Event ""]
+{Baker 100Deals 38}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:QJT984.A5.93.QJT A72.QJ3.Q862.964 53.T7642.A75.753 K6.K98.KJT4.AK82"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{You are South and it is your bid. Decide what you would say, then  on BID. 
+
+With 17 points and a balanced hand you naturally open 1NT. West overcalls 2\S. Your partner then bids 2NT.  
+
+Your partner invited you to bid 3NT if you had 17 points, and you have 17 points. You trust your partner so you bid 3NT.
+
+South plays 3NT. West leads the \SQ.
+
+Winner count: \S 2 : \H 0 : \D 0 : \C 2 : Total = 4
+
+This looks scary. Needing 5 more tricks means you are going to have to establish BOTH red suits. And with only two \S stoppers you have to hope West doesn't have both red Aces. If he does, you're down, so just assume that he only has one of them. Now if you can just figure out which Ace West has you can establish that suit first.
+
+But you don't have to guess, there is a better way. West overcalled at the 2-level with a Queen-high suit and one outside Ace. THAT is bold. Surely he has at least a 6-card suit to justify that overcall. If so, then a simple hold-up will be worthwhile. So you let West hold the first trick, and when he leads another \S you win the \SK in your hand. If West has a 6-card suit East is now void of \Ss.
+
+Play \Ds to drive out the \DA. If East has it he will not have another \S to force you with. If West has it he can force out your last \S, but then won't have the \HA for an entry. However the Aces are split - as long as West doesn't have both - you will establish 9 tricks.
+
+With the holdup it didn't matter which red suit you established first.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT 2S 2NT Pass
+3NT Pass Pass Pass
+[Play "W"]
+SQ
+
+[Event ""]
+{Baker 100Deals 39}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:A.QJ72.J753.KJ64 54.T963.AK92.Q85 T973.AK84.T8.AT3 KQJ862.5.Q64.972"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "2S"]
+[Result ""]
+{You are North and it is your bid. Decide what you would say, then  on BID. 
+
+Don't even think twice. Just pass and wonder why the opponents aren't bidding.
+
+South would play 2\S.
+
+North plays 2\S. East leads \HA, then \HK.
+
+Losers: \S 1/2 : \H 1 : \D 0 : \C 3 : Total = 5/6
+
+If East has both \CA and \CK you could save yourself 1 \C loser, but the odds are about 3 to 1 against that. Your best chance of making this contract is just to hold your \S losers to 1. With an expected 3-2 split there will not be a problem, but you might as well take extra pains if you can do so without risk.
+
+So after you ruff the \HK you do NOT play the \SK. Instead you play a \D to dummy and lead a \S toward your honors. Your extra pains pay off when West plays the \SA, which was a singleton.
+
+It costs nothing to make a careful play. Most of the time it doesn't matter, but every now and again it pays off in a contract that couldn't be made without the careful play. }
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+2S Pass Pass Pass
+[Play "W"]
+HA
+
+[Event ""]
+{Baker 100Deals 40}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:42.KQT.AJ753.Q87 AK98653.62.Q4.52 QJT.3.KT962.AJ94 7.AJ98754.8.KT63"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3H"]
+[Result ""]
+{You are North and it is your bid. Decide what you would say, then  on BID. 
+
+You really really want to say 3\S. Here are three good reasons you shouldn't.
+
+You have 9 \Hs between you. You may have only 7 \Ss. If you bid 3\S partner may bid again. You haven't been doubled.
+
+South would play 3\H.
+
+North plays 3\H. East leads the \SQ.
+
+It turns out there was a fourth reason not to bid 3\S - the opponents might lead the suit.
+
+Losers: \S 0 : \H 1/2 : \D 1 : \C 4 : Total = 6/7
+
+The \S lead is about the best thing that could have happened to you. You win with dummy's \SA and play \SK, discarding your \D. You then lead a small \C, covering anything West plays. You'd like to ruff a \C if you can, but if they play trumps to stop you then you'd like the trump play to come from East. East leads the \H3, West plays the \HK, and you win with the \HA. You play a small \C. If the defender who wins the \C doesn't play another trump then you can ruff your third \C in dummy. If the defender DOES play a trump, then you lose only one trump trick. You end up going down 1, which is pretty good.
+
+}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+3H Pass Pass Pass
+[Play "W"]
+SQ

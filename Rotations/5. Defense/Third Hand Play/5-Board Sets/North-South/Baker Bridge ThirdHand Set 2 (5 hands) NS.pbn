@@ -1,0 +1,229 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:04:35 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker ThirdHand 6}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "E:93.82.T9542.K863 KT75.6.K83.QJ952 64.KT9743.AQ7.AT AQJ82.AQJ5.J6.74"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4S"]
+[Result ""]
+{The bidding has been as shown. South's 2\H bid shows good \S support with at least 10 points.
+
+Partner led the \H8, dummy played the \H6 and it is your play.
+
+When you have made your choice  
+
+Partner's \H8 lead is a high spot card, either top-of-nothing, or a singleton or doubleton. He definitely does not have an honor, which means that North holds \H A Q J.
+
+In other words, your \HK is dead in the water. BUT, if you play it to this trick you hand North three \H tricks, while if you play a low \H he can only get 2 winners in the suit.
+
+The extra winner would permit North to discard 2 of dummy's \D losers, and this would give North the contract.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "E"]
+[Auction "W"]
+1H 1S Pass 2H
+Pass 4S Pass Pass
+Pass
+[Play "E"]
+H8
+
+[Event ""]
+{Baker ThirdHand 7}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:Q64.QJT53.85.AT4 K73.964.KJ6.KJ95 J985.K7.9743.872 AT2.A82.AQT2.Q63"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{The bidding has been as shown. Partner led the \HQ, dummy played the \H4 and it is your play.
+
+When you have made your choice  
+
+Admittedly you have a terrible hand. But that's no reason to be careless. YOU can beat this contract, but you have to do it right now by unblocking the \HK. If declarer holds up you will continue with your \H7 and partner will establish his suit while he still has the \CA for an entry. If declarer doesn't hold up it will be just as bad for him.
+
+But suppose you say "Well, partner's \HQ is just as good as my \HK so I'll just save the King for later" as you play low. Declarer will love you. He will hold up on the \HQ, then again on trick two when you play the \HK. AND HE WILL STILL HAVE HIS \HA when you switch to another suit. He will have time to drive out the \CA while he still has \Hs stopped.
+
+It was a good thing you held the \HK rather than declarer, but it is a nuisance that you must get out of the way on the very first trick.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "E"]
+[Auction "S"]
+1NT Pass 3NT Pass
+Pass Pass
+[Play "W"]
+HQ
+
+[Event ""]
+{Baker ThirdHand 8}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:983.J962.A73.QT8 AQJT7.A5.K42.AJ2 K62.KQ3.T985.973 54.T874.QJ6.K654"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "3NT"]
+[Result ""]
+{The bidding has been as shown. Partner led the \H2, dummy played the \HA and it is your play.
+
+When you have made your choice  
+
+You know partner has a 4-card \H suit, (he led the deuce), and you know it is headed by an honor. You hope the honor is the \HJ, but in any case you must get your high \Hs out of the way.
+
+Declarer will probably come to his hand and then take a \S finesse. You win the \SK, take your other high \H, then lead your \H3 toward your partner.
+
+As you see, partner did hold the \H J 9, so your side wins 3 \H tricks.
+
+If declarer played low on the first trick you would win the \HQ, then play the \HK to dummy's \HA.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "E"]
+[Auction "S"]
+1S Pass 1NT Pass
+3NT Pass Pass Pass
+[Play "E"]
+H2
+
+[Event ""]
+{Baker ThirdHand 9}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:T865.AK3.Q72.842 K92.QT985.A6.AT6 AJ7.642.T985.973 Q43.J7.KJ43.KQJ5"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{The bidding has been as shown. Partner led the \S5, dummy played the \S2 and it is your play.
+
+When you have made your choice  
+
+Partner's low \S lead tells you he has an honor in the suit, so it must be either the \SQ or the \ST. South's jump to 2NT makes it almost certain that he holds the \SQ, so you can figure partner probably led from \S T x x 5.
+
+Apply the Rule of 11. 11 minus 5 = 6 cards higher than the \S5 held by dummy, you, and declarer. Since you can see 5 of the 6 you conclude that that declarer will have to play his \SQ to beat your \S7.
+
+South will take the \SQ at trick 1, but when West wins a high \H he will play another \S through dummy's \S K 9 to your \S A J. Once you clear dummy's \S away partner will win another \H and be able to cash his last \S.
+
+Note that if dummy's \S9 was played you would cover with your \SJ, leading to the same situation.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "E"]
+[Auction "N"]
+1H Pass 2NT Pass
+3NT Pass Pass Pass
+[Play "W"]
+S5
+
+[Event ""]
+{Baker ThirdHand 10}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:K852.JT652.64.93 J64.98.A5.AJT742 973.AQ7.JT873.K6 AQT.K43.KQ92.Q85"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "3NT"]
+[Result ""]
+{The bidding has been as shown. Partner led the \H5, dummy played the \H8 and it is your play.
+
+When you have made your choice  
+
+The Rule of Eleven tells you there are 6 cards in South, West and North that are higher than the \H5. You can see 5 of them, so that leaves just one of them for North.
+
+East cannot have all three of the outstanding honors, because from \H K J T x x his correct lead would be the Jack. So you can deduce that North must hold exactly one of \HK, \HJ, or \HT.
+
+If his honor is not the \HK then it won't matter whether you play \HA or \HQ to the first trick; you will win your two top cards and then play your small one back to East.
+
+So assume North actually holds the \HK x x. If you play the \HA to trick one, then lead \HQ, North will hold up on the second trick, and win the third \H. Then, when you win your \CK you will not have a \H to return to partner and declarer will make the contract.
+
+So what happens if you play the \HQ at trick one? North could still make the contract by holding up, but he will be afraid to do so. After all, from his perspective it looks like East probably holds the \HA and he will be afraid of losing the first 5 \H tricks, perhaps even when the \CK finessing is working!}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "E"]
+[Auction "N"]
+1NT Pass 3NT Pass
+Pass Pass
+[Play "E"]
+H5

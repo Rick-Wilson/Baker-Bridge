@@ -1,0 +1,205 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:12:26 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Bidpractice/Set10 13}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:KQ.A94.KT83.J653 AT94.KQJ7.Q6.AQ4 8532.863.752.987 J76.T52.AJ94.KT2"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{NORTH has 18 points, a doubleton in the opponent's suit, and at least three cards in the unbid suits.
+
+This is an ideal hand for a Takeout Double.
+
+SOUTH has good strength in WEST's
+
+â™¦
+
+suit, probably two stoppers.
+
+He has 9 points and no 4-card suit of his own. This is the type of hand to respond 1NT.
+
+NORTH is happy to play Notrump now that she knows the
+
+â™¦
+
+s are covered,
+
+so she bids 3NT.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "W"]
+1D X Pass 1NT
+Pass 3NT Pass Pass
+Pass
+
+[Event ""]
+{Baker Bidpractice/Set10 14}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "E:JT732.76.T9853.4 Q8.AJ92.AJ6.Q983 5.KT843.Q2.AK652 AK964.Q5.K74.JT7"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{NORTH has an opening hand, 14 points and five â™ s. But WEST beat him to the punch,
+
+so he overcalls 1â™ .
+
+SOUTH also has 14 points, she doesn't care too much for â™ s, but she has an
+
+excellent stopper in
+
+â™¥
+
+s.
+
+She jumps to 2NT, inviting NORTH to bid game.
+
+Since NORTH has several points more than he might have had, and no 6-card â™  suit to rebid,
+
+he happily bids 3NT.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "W"]
+1H 1S Pass 2NT
+Pass 3NT Pass Pass
+Pass
+
+[Event ""]
+{Baker Bidpractice/Set10 15}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:KQJT6.A64.JT4.T9 87.KQ97.AK83.QJ4 542.82.9762.7532 A93.JT53.Q5.AK86"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{SOUTH has 15 points and all the requirements for a Takeout Double of 1â™ .
+
+With 14 points of his own, NORTH knows his side needs to be in a game somewhere. He passes this information
+
+to SOUTH with a cue-bid of 2â™ .
+
+SOUTH gets the message and starts the hunt for a trump fit by bidding 3
+
+â™¥
+
+. That
+
+makes it easy for NORTH - he bids 4
+
+â™¥
+
+.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "E"]
+1S X Pass 2S
+Pass 3H Pass 4H
+Pass Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set10 16}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "W:T83.94.T964.KJ53 K75.852.KQ3.9762 9.KQJT63.A85.QT4 AQJ642.A7.J72.A8"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{There is only one reason that SOUTH should not overcall with 1â™ . He is too strong.
+
+The maximum strength of an overcall is 16 points. Above that you should double.
+
+So SOUTH doubles, and after NORTH bids 2â™£, SOUTH bids 2â™ . This shows an overcall
+
+type hand, but with 17 or more points.
+
+NORTH has fine trump support and 8 points so she bids a confident 4â™ .}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "E"]
+1H X Pass 2C
+Pass 2S Pass 4S
+Pass Pass Pass

@@ -1,0 +1,159 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:56:25 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Leben 17}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:T9632.A432.JT.95 KJ5.KJ7.A96.KQT2 A8.8.KQ7542.J764 Q74.QT965.83.A83"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4H"]
+[Result ""]
+{With 9 points you don't want to sign-off with 2\H. But you aren't strong enough to force to game with a 3\H bid either. So you start an invitational sequence by bidding 2NT.
+
+Partner says 3\C. What do you bid? 
+
+Now you bid 3\H. Partner will realize you have better than a sign-off, but were not good enough to bid 3\H immediately. He has a maximum, and he knows you have a 5-card suit, so he bids 4\H.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT 2D 2NT Pass
+3C Pass 3H Pass
+4H Pass Pass Pass
+
+[Event ""]
+{Baker Leben 18}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:842.AKQ652.J92.6 AJ63.94.A85.KJT3 T97.J73.T64.9852 KQ5.T8.KQ73.AQ74"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "5C"]
+[Result ""]
+{Partner's bid asks if you have 4 \Ss, and denies a \H stopper. (DIRECT DENIES)
+
+You don't have 4 \Ss, nor can you stop \Hs. You have no choice but to bid one of the 4-card Minor suits, so you go up-the-line and bid 4\C. Partner bids 5\C.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT 2H 3H Pass
+4C Pass 5C Pass
+Pass Pass
+
+[Event ""]
+{Baker Leben 19}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "S:QJT96542.83.6.82 K73.A952.Q5.AKJ5 .KQJT.KT8432.Q73 A8.764.AJ97.T964"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "2DX"]
+[Result ""]
+{It is possible your side can make 3NT on this deal. You have 9 points, invitational strength, and your \D stopper is excellent.
+
+However you should look for an even bigger reward by doubling. North is in serious trouble, and when the opponents make a mistake you should punish them.}
+[BCFlags "1f"]
+[OriginalRotationBasis "E"]
+[RotationNote "Board 3, chOption: N, chBasis: E, basisKind:Student, nOption:0, nBasis: 1, nRot: 3, useStandardVul: false"]
+[Student "S"]
+[Auction "W"]
+1NT 2D X Pass
+Pass Pass
+
+[Event ""]
+{Baker Leben 20}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:A6.T9.KQ8432.J95 QT84.K6.AT7.KT83 752.J5432.J6.642 KJ93.AQ87.95.AQ7"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{Partner's 2NT bid requests that you bid 3\C, so you do. He next says 3\D.  
+
+Partner's bid is game-forcing Stayman, but with a \D stopper (SLOW SHOWS). Holding 4 cards in each Major you bid up-the-line, 4\H. Partner now bids 3NT. What do you say? 
+
+Partner would not have asked for a 4-card Major unless he held one himself. Since it wasn't \Hs it must be the other one. You bid 4\S.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT 2D 2NT Pass
+3C Pass 3D Pass
+3H Pass 3NT Pass
+4S Pass Pass Pass

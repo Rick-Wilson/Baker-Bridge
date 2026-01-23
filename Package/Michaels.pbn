@@ -1,0 +1,502 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%Creator: CSVtoPBN Version 1.00
+%Created: 2025-04-11 19:08:14
+%sourcefilename BakerBridgeFull.csv
+%HRTitleEvent Michaels
+[Board "1"]
+[Event ""]
+{Baker Michaels 1}
+[Dealer "E"]
+[Declarer "N"]
+[Contract "2S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:T52.KJ52.AT9.J94 K93.74.QJ65.A832 A7.Q6.K8742.KQT5 QJ864.AT983.3.76"]
+[Auction "E"]
+1D 2D pass 2S pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? [BID 2\D]
+
+
+
+A perfect Michaels example; 5-5 in the Majors and 9 points. You bid 2\D and partner says 2\S. What do you bid next? [BID pass]
+
+
+
+You have a rather minimum Michaels type hand and you asked partner to choose a Major suit. He chose \Ss. But don't start thinking about what great support you have for his \S suit, he doesn't HAVE a \S suit, he is just supporting yours. In other words, you pass.}
+[BCFlags "1f"]
+
+
+[Board "2"]
+[Event ""]
+{Baker Michaels 2}
+[Dealer "W"]
+[Declarer "S"]
+[Contract "2H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:4.J2.KQ32.AKQ842 AT863.AT974.86.5 KQ72.Q65.974.JT3 J95.K83.AJT5.976"]
+[Auction "W"]
+1C 2C pass 2H pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? [BID 2\H]
+
+
+
+You have a fair hand with a guaranteed 8-card fit in either Major. You are not, however, strong enough to jump the bidding. So you bid 2\H, which is passed out.}
+[BCFlags "1f"]
+
+
+[Board "3"]
+[Event ""]
+{Baker Michaels 3}
+[Dealer "E"]
+[Declarer "N"]
+[Contract "3C"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:KT983.AT6.J65.42 A642.Q873.Q3.A95 QJ.KJ542.A82.T87 75.9.KT974.KQJ63"]
+[Auction "E"]
+1H 2NT pass 3C pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? [BID 2NT]
+
+
+
+You have a pretty good hand for an Unusual Notrump, but not so good that you wouldn't use the convention. You bid 2NT and partner says 3\C. What do you say next? [BID pass]
+
+
+
+As mentioned, you have a pretty good hand, but partner only bid because you forced him to and he showed nothing more than minimum. So you pass.}
+[BCFlags "1f"]
+
+
+[Board "4"]
+[Event ""]
+{Baker Michaels 4}
+[Dealer "W"]
+[Declarer "S"]
+[Contract "3D"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:AQT832.Q6.AT.984 96.4.KQJ84.KQT75 K4.KT852.732.A63 J75.AJ973.965.J2"]
+[Auction "W"]
+1S 2NT pass 3D pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? [BID 3\D]
+
+
+
+Your best suit is \Hs. But partner didn't ask you to bid \Hs, he asked you to pick a Minor. You know you will have an 8-card fit in \Ds so you take the safe approach and bid 3\D. Everybody passes.}
+[BCFlags "1f"]
+
+
+[Board "5"]
+[Event ""]
+{Baker Michaels 5}
+[Dealer "E"]
+[Declarer "N"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:K54.AQ6.KQT842.8 863.K7532.A975.Q AQJT92..J3.A9764 7.JT984.6.KJT532"]
+[Auction "E"]
+1S 2S pass 4H pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? [BID 2\S]
+
+
+
+Of course you bid a Michaels Cue-Bid of 2\S. Partner says 4\H. What do you bid now? [BID pass]
+
+
+
+Partner's jump might indicate he has a really good hand, or he might just have a really good fit. You certainly don't have the strength to make another move so you pass. A good thing, too. Partner might get lucky and make this but it looks like the other guys are cold for 4\S. Even if partner loses 2 \H tricks and goes down 1 it will turn out to be a good sacrifice.}
+[BCFlags "1f"]
+
+
+[Board "6"]
+[Event ""]
+{Baker Michaels 6}
+[Dealer "W"]
+[Declarer "N"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:QJ9.Q7432.AQ42.7 74.6.J9873.AQT85 8532.T85.T5.9643 AKT6.AKJ9.K6.KJ2"]
+[Auction "W"]
+1H 2NT pass 3NT pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? [BID 3NT]
+
+
+
+You have no idea what you can make with this hand. Slam in one of the minors may be possible, but maybe not. You decide to try 3NT.}
+[BCFlags "1f"]
+
+
+[Board "7"]
+[Event ""]
+{Baker Michaels 7}
+[Dealer "E"]
+[Declarer "N"]
+[Contract "4D"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:KT6542.75.6.T943 A93.A6.Q9842.KQJ QJ.KT32.A7.A8765 87.QJ984.KJT53.2"]
+[Auction "E"]
+1C 2NT pass 4D pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? [BID 2NT]
+
+
+
+With the two lowest unbid suits you bid 2NT. Partner jumps to 4\D. What do you bid? [BID pass]
+
+
+
+Partner probably has a good hand, but he might just be preempting. Assuming he is inviting you to bid game you have a tough decision. You are not very strong but you might have been a couple of points weaker. It is strictly a judgement call and we decide to pass.
+
+As you can see, IF they open the lead with a \C, and IF the \H finesse then works, you can make 5\D.}
+[BCFlags "1f"]
+
+
+[Board "8"]
+[Event ""]
+{Baker Michaels 8}
+[Dealer "W"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:52.AK52.KQT9.J62 K9874.QJT96.5.74 Q3.83.J8432.KQ83 AJT6.74.A76.AT95"]
+[Auction "W"]
+1D 2D pass 3S pass 4S pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? [BID 3\S]
+
+
+
+As you have figured out by now, using Michaels Cue-Bids / Unusual Notrump is sometimes hard to tie down. Here you have 13/14 points and if you figure partner for 9 that won't be enough for game. But, those two Minor Aces are worth a lot when you figure partner has only 3 Minor suit cards.
+
+So let's say you decide to just invite with 3\S. Partner takes you to game.
+
+You will surely make this game if trumps split 2-2. If they don't then you will have to hope for a defensive mistake.}
+[BCFlags "1f"]
+
+
+[Board "9"]
+[Event ""]
+{Baker Michaels 9}
+[Dealer "E"]
+[Declarer "S"]
+[Contract "3D"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:932.KT753.AQ82.T KQJ7.6.974.K8654 A8654.A2.6.AQ973 T.QJ984.KJT53.J2"]
+[Auction "E"]
+1S 2S pass 2NT pass 3D pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? [BID 2\S]
+
+
+
+With 5 cards in the "other" Major and a 5-card Minor you bid 2\S, Michaels of course. Partner bids 2NT. What do you say next? [BID 3\D]
+
+
+
+Is it possible that partner wants to play Notrump? Not at all. He hates \Hs and wants you to bid your Minor suit. So you say 3\D and he passes.}
+[BCFlags "1f"]
+
+
+[Board "10"]
+[Event ""]
+{Baker Michaels 10}
+[Dealer "W"]
+[Declarer "S"]
+[Contract "5D"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:AJ42.52.A92.KJ82 KQ.AKQ83.QJT54.3 98753.JT96.8.Q74 T6.74.K763.AT965"]
+[Auction "W"]
+1C 2NT pass 3D pass 4D pass 5D pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? [BID 3\D]
+
+
+
+Partner asked you to choose between \Hs and \Ds so you bid 3\D. He then raises you to 4\D. What do you bid? [BID 5\D]
+
+
+
+If you say to yourself "I only have 7 HCP" then you might pass. But if you say "Partner invited me to bid game, even though I might have no points and only 3 trumps. I'm a lot better than that.", then you will accept the invitation. So you bid 5\D and everybody passes.}
+[BCFlags "1f"]
+
+
+[Board "11"]
+[Event ""]
+{Baker Michaels 11}
+[Dealer "E"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:.T83.J9874.T9842 KT93.J652.K6.KQ5 8742.AKQ74.2.AJ7 AQJ65.9.AQT53.63"]
+[Auction "E"]
+1H 1S pass 2H pass 4S pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? [BID 1\S]
+
+
+
+With 5 cards in the "other" Major and a 5-card Minor suit this looks like an ideal Michaels Cue-Bid, right? No, not really. While it would not be a capital offense to bid 2\H here, it generally works out better with 13-16 point hands to just overcall in your higher-ranking suit. You bid 1\S. Partner responds 2\H. What do you bid? [BID 4\S]
+
+
+
+Partner's cue-bid shows a limit-raise or better in \Ss. So you bid 4\S without the blink of an eye.}
+[BCFlags "1f"]
+
+
+[Board "12"]
+[Event ""]
+{Baker Michaels 12}
+[Dealer "W"]
+[Declarer "N"]
+[Contract "3C"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:Q2.AJT975.AQJ6.A AT983.8.75.QJT74 KJ754.Q3.842.932 6.K642.KT93.K865"]
+[Auction "W"]
+1H 2H pass 2NT pass 3C pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? [BID 2NT]
+
+
+
+Partner is 5-5 in \Ss and one of the Minor suits. Forget \Ss, you want him to bid the Minor. So you bid 2NT. Partner says 3\C. What do you bid now? [BID pass]
+
+
+
+Partner only made a minimum bid, so you have no choice but to pass.}
+[BCFlags "1f"]
+
+
+[Board "13"]
+[Event ""]
+{Baker Michaels 13}
+[Dealer "E"]
+[Declarer "N"]
+[Contract "3H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:QT94.862.T64.JT8 762.J95.QJ8.7542 J.A3.AK9732.KQ96 AK853.KQT74.5.A3"]
+[Auction "E"]
+1D 2D pass 2H pass 3H pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? [BID 2\D]
+
+
+
+With 18 points and 5-5 Major suits you are up in the high-level Michaels category. You bid 2\D and partner responds 2\H. What do you bid next? [BID 3\H]
+
+
+
+Yes, you have a high-level Michaels hand but don't get carried away. Remember that you forced partner to bid. Any bid at all by you at this point will show 17+ points, so you just raise to 3\H. Partner has a weak hand and passes.}
+[BCFlags "1f"]
+
+
+[Board "14"]
+[Event ""]
+{Baker Michaels 14}
+[Dealer "W"]
+[Declarer "S"]
+[Contract "3S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:A2.KQJ7.AJ.KJT32 94.AT964.KQ652.8 K3.52.T983.Q9754 QJT8765.83.74.A6"]
+[Auction "W"]
+1C 2NT pass 3S pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? [BID 3\S]
+
+
+
+Partner wants you to bid \Hs or \Ds. You figure that in either of the red suits you will have a 7-card fit. You hope to do better than that in \Ss. So you bid 3\S and everybody passes.}
+[BCFlags "1f"]
+
+
+[Board "15"]
+[Event ""]
+{Baker Michaels 15}
+[Dealer "E"]
+[Declarer "N"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:85.T952.AKJ9.T52 J943.J6.T764.976 A7.83.Q832.KQJ84 KQT62.AKQ74.5.A3"]
+[Auction "E"]
+1C 2C pass 2S pass 4S pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? [BID 2\C]
+
+
+
+You have 20 points and two good 5-card Majors so you bid a Michaels 2\C. Partner responds 2\S. What do you say next? [BID 4\S]
+
+
+
+Partner may have as few as zero points and as many as 13 or so. You COULD bid an invitational 3\S, but if he has only 5 or 6 points he will pass. Looking at your hand you only need to find partner with \S J x x to have a good shot at game. So go ahead and bid 4\S.
+
+Will you look at that. Partner has only 2 points, but what great ones to have!}
+[BCFlags "1f"]
+
+
+[Board "16"]
+[Event ""]
+{Baker Michaels 16}
+[Dealer "W"]
+[Declarer "S"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:J.75.AKQJ86.JT42 K9852.A9432.T5.9 QT743.J6.93.Q873 A6.KQT8.742.AK65"]
+[Auction "W"]
+1D 2D pass 4H pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? [BID 4\H]
+
+
+
+Partner has 5 of each Major suit so you know of a good 9-card \H fit. You have a nice hand and must decide between inviting with 3\H or bidding the game on your own. You decide to bid the game so you say 4\H and everybody passes.}
+[BCFlags "1f"]
+
+
+[Board "17"]
+[Event ""]
+{Baker Michaels 17}
+[Dealer "E"]
+[Declarer "S"]
+[Contract "5C"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:Q65.QJT98543.J4. A73.AK.AQ63.T853 KJT982.72.T9.AK2 4.6.K8752.QJ9764"]
+[Auction "E"]
+1S 2NT pass 3S pass 4C pass 5C pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? [BID 2NT]
+
+
+
+This is a really good hand for Unusual Notrump. You bid 2NT and partner says 3\S. What do you say now? [BID 4\C]
+
+
+
+Partner apparently has a big hand. His cue-bid is forcing, and probably means he wants to be in game. But for now you can just show your minimum strength and give a suit preference. You bid 4\C and partner raises to 5\C.}
+[BCFlags "1f"]
+
+
+[Board "18"]
+[Event ""]
+{Baker Michaels 18}
+[Dealer "W"]
+[Declarer "W"]
+[Contract "3C"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:A86.KQ3.AJ8.T987 QJ753.A9842.K5.4 K92.T75.63.AQJ32 T4.J6.QT9742.K65"]
+[Auction "W"]
+1C 2C 3C pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? [BID pass]
+
+
+
+Many times at Bridge you want to fight for the contract. This isn't one of them. With 6 HCP and only four cards total in partner's two suits just let the opponents have it. You pass.}
+[BCFlags "1f"]
+
+
+[Board "19"]
+[Event ""]
+{Baker Michaels 19}
+[Dealer "E"]
+[Declarer "N"]
+[Contract "3C"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:983.J5.JT985.T62 7.62.A64.AKQ8743 AKJ4.AT84.KQ32.5 QT652.KQ973.7.J9"]
+[Auction "E"]
+1D 2D pass 3C pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? [BID 2\D]
+
+
+
+With two 5-card Majors of course you bid 2\D. Partner responds 3\C. What do you say now? [BID pass]
+
+
+
+This wasn't according to your script. Partner was supposed to choose a Major. The reason he didn't, of course, is that he didn't like either one and figured you would be better in \Cs. So you pass.}
+[BCFlags "1f"]
+
+
+[Board "20"]
+[Event ""]
+{Baker Michaels 20}
+[Dealer "W"]
+[Declarer "S"]
+[Contract "3S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:93.Q8.KQT93.KQ64 KJT52.A9743.62.T A6.KJ2.AJ854.J83 Q874.T65.7.A9752"]
+[Auction "W"]
+1D 2D 3D 3S pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? [BID 3\S]
+
+
+
+You don't have a great hand but you DO have 4 \Ss. So don't let the opponents have a 3-level contract when your side has 9 \Ss. Bid 3\S.
+
+Note: See the Law of Total Tricks Lesson on this topic.}
+[BCFlags "1f"]
+
+

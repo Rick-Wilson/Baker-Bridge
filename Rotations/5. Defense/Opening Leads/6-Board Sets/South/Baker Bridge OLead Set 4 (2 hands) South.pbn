@@ -1,0 +1,123 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:03:38 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker OLead 19}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:972.QJT6.T762.73 AJ5.A9853.KQ.AQ5 T864.72.J93.JT98 KQ3.K4.A854.K642"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6NT"]
+[Result ""]
+{The bidding has been as shown. The contract is 6NT and it is your lead.
+
+When you have made your choice  
+
+Admittedly the \HQ looks very tempting, but resist the temptation.
+
+Since dummy bid \Hs, don't help declarer by leading the suit. Declarer has 11 tricks, and will hope to pick up one more in \Cs, but that won't happen.
+
+But if you start with the \HQ, he will win with his \HK and can then establish an extra \H winner by leading through your \H J T into dummy's \H A 9.
+
+With any lead other than a \H honor he cannot come to 12 tricks.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "W"]
+[Auction "N"]
+1H Pass 2NT Pass
+6NT Pass Pass Pass
+[Play "W"]
+D2
+
+[Event ""]
+{Baker OLead 20}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:A.QJT3.8753.A742 QT85.K54.AT.KJ96 742.9872.QJ642.3 KJ963.A6.K9.QT85"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4SX"]
+[Result ""]
+{The bidding has been as shown. The contract is 4\S and it is your lead.
+
+When you have made your choice  
+
+Did you choose the \HQ? I was afraid you would. That is wrong, but because this is the last Deal I'm going to give you another chance.
+
+Look at the bidding carefully, then ask yourself why you doubled.
+
+Now pick the opening lead that will set the contract, then  
+
+North/South apparently have 8 or more \Cs between them, which leaves partner with a singleton at most.
+
+Partner will ruff the second \C, and when you get into the lead with the Ace of trumps you will play a third \C which he will again ruff.
+
+That's why you doubled.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "W"]
+[Auction "S"]
+1S Pass 2C Pass
+3C Pass 4S Pass
+Pass X Pass Pass
+Pass
+[Play "W"]
+CA

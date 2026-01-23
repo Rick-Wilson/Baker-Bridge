@@ -1,0 +1,239 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:08:06 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",10,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker 100NT 61}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:T2.T9742.KT83.Q6 AQJ9876.5.AJ5.94 3.KQ863.Q94.JT72 K54.AJ.762.AK853"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "6S"]
+[Result ""]
+{Wow. You can tell that this is going to be tough to bid scientifically. You decide to start with a transfer bid, 2\H. Partner replies 2\S. What do you say now? 
+
+Wow. You can tell that this is going to be tough to bid scientifically. You decide to start with a transfer bid, 2\H. Partner replies 2\S. What do you say now?
+
+You know there are enough points for slam, but not enough for a Grand Slam. Asking for Aces will get you nowhere because if partner shows only one Ace you will still think you should be in slam. So you take a shot and bid 6\S.(If you don't think you would really do this, I won't hold it against you.)
+
+The contract would be 6\S played by North.
+
+To make South the declarer  ROTATE. 
+
+South plays 6\S. West leads the \HK. Of course you take your \HA.
+
+The Losers are counted from dummy's long-trump hand for simplicity.
+
+The \C suit must be established to take one of the \D losers. But there may be an entry problem since the opening lead has taken out one of your entries already.
+
+Pull trumps in two rounds, (you got a break there), leaving the \SK in your hand as an entry. 
+
+If you now play \CA, \CK, and then ruff a \C you will succeed when the \Cs split 3-3. But if they are 4-2, then you will fail because you only have the one entry to your hand. 
+
+A better plan is to play a small \C from each hand. This gives the defense a \C trick but you can win their return, play a \C to the \C A, take the \CK, then ruff the FOURTH \C. This will establish the FIFTH \C and you still have the \SK for an entry.
+
+If you can afford to lose a trick in the suit you can make do with one fewer entry just by ducking the first round. Basically it gives you three plays in the suit before you take your ruff. 
+
+But what if the contract had been 7\S?
+
+Obviously you couldn't afford to lose a trick so you would have to bang down the two top \Cs, then ruff one and hope the suit was splitting 3-3.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+1NT Pass 2H Pass
+2S Pass 6S Pass
+Pass Pass
+[Play "E"]
+HK
+
+[Event ""]
+{Baker 100NT 62}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:863.T752.52.A874 Q94.J84.AJ6.K953 A72.963.KQ9874.6 KJT5.AKQ.T3.QJT2"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "3NT"]
+[Result ""]
+{When using lebensohl, a 2NT bid over an enemy overcall asks partner to bid 3\C. So partner replies 3\C. What do you say now? 
+
+When using lebensohl, a 2NT bid over an enemy overcall asks partner to bid 3\C. So partner replies 3\C. What do you say now?
+
+Now you complete the sequence by bidding 3NT. This says that not only do you think 3NT would be a good choice, but also that you have their \Ds stopped.
+
+The contract would be 3NT played by East.
+
+To make West the declarer  ROTATE. 
+
+West plays 3NT. North leads the \DK. What will you play from dummy? (South follows with the \D2.
+
+Since North has apparently led from \D K Q it seems you will get a second \D winner when they pursue the suit. You can also establish 3 more winners in \Cs. You can also establish 3 more winners in \Ss.
+
+But as you can figure, you are going to have to establish BOTH black suits to get enough winners, and therein lies the problem. If North has a 5-card \D suit they will be able to establish 3 \D winners by the time you have knocked out both black Aces. In that case you cannot make the contract. Of course, if the \Ds are split 4-4 you will only lose 2 \Ds and the two black Aces. However North would probably not have overcalled a 4-card suit. 
+
+But North might have a 6-card \D suit, leaving South with just 2. Assume the two black Aces are split, one with North and one with South. If you win the first trick with dummy's \DA you will be OK if you first play the black suit where North holds the Ace. He will take it and then establish his \Ds. No problem, because when you knock out South's black Ace he won't have a \D left. BUT, if you guess the wrong black suit first you will go down.
+
+You can protect your interests fully just by letting North hold the first \D, then winning the second as cheaply as you can. At that point South will be out of \Ds so it won't matter which black suit you go for.
+
+If you take dummy's \DA at the first trick you will succeed if you next attack \Ss, but you will fail if you next attack \Cs. 
+
+But if you hold up on the first trick and win the continuation, you will succeed whichever black suit you attack next.
+
+The holdup would of course fail if North held both black Aces, but in this case no Plan would succeed.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 2, chOption: E, chBasis: N, basisKind:Declarer, nOption:1, nBasis: 0, nRot: 1, useStandardVul: true"]
+[Student "S"]
+[Auction "E"]
+1NT 2D 2NT Pass
+3C Pass 3NT Pass
+Pass Pass
+[Play "S"]
+DK
+
+[Event ""]
+{Baker 100NT 63}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:A82.652.84.AJ963 T94.Q83.AT72.K84 J763.JT94.K53.T7 KQ5.AK7.QJ96.Q52"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{Partner's 2NT bid invites you to bid game if you have a maximum hand. With 17 points you bid the game.
+
+You play the \C4 from dummy, East plays the \CT and you take your \CQ.
+
+You are pretty sure West has the \CA so dummy's \CK can become a winner. If so, you only need 3 more winners.
+
+All 3 can come from the \D suit if the finesse works, only 2 if it fails. Assume the worst, so that means you will also need a \S winner. 
+
+When you give up the lead the opponents are going to continue \Cs if they can. If West has a 5-card \C suit you could lose 3 \Cs, the \SA and the \DK. Either defender might win the \SA, but only East can win with the \DK.  
+
+Since West, the Danger hand, can only get in with the \SA you should establish a \S winner first, even though the \Ds are better. Whoever wins the \SA will probably knock out dummy's \CK. Hopefully this will not cause you a problem because when your finesse for the \DK loses to East he won't have another \C. At least that's the Plan!
+
+ to see if the Plan was a good one. 
+
+Play \Ss first and even though West can win and establish \Cs East will not have a \C to return when he wins his \DK.
+
+It goes without saying that if your \SK holds the trick you immediately switch to \Ds.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "S"]
+1NT Pass 2NT Pass
+3NT Pass Pass Pass
+[Play "W"]
+C6
+
+[Event ""]
+{Baker 100NT 64}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "S:93.652.JT42.JT85 AQ5.KJ4.KQ63.K32 87642.T983.98.96 KJT.AQ7.A75.AQ74"]
+[Scoring ""]
+[Declarer "W"]
+[Contract "7NT"]
+[Result ""]
+{Partner has 20 or 21 points, balanced, and you have 18. You've always wanted to do this haven't you?
+
+The contract would be 7NT played by West.
+
+To make East the declarer  ROTATE. 
+
+East plays 7NT. South leads the \HT and North follows with the \H2.
+
+DO NOT HOLD UP.
+
+There are two chances for your thirteenth winner, your fourth \C or dummy's fourth \D.
+
+Some players will assume that means one of those two suits will have to split 3-3, so they will immediately test one, then the other. 
+
+In fact there is another possibility for success - even if neither suit is 3-3 it may be that the same defender holds 4 cards in both suits. In this case that defender can be squeezed. BUT, you don't play the \Cs and \Ds first, you play the other two suits.
+
+Win the first \H, then play two more \Hs and all three \S winners. That will be 6 tricks played, and each defender will be down to 7 cards left in their hand. If one of them happened to start with 4 \Cs and 4 \Ds he will have to discard from one of the holdings and you will be able to win your fourth card in that suit. 
+
+When you play your sixth Major suit winner North is squeezed and must discard from one of his 4-card holdings.
+
+This is an Automatic Squeeze, which just means you don't have to do any preparatory work. All you have to do is play off all your non-threat winners before you play the squeezing suits.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 4, chOption: W, chBasis: N, basisKind:Declarer, nOption:3, nBasis: 0, nRot: 3, useStandardVul: true"]
+[Student "S"]
+[Auction "W"]
+2NT Pass 7NT Pass
+Pass Pass
+[Play "N"]
+HT

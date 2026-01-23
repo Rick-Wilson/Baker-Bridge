@@ -1,0 +1,241 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:03:58 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker SecondHand 16}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:94.A2.T643.QJT75 KQ86.K753.AQ5.84 52.QJT.J982.9632 AJT73.9864.K7.AK"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6S"]
+[Result ""]
+{You are West. The bidding has been as shown.
+
+You lead the \CQ, East plays low and South wins the \CA.
+
+South pulls trumps in 2 rounds. He then takes the \DK, \DQ, \DA, discarding a \H on the last one. Next he plays dummy's last \C to his \CK.
+
+Having done all this, South now plays a low \H from his hand. What do you play?
+
+When you have made your choice  
+
+If you followed what South was doing you will realize that he has eliminated both the \Ds and \Cs from both his hand and dummy. If it isn't clear that he is now out of \Cs, just remember the bidding - he must have had 5 \Ss and 4 \Hs.
+
+Suppose you play low on this \H (as South hopes you will). Dummy's \HK will take the trick, and when another \H is played you will have to win it with your now bare \HA. You will then have to play a \D or a \C, giving South a ruff and sluff.
+
+But if you take your \HA now, then exit with your \H2, South can win the \HK but will still have to lose a \H to East.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "W"]
+[Auction "S"]
+1S Pass 2H Pass
+4H Pass 4S Pass
+6S Pass Pass Pass
+[Play "W"]
+CQ
+
+[Event ""]
+{Baker SecondHand 17}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:KQJ95..9642.9653 T72.J8732.AKQ.AK 843.QT4.873.J874 A6.AK965.JT5.QT2"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6H"]
+[Result ""]
+{You are East. The bidding has been as shown.
+
+West led the \SK, won by South's \SA. South played a small \C to dummy's \CA, then led dummy's \HJ.
+
+What do you play? \HQ or \H4? 
+
+When you have made your choice  
+
+Remember that South opened 1\H, so he has 5 of them. With only 3 trumps out he has no intention of finessing. Perhaps he led the \HJ just to tempt you to cover in this situation.
+
+If you play low he will win with one of his high \Hs and then you will have a sure \H winner. Along with the \S winner West has you will defeat the slam.
+
+If you cover the \HJ with your \HQ South will again win with one of his high ones. But now the position will be clear to South and he will return to dummy and play another \H, finessing your \HT. With no trump loser he will make the slam. }
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "E"]
+[Auction "S"]
+1H Pass 3D Pass
+3NT Pass 6H Pass
+Pass Pass
+[Play "W"]
+SK
+
+[Event ""]
+{Baker SecondHand 18}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:A952.72.864.T853 QJ6.T54.AK3.AQ74 KT74.A3.JT92.KJ9 83.KQJ986.Q75.62"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{You are West. The bidding has been as shown.
+
+You decide a trump lead is called for and lead the \H2. Your partner wins with the \HA and plays the \DJ. South lets this go to dummy's \DK, (but you know he has \DQ), then plays a trump back to his \HK, pulling the 2 outstanding trumps from West and East.
+
+South's next play is the \S3 from his hand. Do you play your \SA or not?
+
+When you have made your choice  
+
+Even if South doesn't have the \SK he can establish a \S winner just by leading twice toward the \S Q J. That winner will take care of whatever black-suit loser he may have.
+
+If East has a \C trick it is important to get it established soon. So go up with the \SA and play a \C through dummy's \C A Q. When South tries the \S suit again EAST can win and cash his \CK for the setting trick.
+
+If you play low on South's \S play East will be forced to win the trick and he cannot profitably attack the \C suit from his side.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "W"]
+[Auction "S"]
+2H Pass 4H Pass
+Pass Pass
+[Play "W"]
+H2
+
+[Event ""]
+{Baker SecondHand 19}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:J942.73.T75.QT65 6.QJ96.Q63.A7432 AT873.T4.KJ84.98 KQ5.AK852.A92.KJ"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6H"]
+[Result ""]
+{You are East. The bidding has been as shown.
+
+Partner led the \H3, you play \HT and South wins the \HA. South pulls the last two trumps by leading low to dummy's \HQ. He now calls for the \S6. Will you play your \SA or not?
+
+When you have made your choice  
+
+When a singleton in dummy is led through your Ace it is more often better to play low than to go up with the Ace. Declarer might not even have the King, or he may have the King Jack combination and guess wrong.
+
+Here it works out best to play low even though South has the \S K Q 5.
+
+Assume you play your \SA. South will play his loser, of course, and later will be able to discard two of dummy's \Ds on the \S K Q. He can then ruff his two \D losers and make the contract.
+
+Now assume you play low. South will play the \SQ which will win the trick and he will no longer have a \S loser. BUT - now he will have no way to dispose of the two \D losers and will go down 1.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "E"]
+[Auction "S"]
+1H Pass 3H Pass
+4NT Pass 5D Pass
+6H Pass Pass Pass
+[Play "W"]
+H3
+
+[Event ""]
+{Baker SecondHand 20}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:84.K5.JT954.9862 KQT3.J874.A3.AK7 72.QT3.Q862.JT54 AJ965.A962.K7.Q3"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6S"]
+[Result ""]
+{You are West. The bidding has been as shown.
+
+You lead the \DJ and dummy's \DA wins the first trick. Declarer pulls trumps with dummy's \SK, then his \SA. He then plays his \DK and follows with \CQ, \CK and \CA, discarding a \H from his hand on the last.
+
+With all that completed South plays the \HA. What do you play?
+
+When you have made your choice  
+
+It may look foolish to waste your \HK but look what will happen if you don't. South will follow up with another \H and when you win the \HK you will be forced to play a minor suit. Since both North and South are out of \Ds and \Cs you will be giving them a ruff-sluff and the contract.
+
+But if you dump your \HK under South's \HA look at what's left. South has \H losers and when he plays a \H from either hand East will scoop up two tricks with his \H Q T.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 5, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "W"]
+[Auction "N"]
+1NT Pass 3S Pass
+6S Pass Pass Pass
+[Play "W"]
+DJ

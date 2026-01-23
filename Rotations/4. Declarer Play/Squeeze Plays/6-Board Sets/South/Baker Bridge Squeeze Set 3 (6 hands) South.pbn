@@ -1,0 +1,338 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:01:43 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Squeeze 13}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "W:8.KQT75.T84.J952 A52.J6.AKJ753.K7 JT964.9832..QT63 KQ73.A4.Q962.A84"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "7NT"]
+[Result ""]
+{South is to play 7NT. West leads the \HK.
+
+Then, your second thought should be that dummy's \HJ is a Threat against West's \HQ, so if it is West who holds 4 \Ss you will be able to squeeze him.
+
+Since the contract is 7NT you take the first trick with the \HA. 
+
+You continue with the \DQ and \D K, East discarding a \H and a \C. 
+
+To find out for sure you play \SA, then \SQ. Sure enough West discards a \H on the second round. 
+
+But now a completely new possibility shows up. Say to yourself, over and over, "West must guard \Hs, and East must guard \Ss. Nobody can guard \Cs."
+
+You start playing dummy's \D winners. 
+
+When you play the \D5 East must keep both \Ss to guard against your \S7. So he discards the \C6, hoping partner can stop that suit.
+
+Your \S7 is now worthless so you throw it.
+
+West has no problem, (yet), he discards the \HT. 
+
+Play dummy's \S5 to your \SK.
+
+West MUST keep his \HQ so he releases his \C5.
+
+And you win the last three tricks with \CK, \CA, \C8.
+
+This is called a Double Squeeze.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "E"]
+Pass 1NT Pass 3D
+Pass 4D Pass 4NT
+Pass 5H Pass 7NT
+Pass Pass Pass
+[Play "W"]
+HK
+
+[Event ""]
+{Baker Squeeze 14}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:QJT83.JT72.63.T6 952.6.AJ974.Q843 6.Q9843.852.J975 AK74.AK5.KQT.AK2"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "7NT"]
+[Result ""]
+{South is to play 7NT. West leads the \SQ.
+
+So take the \SK and play \C A K Q.
+
+West discards a \S on the third \C. 
+
+Before tackling \Ds, see what you can discover about \Ss.
+
+Play the \SA. East discards a \H. 
+
+West guards the \Ss. Nobody can guard the \Hs.
+
+Play 4 rounds of \Ds. 
+
+You discarded a small \S. West discarded a \S on the third \D and a \H on the fourth.
+
+Play dummy's \D4. East cannot throw the \CJ or he will set up dummy's \C8, so he discards a \H.
+
+You discard the \S7.
+
+Now West is squeezed. He cannot discard the \SJ or he will set up dummy's \S9, so he discards a \H.
+
+You win the last three \H tricks with another Double Squeeze.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+2C Pass 3D Pass
+4NT Pass 5D Pass
+7NT Pass Pass Pass
+[Play "W"]
+SQ
+
+[Event ""]
+{Baker Squeeze 15}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:AKJ94.64.T72.QT2 T873.QT.KQ6.A975 Q62.752.J9843.J4 5.AKJ983.A5.K863"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6H"]
+[Result ""]
+{South is to play 6\H. West leads the \SA, then \SK.
+
+Even looking at all four hands here it is still very difficult to come up with a plan.
+
+Here's a hint: If West holds 3 \Cs, (and you see that he does), can you squeeze him in \Cs and \Ss? 
+
+The big problem with trying to squeeze West in the black suits right now is that East actually holds a \S guard. But you can fix that.
+
+Play dummy's \HQ and \HT, then ruff a \S, then pull the last trump.  
+
+Then lead dummy's \C7 to your \CK. 
+
+Only West can guard dummy's \ST, and only West can guard dummy's\C9.
+
+So you play your \HA and West must give up one of his guards. If he holds on to the \SJ then you toss dummy's useless \ST. If he throws the \SJ then you toss dummy's \C9.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1H 1S 2C Pass
+3H Pass 4H Pass
+4NT Pass 5D Pass
+6H Pass Pass Pass
+[Play "W"]
+SA
+
+[Event ""]
+{Baker Squeeze 16}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:AK932.T42.J9.J64 QT.KQ53.A863.852 865.J986.QT4.QT9 J74.A7.K752.AK73"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{South is to play 3NT. West leads the \S3. East plays the \S5.
+
+You have 8 winners, and if East holds 4+ \Hs AND 3+ \Ds then only he can guard the two suits.
+
+But how can you squeeze him? 
+
+But maybe you can make his partner do the job for you.
+
+At trick 2 you play a \S. 
+
+And he will no doubt continue with the \SA and \S9.
+
+You discard 2 \Ds from dummy and a \C from your hand.
+
+East cannot spare either a \H or a \D so he also throws a \C. 
+
+West will almost surely cash his \S2.
+
+You and dummy both discard a \C and East also must discard a \C.
+
+It doesn't matter what West plays next, lets say it is a \C. 
+
+East is truly squeezed. If he discards a \H, dummy's \H5 will become a winner. but if he discards a \D then you will get a third \D trick and the contract.
+
+Since it was West who started the squeeze by cashing his last \S, this is called a Suicide Squeeze. BUT, what if West had not cashed that \S? 
+
+Suppose West is a really expert defender and avoids the Suicide Squeeze by just refusing to cash his winning \S. It doesn't matter what else he plays instead, so let us assume it is a \C.
+
+You win in your hand and establish a \D winner by playing \DA, \DK, and a small \D. East wins but cannot reach his partner's hand for that good \S.
+
+So you establish a \D winner and make your contract.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT Pass 2C Pass
+2D Pass 3NT Pass
+Pass Pass
+[Play "W"]
+S3
+
+[Event ""]
+{Baker Squeeze 17}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:KQ963.Q985.9.T62 J8.K74.AJ8762.53 T7542.JT2.QT43.4 A.A63.K5.AKQJ987"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "7C"]
+[Result ""]
+{South is to play 7\C. West leads the \SK.
+
+So you take the \SA, pull three rounds of trumps and play \DK.
+
+But when you lead to the \DA West discards a small \S. 
+
+Think squeeze instead. Ruff a \D. This turns the \DJ into a Threat card against East's \DQ.
+
+But, the \SJ is already a Threat card against West's \SQ. 
+
+West can afford to discard the \S9 and the \H5.
+
+East can spare his two \Ss. 
+
+West cannot throw the \SQ, so he gives up the \H8. Dummy's \SJ is of no further value so you dump it.
+
+East cannot throw the \DQ, so he gives up the \H2.
+
+And you take the last three tricks with the \H suit. There were only two defenders; one of them had to guard \Ss and the other had to guard \Ds. There was nobody left to guard \Hs.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 5, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+2C Pass 3D Pass
+4NT Pass 5D Pass
+5NT Pass 6D Pass
+7C Pass Pass Pass
+[Play "W"]
+SK
+
+[Event ""]
+{Baker Squeeze 18}
+[Site ""]
+[Date ""]
+[Board "6"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:AKJ86532.862.T.7 Q4.J973.K75.8652 T97.4.QJ942.JT93 .AKQT5.A863.AKQ4"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6H"]
+[Result ""]
+{South is to play 6\H. West leads the \SA.
+
+So you ruff the \S, pull trumps in three rounds, then play \C A K and get the bad news when West discards a \S. 
+
+And since West had 3 \Hs and a very long \S suit it is pretty likely that East guards the \Ds also. You will try to squeeze East in \Cs and \Ds, but first you must lose a trick to rectify the count.
+
+So you play a low \D from each hand. 
+
+He will then play the \SK, which you must ruff in your hand. 
+
+Play dummy's \HJ.
+
+East gets to choose his own fate - discarding a protector in one of the two suits. Of course, whichever suit he discards you will throw the opposite one.
+
+Yet another slam, courtesy of the Squeeze Play!}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 6, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+2C 4S Pass Pass
+5H Pass 6H Pass
+Pass Pass
+[Play "W"]
+SA

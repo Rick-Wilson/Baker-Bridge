@@ -1,0 +1,210 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:59:27 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Eliminations 9}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:A863.7.QJT6.JT72 Q94.AJ63.A72.K64 J75.T54.K93.Q985 KT2.KQ982.854.A3"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4H"]
+[Result ""]
+{North is to play 4\H. East leads the \DQ.  
+
+There is no reason to hold up so take your \DA and pull trumps, West showing up with three of them.
+
+Now eliminate \Cs by playing \CA, \CK, and ruffing a \C.
+
+The stage is now set for the throw-in. Be SURE to lead a \D for the throw-in, not a \S.
+
+The defense will win the \D and can then take another \D trick if they like. But then they will have to play a \S (or give you a ruff-sluff). And as long as they start the \Ss you are assured that you will lose only one \S trick, the \SA.
+
+If he leads the \SA it sets up both the \SK and \SQ so you only have one \S loser. If he leads low you also play low from dummy and West must play the \SJ to prevent you getting a trick with the \ST. Again you only lose one \S.
+
+If West makes the first play by leading a low \S you play low from your hand. East must go up with the \SA to stop you from getting a trick with dummy's \S9. Then your \SK and \SQ will win two tricks.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "S"]
+1C Pass 1H Pass
+2H Pass 4H Pass
+Pass Pass
+[Play "E"]
+DQ
+
+[Event ""]
+{Baker Eliminations 10}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "S:T85.KQJT84..KQ42 K72.53.KQJ65.T75 Q9643.9762.92.86 AJ.A.AT8743.AJ93"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "6D"]
+[Result ""]
+{West's 2\H bid showed a hand with limit raise or better in \Ds. East doesn't bother with Blackwood since he already knows about the Aces. He just bids the slam. East plays 6\D. South leads the \HK, won by you with the \HA.
+
+The bad news is that you have two losers in \Cs. The good news is that missing the \C K Q you could try two finesses. The bad news is that South overcalled, so he probably has both honors. The best news of all is that you know how to pull off an elimination play!. Play a trump to dummy's \DK (South discards a \H) and ruff the \H5.
+
+Pull the outstanding trump with the \DA, then play \SA, \SK and ruff a \S.
+
+You want to play the first \C from dummy, so enter dummy with a trump.
+
+Play the \CT from dummy and let it ride if North does not produce the \CQ or \CK. South will win with one of the honors but will have to return another \C or give you a ruff-sluff.
+
+In this case though, South's overcall means all things are not equal, so your chances are lower than 75%.
+
+But never mind the percentages for a finesse, the end-play was a sure thing.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+Pass 1D 1H 2H
+X 6D Pass Pass
+Pass
+[Play "S"]
+HK
+
+[Event ""]
+{Baker Eliminations 11}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:QJT87.654.QJ3.K4 932.AJ7.A4.QJ873 A65.Q982.T8762.5 K4.KT3.K95.AT962"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "5C"]
+[Result ""]
+{North's cue-bid shows a limit raise or better (11 points) in \Cs. South is to play 5\C. West leads the \SQ, East takes the \SA and returns the \S6 to your \SK.  
+
+After winning the \SK immediately play the \CA.
+
+It would have been nice to see the \CK fall, but it didn't. So play a small \D to dummy's \DA and play the \S9, ruffing in your hand.
+
+Eliminate the \Ds by playing \DK, then ruffing your last \D in dummy.
+
+You have done all the eliminating, time to throw in somebody. Play a \C.
+
+Whichever defender had the \CK is now on lead, but wishes he wasn't. If he plays a \H  you get a free finesse. If he plays anything else you get a ruff-sluff.
+
+You would then have been forced to rely on the \H finesse, and with West being the defender who showed some strength, you would likely have finessed through him.
+
+About the only way the elimination/throw-in could fail is if the \Cs split 3-0. Then, if you play Ace and another the defender who wins would use his third \C as a safe exit.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "S"]
+1C 1S 2S Pass
+3C Pass 5C Pass
+Pass Pass
+[Play "W"]
+SQ
+
+[Event ""]
+{Baker Eliminations 12}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:KQT3.2.T872.KJ54 A862.AT96.AK.763 J974.8.J9643.982 5.KQJ7543.Q5.AQT"]
+[Scoring ""]
+[Declarer "W"]
+[Contract "6H"]
+[Result ""]
+{Your 3\H bid is a slam suggestion. After you show the \CA partner wastes no time in bidding it.
+
+West is to play 6\H. North leads the \SK.
+
+Win the \SA and ruff a \S with a \H honor.
+
+Play a small \H to dummy's \H9 and ruff another \S. Both defenders followed to the trump play.
+
+Play another \H to dummy's \HT and ruff the last \S.
+
+Play the \DA and \DK.
+
+Conveniently in dummy, you play a \C and insert the \CT if South plays low.
+
+North will probably win this trick. If he wins with the \CK then your hand is good. If he wins with the \CJ then he is end-played, forced to either lead a \C into your \C A Q or to give you a ruff-sluff.
+
+If South just happens to hold both the \CK and \CJ you will make all thirteen tricks if your first finesse is with the \CT!}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+Pass 1NT Pass 3H
+Pass 4H Pass 5C
+Pass 6H Pass Pass
+Pass
+[Play "N"]
+SK

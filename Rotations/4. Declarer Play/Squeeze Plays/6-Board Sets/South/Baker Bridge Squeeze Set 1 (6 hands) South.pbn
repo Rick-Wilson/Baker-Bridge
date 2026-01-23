@@ -1,0 +1,295 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:01:38 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Squeeze 1}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:76.76.8765.QJ987 AQ32.543.432.432 JT98.JT98.T9.T65 K54.AKQ2.AKQJ.AK"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "7NT"]
+[Result ""]
+{Never mind the bidding. South is to play 7NT. West leads the \CQ.
+
+But there is another possibility; if the same defender holds 4 \Hs and 4 \Ss you will be able to squeeze him in those two suits.
+
+You win the \CK and play \H A K Q to test the \H suit, but West discards a \C on the \HQ. (You tested \Hs first because of dummy's limited entries to the \S suit.) 
+
+Next play your 4 \D winners, discarding a \C from dummy. East follows twice, then starts to feel the pressure. He cannot discard the \HJ because it is guarding your \H2, and since he can see those 4 \Ss in dummy he doesn't want to discard a \S. He discards both his \Cs, trusting West to guard that suit. 
+
+Of course if East had discarded his \HJ you would have cashed your \H2 and then taken three \S winners.
+
+You just executed a Squeeze Play and you didn't even have to try. 
+
+This time it is West who holds the only Guards in both \Ss and \Hs.
+
+You play the \CA and he must give up one of those Guards.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+2C Pass 2D Pass
+3D Pass 3S Pass
+4NT Pass 5D Pass
+7NT Pass Pass Pass
+[Play "W"]
+CQ
+
+[Event ""]
+{Baker Squeeze 2}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:862.AKT2.JT93.T3 975.Q863.Q742.64 QJT3.J9754.86.52 AK4..AK5.AKQJ987"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "7C"]
+[Result ""]
+{South is to play 7\C. West leads the \HK.
+
+You have 11 sure winners in your hand and dummy's \DQ makes 12. Your main hope is for a 3-3 \D split in which case dummy's fourth \D will be a winner.
+
+But there is another possibility in case the \Ds don't split. Dummy's \HQ is a THREAT card which is GUARDED only by West's \HA. If it is West who has the 4 \Ds you will be able to squeeze him.
+
+You ruff the \HK and play 5 more \C winners, being careful not to discard a \D or the \HQ from dummy.  
+
+Play the \S A K and West begins to feel the heat. 
+
+But now you play the SQUEEZE card, the \CA. West absolutely cannot throw away his \HA, so he discards a \D instead.
+
+Since he still has the \HA you know dummy's \HQ is useless so you discard it. Dummy's fourth \D has become a winner. 
+
+East holds the only Guards in both red suits, but he cannot be squeezed.
+
+You must play from dummy BEFORE East plays, so he just matches whatever you do.
+
+If you discard the \HQ East will throw his \HA. If you discard dummy's fourth \D, East will throw his fourth \D.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+2C Pass 2D Pass
+3C Pass 3H Pass
+4NT Pass 5C Pass
+7C Pass Pass Pass
+[Play "W"]
+HK
+
+[Event ""]
+{Baker Squeeze 3}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:95.T752.T3.KQJ42 AK73.Q93.A65.A86 JT62.84.J984.973 Q84.AKJ6.KQ72.T5"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6NT"]
+[Result ""]
+{South is to play 6NT. West leads the \CK.
+
+As you see, neither of them splits. However since one defender, East in this case, holds both Guards you should be able to squeeze him. 
+
+Visualize what would happen, though, if you win the first trick and then play your 4 \H winners. East would play his 3 \Cs and 2 \Hs on those 5 tricks and he would not be squeezed. The problem is that you have to RECTIFY THE COUNT. 
+
+East has no problems on the first 3, he just plays his 2 \Hs and 1 \C. 
+
+You will toss dummy's \C8 and East will have to decide whether it is better for him to throw a \S or a \D. He doesn't know that discarding either one is going to hand you the contract, so he will probably discard a \D.  }
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT Pass 6NT Pass
+Pass Pass
+[Play "W"]
+CK
+
+[Event ""]
+{Baker Squeeze 4}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:KQT.QJ9852.T3.95 742.AK3.AQ74.KJ3 9865.T.9852.8642 AJ3.764.KJ6.AQT7"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6NT"]
+[Result ""]
+{South is to play 6NT. West leads the \SK.
+
+The first thing you should do is to duck the \SK. If West foolishly plays another \S your troubles are over. But he doesn't, he plays the \HQ instead which you win with dummy's \HK.  
+
+Next play off your 4 \D winners, discarding a small \H from your hand. 
+
+Play the \CK, \CJ, then over to your \CQ. 
+
+When you now play your \CA, discarding a \S from dummy, West is squeezed.
+
+If he discards the \ST, then his \SQ will fall underneath your \SA, establishing your \SJ.
+
+But if he instead throws the \H9, both of dummy's \Hs will become winners.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT 2H 6NT Pass
+Pass Pass
+[Play "W"]
+SK
+
+[Event ""]
+{Baker Squeeze 5}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:T8.KQJ963.T4.763 AKQ6.742.KQJ7.K5 J943.5.8652.JT94 752.AT8.A93.AQ82"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6NT"]
+[Result ""]
+{South is to play 6NT. West leads the \HK.
+
+For a squeeze to operate you will need to lose one trick and the time to do that is right now. Let West hold the \HK and win his \H continuation with your \HA. 
+
+You might as well find out about the \Ss right now. Play the \S A K Q. 
+
+Too bad, West discards a \H on the third round of \Ss.  
+
+Play the \DA, then \D K Q. 
+
+East will follow to all three \Ds.  
+
+Play dummy's \DJ and discard your \HT.
+
+If East discards the \SJ you will cash dummy's \S6, then win the last 3 \C tricks. 
+
+So East will no doubt throw a \C instead. In which case you win the last 4 \C tricks.
+
+Squeezes are so very satisfying.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 5, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1C 2H X Pass
+2NT Pass 6NT ALL
+Pass
+[Play "W"]
+HK
+
+[Event ""]
+{Baker Squeeze 6}
+[Site ""]
+[Date ""]
+[Board "6"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:KT73.KQT6.32.T95 Q52.A82.Q864.KQ2 J9864.953.T.J863 A.J74.AKJ975.A74"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6D"]
+[Result ""]
+{South is to play 6\D. West leads the \HK.
+
+At first things look hopeless, but remember this is a lesson on squeeze plays. From the opening lead you know that West must hold the \HQ. If he also holds the \SK you will be able to squeeze him in \Hs and \Ss.
+
+You let the \HK win, (hoping he will play another \H), but he plays a small trump instead which you win in your hand. 
+
+Then take your 3 \C winners, ending in your hand. 
+
+Discard the \S5 from dummy on the third \D.  
+
+But when you play the \D7 he is squeezed.
+
+He cannot dump his \SK because you would throw the \H8 and dummy would be high.
+
+So he will discard the \HT instead. At this point you know that the \SQ is worthless so you discard it. You win the final two tricks with the \HA and \HJ.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 6, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1D Pass 2NT Pass
+4D Pass 5D Pass
+6D Pass Pass Pass
+[Play "W"]
+HK

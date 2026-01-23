@@ -1,0 +1,166 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:48:18 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Notrump 5}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:2.J65432.J73.K42 AK3.AK7.T82.QT75 98764.T.Q965.863 QJT5.Q98.AK4.AJ9"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "6NT"]
+[Result ""]
+{You dealt so it is your bid. What do you say? 
+
+You open 1NT and partner jumps to 4NT.  
+
+This is the sequel to Deal 4. This time you have 17 points so you accept partner's invitation to slam and bid 6NT.
+
+You have 11 top tricks and can easily set up one more in \Cs.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+1NT Pass 4NT Pass
+6NT Pass Pass Pass
+
+[Event ""]
+{Baker Notrump 6}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "S:2.J65432.J73.K42 AK3.AK7.T82.QT75 98764.T.K965.863 QJT5.Q98.AQ4.AJ9"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "6NT"]
+[Result ""]
+{You dealt so it is your bid. What do you say? 
+
+You open 1NT and partner jumps to 4NT.  
+
+This is the threequel to 4 and 5. With a "good 16" points you accept the invitation and bid 6NT.
+
+As you might expect, this time the slam is not so certain, but there is a good chance. If either Minor suit finesse works you can make 12 tricks.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+[Student "S"]
+[Auction "E"]
+1NT Pass 4NT Pass
+6NT Pass Pass Pass
+
+[Event ""]
+{Baker Notrump 7}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "E:54.AK842.T82.A83 73.JT9763.K3.542 AJT982..Q965.QJ7 KQ6.Q5.AJ74.KT96"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "2H"]
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+Surprise - you open 1NT. Partner responds 2\H. What do you bid next? (no transfers in this lesson) 
+
+Pass. Partner has long \Hs (probably 6) and short points (fewer than 9). He has decided that 2\H will be a better spot than 1NT. Trust him.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "W"]
+Pass 1NT Pass 2H
+Pass Pass Pass
+
+[Event ""]
+{Baker Notrump 8}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:T9742.82.KT6.QJ2 J8.QJT73.J53.A73 A53.A964.982.854 KQ6.K5.AQ74.KT96"]
+[Scoring ""]
+[Declarer "W"]
+[Contract "3NT"]
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+You open 1NT and partner replies 3\H. What do you say next? 
+
+With this bidding method, partner's bid shows at least 10 points and exactly 5 \Hs. He expects you to choose between 3NT and 4\H. Since you have just a doubleton in \Hs you choose 3NT.
+
+NOTE: Jacoby Transfers are very useful for this type of hand.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+Pass Pass Pass 1NT
+Pass 3H Pass 3NT
+Pass Pass Pass

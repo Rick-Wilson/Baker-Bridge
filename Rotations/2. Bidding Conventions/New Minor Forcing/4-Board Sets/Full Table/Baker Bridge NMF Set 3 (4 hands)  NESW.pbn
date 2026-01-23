@@ -1,0 +1,177 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:52:33 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker NMF 9}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:7.Q973.J973.A743 QT5.JT.AK642.Q86 AJ8632.86.QT.T52 K94.AK542.85.KJ9"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "3NT"]
+[Result ""]
+{With 15 points you are going to insist on game. First you respond 1\H. Partner rebids 1NT. What do you say next? 
+
+Partner has 12-14 points, balanced. You are happy with notrump, but would prefer to play in \Hs if partner has three cards in the suit. To find out if he does, use New Minor Forcing.
+
+So you say 2\C and partner replies 2NT. It is your bid again. 
+
+Partner doesn't have 3 \Hs. That's what you wanted to know, you bid 3NT.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+1D Pass 1H Pass
+1NT Pass 2C Pass
+2NT Pass 3NT Pass
+Pass Pass
+
+[Event ""]
+{Baker NMF 10}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "S:5.874.T732.AKJ73 KQJ62.KQ63.86.54 AT743.95.J95.Q82 98.AJT2.AKQ4.T96"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "4H"]
+[Result ""]
+{You are the dealer.  
+
+You have 14 points and you open 1\D. Partner responds 1\S.  
+
+You cannot bid 2\H because a Reverse shows at least 16 points. So you bid 1NT. Partner says 2\C.  
+
+This is NMF, asking you to further describe your hand. You do not have 3 \Ss. You do have a 4-card \H suit. You have a maximum hand for your previous bidding, so you jump to 3\H. Partner raises to 4\H.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+[Student "S"]
+[Auction "E"]
+1D Pass 1S Pass
+1NT Pass 2C Pass
+3H Pass 4H ALL
+Pass
+
+[Event ""]
+{Baker NMF 11}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:9843.JT.A432.Q52 72.KQ75.J96.AK94 A6.98642.Q85.J76 KQJT5.A3.KT7.T83"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{You have 14 points and you respond 1\S. Partner rebids 1NT. What is your next bid? 
+
+Partner has 12-14 points, balanced. You will insist on reaching game, but don't know whether 3NT or 4\S is going to be the best spot. It depends on whether partner has 3 \Ss. So of course you use NMF.
+
+You bid 2\D and partner then says 2\H. Where do you go from here? 
+
+OK, partner has a 4-card \H suit - may or may not have 3 \Ss. Since you don't have 4 \Hs you bid 3NT, leaving it up to partner to correct to 4\S if he has 3 of them.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "S"]
+1C Pass 1S Pass
+1NT Pass 2D Pass
+2H Pass 3NT Pass
+Pass Pass
+
+[Event ""]
+{Baker NMF 12}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "S:4.863.A8642.A854 KQ962.Q74.Q93.93 J853.K952.T7.J72 AT7.AJT.KJ5.KQT6"]
+[Scoring ""]
+[Declarer "W"]
+[Contract "4S"]
+[Result ""]
+{You are the dealer.  
+
+You are too strong for 1NT so you open 1\C. Partner responds 1\S.  
+
+You don't support \Ss with only 3 cards since partner might well have just a 4-card suit. With 18 points, balanced, all suits stopped, you jump to 2NT.
+
+Partner says 3\D. What do you bid? 
+
+This is New Minor Forcing. Partner wants to know if you have 3 \Ss. Since you do have 3 you bid 3\S and partner raises to 4\S.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 4, chOption: W, chBasis: N, basisKind:Declarer, nOption:3, nBasis: 0, nRot: 3, useStandardVul: true"]
+[Student "S"]
+[Auction "E"]
+1C Pass 1S Pass
+2NT Pass 3D Pass
+3S Pass 4S ALL
+Pass

@@ -1,0 +1,210 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:58:15 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Overcalls 1}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "S:J83.K8654.643.T9 Q764.J72.92.A843 KT52.T.AQJT.KQ72 A9.AQ93.K875.J65"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "1D"]
+[Result ""]
+{The bidding has been as shown. It is your turn. Decide what you would say, then  on "" above. 
+
+You have 14 points but so what. You have no 5-card suit to Overcall. You cannot make a Takeout Double with 4 of their suit. So you pass. It is important to realize that there are hands you would open but cannot overcall with.}
+[BCFlags "1f"]
+[OriginalRotationBasis "E"]
+[RotationNote "Board 1, chOption: N, chBasis: E, basisKind:Student, nOption:0, nBasis: 1, nRot: 3, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1D Pass Pass Pass
+
+[Event ""]
+{Baker Overcalls 2}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:Q84.62.AT8.KQJ74 T92.AQJ75.QJ7.86 KJ6.84.532.AT932 A753.KT93.K964.5"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3H"]
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+With four trumps and 12 points you have a text-book raise to 3\H. Partner had a minimum overcall though, so he passed.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "E"]
+1C 1H Pass 3H
+Pass Pass Pass
+
+[Event ""]
+{Baker Overcalls 3}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "E:Q652.42.KJT4.A72 A743.K83.63.9843 KJ8.T96.Q92.KQJT T9.AQJ75.A875.65"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "2H"]
+[Result ""]
+{The bidding has been as shown. It is your bid. 
+
+With 12 points and a good suit you have a very solid overcall so you bid 1\H. Partner responds 2\H. What do you say? 
+
+Partner is showing 6-10 points and three trumps. Your hand revalues to 14 at most so you pass.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "W"]
+1C 1H Pass 2H
+Pass Pass Pass
+
+[Event ""]
+{Baker Overcalls 4}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:43.AT5.A875.AJT2 KQJ97.8.Q62.Q943 AT852.Q762.JT3.K 6.KJ943.K94.8765"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "1S"]
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+You really don't like partner's \Ss, and you do have 8 points. But 8 points is not enough to be considering game, and you would have to bid your \Hs at the 2-level. All things considered it is better to pass while you still aren't doubled.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "E"]
+1D 1S Pass Pass
+Pass
+
+[Event ""]
+{Baker Overcalls 5}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "E:63.T.K86.AJ98742 J752.A863.AT2.T3 AKQ84.94.9543.KQ T9.KQJ752.QJ7.65"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "3H"]
+[Result ""]
+{The bidding has been as shown. It is your bid. 
+
+You overcall 2\H and hear partner raise you to 3\H. What do you say now? 
+
+No matter how many times you check this hand you cannot revalue it any more than 13 points. Since partner has T at the most you reluctantly pass.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "W"]
+1S 2H Pass 3H
+Pass Pass Pass
+
+[Event ""]
+{Baker Overcalls 6}
+[Site ""]
+[Date ""]
+[Board "6"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:T4.Q754.AK42.AT6 AK975.KT3.953.K7 Q62.86.QJ86.QJ54 J83.AJ92.T7.9832"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "2S"]
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+With only 7 points you might not think you have enough to make a "free bid". But in competitive bidding situations like these, where both sides have a fit, bidding is usually better than passing. So you bid 2\S.
+
+You might look at the Law of Total Tricks lesson for more on this subject.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 6, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "E"]
+1D 1S 2D 2S
+Pass Pass Pass

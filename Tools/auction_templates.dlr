@@ -1,0 +1,128 @@
+# auction_templates.dlr
+# Auction templates definitions for dealer.exe
+
+# Template for a 1NT opening hand by West:
+auction_1nt      = hcp(west)>=15 && hcp(west)<=17 and shape(west,any 5332 + any 4432 + any 4333)
+auction_1nt_east = hcp(east)>=15 && hcp(east)<=17 and shape(east,any 5332 + any 4432 + any 4333)
+
+# Template for a 1H opening hand by West:
+auction_1h      = hcp(west)>=11 && hcp(west)<=19 and hearts(west)>=5 and hearts(west) <= 7 and hearts(west) > spades(west) and hearts(west) >= diamonds(west) and hearts(west) >= clubs(west) and not auction_1nt
+auction_1h_east = hcp(east)>=11 && hcp(east)<=19 and hearts(east)>=5 and hearts(east) <= 7 and hearts(east) > spades(east) and hearts(east) >= diamonds(east) and hearts(east) >= clubs(east) and not auction_1nt_east
+
+# Template for a 1S opening hand by West:
+auction_1s = hcp(west)>=11 && hcp(west)<=19 and spades(west)>=5 and spades(west) <= 7 and hearts(west)<=5 and diamonds(west)<=5 and clubs(west)<=5 and not auction_1nt
+
+# Template for a 1C opening hand by West:
+# West must have 12-19 HCP, not be eligible for a 1NT opening,
+# have fewer than 5 spades and fewer than 5 hearts,
+# and have more clubs than diamonds.
+auction_1c      = hcp(west)>=11 && hcp(west)<=19 and not auction_1nt and spades(west)<5 and hearts(west)<5 and clubs(west)>diamonds(west) and clubs(west) <= 6
+auction_1c_east = hcp(east)>=11 && hcp(east)<=19 and not auction_1nt_east and spades(east)<5 and hearts(east)<5 and clubs(east)>diamonds(east) and clubs(east) <= 6
+
+auction_1d      = hcp(west)>=11 && hcp(west)<=19 and not auction_1nt and spades(west)<5 and hearts(west)<5 and clubs(west)<=diamonds(west) and diamonds(west) <= 6
+auction_1d_east = hcp(east)>=11 && hcp(east)<=19 and not auction_1nt_east and spades(east)<5 and hearts(east)<5 and clubs(east)<=diamonds(east) and diamonds(east) <= 6
+
+# Template for a 1C-1D overcall hand by West:
+# West must have 8-17 HCP, at least 5 diamonds,
+# at most 3 hearts, at most 3 spades, and at most 4 clubs,
+# and must not qualify for a 1NT opening.
+auction_1c_1d = hcp(west)>=8 && hcp(west)<=17 and diamonds(west)>=5 and hearts(west)<=3 and spades(west)<=3 and clubs(west)<=4 and not auction_1nt
+
+# Template for a 1C-1H overcall hand by West:
+# West must have 8-17 HCP, at least 5 hearts,
+# at most 4 diamonds, at most 3 spades, and at most 4 clubs,
+# and must not qualify for a 1NT opening.
+auction_1c_1h = hcp(west)>=8 && hcp(west)<=17 and hearts(west)>=5 and diamonds(west)<=4 and spades(west)<=3 and clubs(west)<=4 and not auction_1nt
+
+# Template for a 1C-1H overcall hand by West:
+# West must have 8-17 HCP, at least 5 hearts,
+# at most 4 diamonds, at most 3 spades, and at most 4 clubs,
+# and must not qualify for a 1NT opening.
+auction_1c_1s = hcp(west)>=8 && hcp(west)<=17 and spades(west)>=5 and diamonds(west)<=4 and hearts(west)<=4 and clubs(west)<=4 and not auction_1nt
+
+auction_1d_1h = auction_1c_1h
+
+auction_1d_1s = auction_1c_1s
+
+auction_2h = hcp(west) >= 6 && hcp(west) <= 9 && hearts(west) == 6 && spades(west) < 5
+auction_2s = hcp(west) >= 6 && hcp(west) <= 9 && spades(west) == 6 && hearts(west) < 5
+
+auction_1c_2s = auction_2s
+
+auction_1d_2c = hcp(west)>=11 && hcp(west)<=19 and not auction_1nt and spades(west)<5 and hearts(west)<5 and clubs(west)>diamonds(west) and clubs(west) >= 6
+
+auction_1h_1s = auction_1c_1s
+
+auction_1h_2c = auction_1d_2c
+
+auction_1h_2d = hcp(west)>=11 && hcp(west)<=19 and not auction_1nt and spades(west)<5 and hearts(west)<5 and clubs(west) <= 4 and diamonds(west) >= 6
+
+auction_1h_2s = auction_2s
+
+auction_1h_x = hcp(west) >= 9 && shape(west, any 4441 + any 5440 ) && hearts(west) <= 1
+
+auction_1s_2c = auction_1h_2c
+
+auction_1s_2d = auction_1h_2d
+
+auction_1s_2h = hcp(west)>=10 && hcp(west)<=19 and not auction_1nt and spades(west)<5 and hearts(west)==6 and clubs(west) <= 4 and diamonds(west) <= 4
+
+auction_1nt_2c = hcp(west) >= 10 and clubs(west) == 6 and hearts(west) <= 4 and spades(west) <= 4 and diamonds(west) <= 4
+
+auction_1nt_2d = hcp(west) >= 10 and diamonds(west) == 6 and hearts(west) <= 4 and spades(west) <= 4 and clubs(west) <= 4
+
+auction_1nt_2h = hcp(west) >= 10 and hearts(west) == 6 and diamonds(west) <= 4 and spades(west) <= 4 and clubs(west) <= 4
+
+auction_1nt_2s = hcp(west) >= 10 and spades(west) == 6 and hearts(west) <= 4 and diamonds(west) <= 4 and clubs(west) <= 4
+
+auction_3h_x = auction_1h_x
+
+auction_3h_x_pass_3S = spades(west) == 3 and hcp(east) >= 9 && shape(east, any 4441 + any 5440 ) && hearts(east) <= 1
+
+auction_3d_3s = auction_1d_1s and spades(west) == 6 and hcp(west) >= 13
+
+auction_3d_x = hcp(west) >= 12 && shape(west, any 4441 + any 5440 ) && diamonds(west) <= 1
+
+auction_1d_1h_x_2h = hcp(east)>=8 && hcp(east)<=17 and hearts(east)>=5 and diamonds(east)<=4 and spades(east)<=3 and clubs(east)<=4 and not auction_1nt_east and hearts(west) == 3 and hcp(west) >= 4
+
+auction_1nt_pass_2c_2s = auction_1nt_2s
+auction_1nt_pass_2d_2s = auction_1nt_2s
+
+auction_1d_x_1s = auction_1d_east && hcp(west) >= 8 && spades(west) >= 5
+
+auction_1c_1h_1s = auction_1c_east and spades(west) >= 5 and hcp(west) >= 7
+
+auction_1c_2c_3c = auction_1c_east and clubs(west) >= 5 and hcp(west) >= 5
+
+auction_1d_2d_3d = auction_1d_east and diamonds(west) >= 5 and hcp(west) >= 5
+
+auction_1d_1s_2d = auction_1d_east and diamonds(west) == 4 and hcp(west) >= 6 and hcp(west) <= 9
+
+auction_1h_1s_3h = auction_1h_east and hearts(west) == 4 and hcp(west) >= 3 and hcp(west) <= 9
+
+auction_3d_x_4d_4h = auction_3d_x and hearts(west) == 4 and hcp(west) >= 9
+
+auction_1d_x_pass_2d_3d = auction_1d and hcp(east) <= 3 and diamonds(west) >= 6 and hcp(west) >= 12
+
+auction_1c_pass_1s = auction_1d_east and spades(west) >= 5 and hcp(west) >= 8
+
+auction_1h_x_pass_2c_2h = auction_1h and hcp(east) <= 3 and hearts(west) >= 6 and hcp(west) >= 12
+
+auction_1d_x_1s_pass_2d = auction_1d and spades(east) >= 4 and hcp(east) >= 6 and diamonds(west) >= 6
+
+auction_1d_x_xx = auction_1d_east and hcp(west) >= 10
+
+auction_1d_x_xx_1h_pass_pass_2d = auction_1d_x_xx and diamonds(east) >= 4
+
+auction_1h_2s_3h = auction_1h_east and hearts(west) == 4 and hcp(west) >= 3
+
+auction_1h_2s_3h_4s_x = auction_1h and hearts(east) == 4 and hcp(east) >= 3 and hcp(west) >= 14
+
+# Define delta_points: the absolute difference in HCP between West and East.
+delta_points = hcp(west) > hcp(east) ? hcp(west) - hcp(east) : hcp(east) - hcp(west)
+
+# Define balanced_west: West's hand shape is one of the balanced types (5332, 4432, or 4333).
+balanced_west = shape(west, any 5332 + any 4432 + any 4333 + 1xxx)
+
+# Template for auction_calm: West's hand is balanced and the difference in HCP between West and East is at most 2.
+auction_calm = balanced_west and delta_points <= 4

@@ -1,0 +1,210 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:14:19 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Bidpractice/Set4 9}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:52.Q652.KJT4.J42 AJT.K9.A872.AT96 K63.74.953.KQ873 Q9874.AJT83.Q6.5"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4S"]
+[Result ""]
+{SOUTH has five cards in each Major and NORTH opens 1NT.
+
+First SOUTH bids 2
+
+â™¥
+
+, indicating a 5-card â™  suit with the Transfer bid.
+
+Then, after NORTH bids the obligatory 2â™ , SOUTH jumps to 4
+
+â™¥
+
+, promising
+
+enough strength for game, and also five
+
+â™¥
+
+s to go with the five â™ s.
+
+NORTH prefers â™ s, so she corrects the contract to 4â™ .}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1NT Pass 2H Pass
+2S Pass 4H Pass
+4S Pass Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set4 10}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:83.AT943.QJ7.J52 KQ542.87.A8.Q764 JT7.J5.T964.AT93 A96.KQ62.K532.K8"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{With 12 points and five â™ s, when NORTH hears her partner open 1NT she knows
+
+there is a game - either 3NT or 4â™ .
+
+NORTH first transfers SOUTH to â™ s, then jumps to 3NT, giving SOUTH the choice.
+
+SOUTH has three â™ s, so he chooses 4â™ , taking the 8-card Major fit.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT Pass 2H Pass
+2S Pass 3NT Pass
+4S Pass Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set4 11}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:QJ3.T6.J7643.Q43 K86.A93.KQ8.AKJ2 AT952.8.T5.T8765 74.KQJ7542.A92.9"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "6H"]
+[Result ""]
+{After NORTH opens 2NT, SOUTH is pretty sure there will be a slam in
+
+â™¥
+
+s.
+
+But, the contract should be played from the NORTH side so the opening lead doesn't go through any vulnerable
+
+â™  holding NORTH might have.
+
+SOUTH transfers NORTH to
+
+â™¥
+
+s, then uses Blackwood to be sure they aren't
+
+off two Aces. Missing one Ace he settles for 6
+
+â™¥
+
+.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 3, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+2NT Pass 3D Pass
+3H Pass 4NT Pass
+5H Pass 6H Pass
+Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set4 12}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:T3.A984.Q92.Q432 K985.Q7.K87.J965 QJ742.T62.JT3.A8 A6.KJ53.A654.KT7"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "2NT"]
+[Result ""]
+{NORTH has an invitational hand, (9 points), after SOUTH's 1NT opening.
+
+With a 4-card â™  suit she uses Stayman.
+
+SOUTH then shows his 4-card
+
+â™¥
+
+suit.
+
+With no
+
+â™¥
+
+fit, NORTH can only invite with 2NT, an invitation which
+
+SOUTH declines.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT Pass 2C Pass
+2H Pass 2NT Pass
+Pass Pass

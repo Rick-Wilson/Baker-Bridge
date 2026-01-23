@@ -1,0 +1,243 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:02:03 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Establishment 16}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:KQJT.T9.743.KT72 8653.K54.KJT85.Q A92.J73.A92.J965 74.AQ862.Q6.A843"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4H"]
+[Result ""]
+{Some pretty agressive bidding gets you to a challenging game. North is to play 4\H. East leads the \SK, overtaken by West's \SA. West returns a \S to East's \ST, and he then plays the \SQ.
+
+Losers:   \S=2  \H=0  \D=1  \C=3  Total = 6
+
+With 2 tricks already gone you still have 4 losers. You could consider ruffing the 3 \C losers in dummy but that would just create a trump loser even when trumps are splitting 3-2. So it looks like you will have to establish the \D suit for discards. You could pull trumps and then play your \DQ, hoping the defenders will grab their \DA immediately. But unless they are real novices they will hold it up one round and you'll no longer be able to reach dummy.
+
+The solution is to establish the \Ds before you use up dummy's \HK.
+
+Ruff the third \S, then play \DQ, (which they will duck), and another \D, (which they will probably take). Win whatever they return, pull trumps ending in dummy, and enjoy your 3 \D winners.
+
+}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+1H Pass 3H Pass
+4H Pass Pass Pass
+Pass
+[Play "E"]
+SK
+
+[Event ""]
+{Baker Establishment 17}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "S:KT86.963.Q72.J92 QJ9.KQT54.94.863 432.A82.KJ5.QT74 A75.J7.AT863.AK5"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "3NT"]
+[Result ""]
+{West's 3\D bid was a transfer to \Hs, and his 2NT bid showed exactly 5 \Hs with an invitational strength hand. East is to play 3NT. South leads the \S6, you play dummy's \S9 and  North contributes the \S2.
+
+Winners:   \S=2  \H=0  \D=1  \C=2  Total = 5
+
+The math is easy - you need 4 \H tricks. And you should be able to manage that by driving out the \HA. But the defenders will probably hold up one or two rounds when you play on \Hs, so you must have an outside entry to dummy. 
+
+The \S Q J will provide that entry IF you make sure to win the first trick with your \SA as an unblocking move. If you don't do so then South will be able to keep you out of the dummy and away from those good \Hs.
+
+But if you win the first trick with the \SA, then dummy's \S Q J will provide a guaranteed entry to the good \Hs.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+[Student "S"]
+[Auction "E"]
+1NT Pass 2D Pass
+2H Pass 2NT Pass
+3NT Pass Pass Pass
+[Play "S"]
+S6
+
+[Event ""]
+{Baker Establishment 18}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:Q972.K64.T82.Q63 KJ4.QJT53.754.82 863.A82.QJ9.JT74 AT5.97.AK63.AK95"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{South is to play 3NT. West leads the \S2, you play dummy's \S4 and  East plays the \S8.
+
+Winners:   \S=3  \H=0  \D=2  \C=2  Total = 7
+
+Needing just two more winners it looks straightforward to establish dummy's \H suit. Suppose you win the \ST and play the \H9. If the defenders win this trick you are home free. You win their \S return with your \SA, then continue \Hs to drive out their last stopper while you still have the \SK as a dummy entry.
+
+This won't work against good defenders, who will hold up on the first \H trick and win the second. Then when they continue \Ss you won't have another \H to return to dummy, so while you can use the \SK as an entry to establish the \Hs you will never get back to use the good ones.
+
+Instead you should win the first trick with your \SA. Now when you attack \Hs a defensive holdup won't hurt you because you have TWO \S entries, the \SJ by a finesse and the \SK.
+
+So the \S finesse is an odds-on play to get a second dummy entry.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "W"]
+Pass Pass Pass 1D
+Pass 1H Pass 2NT
+Pass 3NT Pass Pass
+Pass
+[Play "W"]
+S2
+
+[Event ""]
+{Baker Establishment 19}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:T96.QT72.943.KQ8 QJ82.A63.QT8.943 AK7543.J95..JT72 .K84.AKJ7652.A65"]
+[Scoring ""]
+[Declarer "W"]
+[Contract "5D"]
+[Result ""]
+{3NT would have been a lot easier, but you didn't get there. West is to play 5\D. North leads the \ST.
+
+Losers:   \S=0  \H=1  \D=0  \C=2  Total = 3
+
+The good news is that you only have one loser to get rid of. The bad news is that there doesn't seem to be a good place to put it.
+
+Unlikely as it seems, your best candidate for establishment is dummy's \S8. North is marked with 3 \Ss, and having led the \ST there is a good chance that he also has the \S9. If so you can ruff it out.
+
+Cover the \ST with dummy's \SJ, and when South plays one of his honors ruff in your hand. Play a trump to the \DT, South showing out. Lead the \SQ. South will be forced to play his other high honor, (if he doesn't you would discard a loser), and you ruff again. 
+
+Back to dummy with the \DQ and ruff the \S2 with a high trump just to be safe. North drops the \S9 on this trick.
+
+Pull North's last trump and enter dummy with the \HA and FINALLY discard a loser on the now established \S8.
+
+Here you needed \S T 9 x to be with North if you were to make the contract so you played for just that holding.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
+[Student "S"]
+[Auction "S"]
+2S X Pass 2NT
+Pass 3D Pass 4D
+Pass 5D Pass Pass
+Pass
+[Play "N"]
+ST
+
+[Event ""]
+{Baker Establishment 20}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:53.J764.KJ732.T5 K64.A93.86.98643 82.Q82.QT94.QJ72 AQJT97.KT5.A5.AK"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "6S"]
+[Result ""]
+{North is to play 6\S. East leads the \S5.
+
+Losers:   \S=0  \H=1  \D=1  \C=0  Total = 2
+
+First pull trumps with the \SA and \SQ, both defenders following. Next you must establish dummy's \C suit to get rid of one of your losers. If the suit splits 3-3 that will be easy since you have two dummy entries, one to get there to ruff the third \C and the other to get there to enjoy playing the winners. But \Cs will probably split 4-2 so the two entries won't be enough. Here's how to make the defenders help you establish the suit.
+
+After pulling trumps, play the \C A K, then \DA. Next exit with a small \D.
+
+ to see the position. 
+
+The defender who won the \D trick has a problem. If he plays another \D you will get a ruff-sluff, and if he plays a \H you will play for the \HQ and \HJ to be in different hands. So he will probably play a \C.
+
+You ruff in your hand, play a trump to dummy's \SK and ruff the \C8, establishing the \C9 while you still have the \H entry. 
+
+This was a combination of Suit Establishment and End-play. The lesson on Eliminations contains a lot more of this type of hand.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "S"]
+Pass Pass 2C Pass
+2NT Pass 3S Pass
+4S Pass 4NT Pass
+5D Pass 6S Pass
+Pass Pass
+[Play "E"]
+S5

@@ -1,0 +1,289 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:02:40 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Trumpmgmt 7}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:4.J952.QJT63.T84 T8.KQ86.872.9753 J762.T743.95.QJ6 AKQ953.A.AK4.AK2"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6S"]
+[Result ""]
+{South is to play 6\S. West leads the \DQ.
+
+Losers:   \S = 0 or 1    \H = 0  \D = 1    \C = 1 Total = 2 or 3
+
+You probably do not have a trump loser because they will probably split 3-2. Still, a 4-1 split is certainly not out of the question.
+
+But those two minor suit losers are definite UNLESS you can somehow get to dummy's \H K Q. Can you? 
+
+Yes you can get to dummy, in the trump suit. Win the opening \D lead. Unblock the \HA before touching trumps. Play a SMALL trump toward dummy. A defender will surely take his \SJ here, and play another \D. Win that trick and play another small \S. This one will get you into dummy. And by the way, West discards a \D so it turns out you were going to lose a trump in any case. Play dummy's \H K Q, discarding your two minor losers. Ruff a \H to return to your hand, pull trumps and claim.
+
+By establishing the \S entry to dummy you can discard the \D and \C.
+
+Even without a trump loser you will still go down 1 if you cannot take two discards on dummy's \Hs.
+
+So you give up a trump trick and gain two \H tricks in return. What a deal.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+2C Pass 2D Pass
+2S Pass 3H Pass
+6S Pass Pass Pass
+[Play "W"]
+DQ
+
+[Event ""]
+{Baker Trumpmgmt 8}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:JT863.Q87.AQT5.4 AQ.643.8742.6532 7542.KT52.KJ93.T K9.AJ9.6.AKQJ987"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "5C"]
+[Result ""]
+{South is to play 5\C. West leads the \SJ.
+
+Losers:   \S=0  \H=2  \D=1  \C=0  Total = 3
+
+You have no way to get rid of the Fast \D loser, but you might be able to eliminate one of the \H losers. If East holds either \H K T x or \H Q T x then a Deep Finesse would save one loser.
+
+Should you pull trumps right away? 
+
+No, you cannot pull trumps yet. For the Deep Finesse to work you must lead twice from dummy. The only way to get into dummy twice is in the \S suit and one of those times must be at trick 1.
+
+Win the first trick with dummy's \SQ and play a \H to your \H9. Assume West wins with the \HK or \HQ, and plays another \S.
+
+In dummy for the last time, play a \H to your \HJ and hope it wins.
+
+So you couldn't pull that one round of trumps because you couldn't waste either visit to dummy for anything other than the \H finesses.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1C Pass 1NT Pass
+3C Pass 4C Pass
+5C Pass Pass Pass
+[Play "W"]
+SJ
+
+[Event ""]
+{Baker Trumpmgmt 9}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:A984.4.KQ873.986 752.86.A94.KQJT2 JT6.QJT2.JT52.74 KQ3.AK9753.6.A53"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{South is to play 4\H. West leads the \DK.
+
+Losers:   \S = 2    \H = 1 or 2  \D = 0    \C = 0 Total = 3 or 4
+
+In fact if trumps split 5-0 you could have 3 losers in the suit and a disaster. So we won't worry about that possibility. Since the most likely scenario is a 3-2 split you should plan on taking the \H A K, then driving out their master trump so you can run dummy's \Cs without somebody ruffing in.
+
+Bad news. West discards a \D on the second \H lead. Time for a change in plans? 
+
+Actually, no. East has 2 master trumps at this point but you still have \H 9 7 5 3. So use one of your little ones to drive out East's \HJ. He will probably force you to ruff a \D, leaving you with \H 9 7. Use one of them to force out East's \HQ. You still have a trump left to stop their \Ds, and as soon as you get the lead you can now run dummy's \C suit safely.
+
+He would have ruffed the third \C, before you could discard a \S loser from your hand. You would lose two trumps and two \Ss.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1H Pass 2C Pass
+3H Pass 4H Pass
+Pass Pass
+[Play "W"]
+DK
+
+[Event ""]
+{Baker Trumpmgmt 10}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:8.8763.A965.JT98 QT63.J52.KQ3.K64 AK.QT94.JT82.Q72 J97542.AK.74.A53"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{South is to play 4\S. West leads the \CJ.
+
+Losers:   \S=2  \H=0  \D=1  \C=1  Total = 4
+
+Unless the defense slips you are going to lose the Ace and King of trumps. And the \DA is a Fast loser that they can take whenever they want to, so that means you must try to dispose of your \C loser. The only realistic hope is that West holds the \DA and you can lead through it twice. So after you win your \CA do you play a trump? 
+
+As much as you'd like to get the trumps out you must work on the \Ds first. Because if you play even one trump the defense will win it and force out your remaining \C stopper before you have established a \D winner for the discard.
+
+The correct procedure is to win the \CA, and immediately play a \D to dummy's \DQ, which holds the trick. Return to your hand with a \H, and play another \D toward dummy. Suppose West takes his \DA on this trick (otherwise you have no \D loser). He can now play a \C but you win with dummy's \CK and discard your small \C on dummy's \DK.
+
+Only then do you lead trumps.
+
+for the full deal. 
+
+When you need to do something else first - in this case, to establish a \Ds winner early.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1S Pass 3S Pass
+4S Pass Pass Pass
+[Play "W"]
+CJ
+
+[Event ""]
+{Baker Trumpmgmt 11}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:KQ963.85.96.AJ93 A752.QT9.KQ7.854 J84.742.JT54.KQT T.AKJ63.A832.762"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{South is to play 4\H. West leads the \SK, taken by dummy's \SA.
+
+Losers:   \S=0  \H=0  \D=1  \C=3  Total = 4
+
+One possibility is to pull trumps and play for a 3-3 \D split. This will occur about 36% of the time. While you may not know all the bridge probabilities, it is useful to remember that an EVEN number of cards (6 in this case) will probably NOT split EVENLY (3-3 in this case). So, let's try to improve on 36%.
+
+You could play to pull just two rounds of trumps, then ruff your fourth \D, hoping that the defender with the third trump also has the fourth \D. These odds are tougher to figure, but it doesn't look good, does it?
+
+If you don't see a better Plan than these two, just put yourself in Dummy's seat and pretend you are playing 4\H from that side of the table. 
+
+Aha! From dummy's viewpoint you have no \D losers! You still have the 3 \C losers, but now you also have 3 \S losers. How does this help you?
+
+You can now ruff all 3 of those \S losers in the South hand. Like this:Win the \SA and ruff a \S with the \HA. Play a small \H to dummy's \H9. Ruff another \S with the \HK. Play a small \H to dummy's \HT. Ruff dummy's last \S with your last trump, the \HJ. Enter dummy with a \D and pull the last trump with the \HQ.
+
+You win 3 \Ds, 3 \Hs in dummy, the \SA and 3 \S ruffs in your hand. Total: T tricks.
+
+For a Dummy Reversal to work you usually have to have a decent trump split.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 5, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1H Pass 1S Pass
+2D Pass 3H Pass
+4H Pass Pass Pass
+[Play "W"]
+SK
+
+[Event ""]
+{Baker Trumpmgmt 12}
+[Site ""]
+[Date ""]
+[Board "6"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:T97.72.KQJ9.K963 A63.JT83.8752.84 KQJ2.A.T643.T752 854.KQ9654.A.AQJ"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{South is to play 4\H. West leads the \DK.
+
+Losers:   \S=2  \H=1  \D=0  \C=1  Total = 4
+
+You could go to dummy with the \SA and try a finesse for the \CK. If it works, no more \C loser. But if it fails the bad guys will cash a couple of \Ss and even you can't dodge the Ace of trumps.
+
+Or, you could try to get to dummy with a trump to the \HJ so you could make the \C finesse while dummy still keeps the \SA. Of course the defenders would probably take the first \H and then knock out your \SA. When the \C finesse failed, same bad result. What else might you try? 
+
+Forget the \C finesse. Forget pulling trumps. Win the first trick and play any \C from your hand. Let's say you play the \CJ. A defender wins the \CK and attacks \Ss. Too late, you are in the driver's seat. Win the \SA, play a \C to your \CQ, and then play the \CA, discarding a \S from dummy. You lose the Ace of trumps, one \C, and just one \S.
+
+Trying to sneak into dummy with a trump might have worked.
+
+Playing a \C from your hand at the second trick WILL work.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 6, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1H Pass 2H Pass
+4H Pass Pass Pass
+[Play "W"]
+DK

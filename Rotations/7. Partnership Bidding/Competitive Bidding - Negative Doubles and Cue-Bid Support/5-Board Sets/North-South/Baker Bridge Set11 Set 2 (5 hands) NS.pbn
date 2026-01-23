@@ -1,0 +1,233 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:12:00 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Bidpractice/Set11 6}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:J.AQJ652.J843.63 AK62.93.972.Q982 Q8543.T4.QT5.A75 T97.K87.AK6.KJT4"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "2C"]
+[Result ""]
+{SOUTH has four â™ s, so instead of bidding them she makes a Negative Double.
+
+NORTH knows there is no 8-card fit in â™ s, but he does have
+
+â™¥
+
+s
+
+stopped. He bids 1NT.
+
+SOUTH has 9 points and with four â™£s she goes back to that suit and NORTH passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1C 1H X Pass
+1NT Pass 2C Pass
+Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set11 7}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:T.KQT54.QT53.A63 AK632.93.972.Q92 J854.A62.J84.875 Q97.J87.AK6.KJT4"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "2S"]
+[Result ""]
+{Compare this hand with Deal 6.
+
+SOUTH has five â™ s, this time so she bids 1â™ .
+
+NORTH knows there
+
+IS
+
+an 8-card fit in â™ s, so he bids 2â™ .
+
+SOUTH has 10 points so she passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1C 1H 1S Pass
+2S Pass Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set11 8}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:Q43.J52.J842.Q63 A52.AQT93.97.AJ2 KJT86.6.AT53.875 97.K874.KQ6.KT94"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4H"]
+[Result ""]
+{SOUTH has 11/12 points, a Limit Raise in
+
+â™¥
+
+s. So after the overcall
+
+he makes a Support Cue-bid of 2â™ .
+
+NORTH adds her 16 to the 11 that SOUTH has promised as a minimum and goes straight
+
+to 4
+
+â™¥
+
+.
+
+If SOUTH had significantly more than 11 he could bid on, but in this case he should happily pass.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 3, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "W"]
+Pass 1H 1S 2S
+Pass 4H Pass Pass
+Pass
+
+[Event ""]
+{Baker Bidpractice/Set11 9}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:K43.J52.KJ42.J63 852.AQT93.97.AQ2 AQJT6.6.AQ53.875 97.K874.T86.KT94"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3H"]
+[Result ""]
+{Compare this with Deal 8.
+
+NORTH has 7 points, barely enough for a 2
+
+â™¥
+
+raise if there had been no overcall.
+
+But when WEST puts in the â™  bid, NORTH can jump to 3
+
+â™¥
+
+as a preemptive
+
+measure. He knows SOUTH won't think he has strength because he did not make a Support Cue-bid.
+
+SOUTH does know it and passes 3
+
+â™¥
+
+.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "E"]
+Pass 1H 1S 3H
+Pass Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set11 10}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "E:JT5.Q852.JT54.96 Q862.AK93.97.A82 4.JT7.AKQ82.Q753 AK973.64.63.KJT4"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4S"]
+[Result ""]
+{SOUTH has the strength for a raise to game in â™ s, but this could be dangerous since NORTH
+
+has overcalled rather than opened. Instead, SOUTH shows her strength with a Support Cue-bid.
+
+NORTH in fact had a pretty good overcall so he jumps to 3â™  and SOUTH bids the game.
+
+With a weak overcall NORTH would have just returned to 2â™  which SOUTH would pass.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "W"]
+1D 1S Pass 2D
+Pass 3S Pass 4S
+Pass Pass Pass

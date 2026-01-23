@@ -1,0 +1,227 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:04:31 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker ThirdHand 16}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:Q.T9652.J863.642 7542.KQ.A5.KJT85 KT986.874.Q74.AQ AJ3.AJ3.KT92.973"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{The bidding has been as shown. Partner led the \SQ, a low card was played from dummy, and it is your play.
+
+When you have made your choice  
+
+It seems that perhaps you should play low and let partner's \SQ force out South's \SA. Then, when you get the lead with a high \C you can force out South's \SJ. Get the lead with your other high \C and set the contract with \Ss.
+
+Suppose you try that. Play low on the first \S. South will also play low and West will be left holding the trick, and also holding the bag!With no more \Ss West will have to play one of the other three suits, and that is just what South wants to have happen. The contract could no longer be beaten.
+
+Now do it the right way. Play your \SK on partner's \SQ. Assume South takes the trick, although it doesn't matter whether he wins the first one or holds up. When you win your first \C drive out South's \SJ. When you win your second \C trick your \Ss will be good. If you overtake the first trick the contract can no longer be made.
+
+Notice that South will always make two \S tricks, so your overtake costs nothing.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "E"]
+[Auction "N"]
+1C 1S 2NT Pass
+3NT Pass Pass Pass
+[Play "W"]
+SQ
+
+[Event ""]
+{Baker ThirdHand 17}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:93.J8652.JT94.K4 A6.K93.Q62.QJ982 K87542.QT4.83.A6 QJT.A7.AK75.T753"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{The bidding has been as shown. Partner led the \S9, dummy played the \S6 and it is your play.
+
+When you have made your choice  
+
+You could easily win the \SK, then play a small \S to drive out dummy's \SA. But South bid Notrump over your 2\S overcall, so he surely holds \S Q J T. So when you get the lead with your one \CA entry you can establish your \Ss, but you won't get into the lead to cash them.
+
+Look what happens when you duck the first trick. South will win the trick with his \ST, and start on dummy's \C suit.
+
+West (your wonderful partner) will win the first \C and return his final \S to dummy's \SA.
+
+South will have to keep working on \Cs, but now you can win the \CA and play your \SK, dropping South's \SQ, and your other three good \Ss.
+
+Just like the previous deal, South gets two \S tricks either way, but one way he makes an overtrick, the other way he goes down 2.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "E"]
+[Auction "N"]
+1C 2S 2NT Pass
+3NT Pass Pass Pass
+[Play "W"]
+S9
+
+[Event ""]
+{Baker ThirdHand 18}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:AQ83.6.JT72.KQJT JT64.QJT.AK6.942 72.843.954.A8753 K95.AK9752.Q83.6"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{The bidding has been as shown. Partner led the \CK, dummy played low and it is your play.
+
+When you have made your choice  
+
+You are pretty sure partner would not have supported your \Cs unless he had 4 of them, which means it is very likely that South has a singleton. (he might even be void)
+
+So if you are to set this contract partner is going to have to have some \S winners. It might not matter, but it also might be vital that the first \S lead comes from your side of the table so after you overtake with the \CA you switch to the \S7.
+
+Partner loves it - whatever South does West takes the next two \Ss, then leads a third \S for you to ruff. Down 1.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "E"]
+[Auction "S"]
+1H X XX 2C
+Pass 3C 3H Pass
+4H Pass Pass Pass
+[Play "W"]
+CK
+
+[Event ""]
+{Baker ThirdHand 19}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:7.Q8732.854.KQ95 KT83.AJ94.AJ7.T7 A42.5.T963.A8643 QJ965.KT6.KQ2.J2"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{The bidding has been as shown. Partner led the \CK, dummy played the \C7 and it is your play.
+
+When you have made your choice  
+
+As soon as you see the opening lead and dummy you should start figuring out just how you can defeat the contract. Hopefully this plan came to your mind.
+
+From his lead, you know partner also holds the \CQ. Overtake the \CK. Play your singleton \H5. When South starts on trumps, win the first one with your \SA. Put partner back on lead with a small \C to his known \CQ.
+
+If you have a partner who pays attention he will now play a \H for you to ruff. Two \Cs, the Ace of trumps, and a \H ruff makes down 1.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "E"]
+[Auction "N"]
+1D Pass 1S Pass
+2S Pass 4S Pass
+Pass Pass
+[Play "W"]
+CK
+
+[Event ""]
+{Baker ThirdHand 20}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:JT98.73.KQT93.A9 Q74.AQJ5.862.KJ4 632.KT862.J4.873 AK5.94.A75.QT652"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{The bidding has been as shown. Partner led the \DK, dummy played low and it is your play.
+
+When you have made your choice  
+
+Put yourself in partner's shoes. He almost surely has \D K Q T x (x). When South holds up on his \DA, which he almost surely will, West may think he is holding up with \D A J x, and be afraid to continue the suit.
+
+You can help your partner figure out the true situation by merely playing your \DJ so he can see that South doesn't have it.
+
+With this good play West will be able to continue \Ds and defeat the contract.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 5, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "E"]
+[Auction "S"]
+1C Pass 1H Pass
+1NT Pass 3NT Pass
+Pass Pass
+[Play "W"]
+DK

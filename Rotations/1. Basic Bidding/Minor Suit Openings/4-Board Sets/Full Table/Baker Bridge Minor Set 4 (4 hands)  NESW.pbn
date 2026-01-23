@@ -1,0 +1,169 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:47:49 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Minor 13}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:4.653.AQ543.9643 K963.A7.JT9.AJT7 A852.JT42.K8.852 QJT7.KQ98.762.KQ"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4S"]
+[Result ""]
+{The bidding is shown. Decide what you would say, then  BID. 
+
+When you have two 4-card suits to show you bid them "up-the-line". In this case it means you say 1\H. Partner replies 1\S. What do you bid? 
+
+There are enough points for game and a known 8-card Major fit. So you bid 4\S.
+
+Perfect bidding isn't always rewarded. They can win three \D tricks and the Ace of trumps. If the opening lead is a \H or a \C you might make it, so it just depends on luck.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+1C Pass 1H Pass
+1S Pass 4S Pass
+Pass Pass
+
+[Event ""]
+{Baker Minor 14}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "S:976.A4.J53.QJT87 KT4.J97.AK72.K53 Q832.Q8532.T4.42 AJ5.KT6.Q986.A96"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "3NT"]
+[Result ""]
+{The bidding is shown. Decide what you would say, then  BID. 
+
+You have two very good choices, neither of which is really wrong. You could bid 2NT, showing 13-16 points, balanced, or you could bid 3\D, showing 13-16 points, good trump support.
+
+What should decide you is the bidding priorities. You'd much rather try to play a 9-trick game than an 11-trick game. And at the same time you must trust your partner not to leave you hung out in Notrump with an unsuitable hand. (Can you believe I wrote Notrump and unsuitable in the same sentence?)
+
+Anyway, you bid 2NT and partner raises to 3NT.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+[Student "S"]
+[Auction "W"]
+1D Pass 2NT Pass
+3NT Pass Pass Pass
+
+[Event ""]
+{Baker Minor 15}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:J65.93.T843.AT97 AK92.J5.K72.K832 Q74.A8742.J95.64 T83.KQT6.AQ6.QJ5"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{The bidding is shown. Decide what you would say, then  BID. 
+
+With 14 points and a 4-3-3-3 distribution this could be the perfect hand for a jump to 2NT. But not when the 4-card suit is a Major - you should not skip bidding a Major when you have the opportunity.
+
+So you respond 1\H. Partner says 1\S. What do you bid? 
+
+Partner doesn't have 4 \Hs so you go back to thinking this is an ideal notrump hand. So ideal that you apply the "She who knows, goes" principle and bid 3NT. Partner smiles and passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+1C Pass 1H Pass
+1S Pass 3NT Pass
+Pass Pass
+
+[Event ""]
+{Baker Minor 16}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "S:Q2.J752.A652.Q64 KT93.AT84.QT3.A9 J8654.Q63.8.K732 A7.K9.KJ974.JT85"]
+[Scoring ""]
+[Declarer "W"]
+[Contract "3NT"]
+[Result ""]
+{The bidding is shown. Decide what you would say, then  BID. 
+
+You have great \D support and perhaps 15 points. The "perhaps" is because partner may have only 3 \Ds, and if you are the long-trump hand any ruffs you take will probably not increase the number of trump tricks your side makes. But still, you have a great hand.
+
+So you bid 3\D. Partner now says 3NT. What do you bid? 
+
+You described your hand very well with your first bid. Partner heard the description and chose 3NT. Since you trust your partner you pass.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 4, chOption: W, chBasis: N, basisKind:Declarer, nOption:3, nBasis: 0, nRot: 3, useStandardVul: true"]
+[Student "S"]
+[Auction "W"]
+1D Pass 3D Pass
+3NT Pass Pass Pass

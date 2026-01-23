@@ -1,0 +1,188 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:56:00 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker DONT 16}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "W:85.87.J9432.QJ97 Q9742.KT94.75.42 KJT6.AQ32.KT.AT5 A3.J65.AQ86.K863"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "2H"]
+[Result ""]
+{You would have opened 1\D but after East opens 1NT you must pass.
+
+Partner bids 2\H in the balancing seat.  
+
+The 2\H bid shows \Hs and \Ss.
+
+You like \Hs better and don't have enough strength to think about game so you pass.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "E"]
+1NT Pass Pass 2H
+Pass Pass Pass
+
+[Event ""]
+{Baker DONT 17}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "S:2.K76.7432.KJT64 T64.JT83.AJ8.A75 A83.AQ94.KT6.Q92 KQJ975.52.Q95.83"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "2S"]
+[Result ""]
+{You have a good 6-card suit but only 8 HCP. This is bare minimum for a DONT bid. The fact that your suit is \Ss should sway you toward bidding.
+
+But with the weak hand you bid 2\S instead of double. Everybody passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+1NT 2S Pass Pass
+Pass
+
+[Event ""]
+{Baker DONT 18}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:9742.AT5.832.542 8653.Q92.754.Q63 KQ.8643.AKT.KJ98 AJT.KJ7.QJ96.AT7"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "1NT"]
+[Result ""]
+{With 16 points and a balanced hand you were planning on opening 1NT yourself.
+
+But one of the consequences of playing DONT is that you have no bid to describe this hand. You cannot double because then partner would just bid 2\C as a relay and you wouldn't know where to go.
+
+So you pass.}
+[BCFlags "1f"]
+[OriginalRotationBasis "E"]
+[RotationNote "Board 3, chOption: S, chBasis: E, basisKind:Declarer, nOption:2, nBasis: 1, nRot: 1, useStandardVul: true"]
+[Student "S"]
+[Auction "S"]
+1NT Pass Pass Pass
+
+[Event ""]
+{Baker DONT 19}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:A75.J4.AT753.AQ6 J64.AT865.KQ9.K4 8.KQ732.J2.JT832 KQT932.9.864.975"]
+[Scoring ""]
+[Declarer "W"]
+[Contract "2S"]
+[Result ""]
+{Would you really bid over 1NT with only 5 HCP? In the balancing seat you should. Partner is marked with a pretty good hand, and you have a 6-card Major suit.
+
+You do bid just 2\S though, rather than a double followed by 2\S, which would show a stronger hand. Everybody passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+1NT Pass Pass 2S
+Pass Pass Pass
+
+[Event ""]
+{Baker DONT 20}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "E:85.82.KJ9743.JT6 QT742.KT974.5.42 AK6.QJ3.T2.AQ975 J93.A65.AQ86.K83"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "2S"]
+[Result ""]
+{You would have opened 1\D but after West opens 1NT you must pass.
+
+Partner bids 2\H in the balancing seat.  
+
+The 2\H bid shows \Hs and \Ss.
+
+You have absolutely no preference between the two suits. But you do have a preference as to where the opening lead will be coming from - you'd like East to have to lead through West's strength. Besides you feel like playing the last hand so you say 2\S and everybody passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "W"]
+1NT Pass Pass 2H
+Pass 2S Pass Pass
+Pass

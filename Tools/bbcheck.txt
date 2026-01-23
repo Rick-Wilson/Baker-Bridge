@@ -1,0 +1,355 @@
+100Deals, Deal 14: Card H8 appears in multiple hands: North, East
+    North H holding: 389KT
+    East H holding: 268
+    Suggestion: replace H: K 10 9 8 3 with H: K 10 9 5 3
+    Regex: r"&hearts;.*?K 10 9 8 3" => '&hearts; K 10 9 5 3'
+100Deals, Deal 69: Card H7 appears in multiple hands: North, East
+    North H holding: 57
+    East H holding: 267Q
+    Suggestion: replace H: 7 5 with H: 8 5
+    Regex: r"&hearts;.*?7 5" => '&hearts; 8 5'
+2Club, Deal 10: Card C3 appears in multiple hands: North, South
+    North C holding: 3AT
+    South C holding: 3JKQ
+    Suggestion: replace C: A 10 3 with C: A 10 2
+    Regex: r"&clubs;.*?A 10 3" => '&clubs; A 10 2'
+Cue-bid, Deal 10: Card S6 appears in multiple hands: North, South
+    North S holding: 36A
+    South S holding: 6KQT
+    Suggestion: replace S: A 6 3 with S: A 7 3
+    Regex: r"&spades;.*?A 6 3" => '&spades; A 7 3'
+DONT, Deal 8: Card D4 appears in multiple hands: North, South
+    North D holding: 347
+    South D holding: 469Q
+    Suggestion: replace D: 7 4 3 with D: 7 5 3
+    Regex: r"&diams;.*?7 4 3" => '&diams; 7 5 3'
+DONT, Deal 10: Card C9 appears in multiple hands: North, South
+    North C holding: 9K
+    South C holding: 379
+    Suggestion: replace C: K 9 with C: K 8
+    Regex: r"&clubs;.*?K 9" => '&clubs; K 8'
+DONT, Deal 15: Card S6 appears in multiple hands: North, South
+    North S holding: 68
+    South S holding: 236AK
+    Suggestion: replace S: 8 6 with S: 8 7
+    Regex: r"&spades;.*?8 6" => '&spades; 8 7'
+DONT, Deal 19: Card D8 appears in multiple hands: North, South
+    North D holding: 8KQ
+    South D holding: 468
+    Suggestion: replace D: K Q 8 with D: K Q 9
+    Regex: r"&diams;.*?K Q 8" => '&diams; K Q 9'
+DONT, Deal 20: Card H6 appears in multiple hands: North, South
+    North H holding: 469KT
+    South H holding: 56A
+    Suggestion: replace H: K 10 9 6 4 with H: K 10 9 7 4
+    Regex: r"&hearts;.*?K 10 9 6 4" => '&hearts; K 10 9 7 4'
+Eliminations, Deal 4: Card D6 appears in multiple hands: South, West
+    South D holding: 6K
+    West D holding: 269JT
+    Suggestion: replace D: J 10 9 6 2 with D: J 10 9 3 2
+    Regex: r"&diams;.*?J 10 9 6 2" => '&diams; J 10 9 3 2'
+Eliminations, Deal 8: Card C6 appears in multiple hands: South, West
+    South C holding: 3467
+    West C holding: 68J
+    Suggestion: replace C: J 8 6 with C: J 8 5
+    Regex: r"&clubs;.*?J 8 6" => '&clubs; J 8 5'
+Eliminations, Deal 11: Card D6 appears in multiple hands: East, West
+    East D holding: 2678T
+    West D holding: 6JQ
+    Suggestion: replace D: Q J 6 with D: Q J 3
+    Regex: r"&diams;.*?Q J 6" => '&diams; Q J 3'
+Eliminations, Deal 23: Card H5 appears in multiple hands: South, West
+    South H holding: 5AKT
+    West H holding: 459
+    Suggestion: replace H: 9 5 4 with H: 9 4 3
+    Regex: r"&hearts;.*?9 5 4" => '&hearts; 9 4 3'
+Establishment, Deal 3: Card D2 appears in multiple hands: North, South
+    North D holding: 28
+    South D holding: 27AQ
+    Suggestion: replace D: 8 2 with D: 8 6
+    Regex: r"&diams;.*?8 2" => '&diams; 8 6'
+Establishment, Deal 4: Card D3 appears in multiple hands: North, West
+    North D holding: 38
+    West D holding: 39J
+    Suggestion: replace D: 8 3 with D: 8 7
+    Regex: r"&diams;.*?8 3" => '&diams; 8 7'
+Establishment, Deal 4: Card D9 appears in multiple hands: South, West
+    South D holding: 469A
+    West D holding: 39J
+    Suggestion: replace D: J 9 3 with D: J 7 3
+    Regex: r"&diams;.*?J 9 3" => '&diams; J 7 3'
+Establishment, Deal 9: Card D8 appears in multiple hands: South, West
+    South D holding: 378A
+    West D holding: 48
+    Suggestion: replace D: 8 4 with D: K 4
+    Regex: r"&diams;.*?8 4" => '&diams; K 4'
+Establishment, Deal 16: Card D2 appears in multiple hands: East, West
+    East D holding: 29A
+    West D holding: 237
+    Suggestion: replace D: 7 3 2 with D: 7 4 3
+    Regex: r"&diams;.*?7 3 2" => '&diams; 7 4 3'
+Jacoby, Deal 12: Card C4 appears in multiple hands: North, South
+    North C holding: 46A
+    South C holding: 347K
+    Suggestion: replace C: A 6 4 with C: A 6 5
+    Regex: r"&clubs;.*?A 6 4" => '&clubs; A 6 5'
+Jacoby, Deal 14: Card C4 appears in multiple hands: North, South
+    North C holding: 46A
+    South C holding: 347J
+    Suggestion: replace C: A 6 4 with C: A 6 5
+    Regex: r"&clubs;.*?A 6 4" => '&clubs; A 6 5'
+Jacoby, Deal 24: Card H5 appears in multiple hands: North, South
+    North H holding: 5
+    South H holding: 57AK
+    Suggestion: replace H: 5 with H: 4
+    Regex: r"&hearts;.*?5" => '&hearts; 4'
+Major, Deal 3: Card C5 appears in multiple hands: North, South
+    North C holding: 45Q
+    South C holding: 5JK
+    Suggestion: replace C: Q 5 4 with C: Q 6 4
+    Regex: r"&clubs;.*?Q 5 4" => '&clubs; Q 6 4'
+Michaels, Deal 7: Card S8 appears in multiple hands: North, South
+    North S holding: 38A
+    South S holding: 78
+    Suggestion: replace S: A 8 3 with S: A 9 3
+    Regex: r"&spades;.*?A 8 3" => '&spades; A 9 3'
+Minor, Deal 3: Card C4 appears in multiple hands: North, South
+    North C holding: 4KQ
+    South C holding: 468A
+    Suggestion: replace C: K Q 4 with C: K Q 3
+    Regex: r"&clubs;.*?K Q 4" => '&clubs; K Q 3'
+Minor, Deal 4: Card S7 appears in multiple hands: North, South
+    North S holding: 4567K
+    South S holding: 79AT
+    Suggestion: replace S: K 7 6 5 4 with S: K 8 6 5 4
+    Regex: r"&spades;.*?K 7 6 5 4" => '&spades; K 8 6 5 4'
+Minor, Deal 13: Card H8 appears in multiple hands: North, South
+    North H holding: 8A
+    South H holding: 89KQ
+    Suggestion: replace H: A 8 with H: A 7
+    Regex: r"&hearts;.*?A 8" => '&hearts; A 7'
+Minor, Deal 14: Card D8 appears in multiple hands: North, South
+    North D holding: 28AK
+    South D holding: 689Q
+    Suggestion: replace D: A K 8 2 with D: A K 7 2
+    Regex: r"&diams;.*?A K 8 2" => '&diams; A K 7 2'
+Negative, Deal 9: Card S3 appears in multiple hands: North, South
+    North S holding: 38KT
+    South S holding: 36
+    Suggestion: replace S: K 10 8 3 with S: K 10 8 4
+    Regex: r"&spades;.*?K 10 8 3" => '&spades; K 10 8 4'
+Negative, Deal 13: Card C3 appears in multiple hands: North, South
+    North C holding: 38T
+    South C holding: 34
+    Suggestion: replace C: 10 8 3 with C: 10 8 2
+    Regex: r"&clubs;.*?10 8 3" => '&clubs; 10 8 2'
+Negative, Deal 14: Card D4 appears in multiple hands: North, South
+    North D holding: 48
+    South D holding: 479
+    Suggestion: replace D: 8 4 with D: 8 5
+    Regex: r"&diams;.*?8 4" => '&diams; 8 5'
+Notrump, Deal 11: Card H4 appears in multiple hands: North, South
+    North H holding: 48A
+    South H holding: 4KQ
+    Suggestion: replace H: A 8 4 with H: A 8 5
+    Regex: r"&hearts;.*?A 8 4" => '&hearts; A 8 5'
+Notrump, Deal 15: Card D4 appears in multiple hands: North, South
+    North D holding: 48Q
+    South D holding: 479T
+    Suggestion: replace D: Q 8 4 with D: Q 8 5
+    Regex: r"&diams;.*?Q 8 4" => '&diams; Q 8 5'
+Notrump, Deal 15: Card C3 appears in multiple hands: North, South
+    North C holding: 3KQT
+    South C holding: 35J
+    Suggestion: replace C: K Q 10 3 with C: K Q 10 2
+    Regex: r"&clubs;.*?K Q 10 3" => '&clubs; K Q 10 2'
+Notrump, Deal 19: Card S6 appears in multiple hands: North, South
+    North S holding: 6AQ
+    South S holding: 6K
+    Suggestion: replace S: A Q 6 with S: A Q 7
+    Regex: r"&spades;.*?A Q 6" => '&spades; A Q 7'
+Notrump, Deal 24: Card D3 appears in multiple hands: North, South
+    North D holding: 3AQ
+    South D holding: 3789KT
+    Suggestion: replace D: A Q 3 with D: A Q 4
+    Regex: r"&diams;.*?A Q 3" => '&diams; A Q 4'
+Notrump, Deal 25: Card SJ appears in multiple hands: North, South
+    North S holding: 2JQ
+    South S holding: 35789JK
+    Suggestion: replace S: Q J 2 with S: Q 10 2
+    Regex: r"&spades;.*?Q J 2" => '&spades; Q 10 2'
+OLead, Deal 2: Card C7 appears in multiple hands: East, West
+    East C holding: 467A
+    West C holding: 257J
+    Suggestion: replace C: J 7 5 2 with C: J 10 5 2
+    Regex: r"&clubs;.*?J 7 5 2" => '&clubs; J 10 5 2'
+OLead, Deal 4: Card H7 appears in multiple hands: North, East
+    North H holding: 57A
+    East H holding: 7
+    Suggestion: replace H: A 7 5 with H: A 6 5
+    Regex: r"&hearts;.*?A 7 5" => '&hearts; A 6 5'
+OLead, Deal 13: Card H7 appears in multiple hands: North, South
+    North H holding: 67K
+    South H holding: 7AJ
+    Suggestion: replace H: K 7 6 with H: K 6 4
+    Regex: r"&hearts;.*?K 7 6" => '&hearts; K 6 4'
+OLead, Deal 14: Card D9 appears in multiple hands: North, West
+    North D holding: 2359A
+    West D holding: 89JQT
+    Suggestion: replace D: A 9 5 3 2 with D: A 7 5 3 2
+    Regex: r"&diams;.*?A 9 5 3 2" => '&diams; A 7 5 3 2'
+OLead, Deal 20: Card H6 appears in multiple hands: South, West
+    South H holding: 6A
+    West H holding: 6JQT
+    Suggestion: replace H: Q J 10 6 with H: Q J 10 3
+    Regex: r"&hearts;.*?Q J 10 6" => '&hearts; Q J 10 3'
+Overcalls, Deal 4: Card S6 appears in multiple hands: North, South
+    North S holding: 69JKQ
+    South S holding: 6
+    Suggestion: replace S: K Q J 9 6 with S: K Q J 9 7
+    Regex: r"&spades;.*?K Q J 9 6" => '&spades; K Q J 9 7'
+Overcalls, Deal 15: Card D6 appears in multiple hands: North, South
+    North D holding: 268A
+    South D holding: 36K
+    Suggestion: replace D: A 8 6 2 with D: A 8 5 2
+    Regex: r"&diams;.*?A 8 6 2" => '&diams; A 8 5 2'
+Overcalls, Deal 17: Card C6 appears in multiple hands: North, South
+    North C holding: 269K
+    South C holding: 36JQT
+    Suggestion: replace C: K 9 6 2 with C: K 9 7 2
+    Regex: r"&clubs;.*?K 9 6 2" => '&clubs; K 9 7 2'
+Overcalls, Deal 20: Card D6 appears in multiple hands: North, South
+    North D holding: 6A
+    South D holding: 6JK
+    Suggestion: replace D: A 6 with D: A 5
+    Regex: r"&diams;.*?A 6" => '&diams; A 5'
+Preempt, Deal 4: Card S7 appears in multiple hands: North, South
+    North S holding: 37
+    South S holding: 67AK
+    Suggestion: replace S: 7 3 with S: 8 3
+    Regex: r"&spades;.*?7 3" => '&spades; 8 3'
+Preempt, Deal 4: Card C5 appears in multiple hands: North, South
+    North C holding: 5
+    South C holding: 578A
+    Suggestion: replace C: 5 with C: 6
+    Regex: r"&clubs;.*?5" => '&clubs; 6'
+Reverse, Deal 7: Card D3 appears in multiple hands: North, South
+    North D holding: 237A
+    South D holding: 37K
+    Suggestion: replace D: A 7 3 2 with D: A 7 4 2
+    Regex: r"&diams;.*?A 7 3 2" => '&diams; A 7 4 2'
+Reverse, Deal 7: Card D7 appears in multiple hands: North, South
+    North D holding: 247A
+    South D holding: 37K
+    Suggestion: replace D: A 7 4 2 with D: A 6 4 2
+    Regex: r"&diams;.*?A 7 4 2" => '&diams; A 6 4 2'
+Reverse, Deal 7: Card C9 appears in multiple hands: North, South
+    North C holding: 589AK
+    South C holding: 589
+    Suggestion: replace C: A K 9 8 5 with C: A K 10 8 5
+    Regex: r"&clubs;.*?A K 9 8 5" => '&clubs; A K 10 8 5'
+Reverse, Deal 7: Card C5 appears in multiple hands: North, South
+    North C holding: 58AKT
+    South C holding: 589
+    Suggestion: replace C: A K 10 8 5 with C: A K 10 8 6
+    Regex: r"&clubs;.*?A K 10 8 5" => '&clubs; A K 10 8 6'
+Reverse, Deal 7: Card C8 appears in multiple hands: North, South
+    North C holding: 68AKT
+    South C holding: 589
+    Suggestion: replace C: A K 10 8 6 with C: A K 10 7 6
+    Regex: r"&clubs;.*?A K 10 8 6" => '&clubs; A K 10 7 6'
+Reverse, Deal 11: Card C3 appears in multiple hands: North, South
+    North C holding: 3567
+    South C holding: 3A
+    Suggestion: replace C: 7 6 5 3 with C: 7 6 5 2
+    Regex: r"&clubs;.*?7 6 5 3" => '&clubs; 7 6 5 2'
+Reverse, Deal 13: Card H7 appears in multiple hands: North, South
+    North H holding: 47K
+    South H holding: 67
+    Suggestion: replace H: K 7 4 with H: K 8 4
+    Regex: r"&hearts;.*?K 7 4" => '&hearts; K 8 4'
+SecondHand, Deal 8: Card S5 appears in multiple hands: North, South
+    North S holding: 258
+    South S holding: 59J
+    Suggestion: replace S: 8 5 2 with S: 8 6 2
+    Regex: r"&spades;.*?8 5 2" => '&spades; 8 6 2'
+SecondHand, Deal 9: Card D3 appears in multiple hands: North, South
+    North D holding: 369T
+    South D holding: 3JKQ
+    Suggestion: replace D: 10 9 6 3 with D: 10 9 6 2
+    Regex: r"&diams;.*?10 9 6 3" => '&diams; 10 9 6 2'
+Signals, Deal 6: Card H9 appears in multiple hands: North, West
+    North H holding: 369
+    West H holding: 9T
+    Suggestion: replace H: 9 6 3 with H: J 6 3
+    Regex: r"&hearts;.*?9 6 3" => '&hearts; J 6 3'
+Signals, Deal 12: Card S5 appears in multiple hands: South, West
+    South S holding: 257JKQ
+    West S holding: 459
+    Suggestion: replace S: 9 5 4 with S: 9 6 4
+    Regex: r"&spades;.*?9 5 4" => '&spades; 9 6 4'
+Stayman, Deal 4: Card C7 appears in multiple hands: North, South
+    North C holding: 78KQ
+    South C holding: 7J
+    Suggestion: replace C: K Q 8 7 with C: K Q 8 6
+    Regex: r"&clubs;.*?K Q 8 7" => '&clubs; K Q 8 6'
+Takeout, Deal 3: Card C3 appears in multiple hands: North, South
+    North C holding: 369
+    South C holding: 3A
+    Suggestion: replace C: 9 6 3 with C: 9 6 2
+    Regex: r"&clubs;.*?9 6 3" => '&clubs; 9 6 2'
+Takeout, Deal 21: Card C6 appears in multiple hands: North, South
+    North C holding: 6JKQ
+    South C holding: 468A
+    Suggestion: replace C: K Q J 6 with C: K Q J 7
+    Regex: r"&clubs;.*?K Q J 6" => '&clubs; K Q J 7'
+ThirdHand, Deal 5: Card D3 appears in multiple hands: South, West
+    South D holding: 3JKT
+    West D holding: 378
+    Suggestion: replace D: 8 7 3 with D: 8 7 5
+    Regex: r"&diams;.*?8 7 3" => '&diams; 8 7 5'
+ThirdHand, Deal 8: Card DT appears in multiple hands: North, East
+    North D holding: 4KT
+    East D holding: 589T
+    Suggestion: replace D: K 10 4 with D: K 7 4
+    Regex: r"&diams;.*?K 10 4" => '&diams; K 7 4'
+ThirdHand, Deal 8: Card C7 appears in multiple hands: North, East
+    North C holding: 27A
+    East C holding: 379
+    Suggestion: replace C: A 7 2 with C: A J 2
+    Regex: r"&clubs;.*?A 7 2" => '&clubs; A J 2'
+ThirdHand, Deal 8: Card D8 appears in multiple hands: East, West
+    East D holding: 589T
+    West D holding: 358A
+    Suggestion: replace D: A 8 5 3 with D: A 7 5 3
+    Regex: r"&diams;.*?A 8 5 3" => '&diams; A 7 5 3'
+ThirdHand, Deal 8: Card D5 appears in multiple hands: East, West
+    East D holding: 589T
+    West D holding: 357A
+    Suggestion: replace D: A 7 5 3 with D: A 7 3
+    Regex: r"&diams;.*?A 7 5 3" => '&diams; A 7 3'
+Transfers, Deal 2: Card S6 appears in multiple hands: North, South
+    North S holding: 6KT
+    South S holding: 4678Q
+    Suggestion: replace S: K 10 6 with S: K 10 5
+    Regex: r"&spades;.*?K 10 6" => '&spades; K 10 5'
+Transfers, Deal 3: Card S6 appears in multiple hands: North, South
+    North S holding: 6KT
+    South S holding: 467JQ
+    Suggestion: replace S: K 10 6 with S: K 10 5
+    Regex: r"&spades;.*?K 10 6" => '&spades; K 10 5'
+Weak2, Deal 8: Card S9 appears in multiple hands: North, South
+    North S holding: 3679AQ
+    South S holding: 4579K
+    Suggestion: replace S: A Q 9 7 6 3 with S: A Q 8 7 6 3
+    Regex: r"&spades;.*?A Q 9 7 6 3" => '&spades; A Q 8 7 6 3'
+Weak2, Deal 8: Card S7 appears in multiple hands: North, South
+    North S holding: 3678AQ
+    South S holding: 4579K
+    Suggestion: replace S: A Q 8 7 6 3 with S: A Q 8 6 3
+    Regex: r"&spades;.*?A Q 8 7 6 3" => '&spades; A Q 8 6 3'
+Weak2, Deal 13: Card C5 appears in multiple hands: North, South
+    North C holding: 5AJT
+    South C holding: 56
+    Suggestion: replace C: A J 10 5 with C: A J 10 4
+    Regex: r"&clubs;.*?A J 10 5" => '&clubs; A J 10 4'

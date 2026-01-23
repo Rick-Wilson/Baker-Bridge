@@ -1,0 +1,134 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:02:38 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Trumpmgmt 19}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:QJT73.J3.862.J95 .T96.KQJT3.A8742 A98.Q52.9754.QT6 K6542.AK874.A.K3"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6H"]
+[Result ""]
+{North's 6\H response to Blackwood showed one Ace and a \S void. South is to play 6\H. West leads the \SQ.
+
+Losers:   \S = ??    \H = 1  \D = 0    \C = 0 Total = 1 ??
+
+Of course you ruff the \S in dummy. West wouldn't underlead an Ace at a slam contract, and since you have a certain trump loser you cannot afford to lose a trick to East's \SA.
+
+Dummy has some great \Ds, but you can't expect to run them unless you have pulled all the trumps. But if you play \H A K 4 the defenders will take their trump trick and immediately set the contract with the \SA. There IS a way around the problem.  
+
+First off, you must get a 3-2 split in trumps because if they don't split 3-2 you will have two trump losers. So you assume that they are split just like you need them to be.
+
+At trick two you duck a trump. That's right, you lose a trump trick early. Since you have to lose a trump sometime, you do it at a time when the defenders can't hurt you. So a defender wins the trump trick, but now a \S play won't hurt because dummy still has a trump to ruff with! In fact, whatever they play next you will win, pull the outstanding trumps, then run dummy's \D suit.
+
+for the full deal. 
+
+When you have a trump loser but still need to pull their trumps, it may be better for you to lose an early trump trick rather than a later one.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1S Pass 2D Pass
+3H Pass 4H Pass
+4NT Pass 6H Pass
+Pass Pass
+[Play "W"]
+SQ
+
+[Event ""]
+{Baker Trumpmgmt 20}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:JT983.6.KJ974.JT AKQ.AK98.AT863.5 65.5432.Q2.KQ973 742.QJT7.5.A8642"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6H"]
+[Result ""]
+{Agreed that the bidding wasn't much. The final contract is still a good one. South is to play 6\H. West leads the \SJ.
+
+Losers:   \S=0  \H=0  \D=0  \C=4  Total = 4
+
+There really aren't 4 \C losers since they can be ruffed in dummy. In fact you should see that this is an ideal cross-ruff hand, ruffing \Cs in dummy and \Ds in your hand. Since neither hand can be over-ruffed you expect to make all 8 trumps.
+
+Remember, when playing a cross ruff, you need to take any side suit winners first, otherwise a defender may be able to discard that suit while you are ruffing. So you win the \SA, then take the \SK, then . . . what? 
+
+Losers:   \S=0  \H=0  \D=0  \C=4  Total = 4
+
+There really aren't 4 \C losers since they can be ruffed in dummy. In fact you should see that this is an ideal cross-ruff hand, ruffing \Cs in dummy and \Ds in your hand. Since neither hand can be over-ruffed you expect to make all 8 trumps.
+
+Remember, when playing a cross ruff, you need to take any side suit winners first, otherwise a defender may be able to discard that suit while you are ruffing. So you win the \SA, then take the \SK, then . . . what?
+
+Well, if you win the \SQ, then the two Minor suit Aces, you'd be set up to cross-ruff the hand out for all 13 tricks. But here's what might happen if you try.
+
+East might ruff the \SQ. OK, no disaster yet. But he might then play a trump. Your slam is now kaput. You can no longer make 8 trump tricks and will end up down 1. 
+
+The answer is to not be greedy for that overtrick. With West's opening \S lead there is an indication of possible length there. So, realizing that East could be short in the suit, take just the 2 \S tricks that you need for the slam, then play your Minor Aces and start the cross-ruff.
+
+Don't jeopardize your contract trying to take too many. }
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1D Pass 1H Pass
+4NT Pass 5D Pass
+6H Pass Pass Pass
+[Play "W"]
+SJ
