@@ -1,0 +1,6432 @@
+% PBN 2.1
+% Auction Mismatches - Expected vs BBA (non-fill deals only)
+% Source: BakerBridgeFull-bba.pbn
+% Total mismatches: 282
+
+[Event ""]
+[Board "1"]
+{100Deals-4}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:KQJ.A862.Q63.T94 72.QT43.AJ92.Q73 T98653.K7.84.AKJ A4.J95.KT75.8652"]
+[Auction "S"]
+1S Pass 1NT? =1=
+Pass 2S Pass 4S
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 2H -> 1NT.
+
+Expected:
+
+---- ---- ---- 1S
+
+Pass 2H? Pass 2S
+
+Pass 4S Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "2"]
+{100Deals-6}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:QJT9.A5.7542.973 8754.96.KQT9.Q84 A2.K742.A863.AT5 K63.QJT83.J.KJ62"]
+[Auction "S"]
+1NT Pass 2C? =1=
+Pass 2H Pass 2NT
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): PASS -> 2C.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass Pass? Pass}
+
+[Event ""]
+[Board "3"]
+{100Deals-7}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:T64.KJ7.86.J7532 982.5.QT742.AK96 QJ5.AQT963.AK5.Q AK73.842.J93.T84"]
+[Auction "S"]
+1H Pass Pass? X
+3H Pass Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 2H -> PASS.
+
+Expected:
+
+---- ---- ---- 1H
+
+Pass 2H? Pass 4H
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "4"]
+{100Deals-9}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:952.KQ92.KQ83.J7 A74.J863.T5.9843 T63.AT754.AJ2.AK KQJ8..9764.QT652"]
+[Auction "S"]
+1H Pass 2NT? =1=
+Pass 3H Pass 4H
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 3H -> 2NT.
+
+Expected:
+
+---- ---- ---- 1H
+
+Pass 3H? Pass 4H
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "5"]
+{100Deals-10}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:KQ92.952.K7.KQ83 .A874.QJ632.T764 A8754.T63.A8.AJ2 JT63.KQJ.T954.95"]
+[Auction "N"]
+1C Pass 1S Pass
+2S Pass 3C? =1=
+Pass 3D =2= Pass
+4D =3= Pass 4S
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #7 (S): 4S -> 3C.
+
+Expected:
+
+---- 1C Pass 1S
+
+Pass 2S Pass 4S?
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "6"]
+{100Deals-11}
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:K82.754.K9542.Q3 JT97.KQT6.J6.J54 A63.A92.A87.A976 Q54.J83.QT3.KT82"]
+[Auction "E"]
+Pass 1NT Pass 2NT
+Pass Pass? Pass
+[Result ""]
+{Difference: Bid #6 (S): 3NT -> PASS.
+
+Expected:
+
+---- ---- Pass 1NT
+
+Pass 2NT Pass 3NT?
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "7"]
+{100Deals-12}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:85.J762.83.AKQ43 J96.KQT9.K5.JT87 AK72.A83.AQ72.62 QT43.54.JT964.95"]
+[Auction "S"]
+1NT Pass 2C =1=
+Pass 2S Pass? 3C
+Pass 3NT Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #7 (N): 3NT -> 3C.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2C Pass 2S
+
+Pass 3NT? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "8"]
+{100Deals-13}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:.T965.AT9643.Q72 K3.A8742.J82.964 AJT7542..75.AKJT Q986.KQJ3.KQ.853"]
+[Auction "S"]
+1S Pass 1NT =1=
+Pass? 2S Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #5 (S): 4S -> 2S.
+
+Expected:
+
+---- ---- ---- 1S
+
+Pass 1NT Pass 4S?
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "9"]
+{100Deals-14}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:A74.KT953.J53.Q3 Q85.A74.QT96.K82 K63.QJ.AK42.AT64 JT92.862.87.J975"]
+[Auction "S"]
+1NT Pass 2D? Pass
+2H Pass 3NT Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 3H -> 2D.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 3H? Pass 3NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "10"]
+{100Deals-15}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:954.T873.AQ62.75 62.52.T753.A8432 A73.KJ964.KJ.QJT KQJT8.AQ.984.K96"]
+[Auction "S"]
+1H 1S 3H? Pass
+Pass X Pass 4C
+Pass Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 2H -> 3H.
+
+Expected:
+
+---- ---- ---- 1H
+
+1S 2H? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "11"]
+{100Deals-18}
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:AQJ2.T742.T9.AQ4 K865.9.KQJ4.KJT7 3.AKQJ83.863.963 T974.65.A752.852"]
+[Auction "E"]
+1D 2H? Pass 4H
+Pass Pass Pass
+[Result ""]
+{Difference: Bid #2 (S): 1H -> 2H.
+
+Expected:
+
+---- ---- 1D 1H?
+
+Pass 4H Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "12"]
+{100Deals-19}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:985.Q.A7643.AT92 QT2.98743.T9.854 AK764.AJT.8.KQJ7 J3.K652.KQJ52.63"]
+[Auction "S"]
+1S Pass 1NT? =1=
+Pass 3C Pass 3S
+Pass 4C =2= Pass
+4D =3= Pass 4S
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 3S -> 1NT.
+
+Expected:
+
+---- ---- ---- 1S
+
+Pass 3S? Pass 4NT
+
+Pass 5H Pass 6S
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "13"]
+{100Deals-20}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:9764.K8.AT62.AQ3 QJT8.653.Q54.J74 K5.A94.K9873.KT5 A32.QJT72.J.9862"]
+[Auction "S"]
+1D 1H? X Pass
+1NT Pass 3NT Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #2 (W): 1S -> 1H.
+
+Expected:
+
+---- ---- ---- 1D
+
+1S? Pass 1NT Pass
+
+3NT Pass Pass Pass}
+
+[Event ""]
+[Board "14"]
+{100Deals-22}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:9873.964.A85.AKQ KJ2.QJ72.73.T954 T654.AK3.9642.J8 AQ.T85.KQJT.7632"]
+[Auction "N"]
+1C Pass 1S Pass
+2S Pass Pass X?
+Pass 3H 3S Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #8 (W): PASS -> X.
+
+Expected:
+
+---- 1C Pass 1S
+
+Pass 2S Pass Pass
+
+Pass?}
+
+[Event ""]
+[Board "15"]
+{100Deals-23}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:QT7.T5.Q72.AQT95 9542.A963.J83.K4 AK3.K4.AK65.J872 J86.QJ872.T94.63"]
+[Auction "S"]
+1D Pass 1NT? Pass
+2NT Pass 3C Pass
+3NT Pass Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 2C -> 1NT.
+
+Expected:
+
+---- ---- ---- 1D
+
+Pass 2C? Pass 3NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "16"]
+{100Deals-24}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:A853.A642.K7.AK5 K.J983.Q9543.642 T762.5.A6.QJT873 QJ94.KQT7.JT82.9"]
+[Auction "N"]
+1C Pass 4C? Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (S): 1S -> 4C.
+
+Expected:
+
+---- 1C Pass 1S?
+
+Pass 3S Pass 4S
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "17"]
+{100Deals-25}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:63.754.764.AKQJ7 Q95.K983.QJ953.6 AK8742.A6.AT2.53 JT.QJT2.K8.T9842"]
+[Auction "S"]
+1S Pass 1NT? =1=
+Pass 2S Pass 3S
+Pass 3NT =2= Pass
+4S Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 2C -> 1NT.
+
+Expected:
+
+---- ---- ---- 1S
+
+Pass 2C? Pass 3S
+
+Pass 4S Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "18"]
+{100Deals-26}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:AJ3.T864.Q965.87 QT7.K95.JT83.KQ2 K864.QJ3.AK2.A95 952.A72.74.JT643"]
+[Auction "S"]
+1NT Pass 2C? =1=
+Pass 2S Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): PASS -> 2C.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass Pass? Pass}
+
+[Event ""]
+[Board "19"]
+{100Deals-27}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:86.93.A9742.A763 T43.T852.KJ86.K8 AKQJ52.KQ7.53.94 97.AJ64.QT.QJT52"]
+[Auction "S"]
+1S Pass 1NT =1=
+Pass? 2S Pass 3S
+Pass 3NT =2= Pass
+4S Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #5 (S): 3S -> 2S.
+
+Expected:
+
+---- ---- ---- 1S
+
+Pass 1NT Pass 3S?
+
+Pass 4S Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "20"]
+{100Deals-29}
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:AQ6.K752.A873.75 J984.QT3.K92.963 K73.A64.QJT5.A82 T52.J98.64.KQJT4"]
+[Auction "E"]
+Pass 1D Pass 1H
+Pass 1NT Pass 3D?
+Pass 3NT Pass Pass
+Pass
+[Result ""]
+{Difference: Bid #8 (N): 3NT -> 3D.
+
+Expected:
+
+---- ---- Pass 1D
+
+Pass 1H Pass 1NT
+
+Pass 3NT? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "21"]
+{100Deals-31}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:A983.AK72.965.83 QT4.J98.QJ4.JT72 K752.64.A83.AK64 J6.QT53.KT72.Q95"]
+[Auction "S"]
+1C Pass 1H Pass
+1S Pass 4S? Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #7 (N): 3S -> 4S.
+
+Expected:
+
+---- ---- ---- 1C
+
+Pass 1H Pass 1S
+
+Pass 3S? Pass 4S
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "22"]
+{100Deals-33}
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:K74.K5.A64.Q8743 J8632.QT84.983.A 9.A93.K52.KJT962 AQT5.J762.QJT7.5"]
+[Auction "E"]
+Pass 1C X? XX
+2S 3C 3S 4C
+4S X Pass Pass
+Pass
+[Result ""]
+{Difference: Bid #3 (W): PASS -> X.
+
+Expected:
+
+---- ---- Pass 1C
+
+Pass? 3C Pass 5C
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "23"]
+{100Deals-34}
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:QJ5.J873.Q74.KQT K42.52.9832.A763 A63.KQT964.AKJ.8 T987.A.T65.J9542"]
+[Auction "E"]
+Pass 1H Pass 3C?
+=1= Pass 4NT =2=
+Pass 5D =3= Pass
+5H Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #4 (N): 3H -> 3C.
+
+Expected:
+
+---- ---- Pass 1H
+
+Pass 3H? Pass 4NT
+
+Pass 5C Pass 5H
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "24"]
+{100Deals-35}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:A63.752.A753.T54 KT98.963.QJ4.972 QJ74.AK.T862.AKQ 52.QJT84.K9.J863"]
+[Auction "S"]
+1D Pass 1NT? Pass
+2NT Pass 3NT Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 2D -> 1NT.
+
+Expected:
+
+---- ---- ---- 1D
+
+Pass 2D? Pass 3NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "25"]
+{100Deals-36}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:64.A73.KQ54.AK82 K5.J952.A86.9763 QJ9873.KQ6.72.J4 AT2.T84.JT93.QT5"]
+[Auction "N"]
+1NT Pass 2H? Pass
+2S Pass 4S Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (S): 4S -> 2H.
+
+Expected:
+
+---- 1NT Pass 4S?
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "26"]
+{100Deals-37}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AJ52.854.AKJ3.84 T74.AJ3.T852.J93 Q863.972.Q7.AKQ6 K9.KQT6.964.T752"]
+[Auction "N"]
+1D Pass 1S Pass
+2S Pass 3S? Pass
+4S Pass Pass Pass
+[Result ""]
+{Difference: Bid #7 (S): 4S -> 3S.
+
+Expected:
+
+---- 1D Pass 1S
+
+Pass 2S Pass 4S?
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "27"]
+{100Deals-38}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:A72.QJ3.Q862.964 53.T7642.A75.753 K6.K98.KJT4.AK82 QJT984.A5.93.QJT"]
+[Auction "S"]
+1NT 2S Pass? Pass
+Pass
+[Result ""]
+{Difference: Bid #3 (N): 2NT -> PASS.
+
+Expected:
+
+---- ---- ---- 1NT
+
+2S 2NT? Pass 3NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "28"]
+{100Deals-39}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:54.T963.AK92.Q85 A.QJ72.J753.KJ64 KQJ862.5.Q64.972 T973.AK84.T8.AT3"]
+[Auction "S"]
+2S Pass Pass X?
+Pass 3H Pass Pass
+Pass
+[Result ""]
+{Difference: Bid #4 (E): PASS -> X.
+
+Expected:
+
+---- ---- ---- 2S
+
+Pass Pass Pass?}
+
+[Event ""]
+[Board "29"]
+{100Deals-41}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:A82.KQ5.QJ73.Q64 K74.872.K82.JT75 QJT.A3.T954.AK32 9653.JT964.A6.98"]
+[Auction "N"]
+1D Pass 2C? Pass
+2D Pass 2NT Pass
+3NT Pass Pass Pass
+[Result ""]
+{Difference: Bid #3 (S): 2NT -> 2C.
+
+Expected:
+
+---- 1D Pass 2NT?
+
+Pass 3NT Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "30"]
+{100Deals-42}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:87.A83.952.Q8743 94.7652.Q764.AJ9 AK62.KQJT9.AJ.65 QJT53.4.KT83.KT2"]
+[Auction "S"]
+1H 1S? 2H Pass
+4H Pass Pass Pass
+[Result ""]
+{Difference: Bid #2 (W): PASS -> 1S.
+
+Expected:
+
+---- ---- ---- 1H
+
+Pass? 2H Pass 4H
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "31"]
+{100Deals-43}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:A7.K64.QJ84.KQ73 QT54.J83.T93.A85 K832.QT952.K7.62 J96.A7.A652.JT94"]
+[Auction "N"]
+1NT Pass 2D? Pass
+2H Pass 2S Pass
+4H Pass Pass Pass
+[Result ""]
+{Difference: Bid #3 (S): 2C -> 2D.
+
+Expected:
+
+---- 1NT Pass 2C?
+
+Pass 2D Pass 2H
+
+Pass 3H Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "32"]
+{100Deals-44}
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:8.Q752.AJ82.Q653 T93.JT63.QT93.J4 AQ6.K9.K654.AKT9 KJ7542.A84.7.872"]
+[Auction "E"]
+Pass 1D 2S? X
+3S 3NT Pass Pass
+Pass
+[Result ""]
+{Difference: Bid #3 (W): PASS -> 2S.
+
+Expected:
+
+---- ---- Pass 1D
+
+Pass? 1H Pass 2NT
+
+Pass 3D Pass 3NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "33"]
+{100Deals-45}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:Q4.A6.98653.Q842 T93.92.AQT4.AJ73 AKJ862.K74.2.K65 75.QJT853.KJ7.T9"]
+[Auction "S"]
+1S Pass 1NT =1=
+Pass? 2S Pass 3S
+Pass 4C =2= Pass
+4S Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #5 (S): 3S -> 2S.
+
+Expected:
+
+---- ---- ---- 1S
+
+Pass 1NT Pass 3S?
+
+Pass 4S Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "34"]
+{100Deals-46}
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:8743.AK63.73.AK6 T62.JT95.82.9832 AKQJ.Q72.T96.J74 95.84.AKQJ54.QT5"]
+[Auction "W"]
+1D X Pass 2D
+=1=? X Pass Pass
+2S Pass 3D =2=
+Pass 4S Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #5 (W): PASS -> X.
+
+Expected:
+
+1D X Pass 2D
+
+Pass? 2H Pass 2S
+
+Pass 4S Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "35"]
+{100Deals-47}
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:A62.JT3.854.AK85 QJ98.A5.QT62.Q43 K753.Q864.AK7.J2 T4.K972.J93.T976"]
+[Auction "E"]
+Pass 1D Pass 2NT?
+Pass 3H Pass 3NT
+Pass Pass Pass
+[Result ""]
+{Difference: Bid #4 (N): 2C -> 2NT.
+
+Expected:
+
+---- ---- Pass 1D
+
+Pass 2C? Pass 2NT
+
+Pass 3NT Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "36"]
+{100Deals-48}
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:QJT82.965.QT.Q74 K7.J74.A753.J985 A96543.82.KJ8.AK .AKQT3.9642.T632"]
+[Auction "W"]
+Pass Pass Pass 1S
+Pass? 2S Pass 3S
+Pass 4S Pass Pass
+Pass
+[Result ""]
+{Difference: Bid #5 (W): 2H -> PASS.
+
+Expected:
+
+Pass Pass Pass 1S
+
+2H? 4S Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "37"]
+{100Deals-49}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:9862.874.A96.A86 53.652.QT52.KQ93 AT.AKQJ9.K43.752 KQJ74.T3.J87.JT4"]
+[Auction "S"]
+1H 1S? 2S =1=
+Pass 2NT =2= Pass
+3C =3= Pass 3D
+=4= Pass 3H Pass
+4D =5= Pass 4H
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #2 (W): PASS -> 1S.
+
+Expected:
+
+---- ---- ---- 1H
+
+Pass? 2H Pass 3C
+
+Pass 4H Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "38"]
+{100Deals-50}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AJ64.75.AK742.62 T.K983.QJ95.QT74 KQ98752.A4.63.A8 3.QJT62.T8.KJ953"]
+[Auction "N"]
+1D Pass 1S 2D?
+=1= 2S 4H 4S
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #4 (W): PASS -> 2D.
+
+Expected:
+
+---- 1D Pass 1S
+
+Pass? 2S Pass 3C
+
+Pass 3D Pass 4NT
+
+Pass 5H Pass 6S
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "39"]
+{100Deals-52}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:Q92.854.A63.7542 A6.J9.T8742.KJ93 KJT84.AK32.95.A6 753.QT76.KQJ.QT8"]
+[Auction "S"]
+1S Pass Pass? Pass
+[Result ""]
+{Difference: Bid #3 (N): 2S -> PASS.
+
+Expected:
+
+---- ---- ---- 1S
+
+Pass 2S? Pass 3D
+
+Pass 3S Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "40"]
+{100Deals-53}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:75.K64.AQ853.AJ2 K94.J93.K72.QT54 AJ2.AT7.JT9.K763 QT863.Q852.64.98"]
+[Auction "S"]
+1C Pass 1D Pass
+1NT Pass 2D? Pass
+3NT Pass Pass Pass
+[Result ""]
+{Difference: Bid #7 (N): 3NT -> 2D.
+
+Expected:
+
+---- ---- ---- 1C
+
+Pass 1D Pass 1NT
+
+Pass 3NT? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "41"]
+{100Deals-55}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:KJ6.QJ862.642.93 T853.94.KJT.K872 72.AKT73.A83.A54 AQ94.5.Q975.QJT6"]
+[Auction "S"]
+1H X? 2H Pass
+Pass X 3H Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #2 (W): PASS -> X.
+
+Expected:
+
+---- ---- ---- 1H
+
+Pass? 4H Pass Pass
+
+Pass Pass}
+
+[Event ""]
+[Board "42"]
+{100Deals-57}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:A962.A8.A876.A43 .K63.KJT942.T962 85.QJT9742.5.KJ8 KQJT743.5.Q3.Q75"]
+[Auction "S"]
+3H 3S 4H X?
+Pass Pass Pass
+[Result ""]
+{Difference: Bid #4 (E): PASS -> X.
+
+Expected:
+
+---- ---- ---- 3H
+
+3S 4H Pass? Pass
+
+Pass}
+
+[Event ""]
+[Board "43"]
+{100Deals-58}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AQ.AK.AKQT2.JT76 652.QT73.7.A8532 K873.J842.963.KQ JT94.965.J854.94"]
+[Auction "N"]
+2C =1= Pass 2NT
+Pass? 3D Pass 3H
+Pass 3NT Pass 4D
+Pass 4S =2= Pass
+6D Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #5 (N): 4C -> 3D.
+
+Expected:
+
+---- 2C Pass 2NT
+
+Pass 4C? Pass 4D
+
+Pass 6NT Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "44"]
+{100Deals-60}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:QJ5.Q962.A74.QJ6 8.K754.T86.KT952 AKT964.JT3.952.A 732.A8.KQJ3.8743"]
+[Auction "S"]
+1S Pass 1NT? =1=
+Pass 2S Pass 4S
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 2H -> 1NT.
+
+Expected:
+
+---- ---- ---- 1S
+
+Pass 2H? Pass 2S
+
+Pass 3S Pass 4S
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "45"]
+{100Deals-62}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:A853.62.A8.AJT85 QJ92.T53.J64.Q92 K4.KJ9.KT72.K643 T76.AQ874.Q953.7"]
+[Auction "N"]
+1C Pass 1D? 1H
+1S Pass 3NT Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (S): 2NT -> 1D.
+
+Expected:
+
+---- 1C Pass 2NT?
+
+Pass 3NT Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "46"]
+{100Deals-63}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:Q842.Q952.A74.86 AJ96.JT76.JT8.K5 5.A3.KQ96532.AQ4 KT73.K84..JT9732"]
+[Auction "S"]
+1D Pass 1H Pass
+3D Pass 3NT? Pass
+4D Pass 5D Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #7 (N): 4D -> 3NT.
+
+Expected:
+
+---- ---- ---- 1D
+
+Pass 1H Pass 3D
+
+Pass 4D? Pass 5D
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "47"]
+{100Deals-64}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:764.Q873.A972.86 T3.AJ952.JT54.53 AKQJ8.K4.K3.AKQ4 952.T6.Q86.JT972"]
+[Auction "S"]
+2C =1= Pass 2D
+=2= Pass 2S Pass
+3S? Pass 3NT =3=
+Pass 4D =4= Pass
+4H =5= Pass 4NT
+=6= Pass 5D =7=
+Pass 5H Pass 6C
+=8= Pass 6S Pass
+Pass Pass
+[
+[Result ""]
+{Difference: Bid #9 (S): 4NT -> 3NT.
+
+Expected:
+
+---- ---- ---- 2C
+
+Pass 2D Pass 2S
+
+Pass 3S Pass 4NT?
+
+Pass 5D Pass 6S
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "48"]
+{100Deals-66}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:T73.KJ54.K7.AQT6 Q654.96.AQJ9.K72 A8.AQT832.84.J94 KJ92.7.T6532.853"]
+[Auction "N"]
+1C Pass 1H Pass
+2H Pass 2S? =1=
+Pass 3C =2= Pass
+4H Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #7 (S): 4H -> 2S.
+
+Expected:
+
+---- 1C Pass 1H
+
+Pass 2H Pass 4H?
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "49"]
+{100Deals-67}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:72.KQ8763.K94.85 9653.T952.A85.T9 AK.AJ.QJT2.AQJ72 QJT84.4.763.K643"]
+[Auction "N"]
+2H Pass 2NT =1=
+Pass? 3S Pass 4H
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #5 (N): 3D -> 3S.
+
+Expected:
+
+---- 2H Pass 2NT
+
+Pass 3D? Pass 6NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "50"]
+{100Deals-68}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:73.5432.Q4.AKT83 KT9852.97.T2.QJ4 AJ4.KQJT86.873.6 Q6.A.AKJ965.9752"]
+[Auction "S"]
+1H 2D 3D? =1=
+Pass 4H Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 2H -> 3D.
+
+Expected:
+
+---- ---- ---- 1H
+
+2D 2H? 2S Pass
+
+Pass 3H Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "51"]
+{100Deals-69}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:92.85.K652.AJT32 T865.K943.74.874 AQ4.AJT.AQJ8.KQ6 KJ73.Q762.T93.95"]
+[Auction "S"]
+2C =1= Pass 3C
+Pass? 4C Pass 4D
+=2= Pass 4H =3=
+Pass 4NT =4= Pass
+5C =5= Pass 6C
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #5 (S): 4NT -> 4C.
+
+Expected:
+
+---- ---- ---- 2C
+
+Pass 3C Pass 4NT?
+
+Pass 5D Pass 5NT
+
+Pass 6D Pass 6NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "52"]
+{100Deals-70}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:83.64.T6.KQT8732 AQT.JT952.J943.5 K764.AQ.KQ8.AJ94 J952.K873.A752.6"]
+[Auction "S"]
+1C Pass 4C? Pass
+5C Pass Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 5C -> 4C.
+
+Expected:
+
+---- ---- ---- 1C
+
+Pass 5C? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "53"]
+{100Deals-71}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:K864.T52.K8.T643 QJT7.J93.AJ4.972 A5.AKQ764.Q73.85 932.8.T9652.AKQJ"]
+[Auction "S"]
+1H X? 2H Pass
+3H Pass Pass Pass
+[Result ""]
+{Difference: Bid #2 (W): PASS -> X.
+
+Expected:
+
+---- ---- ---- 1H
+
+Pass? 2H Pass 3D
+
+Pass 4H Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "54"]
+{100Deals-72}
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:AJ43.4.K732.AK73 QT9.85.T986.T854 K762.A763.A5.962 85.KQJT92.QJ4.QJ"]
+[Auction "W"]
+1H X Pass 1S?
+2H 2S Pass 4S
+Pass Pass Pass
+[Result ""]
+{Difference: Bid #4 (S): 2S -> 1S.
+
+Expected:
+
+1H X Pass 2S?
+
+Pass 4S Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "55"]
+{100Deals-73}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:862.K987.AQJT.83 AT54.J5.96.K9752 Q73.AQ643.852.AJ KJ9.T2.K743.QT64"]
+[Auction "S"]
+1H Pass 3C? =1=
+Pass 3H Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 3H -> 3C.
+
+Expected:
+
+---- ---- ---- 1H
+
+Pass 3H? Pass 4H
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "56"]
+{100Deals-74}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:K73.A862.Q4.Q754 965.K7.T985.KJ82 A42.QJT53.KJ7.A3 QJT8.94.A632.T96"]
+[Auction "S"]
+1H Pass 3C? =1=
+Pass 4H Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 3H -> 3C.
+
+Expected:
+
+---- ---- ---- 1H
+
+Pass 3H? Pass 4H
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "57"]
+{100Deals-75}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:QT4.AQJ6.754.KT8 865.973.QT63.A92 AJ93.K82.A8.QJ53 K72.T54.KJ92.764"]
+[Auction "S"]
+1NT Pass 3NT? Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 2C -> 3NT.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2C? Pass 2S
+
+Pass 3NT Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "58"]
+{100Deals-76}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:863.Q74.A862.954 4.KJ862.KQ5.KT73 AKQT97.A5.73.AQ6 J52.T93.JT94.J82"]
+[Auction "S"]
+1S Pass Pass? 2H
+3S Pass 4H =1=
+Pass 4S Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 2S -> PASS.
+
+Expected:
+
+---- ---- ---- 1S
+
+Pass 2S? X 4S
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "59"]
+{100Deals-77}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:JT7.AQJ4.7652.97 2.T853.QJT3.K642 AQ9653.K62.K8.A8 K84.97.A94.QJT53"]
+[Auction "S"]
+1S Pass 2S Pass
+4S? Pass Pass Pass
+[Result ""]
+{Difference: Bid #5 (S): 3H -> 4S.
+
+Expected:
+
+---- ---- ---- 1S
+
+Pass 2S Pass 3H?
+
+Pass 4S Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "60"]
+{100Deals-78}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:KJ62.K73.J4.K762 A5.965.T762.AT84 QT9743.A82.KQ8.3 8.QJT4.A953.QJ95"]
+[Auction "S"]
+1S X? 2NT =1=
+Pass 4S Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #2 (W): PASS -> X.
+
+Expected:
+
+---- ---- ---- 1S
+
+Pass? 3S Pass 4S
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "61"]
+{100Deals-80}
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:QJ5.764.KQT63.65 42.JT83.A92.QT73 AT8.AK9.J87.A982 K9763.Q52.54.KJ4"]
+[Auction "E"]
+Pass 1NT Pass 2NT
+Pass Pass? Pass
+[Result ""]
+{Difference: Bid #6 (S): 3NT -> PASS.
+
+Expected:
+
+---- ---- Pass 1NT
+
+Pass 2NT Pass 3NT?
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "62"]
+{100Deals-81}
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:765.A732.Q64.953 KQ43.6.AJT7.KT64 J.KQJT85.83.AQJ2 AT982.94.K952.87"]
+[Auction "E"]
+1D 1H 1S 2H
+3S? 4H X Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #5 (E): 2S -> 3S.
+
+Expected:
+
+---- ---- 1D 1H
+
+1S 2H 2S? 4H
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "63"]
+{100Deals-82}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:KQ32.Q64.9742.82 86.T975.T.KJ9753 AJ975.J2.AK53.AQ T4.AK83.QJ86.T64"]
+[Auction "S"]
+1S Pass 3D? =1=
+Pass 3NT =2= Pass
+4S Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 2S -> 3D.
+
+Expected:
+
+---- ---- ---- 1S
+
+Pass 2S? Pass 4S
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "64"]
+{100Deals-83}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:983.865.KQJ3.AK4 AK72.3.T8652.JT8 65.AKQ74.A94.763 QJT4.JT92.7.Q952"]
+[Auction "S"]
+1H Pass 2D Pass
+2NT? Pass 4H Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #5 (S): 2H -> 2NT.
+
+Expected:
+
+---- ---- ---- 1H
+
+Pass 2D Pass 2H?
+
+Pass 4H Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "65"]
+{100Deals-84}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:Q7.A82.T9752.QJ8 54.J73.KQ43.AT52 AKJ962.965.A6.K3 T83.KQT4.J8.9764"]
+[Auction "S"]
+1S Pass 1NT =1=
+Pass? 2S Pass 3S
+Pass 3NT =2= Pass
+4S Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #5 (S): 3S -> 2S.
+
+Expected:
+
+---- ---- ---- 1S
+
+Pass 1NT Pass 3S?
+
+Pass 4S Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "66"]
+{100Deals-85}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:62.532.AKQ764.42 K73.QT.JT952.K65 AQ4.A96.83.AJT73 JT985.KJ874..Q98"]
+[Auction "N"]
+2D Pass 2NT =1=
+Pass 3NT Pass? 4D
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #7 (S): PASS -> 4D.
+
+Expected:
+
+---- 2D Pass 2NT
+
+Pass 3NT Pass Pass?
+
+Pass}
+
+[Event ""]
+[Board "67"]
+{100Deals-86}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:65.K9.87642.A853 94.Q52.QT9.QJ962 AK72.AJT874.K5.4 QJT83.63.AJ3.KT7"]
+[Auction "S"]
+1H 1S X? Pass
+3H Pass 4H Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): PASS -> X.
+
+Expected:
+
+---- ---- ---- 1H
+
+1S Pass? Pass 3H
+
+Pass 4H Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "68"]
+{100Deals-88}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:AJ652.T4.Q743.J6 KQT3.973.KJ62.82 7.AKQ862.A5.Q953 984.J5.T98.AKT74"]
+[Auction "S"]
+1H Pass 1S Pass
+2C? Pass 2H Pass
+4H Pass Pass Pass
+[Result ""]
+{Difference: Bid #5 (S): 3H -> 2C.
+
+Expected:
+
+---- ---- ---- 1H
+
+Pass 1S Pass 3H?
+
+Pass 4H Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "69"]
+{100Deals-89}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:63.AJT.A63.A9842 AJT84.43.T74.KT3 Q7.KQ87652.852.6 K952.9.KQJ9.QJ75"]
+[Auction "S"]
+3H X? 4H Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #2 (W): PASS -> X.
+
+Expected:
+
+---- ---- ---- 3H
+
+Pass? 4H Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "70"]
+{100Deals-90}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:K86.A84.AQ8.QJT7 A42.T953.742.543 JT5.KQ6.KJT3.AK9 Q973.J72.965.862"]
+[Auction "S"]
+1NT Pass 4NT =1=
+Pass? Pass Pass
+[
+[Result ""]
+{Difference: Bid #5 (S): 6NT -> PASS.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 4NT Pass 6NT?
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "71"]
+{100Deals-91}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:QJ5.K54.T973.862 T862.9.KQ86.K753 A4.AQJT76.A52.A9 K973.832.J4.QJT4"]
+[Auction "S"]
+1H Pass Pass? X
+3H Pass Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 2H -> PASS.
+
+Expected:
+
+---- ---- ---- 1H
+
+Pass 2H? Pass 4H
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "72"]
+{100Deals-92}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:KQJ2.853.K7.A874 864.AJ92.QT3.K65 AT973.Q76.A865.Q 5.KT4.J942.JT932"]
+[Auction "S"]
+1S Pass 2NT? =1=
+Pass 3C =2= Pass
+3S Pass 4S Pass
+Pass Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 2C -> 2NT.
+
+Expected:
+
+---- ---- ---- 1S
+
+Pass 2C? Pass 2D
+
+Pass 4S Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "73"]
+{100Deals-93}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:QJ.AJ94.K843.Q65 752.Q7.JT52.AK94 AK9864.863.A7.73 T3.KT52.Q96.JT82"]
+[Auction "S"]
+1S Pass 2D? Pass
+2S Pass 4S Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 2H -> 2D.
+
+Expected:
+
+---- ---- ---- 1S
+
+Pass 2H? Pass 2S
+
+Pass 4S Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "74"]
+{100Deals-94}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:62.QT4.T9653.AQ7 JT74.73.KQ82.543 KQ5.KJ985.A7.K86 A983.A62.J4.JT92"]
+[Auction "S"]
+1H Pass 2H Pass
+4H? Pass Pass Pass
+[Result ""]
+{Difference: Bid #5 (S): 3C -> 4H.
+
+Expected:
+
+---- ---- ---- 1H
+
+Pass 2H Pass 3C?
+
+Pass 4H Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "75"]
+{100Deals-96}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:AJ5.73.8643.9532 76.JT95.972.QT74 KQT83.K62.AK.AK6 942.AQ84.QJT5.J8"]
+[Auction "S"]
+2C =1= Pass 2D
+=2=? Pass 2NT Pass
+3NT Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #5 (S): 2S -> 2NT.
+
+Expected:
+
+---- ---- ---- 2C
+
+Pass 2D Pass 2S?
+
+Pass 4S Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "76"]
+{100Deals-99}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:AJ6.Q73.Q852.762 842.AJT64.KJT.53 KT.852.A74.AKQ98 Q9753.K9.963.JT4"]
+[Auction "S"]
+1NT Pass 3NT? Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 2NT -> 3NT.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2NT? Pass 3NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "77"]
+{100Deals-100}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:964.K62.Q62.J753 87.T9.AKJ73.QT62 AKQ53.AQ73.54.A8 JT2.J854.T98.K94"]
+[Auction "S"]
+1S Pass Pass? 2D
+3D =1= Pass 3S
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 2S -> PASS.
+
+Expected:
+
+---- ---- ---- 1S
+
+Pass 2S? Pass 4S
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "78"]
+{100NT-2}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:J98642.4.K653.83 K7.JT98.J972.Q95 T5.AQ62.AQ4.AJ74 AQ3.K753.T8.KT62"]
+[Auction "S"]
+1NT Pass 2H Pass
+2S Pass 3S? Pass
+4S Pass Pass Pass
+[Result ""]
+{Difference: Bid #7 (N): PASS -> 3S.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2H Pass 2S
+
+Pass Pass? Pass}
+
+[Event ""]
+[Board "79"]
+{100NT-3}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:J4.A985.JT73.K82 A92.JT73.A64.J63 K65.KQ.KQ82.AT74 QT873.642.95.Q95"]
+[Auction "S"]
+1NT Pass 2C =1=
+Pass 2D Pass? 3D
+Pass 3NT Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #7 (N): 2NT -> 3D.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2C Pass 2D
+
+Pass 2NT? Pass 3NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "80"]
+{100NT-5}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:KJ853.AJ42.5.A64 96.QT83.J962.QJ3 AQT2.K7.KQ73.K75 74.965.AT84.T982"]
+[Auction "S"]
+1NT Pass 2H Pass
+2S? Pass 3H Pass
+4S Pass 4NT =1=
+Pass 5C =2= Pass
+6S Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #5 (S): 3S -> 2S.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2H Pass 3S?
+
+Pass 4NT Pass 5D
+
+Pass 6S Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "81"]
+{100NT-6}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:AJ6.QJ9752.642.8 T972.A8.T83.T964 K4.KT43.A75.KQJ2 Q853.6.KQJ9.A753"]
+[Auction "S"]
+1NT Pass 2D Pass
+2H X? XX 2S
+3H Pass 4H Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #6 (W): PASS -> X.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2D Pass 2H
+
+Pass? 4H Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "82"]
+{100NT-7}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:743.AQ72.753.K84 A6.63.QT984.QJT6 QJT5.K54.AK6.A52 K982.JT98.J2.973"]
+[Auction "S"]
+1NT Pass 3NT? Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 2C -> 3NT.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2C? Pass 2S
+
+Pass 2NT Pass 3NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "83"]
+{100NT-8}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:865.K72.AQ9.T643 KQT3.QT63.K752.8 A74.A94.863.AKQ9 J92.J85.JT4.J752"]
+[Auction "S"]
+1NT Pass 3NT? Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 2NT -> 3NT.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2NT? Pass 3NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "84"]
+{100NT-9}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:K762.5.KJ8743.72 5.QT982.92.98654 A84.AJ3.QT65.AKQ QJT93.K764.A.JT3"]
+[Auction "S"]
+2NT Pass 3C =1=
+Pass 3D Pass 4D
+Pass 5D Pass? 6D
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #11 (N): PASS -> 6D.
+
+Expected:
+
+---- ---- ---- 2NT
+
+Pass 3C Pass 3D
+
+Pass 4D Pass 5D
+
+Pass Pass? Pass}
+
+[Event ""]
+[Board "85"]
+{100NT-11}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:A73.J6.AQ762.A63 JT84.K753.JT93.8 K62.AQ.54.KQJ972 Q95.T9842.K8.T54"]
+[Auction "N"]
+1NT Pass 3NT? Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (S): 3C -> 3NT.
+
+Expected:
+
+---- 1NT Pass 3C?
+
+Pass 4C Pass 6C
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "86"]
+{100NT-14}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AQ5.J3.AJT3.QJT8 942.AQ8742.6.K75 JT6.KT96.875.A62 K873.5.KQ942.943"]
+[Auction "N"]
+1NT 2H Pass? Pass
+Pass
+[Result ""]
+{Difference: Bid #3 (S): X -> PASS.
+
+Expected:
+
+---- 1NT 2H X?
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "87"]
+{100NT-15}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:A6.972.KT83.AKQ5 T742.A543.J4.T82 KQJ8.KQ.A65.J763 953.JT86.Q972.94"]
+[Auction "S"]
+1NT Pass 6NT? Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 4NT -> 6NT.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 4NT? Pass 6NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "88"]
+{100NT-17}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:AQ6.8743.83.AT82 973.QJT9.942.Q53 KJ42.K5.AK6.K974 T85.A62.QJT75.J6"]
+[Auction "S"]
+1NT Pass 2C =1=
+Pass 2S Pass? 3NT
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #7 (N): 2NT -> 3NT.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2C Pass 2S
+
+Pass 2NT? Pass 3NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "89"]
+{100NT-19}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:J752.AK985.73.83 K64.QT4.965.T752 983.73.AK42.AKQJ AQT.J62.QJT8.964"]
+[Auction "S"]
+1NT Pass 2D? Pass
+2H Pass 2S Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 2C -> 2D.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2C? Pass 2D
+
+Pass 2H Pass 3NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "90"]
+{100NT-20}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:J98752.652.K.974 63.984.A8643.QJ3 KT.AK7.QJ95.AK82 AQ4.QJT3.T72.T65"]
+[Auction "S"]
+2NT Pass 3H Pass
+3S Pass Pass? Pass
+[Result ""]
+{Difference: Bid #7 (N): 4S -> PASS.
+
+Expected:
+
+---- ---- ---- 2NT
+
+Pass 3H Pass 3S
+
+Pass 4S? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "91"]
+{100NT-21}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:J5.AK743.843.632 Q762.J95.KJ97.QT AK3.T6.A652.A854 T984.Q82.QT.KJ97"]
+[Auction "S"]
+1NT Pass 2D Pass
+2H Pass Pass? Pass
+[Result ""]
+{Difference: Bid #7 (N): 2NT -> PASS.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2D Pass 2H
+
+Pass 2NT? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "92"]
+{100NT-24}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:J7.AQ72.83.JT975 Q52.JT64.QT4.K83 K64.K5.A9762.AQ4 AT983.983.KJ5.62"]
+[Auction "S"]
+1NT Pass 2C =1=
+Pass 2D Pass 2NT
+Pass? Pass Pass
+[
+[Result ""]
+{Difference: Bid #9 (S): 3NT -> PASS.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2C Pass 2D
+
+Pass 2NT Pass 3NT?
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "93"]
+{100NT-27}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:82.Q9.J73.J98632 QJ953.K43.K82.T4 A74.A852.QT94.AK KT6.JT76.A65.Q75"]
+[Auction "S"]
+1NT Pass Pass? Pass
+[Result ""]
+{Difference: Bid #3 (N): 2S -> PASS.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2S? Pass 3C
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "94"]
+{100NT-28}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:AKJ73.843.A54.K9 2.JT9.J863.87542 QT85.AQ7.KQ92.A6 964.K652.T7.QJT3"]
+[Auction "S"]
+1NT Pass 2H Pass
+2S? Pass 4NT =1=
+Pass 6S Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #5 (S): 3S -> 2S.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2H Pass 3S?
+
+Pass 6S Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "95"]
+{100NT-29}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:873.62.754.AKQ53 JT54.84.JT96.J82 AK6.AT3.A82.T974 Q92.KQJ975.KQ3.6"]
+[Auction "S"]
+1NT 2H 3C? Pass
+3NT Pass Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 3NT -> 3C.
+
+Expected:
+
+---- ---- ---- 1NT
+
+2H 3NT? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "96"]
+{100NT-32}
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:53.76.T5.9865432 QT84.AK5.9862.QT A96.9842.AK73.KJ KJ72.QJT3.QJ4.A7"]
+[Auction "E"]
+Pass 1NT Pass Pass?
+Pass
+[Result ""]
+{Difference: Bid #4 (N): 2S -> PASS.
+
+Expected:
+
+---- ---- Pass 1NT
+
+Pass 2S? Pass 3C
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "97"]
+{100NT-33}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:754.K97.K862.AQ5 T963.T852.QT9.J6 AKJ.AQ3.A43.KT42 Q82.J64.J75.9873"]
+[Auction "S"]
+2NT Pass 6NT? Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 4NT -> 6NT.
+
+Expected:
+
+---- ---- ---- 2NT
+
+Pass 4NT? Pass 6NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "98"]
+{100NT-34}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:A9.QT63.852.QJ94 QT54.A842.963.T7 K862.75.AK7.AK63 J73.KJ9.QJT4.852"]
+[Auction "S"]
+1NT Pass 2C =1=
+Pass 2S Pass? 3NT
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #7 (N): 2NT -> 3NT.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2C Pass 2S
+
+Pass 2NT? Pass 3NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "99"]
+{100NT-35}
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:873.A6.J852.AQ62 KQJT.KJ9754.A.95 A95.QT2.KQT63.K8 642.83.974.JT743"]
+[Auction "E"]
+1H 2D? Pass 3NT
+Pass Pass Pass
+[Result ""]
+{Difference: Bid #2 (S): 1NT -> 2D.
+
+Expected:
+
+---- ---- 1H 1NT?
+
+Pass 3NT Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "100"]
+{100NT-39}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:74.K752.95.AQ843 Q93.J98.QT72.K75 AJ5.A63.AK6.JT92 KT862.QT4.J843.6"]
+[Auction "S"]
+1NT Pass 2C =1=
+Pass 2D Pass? 3C
+Pass 3NT Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #7 (N): 2NT -> 3C.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2C Pass 2D
+
+Pass 2NT? Pass 3NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "101"]
+{100NT-40}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AQ3.K7.AJT4.K865 87.A9862.K75.QJ3 KJ652.QJT43.83.4 T94.5.Q962.AT972"]
+[Auction "N"]
+1NT Pass 2H? Pass
+2S Pass 4H Pass
+4S Pass Pass Pass
+[Result ""]
+{Difference: Bid #3 (S): 2D -> 2H.
+
+Expected:
+
+---- 1NT Pass 2D?
+
+Pass 2H Pass 2S
+
+Pass 4S Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "102"]
+{100NT-43}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:84.JT973.642.KJ5 97.K652.KQ9.T742 AK63.AQ.AT75.A83 QJT52.84.J83.Q96"]
+[Auction "S"]
+2NT Pass 3D Pass
+3H Pass 4H? Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #7 (N): 3NT -> 4H.
+
+Expected:
+
+---- ---- ---- 2NT
+
+Pass 3D Pass 3H
+
+Pass 3NT? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "103"]
+{100NT-45}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:A63.KQ73.Q87.J72 852.JT4.962.QT94 J97.A5.AKJT3.AK6 KQT4.9862.54.853"]
+[Auction "S"]
+2NT Pass 3C? =1=
+Pass 3D Pass 6NT
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 4NT -> 3C.
+
+Expected:
+
+---- ---- ---- 2NT
+
+Pass 4NT? Pass 6NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "104"]
+{100NT-46}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:J9862.Q2.AQ.8743 T5.AK65.JT3.QJ95 AKQ4.J83.98.AK62 73.T974.K76542.T"]
+[Auction "S"]
+1NT Pass 2H Pass
+2S? Pass 2NT Pass
+4S Pass Pass Pass
+[Result ""]
+{Difference: Bid #5 (S): 3S -> 2S.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2H Pass 3S?
+
+Pass 4S Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "105"]
+{100NT-48}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:Q63.842.Q8.KQT96 JT95.73.JT74.743 A74.AK5.A63.J852 K82.QJT96.K952.A"]
+[Auction "S"]
+1NT Pass? 3NT Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #2 (W): 2H -> PASS.
+
+Expected:
+
+---- ---- ---- 1NT
+
+2H? 3C Pass 3NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "106"]
+{100NT-52}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:AKJ5.AJT5.A64.83 T92.Q73.987.K962 Q4.K862.KQJ3.A75 8763.94.T52.QJT4"]
+[Auction "S"]
+1NT Pass 2C =1=
+Pass 2H Pass? 3S
+=2= Pass 4H Pass
+4NT =3= Pass 5H
+=4= Pass 5NT =5=
+Pass 6D =6= Pass
+6H Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #7 (N): 6H -> 3S.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2C Pass 2H
+
+Pass 6H? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "107"]
+{100NT-53}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:62.AT9.T65.KQ764 K97.87642.A9.T82 QJ4.QJ3.KQJ2.AJ5 AT853.K5.8743.93"]
+[Auction "S"]
+1NT Pass 3NT? Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 2NT -> 3NT.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2NT? Pass 3NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "108"]
+{100NT-54}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AK54.A32.QJT.J76 9832.T4.9763.KT5 7.KQJ9875.A.A842 QJT6.6.K8542.Q93"]
+[Auction "N"]
+1NT Pass 2D? Pass
+2H Pass 3C Pass
+4H Pass 4NT =1=
+Pass 5H =2= Pass
+5NT =3= Pass 6D
+=4= Pass 7H Pass
+Pass Pass
+[
+[Result ""]
+{Difference: Bid #3 (S): 4C -> 2D.
+
+Expected:
+
+---- 1NT Pass 4C?
+
+Pass 4S Pass 6H
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "109"]
+{100NT-55}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:843.95.A73.KQ953 T765.JT62.8.A842 AK92.A874.K42.JT QJ.KQ3.QJT965.76"]
+[Auction "S"]
+1NT 2D 3C? Pass
+3NT Pass Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 2NT -> 3C.
+
+Expected:
+
+---- ---- ---- 1NT
+
+2D 2NT? Pass 3C
+
+Pass 3NT Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "110"]
+{100NT-57}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:8654.AK2.Q4.AKT3 AK9.QT54.JT9.Q86 73.973.K87652.95 QJT2.J86.A3.J742"]
+[Auction "N"]
+1NT Pass Pass? Pass
+[Result ""]
+{Difference: Bid #3 (S): 2S -> PASS.
+
+Expected:
+
+---- 1NT Pass 2S?
+
+Pass 3C Pass 3D
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "111"]
+{100NT-58}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:KQT93.QJ4.85.652 A765.75.KT94.J98 J4.AT2.AJ62.AK73 82.K9863.Q73.QT4"]
+[Auction "S"]
+1NT Pass 2H Pass
+2S Pass Pass? Pass
+[Result ""]
+{Difference: Bid #7 (N): 2NT -> PASS.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2H Pass 2S
+
+Pass 2NT? Pass 3NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "112"]
+{100NT-59}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:KQ9653.62.J5.KT4 T84.KT74.T83.Q82 AJ72.A8.AK64.AJ3 .QJ953.Q972.9765"]
+[Auction "S"]
+2NT Pass 3H Pass
+3S? Pass 6NT Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #5 (S): 4S -> 3S.
+
+Expected:
+
+---- ---- ---- 2NT
+
+Pass 3H Pass 4S?
+
+Pass 6S Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "113"]
+{100NT-63}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:T94.Q83.AT72.K84 J763.JT94.K53.T7 KQ5.AK7.QJ96.Q52 A82.652.84.AJ963"]
+[Auction "S"]
+1NT Pass 3NT? Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 2NT -> 3NT.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2NT? Pass 3NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "114"]
+{100NT-66}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:A753.KJT94.Q65.7 KJ62.3.9842.QT63 QT94.AQ86.AK.AJ4 8.752.JT73.K9852"]
+[Auction "S"]
+2NT Pass 3C =1=
+Pass 3H Pass? 3S
+=2= Pass 4H Pass
+4NT =3= Pass 5D
+=4= Pass 5S Pass
+6D =5= Pass 6H
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #7 (N): 6H -> 3S.
+
+Expected:
+
+---- ---- ---- 2NT
+
+Pass 3C Pass 3H
+
+Pass 6H? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "115"]
+{100NT-69}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:J62.AKJ642.K.J64 T974.87.853.KQ52 AQ5.QT93.AJT7.A8 K83.5.Q9642.T973"]
+[Auction "S"]
+1NT Pass 2D Pass
+2H? Pass 4H Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #5 (S): 3H -> 2H.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2D Pass 3H?
+
+Pass 4NT Pass 5S
+
+Pass 6H all Pass}
+
+[Event ""]
+[Board "116"]
+{100NT-71}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:A753.K6.QJ52.T93 Q982.532.A9.8764 K4.A74.KT74.AQJ5 JT6.QJT98.863.K2"]
+[Auction "S"]
+1NT Pass 2C =1=
+Pass 2D Pass? 3NT
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #7 (N): 2NT -> 3NT.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2C Pass 2D
+
+Pass 2NT? Pass 3NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "117"]
+{100NT-72}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:AK73.KJ82.AQJ.98 Q62.Q65.T93.J754 J5.A973.K64.AK62 T984.T4.8752.QT3"]
+[Auction "S"]
+1NT Pass 2C =1=
+Pass 2H Pass? 3S
+=2= Pass 4C =3=
+Pass 4D =4= Pass
+4NT =5= Pass 5D
+=6= Pass 5S Pass
+6H =7= Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #7 (N): 4NT -> 3S.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2C Pass 2H
+
+Pass 4NT? Pass 5H
+
+Pass 6H all Pass}
+
+[Event ""]
+[Board "118"]
+{100NT-73}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:A75.K963.AK8.Q53 KQJ963.8.93.AJ87 4.QJT74.752.K642 T82.A52.QJT64.T9"]
+[Auction "N"]
+1NT 2S X? Pass
+3H Pass Pass 3S
+4H Pass Pass Pass
+[Result ""]
+{Difference: Bid #3 (S): 2NT -> X.
+
+Expected:
+
+---- 1NT 2S 2NT?
+
+Pass 3C Pass 3H
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "119"]
+{100NT-74}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:KJT84.A762.K.743 AQ52.Q3.J96.QJT9 97.K54.AQ72.AK52 63.JT98.T8543.86"]
+[Auction "S"]
+1NT Pass 2H? Pass
+2S Pass 3H Pass
+3NT Pass Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 2C -> 2H.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2C? Pass 2D
+
+Pass 3S Pass 3NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "120"]
+{100NT-75}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:AT98.AK2.95.8742 Q73.T.T8643.JT95 J65.764.AKJ.AK63 K42.QJ9853.Q72.Q"]
+[Auction "S"]
+1NT 2H X? Pass
+2S Pass 3NT Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 2NT -> X.
+
+Expected:
+
+---- ---- ---- 1NT
+
+2H 2NT? Pass 3C
+
+Pass 3H Pass 3NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "121"]
+{100NT-76}
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:52.A73.KT43.KJ62 73.JT85.J6.QT873 AT9.KQ64.A952.A5 KQJ864.92.Q87.94"]
+[Auction "W"]
+2S Pass Pass 2NT
+Pass Pass? Pass
+[Result ""]
+{Difference: Bid #6 (N): 3NT -> PASS.
+
+Expected:
+
+2S Pass Pass 2NT
+
+Pass 3NT? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "122"]
+{100NT-77}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:J98643.752.62.AQ 7.QJ963.Q84.KT53 AT2.A8.AK73.9862 KQ5.KT4.JT95.J74"]
+[Auction "S"]
+1NT Pass 2H Pass
+2S Pass Pass? Pass
+[Result ""]
+{Difference: Bid #7 (N): 3S -> PASS.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2H Pass 2S
+
+Pass 3S? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "123"]
+{100NT-79}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:QT984.A4.Q72.865 753.Q6.JT64.KJ92 KJ.T973.AK53.AQ4 A62.KJ852.98.T73"]
+[Auction "S"]
+1NT Pass 2H Pass
+2S Pass Pass? Pass
+[Result ""]
+{Difference: Bid #7 (N): 2NT -> PASS.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2H Pass 2S
+
+Pass 2NT? Pass 3NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "124"]
+{100NT-80}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:K986.AT4.T752.A2 QJ42.83.983.T865 AT73.97.KQJ.KQJ7 5.KQJ652.A64.943"]
+[Auction "S"]
+1NT 2H X? Pass
+2S Pass 3NT Pass
+4S Pass Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 2NT -> X.
+
+Expected:
+
+---- ---- ---- 1NT
+
+2H 2NT? Pass 3C
+
+Pass 3H Pass 3S
+
+Pass 4S all Pass}
+
+[Event ""]
+[Board "125"]
+{100NT-81}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AJ7.764.KQ97.AQ2 8653.JT93.62.974 9.AQ5.AJT853.KJ6 KQT42.K82.4.T853"]
+[Auction "N"]
+1NT Pass 3NT? Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (S): 3D -> 3NT.
+
+Expected:
+
+---- 1NT Pass 3D?
+
+Pass 4D Pass 4H
+
+Pass 4S Pass 6D
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "126"]
+{100NT-86}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:A75.975.K854.QT2 KQJ3.KT4.J93.743 984.A62.AQ.AJ985 T62.QJ83.T762.K6"]
+[Auction "S"]
+1NT Pass 2NT Pass
+Pass? Pass
+[Result ""]
+{Difference: Bid #5 (S): 3NT -> PASS.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2NT Pass 3NT?
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "127"]
+{100NT-88}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:95.KQ7.KQ73.AJ96 QT64.A4.AT2.8432 AK732.JT986.64.5 J8.532.J985.KQT7"]
+[Auction "N"]
+1NT Pass 2H Pass
+2S Pass 4H? Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #7 (S): 3H -> 4H.
+
+Expected:
+
+---- 1NT Pass 2H
+
+Pass 2S Pass 3H?
+
+Pass 4H Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "128"]
+{100NT-89}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:A7542.653.T65.84 KJT.Q7.QJ9.KJ963 963.AK2.A43.A752 Q8.JT984.K872.QT"]
+[Auction "S"]
+1NT Pass 2H? Pass
+2S Pass Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): PASS -> 2H.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass Pass? Pass}
+
+[Event ""]
+[Board "129"]
+{100NT-90}
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:85.Q65.Q82.A9863 974.JT72.9643.72 AT2.A83.A75.KQJ4 KQJ63.K94.KJT.T5"]
+[Auction "W"]
+1S Pass Pass X?
+Pass 2C Pass 3C
+Pass 3D Pass 3NT
+Pass Pass Pass
+[Result ""]
+{Difference: Bid #4 (S): 1NT -> X.
+
+Expected:
+
+1S Pass Pass 1NT?
+
+Pass 2NT Pass 3NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "130"]
+{100NT-92}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:73.65.J2.AJ98743 9642.KQT.QT5.T62 AK5.A984.A863.Q5 QJT8.J732.K974.K"]
+[Auction "S"]
+1NT Pass 4C? Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 2NT -> 4C.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2NT? Pass 3NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "131"]
+{100NT-94}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:QJ3.A5.AK82.Q832 974.J972.QT.AK65 KT62.KQT863.5.74 A85.4.J97643.JT9"]
+[Auction "N"]
+1NT Pass 2D? Pass
+2H Pass 4H Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (S): 2C -> 2D.
+
+Expected:
+
+---- 1NT Pass 2C?
+
+Pass 2D Pass 4H
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "132"]
+{100NT-95}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:T5.AQ63.8542.KJ8 84.98742.A7.T653 A72.K5.KJ63.AQ72 KQJ963.JT.QT9.94"]
+[Auction "S"]
+1NT 2S X? Pass
+3C Pass 3D Pass
+3NT Pass Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 3S -> X.
+
+Expected:
+
+---- ---- ---- 1NT
+
+2S 3S? Pass 3NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "133"]
+{100NT-96}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:A87632.8.KT5.982 QT4.KT52.AJ73.J5 K5.A64.962.AKQ63 J9.QJ973.Q84.T74"]
+[Auction "S"]
+1NT Pass 2H Pass
+2S Pass 4S? Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #7 (N): 3S -> 4S.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2H Pass 2S
+
+Pass 3S? Pass 4S
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "134"]
+{100NT-97}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:AJ3.KQ974.7642.T T75.63.QJT9.J542 KQ.AJT.AK53.A873 98642.852.8.KQ96"]
+[Auction "S"]
+2NT Pass 3D Pass
+3H? Pass 3NT Pass
+4H Pass 4NT =1=
+Pass 5D =2= Pass
+6H Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #5 (S): 4H -> 3H.
+
+Expected:
+
+---- ---- ---- 2NT
+
+Pass 3D Pass 4H?
+
+Pass 4NT Pass 5S
+
+Pass 6H all Pass}
+
+[Event ""]
+[Board "135"]
+{100NT-98}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:A6.A65.K762.KQT3 K43.843.JT94.972 QJ7.KQJT.AQ5.AJ4 T9852.972.83.865"]
+[Auction "S"]
+2NT Pass 6NT? Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 4C -> 6NT.
+
+Expected:
+
+---- ---- ---- 2NT
+
+Pass 4C? Pass 4S
+
+Pass 7NT Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "136"]
+{100NT-99}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:K5.Q86.AQ73.KQ86 JT43.A3.KJ84.A53 A9862.KJT72.6.42 Q7.954.T952.JT97"]
+[Auction "N"]
+1NT Pass 2H Pass
+2S Pass 4H? Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #7 (S): 3H -> 4H.
+
+Expected:
+
+---- 1NT Pass 2H
+
+Pass 2S Pass 3H?
+
+Pass 4H Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "137"]
+{Eliminations-2}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:K9764.64.J73.Q82 5.K9852.AT8.T963 AJT83.A3.Q52.AK5 Q2.QJT7.K964.J74"]
+[Auction "S"]
+1S Pass 2S? Pass
+2NT =1= Pass 4S
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 4S -> 2S.
+
+Expected:
+
+---- ---- ---- 1S
+
+Pass 4S? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "138"]
+{Eliminations-3}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:K9764.64.KT3.K82 5.K9852.J52.T963 AJT83.A3.A97.AQ5 Q2.QJT7.Q864.J74"]
+[Auction "S"]
+1S Pass 3S Pass
+3NT? =1= Pass 4S
+Pass 4NT =2= Pass
+5C =3= Pass 6S
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #5 (S): 6S -> 3NT.
+
+Expected:
+
+---- ---- ---- 1S
+
+Pass 3S Pass 6S?
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "139"]
+{Eliminations-4}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:973.KJ82.A84.KT3 AQT2.64.Q75.9862 865.AQ973.K6.AJ5 KJ4.T5.JT932.Q74"]
+[Auction "S"]
+1H Pass 2NT? =1=
+Pass 3NT Pass 4H
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 3H -> 2NT.
+
+Expected:
+
+---- ---- ---- 1H
+
+Pass 3H? Pass 4H
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "140"]
+{Eliminations-5}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:K964.Q7.KQ6.KJT3 T.KJ832.A542.974 AQ8752.T4.93.A62 J3.A965.JT87.Q85"]
+[Auction "N"]
+1C 1H? 1S 2H
+2S Pass 4S Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #2 (E): PASS -> 1H.
+
+Expected:
+
+---- 1C Pass? 1S
+
+Pass 2S Pass 4S
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "141"]
+{Eliminations-8}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:A.AK6.AKQ974.AQ9 K974.T954.82.KT2 862.J3.JT65.7643 QJT53.Q872.3.J85"]
+[Auction "N"]
+2C =1= Pass 2D
+=2= Pass 3D? Pass
+5D Pass 6D Pass
+Pass Pass
+[
+[Result ""]
+{Difference: Bid #7 (S): 4D -> 5D.
+
+Expected:
+
+---- 2C Pass 2D
+
+Pass 3D Pass 4D?
+
+Pass 6D Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "142"]
+{Eliminations-10}
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:K72.53.KQJ65.T75 Q9643.9762.92.86 AJ.A.AT8743.AJ93 T85.KQJT84..KQ42"]
+[Auction "E"]
+Pass 1D 1H 2D?
+3H 3NT 4H X
+Pass 5D Pass Pass
+Pass
+[Result ""]
+{Difference: Bid #4 (N): 2H -> 2D.
+
+Expected:
+
+---- ---- Pass 1D
+
+1H 2H? X 6D
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "143"]
+{Eliminations-11}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:932.AJ7.A4.QJ873 A65.Q982.T8762.5 K4.KT3.K95.AT962 QJT87.654.QJ3.K4"]
+[Auction "S"]
+1C 1S 2S =1=
+Pass 3C Pass? Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #7 (N): 5C -> PASS.
+
+Expected:
+
+---- ---- ---- 1C
+
+1S 2S Pass 3C
+
+Pass 5C? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "144"]
+{Eliminations-12}
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:A862.AT96.AK.763 J974.8.J9643.982 5.KQJ7543.Q5.AQT KQT3.2.T872.KJ54"]
+[Auction "W"]
+Pass 1NT Pass 2D?
+Pass 2H Pass 4H
+Pass Pass Pass
+[Result ""]
+{Difference: Bid #4 (S): 3H -> 2D.
+
+Expected:
+
+Pass 1NT Pass 3H?
+
+Pass 4H Pass 5C
+
+Pass 6H Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "145"]
+{Eliminations-15}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:Q5.AJ62.A964.AJ5 K863.Q983.T75.82 A4.5.KJ3.KQT9643 JT972.KT74.Q82.7"]
+[Auction "N"]
+1NT Pass 6C? Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (S): 3C -> 6C.
+
+Expected:
+
+---- 1NT Pass 3C?
+
+Pass 4C Pass 6C
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "146"]
+{Eliminations-16}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:AT72.KQ.984.KQ84 Q43.T762.J76.953 KJ8.AJ5.A3.AJT72 965.9843.KQT52.6"]
+[Auction "S"]
+1C Pass 1S Pass
+2NT Pass 6NT? Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #7 (N): 4C -> 6NT.
+
+Expected:
+
+---- ---- ---- 1C
+
+Pass 1S Pass 2NT
+
+Pass 4C? Pass 6C
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "147"]
+{Eliminations-17}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:T7543.A3.A65.K63 .96.KQJT87.QJ972 AK862.T5.432.A85 QJ9.KQJ8742.9.T4"]
+[Auction "S"]
+1S 3H? 4H =1=
+Pass 4S Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #2 (W): 4H -> 3H.
+
+Expected:
+
+---- ---- ---- 1S
+
+4H? 4S Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "148"]
+{Eliminations-18}
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:AT93.754.AJ6.Q75 85.JT96.9874.J92 KQJ742.AQ3.5.AK3 6.K82.KQT32.T864"]
+[Auction "E"]
+Pass 1S Pass 3C?
+=1= Pass 4D =2=
+X Pass Pass 4NT
+=3= Pass 5H =4=
+Pass 7S Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #4 (N): 3S -> 3C.
+
+Expected:
+
+---- ---- Pass 1S
+
+Pass 3S? Pass 4NT
+
+Pass 5H Pass 6S
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "149"]
+{Eliminations-19}
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:A853.Q74.9762.83 JT2.983.JT4.9642 K6.AKJT52.K53.AT Q974.6.AQ8.KQJ75"]
+[Auction "W"]
+1C Pass Pass X
+1S? Pass Pass 3H
+Pass 3S =1= Pass
+4H Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #5 (W): PASS -> 1S.
+
+Expected:
+
+1C Pass Pass X
+
+Pass? 1S Pass 3H
+
+Pass 4H Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "150"]
+{Eliminations-21}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:76.KJ72.AK64.T83 K943.85.T8532.76 AJ.AQT943.J.AJ94 QT852.6.Q97.KQ52"]
+[Auction "S"]
+1H 1S? 2S =1=
+3S 4NT =2= Pass
+5H =3= Pass 6H
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #2 (W): PASS -> 1S.
+
+Expected:
+
+---- ---- ---- 1H
+
+Pass? 3H Pass 6H
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "151"]
+{Eliminations-22}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:A72.KQJ.752.KJ62 .87432.9643.T987 Q94.A96.AKQ.AQ54 KJT8653.T5.JT8.3"]
+[Auction "S"]
+2NT 3S X? Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 6NT -> X.
+
+Expected:
+
+---- ---- ---- 2NT
+
+3S 6NT? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "152"]
+{Eliminations-23}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:732.QJ86.A543.A9 AQJT94.72.Q8.J65 K85.AKT5.K72.K74 6.943.JT96.QT832"]
+[Auction "S"]
+1NT Pass 2C =1=
+2S? Pass Pass 2NT
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #5 (S): 3H -> PASS.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2C 2S 3H?
+
+Pass 4H Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "153"]
+{Eliminations-25}
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:AQ52.6.AKJ6.KT87 KJT976.KT3.Q82.4 43.A7.753.AQJ963 8.QJ98542.T94.52"]
+[Auction "E"]
+2S 3C Pass 4NT
+=1= Pass? 5S =2=
+Pass 7C Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #6 (S): 5H -> 5S.
+
+Expected:
+
+---- ---- 2S 3C
+
+Pass 4NT Pass 5H?
+
+Pass 6C Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "154"]
+{Entries-2}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:765.62.QJ9.JT985 QT83.QJ97.74.A62 AJ4.AK54.A63.KQ3 K92.T83.KT852.74"]
+[Auction "N"]
+Pass Pass 2NT Pass
+Pass? Pass
+[Result ""]
+{Difference: Bid #5 (N): 3NT -> PASS.
+
+Expected:
+
+---- Pass Pass 2NT
+
+Pass 3NT? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "155"]
+{Entries-3}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AK4.KJ954.AT.A62 Q9862.A8.K42.985 75.63.QJ9873.QJ3 JT3.QT72.65.KT74"]
+[Auction "N"]
+1H 1S? Pass Pass
+X Pass 2D Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #2 (E): PASS -> 1S.
+
+Expected:
+
+---- 1H Pass? 1NT
+
+Pass 3NT Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "156"]
+{Entries-5}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:A6.AK2.AQ73.Q875 QT8.JT53.K92.JT3 743.976.85.AK642 KJ952.Q84.JT64.9"]
+[Auction "N"]
+1D Pass 1NT Pass
+2NT? Pass 3NT Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #5 (N): 3NT -> 2NT.
+
+Expected:
+
+---- 1D Pass 1NT
+
+Pass 3NT? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "157"]
+{Entries-6}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AQ9.A753.AJ64.AK 63.JT982.QT2.974 KJ4.Q6.853.JT632 T8752.K4.K97.Q85"]
+[Auction "N"]
+2C =1= Pass? 2D
+=2= Pass 2NT Pass
+3NT Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #3 (S): 2NT -> 2D.
+
+Expected:
+
+---- 2C Pass 2NT?
+
+Pass 3NT Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "158"]
+{Entries-9}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:AKQ73.764.853.98 T954.KJT3.974.62 .A52.AK6.AKQJ754 J862.Q98.QJT2.T3"]
+[Auction "S"]
+2C =1= Pass 2S
+Pass 3C Pass? 6NT
+Pass 7C Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #7 (N): 3NT -> 6NT.
+
+Expected:
+
+---- ---- ---- 2C
+
+Pass 2S Pass 3C
+
+Pass 3NT? Pass 6C
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "159"]
+{Entries-10}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:9.QT4.65.KQJ8753 QT652.652.AQ7.94 83.AKJ987.KT43.A AKJ74.3.J982.T62"]
+[Auction "S"]
+1H 1S? 3C 4S
+X Pass Pass Pass
+[Result ""]
+{Difference: Bid #2 (W): PASS -> 1S.
+
+Expected:
+
+---- ---- ---- 1H
+
+Pass? 2C Pass 3H
+
+Pass 4H Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "160"]
+{Entries-12}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:QJ.AQ6.84.QJ9853 A64.9742.QT6.K74 KT983.KJ.K73.AT2 752.T853.AJ952.6"]
+[Auction "S"]
+1S Pass 1NT? =1=
+Pass 2C Pass 4C
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 2C -> 1NT.
+
+Expected:
+
+---- ---- ---- 1S
+
+Pass 2C? Pass 2NT
+
+Pass 3NT Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "161"]
+{Entries-13}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:KJT84.QT3.874.52 A752.86.K952.QJ6 Q9.A95.AJ63.AK74 63.KJ742.QT.T983"]
+[Auction "S"]
+1D Pass 1S Pass
+2NT Pass Pass? Pass
+[Result ""]
+{Difference: Bid #7 (N): 3NT -> PASS.
+
+Expected:
+
+---- ---- ---- 1D
+
+Pass 1S Pass 2NT
+
+Pass 3NT? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "162"]
+{Entries-14}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:QJT.AK62.AJ86.K3 K2.JT95.Q742.A75 A43.743.95.QJT92 98765.Q8.KT3.864"]
+[Auction "N"]
+1D Pass? 1NT Pass
+2NT Pass 3NT Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #2 (E): 1NT -> PASS.
+
+Expected:
+
+---- 1D 1NT? Pass
+
+2NT Pass 3NT Pass
+
+Pass Pass}
+
+[Event ""]
+[Board "163"]
+{Entries-17}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:4.KQJT3.T64.8764 853.8652.Q97.AT5 AK6.A.AKJ532.QJ2 QJT972.974.8.K93"]
+[Auction "S"]
+2C =1= Pass 2D
+=2= Pass 3D Pass
+3H? Pass 4D Pass
+5D Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #9 (S): 3NT -> 4D.
+
+Expected:
+
+---- ---- ---- 2C
+
+Pass 2D Pass 3D
+
+Pass 3H Pass 3NT?
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "164"]
+{Entries-19}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:Q6.AQJ84.753.642 J743.6.QT92.Q873 AK.KT3.AK86.AJT9 T9852.9752.J4.K5"]
+[Auction "S"]
+2C =1= Pass 2H
+Pass? 3H Pass 4NT
+=2= Pass 5C =3=
+Pass 6H Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #5 (S): 2NT -> 3H.
+
+Expected:
+
+---- ---- ---- 2C
+
+Pass 2H Pass 2NT?
+
+Pass 6NT Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "165"]
+{Entries-20}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:8.AK86543.854.Q3 6532.QT7.97.K974 AKQJ97..AK62.AJ5 T4.J92.QJT3.T862"]
+[Auction "S"]
+2C =1= Pass 2H
+Pass 2S Pass? 4H
+Pass 4S Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #7 (N): 3H -> 4H.
+
+Expected:
+
+---- ---- ---- 2C
+
+Pass 2H Pass 2S
+
+Pass 3H? Pass 6S
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "166"]
+{Establishment-1}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AK4.AT865.Q3.AJ4 765.KQ.8752.QT82 Q3.42.KJT94.7653 JT982.J973.A6.K9"]
+[Auction "N"]
+1H Pass Pass? Pass
+[Result ""]
+{Difference: Bid #3 (S): 1NT -> PASS.
+
+Expected:
+
+---- 1H Pass 1NT?
+
+Pass 3NT Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "167"]
+{Establishment-2}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:QT2.73.K8763.854 4.KQT65.QJT2.KJ6 AKJ953.42.A5.A92 876.AJ98.94.QT73"]
+[Auction "S"]
+1S Pass Pass? 2H
+3S Pass 4H =1=
+Pass 4S Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 2S -> PASS.
+
+Expected:
+
+---- ---- ---- 1S
+
+Pass 2S? Pass 4S
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "168"]
+{Establishment-3}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:85.J762.86.AKQ43 QT963.Q9.K4.J987 AK72.A83.AQ72.62 J4.KT54.JT953.T5"]
+[Auction "S"]
+1NT Pass 2C =1=
+Pass 2S Pass? 3C
+Pass 3NT Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #7 (N): 3NT -> 3C.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2C Pass 2S
+
+Pass 3NT? all Pass}
+
+[Event ""]
+[Board "169"]
+{Establishment-4}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:85.JT.82.AK87643 QT963.762.KQT5.J AK72.A83.A964.92 J4.KQ954.J73.QT5"]
+[Auction "S"]
+1NT Pass 5C? Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 3NT -> 5C.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 3NT? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "170"]
+{Establishment-5}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:964.732.A8542.65 J83.JT85.KJ.Q983 AK5.AK6.763.AK42 QT72.Q94.QT9.JT7"]
+[Auction "S"]
+2NT Pass Pass? Pass
+[Result ""]
+{Difference: Bid #3 (N): 3NT -> PASS.
+
+Expected:
+
+---- ---- ---- 2NT
+
+Pass 3NT? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "171"]
+{Establishment-6}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:A74.KT983.J53.Q3 J98.A65.QT96.K95 K63.QJ.AK42.AT64 QT52.742.87.J872"]
+[Auction "S"]
+1NT Pass 2D Pass
+2H Pass 3NT Pass?
+Pass Pass
+[Result ""]
+{Difference: Bid #8 (E): ALL -> PASS.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2D Pass 2H
+
+Pass 3NT all? Pass}
+
+[Event ""]
+[Board "172"]
+{Establishment-7}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AJ64.75.63.AK643 .T963.KQJ94.QT97 KQ98752.A2.A2.52 T3.KQJ84.T875.J8"]
+[Auction "N"]
+1C 1D? 1S 2D
+2S Pass 2NT =1=
+3D 4S Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #2 (E): PASS -> 1D.
+
+Expected:
+
+---- 1C Pass? 1S
+
+Pass 2S Pass 4NT
+
+Pass 5H Pass 6S
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "173"]
+{Establishment-8}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:T972.AJ6.75.Q643 A8.QT82.QJ9.JT97 QJ5.K543.A43.AK5 K643.97.KT862.82"]
+[Auction "S"]
+1NT Pass 2C? =1=
+Pass 2H Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): PASS -> 2C.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass Pass? Pass}
+
+[Event ""]
+[Board "174"]
+{Establishment-10}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:A852.Q7.K74.8643 KJ9.JT84.QJT5.92 763.AK52.A86.A75 QT4.963.932.KQJT"]
+[Auction "S"]
+1NT Pass 2C =1=
+Pass 2H Pass? 3NT
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #7 (N): 2NT -> 3NT.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2C Pass 2H
+
+Pass 2NT? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "175"]
+{Establishment-11}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:86532.AKJ5.65.83 AK97.42.KT84.965 Q.QT976.AJ3.A742 JT4.83.Q972.KQJT"]
+[Auction "S"]
+1H Pass 3D? =1=
+Pass 3H Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 3H -> 3D.
+
+Expected:
+
+---- ---- ---- 1H
+
+Pass 3H? Pass 4H
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "176"]
+{Establishment-12}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:875.K8753.AK5.T2 QT4.QT96.932.763 AK2.A4.84.AKQJ95 J963.J2.QJT76.84"]
+[Auction "S"]
+2C =1= Pass 2H
+Pass 3C Pass 3NT
+Pass? 4C Pass 5C
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #9 (S): 4NT -> 4C.
+
+Expected:
+
+---- ---- ---- 2C
+
+Pass 2H Pass 3C
+
+Pass 3NT Pass 4NT?
+
+Pass 5D Pass 5NT
+
+Pass 6H Pass 7C
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "177"]
+{Establishment-14}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:97.43.8652.A8653 A85.QT96.QJ9.T74 KQ3.A752.AK4.QJ9 JT642.KJ8.T73.K2"]
+[Auction "N"]
+Pass Pass 1C 1S?
+3C Pass Pass Pass
+[Result ""]
+{Difference: Bid #4 (W): PASS -> 1S.
+
+Expected:
+
+---- Pass Pass 1C
+
+Pass? 2C Pass 3NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "178"]
+{Establishment-15}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:754.AQ875.963.84 J96.J92.QJT.T932 AQ3.63.AK54.AQ65 KT82.KT4.872.KJ7"]
+[Auction "N"]
+Pass Pass 1D Pass
+1H Pass 2NT Pass
+Pass? Pass
+[Result ""]
+{Difference: Bid #9 (N): 3NT -> PASS.
+
+Expected:
+
+---- Pass Pass 1D
+
+Pass 1H Pass 2NT
+
+Pass 3NT? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "179"]
+{Establishment-16}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:8653.K54.KJT85.Q A92.J73.A92.J965 74.AQ862.Q6.A843 KQJT.T9.743.KT72"]
+[Auction "S"]
+1H Pass 2H? Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 3H -> 2H.
+
+Expected:
+
+---- ---- ---- 1H
+
+Pass 3H? Pass 4H
+
+Pass Pass Pass Pass}
+
+[Event ""]
+[Board "180"]
+{Establishment-17}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:QJ9.KQT54.94.863 432.A82.KJ5.QT74 A75.J7.AT863.AK5 KT86.963.Q72.J92"]
+[Auction "S"]
+1NT Pass 2D Pass
+2H Pass Pass? Pass
+[Result ""]
+{Difference: Bid #7 (N): 2NT -> PASS.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2D Pass 2H
+
+Pass 2NT? Pass 3NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "181"]
+{Establishment-19}
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:QJ82.A63.QT8.943 AK7543.J95..JT72 .K84.AKJ7652.A65 T96.QT72.943.KQ8"]
+[Auction "E"]
+2S 3D? Pass Pass
+Pass
+[Result ""]
+{Difference: Bid #2 (S): X -> 3D.
+
+Expected:
+
+---- ---- 2S X?
+
+Pass 2NT Pass 3D
+
+Pass 4D Pass 5D
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "182"]
+{Establishment-20}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:K64.A93.86.98643 82.Q82.QT94.QJ72 AQJT97.KT5.A5.AK 53.J764.KJ732.T5"]
+[Auction "N"]
+Pass Pass 2C =1=
+Pass? 3C Pass 3S
+Pass 4S Pass 4NT
+=2= Pass 5H =3=
+Pass 5NT =4= Pass
+6C =5= X Pass
+Pass 6S Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #5 (N): 2NT -> 3C.
+
+Expected:
+
+---- Pass Pass 2C
+
+Pass 2NT? Pass 3S
+
+Pass 4S Pass 4NT
+
+Pass 5D Pass 6S
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "183"]
+{Finesse-2}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:986.AKQJ4.A74.A2 KJ52.753.QT.KQT5 AQ7.T6.9852.8643 T43.982.KJ63.J97"]
+[Auction "N"]
+1H Pass Pass? Pass
+[Result ""]
+{Difference: Bid #3 (S): 1NT -> PASS.
+
+Expected:
+
+---- 1H Pass 1NT?
+
+Pass 3NT Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "184"]
+{Finesse-4}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:862.8432.AQ74.95 JT5.A6.J932.A864 A74.KQJ975.8.KQJ KQ93.T.KT65.T732"]
+[Auction "S"]
+1H Pass 2H Pass
+4D? =1= Pass 4H
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #5 (S): 4H -> 4D.
+
+Expected:
+
+---- ---- ---- 1H
+
+Pass 2H Pass 4H?
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "185"]
+{Finesse-5}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AQJ2.976.AK5.AJT 64.JT54.943.K752 K95.AQ2.QJT87.83 T873.K83.62.Q964"]
+[Auction "N"]
+1C Pass 1D? Pass
+2NT Pass 3NT Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (S): 2NT -> 1D.
+
+Expected:
+
+---- 1C Pass 2NT?
+
+Pass 6NT Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "186"]
+{Finesse-6}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:43.752.A653.JT95 K72.K964.92.K763 AQJT98.AQJ.84.AQ 65.T83.KQJT7.842"]
+[Auction "S"]
+2C =1= Pass 2D
+=2= Pass 2S Pass
+2NT? Pass 3S Pass
+4S Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #9 (S): 4S -> 3S.
+
+Expected:
+
+---- ---- ---- 2C
+
+Pass 2D Pass 2S
+
+Pass 2NT Pass 4S?
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "187"]
+{Finesse-7}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:A873.96.763.AQJT .T873.KJ94.K8652 KQJ9654.A4.A52.7 T2.KQJ52.QT8.943"]
+[Auction "S"]
+1S Pass 2NT? =1=
+Pass 3C =2= Pass
+4S Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 3S -> 2NT.
+
+Expected:
+
+---- ---- ---- 1S
+
+Pass 3S? Pass 4NT
+
+Pass 5H Pass 6S
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "188"]
+{Finesse-8}
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:942.AT5.763.AK65 T876.8642.82.T73 AQ5.KJ9.AT4.QJ92 KJ3.Q73.KQJ95.84"]
+[Auction "W"]
+1D Pass Pass X?
+Pass 2C Pass 3C
+Pass 4H =1= Pass
+4S =2= Pass 5C
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #4 (S): 1NT -> X.
+
+Expected:
+
+1D Pass Pass 1NT?
+
+Pass 3NT Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "189"]
+{Finesse-9}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AJ74.T96.Q5.AK82 T98.AQ3.T9632.97 Q653.742.AK.QJ54 K2.KJ85.J874.T63"]
+[Auction "N"]
+1C Pass 1S Pass
+3S? Pass 3NT =1=
+Pass 4S Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #5 (N): 2S -> 3S.
+
+Expected:
+
+---- 1C Pass 1S
+
+Pass 2S? Pass 4S
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "190"]
+{Finesse-10}
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:862.AQ.9754.8532 KT543.6.832.K974 A.KJ98742.QJ.AJT QJ97.T53.AKT6.Q6"]
+[Auction "E"]
+Pass 1H Pass Pass?
+Pass
+[Result ""]
+{Difference: Bid #4 (N): 1NT -> PASS.
+
+Expected:
+
+---- ---- Pass 1H
+
+Pass 1NT? Pass 4H
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "191"]
+{Finesse-11}
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:743.J6.AJT72.876 JT92.T98.4.AJ953 AQ5.AK75.KQ9863. K86.Q432.5.KQT42"]
+[Auction "E"]
+Pass 1D X? 3D
+Pass 4NT =1= Pass
+5C =2= Pass 6D
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #3 (W): PASS -> X.
+
+Expected:
+
+---- ---- Pass 1D
+
+Pass? 2D Pass 3H
+
+Pass 5D Pass 6D
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "192"]
+{Finesse-12}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:KJ7.K7.AJT8.KJ96 64.T9542.7642.Q5 AQ53.AJ8.KQ.AT72 T982.Q63.953.843"]
+[Auction "S"]
+2NT Pass 6NT? Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 4C -> 6NT.
+
+Expected:
+
+---- ---- ---- 2NT
+
+Pass 4C? Pass 4NT
+
+Pass 7NT Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "193"]
+{Finesse-15}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:QT7.T5.Q72.AQT85 9652.A962.T83.K3 AK3.K4.AK65.J762 J84.QJ873.J94.94"]
+[Auction "S"]
+1D Pass 1NT? Pass
+2NT Pass 3C Pass
+3NT Pass Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 2C -> 1NT.
+
+Expected:
+
+---- ---- ---- 1D
+
+Pass 2C? Pass 3NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "194"]
+{Finesse-16}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:A63.752.A753.T54 K9.T86.KJ9.87632 QJ74.AK.T862.AKQ T852.QJ943.Q4.J9"]
+[Auction "S"]
+1D Pass 1NT? Pass
+2NT Pass 3NT Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 2D -> 1NT.
+
+Expected:
+
+---- ---- ---- 1D
+
+Pass 2D? Pass 3NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "195"]
+{Finesse-17}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:A75.AJ3.A86.T963 KJ84.T942.QJT5.5 Q3.KQ5.K942.QJ74 T962.876.73.AK82"]
+[Auction "N"]
+1C Pass 1D? Pass
+1NT Pass 2NT Pass
+3D Pass 3NT Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (S): 2NT -> 1D.
+
+Expected:
+
+---- 1C Pass 2NT?
+
+Pass 3NT Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "196"]
+{Finesse-18}
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:942.A85.763.AK65 T876.T642.82.T73 AQ5.KJ9.AT4.QJ92 KJ3.Q73.KQJ95.84"]
+[Auction "W"]
+1D Pass Pass X?
+Pass 2C Pass 3C
+Pass 4H =1= Pass
+4S =2= Pass 5C
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #4 (S): 1NT -> X.
+
+Expected:
+
+1D Pass Pass 1NT?
+
+Pass 3NT Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "197"]
+{Finesse-20}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AQJ9.65.AKQ.AQJ5 T842.K9742.853.6 K753.A8.JT6.T943 6.QJT3.9742.K872"]
+[Auction "N"]
+2C =1= Pass 2NT
+Pass? 4NT =2= Pass
+6NT Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #5 (N): 3C -> 4NT.
+
+Expected:
+
+---- 2C Pass 2NT
+
+Pass 3C? Pass 3S
+
+Pass 4NT Pass 5D
+
+Pass 6S Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "198"]
+{Holdup-1}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:A76.QJ94.62.Q753 932.A873.974.JT2 KQJ5.KT.A83.A964 T84.652.KQJT5.K8"]
+[Auction "S"]
+1NT Pass 2C =1=
+Pass 2S Pass? 3NT
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #7 (N): 2NT -> 3NT.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2C Pass 2S
+
+Pass 2NT? Pass 3NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "199"]
+{Holdup-2}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:A76.A8653.K5.AK5 943.Q972.A84.QT2 82.K4.QJT73.9843 KQJT5.JT.962.J76"]
+[Auction "N"]
+1H Pass Pass? 1S
+X Pass 2D Pass
+Pass 2S Pass Pass
+X Pass 3D Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (S): 1NT -> PASS.
+
+Expected:
+
+---- 1H Pass 1NT?
+
+Pass 3NT Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "200"]
+{Holdup-8}
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:QT62.K76.AQJ9.95 4.AQT2.K64.KT863 AKJ875.83.T52.AJ 93.J954.873.Q742"]
+[Auction "E"]
+1C 1S Pass 2C
+=1=? X 2NT =2=
+Pass 3C =3= Pass
+4S Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #5 (E): PASS -> X.
+
+Expected:
+
+---- ---- 1C 1S
+
+Pass 2C Pass? 4S
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "201"]
+{Holdup-11}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:962.Q5.QT5.AQ974 T73.K643.K732.52 Q84.A72.AJ8.KJ86 AKJ5.JT98.964.T3"]
+[Auction "S"]
+1NT Pass 2NT? Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 3NT -> 2NT.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 3NT? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "202"]
+{OLead-3}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:872.K87.KQJ.A854 A5.JT42.96543.J9 QT6.AQ9.AT7.KQ73 KJ943.653.82.T62"]
+[Auction "S"]
+1NT Pass? 3NT Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #2 (W): 3NT -> PASS.
+
+Expected:
+
+---- ---- ---- 1NT
+
+3NT? Pass Pass}
+
+[Event ""]
+[Board "203"]
+{OLead-4}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:982.A65.K3.AQJT4 T64.7.J97652.K86 AJ5.QT8432.AQ.73 KQ73.KJ9.T84.952"]
+[Auction "S"]
+1H Pass 2C Pass
+2H Pass 3H? Pass
+3S =1= Pass 4C
+=2= Pass 4H Pass
+Pass Pass
+[
+[Result ""]
+{Difference: Bid #7 (N): 4H -> 3H.
+
+Expected:
+
+---- ---- ---- 1H
+
+Pass 2C Pass 2H
+
+Pass 4H? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "204"]
+{OLead-5}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:A82.873.K92.AT54 75.JT52.QJ54.K63 KT4.KQ9.AT7.QJ97 QJ963.A64.863.82"]
+[Auction "S"]
+1NT Pass 3NT Pass
+Pass Pass?
+[Result ""]
+{Difference: Bid #6 (W): (end) -> PASS.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 3NT Pass Pass}
+
+[Event ""]
+[Board "205"]
+{OLead-8}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:A2.A97.T53.AKQ76 Q9763.T43.4.9843 JT.KQJ.AQJ987.J5 K854.8652.K62.T2"]
+[Auction "S"]
+1D Pass 2C Pass
+3D Pass 4D? Pass
+4H =1= Pass 4NT
+=2= Pass 5C =3=
+Pass 5H Pass 5NT
+=4= Pass 6D Pass
+Pass Pass
+[
+[Result ""]
+{Difference: Bid #7 (N): 4NT -> 4D.
+
+Expected:
+
+---- ---- ---- 1D
+
+Pass 2C Pass 3D
+
+Pass 4NT? Pass 5D
+
+Pass 6D Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "206"]
+{OLead-10}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:KJ75.AK65.8742.5 QT62.T.QJ96.QT93 A93.QJ743.K.K874 84.982.AT53.AJ62"]
+[Auction "S"]
+1H Pass 4C? =1=
+Pass 4H Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 1S -> 4C.
+
+Expected:
+
+---- ---- ---- 1H
+
+Pass 1S? Pass 2C
+
+Pass 4H Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "207"]
+{OLead-11}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:852.A65.KJ.KQT94 KQJ93.42.9762.A5 AT4.K98.AQ84.J73 76.QJT73.T53.862"]
+[Auction "N"]
+1C 1S 3NT? Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (S): 2NT -> 3NT.
+
+Expected:
+
+---- 1C 1S 2NT?
+
+Pass 3NT Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "208"]
+{OLead-13}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:KQ9.K64.KQT3.742 87543.QT3.A4.JT3 AT2.AJ7.J862.K65 J6.9852.975.AQ98"]
+[Auction "N"]
+1D Pass 2NT Pass
+Pass? Pass
+[Result ""]
+{Difference: Bid #5 (N): 3NT -> PASS.
+
+Expected:
+
+---- 1D Pass 2NT
+
+Pass 3NT? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "209"]
+{OLead-14}
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:KT8.7.A7532.8532 5.KQ963.K6.KQT96 QJ9762.A854.4.74 A43.JT2.QJT98.AJ"]
+[Auction "E"]
+1H 2S 3S? =1=
+4S X Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #3 (W): 3D -> 3S.
+
+Expected:
+
+---- ---- 1H 2S
+
+3D? 3S 4C Pass
+
+4H Pass Pass 4S
+
+X Pass Pass Pass}
+
+[Event ""]
+[Board "210"]
+{OLead-16}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AT.94.KQJ983.KQJ 872.Q8752.T52.63 KQJ954.AJT.6.A52 63.K63.A74.T9874"]
+[Auction "N"]
+1D Pass 2S? Pass
+4D Pass 4S Pass
+4NT =1= Pass 5D
+=2= Pass 5H Pass
+5NT =3= Pass 6S
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #3 (S): 1S -> 2S.
+
+Expected:
+
+---- 1D Pass 1S?
+
+Pass 3D Pass 3S
+
+Pass 4S Pass 4NT
+
+Pass 5D Pass 6S
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "211"]
+{OLead-17}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:A9762.A63.K4.QJ5 KQJT8.752.A5.963 53.KQJ.QJT97.AT4 4.T984.8632.K872"]
+[Auction "N"]
+1S Pass 2D? Pass
+2NT Pass 3NT Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (S): 2NT -> 2D.
+
+Expected:
+
+---- 1S Pass 2NT?
+
+Pass 3NT X Pass
+
+Pass Pass}
+
+[Event ""]
+[Board "212"]
+{OLead-19}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:KJ5.A9853.KQ.AQ5 T864.72.J93.JT98 AQ3.K4.A854.K642 972.QJT6.T762.73"]
+[Auction "N"]
+1H Pass 2C? Pass
+3NT Pass 6NT Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (S): 2NT -> 2C.
+
+Expected:
+
+---- 1H Pass 2NT?
+
+Pass 6NT Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "213"]
+{OLead-20}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:QT85.K54.AT.KJ96 742.9872.QJ642.3 KJ963.A6.K9.QT85 A.QJT3.8753.A742"]
+[Auction "S"]
+1S X? 2NT =1=
+Pass 3S Pass 4S
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #2 (W): PASS -> X.
+
+Expected:
+
+---- ---- ---- 1S
+
+Pass? 2C Pass 3C
+
+Pass 4S Pass Pass
+
+X Pass Pass Pass}
+
+[Event ""]
+[Board "214"]
+{SecondHand-2}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:A6.K93.AQJ74.KQ7 9753.Q.KT52.8654 KQJ82.A8762.8.A2 T4.JT54.963.JT93"]
+[Auction "S"]
+1S Pass 2D? Pass
+2H Pass 4NT =1=
+Pass 5H =2= Pass
+5S Pass 6S Pass
+Pass Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 3D -> 2D.
+
+Expected:
+
+---- ---- ---- 1S
+
+Pass 3D? Pass 3H
+
+Pass 3NT Pass 4H
+
+Pass 4NT Pass 5H
+
+Pass 6H all Pass}
+
+[Event ""]
+[Board "215"]
+{SecondHand-3}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:K7.J8632.K53.T42 Q9832.Q4.T98.A93 A5.AT975.AQJ.J86 JT64.K.7642.KQ75"]
+[Auction "S"]
+1H Pass 2H? Pass
+3H Pass Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 4H -> 2H.
+
+Expected:
+
+---- ---- ---- 1H
+
+Pass 4H? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "216"]
+{SecondHand-4}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:AT5.Q63.8742.J85 86.AK72.953.QT32 Q9742.94.AKQJ.AK KJ3.JT85.T6.9764"]
+[Auction "S"]
+1S Pass 2S Pass
+2NT? =1= Pass 4S
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #5 (S): 4S -> 2NT.
+
+Expected:
+
+---- ---- ---- 1S
+
+Pass 2S Pass 4S?
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "217"]
+{SecondHand-7}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AK94.KQ6.AQ4.T86 T62.73.K763.A942 Q5.AJ98542..KJ73 J873.T.JT9852.Q5"]
+[Auction "N"]
+1C Pass 1H Pass
+2NT Pass 4H? Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #7 (S): 6H -> 4H.
+
+Expected:
+
+---- 1C Pass 1H
+
+Pass 2NT Pass 6H?
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "218"]
+{SecondHand-8}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:862.AKQJT.83.QT6 AT73.8652.T62.84 J95.93.AKQ.K9752 KQ4.74.J9754.AJ3"]
+[Auction "S"]
+1C 1D? 1H Pass
+1NT Pass 2H Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #2 (W): PASS -> 1D.
+
+Expected:
+
+---- ---- ---- 1C
+
+Pass? 1H Pass 1NT
+
+Pass 3NT Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "219"]
+{SecondHand-10}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:953.AQ.A6.QT9852 62.T94.QJ874.A74 AQJ.K653.K953.63 KT874.J872.T2.KJ"]
+[Auction "N"]
+1C Pass 1H? 1S
+2C Pass 3NT Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (S): 1D -> 1H.
+
+Expected:
+
+---- 1C Pass 1D?
+
+Pass 2C Pass 3NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "220"]
+{SecondHand-11}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:K6.852.97542.Q73 7.964.K863.JT862 AJ94.AKQJT.A.AK5 QT8532.73.QJT.94"]
+[Auction "S"]
+2C =1= Pass 2D
+=2= Pass 2H Pass
+3H? Pass 4NT =3=
+Pass 5D =4= Pass
+6H Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #9 (S): 6H -> 4NT.
+
+Expected:
+
+---- ---- ---- 2C
+
+Pass 2D Pass 2H
+
+Pass 3H Pass 6H?
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "221"]
+{SecondHand-14}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:K72.KJT93.72.KJT 843.74.QJ95.Q975 AQ5.AQ8652.AK.62 JT96..T8643.A843"]
+[Auction "S"]
+1H Pass 2NT? =1=
+Pass 3H Pass 3S
+=2= Pass 4D =3=
+Pass 4NT =4= Pass
+5D =5= Pass 6H
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 3H -> 2NT.
+
+Expected:
+
+---- ---- ---- 1H
+
+Pass 3H? Pass 4NT
+
+Pass 5C Pass 6H
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "222"]
+{SecondHand-16}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:KQ86.K753.AQ5.84 52.QJT.J982.9632 AJT73.9864.K7.AK 94.A2.T643.QJT75"]
+[Auction "S"]
+1S Pass 2NT? =1=
+Pass 3NT Pass 4D
+=2= Pass 4H =3=
+Pass 4NT =4= Pass
+5H =5= Pass 6S
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 2H -> 2NT.
+
+Expected:
+
+---- ---- ---- 1S
+
+Pass 2H? Pass 4H
+
+Pass 4S Pass 6S
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "223"]
+{SecondHand-17}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:T72.J8732.AKQ.AK 843.QT4.873.J874 A6.AK965.JT5.QT2 KQJ95..9642.9653"]
+[Auction "S"]
+1H Pass 2NT? =1=
+Pass 3NT Pass 4C
+=2= Pass 4H Pass
+4NT =3= Pass 5D
+=4= Pass 6H Pass
+Pass Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 3D -> 2NT.
+
+Expected:
+
+---- ---- ---- 1H
+
+Pass 3D? Pass 3NT
+
+Pass 6H Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "224"]
+{SecondHand-18}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:QJ6.T54.AK3.AQ74 KT74.A3.JT92.KJ9 83.KQJ986.Q75.62 A952.72.864.T853"]
+[Auction "S"]
+2H Pass 2NT? =1=
+Pass 3S Pass 4H
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 4H -> 2NT.
+
+Expected:
+
+---- ---- ---- 2H
+
+Pass 4H? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "225"]
+{SecondHand-19}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:6.KJ96.Q63.A7432 AT873.T4.KJ84.98 KQ5.AQ852.A92.KJ J942.73.T75.QT65"]
+[Auction "S"]
+1H Pass 2NT? =1=
+Pass 3H Pass 3S
+=2= X 4D =3=
+Pass 4NT =4= Pass
+5S =5= Pass 6H
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 3H -> 2NT.
+
+Expected:
+
+---- ---- ---- 1H
+
+Pass 3H? Pass 4NT
+
+Pass 5D Pass 6H
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "226"]
+{SecondHand-20}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:KQT3.J874.A3.AK7 72.QT3.Q862.JT54 AJ965.A962.K7.Q3 84.K5.JT954.9862"]
+[Auction "N"]
+1NT Pass 2H? Pass
+2S Pass 3H Pass
+4S Pass 4NT =1=
+Pass 5D =2= Pass
+5H Pass 6C =3=
+Pass 6S Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #3 (S): 3S -> 2H.
+
+Expected:
+
+---- 1NT Pass 3S?
+
+Pass 6S Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "227"]
+{Signals-1}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:63.AJ3.K52.KQJ62 987.T7642.A643.7 AJ5.KQ.QJ8.T9853 KQT42.985.T97.A4"]
+[Auction "S"]
+1C 1S 2S? =1=
+Pass 3C Pass 3S
+=2= Pass 3NT Pass
+Pass Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 3C -> 2S.
+
+Expected:
+
+---- ---- ---- 1C
+
+1S 3C? Pass 3NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "228"]
+{Signals-2}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:63.AJ3.K52.KQJ62 J75.T7642.A643.7 A98.KQ.QJ8.T9853 KQT42.985.T97.A4"]
+[Auction "S"]
+1C 1S 2S? =1=
+Pass 3C Pass 3S
+=2= Pass 3NT Pass
+Pass Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 3C -> 2S.
+
+Expected:
+
+---- ---- ---- 1C
+
+1S 3C? Pass 3NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "229"]
+{Signals-3}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:AT72.KJ83.Q86.J4 K863.QT.T9542.82 QJ9.A9752.AK.T97 54.64.J73.AKQ653"]
+[Auction "S"]
+1H Pass? 2NT =1=
+Pass 3NT Pass 4H
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #2 (W): 2C -> PASS.
+
+Expected:
+
+---- ---- ---- 1H
+
+2C? 3C Pass 4H
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "230"]
+{Signals-5}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:A.KT82.AQ73.J862 QT84.QJ9.K952.93 K93.A7654.J8.Q74 J7652.3.T64.AKT5"]
+[Auction "N"]
+1D Pass 1H 1S?
+3H 3S 4H Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #4 (W): PASS -> 1S.
+
+Expected:
+
+---- 1D Pass 1H
+
+Pass? 2H Pass 4H
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "231"]
+{Signals-10}
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:KJ7.QJ2.QT3.KT75 8.AT9763.975.A62 AQT942.K85.AK.Q8 653.4.J8642.J943"]
+[Auction "E"]
+2H 2S Pass 3H?
+=1= Pass 3NT =2=
+Pass 4H =3= Pass
+4NT =4= Pass 5C
+=5= Pass 5S Pass
+Pass Pass
+[
+[Result ""]
+{Difference: Bid #4 (N): 3S -> 3H.
+
+Expected:
+
+---- ---- 2H 2S
+
+Pass 3S? Pass 4S
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "232"]
+{Signals-11}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:KQ752.Q4.963.K96 T94.953.Q72.AQJ4 A.AKJ872.JT5.T53 J863.T6.AK84.872"]
+[Auction "S"]
+1H Pass 1S Pass
+2H Pass 3H? Pass
+4H Pass Pass Pass
+[Result ""]
+{Difference: Bid #7 (N): PASS -> 3H.
+
+Expected:
+
+---- ---- ---- 1H
+
+Pass 1S Pass 2H
+
+Pass Pass? Pass}
+
+[Event ""]
+[Board "233"]
+{Signals-12}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:AT3.T6.972.KQJ32 8.QJ843.QJT4.876 KQJ752.95.K5.AT4 964.AK72.A863.95"]
+[Auction "S"]
+1S Pass 1NT? =1=
+Pass 2S Pass 4S
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 3S -> 1NT.
+
+Expected:
+
+---- ---- ---- 1S
+
+Pass 3S? Pass 4S
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "234"]
+{Signals-14}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:7.532.73.AKJ9642 T84.J74.KQ86.Q73 AKQ3.K98.AJT.T85 J9652.AQT6.9542."]
+[Auction "S"]
+1NT Pass 5C? Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 3NT -> 5C.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 3NT? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "235"]
+{Signals-19}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:K9864.A6.QJ3.AK9 T3.KQ85.9754.Q84 AQJ2.JT3.AKT.JT3 75.9742.862.7652"]
+[Auction "S"]
+1NT Pass 2H Pass
+2S Pass 4NT? =1=
+Pass 6S Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #7 (N): 5NT -> 4NT.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2H Pass 2S
+
+Pass 5NT? Pass 6S
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "236"]
+{Signals-20}
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:64.AJ8.AQJ6.8754 98752.T5.9743.Q2 KJ3.KQ7643.KT.J9 AQT.92.852.AKT63"]
+[Auction "W"]
+1C Pass Pass 1H
+Pass 2H? Pass 3H
+Pass 4H Pass Pass
+Pass
+[Result ""]
+{Difference: Bid #6 (N): 2C -> 2H.
+
+Expected:
+
+1C Pass Pass 1H
+
+Pass 2C? Pass 4H
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "237"]
+{Squeeze-1}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:AQ32.543.432.432 JT98.JT98.T9.T65 K54.AKQ2.AKQJ.AK 76.76.8765.QJ987"]
+[Auction "S"]
+2C =1= Pass 2D
+=2=? Pass 4NT Pass
+6NT Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #5 (S): 3D -> 4NT.
+
+Expected:
+
+---- ---- ---- 2C
+
+Pass 2D Pass 3D?
+
+Pass 3S Pass 4NT
+
+Pass 5D Pass 7NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "238"]
+{Squeeze-2}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:975.Q863.Q742.64 QJT3.J9754.86.52 AK4..AK5.AKQJ987 862.AKT2.JT93.T3"]
+[Auction "S"]
+2C =1= Pass 2D
+=2= Pass 3C? Pass
+3NT Pass 6C Pass
+Pass Pass
+[
+[Result ""]
+{Difference: Bid #7 (N): 3H -> 3NT.
+
+Expected:
+
+---- ---- ---- 2C
+
+Pass 2D Pass 3C
+
+Pass 3H? Pass 4NT
+
+Pass 5C Pass 7C
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "239"]
+{Squeeze-3}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:AK73.Q93.A65.A86 JT62.84.J984.973 Q84.AKJ6.KQ72.T5 95.T752.T3.KQJ42"]
+[Auction "S"]
+1NT Pass 2C? =1=
+Pass 2H Pass 6NT
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 6NT -> 2C.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 6NT? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "240"]
+{Squeeze-4}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:742.AK3.AQ74.KJ3 9865.T.9852.8642 AJ3.764.KJ6.AQT7 KQT.QJ9852.T3.95"]
+[Auction "S"]
+1NT 2H 2NT? =1=
+Pass 3C Pass 6NT
+Pass 7C Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 6NT -> 2NT.
+
+Expected:
+
+---- ---- ---- 1NT
+
+2H 6NT? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "241"]
+{Squeeze-5}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:AKQ6.742.KQJ7.K5 J943.5.8652.JT94 752.AT8.A93.AQ82 T8.KQJ963.T4.763"]
+[Auction "S"]
+1C 2H X Pass
+2NT Pass 3D? Pass
+3NT Pass 4NT =1=
+Pass 6NT Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #7 (N): 6NT -> 3D.
+
+Expected:
+
+---- ---- ---- 1C
+
+2H X Pass 2NT
+
+Pass 6NT? all Pass}
+
+[Event ""]
+[Board "242"]
+{Squeeze-8}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:A2.93.AK86.KQT65 K9843.T862.JT73. Q7.A4.Q54.AJ9732 JT65.KQJ75.92.84"]
+[Auction "S"]
+1C Pass 2C? Pass
+3C Pass 4S =1=
+Pass 5C Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 2D -> 2C.
+
+Expected:
+
+---- ---- ---- 1C
+
+Pass 2D? Pass 3C
+
+Pass 4C Pass 4H
+
+Pass 4S Pass 6C
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "243"]
+{Squeeze-9}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AKQ752.864.75.63 JT86.97.T83.J984 43.AKQJ.AK.AKQ52 9.T532.QJ9642.T7"]
+[Auction "N"]
+2S Pass 2NT =1=
+Pass 3NT Pass? 6S
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #7 (S): 7NT -> 6S.
+
+Expected:
+
+---- 2S Pass 2NT
+
+Pass 3NT Pass 7NT?
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "244"]
+{Squeeze-11}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AKQ5.75.T72.AT75 JT86.A842.5.K942 93.KQ.AKQJ93.Q83 742.JT963.864.J6"]
+[Auction "N"]
+1C Pass 2D Pass
+2S Pass 3NT? Pass
+4D Pass 4H =1=
+Pass 4S =2= Pass
+4NT =3= Pass 5H
+=4= Pass 6D Pass
+Pass Pass
+[
+[Result ""]
+{Difference: Bid #7 (S): 4NT -> 3NT.
+
+Expected:
+
+---- 1C Pass 2D
+
+Pass 2S Pass 4NT?
+
+Pass 5H Pass 6NT
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "245"]
+{Squeeze-12}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:93.K9863.A6.AKQ5 A852.4.KQ83.JT93 K7.AQJ752.J5.764 QJT64.T.T9742.82"]
+[Auction "S"]
+1H Pass 2NT? =1=
+Pass 4H Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 3C -> 2NT.
+
+Expected:
+
+---- ---- ---- 1H
+
+Pass 3C? Pass 3H
+
+Pass 6H Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "246"]
+{Squeeze-13}
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:A52.J6.AKJ753.K7 JT964.9832..QT63 KQ73.A4.Q962.A84 8.KQT75.T84.J952"]
+[Auction "E"]
+Pass 1NT Pass 3D
+Pass 3NT? Pass 4D
+Pass 4H =1= X
+4NT =2= Pass 5S
+=3= Pass 6NT Pass
+Pass Pass
+[
+[Result ""]
+{Difference: Bid #6 (S): 4D -> 3NT.
+
+Expected:
+
+---- ---- Pass 1NT
+
+Pass 3D Pass 4D?
+
+Pass 4NT Pass 5H
+
+Pass 7NT Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "247"]
+{Squeeze-15}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:T873.QT.KQ6.A975 Q62.752.J9843.J4 5.AKJ983.A5.K863 AKJ94.64.T72.QT2"]
+[Auction "S"]
+1H 1S X? 2S
+3H Pass 4H Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 2C -> X.
+
+Expected:
+
+---- ---- ---- 1H
+
+1S 2C? Pass 3H
+
+Pass 4H Pass 4NT
+
+Pass 5D Pass 6H
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "248"]
+{Squeeze-16}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:QT.KQ53.A863.852 865.J986.QT4.QT9 J74.A7.K752.AK73 AK932.T42.J9.J64"]
+[Auction "S"]
+1NT Pass 2C =1=
+Pass 2D Pass? 3D
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #7 (N): 3NT -> 3D.
+
+Expected:
+
+---- ---- ---- 1NT
+
+Pass 2C Pass 2D
+
+Pass 3NT? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "249"]
+{Squeeze-17}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:J8.K74.AJ8762.53 T7542.JT2.QT43.4 A.A63.K5.AKQJ987 KQ963.Q985.9.T62"]
+[Auction "S"]
+2C =1= Pass 3D
+Pass? 4C Pass 5C
+Pass 6C Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #5 (S): 4NT -> 4C.
+
+Expected:
+
+---- ---- ---- 2C
+
+Pass 3D Pass 4NT?
+
+Pass 5D Pass 5NT
+
+Pass 6D Pass 7C
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "250"]
+{Squeeze-18}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:Q4.J973.K75.8652 T97.4.QJ942.JT93 .AKQT5.A863.AKQ4 AKJ86532.862.T.7"]
+[Auction "S"]
+2C =1= 4S Pass
+Pass 5H Pass? Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #7 (N): 6H -> PASS.
+
+Expected:
+
+---- ---- ---- 2C
+
+4S Pass Pass 5H
+
+Pass 6H? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "251"]
+{Squeeze-19}
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:KT4.T64.A875.Q53 J852.872.94.T842 .AKQJ95.J63.AKJ6 AQ9763.3.KQT2.97"]
+[Auction "W"]
+1S Pass Pass X
+2S? Pass Pass 3H
+Pass 3S =1= Pass
+4C =2= Pass 4D
+=3= Pass 4NT =4=
+Pass 5C =5= Pass
+7H Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #5 (W): 2D -> 2S.
+
+Expected:
+
+1S Pass Pass X
+
+2D? 2NT Pass 4H
+
+Pass 6H Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "252"]
+{Squeeze-20}
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:T95.75.AQT72.AJ4 A3.K9842.K98.KT6 KQJ8742.QJT.J3.Q 6.A63.654.987532"]
+[Auction "E"]
+1H 1S 3H? 3S
+Pass Pass Pass
+[Result ""]
+{Difference: Bid #3 (W): PASS -> 3H.
+
+Expected:
+
+---- ---- 1H 1S
+
+Pass? 2H Pass 4S
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "253"]
+{ThirdHand-2}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:KT74.T4.953.AQJ3 2.A8762.K84.T852 AQJ863.K3.QT7.K6 95.QJ95.AJ62.974"]
+[Auction "S"]
+1S Pass 3C? =1=
+Pass 3NT =2= Pass
+4S Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 3S -> 3C.
+
+Expected:
+
+---- ---- ---- 1S
+
+Pass 3S? Pass 4S
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "254"]
+{ThirdHand-4}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:J64.Q8.K973.KQJT KT2.643.QJT6.A65 A95.AKJ972.8.973 Q873.T5.A542.842"]
+[Auction "S"]
+1H Pass 1NT? =1=
+Pass 2H Pass 3H
+Pass 4H Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 2C -> 1NT.
+
+Expected:
+
+---- ---- ---- 1H
+
+Pass 2C? Pass 2H
+
+Pass 4H Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "255"]
+{ThirdHand-6}
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:KT75.6.K83.QJ952 64.KT9743.AQ7.AT AQJ82.AQJ5.J6.74 93.82.T9542.K863"]
+[Auction "E"]
+1H 1S Pass 2S?
+3H X Pass 4S
+Pass Pass Pass
+[Result ""]
+{Difference: Bid #4 (N): 2H -> 2S.
+
+Expected:
+
+---- ---- 1H 1S
+
+Pass 2H? Pass 4S
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "256"]
+{ThirdHand-8}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AQJT7.A5.K42.AJ2 K62.KQ3.T985.973 54.T874.QJ6.K654 983.J962.A73.QT8"]
+[Auction "N"]
+1S Pass Pass? Pass
+[Result ""]
+{Difference: Bid #3 (S): 1NT -> PASS.
+
+Expected:
+
+---- 1S Pass 1NT?
+
+Pass 3NT Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "257"]
+{ThirdHand-9}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:K92.QT985.A6.AT6 AJ7.642.T985.973 Q43.J7.KJ43.KQJ5 T865.AK3.Q72.842"]
+[Auction "N"]
+1H Pass 2C? Pass
+2NT Pass 3NT Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (S): 2NT -> 2C.
+
+Expected:
+
+---- 1H Pass 2NT?
+
+Pass 3NT Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "258"]
+{ThirdHand-11}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AJ83.T6.752.AKQ5 74.AK4.T984.T842 QT962.853.KJ3.J6 K5.QJ972.AQ6.973"]
+[Auction "N"]
+1C Pass 1S 2H
+2S? 3H 3S Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #5 (N): 3S -> 2S.
+
+Expected:
+
+---- 1C Pass 1S
+
+2H 3S? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "259"]
+{ThirdHand-12}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:J3.KQJ6.AKQT5.62 T.732.9863.Q7543 9752.AT954.J.KT8 AKQ864.8.742.AJ9"]
+[Auction "N"]
+1D Pass 1H 1S
+2S? =1= Pass 3H
+Pass 3S =2= Pass
+4H Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #5 (N): 4H -> 2S.
+
+Expected:
+
+---- 1D Pass 1H
+
+1S 4H? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "260"]
+{ThirdHand-15}
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:652.J98.95.KJT97 QJ97.KQ653.T.A64 AK4.A74.AK73.Q52 T83.T2.QJ8642.83"]
+[Auction "E"]
+1H X Pass 2C
+Pass 2NT Pass Pass?
+Pass
+[Result ""]
+{Difference: Bid #8 (N): 3NT -> PASS.
+
+Expected:
+
+---- ---- 1H X
+
+Pass 2C Pass 2NT
+
+Pass 3NT? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "261"]
+{ThirdHand-16}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:7542.KQ.A5.KJT85 KT986.874.Q74.AQ AJ3.AJ3.KT92.973 Q.T9652.J863.642"]
+[Auction "N"]
+1C 1S 2NT Pass
+Pass? Pass
+[Result ""]
+{Difference: Bid #5 (N): 3NT -> PASS.
+
+Expected:
+
+---- 1C 1S 2NT
+
+Pass 3NT? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "262"]
+{ThirdHand-17}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:A6.K93.Q62.QJ982 K87542.QT4.83.A6 QJT.A7.AK75.T753 93.J8652.JT94.K4"]
+[Auction "N"]
+1C 2S 3NT? Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (S): 2NT -> 3NT.
+
+Expected:
+
+---- 1C 2S 2NT?
+
+Pass 3NT Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "263"]
+{ThirdHand-18}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:JT64.QJT.AK6.942 72.843.954.A8753 K95.AK9752.Q83.6 AQ83.6.JT72.KQJT"]
+[Auction "S"]
+1H X XX 2C
+2H? Pass 4H Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #5 (S): PASS -> 2H.
+
+Expected:
+
+---- ---- ---- 1H
+
+X XX 2C Pass?
+
+3C 3H Pass 4H
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "264"]
+{ThirdHand-20}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:Q74.AQJ5.862.KJ4 632.KT862.J4.873 AK5.94.A75.QT652 JT98.73.KQT93.A9"]
+[Auction "S"]
+1C 1D? 1H Pass
+1NT Pass 3NT Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #2 (W): PASS -> 1D.
+
+Expected:
+
+---- ---- ---- 1C
+
+Pass? 1H Pass 1NT
+
+Pass 3NT Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "265"]
+{Trumpmgmt-1}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AQJ6.K5.76.QT973 92.J9762.A9843.4 KT874.A3.52.AJ52 53.QT84.KQJT.K86"]
+[Auction "N"]
+1C Pass 1S Pass
+2S Pass 3C? =1=
+Pass 3H =2= Pass
+4H =3= Pass 4S
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #7 (S): 4S -> 3C.
+
+Expected:
+
+---- 1C Pass 1S
+
+Pass 2S Pass 4S?
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "266"]
+{Trumpmgmt-3}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:8732.AK.J864.753 A96.864.KQT7.QT8 KQ4.QJT532.A5.A2 JT5.97.932.KJ964"]
+[Auction "S"]
+1H Pass 1S? Pass
+3H Pass 4H Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 1NT -> 1S.
+
+Expected:
+
+---- ---- ---- 1H
+
+Pass 1NT? Pass 3H
+
+Pass 4H Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "267"]
+{Trumpmgmt-4}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:KQ7.A63.QT64.QJ5 AT943.J972.7.K74 8.KQ5.KJ9852.A62 J652.T84.A3.T983"]
+[Auction "S"]
+1D Pass 3NT? Pass
+4D Pass 5D Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #3 (N): 2NT -> 3NT.
+
+Expected:
+
+---- ---- ---- 1D
+
+Pass 2NT? Pass 3D
+
+Pass 5D Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "268"]
+{Trumpmgmt-5}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:74.AK42.A854.Q62 QT832.J97.T6.873 AK65.83.KJ73.AK5 J9.QT65.Q92.JT94"]
+[Auction "S"]
+1D Pass 1H Pass
+2NT? Pass 6NT Pass
+Pass Pass
+[Result ""]
+{Difference: Bid #5 (S): 1S -> 2NT.
+
+Expected:
+
+---- ---- ---- 1D
+
+Pass 1H Pass 1S?
+
+Pass 3D Pass 4C
+
+Pass 4H Pass 6D
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "269"]
+{Trumpmgmt-6}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:A82.K65.K42.QJ74 6.A872.QJ97.T852 KQ974.94.A65.AK6 JT53.QJT3.T83.93"]
+[Auction "N"]
+1C Pass 2S? Pass
+3S Pass 4C =1=
+Pass 4D =2= Pass
+4S Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #3 (S): 1S -> 2S.
+
+Expected:
+
+---- 1C Pass 1S?
+
+Pass 1NT Pass 2D
+
+Pass 2S Pass 4S
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "270"]
+{Trumpmgmt-7}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:T8.KQ86.872.9753 J762.T743.95.QJ6 AKQ953.A.AK4.AK2 4.J952.QJT63.T84"]
+[Auction "S"]
+2C =1= Pass 2D
+=2= Pass 2S? Pass
+2NT Pass 3S Pass
+4S Pass 4NT =3=
+Pass 5D =4= Pass
+5NT =5= Pass 6D
+=6= Pass 7NT Pass
+Pass Pass
+[
+[Result ""]
+{Difference: Bid #7 (N): 3H -> 2NT.
+
+Expected:
+
+---- ---- ---- 2C
+
+Pass 2D Pass 2S
+
+Pass 3H? Pass 6S
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "271"]
+{Trumpmgmt-8}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:AQ.643.8742.6532 7542.KT52.KJ93.T K9.AJ9.6.AKQJ987 JT863.Q87.AQT5.4"]
+[Auction "S"]
+1C 1S? Pass 2S
+4C Pass Pass Pass
+[Result ""]
+{Difference: Bid #2 (W): PASS -> 1S.
+
+Expected:
+
+---- ---- ---- 1C
+
+Pass? 1NT Pass 3C
+
+Pass 4C Pass 5C
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "272"]
+{Trumpmgmt-9}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:752.86.A94.KQJT2 JT6.QJT2.JT52.74 KQ3.AK9753.6.A53 A984.4.KQ873.986"]
+[Auction "S"]
+1H Pass 1NT? =1=
+Pass 3H Pass 4H
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 2C -> 1NT.
+
+Expected:
+
+---- ---- ---- 1H
+
+Pass 2C? Pass 3H
+
+Pass 4H Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "273"]
+{Trumpmgmt-10}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:QT63.J52.KQ3.K64 AK.QT94.JT82.Q72 J97542.AK.74.A53 8.8763.A965.JT98"]
+[Auction "S"]
+1S Pass 3C? =1=
+Pass 4S Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 3S -> 3C.
+
+Expected:
+
+---- ---- ---- 1S
+
+Pass 3S? Pass 4S
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "274"]
+{Trumpmgmt-11}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:A752.QT9.KQ7.854 J84.742.JT54.KQT T.AKJ63.A832.762 KQ963.85.96.AJ93"]
+[Auction "S"]
+1H 1S? 2S =1=
+Pass 4H Pass Pass
+Pass
+[
+[Result ""]
+{Difference: Bid #2 (W): PASS -> 1S.
+
+Expected:
+
+---- ---- ---- 1H
+
+Pass? 1S Pass 2D
+
+Pass 3H Pass 4H
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "275"]
+{Trumpmgmt-12}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:A63.JT83.8752.84 KQJ2.A.T643.T752 854.KQ9654.A.AQJ T97.72.KQJ9.K963"]
+[Auction "S"]
+1H Pass 2H Pass
+3C? =1= Pass 3D
+=2= Pass 4H Pass
+Pass Pass
+[
+[Result ""]
+{Difference: Bid #5 (S): 4H -> 3C.
+
+Expected:
+
+---- ---- ---- 1H
+
+Pass 2H Pass 4H?
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "276"]
+{Trumpmgmt-13}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:A8653.A5.K8.A942 KJ92.K82.J5.T873 7.QJT974.A632.65 QT4.63.QT974.KQJ"]
+[Auction "S"]
+2H Pass 2NT? =1=
+Pass 3C Pass 3H
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 4H -> 2NT.
+
+Expected:
+
+---- ---- ---- 2H
+
+Pass 4H? Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "277"]
+{Trumpmgmt-14}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:932.953.AK95.742 865.876.QT3.JT85 AKQJT.QJ.87.AK63 74.AKT42.J642.Q9"]
+[Auction "S"]
+1S Pass 2S Pass
+2NT? =1= Pass 4S
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #5 (S): 4S -> 2NT.
+
+Expected:
+
+---- ---- ---- 1S
+
+Pass 2S Pass 4S?
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "278"]
+{Trumpmgmt-15}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:432.953.AK95.742 865.876.QT3.JT85 AKQJT.QJ.87.AK63 97.AKT42.J642.Q9"]
+[Auction "S"]
+1S Pass 2S Pass
+2NT? =1= Pass 4S
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #5 (S): 4S -> 2NT.
+
+Expected:
+
+---- ---- ---- 1S
+
+Pass 2S Pass 4S?
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "279"]
+{Trumpmgmt-17}
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:QJT9.QJ8.652.843 K8642..JT73.QJT2 .AK96542.AQ4.K75 A753.T73.K98.A96"]
+[Auction "E"]
+Pass 1H Pass Pass?
+X 3H Pass Pass
+Pass
+[Result ""]
+{Difference: Bid #4 (N): 2H -> PASS.
+
+Expected:
+
+---- ---- Pass 1H
+
+Pass 2H? Pass 4H
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "280"]
+{Trumpmgmt-18}
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:K6.8542.K872.954 T52.T93.J953.KQ8 AQJ974.A6.AQ.632 83.KQJ7.T64.AJT7"]
+[Auction "E"]
+Pass 1S Pass Pass?
+Pass
+[Result ""]
+{Difference: Bid #4 (N): 1NT -> PASS.
+
+Expected:
+
+---- ---- Pass 1S
+
+Pass 1NT? Pass 4S
+
+Pass Pass Pass}
+
+[Event ""]
+[Board "281"]
+{Trumpmgmt-19}
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:.T96.KQJT3.A8742 A98.Q52.9754.QT6 K6542.AK874.A.K3 QJT73.J3.862.J95"]
+[Auction "S"]
+1S Pass 1NT? =1=
+Pass 3H Pass 3NT
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #3 (N): 2D -> 1NT.
+
+Expected:
+
+---- ---- ---- 1S
+
+Pass 2D? Pass 3H
+
+Pass 4H Pass 4NT
+
+Pass 6H Pass Pass
+
+Pass}
+
+[Event ""]
+[Board "282"]
+{Trumpmgmt-20}
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AKQ.AK98.AT863.5 65.5432.Q2.KQ973 742.QJT7.5.A8642 JT983.6.KJ974.JT"]
+[Auction "N"]
+1D Pass 1H Pass
+4C? =1= Pass 4H
+Pass Pass Pass
+[
+[Result ""]
+{Difference: Bid #5 (N): 4NT -> 4C.
+
+Expected:
+
+---- 1D Pass 1H
+
+Pass 4NT? Pass 5D
+
+Pass 6H Pass Pass
+
+Pass}

@@ -96,13 +96,22 @@ def clean_up_suits(text,use_colon):
     
     return text
     
-def rotate_hand_180_degrees(hands):
+def rotate_hand_180_degrees(hands, rotate_ew=True):
+    """
+    Rotate hands 180 degrees (swap N↔S and optionally E↔W).
+
+    When [ROTATE] is detected in Baker Bridge HTML:
+    - N/S hands are extracted from pre-rotation sections → need rotation
+    - E/W hands are extracted from post-rotation full deal → already rotated
+    - So we only rotate N/S, not E/W
+    """
     temp = hands["North"]
     hands["North"] = hands["South"]
     hands["South"] = temp
-    temp = hands["East"]
-    hands["East"] = hands["West"]
-    hands["West"] = temp
+    if rotate_ew:
+        temp = hands["East"]
+        hands["East"] = hands["West"]
+        hands["West"] = temp
     
 def rotate_seat_180_degrees(seat):
     partners = {
@@ -160,7 +169,12 @@ def clean_up_analysis(analysis,td_str,last_bid):
     analysis = analysis.strip()
     analysis = analysis.rstrip("\\n")                # remove trailing new lines (sometimes separating anchors which are already gone)
 #    analysis = analysis.replace("\n", r"\n")
-    if "NEXT" in td_str:
+    # Check for rotation instruction first (may appear with NEXT button)
+    if "rotate" in analysis.lower():
+        analysis = analysis + " [ROTATE]"
+        analysis = analysis.replace("lickto", "lick NEXT to")
+        analysis = analysis.replace("lick.", "lick NEXT.")
+    elif "NEXT" in td_str:
         analysis = analysis + " [NEXT]"
         analysis = analysis.replace("lickto", "lick NEXT to")
         analysis = analysis.replace("lick.", "lick NEXT.")
@@ -511,9 +525,11 @@ def process_files(folder_path, output_csv, max_files=3000):
             kind = extract_lesson_kind(soup)
             
             if "[ROTATE]" in analysis:
-                rotate_hand_180_degrees(hands)
-                dealer = rotate_seat_180_degrees(dealer)
-                declarer = rotate_seat_180_degrees(declarer)
+                # N/S hands come from pre-rotation sections, need rotation
+                # E/W hands come from post-rotation full deal, already correct
+                # Dealer/declarer come from post-rotation auction, already correct
+                rotate_hand_180_degrees(hands, rotate_ew=False)
+                # Don't rotate dealer/declarer - they're from post-rotation auction
                 
 #           On most deals, the student sits in the South position:
             student = "South"
