@@ -1,0 +1,720 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%Creator: CSVtoPBN Version 1.00
+%Created: 2026-01-23 13:57:51
+%sourcefilename BakerBridgeFull.csv
+%HRTitleEvent Bidpractice/Set5
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "1"]
+{Baker Bidpractice/Set5 1}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "2S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AK9873.82.986.J4 54.AT3.JT53.A862 QJ2.K975.KQ2.Q53 T6.QJ64.A74.KT97"]
+[Auction "S"]
+2S pass pass pass
+[Result ""]
+{SOUTH has a perfect hand for an opening bid of 2♠.
+
+NORTH will be tempted to respond with his opening hand and good trump support, but he should
+
+resist the temptation. To raise a Weak Two-bid to game you should have quick winners, not just points.}
+[BCFlags "1f"]
+[RotationNote "Board 1, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "2"]
+{Baker Bidpractice/Set5 2}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:AK9873.82.986.J4 65.Q643.K543.T86 QJ2.AK75.A72.A53 T4.JT9.QJT.KQ972"]
+[Auction "S"]
+2S pass 4S pass pass pass
+[Result ""]
+{SOUTH has the same hand as in Deal 1 and again opens 2♠.
+
+This is the type of hand NORTH needs to bid game. Notice that even with all those winners the
+
+pair is nowhere close to having a slam. The will probably make just ten tricks.}
+[BCFlags "1f"]
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "3"]
+{Baker Bidpractice/Set5 3}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:AK9873.82.986.J4 T5.K64.KJ43.A962 QJ62.75.A72.Q753 4.AQJT93.QT5.KT8"]
+[Auction "S"]
+2S pass 4S pass pass pass
+[Result ""]
+{Once more, SOUTH has the same hand as Deals 1 and 2.
+
+This time NORTH has a very poor hand without any chance of making game. However, he should bid
+
+4♠ anyway.
+
+It is very likely that the opponents can make 4
+
+♥
+
+if East gets the
+
+opportunity to get into the bidding. Hopefully the 4♠ bid will shut him out, and 4♠ probably
+
+won't go down more than a couple of tricks.}
+[BCFlags "1f"]
+[RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "4"]
+{Baker Bidpractice/Set5 4}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3D"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:43.85.KQJ9862.97 JT92.Q43.A4.KT64 KQ76.A62.53.AQ83 A85.KJT97.T7.J52"]
+[Auction "S"]
+3D pass pass pass
+[Result ""]
+{SOUTH has a pretty normal preemptive 3
+
+♦
+
+bid.
+
+NORTH has the equivalent of an opening 1NT bid and will be very tempted to bid 3NT.
+
+That might turn out to be a disaster, particularly if NORTH is unable to reach the SOUTH hand.
+
+NORTH should assume SOUTH can win six tricks if
+
+♦
+
+s are trumps. Thinking this way points NORTH to her
+
+best call - PASS.}
+[BCFlags "1f"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "5"]
+{Baker Bidpractice/Set5 5}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4H"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:87.KQJ9732.5.864 Q2.84.QT7.KQJ532 AJT643.A.AK64.97 K95.T65.J9832.AT"]
+[Auction "S"]
+3H pass 4H pass pass pass
+[Result ""]
+{Here NORTH has the kind of hand you need to raise a preempt to game.
+
+NORTH assumes that SOUTH has a hand with six winners in it. He can provide four more, so
+
+that is just enough for game. He bids 4
+
+♥
+
+.}
+[BCFlags "1f"]
+[RotationNote "Board 5, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "6"]
+{Baker Bidpractice/Set5 6}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AQJ9765.QT2.7.63 2.8764.KQJT8.A94 K4.KJ5.942.KQJ72 T83.A93.A653.T85"]
+[Auction "S"]
+1S pass 2C pass 2S pass 4S pass pass pass
+[Result ""]
+{SOUTH has a 7-card ♠ suit but he is too strong to open with a preemptive bid.
+
+So he opens 1♠ instead.
+
+NORTH should respond 2♣, and SOUTH can do nothing but rebid the ♠ suit.
+
+NORTH thinks there should be game and bids 4♠}
+[BCFlags "1f"]
+[RotationNote "Board 6, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "7"]
+{Baker Bidpractice/Set5 7}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4H"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "S:764.AK9743.72.Q5 AJ832.62.T9.T986 KQ.QJ.AKQ65.KJ42 T95.T85.J843.A73"]
+[Auction "S"]
+2H pass 4H pass pass pass
+[Result ""]
+{SOUTH is too weak to open 1
+
+♥
+
+but just right for 2
+
+♥
+
+.
+
+Wow! NORTH has 21 HCP and two good
+
+♥
+
+s. Could this be time for a slam try?
+
+Nope, no slam here. Suppose SOUTH has six
+
+♥
+
+s headed by the AK. The trump suit
+
+would certainly be solid, but then SOUTH couldn't possibly have an outside Ace as well or he would have been
+
+too strong for a Weak-two opening. So NORTH just bids 4
+
+♥
+
+.}
+[BCFlags "1f"]
+[RotationNote "Board 7, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "8"]
+{Baker Bidpractice/Set5 8}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "2H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:J83.KQJ762.85.85 K92.A985.JT76.96 AQ5.4.KQ94.KJ742 T764.T3.A32.AQT3"]
+[Auction "S"]
+2H pass pass pass
+[Result ""]
+{NORTH really hates that 2
+
+♥
+
+opening by SOUTH.
+
+But there's no sense bidding and probably making matters worse, so she grits her
+
+teeth and passes.
+
+If you think 3NT has a chance you are delusional.}
+[BCFlags "1f"]
+[RotationNote "Board 8, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "9"]
+{Baker Bidpractice/Set5 9}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:K84.AQT642.4.965 972.KJ85.KJ73.T4 AQJT65.7.A95.KJ3 3.93.QT862.AQ872"]
+[Auction "N"]
+2H pass 2S pass 3S pass 4S pass pass pass
+[Result ""]
+{SOUTH expects to be better off in ♠s than NORTH would be in 2
+
+♥
+
+.
+
+Whether or not you play a new suit as a one round force or not, NORTH should make the 3♠ bid with
+
+a hand this good. SOUTH then bids the ♠ game.}
+[BCFlags "1f"]
+[RotationNote "Board 9, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "10"]
+{Baker Bidpractice/Set5 10}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:6.AQJ8754.632.84 J942.92.T87.KJ75 AK75.K63.KQJ54.A QT83.T.A9.QT9632"]
+[Auction "S"]
+3H pass 4NT pass 5D pass 6H pass pass pass
+[Result ""]
+{SOUTH has a pretty normal 3
+
+♥
+
+opening bid.
+
+NORTH, however, has a big hand, and she launches into Blackwood.
+
+When SOUTH shows one Ace NORTH can bid 6
+
+♥
+
+with confidence.}
+[BCFlags "1f"]
+[RotationNote "Board 10, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "11"]
+{Baker Bidpractice/Set5 11}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:J3.76.97.KQ98752 98642.A843.A52.4 AQT.KQJ.QJT3.AJT K75.T952.K864.63"]
+[Auction "N"]
+3C pass 3NT pass pass pass
+[Result ""]
+{NORTH doesn't have much of a 3♣ opening bid.
+
+But SOUTH has just the type of hand you need to bid 3NT after partner's preempt. The other three
+
+suits well stopped, and certain entry in Opener's long suit. Notice here that 3NT is a good contract,
+
+but 5♣ would go down 1.}
+[BCFlags "1f"]
+[RotationNote "Board 11, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "12"]
+{Baker Bidpractice/Set5 12}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:J4.KJT963.875.42 T7.A75.T942.9653 AQ63.Q82.AKQ.KQJ K9852.4.J63.AT87"]
+[Auction "S"]
+2H pass 2NT pass 3H pass 4H pass pass pass
+[Result ""]
+{When SOUTH opens with a Weak 2
+
+♥
+
+bid, NORTH knows she will
+
+force to game but is thinking about slam.
+
+But first she needs to know if SOUTH has anything extra. She bids 2NT to get more information.
+
+SOUTH returns to
+
+♥
+
+s to show bare minimum so NORTH settles for game.}
+[BCFlags "1f"]
+[RotationNote "Board 12, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "13"]
+{Baker Bidpractice/Set5 13}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3S"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "S:KQ9862.864.94.K6 A75.QT72.J6.QJ92 JT3.AK53.AQ732.4 4.J9.KT85.AT8753"]
+[Auction "S"]
+2S pass 2NT pass 3C pass 3S pass pass pass
+[Result ""]
+{NORTH has one of those hands which might or might not be helpful to SOUTH. He needs
+
+more information about SOUTH's hand, so he bids 2NT.
+
+SOUTH has a better than average hand, so she bids 3♣ to show a high card in the suit.
+
+NORTH was hoping for a high card in
+
+♦
+
+s rather than ♣s, so
+
+he signs off in 3♠}
+[BCFlags "1f"]
+[RotationNote "Board 13, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "14"]
+{Baker Bidpractice/Set5 14}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:73.K53.KQT872.94 QJ.AJT86.653.T83 A64.Q42.AJ4.AK65 KT9852.97.9.QJ72"]
+[Auction "N"]
+2D pass 2NT pass 3H pass 3NT pass pass pass
+[Result ""]
+{With four fast winners SOUTH should think about game. The best approach is usually to
+
+use 2NT to find out more about NORTH's hand.
+
+SOUTH found out that NORTH has good opening strength, and, most importantly, either the
+
+♥
+
+A or
+
+♥
+
+K. Now that she doesn't
+
+have to worry about the opponents taking the first five
+
+♥
+
+tricks
+
+she bids 3NT.}
+[BCFlags "1f"]
+[RotationNote "Board 14, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "15"]
+{Baker Bidpractice/Set5 15}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:975.76.AKQ962.83 AJ2.T942.85.Q972 KQ8.AK8.J43.AT65 T643.QJ53.T7.KJ4"]
+[Auction "N"]
+2D pass 2NT pass 3NT pass pass pass
+[Result ""]
+{SOUTH is strong enough to be thinking about game, depending on how good NORTH's hand is.
+
+So he bids 2NT to get more information.
+
+NORTH has the exact hand to say 3NT - a suit headed by AKQ.
+
+Game (and bidding) doesn't get much easier.}
+[BCFlags "1f"]
+[RotationNote "Board 15, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "16"]
+{Baker Bidpractice/Set5 16}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:KQJ8753.2.754.J5 A6.KJ6.AJ962.763 T92.A8743.3.AK92 4.QT95.KQT8.QT84"]
+[Auction "S"]
+3S pass 4S pass pass pass
+[Result ""]
+{NORTH assumes her partner can win six tricks. So she will need to contribute four more to
+
+make game.
+
+Three of them are obvious, and she expects to get a
+
+♦
+
+ruff also.}
+[BCFlags "1f"]
+[RotationNote "Board 16, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "17"]
+{Baker Bidpractice/Set5 17}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AK8762.83.83.K65 54.AKQ42.JT74.87 Q9.J75.A96.AQJ42 JT3.T96.KQ52.T93"]
+[Auction "S"]
+1S pass 2C pass 2S pass 4S pass pass pass
+[Result ""]
+{SOUTH's hand has the look of a Weak Two-bid, but it is one point too strong. So she opens 1♠.
+
+NORTH naturally bids 2♣ and SOUTH rebids the ♠ suit.
+
+NORTH always knew there would be a game bid, so with an 8-card fit he bids 4♠}
+[BCFlags "1f"]
+[RotationNote "Board 17, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "18"]
+{Baker Bidpractice/Set5 18}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:65.AQJ8753.975.5 AT.942.QT63.AT98 QJ83.T6.KJ4.KQJ4 K9742.K.A82.7632"]
+[Auction "S"]
+3H pass pass pass
+[Result ""]
+{NORTH may have an opening hand, but it is just the wrong kind of hand to respond to
+
+partner's preemptive bid. She doesn't have the immediate winners that SOUTH is likely
+
+to need, but she is in good shape for defense should the opponents bid.
+
+In other words, NORTH has the perfect hand with which to pass.}
+[BCFlags "1f"]
+[RotationNote "Board 18, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "19"]
+{Baker Bidpractice/Set5 19}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "6NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:54.863.AKQ974.85 T87632.J42.T.Q73 KQJ.AK7.J63.AK42 A9.QT95.852.JT96"]
+[Auction "N"]
+2D pass 2NT pass 3NT pass 6NT pass pass pass
+[Result ""]
+{The 2NT response to a Weak Two opening is a wonderful tool. You can learn a lot about
+
+partner's hand and you are absolutely certain that it will not be passed out.
+
+In this Deal SOUTH has a huge hand and NORTH opens 2
+
+♦
+
+.
+
+There are a lot of approaches SOUTH might try, but the simplest is to start with 2NT.
+
+When NORTH shows
+
+♦
+
+A K Q x x x SOUTH has an easy 6NT bid.}
+[BCFlags "1f"]
+[RotationNote "Board 19, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "20"]
+{Baker Bidpractice/Set5 20}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AQ9752.K3.852.73 4.T976.AQT7.KJT2 KJ6.AQJ42.964.A5 T83.85.KJ3.Q9864"]
+[Auction "S"]
+2S pass 2NT pass 3H pass 4S pass pass pass
+[Result ""]
+{NORTH is unsure whether to bid game or not. So she temporizes with 2NT.
+
+SOUTH shows an above average hand plus a high card in
+
+♥
+
+s.
+
+NORTH is no longer unsure, so she bids 4♠.}
+[BCFlags "1f"]
+[RotationNote "Board 20, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "21"]
+{Baker Bidpractice/Set5 21}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:AQ9864.53.873.72 752.K.Q2.KJT9843 KJ3.AQJ42.964.A5 T.T9876.AKJT5.Q6"]
+[Auction "S"]
+2S pass 2NT pass 3S pass pass pass
+[Result ""]
+{NORTH is unsure whether to bid game or not, so he bids 2NT to get more information about
+
+SOUTH's hand.
+
+SOUTH's 3♠ is discouraging, a hand below average in strength and no outside high card.
+
+NORTH passes and hopes for the best.}
+[BCFlags "1f"]
+[RotationNote "Board 21, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "22"]
+{Baker Bidpractice/Set5 22}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "4H"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "N:5.8.9753.KQJ9863 KQJ87.93.KJT.T75 A63.AKQJ742.A8.4 T942.T65.Q642.A2"]
+[Auction "N"]
+3C pass 4H pass pass pass
+[Result ""]
+{SOUTH has no way to tell whether NORTH can provide one winner or not.
+
+So she takes the bold approach and bids 4
+
+♥
+
+.
+
+If the opening lead is a ♠ or a
+
+♦
+
+then SOUTH
+
+will probably make the game. Otherwise she will likely go down one.}
+[BCFlags "1f"]
+[RotationNote "Board 22, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "23"]
+{Baker Bidpractice/Set5 23}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:QJT742.KQ72.52.9 A865.T4.93.AK752 K3.AJ963.AQ7.864 9.85.KJT864.QJT3"]
+[Auction "N"]
+pass pass 1H pass 3H pass 4H pass pass pass
+[Result ""]
+{Most good players have an extra restriction in their Weak Two-bid guidelines - they won't
+
+open with a Weak Two-bid when they hold an outside 4-card Major, even if the hand qualifies
+
+otherwise. This Deal shows why.
+
+If NORTH opened with 2♠, SOUTH might well pass and a
+
+♥
+
+game
+
+would be missed.}
+[BCFlags "1f"]
+[RotationNote "Board 23, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "24"]
+{Baker Bidpractice/Set5 24}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:62.742.AJT832.K7 KJ8.K653.96.J986 AQ3.AJT.K754.QT4 T9754.Q98.Q.A532"]
+[Auction "N"]
+2D pass 2NT pass 3C pass 3NT pass pass pass
+[Result ""]
+{SOUTH responds 2NT, asking for more information.
+
+When NORTH shows a decent hand with a high ♣ SOUTH should bid 3NT.}
+[BCFlags "1f"]
+[RotationNote "Board 24, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+

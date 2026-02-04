@@ -1,0 +1,203 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:49:18 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker 2over1 1}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:K976.8743.A82.75 QT5.KQJT5.74.AQ6 A32.96.QJ5.T9832 J84.A2.KT963.KJ4"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "3NT"]
+[Result ""]
+{After North's 1\H opening South counts 12 HCP plus one length point for the fifth \D. That is enough for a 2/1 response so South says 2\D.
+
+The partnership is now forced to reach game so North bids 2NT. This describes a balanced hand with exactly 5 \Hs and no 4-card \S suit.
+
+South is happy to play in Notrump, and with no extra strength above the 13 points already promised, uses Quick Arrival and bids 3NT. North passes and a reasonable game contract is reached.
+
+Notice that you would bid this hand the same way whether or not you play 2/1.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1H Pass 2D Pass
+2NT Pass 3NT Pass
+Pass Pass
+
+[Event ""]
+{Baker 2over1 2}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:AQT73.976.82.T98 65.KQJ843.A5.Q63 942.T5.QJ74.A752 KJ8.A2.KT963.KJ4"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{South opens 1\H and North, with 16 points,  responds 2\D, forcing the partnership to game.
+
+South has a minimum strength hand, but with a 6-card suit he rebids 2\H.
+
+Opposite South's 6-card suit, North's doubleton is adequate support. If North had a minimum for her 2/1 response she might just jump to 4\H to show no interest in slam. With a little extra she bids 3\H since she knows the bidding cannot stop until game is reached. From North's perspective South might have a big hand; his 2-level rebid shows suit length but does not say anything about strength. This is one of the beauties of 2/1, the bidding can be kept low while you look for the best place to play. However, this time South merely bids the game and North passes.
+
+The hand would have been bid the same with or without 2/1.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1H Pass 2D Pass
+2H Pass 3H Pass
+4H Pass Pass Pass
+
+[Event ""]
+{Baker 2over1 3}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:AJT84.T96.92.JT9 K5.KQJ743.75.AK4 9732.5.JT84.Q852 Q6.A82.AKQ63.763"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "6H"]
+[Result ""]
+{With 16+ points and 3 \Hs, South will insist on a \H game at a minimum. But there is no need to start making jump bids, she starts with a simple 2\D bid. North also refrains from a jump, and rebids 2\H to show the 6-card suit.
+
+South now says 3\H to set the trump suit. At this point North reveals some slam interest, making a control-showing bid of 4\C. South continues the process, and bids 4\D, showing the \DA.
+
+North has heard enough. He bids 4NT, and when South admits to two Aces he bids the slam.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 3, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1H Pass 2D Pass
+2H Pass 3H Pass
+4C Pass 4D Pass
+4NT Pass 5H Pass
+6H Pass Pass
+
+[Event ""]
+{Baker 2over1 4}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:T973.KT72.J4.QJT AKJ865.43.75.K63 42.QJ.AKQT83.985 Q.A9865.962.A742"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "2S"]
+[Result ""]
+{South has a minimum 1\S opening bid. After West's 2\D overcall both South and North know that the 2/1 Game Force in no longer on. North can therefore bid 2\H, showing at least 11 points. This bid is forcing on South for 1 round, but not forcing to game.
+
+South next rebids his \Ss, promising a 6-card suit, but also indicating a minimum strength hand! Since the Game Force is not on, South would have to make a jump bid to show extra strength.
+
+North has nothing further to say so the partnership arrives in a safe contract.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1S 2D 2H Pass
+2S Pass Pass Pass
+
+[Event ""]
+{Baker 2over1 5}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:AT2.65.432.KQ732 KJ965.AK843.75.4 873.J92.KQT98.J5 Q4.QT7.AJ6.AT986"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4H"]
+[Result ""]
+{North opens 1\S, the higher ranking of the two 5-card suits.
+
+South, with 14 points, responds 2\C, forcing the partnership to game.
+
+North now bids his \H suit.
+
+At this point South figures North for 5 \Ss and 4 \Hs. South cannot support either of North's Majors, but with a good stopper in the fourth suit bids 2NT. The game force is still on and North may not pass this bid.
+
+North bids 3\H, indicating that this is also a 5-card suit. Now South can bid the \H game, knowing there is an 8-card fit.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 5, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1S Pass 2C Pass
+2H Pass 2NT Pass
+3H Pass 4H Pass
+Pass Pass

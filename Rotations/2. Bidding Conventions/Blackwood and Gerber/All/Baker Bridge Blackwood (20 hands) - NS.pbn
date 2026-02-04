@@ -1,0 +1,476 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%Creator: CSVtoPBN Version 1.00
+%Created: 2026-01-23 13:57:51
+%sourcefilename BakerBridgeFull.csv
+%HRTitleEvent Blackwood
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "1"]
+{Baker Blackwood 1}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "5H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:9.QJT75.AKQ3.KQ4 QJT86.A6.96.JT72 AK.K942.JT85.863 75432.83.742.A95"]
+[Auction "N"]
+1H pass 3H pass 4NT pass 5D pass 5H pass pass pass
+[Result ""]
+{Your 3\H bid showed 11-12 points. Decide how you would answer partner's Blackwood 4NT, then  on BID above. 
+
+The Blackwood response for 1 Ace is 5\D. Partner evidently was hoping for 2, and he signs off at 5\H. He is the Captain so you pass.}
+[BCFlags "1f"]
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "2"]
+{Baker Blackwood 2}
+[Dealer "E"]
+[Declarer "S"]
+[Contract "6NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:A32.J8543.72.T85 QJ8.KQ2.AT986.A9 T764.T96.J54.732 K95.A7.KQ3.KQJ64"]
+[Auction "E"]
+pass 1NT pass 4C pass 4S pass 6NT pass pass pass
+[Result ""]
+{Your 1NT bid showed 15-17 points and a balanced hand. Decide how you would answer partner's Gerber 4\C, then  on BID above. 
+
+The Gerber response to show 2 Aces is 4\S. So you bid 4\S and partner jumps to 6NT, which you pass.}
+[BCFlags "1f"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "3"]
+{Baker Blackwood 3}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "4NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AQJ.QJT5.975.KQJ 97532.864.A.9642 K8.K2.KQJT843.A3 T64.A973.62.T875"]
+[Auction "N"]
+1NT pass 4C pass 4H pass 4NT pass pass pass
+[Result ""]
+{Very interesting! If partner's 1NT bid happens to include 3 Aces and one King you can count 13 tricks\So you bid 4\C, definitely Gerber following the 1NT opening. Partner answers 4\H. What do you say next? 
+
+You almost refuse to believe it! How can partner have a 1NT opener with only 1 Ace? But you trust your partner so you bid 4NT. Everybody passes and you stare in amazement at partner's 16 points.
+
+Wouldn't it have been funny if partner had thought your 4\C bid was Stayman? And so his 4\H bid would have been showing a suit. And then your 4NT bid would have been Blackwood. And then he would have answered 5\D and you would have passed and made it!}
+[BCFlags "1f"]
+[RotationNote "Board 3, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "4"]
+{Baker Blackwood 4}
+[Dealer "E"]
+[Declarer "S"]
+[Contract "6NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:5432.984.A75.875 A98.KQJT.KJ6.AQ3 JT6.732.942.T962 KQ7.A65.QT83.KJ4"]
+[Auction "E"]
+pass 2NT pass 4C pass 4S pass 6NT pass pass pass
+[Result ""]
+{With a 20 point balanced hand you open 2NT. What do you rebid after partner jumps to 4\C? 
+
+The 4\C bid is Gerber and your correct response with 2 Aces is 4\S. Partner now bids 6NT and since he is the Captain you pass.}
+[BCFlags "1f"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "5"]
+{Baker Blackwood 5}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:84.AJT863.63.A75 QJ9632.Q..QJT943 AK.K942.KQJT54.8 T75.75.A9872.K62"]
+[Auction "N"]
+2H pass 4NT pass 5H pass 6H pass pass pass
+[Result ""]
+{Partner opens a Weak 2-bid and catches you with a blockbuster. The only thing you want to know about his hand now is how many Aces he has. So you bid 4NT. Partner answers 5\H. What do you bid? 
+
+That makes it simple, with 2 Aces you bid a confident 6\H. If he had 1 Ace you would have bid an also confident 5\H. If he had zero Aces you would have been in a spot of trouble. And if he had 3 Aces you would have asked him how he could open a Weak-2 with that many points.}
+[BCFlags "1f"]
+[RotationNote "Board 5, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "6"]
+{Baker Blackwood 6}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:K5.A985.AQ.KQJ54 QJT4.72.9532.976 A986.KQJT.KT86.3 732.643.J74.AT82"]
+[Auction "N"]
+1C pass 1H pass 4H pass 4NT pass 5H pass 6H pass pass pass
+[Result ""]
+{You MIGHT say that with 13 points and partner controlling the \Cs you could jump to 2NT, "To show you my points, partner."You might say it but you won't because your first priority is to look for a Major suit fit. You bid 1\H (skipping \Ds with the two Majors). Partner now jumps to 4\H. What do you say? 
+
+Partner says you can make game even if you have a minimum 6 points. So he must have about 20. So you think you can make slam and you bid 4NT. Partner answers 5\H. What do you bid? 
+
+Partner shows 2 Aces so you bid 6\H.}
+[BCFlags "1f"]
+[RotationNote "Board 6, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "7"]
+{Baker Blackwood 7}
+[Dealer "S"]
+[Declarer "N"]
+[Contract "6NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AK.KT.KQJ94.KT83 J9872.J76.52.J64 QT6.AQ5.T87.AQ52 543.98432.A63.97"]
+[Auction "S"]
+1D pass 2NT pass 4C pass 4S pass 6NT
+[Result ""]
+{You dealt this hand.  
+
+You have 20 points and it would not be terrible to open 2NT. However, strictly speaking you shouldn't open 2NT with two doubletons. So you open 1\D. Partner responds with a jump to 2NT. What do you bid? 
+
+With partner's 13-15 added onto your 20, bidding 6NT would be a reasonable bid. However, it costs nothing to check for Aces first, so you bid 4\C. (Everybody agrees this is Gerber, right?)Partner answers 4\S. What do you bid? 
+
+Easy, missing one Ace you bid 6NT.}
+[BCFlags "1f"]
+[RotationNote "Board 7, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "8"]
+{Baker Blackwood 8}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "6NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AQJ873.6.T86.A63 4.J4.J9542.T9854 T92.AKQT5.AK.KQJ K65.98732.Q73.72"]
+[Auction "N"]
+1S pass 3H pass 3S pass 4NT pass 5H pass 5NT pass 6C pass 6NT all pass
+[Result ""]
+{You dealt this hand.  
+
+With 13 points and a good Major suit you naturally open 1\S. Partner responds 3\H. What do you bid next? 
+
+We are playing strong jump-shifts by Responder so partner is showing 17+ points. However, you are still stuck with your minimum opening so you just rebid 3\S. Partner bids 4NT. What is your reply? 
+
+He asks for Aces so you bid 5\H showing 2. He now bids 5NT. What do you say? 
+
+You have no King. So you reply 6\C and partner bids 6NT (safer than 6\S).}
+[BCFlags "1f"]
+[RotationNote "Board 8, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "9"]
+{Baker Blackwood 9}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:642.AQ9742..8542 QJT8753.6.876.KT AK.K853.KQJ4.A93 9.JT.AT9532.QJ76"]
+[Auction "N"]
+2H pass 4NT pass 6D pass 6H pass pass pass
+[Result ""]
+{You need to find out about Aces so you bid 4NT. Partner says 6\D. What do you bid? 
+
+Partner has shown one Ace and a \D void. As to what you bid, that's easy. You have no choice now but to say 6\H. This is a pretty good slam, but it is not cold. Maybe East will not lead a \C. Or maybe West will have the \DA.}
+[BCFlags "1f"]
+[RotationNote "Board 9, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "10"]
+{Baker Blackwood 10}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "6NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:KQ4.KQJ3.KQJ5.AK J98652.A74.942.4 AT7.952.AT86.Q63 3.T86.73.JT98752"]
+[Auction "N"]
+2C pass 2NT pass 4C pass 4S pass 6NT pass pass pass
+[Result ""]
+{Not everybody responds to 2\C openers the same way. But with 9 balanced points 2NT is reasonable. Partner jumps to 4\C. What do you bid? 
+
+With 2 Aces your response is 4\S. Partner bids 6NT and you pass.}
+[BCFlags "1f"]
+[RotationNote "Board 10, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "11"]
+{Baker Blackwood 11}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "7NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AT.AK76.A85.AKJ5 72.QT982.72.9832 KQJ8643.3.KQJ4.7 95.J54.T963.QT64"]
+[Auction "N"]
+2C pass 2S pass 2NT pass 4C pass 4D pass 7NT pass pass pass
+[Result ""]
+{Interesting hand. Too bad these only come up in lessons and never at the table! You could jump right into Ace-asking but there is no rush so you say 2\S. Partner now rebids 2NT. What do you say? 
+
+Now you know all about partner's hand. 22-24 points, balanced. Now ask for Aces. If you agree that 4\C is Gerber here then that's what you should bid. If not, then you would have to use Blackwood. Partner answers 4\D. What do you say? 
+
+The 4\D reply says either zero or all four. Put your money on all four and bid 7NT.}
+[BCFlags "1f"]
+[RotationNote "Board 11, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "12"]
+{Baker Blackwood 12}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "6S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AQJ2.KQJ.J6.KQJ8 6.T973.Q873.T654 KT983.2.AKT4.A73 754.A8654.952.92"]
+[Auction "N"]
+1C pass 1S pass 4S pass 4NT pass 5D pass 6S pass pass pass
+[Result ""]
+{With 15 points and a nice 5-card suit you respond 1\S. Partner jumps to 4\S. What do you say? 
+
+Do NOT say "Partner bid a close-out bid so I'll pass." Partner's bid means he thinks you can make 4\S even though he is only counting you for 6 points. Since you have 15+ now you want to go for more. You bid 4NT and partner answers 5\D. What do you say next? 
+
+Partner has 1 Ace so you can go no higher than 6. Although you can't tell for sure that slam will make, remember you used Blackwood just to be sure you weren't missing two Aces. You are not and you have enough points so you bid it. Although you can see that 6NT would have been a great contract you had to take the safer 6\S.}
+[BCFlags "1f"]
+[RotationNote "Board 12, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "13"]
+{Baker Blackwood 13}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "4S"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "N:AKJ83.KQ76.98.AK 7.T982.KJ6532.J8 QT92.AJ43.Q7.QT6 654.5.AT4.975432"]
+[Auction "N"]
+1S pass 3S pass 4C pass 4H pass 4S pass pass pass
+[Result ""]
+{You dealt this hand.  
+
+You aren't strong enough to open 2\C so you bid 1\S. Partner responds 3\S. What do you say? 
+
+Partner's limit-raise shows 11-12 points and you revalue your hand up to 22. So you are definitely in slam territory. You hope partner has 2 Aces but you cannot use Blackwood with that worthless doubleton in \Ds. Instead you make a control-showing bid of 4\C. Partner then bids 4\H. What do you bid next? 
+
+The good news is that partner's control-showing bid says he has the \HA. The bad news is that he bypassed \Ds so he does not have the \DA. Since you may have 2 quick losers in \Ds you sign off at 4\S. }
+[BCFlags "1f"]
+[RotationNote "Board 13, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "14"]
+{Baker Blackwood 14}
+[Dealer "E"]
+[Declarer "S"]
+[Contract "6NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:T62.T953.Q73.972 AK43.QJ86.A9.QJ6 J97.72.86542.A85 Q85.AK4.KJT.KT43"]
+[Auction "E"]
+pass 1NT pass 4NT pass 6NT pass pass pass
+[Result ""]
+{Decide what you would bid, then  on BID above. 
+
+You have a textbook 1NT opener, so you open 1NT. Partner says 4NT. What do you bid? 
+
+THIS IS NOT BLACKWOOD. Partner's bid is the Quantitative 4NT. He has 16 points and is inviting you to bid slam if you have a maximum opener, but to pass with a minimum. Since your 17 point hand is at the top of the 1NT range you accept the invitation and bid 6NT.}
+[BCFlags "1f"]
+[RotationNote "Board 14, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "15"]
+{Baker Blackwood 15}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:964.AJ953.AQJ3.7 A752.2.KT5.96532 KQJ83.K8764.7.AK T.QT.98642.QJT84"]
+[Auction "N"]
+1H pass 4NT pass 5H pass 6H pass pass pass
+[Result ""]
+{You COULD make a Splinter Bid with this hand. You have a singleton \D and great trump support. However it is usually not worthwhile Splintering when you have the strong hand that will be taking control. Since what you really want to know is how many Aces partner has you just ask him with a 4NT bid. Partner answers 5\H. What do you bid? 
+
+Missing one Ace you bid 6\H.}
+[BCFlags "1f"]
+[RotationNote "Board 15, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "16"]
+{Baker Blackwood 16}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "6S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:KQ72.Q4.AQ84.A52 .J9652.T963.Q743 AT643.K8.KJ5.KJ6 J985.AT73.72.T98"]
+[Auction "N"]
+1D pass 1S pass 3S pass 4NT pass 5H pass 6S pass pass pass
+[Result ""]
+{Decide what you would bid, then  on BID above. 
+
+You have a good hand, but not good enough to jump-shift at your first turn. So you respond 1\S. Partner now jumps to 3\S. What do you bid? 
+
+Partner has 16-18 points and \S support. It depends on the Aces so you bid 4NT. His answer is 5\H. What do you say? 
+
+You are missing one Ace but 6\S should be a good slam.}
+[BCFlags "1f"]
+[RotationNote "Board 16, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "17"]
+{Baker Blackwood 17}
+[Dealer "S"]
+[Declarer "N"]
+[Contract "6D"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:KQJ.AJ4.AT53.JT8 T98762.87.96.K72 A53.KQ5.KQJ874.9 4.T9632.2.AQ6543"]
+[Auction "S"]
+1NT pass 3D pass 4D pass 4NT pass 5H pass 6D pass pass pass
+[Result ""]
+{After toying with the idea of a jump to 6NT, or perhaps a Gerber 4\C, you decide to bid 3\D. Partner rebids 4\D and it is your turn. 
+
+Time to check for Aces. You bid 4NT and partner answers 5\H. What do you bid? 
+
+Tempting though it may be it is too dangerous to try 6NT. So you bid 6\D which turns out to be laydown while 6NT would have been down 4.}
+[BCFlags "1f"]
+[RotationNote "Board 17, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "18"]
+{Baker Blackwood 18}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "7S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AQJ9853.964.873. 6.J83.K9654.Q742 KT742.AK.A.KJ863 .QT752.QJT2.AT95"]
+[Auction "S"]
+3S pass 4NT pass 6C pass 7S pass pass pass
+[Result ""]
+{You dealt this hand.  
+
+You decide to preempt 3\S with this hand. Partner's eyes wobble and he jumps straight to 4NT. What do you bid? 
+
+With 1 Ace and a void in a lower-ranking suit you should bid 6 of that suit. So you bid 6\C. Partner jumps again, this time to 7\S. What do you b . . . oh never mind.}
+[BCFlags "1f"]
+[RotationNote "Board 18, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "19"]
+{Baker Blackwood 19}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:KQJ.J97.KQJ.AQJ7 98543..A9862.984 A7.KQT86543.4.K6 T62.A2.T753.T532"]
+[Auction "N"]
+2NT pass 4C pass 4H pass pass pass
+[Result ""]
+{If you play Jacoby Transfers you may think of transferring partner to \Hs, then bidding the slam. but with this hand there really is no big advantage for partner being the Declarer so you decide to just take the bull by the horns. You bid a Gerber 4\C. Partner says 4\H. What do you bid? 
+
+Partner has only a single Ace in his 2NT opener. No slam for your team. You pass and let partner be the Declarer after all!}
+[BCFlags "1f"]
+[RotationNote "Board 19, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "20"]
+{Baker Blackwood 20}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "7H"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "S:KJ.AK7532.K6.873 QT2..Q752.KJT952 A843.QJ986.A984. 9765.T4.JT3.AQ64"]
+[Auction "S"]
+1H pass 4C pass 4NT pass 5NT pass 7H pass pass pass
+[Result ""]
+{Your 4\C bid is a Splinter Bid, showing an opening hand with good \H support and either a singleton or a void in \Cs. Decide what you would reply to partner's 4NT, then  on BID above. 
+
+With 2 Aces and a void the correct response is 5NT. Partner now bids 7\H. Notice how he cleverly figured out your void must be in \Cs.}
+[BCFlags "1f"]
+[RotationNote "Board 20, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+

@@ -1,0 +1,506 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%Creator: CSVtoPBN Version 1.00
+%Created: 2026-01-23 13:57:51
+%sourcefilename BakerBridgeFull.csv
+%HRTitleEvent 2Club
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "1"]
+{Baker 2Club 1}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AK82.AK3.A4.KQ94 973.JT75.J95.J32 Q65.864.KQ86.T87 JT4.Q92.T732.A65"]
+[Auction "N"]
+2C pass 2D pass 2NT pass 3NT pass pass pass
+[Result ""]
+{You dealt this hand. Decide what you would bid, then  on BID above. 
+
+With 23 points you naturally open 2\C. Partner responds 2\D. What do you bid next? 
+
+You have 23 points and no 5-card suit. Since your hand is balanced you bid 2NT. Partner raises to 3NT and you pass.}
+[BCFlags "1f"]
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "2"]
+{Baker 2Club 2}
+[Dealer "E"]
+[Declarer "E"]
+[Contract "2NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "E:KQ5.AK6.AK92.AT8 94.J874.Q5.KQJ52 T872.Q53.864.974 AJ63.T92.JT73.63"]
+[Auction "E"]
+2C pass 2D pass 2NT pass pass pass
+[Result ""]
+{Decide what you would bid, then  on BID above. 
+
+With only 2 points you make a Negative 2\D response to partner's 2\C opener. He now bids 2NT. What is your bid? 
+
+This isn't as clear-cut a decision as you might think at first. Partner is showing 22-24 points, and even though you only have 2 points it is possible that the partnership total could be 26. The thing that should convince you to pass is that a 24-2 point split doesn't play nearly as well as say a 13-13 split would. Lack of transportation would likely kill any chance of 3NT (or 4\S). So you pass.}
+[BCFlags "1f"]
+[RotationNote "Board 2, chOption: E, chBasis: N, basisKind:Declarer, nOption:1, nBasis: 0, nRot: 1, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "3"]
+{Baker 2Club 3}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AK82.AK3.AK.KQ94 T97.J7.JT54.J532 Q65.864.Q986.T87 J43.QT952.732.A6"]
+[Auction "S"]
+2C pass 2D pass 3NT pass pass pass
+[Result ""]
+{You dealt this hand. Decide what you would bid, then  on BID above. 
+
+With 26 points you naturally open 2\C. Partner responds 2\D. What do you bid next? 
+
+You have 26 points and no 5-card suit. Since your hand is balanced you bid 3NT. Everybody passes.}
+[BCFlags "1f"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "4"]
+{Baker 2Club 4}
+[Dealer "W"]
+[Declarer "W"]
+[Contract "3NT"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "W:KQ5.AK6.AK92.AT8 A9643.J974.T.K73 JT82.Q53.864.J94 7.T82.QJ753.Q652"]
+[Auction "W"]
+2C pass 2D pass 2NT pass 3NT pass pass pass
+[Result ""]
+{Decide what you would bid, then  on BID above. 
+
+With only 4 points you make a Negative 2\D response to partner's 2\C opener. He now bids 2NT. What is your bid? 
+
+True, 4 points isn't much. But added to partner's 22-24 it becomes enough for a game. Your problem isn't whether to bid to the game or not, (you definitely will), but whether you should use Stayman to find out if there is a 4-4 \S fit. You decide not to do this because your 4-3-3-3 distribution removes the possibility of you getting any ruffs. So you bid 3NT.}
+[BCFlags "1f"]
+[RotationNote "Board 4, chOption: W, chBasis: N, basisKind:Declarer, nOption:3, nBasis: 0, nRot: 3, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "5"]
+{Baker 2Club 5}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "4H"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "N:.AKQJ8643.A5.QJ4 A42.T7.T63.A8652 K873.92.J8742.T3 QJT965.5.KQ9.K97"]
+[Auction "N"]
+2C pass 2D pass 2H pass 2NT pass 4H pass pass pass
+[Result ""]
+{You dealt this hand. Decide what you would bid, then  on BID above. 
+
+You only have 20 points, but you have 9 playing tricks. You have two choices, open 4\H or open 2\C. Usually 4\H would show a slightly weaker hand than this, so you bid 2\C. Partner responds 2\D. What do you bid next? 
+
+Of course you bid your 8-card suit. But no jumping, just bid 2\H. Partner now says 2NT. What do you bid next? 
+
+Partner has between 3 and 7 points. Somewhere in those points might be the one trick you need, but you don't have any scientific way of finding out. So just bid 4\H and hope.(There it is, the \CT.)}
+[BCFlags "1f"]
+[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "6"]
+{Baker 2Club 6}
+[Dealer "E"]
+[Declarer "E"]
+[Contract "3NT"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "E:AK4.AQT86.K2.KQT JT932.J52.8.AJ83 875.K3.QJT94.752 Q6.974.A7653.964"]
+[Auction "E"]
+2C pass 2D pass 2H pass 3D pass 3NT pass pass pass
+[Result ""]
+{Decide what you would bid, then  on BID above. 
+
+With 7 points you must bid a Negative 2\D. Partner now bids 2\H. What is your bid? 
+
+For someone who made an initial Negative response you have quite a good hand. You can't support partner's \Hs (yet) but you consider jumping to 3NT. All in all it is better to just describe your hand with a 3\D bid, then wait and see what partner says. You don't have to wait long since he bids 3NT which you pass.}
+[BCFlags "1f"]
+[RotationNote "Board 6, chOption: E, chBasis: N, basisKind:Declarer, nOption:1, nBasis: 0, nRot: 1, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "7"]
+{Baker 2Club 7}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AQJ83.3.KQ7.AKQ9 T42.A9.AT653.542 K65.T864.92.T873 97.KQJ752.J84.J6"]
+[Auction "S"]
+2C pass 2D pass 2S pass 4S pass pass pass
+[Result ""]
+{You dealt this hand. Decide what you would bid, then  on BID above. 
+
+With 22 points you should open 2\C. Partner responds 2\D. What do you bid next? 
+
+You have 22 points and 5-card Major suit. Your rebid is therefore 2\S. Partner raises to 4\S. His jump to game shows a weaker hand than a 3\S bid would so you pass.}
+[BCFlags "1f"]
+[RotationNote "Board 7, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "8"]
+{Baker 2Club 8}
+[Dealer "W"]
+[Declarer "W"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:AQ.AK75.Q84.AKJT J62.82.J9632.Q54 K875.QJT3.T5.973 T943.964.AK7.862"]
+[Auction "W"]
+2C pass 2D pass 2NT pass 3C pass 3H pass 4H pass pass pass
+[Result ""]
+{Decide what you would bid, then  on BID above. 
+
+You have 6 points and bid a Negative 2\D. Partner now bids 2NT. What is your bid? 
+
+Partner has a balanced 22-24 points. With your 6 you want to be in game, but which game; 3NT, 4\H or 4\S? You can't answer that question unless you know if partner has a 4-card Major suit. So you bid 3\C, which is Stayman in this case. Partner replies 3\H. What do you say? 
+
+Knowing of the 4-4 fit you bid 4\H. By the way: Partner knew your 3\C bid was not the Second Negative because you don't use Second Negative following a 2NT rebid, you just pass.}
+[BCFlags "1f"]
+[RotationNote "Board 8, chOption: W, chBasis: N, basisKind:Declarer, nOption:3, nBasis: 0, nRot: 3, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "9"]
+{Baker 2Club 9}
+[Dealer "S"]
+[Declarer "N"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AK.KQJT4.AJT.KJ9 Q852.A7.Q74.T764 J943.96.9863.A82 T76.8532.K52.Q53"]
+[Auction "S"]
+2C pass 2D pass 2H pass 2NT pass 3NT pass pass pass
+[Result ""]
+{You dealt this hand. Decide what you would bid, then  on BID above. 
+
+With 23 points you open 2\C. Partner responds 2\D. What do you bid next? 
+
+You bid your 5-card \H suit. Partner says 2NT.  
+
+Partner's 2NT shows scattered values and fewer than 3 \Hs. He has 3 or more points or he would have bid the Double Negative. So you say 3NT.}
+[BCFlags "1f"]
+[RotationNote "Board 9, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "10"]
+{Baker 2Club 10}
+[Dealer "W"]
+[Declarer "E"]
+[Contract "6NT"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "W:AK8.KQT.KQJ2.AT4 9652.843.A6.9652 JT7.A96.T95.KQJ3 Q43.J752.8743.87"]
+[Auction "W"]
+2C pass 2NT pass 3NT pass 6NT pass pass pass
+[Result ""]
+{Decide what you would bid, then  on BID above. 
+
+You have 11 points and partner opens 2\C. Wow!You answer 2NT and he bids 3NT. What is your next bid? 
+
+Hmmm, 22-24 balanced, plus 11 balanced equals 33-35 balanced. It makes you think a jump to 6NT would work out great. Just do it.}
+[BCFlags "1f"]
+[RotationNote "Board 10, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "11"]
+{Baker 2Club 11}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AQT64.AQ85.Q7.AK .KJT.AT542.Q8643 9875.64.863.J752 KJ32.9732.KJ9.T9"]
+[Auction "S"]
+2C pass 2D pass 2S pass 3C pass 3H pass 3S pass pass pass
+[Result ""]
+{Decide what you would bid, then  on BID above. 
+
+With just 1 Jack you bid a Negative 2\D. Partner now bids 2\S. What is your bid? 
+
+Partner's bid of a suit is absolutely forcing, no matter how you feel about it. But now is the time you tell him you have fewer than 3 points by using the Second Negative. You bid 3\C. Partner now says 3\H. What do you say? 
+
+No, you still may not pass. First, because partner's bid of a new suit is forcing. Second, because even if you were not forced you prefer his first suit. So you bid 3\S and he passes.}
+[BCFlags "1f"]
+[RotationNote "Board 11, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "12"]
+{Baker 2Club 12}
+[Dealer "W"]
+[Declarer "W"]
+[Contract "3NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "W:A5.A6.K7.AKQJT63 QJT94.KT9.QJT2.9 763.852.9543.872 K82.QJ743.A86.54"]
+[Auction "W"]
+2C pass 2D pass 3C pass 3D pass 3NT pass pass pass
+[Result ""]
+{Decide what you would bid, then  on BID above. 
+
+With a true Yarborough you qualify to respond a Negative 2\D. Partner now bids 3\C. What is your bid? 
+
+You now inform partner of your disaster hand by using the Second Negative. Since his suit is \Cs the Second Negative is 3\D. Partner now says 3NT. What do you say? 
+
+You definitely pass. Good thing he has 9 cold tricks in his hand!}
+[BCFlags "1f"]
+[RotationNote "Board 12, chOption: W, chBasis: N, basisKind:Declarer, nOption:3, nBasis: 0, nRot: 3, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "13"]
+{Baker 2Club 13}
+[Dealer "S"]
+[Declarer "N"]
+[Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AK.KT84.KQ9.AKQ5 J64.QJ.JT65.JT72 Q93.A97653.72.84 T8752.2.A843.963"]
+[Auction "S"]
+2C pass 2H pass 3H pass 4H pass 4NT pass 5D pass 6H pass pass pass
+[Result ""]
+{You dealt this hand. Decide what you would bid, then  on BID above. 
+
+With 24 points you open 2\C. Partner responds 2\H. What do you bid next? 
+
+Partner has 8+ points and a good 5-card \H suit. Your hand has revalued to 25 points. You are forced to game but you don't want to bid it yet since you have slam in mind. So you temporize by showing your \H support. Partner bids 4\H. What do say? 
+
+You bid 4NT, asking for Aces. Partner replies 5\D. What now? 
+
+You now say 6\H and lay down a great dummy.}
+[BCFlags "1f"]
+[RotationNote "Board 13, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "14"]
+{Baker 2Club 14}
+[Dealer "W"]
+[Declarer "E"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:K53.Q95.AKQ6.AKQ 964.AJT7.52.J984 AQJT7.86.943.652 82.K432.JT87.T73"]
+[Auction "W"]
+2C pass 2S pass 3S pass 4S pass pass pass
+[Result ""]
+{Decide what you would bid, then  on BID above. 
+
+You have 8 points and an excellent 5-card Major. So you respond 2\S. Partner says 3\S. What do you bid? 
+
+You told him that you have 8 or more points, now you must tell him that it is only 8. So you bid 4\S, making no move toward slam, and he passes.}
+[BCFlags "1f"]
+[RotationNote "Board 14, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "15"]
+{Baker 2Club 15}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "6NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "N:A82.AK3.KJ7.AKT6 T63.QJ97.8432.73 KQ9.864.AQT6.J54 J754.T52.95.Q982"]
+[Auction "N"]
+2C pass 2NT pass 3NT pass 6NT pass pass pass
+[Result ""]
+{You dealt this hand. Decide what you would bid, then  on BID above. 
+
+You have 22 points and you open 2\C. Partner responds 2NT. What do you bid next? 
+
+You show your balanced minimum by bidding 3NT, leaving further moves to partner. Partner moves to 6NT which you pass.}
+[BCFlags "1f"]
+[RotationNote "Board 15, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "16"]
+{Baker 2Club 16}
+[Dealer "E"]
+[Declarer "W"]
+[Contract "7NT"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "E:AK3.KQT.AJ2.KQJT 984.84.87643.976 QJT7.A96.KQ5.A83 652.J7532.T9.542"]
+[Auction "E"]
+2C pass 2NT pass 3NT pass 7NT pass pass pass
+[Result ""]
+{Decide what you would bid, then  on BID above. 
+
+It's like a Bridge fantasy come true. But don't go crazy, wait to see what kind of hand partner has. Remember, anything you say will be forcing. So you answer 2NT and he bids 3NT. What is your next bid? 
+
+Hmmm, 22-24 points added to your 16 comes to 38-40 points. Looking apologetically at your poor opponents you bid 7NT.}
+[BCFlags "1f"]
+[RotationNote "Board 16, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "17"]
+{Baker 2Club 17}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AK.AKT86.75.AKQ6 QT7542.3.QJ2.872 86.Q752.A9864.53 J93.J94.KT3.JT94"]
+[Auction "N"]
+2C pass 2D pass 2H pass 3H pass 4C pass 4D pass 6H all pass
+[Result ""]
+{Decide what you would bid, then  on BID above. 
+
+Your 7 points isn't enough for a Positive response so you respond 2\D. Partner now bids 2\H. What is your bid? 
+
+You let partner know of your good support by bidding 3\H, which is a stronger bid than 4\H would be. Partner now bids 4\C. What do you say? 
+
+Partner is not introducing a new suit here, you have already agreed on \Hs. He is making a control-showing bid of the \CA. He expects you to do the same if you can. Since you can show your Ace very conveniently below game level you bid 4\D. That was what he was hoping for, he bids 6\H.}
+[BCFlags "1f"]
+[RotationNote "Board 17, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "18"]
+{Baker 2Club 18}
+[Dealer "W"]
+[Declarer "E"]
+[Contract "4S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "W:AJ.AKT86.Q94.AKQ 2.QJ542.J762.J87 KQ9865.7.85.9532 T743.93.AKT3.T64"]
+[Auction "W"]
+2C pass 2D pass 2H pass 2S pass 2NT pass 3S pass 4S all pass
+[Result ""]
+{Decide what you would bid, then  on BID above. 
+
+Your 7 points isn't enough for a Positive response so you respond 2\D. Partner now bids 2\H. What is your bid? 
+
+You don't like the \Hs, but with a good suit of your own you can say 2\S. Partner now bids 2NT. What do you say? 
+
+You know there are enough points for game so you must keep bidding. You should bid the \Ss one more time to show partner it is a 6-card suit. He then bids 4\S and everybody passes.}
+[BCFlags "1f"]
+[RotationNote "Board 18, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "19"]
+{Baker 2Club 19}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "7NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:KQ63.AK.KQ9.AKQ5 4.T7432.J6542.J8 AJT75.8.A3.97642 982.QJ965.T87.T3"]
+[Auction "S"]
+2C pass 2S pass 4NT pass 5H pass 7NT pass pass pass
+[Result ""]
+{You dealt this hand. Decide what you would bid, then  on BID above. 
+
+With 26 points you open 2\C. Partner responds 2\S. What do you bid next? 
+
+Partner has 8+ points and a good 5-card \S suit. You are absolutely sure you will go to slam, and right now the only thing you want to know is how many Aces are in partner's hand. So you use Blackwood 4NT. Partner answers 5\H. What is your bid? 
+
+Obviously you could bid 7\S. But in fact you can count that there will be thirteen top tricks without a ruff; 5 \Ss, 2 \Hs, 3 \Ds and 3 \Cs. So you might as well bid 7NT.(By the way, the people who bid 7\S got the opening \C lead ruffed!)}
+[BCFlags "1f"]
+[RotationNote "Board 19, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "20"]
+{Baker 2Club 20}
+[Dealer "W"]
+[Declarer "W"]
+[Contract "3NT"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "W:AKQ75.A6.AQ7.KQ3 942.8743.K2.A652 63.KQJT2.T96.984 JT8.95.J8543.JT7"]
+[Auction "W"]
+2C pass 2D pass 2S pass 3H pass 3NT pass pass pass
+[Result ""]
+{Decide what you would bid, then  on BID above. 
+
+With one more point you could have made a positive response. Instead, you bid 2\D. Partner now bids 2\S. What is your bid? 
+
+Not being in love with partner's \Ss, you have enough strength to now bid 3\H. Partner replies 3NT. What do you say? 
+
+When you have nothing more to say, you pass.}
+[BCFlags "1f"]
+[RotationNote "Board 20, chOption: W, chBasis: N, basisKind:Declarer, nOption:3, nBasis: 0, nRot: 3, useStandardVul: true"]
+

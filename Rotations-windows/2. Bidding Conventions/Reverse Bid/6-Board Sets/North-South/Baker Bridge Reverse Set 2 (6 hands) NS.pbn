@@ -1,0 +1,217 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:53:51 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Reverse 7}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:Q9653.Q74.Q85.62 AK.52.A642.AKT74 J82.AT63.JT9.QJ3 T74.KJ98.K73.985"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "3C"]
+[Result ""]
+{You would really love to pass. You have a terrible hand and you like the \Ds better than the \Cs.
+
+But you are forced to bid. And since partner has 5 \Cs and only 4 \Ds, you should take him back to his first suit.
+
+Mercifully he passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1C Pass 1H Pass
+2D Pass 3C Pass
+Pass Pass
+
+[Event ""]
+{Baker Reverse 8}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:832.JT9.732.A865 J7.AK63.KQT85.KT A964.7542.A6.432 KQT5.Q8.J94.QJ97"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{When partner shows 17+ points with his Reverse you are sure you belong in game. Since he did not support your \Ss you know he doesn't have four of them. You also know you have an 8-card fit in \Ds, but surely nine tricks in Notrump will be easier than eleven in \Ds.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1D Pass 1S Pass
+2H Pass 3NT Pass
+Pass Pass
+
+[Event ""]
+{Baker Reverse 9}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:AJ987.J94.A42.95 Q52.A863.753.843 KT4.QT72.T98.QJ6 63.K5.KQJ6.AKT72"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "3C"]
+[Result ""]
+{With 17 points you have a perfect hand for a Reverse. So you bid 2\D. Partner then says 3\C. What do you say? 
+
+Partner's return to your \C suit shows he has fewer than 9 points. Although it is possible to devise a hand for him where your side could make 3NT, the risk is too great.
+
+So you pass. It's a good thing, too.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1C Pass 1H Pass
+2D Pass 3C Pass
+Pass Pass
+
+[Event ""]
+{Baker Reverse 10}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:AQ642.63.QT2.Q52 J73.J.AK64.AK983 K9.AT52.J975.JT4 T85.KQ9874.83.76"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "2H"]
+[Result ""]
+{You have 7 points, and basically nothing but s\H. You must make a minimum bid, and the only reasonable one is 2\H. Despite his 17 points, partner passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1C Pass 1H Pass
+2D Pass 2H Pass
+Pass Pass
+
+[Event ""]
+{Baker Reverse 11}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:J942.53.532.KQT9 AK86.72.T98.7654 QT53.KT864.A.J82 7.AQJ9.KQJ764.A3"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "5D"]
+[Result ""]
+{You have an ideal hand for a Reverse, so you bid 2\H.
+
+Partner now bids 3\D. What do you say? 
+
+Partner has a minimum hand, but at least he came up with a preference for \Ds.
+
+There are no guarantees here, but you should probably try 5\D.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1D Pass 1S Pass
+2H Pass 3D Pass
+5D Pass Pass Pass
+
+[Event ""]
+{Baker Reverse 12}
+[Site ""]
+[Date ""]
+[Board "6"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:AT82.Q64.T62.J75 KQ9743.872.K5.T3 6.KJ953.9874.A42 J5.AT.AQJ3.KQ986"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{With 18 points you have enough to make a Reverse. So you bid 2\D. Partner now says 3\S. What do you bid? 
+
+Partner's jump bid shows a 6-card suit and enough points to insist on game. With your \H stopper you might be considering 3NT, but since you know of an 8-card \S fit you decide on 4\S.
+
+Be very glad that you did.3NT would go down with a \H opening lead while 4\S is cold.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 6, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1C Pass 1S Pass
+2D Pass 3S Pass
+4S Pass Pass Pass

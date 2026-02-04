@@ -1,0 +1,240 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:49:25 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker 2over1 7}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:QJT4.Q42.A93.975 AK9652.T983.4.A8 83.J6.QJT85.J432 7.AK75.K762.KQT6"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4H"]
+[Result ""]
+{North has 13 points and naturally opens 1\S.
+
+South, with 15 points, would bid 2\H in standard bidding, but with 2/1 this promises a 5-card suit. So instead, South responds 2\C, forcing the partnership to game. Note that holding two 4-card minors South bids them up-the-line, just as in standard bidding.
+
+North has a nice 6-card \S suit, so you might think he would rebid them. But Opener's first responsibility with his second bid is to show a 4-card Major if he has one. This isn't much of a suit, but North still bids 2\H.
+
+You can see why it is important for Opener to show a 4-card Major. Since South couldn't bid \Hs in her first response the fit would have been lost if North had not mentioned the suit. South now confirms the trump suit with a 3\H bid, and North shows his minimum by just bidding the game.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+1S Pass 2C Pass
+2H Pass 3H Pass
+4H Pass Pass Pass
+
+[Event ""]
+{Baker 2over1 8}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "S:JT64.762.K93.A54 AK92.AQ983.85.86 Q3.JT5.642.QJT32 875.K4.AQJT7.K97"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "3NT"]
+[Result ""]
+{West opens 1\H, his 5-card Major. East, with 14 points, naturally responds 2\D, forcing the partnership to game.
+
+West next bids 2\S, showing the other Major suit. In standard bidding West would not be able to bid the \Ss since that would be a Reverse and West is far too weak to Reverse. But after a 2/1 Response the concept of a Reverse does not apply, and the priority of showing a 4-card Major certainly does apply.
+
+East assumes West to be 4-5 in the Majors, so she cannot support either. She bids 2NT. If West actually has 6 \Hs (or 5 \Ss) he will rebid the suit. East's 2NT bid guarantees a stopper in the fourth suit.
+
+West does not have either 6 \Hs or 5 \Ss so he just bids 3NT. Notice that West never once considered the possibility of passing what might be a misfit - the initial 2/1 response unconditionally forced the partnership to reach a game somewhere.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+[Student "S"]
+[Auction "W"]
+1H Pass 2D Pass
+2S Pass 2NT Pass
+3NT Pass Pass Pass
+
+[Event ""]
+{Baker 2over1 9}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:JT65.652.AQ83.85 A9742.A983.K6.Q7 Q3.KQ4.JT42.T943 K8.JT7.975.AKJ62"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{South opens 1\S, his 5-card Major. North, with 14 points, responds 2\C, a 2/1 force to game.
+
+South next bids 2\H, showing the other Major suit.
+
+North assumes South to be 5-4 in the Majors, so she cannot support either. She cannot bid 2NT without a stopper in \Ds. So North bids the fourth suit, 3\D, telling South she knows she must make a bid, but can't find anything appropriate.
+
+South now must find a bid. His choices include rebidding the 5-card \Ss, supporting North's \Cs with a doubleton Queen, or bidding 3NT with the \D K 6 as a stopper. He chooses this last option. It appears that 3NT is the best game for these two hands.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "S"]
+1S Pass 2C Pass
+2H Pass 3D Pass
+3NT Pass Pass Pass
+
+[Event ""]
+{Baker 2over1 10}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "S:T952.92.AT75.K43 A4.KJT8653.KQ.87 Q8.4.J9632.T9652 KJ763.AQ7.84.AQJ"]
+[Scoring ""]
+[Declarer "W"]
+[Contract "6H"]
+[Result ""]
+{East opens 1\S, her 5-card Major and West responds 2\H. East knows this is a 5-card suit, and bids 3\H, confirming the 8+card trump fit.
+
+Once the trump fit is known, West revalues his hand to about 19 points. He makes a slam try with  a control-showing bid of 3\S. He knows East won't take this as \S support since the partnership has agreed that \Hs are going to be trumps.
+
+East now shows her control by bidding 4\C.
+
+That was what West needed to hear; when Blackwood uncovers two Aces he bids 6\H.
+
+The slam is a good one. If either the \SQ or \CK is right there are 12 tricks by way of a finesse. But the best way to play the hand would be to try to establish a \S in the East hand, and if that fails try the \C finesse.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 4, chOption: W, chBasis: N, basisKind:Declarer, nOption:3, nBasis: 0, nRot: 3, useStandardVul: true"]
+[Student "S"]
+[Auction "E"]
+1S Pass 2H Pass
+3H Pass 3S Pass
+4C Pass 4NT Pass
+5H Pass 6H ALL
+Pass
+
+[Event ""]
+{Baker 2over1 11}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:KQ52.62.J832.532 AJT.AK985.K96.Q7 974.QJT4.T75.986 863.73.AQ4.AKJT4"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "6NT"]
+[Result ""]
+{North opens 1\H and South responds 2\C. Using standard bidding North would now jump to 3NT to show his 19 points, but in 2/1 this is not necessary since the partnership must not stop bidding until game is reached. So North just bids 2NT. South shows her minimum by bidding 3NT.
+
+North will now disclose his extra strength. He bids 4NT. This is not Blackwood, but rather a quantitative raise in Notrump, and an invitation to slam.
+
+South has 15 points, and they are good ones. She accepts the invitation and bids 6NT.
+
+There are 11 top tricks. A 3-3 \H split would provide the 12th winner, but this is against the odds. Better to try two \S finesses, a 75% chance.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 5, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "W"]
+Pass 1H Pass 2C
+Pass 2NT Pass 3NT
+Pass 4NT Pass 6NT
+Pass Pass Pass
+
+[Event ""]
+{Baker 2over1 12}
+[Site ""]
+[Date ""]
+[Board "6"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:KT.J952.T72.A532 AJ8752.AK.Q6.J87 94.T8764.853.KQT Q63.Q3.AKJ94.964"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "4S"]
+[Result ""]
+{East opens 1\S and West responds 2\D. East has a pretty good hand, 17 points, but no stopping power in the minor suits. Also, East's \S suit is pretty ragged. Taking these points into consideration, East should just rebid his 6-card suit.
+
+West should now jump to 4\S. This is Fast Arrival, indicating a minimum hand with no particular interest in slam.
+
+East is happy to rest in the game contract.
+
+Even with a combined 30 points, T tricks are certainly not a sure thing. East must hope that North holds the trump King.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 6, chOption: E, chBasis: N, basisKind:Declarer, nOption:1, nBasis: 0, nRot: 1, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+Pass 1S Pass 2D
+Pass 2S Pass 4S
+Pass Pass Pass

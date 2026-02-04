@@ -1,0 +1,196 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:52:14 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Roman 6}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:Q974.T7.9862.J96 A652.QJ52.KJ3.82 J3.3.AQT754.T543 KT8.AK9864..AKQ7"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6H"]
+[Result ""]
+{Your partner's 3\H is a limit-raise, 11-12 points with \H support. Decide what you would say next, then  on BID above. 
+
+What you want to know is whether partner holds the \SA. If you bid 4NT and he shows two Key-Cards all will be well, you will know they are the two missing Aces. But if he shows just 1 Key-Card you will be in the soup since you can't tell if that Key-Card is the useful \SA or the practically useless \DA. So you don't use RKCB, you use control-showing and bid 4\C. Partner says 4\H. What do you bid next? 
+
+Partner would have control-bid \Ds if he had the Ace. You may not think that helps but it does since now you can bid RKCB. You bid 4NT and he answers 5\C. What is your next bid? 
+
+It was a lot of work but you have figured out that partner holds 11-12 points including one Key-Card which must be the \SA. It looks like the slam is a good idea so you say 6\H.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1H Pass 3H Pass
+4C Pass 4H Pass
+4NT Pass 5C Pass
+6H Pass Pass Pass
+
+[Event ""]
+{Baker Roman 7}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:J3.Q963.KJ94.T52 AQ974.8.A632.KQJ T.A542.QT875.764 K8652.KJT7..A983"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6S"]
+[Result ""]
+{Your 4\D bid is a Splinter Bid, showing opening hand strength, at least 4 \Ss, and a singleton or void in \Ds. Partner bids 4NT.  
+
+You have 2 Key-Cards, the \SK and the \CA. So do you bid 5\H?
+
+No. You have two Key-Cards AND a void. So you bid 5NT. Partner bids 6\S.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1S Pass 4D Pass
+4NT Pass 5NT Pass
+6S Pass Pass Pass
+
+[Event ""]
+{Baker Roman 8}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:96432.52.862.A42 KQJ.AT76.AQJ.QJ9 75.QJ3.T7543.873 AT8.K984.K9.KT65"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "5H"]
+[Result ""]
+{Your partner's 2NT opener is 20-21 points and the 3\C bid is Stayman. Decide what you would say next, then  on BID above. 
+
+You know of 33 points and you know of an 8-card \H fit. The math tells you that 6\H should be a good slam but you might as well check Key-Cards, that's why the convention was invented. So you bid 4NT and partner answers 5\H. What do you say? 
+
+You say "Darn!" You are missing just one Key-Card, but you are also missing the trump Queen. And with partner holding only a 4-card suit that Queen might well win a trick. Knowing that at best the slam will depend on a trump finesse you pass 5\H.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+2NT Pass 3C Pass
+3H Pass 4NT Pass
+5H Pass Pass Pass
+Pass
+
+[Event ""]
+{Baker Roman 9}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:T9842.642.J2.A54 AKQJ.AJT7.A5.KQT 653.3.T9863.J762 7.KQ985.KQ74.983"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6H"]
+[Result ""]
+{With 11 points and a good suit you should make a positive response. So you bid 2\H. Partner then says 4NT. What is your bid? 
+
+The 4NT bid agrees \Hs as trump. You have one Key-Card, the \HK, so you bid 5\C. Partner bids the \H slam.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+2C Pass 2H Pass
+4NT Pass 5C Pass
+6H Pass Pass Pass
+
+[Event ""]
+{Baker Roman 10}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:962.QJ3.J96.JT53 AQJ753.65.A43.82 84.T72.T752.A974 KT.AK984.KQ8.KQ6"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6S"]
+[Result ""]
+{The bidding has been as shown. Decide what you would say next, then  on BID above. 
+
+Your partner has shown a minimum opening hand, but with 6 \Ss. You are happy with the 8-card trump fit but need to know about Key-Cards. So you bid 4NT. Partner answers 5\S and it is your bid again. 
+
+Partner has two Aces and the \SQ. That should be all he needs to make slam so you bid 6\S.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 5, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1S Pass 3H Pass
+3S Pass 4NT Pass
+5S Pass 6S Pass
+Pass Pass

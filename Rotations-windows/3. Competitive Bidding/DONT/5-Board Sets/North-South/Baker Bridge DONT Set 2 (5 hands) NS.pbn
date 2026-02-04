@@ -1,0 +1,189 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:56:05 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker DONT 6}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:A2.KQT.KQT3.J984 T7.AJ9742.A82.KQ K5.83.J765.A7653 QJ98643.65.94.T2"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "2S"]
+[Result ""]
+{Partner's double asks you to bid 2\C as a relay bid so he can name his suit.
+
+But you don't want him to bid his 6-card suit, your hand is useless unless \Ss are trumps. So ignore the relay request and bid 2\S. Everybody passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "E"]
+1NT X Pass 2S
+Pass Pass Pass
+
+[Event ""]
+{Baker DONT 7}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:K83.AT54.AJT9.K3 AJ97.J73.KQ5.QJ4 QT652..742.A9862 4.KQ9862.863.T75"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "2H"]
+[Result ""]
+{In the balancing seat it is distribution that counts, not point count. With a 6-card Major suit and a singleton you should not let them play 1NT. Youdouble.
+
+Partner makes the relay bid of 2\C.  
+
+You bid your suit, 2\H, and everybody passes. Notice that partner had a decent hand, but could not bid over 1NT in the immediate seat.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "W"]
+1NT Pass Pass X
+Pass 2C Pass 2H
+Pass Pass Pass
+
+[Event ""]
+{Baker DONT 8}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "E:QJ54.AQT97.T.T87 K2.63.753.KJ9653 T96.K4.AKJ82.A42 A873.J852.Q964.Q"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "2C"]
+[Result ""]
+{You don't have a 6-card suit, nor do you have a 5-4 pair of suits. So even with a singleton you don't want to use DONT here. So you pass.
+
+Partner makes a DONT double in the balancing seat.  
+
+Right now you probably have a premonition about what is going to happen next. But there really is nothing you can say other than 2\C.
+
+Your premonition came true. Partner passes and you are left playing 2\C with a singleton. Nobody promised that DONT would always get you to a good contract.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "W"]
+1NT Pass Pass X
+Pass 2C Pass Pass
+Pass
+
+[Event ""]
+{Baker DONT 9}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "E:KQ963.6.QJ842.54 J4.KQJT743.75.62 AT72.A95.AK3.QT7 85.82.T96.AKJ983"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "2H"]
+[Result ""]
+{You only have 8 HCP but with such a good 6-card suit you should interfere with a DONT bid. You double and partner surprises you by saying 2\H.
+
+There is a reason partner didn't say 2\C (which you were going to pass). And the reason is that he figures you will be better off in his \Hs. Since you trust your partner you pass.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "W"]
+1NT X Pass 2H
+Pass Pass Pass Pass
+
+[Event ""]
+{Baker DONT 10}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:T65.K5.AJ95.AQJ6 KQJ83.AT764.6.K8 A942.93.832.T542 7.QJ82.KQT74.973"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4H"]
+[Result ""]
+{Since partner has entered the bidding in the immediate seat he should have a pretty good hand, with 9+ cards in \Hs and \Ss.
+
+Usually you are happy to settle for partscore after a DONT sequence, but with such an excellent fit for \Hs your hand is worth a raise.
+
+So you bid 3\H and partner says 4\H.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 5, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "W"]
+1NT 2H Pass 3H
+Pass 4H Pass Pass
+Pass

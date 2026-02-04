@@ -1,0 +1,217 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:51:44 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Transfers 6}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:2.QJT3.KQ5.T6432 QJ5.K8.AT62.AK98 A643.52.J974.QJ7 KT987.A9764.83.5"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{North opens 1NT. What do you respond? 
+
+You transfer of course, but to which Major? It can work either way, but the preferred method is to first transfer partner to \Hs when you have an invitational hand. So you bid 2\D, and partner of course says 2\H. What do you bid next? 
+
+You now show your second 5-card Major by bidding 2\S.
+
+At this point partner becomes the Captain. You have described an invitational (9 point) hand with 5-5 in the Majors. Partner's next bid should set the contract wherever he chooses. In this case, with a maximum 1NT opener and 3 \Ss he picks 4\S.
+
+Note that you must have at least one Major suit fit since partner cannot have a doubleton in both.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1NT Pass 2D Pass
+2H Pass 2S Pass
+4S Pass Pass Pass
+
+[Event ""]
+{Baker Transfers 7}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:32.J95.AQ5.J9642 Q6.A74.KJ92.KQ83 KT97.62.T8743.AT AJ854.KQT83.6.75"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{North opens 1NT. What do you respond? 
+
+This is the sequel to Deal 6. You are 5-5 in the Majors again, but this time you have game forcing strength.
+
+The preferred method for this hand is to transfer partner to \Ss, so you bid 2\H.
+
+What do you bid after partner completes the transfer? 
+
+You show your second 5-card Major by bidding 3\H. Since this shows game-forcing strength (11+ points) partner may not pass, but must bid either 4\H or 4\S. In this Deal he naturally bids 4\H.
+
+If you held an even stronger hand and wished to move toward a slam you would start out the same way but then bid again after partner's game bid.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1NT Pass 2H Pass
+2S Pass 3H Pass
+4H Pass Pass Pass
+
+[Event ""]
+{Baker Transfers 8}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:632.K93.K54.7432 J4.AQJ5.AQJ3.T96 K98.T8762.T72.J8 AQT75.4.986.AKQ5"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{South opens 1NT. What do you respond? 
+
+Initiate the transfer by bidding 2\H. After partner responds 2\S what do you bid? 
+
+Your bid of a minor suit here shows at least 4 cards and is a slam try. With a weaker hand you would probably just bid 2NT or 3NT.
+
+Having made the try, you accept whatever partner decides. In this case, with a 15 point minimum, a doubleton \S and no \C fit, partner settles on 3NT.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT Pass 2H Pass
+2S Pass 3C Pass
+3NT Pass Pass Pass
+
+[Event ""]
+{Baker Transfers 9}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:432.J83.A54.8632 KJ.KQ9.KT73.AJ74 986.T7652.QJ2.T9 AQT75.A4.986.KQ5"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6NT"]
+[Result ""]
+{South opens 1NT. What do you respond? 
+
+With 16 points you have to be thinking about slam. But first things first, start the transfer process by bidding 2\H.
+
+What is your next bid after partner's 2\S? 
+
+With 16 points you want to make an invitation to slam, but you also need to let partner know that you only have 5 \Ss so that he can play notrump when he only has a doubleton \S.
+
+The BEST way to say both these things is to bid 4NT. This is similar to the 2NT bid in Deal 2.
+
+But you can see the problem with the bid - if partner mistakes it for Blackwood 4NT things could get very confused. So don't use this unless you know both of you are on the same wavelength. 
+
+Here both partners understood the bid and South bid 6NT.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT Pass 2H Pass
+2S Pass 4NT Pass
+6NT Pass Pass Pass
+
+[Event ""]
+{Baker Transfers 10}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:AJ98.965.752.A32 Q2.AJ3.AK64.KQJT KT643.T2.QJ8.965 75.KQ874.T93.874"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{South opens 2NT showing a balanced 20-21 point hand. What do you respond? 
+
+Jacoby Transfers work fine with 2NT openings also. You should bid 3\D as a transfer to \Hs. Partner complies by saying 3\H. What do you say now? 
+
+You bid 3NT which tells partner you have just 5 \Hs and lets him decide on which game to play.
+
+On this Deal partner has 3 \Hs so he bids on to 4\H.
+
+Notice that when partner opens 2NT the invitation to game option is no longer available. As responder you must decide immediately whether to stop short of game (by transferring then passing) or to go to game. This is not a serious problem since the tighter (20-21) point range makes responder's decision easier to make.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 5, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+2NT Pass D Pass
+3H Pass 3NT Pass
+4H Pass Pass Pass

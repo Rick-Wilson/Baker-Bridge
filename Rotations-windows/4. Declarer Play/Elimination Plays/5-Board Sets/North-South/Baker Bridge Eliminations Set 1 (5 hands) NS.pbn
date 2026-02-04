@@ -1,0 +1,237 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:59:36 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Eliminations 1}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:5.QJT87.962.J973 K9764.64.KT3.K82 Q2.K952.Q854.T64 AJT83.A3.AJ7.AQ5"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "6S"]
+[Result ""]
+{South's 3\S bid is a limit raise showing T-12 points and good trump support. North is to play 6\S. East leads the \HQ.
+
+With one certain \H loser you cannot afford to lose a \D also. You could guess which way to finesse and be correct half of the time. But an elimination play will work ALL of the time.
+
+Win the first trick and play \SA, \SK. Trumps split 2-1.
+
+Next play three rounds of \Cs to eliminate that suit from both your and dummy's hand.
+
+With all the eliminations completed you are ready for the throw-in. Lead a \H from either hand. One of the defenders will win, (you don't care which), and will be end-played.
+
+The defender who won the last trick cannot lead a trump because he has none. If he leads a \H or a \C you will get a ruff-sluff, ruffing in one hand while discarding a \D loser from the other. If he leads a \D you will get the free finesse you were hoping for all along.
+
+With an elimination play you make it no matter who holds the Queen.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1S Pass 3S Pass
+6S Pass Pass Pass
+[Play "E"]
+HQ
+
+[Event ""]
+{Baker Eliminations 2}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:Q2.QJT7.K964.J74 K9764.64.J73.Q82 5.K9852.AT8.T963 AJT83.A3.Q52.AK5"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{South is to play 4\S. West leads the \HQ.
+
+This should remind you a lot of Deal 1. This time you have 1 \H loser and 3 \D losers. If you can force the opponents to lead \Ds you can make a trick with the \DQ or \DJ, avoiding one of those losers.
+
+Win the first trick and play \SA, \SK. Trumps split 2-1.
+
+Next play three rounds of \Cs to eliminate that suit from you and dummy.
+
+The eliminations are complete and it is time for the throw-in. Play the small \H from whichever hand you are in. This will be taken by one of the defenders.
+
+No matter which defender wins the \H he is end-played. A \H or a \C will give you a ruff-sluff, but if he leads a \D you cannot be prevented from establishing either your \DQ or \DJ as a winner.
+
+Only by forcing them to start the \Ds can you take a trick in the suit. }
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1S Pass 4S Pass
+Pass Pass
+[Play "W"]
+HQ
+
+[Event ""]
+{Baker Eliminations 3}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:Q2.QJT7.Q864.J74 K9764.64.KT3.K82 5.K9852.J52.T963 AJT83.A3.A97.AQ5"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "6S"]
+[Result ""]
+{North is to play 6\S. East leads the \HQ.
+
+This is another follow-up to Deal 1. But this time you are missing both the \DQ and \DJ. In this case an Elimination play doesn't give you a guarantee, it just improves your odds.
+
+Win the first trick and play \SA, \SK. Trumps split 2-1.
+
+Play three rounds of \Cs to eliminate the suit from you and dummy.
+
+Now execute the throw-in by leading a \H from either hand.
+
+The defender who gets thrown in cannot play a \H or a \C without handing you the contract by way of a ruff-and-sluff. So he must lead a \D. Suppose it is East who leads the \D. You play low in dummy and West must play either the \DQ or \DJ to keep you from getting a cheap trick with your \D9. So you take West's honor with your \DA and then finesse East for the other honor. As long as the \DQ and \DJ are in different hands the elimination play will succeed.
+
+By forcing them to start the \Ds you make three tricks when the two outstanding honors are divided. }
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1S Pass 3S Pass
+6S Pass Pass Pass
+[Play "E"]
+HQ
+
+[Event ""]
+{Baker Eliminations 4}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:KJ4.T5.JT932.Q74 973.KJ82.A84.KT3 AQT2.64.Q75.9862 865.AQ973.K6.AJ5"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{South is to play 4\H. West leads the \DJ.
+
+Win the \DK, then pull trumps, it takes two rounds.
+
+Next you eliminate the \Ds by playing \DA then ruffing the \D8.
+
+Execute the throw-in by leading a \S.
+
+The defense is in with a \S and they are welcome to take two more \Ss. But then they will to have to play a \S or a \D, giving you a ruff-sluff, or else lead a \C which finds the \CQ for you.
+
+Here you were lucky the defense didn't start by taking their three \Ss. If they had, you would not have been able to pull off the throw-in, and would have had to try your luck with  guessing who had the \CQ. }
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1H Pass 3H Pass
+4H Pass Pass Pass
+[Play "W"]
+DJ
+
+[Event ""]
+{Baker Eliminations 5}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:J3.A965.JT87.Q85 K964.Q7.KQ6.KJT3 T.KJ832.A542.974 AQ8752.T4.93.A62"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4S"]
+[Result ""]
+{North is to play 4\S. East leads the \DJ, covered by the \DQ and \DA. West returns a \D to the \DK.  
+
+You still have two losers in the \H suit, so the question is which way you plan to finesse the \Cs. And of course the answer is that you don't plan to finesse them at all!
+
+Pull trumps with the \SA, then \SK. Next ruff dummy's last \D.
+
+Now exit with a \H. The defenders win this and take another \H trick, leaving this position.
+
+They must now break the \C suit for you or give you a ruff-sluff. Of course you would ruff in dummy and discard a \C from the 3-card holding in your hand.
+
+If East is the one who has to play a \C you need to insert the \CT or \CJ from dummy.
+
+In either case you will no longer have a \C loser.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1C Pass 1S Pass
+2S Pass 4S Pass
+Pass Pass
+[Play "E"]
+DJ

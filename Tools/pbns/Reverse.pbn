@@ -1,0 +1,340 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%Creator: CSVtoPBN Version 1.00
+%Created: 2026-01-23 13:57:51
+%sourcefilename BakerBridgeFull.csv
+%HRTitleEvent Reverse
+[Board "1"]
+[Event ""]
+{Baker Reverse 1}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:762.62.A73.KQT94 AKT3.AQ75.T95.72 94.JT843.QJ84.J5 QJ85.K9.K62.A863"]
+[Auction "S"]
+1C pass 1H pass 1S pass 4S pass pass pass
+[Result ""]
+{The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 1\S]
+
+If you thought you couldn't bid 1\S because it would have been a Reverse just think again.
+
+A Reverse is when you bid a higher-ranking second suit at the 2-level. This is just normal bidding of suits up the line.
+
+Partner now takes control and bids the \S game.}
+[BCFlags "1f"]
+
+
+[Board "2"]
+[Event ""]
+{Baker Reverse 2}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:AJ95.T72.T832.82 KQ83.QJ.KJ6.JT97 64.8653.A97.A643 T72.AK94.Q54.KQ5"]
+[Auction "S"]
+1C pass 1S pass 1NT pass 3NT all pass
+[Result ""]
+{The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 1NT]
+
+Don't bid 2\H. That would be a Reverse, showing at least 17 points. A 2\H bid would also show longer \Cs than \Hs. Don't bid 2\S. That would be showing 4-card support.
+
+So with your minimum hand you bid 1NT which partner raises to 3NT.}
+[BCFlags "1f"]
+
+
+[Board "3"]
+[Event ""]
+{Baker Reverse 3}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "2NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:2.J752.A943.QJ84 J3.Q8.KQJ5.AK762 AQ8765.A43.76.T3 KT94.KT96.T82.95"]
+[Auction "N"]
+1C pass 1H pass 2D pass 2NT pass pass pass
+[Result ""]
+{The bidding has gone as shown. At your first turn you bid your \H suit, up-the-line. Decide what you would say next, then click on BID above. [BID 2NT]
+
+You only have 7 points, but partner Reversed so you cannot pass. You need to make a bid to show your minimum, and you cannot support either of partner's suits, nor can you rebid your \Hs.
+
+However, you also cannot bid your \S suit. That would be fourth-suit-forcing, and would show a game forcing hand of 9 or more points.
+
+Instead you bid 2NT. Partner has a bare 17 so he passes.}
+[BCFlags "1f"]
+
+
+[Board "4"]
+[Event ""]
+{Baker Reverse 4}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:AT32.543.K984.72 KQ9865.K82.T5.KT 74.J976.762.A543 J.AQT.AQJ3.QJ986"]
+[Auction "S"]
+1C pass 1S pass 2D pass 3S pass 3NT pass pass pass
+[Result ""]
+{The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 2\D]
+
+With 18 points you have enough to make a Reverse. So you bid 2\D. Partner now says 3\S. What do you bid? [BID 3NT]
+
+Partner's jump bid shows a 6-card suit and enough points to insist on game. You don't have \S support but you do have good \H stoppers so you bid 3NT.}
+[BCFlags "1f"]
+
+
+[Board "5"]
+[Event ""]
+{Baker Reverse 5}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:JT7.J732.KQ.9852 6.AKQ4.963.AQJT3 K432.9.AJT752.64 AQ985.T865.84.K7"]
+[Auction "N"]
+1C pass 1S pass 2H pass 4H pass pass pass
+[Result ""]
+{The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 4\H]
+
+With his Reverse, partner has shown at least 17 points and at least 4 \Hs.
+
+You could fall back on the guidelines and say that with 10 points you need to make a positive bid at this time, but it is simpler to just rely on "SHE WHO KNOWS, GOES."
+
+Since you know of an 8-card \H fit and at least 27 points you bid 4\H.}
+[BCFlags "1f"]
+
+
+[Board "6"]
+[Event ""]
+{Baker Reverse 6}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:A32.T543.972.KQ6 T75.82.AQ53.JT84 98.Q9.JT84.A9732 KQJ64.AKJ76.K6.5"]
+[Auction "S"]
+1S pass 2S pass 4S pass pass pass
+[Result ""]
+{You are the dealer. Decide what you would say, then click on BID above. [BID 1\S]
+
+It may be tempting to open 1\H, planning on Reversing in \S at your second turn to show your big hand.
+
+Don't. A Reverse should always show an unbalanced hand with the first suit longer. So you open 1\S and partner replies 2\S.
+
+What do you bid? [BID pass]
+
+If you had opened 1\H partner would have replied 1NT. Then when you Reversed with 2\S he would have assumed you had a 4-card \S suit and would probably have put you back in \Hs, your known 5-card suit.
+
+Things would have gotten confusing, to say the least.}
+[BCFlags "1f"]
+
+
+[Board "7"]
+[Event ""]
+{Baker Reverse 7}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "3C"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:962.Q43.J985.QJ6 AK.52.A642.AKT74 QJ853.AT76.QT.32 T74.KJ98.K73.985"]
+[Auction "N"]
+1C pass 1H pass 2D pass 3C pass pass pass
+[Result ""]
+{The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 3\C]
+
+You would really love to pass. You have a terrible hand and you like the \Ds better than the \Cs.
+
+But you are forced to bid. And since partner has 5 \Cs and only 4 \Ds, you should take him back to his first suit.
+
+Mercifully he passes.}
+[BCFlags "1f"]
+
+
+[Board "8"]
+[Event ""]
+{Baker Reverse 8}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:6.T9754.A762.A53 J7.AK63.KQT85.KT A98432.J2.3.8642 KQT5.Q8.J94.QJ97"]
+[Auction "N"]
+1D pass 1S pass 2H pass 3NT pass pass pass
+[Result ""]
+{The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 3NT]
+
+When partner shows 17+ points with his Reverse you are sure you belong in game. Since he did not support your \Ss you know he doesn't have four of them. You also know you have an 8-card fit in \Ds, but surely nine tricks in Notrump will be easier than eleven in \Ds.}
+[BCFlags "1f"]
+
+
+[Board "9"]
+[Event ""]
+{Baker Reverse 9}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3C"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:JT87.QJ97.AT2.Q6 Q52.A863.753.843 AK94.T42.984.J95 63.K5.KQJ6.AKT72"]
+[Auction "S"]
+1C pass 1H pass 2D pass 3C pass pass pass
+[Result ""]
+{The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 2\D]
+
+With 17 points you have a perfect hand for a Reverse. So you bid 2\D. Partner then says 3\C. What do you say? [BID pass]
+
+Partner's return to your \C suit shows he has fewer than 9 points. Although it is possible to devise a hand for him where your side could make 3NT, the risk is too great.
+
+So you pass. It's a good thing, too.}
+[BCFlags "1f"]
+
+
+[Board "10"]
+[Event ""]
+{Baker Reverse 10}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "2H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:Q4.T532.QJ2.QJT5 J73.J.AK64.AK983 AK962.A6.T975.42 T85.KQ9874.83.76"]
+[Auction "N"]
+1C pass 1H pass 2D pass 2H pass pass pass
+[Result ""]
+{The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 2\H]
+
+You have 7 points, and basically nothing but s\H. You must make a minimum bid, and the only reasonable one is 2\H. Despite his 17 points, partner passes.}
+[BCFlags "1f"]
+
+
+[Board "11"]
+[Event ""]
+{Baker Reverse 11}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "5D"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:Q9542.T8.A53.KT2 AK86.72.T98.7654 JT3.K6543.2.QJ98 7.AQJ9.KQJ764.A3"]
+[Auction "S"]
+1D pass 1S pass 2H pass 3D pass 5D pass pass pass
+[Result ""]
+{The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 2\H]
+
+You have an ideal hand for a Reverse, so you bid 2\H.
+
+Partner now bids 3\D. What do you say? [BID 5\D]
+
+Partner has a minimum hand, but at least he came up with a preference for \Ds.
+
+There are no guarantees here, but you should probably try 5\D.}
+[BCFlags "1f"]
+
+
+[Board "12"]
+[Event ""]
+{Baker Reverse 12}
+[Dealer "S"]
+[Declarer "N"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:AT8.KQ93.9642.54 KQ9743.872.K5.T3 62.J654.T87.AJ72 J5.AT.AQJ3.KQ986"]
+[Auction "S"]
+1C pass 1S pass 2D pass 3S pass 4S pass pass pass
+[Result ""]
+{The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 2\D]
+
+With 18 points you have enough to make a Reverse. So you bid 2\D. Partner now says 3\S. What do you bid? [BID 4\S]
+
+Partner's jump bid shows a 6-card suit and enough points to insist on game. With your \H stopper you might be considering 3NT, but since you know of an 8-card \S fit you decide on 4\S.
+
+Be very glad that you did.3NT would go down with a \H opening lead while 4\S is cold.}
+[BCFlags "1f"]
+
+
+[Board "13"]
+[Event ""]
+{Baker Reverse 13}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "5D"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:T92.AT9.8753.943 J.K84.AQT9.KQJT7 KQ75.QJ532.2.862 A8643.76.KJ64.A5"]
+[Auction "N"]
+1C pass 1S pass 2D pass 4D pass 5D pass pass pass
+[Result ""]
+{The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 4\D]
+
+With partner showing 17 or more points, your 13 brings you to game level. You want to support partner's \Ds but you must jump to show that you have more than 8 points. So you bid 4\D and partner raises it to game.}
+[BCFlags "1f"]
+
+
+[Board "14"]
+[Event ""]
+{Baker Reverse 14}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "1NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:KJ642.AJT.763.54 AT83.852.T95.QJ3 Q75.943.AJ.K9762 9.KQ76.KQ842.AT8"]
+[Auction "S"]
+1D pass 1S pass 1NT pass pass pass
+[Result ""]
+{The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 1NT]
+
+You only have 15 points, not enough to Reverse, so you cannot bid the \H suit.
+
+Instead you content yourself with 1NT. Partner passes.}
+[BCFlags "1f"]
+
+

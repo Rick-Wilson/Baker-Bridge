@@ -1,0 +1,280 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:10:25 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Bidpractice/Set12 19}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:972.J43.72.KQ963 Q54.76.AK98.A874 J8.AT2.QJT54.JT2 AKT63.KQ985.63.5"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4S"]
+[Result ""]
+{NORTH cannot bid 2
+
+â™¥
+
+at his second turn; that would be
+
+Fourth Suit Forcing and wouldn't show the
+
+â™¥
+
+suit at all.
+
+With a game-forcing two-suiter he jumps to 3
+
+â™¥
+
+instead.
+
+SOUTH recognizes that NORTH must hold five â™ s and bids the â™  game.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1D Pass 1S Pass
+2C Pass 3H Pass
+4S Pass Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set12 20}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:AT92.Q2.T853.K75 K76.KJ873.A94.92 J43.T964.7.AQJT8 Q85.A5.KQJ62.643"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "2D"]
+[Result ""]
+{NORTH bids 2â™£ as New Minor Forcing, hoping SOUTH has three
+
+â™¥
+
+s.
+
+SOUTH does not have three
+
+â™¥
+
+s and he has no other bid to make that
+
+will describe his hand any better. He cannot bid Notrump again without a â™£ stopper.
+
+So SOUTH rebids the 5-card
+
+â™¦
+
+suit.
+
+NORTH has nowhere to go, so passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1D Pass 1H Pass
+1NT Pass 2C Pass
+2D Pass Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set12 21}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:K97.T8.T8732.K43 84.AK943.AJ96.75 T52.762.Q5.AQJ86 AQJ63.QJ5.K4.T92"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4H"]
+[Result ""]
+{SOUTH should not use Fourth Suit Forcing to see if NORTH holds three â™ s because
+
+that information is irrelevant.
+
+SOUTH already knows there is an 8-card
+
+â™¥
+
+fit and enough
+
+points to be in game so he bids it.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 3, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1H Pass 1S Pass
+2D Pass 4H Pass
+Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set12 22}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:T54.KQ.QJ965.J42 Q93.7642.KT82.Q5 72.AT98.A74.T987 AKJ86.J53.3.AK63"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3S"]
+[Result ""]
+{SOUTH thinks there might be game if NORTH can help with the three
+
+â™¥
+
+losers. So he bids 3
+
+â™¥
+
+as a Help Suit Game Try.
+
+NORTH cannot provide any help at all, so quickly signs off in 3â™  which SOUTH passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1S Pass 2S Pass
+3H Pass 3S Pass
+Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set12 23}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:Q74.T8.QJT52.K32 K95.KJ2.A963.Q64 T3.A7654.8.AJT97 AJ862.Q93.K74.85"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "2S"]
+[Result ""]
+{NORTH bids 2â™£ as New Minor Forcing, hoping SOUTH will show three â™ s.
+
+SOUTH does show three â™ s, but also shows a minimum hand so North passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1D Pass 1S Pass
+1NT Pass 2C Pass
+2S Pass Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set12 24}
+[Site ""]
+[Date ""]
+[Board "6"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:J642.J9.T32.A874 KT7.AK652.J98.Q5 Q83.Q873.A65.T92 A95.T4.KQ74.KJ63"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{NORTH wants to be in game but doesn't know which one.
+
+If SOUTH holds three
+
+â™¥
+
+s she would prefer 4
+
+â™¥
+
+,
+
+otherwise she would try 3NT. NORTH bids 2â™ , Fourth Suit Forcing.
+
+SOUTH denies three
+
+â™¥
+
+s but confirms a â™  honor by
+
+bidding 2NT, so NORTH bids the game in Notrump.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 6, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1D Pass 1H Pass
+2C Pass 2S Pass
+2NT Pass 3NT Pass
+Pass Pass

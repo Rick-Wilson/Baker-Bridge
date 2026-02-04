@@ -1,0 +1,164 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:53:35 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Reverse 5}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:KT432.72.KJ2.952 6.AKQ4.963.AQJT3 J7.J93.AQT75.864 AQ985.T865.84.K7"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4H"]
+[Result ""]
+{With his Reverse, partner has shown at least 17 points and at least 4 \Hs.
+
+You could fall back on the guidelines and say that with 10 points you need to make a positive bid at this time, but it is simpler to just rely on "SHE WHO KNOWS, GOES."
+
+Since you know of an 8-card \H fit and at least 27 points you bid 4\H.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+1C Pass 1S Pass
+2H Pass 4H Pass
+Pass Pass
+
+[Event ""]
+{Baker Reverse 6}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "S:A982.T4.J92.K976 T75.82.AQ53.JT84 3.Q953.T874.AQ32 KQJ64.AKJ76.K6.5"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "4S"]
+[Result ""]
+{You are the dealer.  
+
+It may be tempting to open 1\H, planning on Reversing in \S at your second turn to show your big hand.
+
+Don't. A Reverse should always show an unbalanced hand with the first suit longer. So you open 1\S and partner replies 2\S.
+
+What do you bid? 
+
+If you had opened 1\H partner would have replied 1NT. Then when you Reversed with 2\S he would have assumed you had a 4-card \S suit and would probably have put you back in \Hs, your known 5-card suit.
+
+Things would have gotten confusing, to say the least.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+[Student "S"]
+[Auction "E"]
+1S Pass 2S Pass
+4S Pass Pass Pass
+
+[Event ""]
+{Baker Reverse 7}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:Q9653.Q74.Q85.62 AK.52.A642.AKT74 J82.AT63.JT9.QJ3 T74.KJ98.K73.985"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3C"]
+[Result ""]
+{You would really love to pass. You have a terrible hand and you like the \Ds better than the \Cs.
+
+But you are forced to bid. And since partner has 5 \Cs and only 4 \Ds, you should take him back to his first suit.
+
+Mercifully he passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "S"]
+1C Pass 1H Pass
+2D Pass 3C Pass
+Pass Pass
+
+[Event ""]
+{Baker Reverse 8}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:832.JT9.732.A865 J7.AK63.KQT85.KT A964.7542.A6.432 KQT5.Q8.J94.QJ97"]
+[Scoring ""]
+[Declarer "W"]
+[Contract "3NT"]
+[Result ""]
+{When partner shows 17+ points with his Reverse you are sure you belong in game. Since he did not support your \Ss you know he doesn't have four of them. You also know you have an 8-card fit in \Ds, but surely nine tricks in Notrump will be easier than eleven in \Ds.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
+[Student "S"]
+[Auction "E"]
+1D Pass 1S Pass
+2H Pass 3NT Pass
+Pass Pass

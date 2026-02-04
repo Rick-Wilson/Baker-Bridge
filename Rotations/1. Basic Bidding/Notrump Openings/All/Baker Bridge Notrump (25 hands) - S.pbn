@@ -1,0 +1,602 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%Creator: CSVtoPBN Version 1.00
+%Created: 2026-01-23 13:57:51
+%sourcefilename BakerBridgeFull.csv
+%HRTitleEvent Notrump
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "1"]
+{Baker Notrump 1}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "2NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:A74.AQ85.Q74.QJ6 QJ6.932.T83.K854 K93.K74.K65.T972 T852.JT6.AJ92.A3"]
+[Auction "S"]
+1NT pass 2NT pass pass pass
+[Result ""]
+{You dealt so it is your bid. What do you say? 
+
+With 4-3-3-3 distribution and 15 points this hand qualifies for a 1NT opening. You bid 1NT andpartner raises to 2NT.  
+
+Partner's 2NT bid invites you to bid 3NT if you are at the top of your 15-17 point range. Since you have only 15 points you decline the invitation.}
+[BCFlags "1f"]
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "2"]
+{Baker Notrump 2}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:A74.AQ.T74.AQT65 KJ862.JT2.K2.742 T93.K74.QJ85.K83 Q5.98653.A963.J9"]
+[Auction "S"]
+1NT pass 2NT pass 3NT pass pass pass
+[Result ""]
+{You dealt so it is your bid. What do you say? 
+
+This hand has 17 points and one of the balanced distributions. When you have a hand that meets the requirements you should open 1NT. Do not worry about the lack of a \D stopper, you don't have to have all the suits stopped to open 1NT. You bid 1NT and partner raises to 2NT. What do you bid next? 
+
+You should count on partner for 9 points for his invitation. Your 17 brings the total to 26 so you bid 3NT.}
+[BCFlags "1f"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "3"]
+{Baker Notrump 3}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:QJT.AQ.T87.AQT95 A72.J9763.A4.764 865.K84.QJ95.K83 K943.T52.K632.J2"]
+[Auction "S"]
+1NT pass 2NT pass 3NT pass pass pass
+[Result ""]
+{You dealt so it is your bid. What do you say? 
+
+Of course you open 1NT. Partner responds 2NT. What do you say? 
+
+With 15 points you decline invitations, and with 17 points you accept. But with 16 you have to use your judgement. Some players will just automatically bid 3NT when they have 16 points, preferring to err on the side of boldness than to possibly miss bidding a makeable game. Others prefer to base their decision on how good the hand looks.
+
+With all the Ts and 9s this hand is stronger than 16 points, so you bid 3NT.}
+[BCFlags "1f"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "4"]
+{Baker Notrump 4}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:QJT5.Q98.AQ4.A98 4.T32.KJ965.J432 AK3.AK7.T82.QT75 98762.J654.73.K6"]
+[Auction "S"]
+1NT pass 4NT pass pass pass
+[Result ""]
+{You dealt so it is your bid. What do you say? 
+
+You open 1NT. Again. This time partner jumps to 4NT. What do you bid? 
+
+Partner's bid is not Blackwood. It is called a Quantitative 4NT and he is telling you he has a balanced 16-17 point hand. He is inviting you to bid 6NT.
+
+With 17 you accept invitations, with 15 you decline. You have 15 so you pass.
+
+As you see, there are 9 easy tricks and you can probably set up another. But you have no chance to make slam.}
+[BCFlags "1f"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "5"]
+{Baker Notrump 5}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "6NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:QJT5.Q98.AK4.AJ9 6.64.Q97653.K432 AK3.AK7.T82.QT75 98742.JT532.J.86"]
+[Auction "S"]
+1NT pass 4NT pass 6NT pass pass pass
+[Result ""]
+{You dealt so it is your bid. What do you say? 
+
+You open 1NT and partner jumps to 4NT.  
+
+This is the sequel to Deal 4. This time you have 17 points so you accept partner's invitation to slam and bid 6NT.
+
+You have 11 top tricks and can easily set up one more in \Cs.}
+[BCFlags "1f"]
+[RotationNote "Board 5, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "6"]
+{Baker Notrump 6}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "6NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:QJT5.Q98.AQ4.AJ9 762.6543.75.K432 AK3.AK7.T82.QT75 984.JT2.KJ963.86"]
+[Auction "S"]
+1NT pass 4NT pass 6NT pass pass pass
+[Result ""]
+{You dealt so it is your bid. What do you say? 
+
+You open 1NT and partner jumps to 4NT.  
+
+This is the threequel to 4 and 5. With a "good 16" points you accept the invitation and bid 6NT.
+
+As you might expect, this time the slam is not so certain, but there is a good chance. If either Minor suit finesse works you can make 12 tricks.}
+[BCFlags "1f"]
+[RotationNote "Board 6, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "7"]
+{Baker Notrump 7}
+[Dealer "W"]
+[Declarer "S"]
+[Contract "2H"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "W:AT852.K82.T92.QJ KQ6.Q5.AJ74.KT96 J94.A4.Q865.A873 73.JT9763.K3.542"]
+[Auction "W"]
+pass 1NT pass 2H pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+Surprise - you open 1NT. Partner responds 2\H. What do you bid next? (no transfers in this lesson) 
+
+Pass. Partner has long \Hs (probably 6) and short points (fewer than 9). He has decided that 2\H will be a better spot than 1NT. Trust him.}
+[BCFlags "1f"]
+[RotationNote "Board 7, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "8"]
+{Baker Notrump 8}
+[Dealer "W"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:743.A864.KT8.J84 J8.QJT73.J53.A73 AT952.92.962.Q52 KQ6.K5.AQ74.KT96"]
+[Auction "W"]
+pass pass pass 1NT pass 3H pass 3NT pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+You open 1NT and partner replies 3\H. What do you say next? 
+
+With this bidding method, partner's bid shows at least 10 points and exactly 5 \Hs. He expects you to choose between 3NT and 4\H. Since you have just a doubleton in \Hs you choose 3NT.
+
+NOTE: Jacoby Transfers are very useful for this type of hand.}
+[BCFlags "1f"]
+[RotationNote "Board 8, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "9"]
+{Baker Notrump 9}
+[Dealer "E"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "E:A852.J964.985.Q8 JT973.A82.62.A75 4.QT73.KJT3.J432 KQ6.K5.AQ74.KT96"]
+[Auction "E"]
+pass pass pass 1NT pass 3S pass 4S pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+Yes this is exactly the same hand you held in Deal 8. You still open 1NT. This time partner responds 3\S. What do you bid? 
+
+Partner shows T+ points and exactly 5 \Ss. This time, with 3-card support, you choose game in \Ss, knowing there is an 8-card fit.}
+[BCFlags "1f"]
+[RotationNote "Board 9, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "10"]
+{Baker Notrump 10}
+[Dealer "E"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:J8532.AJ96.3.Q72 KQ6.KQ4.Q74.KT96 74.T752.965.A543 AT9.83.AKJT82.J8"]
+[Auction "E"]
+pass 1NT pass 3D pass 3NT pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+You open 1NT and partner says 3\D. It's your bid. 
+
+Partner has a great hand. A jump to 3 in a Minor suit almost always shows slam interest. But that's partner with interest, not you. You couldn't have a more minimum 1NT opening bid. 
+
+So you just return to 3NT. Partner gives up and passes.}
+[BCFlags "1f"]
+[RotationNote "Board 10, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "11"]
+{Baker Notrump 11}
+[Dealer "W"]
+[Declarer "S"]
+[Contract "6C"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:A9875.T76.T852.2 KQ6.KQ4.A74.KT96 JT42.J932.Q96.J3 3.A85.KJ3.AQ8754"]
+[Auction "W"]
+pass 1NT pass 3C pass 4C pass 4NT pass 5D pass 6C all pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+You open 1NT and partner responds 3\C. What is your next bid? 
+
+Partner's jump to 3\C shows at least 5 \Cs and slam interest. Your hand is good enough to encourage that interest so you bypass 3NT and say 4\C. Partner now bids 4NT. What do you answer? 
+
+That is Blackwood. You admit to one Ace and partner bids 6\C.}
+[BCFlags "1f"]
+[RotationNote "Board 11, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "12"]
+{Baker Notrump 12}
+[Dealer "W"]
+[Declarer "S"]
+[Contract "2H"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "W:A752.5.K9875.A72 K96.KJ64.AQ4.QJ5 JT43.AT.JT32.K84 Q8.Q98732.6.T963"]
+[Auction "W"]
+1D 1NT pass 2H pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+A 1NT overcall is almost the same as a 1NT opening. The range is increased to 15-18, but the main difference is that you must have the opponent's suit adequately stopped. Here you certainly have the stopper so you bid 1NT. Partner responds 2\H. What do you bid next? 
+
+And the responses are the same also. Partner's 2\H bid is a signoff bid, often called a "drop dead" bid. So even though you really like the \Hs you pass. }
+[BCFlags "1f"]
+[RotationNote "Board 12, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "13"]
+{Baker Notrump 13}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "N:AJ8.K952.AQ4.AQ9 96.AQ6.K9632.643 KQT72.83.75.T872 543.JT74.JT8.KJ5"]
+[Auction "N"]
+2NT pass 3S pass 4S pass pass pass
+[Result ""]
+{You dealt so it is your bid. What do you say? 
+
+With a balanced 20 point hand you open 2NT. Partner responds 3\S. What do you bid next? 
+
+Partner is showing a 5-card \S suit and at least 5 points. This is a forcing bid; you are to choose between 3NT and 4\S, depending on your \S holding. With three of them you bid 4\S.}
+[BCFlags "1f"]
+[RotationNote "Board 13, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "14"]
+{Baker Notrump 14}
+[Dealer "E"]
+[Declarer "S"]
+[Contract "1NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:2.9874.Q93.AKJT2 A6.AJ6.KJ62.Q864 QJT754.T53.A85.7 K983.KQ2.T74.953"]
+[Auction "E"]
+pass 1NT pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+You have 8 points. Even if partner has the maximum 17 it would only add to 25, which is probably not enough to make game. You should pass.}
+[BCFlags "1f"]
+[RotationNote "Board 14, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "15"]
+{Baker Notrump 15}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:AQ2.A97.Q83.KQT4 J74.6543.AJ65.97 K93.KQ2.T974.J53 T865.JT8.K2.A862"]
+[Auction "S"]
+1NT pass 2NT pass 3NT pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+With 9 points you have just enough strength for an invitation. So you bid 2NT. Partner then says 3NT and everybody passes.}
+[BCFlags "1f"]
+[RotationNote "Board 15, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "16"]
+{Baker Notrump 16}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:AQT.Q6.AJ73.KT96 K654.T954.62.J42 73.AK2.KT94.Q753 J982.J873.Q85.A8"]
+[Auction "S"]
+1NT pass 3NT pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+A balanced hand with 12 points. Even if partner has just 15 points you want to be in game. So you bid 3NT.}
+[BCFlags "1f"]
+[RotationNote "Board 16, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "17"]
+{Baker Notrump 17}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AQ52.KQ9.J7.AT97 J964.J643.Q2.KQ3 73.T75.AKT964.86 KT8.A82.853.J542"]
+[Auction "S"]
+1NT pass 3NT pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+You have just 9 points, only 7 of which are HCP. Still, that \D suit is very likely to provide 5 or 6 tricks. Take a risk and bid 3NT.}
+[BCFlags "1f"]
+[RotationNote "Board 17, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "18"]
+{Baker Notrump 18}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:A743.AJ9.KJ2.Q63 T98.8532.T63.A54 QJ5.K6.AQ74.KJT7 K62.QT74.985.982"]
+[Auction "S"]
+1NT pass 4NT pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+With partner's 15, 16 or 17 points added to your 16 the total assets are 31, 32 or 33. That's only one chance in 3 of having the points you need for slam. On the other hand you have a pretty good 16. So you bid 4NT, inviting partner to bid the slam. He will pass if he has only 15, so the worst thing that can happen is that he puts you in slam with only 32 points.
+
+So you bid 4NT and guess what? He passes.}
+[BCFlags "1f"]
+[RotationNote "Board 18, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "19"]
+{Baker Notrump 19}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "6NT"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:AQ7.AT4.KQJ6.A83 JT4.Q763.983.652 K6.KJ5.T75.KQJT4 98532.982.A42.97"]
+[Auction "S"]
+2NT pass 6NT pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+Do the math. If partner only has 20 points you still come to 34 points, enough for the slam. If you want to use Gerber to check for Aces, go ahead. Or, just bid 6NT.}
+[BCFlags "1f"]
+[RotationNote "Board 19, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "20"]
+{Baker Notrump 20}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "2S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AT3.Q7.AT75.AJ62 K.T8432.K832.KT8 987642.95.QJ4.73 QJ5.AKJ6.96.Q954"]
+[Auction "N"]
+1NT pass 2S pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+You have a terrible hand and partner is not going to make 1NT. So you bid 2\S, the Drop-dead bid. You don't expect to make this either, but it will probably end up better than 1NT would have.}
+[BCFlags "1f"]
+[RotationNote "Board 20, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "21"]
+{Baker Notrump 21}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:J9.A73.AQ95.A983 AQ85.T4.T743.Q65 76.KJ9865.86.KJT KT432.Q2.KJ2.742"]
+[Auction "N"]
+1NT pass 4H pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+Since partner opened 1NT he has at least 2 \Hs and you are assured of an 8-card fit. The only question is how high. With 10 points you are in the judgement zone.
+
+But unless you play Jacoby Transfers there isn't a method for inviting with this kind of hand. You have to decide for yourself and bid either 2\H or 4\H. Take the optimistic view and bid the game.
+
+As you see, it is going to take some luck.}
+[BCFlags "1f"]
+[RotationNote "Board 21, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "22"]
+{Baker Notrump 22}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:K84.A73.KJ64.A75 32.K982.Q932.J32 QJT95.T4.A87.KQ9 A76.QJ65.T5.T864"]
+[Auction "N"]
+1NT pass 3S pass 4S pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+With 13 points you must either bid game or make a bid that forces partner to game. If partner has 3 or more \Ss then the game should be 4\S. If partner has only a doubleton \S then the game should be 3NT. Only partner can decide, and the bid that tells him to make the decision is 3\S.
+
+Partner has 3 of them so he bids 4\S.}
+[BCFlags "1f"]
+[RotationNote "Board 22, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "23"]
+{Baker Notrump 23}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "6C"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AJ3.AJ65.K5.QJ63 Q974.QT42.QJ87.9 85.K7.AT9.AKT875 KT62.983.6432.42"]
+[Auction "N"]
+1NT pass 3C pass 4C pass 4D pass 6C pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+With 16 points you may be in slam range. You should alert partner of your big hand by jumping to 3\C. Partner says 4\C and it is your bid again. 
+
+Don't make the mistake of bidding Blackwood when you have a doubleton-nothing in a suit. If partner has only one Ace you will be left not knowing what to do. Instead make a control-bid showing your \DA. Now partner bids 6\C which ends the auction.}
+[BCFlags "1f"]
+[RotationNote "Board 23, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "24"]
+{Baker Notrump 24}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:KQ9.AJT.AQ2.AJT4 JT763.K8643.5.Q5 85.97.KT9873.962 A42.Q52.J64.K873"]
+[Auction "S"]
+2NT pass 3NT pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+You have 5 points, all in \Ds. That will take the partnership total to either 25 or 26, so you have a judgement call. If partner is unable to establish your \Ds then even 2NT will probably be too high, so you might as well assume that he will be able to use them and bid 3NT.
+
+You hit the jackpot.}
+[BCFlags "1f"]
+[RotationNote "Board 24, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "25"]
+{Baker Notrump 25}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "6S"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:QT2.KQJ.AQ95.AJ5 .9753.KJ8743.873 KJ98753.A8.6.KQ2 A64.T642.T2.T964"]
+[Auction "S"]
+2NT pass 4C pass 4S pass 6S pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+You and partner better have a good agreement on which Ace-asking convention you use because you're going to use it now. Let's say it is Gerber. 
+
+You bid 4\C and partner replies 4\S. What do you bid next? 
+
+Missing one Ace you settle for the small slam.}
+[BCFlags "1f"]
+[RotationNote "Board 25, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+

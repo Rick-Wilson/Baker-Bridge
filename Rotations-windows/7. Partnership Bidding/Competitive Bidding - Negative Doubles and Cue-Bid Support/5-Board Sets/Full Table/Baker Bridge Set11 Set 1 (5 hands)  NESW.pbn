@@ -1,0 +1,256 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:12:01 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Bidpractice/Set11 1}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:83.QJT42.QT5.J93 AKJ7.87.976.KQ54 T54.96.AKJ32.T87 Q962.AK53.84.A62"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4S"]
+[Result ""]
+{SOUTH has both Majors and planned on bidding 1
+
+â™¥
+
+first, (up-the-line).
+
+But EAST's overcall gave SOUTH the opportunity to bid both Majors at the same time! Since the
+
+Negative Double promises both Majors it was like SOUTH could bid 1
+
+â™¥
+
+â™ .
+
+NORTH has â™ s so she bids 1â™ , showing a minimum opener.
+
+SOUTH has 13 points and the â™  fit so he bids game.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+1C 1D X Pass
+1S Pass 4S Pass
+Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set11 2}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "S:J8.Q6.QJ432.A963 AK62.AT93.97.Q82 T543.K542.T85.75 Q97.J87.AK6.KJT4"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "3NT"]
+[Result ""]
+{WEST has 13 points and four cards in both
+
+â™¥
+
+s and â™ s. Rather
+
+than bid one of them she makes a Negative Double, promising four cards in EACH of them. It's like
+
+she was able to bid 1
+
+â™¥
+
+â™ .
+
+EAST doesn't have four cards in either Major, but with a
+
+â™¦
+
+stopper he bids 1NT.
+
+WEST happily bids 3NT.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+[Student "S"]
+[Auction "E"]
+1C 1D X Pass
+1NT Pass 3NT Pass
+Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set11 3}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:T5.QJ9432.JT.J98 AKJ7.87.976.KQ54 843.T6.AKQ532.T7 Q962.AK5.84.A632"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{SOUTH cannot respond with a Negative Double on this hand because he has only three
+
+â™¥
+
+s.
+
+Instead he just bids his 4-card Major,  1â™ .
+
+NORTH shows 4-card support with a minimum opener by bidding 2â™  and SOUTH
+
+has enough strength to bid game.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+1C 1D 1S Pass
+2S Pass 4S Pass
+Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set11 4}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:Q84.KQ9543.QJ.J9 K9.862.AK63.KQ75 J76.7.T542.T6432 AT532.AJT.987.A8"]
+[Scoring ""]
+[Declarer "W"]
+[Contract "3NT"]
+[Result ""]
+{EAST has 15 points, and when North overcalls 2
+
+â™¥
+
+in front
+
+of her she has a perfect Negative Double - showing both of the Minor suits.
+
+WEST doesn't like the Minor suits, but he has stoppers in
+
+â™¥
+
+s, so
+
+he bids 2NT.
+
+EAST is more than happy to raise to 3NT.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
+[Student "S"]
+[Auction "W"]
+1S 2H X Pass
+2NT Pass 3NT Pass
+Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set11 5}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:K432.85.QT732.83 9.KQJ7.AK6.AQT54 AQJ75.T3.J95.J97 T86.A9642.84.K62"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4H"]
+[Result ""]
+{SOUTH would have responded 1
+
+â™¥
+
+if EAST had not overcalled.
+
+But with only 8 points he cannot bid at the 2-level. The Negative Double solves his problem,
+
+giving this information to partner.
+
+NORTH has good
+
+â™¥
+
+s and enough points to bid game.
+
+Notice that if EAST had remained silent, SOUTH would have responded 1
+
+â™¥
+
+,
+
+and NORTH would have jumped to game.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 5, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+1C 1S X Pass
+4H Pass Pass Pass

@@ -1,0 +1,198 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:59:24 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Eliminations 13}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:KQ2.K972.K753.T3 JT7.865.A62.AQ84 8543.J43.JT9.962 A96.AQT.Q84.KJ75"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "3NT"]
+[Result ""]
+{North plays 3NT. East leads the \H2. West plays the \HJ which you win with the \HQ.
+
+This time there is only one suit you can eliminate, \Cs. So play all four \Cs, ending in dummy. They split 3-2.
+
+You now play the \SJ from dummy and let it ride when West follows with a low card. (If West had covered you would win the Ace then set up a second trick in the suit.)East wins with the \SQ, and guess what?
+
+HE IS ENDPLAYED!. He has no \Cs, and whichever other suit he plays will give you your ninth trick! 
+
+}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1NT Pass 3NT Pass
+Pass Pass
+[Play "E"]
+H2
+
+[Event ""]
+{Baker Eliminations 14}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:Q83.JT84.KT62.T2 AT72.96.J54.QJ95 94.Q7532.A93.863 KJ65.AK.Q87.AK74"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{South is to play 4\S after North's Stayman bid uncovered the 4-4 fit. West leads the \HJ which you win the your \HA.
+
+So pull two rounds of trumps with the \SA and \SK, hoping the \SQ falls. She doesn't fall, but both defenders do follow suit. So the \SQ is the only trump outstanding.
+
+Next eliminate \Hs from you and dummy by playing the \HK.
+
+Now play four rounds of \Cs to eliminate that suit. If a defender decides to ruff one of these \Cs with the master trump he will be end-played, forced to either play a \D or to give you a ruff-sluff. So assume that all four \Cs win tricks.
+
+Now you administer the coup de gras, you lead a trump.
+
+One of the defenders has won the \SQ. Too bad for him. If he now plays a \D you will make either the \DQ or \DJ. If he plays a \H you will ruff in one hand and discard a \D loser from the other.
+
+But what if you considered yourself a really good guesser? So good that you felt confident in taking the finesse, and so good that you pulled it off successfully. 
+
+You'd be no better off. Although you would avoid the \S loser you would now have to play the \Ds for yourself and you would lose three \Ds!}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+2NT Pass 3C Pass
+3S Pass 4S Pass
+Pass Pass
+[Play "W"]
+HJ
+
+[Event ""]
+{Baker Eliminations 15}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:JT972.KT74.Q82.7 Q5.AJ62.A964.AJ5 K863.Q983.T75.82 A4.5.KJ3.KQT9643"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "6C"]
+[Result ""]
+{North considered Blackwood, then realized if South showed either 2 or 3 Aces he was going to bid slam. But if South showed just one Ace he would have to maneuver to play 5NT which might be worse than 6\C. So he just bid the slam. North plays 6\C. East leads the \SJ.
+
+Perhaps an elimination play will improve your chances. Don't lead a trump yet though, you're going to need several entries to dummy to eliminate the \Hs. 
+
+Win the \S, play to the \HA and ruff a \H.
+
+Play a trump to dummy's \CJ (both defenders follow) and ruff another \H high.
+
+Play to dummy's \CA, pulling their last trump, and ruff the last \H.
+
+Now execute the throw-in by leading a \S. If East wins the trick he will have to play \Ds for you or give you a ruff-sluff. So if these are competent defenders they will make sure that it is WEST who wins the \S trick. So he does, and he plays a small \D.
+
+DO NOT PLAY THE JACK! If the finesse is going to work now it will still work one trick later. By playing low you take advantage of the possibility that West held the \DT and East will have to put on the \DQ to prevent you taking a trick with dummy's \D9.
+
+Here you had two chances. First, East might have HAD to win the throw-in, either because he had all of the high \Ss, or more likely because he messed up. The second chance paid off when West took the throw-in but you found a fortunate position with the \Ds.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT Pass 3C Pass
+4C Pass 6C Pass
+Pass Pass
+[Play "E"]
+SJ
+
+[Event ""]
+{Baker Eliminations 16}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:965.9843.KQT52.6 AT72.KQ.984.KQ84 Q43.T762.J76.953 KJ8.AJ5.A3.AJT72"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6C"]
+[Result ""]
+{The slam was easy to bid, now you just have to make it. South plays 6\C. West leads the \DQ.
+
+Now eliminate \Hs from your hand and dummy by playing \HK, \HA, \HJ. BUT BE CAREFUL! On the \HJ you must discard a \D from dummy so both of you will be out of \Ds at the throw-in.
+
+NOW you can execute the throw-in. Play your \D, which eliminates \Ds from both you and dummy and at the same time throws in one of the defenders. Whoever it is will be forced to lead a \S and eliminate your guess for the \SQ or else give you a ruff-sluff, allowing you to ruff in dummy and discard a \S loser from your hand.
+
+Perhaps Aunt Harriet isn't that lucky after all, perhaps she just knows how to perform elimination plays.
+
+Hopefully in the future you will be the one with the reputation!}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1C Pass 1S Pass
+2NT Pass 4C Pass
+6C Pass Pass Pass
+[Play "W"]
+DQ

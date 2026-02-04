@@ -1,0 +1,802 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%Creator: CSVtoPBN Version 1.00
+%Created: 2026-01-23 13:57:51
+%sourcefilename BakerBridgeFull.csv
+%HRTitleEvent Bidpractice/Set8
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "1"]
+{Baker Bidpractice/Set8 1}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "6S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:KQJ96.4.KQJ7.AKQ 52.KJT62.862.JT9 A84.A873.T95.752 T73.Q95.A43.8643"]
+[Auction "N"]
+2C pass 2NT pass 3S pass 4S pass 4NT pass 5H pass 6S pass pass pass
+[Result ""]
+{2NT shows a balanced hand with 8+ points, and when SOUTH then supports ♠s
+
+NORTH makes a slam try.
+
+NORTH bids RKC Blackwood 4NT. SOUTH shows two Keycards (two Aces) and NORTH bids 6♠.}
+[BCFlags "1f"]
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "2"]
+{Baker Bidpractice/Set8 2}
+[Dealer "E"]
+[Declarer "E"]
+[Contract "5H"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "E:AQ7.KT742.KJ3.AK 642.A963.8652.J9 KJ.QJ85.QT97.Q42 T9853..A4.T87653"]
+[Auction "E"]
+1H pass 3H pass 4NT pass 5D pass 5H pass pass pass
+[Result ""]
+{WEST has a decent Limit Raise, and EAST tries RKC Blackwood.
+
+WEST replies to the 4NT bid with 5
+
+♦
+
+, zero or three Keycards.
+
+So which is it, zero or three?
+
+Pretty simple - since EAST holds three Keycards himself WEST can hardly have three also since there
+
+are only five total. She must have zero and EAST signs off at 5
+
+♥
+
+.}
+[BCFlags "1f"]
+[RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "3"]
+{Baker Bidpractice/Set8 3}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "6S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:KT74.KQJ84.A6.A3 9.T97.JT932.JT97 AQ8632.5.KQ7.KQ5 J5.A632.854.8642"]
+[Auction "N"]
+1H pass 1S pass 4S pass 4NT pass 5D pass 6S pass pass pass
+[Result ""]
+{NORTH jumps to 4♠, confident that SOUTH could make 10 tricks
+
+even if he just has 6 points.
+
+SOUTH knows he can make more and bids RKCB 4NT.
+
+NORTH's 5
+
+♦
+
+response shows zero or three Keycards.
+
+So which is it? Zero or three?
+
+NORTH bid much too strongly to have no Aces. SOUTH
+
+bids a confident 6♠, knowing NORTH has either three Aces or two Aces plus the ♠K.}
+[BCFlags "1f"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "4"]
+{Baker Bidpractice/Set8 4}
+[Dealer "W"]
+[Declarer "W"]
+[Contract "6H"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "W:6.AK9754.6.KQJT3 Q843.J62.K93.A85 A75.QT83.A854.92 KJT92..QJT72.764"]
+[Auction "W"]
+1H pass 3H pass 4NT pass 5S pass 6H pass pass pass
+[Result ""]
+{With eleven cards in the "round" suits WEST has a lot of playing strength. So when EAST bids
+
+a Limit Raise in
+
+♥
+
+s WEST wants to know about Aces.
+
+RKCBlackwood tells him that EAST has two Aces plus the trump Queen, so WEST can see that 6
+
+♥
+
+is practically a certainty.}
+[BCFlags "1f"]
+[RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "5"]
+{Baker Bidpractice/Set8 5}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AK9842.KQT6.84.A 65.98742.KQJ9.T7 QJ73.AJ5.T632.K4 T.3.A75.QJ986532"]
+[Auction "N"]
+1S pass 3S pass 4C pass 4H pass 4S pass pass pass
+[Result ""]
+{NORTH has interest in slam after she hears SOUTH's Limit Raise.
+
+BUT, she should not use Blackwood holding two quick losers in the
+
+♦
+
+suit.
+
+Instead she makes a Control showing bid of 4♣. (Not Gerber since it didn't follow a NT bid.)
+
+SOUTH cooperates by making a Control bid of 4
+
+♥
+
+.
+
+NORTH stops at 4♠ because neither partner controls
+
+♦
+
+s.}
+[BCFlags "1f"]
+[RotationNote "Board 5, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "6"]
+{Baker Bidpractice/Set8 6}
+[Dealer "W"]
+[Declarer "E"]
+[Contract "6D"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "W:6.KQ872.AK963.KQ T983.AT95.542.J8 AJ7.J6.QJT87.A64 KQ542.43..T97532"]
+[Auction "W"]
+1H pass 2D pass 4NT pass 5S pass 6D pass pass pass
+[Result ""]
+{WEST decides it is unlikely that EAST is Aceless, so all he wants to know is the number of Aces EAST does have.
+
+He invokes RKC Blackwood.
+
+Since no trump suit has been agreed, EAST bids as if
+
+♦
+
+s, the
+
+last-bid suit prior to 4NT is agreed. EAST has two Key-cards plus the trump Queen, so she bids 5♠.
+
+WEST bids 6
+
+♦
+
+.
+
+If EAST had just one Key-card, WEST would bid 5
+
+♦
+
+over the 5♣ reply.}
+[BCFlags "1f"]
+[RotationNote "Board 6, chOption: E, chBasis: N, basisKind:Declarer, nOption:1, nBasis: 0, nRot: 1, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "7"]
+{Baker Bidpractice/Set8 7}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "5C"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "N:6.KQ872.KQ.AK963 A84.943.T9873.54 KQ7.J6.A64.QJT87 JT9532.AT5.J52.2"]
+[Auction "N"]
+1H pass 2C pass 4NT pass 5C pass pass pass
+[Result ""]
+{This is the companion to Deal 6. The cards are the same except that the
+
+♦
+
+s and ♣s have been swapped.
+
+Again, NORTH has no problem as long as SOUTH holds at least one Key-card.
+
+When SOUTH responds 5♣, (showing one Key-card), NORTH can pass.
+
+That's what happens here.}
+[BCFlags "1f"]
+[RotationNote "Board 7, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "8"]
+{Baker Bidpractice/Set8 8}
+[Dealer "W"]
+[Declarer "W"]
+[Contract "6S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:A96.QJT3.AQJ.QJ9 T4.A976.975.T763 KQJ8752.4.K6.AK5 3.K852.T8432.842"]
+[Auction "W"]
+1NT pass 4C pass 4S pass 6S pass pass pass
+[Result ""]
+{EAST needs to know how many Aces WEST holds.
+
+One way to find out would be to bid 3♠, (which is forcing), then launch Blackwood.
+
+Another way is to bid 4♣ (Gerber) right now.
+
+The first way is probably better but we needed a Gerber example.}
+[BCFlags "1f"]
+[RotationNote "Board 8, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "9"]
+{Baker Bidpractice/Set8 9}
+[Dealer "S"]
+[Declarer "N"]
+[Contract "7S"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:AJT5.AK.K5.AKQJ4 62.9432.A97632.5 KQ8743.Q75..9762 9.JT86.QJT84.T83"]
+[Auction "S"]
+2C pass 2S pass 4NT pass 6D pass 7S pass pass pass
+[Result ""]
+{NORTH's positive response shows 8+ points and five or more cards headed by at least two honors.
+
+SOUTH figures a small slam would be safe, but just to be sure she uses Blackwood.
+
+NORTH's 6
+
+♦
+
+reply shows one Key-card which must be the trump King,
+
+and a
+
+♦
+
+void!
+
+.
+
+SOUTH readjusts her thinking and decides to bid the Grand.}
+[BCFlags "1f"]
+[RotationNote "Board 9, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "10"]
+{Baker Bidpractice/Set8 10}
+[Dealer "W"]
+[Declarer "E"]
+[Contract "6H"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "W:KQ3.KT93.A6.KQ96 J9752.J6.T94.J43 A6.AQ8752.KQ3.87 T84.4.J8752.AT52"]
+[Auction "W"]
+1NT pass 3H pass 4NT pass 5S pass 6H pass pass pass
+[Result ""]
+{EAST jumps in
+
+♥
+
+s, showing a good suit and slam interest.
+
+WEST has great
+
+♥
+
+support so bids RKCB 4NT.
+
+EAST responds 5♠, showing two Key Cards and the
+
+♥
+
+Q.
+
+That is enough for WEST to bid the slam.}
+[BCFlags "1f"]
+[RotationNote "Board 10, chOption: E, chBasis: N, basisKind:Declarer, nOption:1, nBasis: 0, nRot: 1, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "11"]
+{Baker Bidpractice/Set8 11}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "7NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AQ64.AKQ.A5.KJ63 9.T6432.J9732.95 KT7532.8.K86.AQ4 J8.J975.QT4.T872"]
+[Auction "N"]
+2C pass 2S pass 3S pass 4NT pass 5D pass 5H pass 6C pass 7NT pass pass pass
+[Result ""]
+{When NORTH agrees to ♠s, SOUTH will not stop short of a slam.
+
+The RKCB 4NT bid tells SOUTH that they have all five Key Cards since NORTH could hardly
+
+have a 2♣ opening hand with no Aces.
+
+SOUTH's 5
+
+♥
+
+bid is the Queen Ask, and NORTH's reply confirms that she holds
+
+the ♠Q, and also has the ♣K.
+
+SOUTH figures the ♠ suit will run, and this should be enough for Grand Slam. He chooses 7NT.}
+[BCFlags "1f"]
+[RotationNote "Board 11, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "12"]
+{Baker Bidpractice/Set8 12}
+[Dealer "E"]
+[Declarer "W"]
+[Contract "6S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "E:Q86.QJ3.AJ5.AJ65 T9.K62.T643.T972 AK753.8.KQ72.KQ4 J42.AT9754.98.83"]
+[Auction "E"]
+1NT pass 3S pass 4S pass 4NT pass 5S pass 6S pass pass pass
+[Result ""]
+{WEST knows there are enough points for slam, but she is worried about the trump suit.
+
+EAST's support doesn't guarantee more than three ♠s, and if they are not headed
+
+by the Queen she could lose a trump trick.
+
+Her RKCB bid relieves her mind when WEST claims two Key Cards PLUS the ♠Q.
+
+She bids 6♠ (and hopes for a 3-2 trump split!).}
+[BCFlags "1f"]
+[RotationNote "Board 12, chOption: W, chBasis: N, basisKind:Declarer, nOption:3, nBasis: 0, nRot: 3, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "13"]
+{Baker Bidpractice/Set8 13}
+[Dealer "S"]
+[Declarer "N"]
+[Contract "6S"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "S:K93.AT6.A9862.K9 T8.J975.43.QJ643 AQJ652.K82.Q.A85 74.Q43.KJT75.T72"]
+[Auction "S"]
+1NT pass 3S pass 4S pass 4NT pass 5D pass 6S pass pass pass
+[Result ""]
+{When NORTH makes a slam try with a jump to 3♠, the best approach for SOUTH is to agree on
+
+the trump suit immediately but indicate a minimum hand by bidding 4♠.
+
+NORTH's next move is logical; RKCB 4NT.
+
+SOUTH shows zero or three Key Cards, and since it could not possibly be zero, NORTH knows they are
+
+the ♠K and both red Aces. Even possessing all the Key Cards NORTH knows there aren't
+
+enough points for a Grand slam.}
+[BCFlags "1f"]
+[RotationNote "Board 13, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "14"]
+{Baker Bidpractice/Set8 14}
+[Dealer "W"]
+[Declarer "E"]
+[Contract "7NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:95.AK98742.73.87 QJ4.65.T98.QT543 AK.QJ3.AKQ5.A962 T87632.T.J642.KJ"]
+[Auction "W"]
+3H pass 4NT pass 5H pass 7NT pass pass pass
+[Result ""]
+{It is usually not recommended to use any form of Blackwood when you have a suit with two quick
+
+losers, but EAST knows WEST would not preempt with a 10-high
+
+♥
+
+suit.
+
+WEST's reply to RKCB is 5
+
+♥
+
+, showing two Key Cards.
+
+EAST knows they are the
+
+♥
+
+A
+
+♥
+
+K
+
+so she can count thirteen tricks.
+
+She bids a confident 7NT (and hopes WEST didn't open 3
+
+♥
+
+with a 6-card suit.}
+[BCFlags "1f"]
+[RotationNote "Board 14, chOption: E, chBasis: N, basisKind:Declarer, nOption:1, nBasis: 0, nRot: 1, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "15"]
+{Baker Bidpractice/Set8 15}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "5S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:QT875.K6.AK3.AKJ K.JT54.JT954.642 J9643.AQ3.Q7.Q53 A2.9872.862.T987"]
+[Auction "S"]
+1S pass 3S pass 4NT pass 5C pass 5S pass pass pass
+[Result ""]
+{SOUTH has 21 points, and when she hears NORTH make a limit raise she tries for slam with RKCB.
+
+NORTH answers with just one Key Card so SOUTH stops at 5♠, knowing they are missing
+
+two Key Cards.
+
+Of course she didn't expect the two missing Key Cards to be the Ace and King of trumps!}
+[BCFlags "1f"]
+[RotationNote "Board 15, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "16"]
+{Baker Bidpractice/Set8 16}
+[Dealer "W"]
+[Declarer "W"]
+[Contract "4NT"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "W:AJ6.K75.KQ53.AJ5 T943.842.J9.QT82 KQ5.AQ96.764.K96 872.JT3.AT82.743"]
+[Auction "W"]
+1D pass 1H pass 2NT pass 4NT pass pass pass
+[Result ""]
+{What is this doing here in the RKCB Practice Pages?
+
+To emphasize that there are many 4NT bids which are NOT asking for Aces.
+
+In this case, WEST showed a balanced hand with 18 or 19 points, and EAST invited him
+
+to bid 6NT if he felt his hand was a "maximum". He didn't, so he passed.}
+[BCFlags "1f"]
+[RotationNote "Board 16, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "17"]
+{Baker Bidpractice/Set8 17}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:K5.AK9762.K8.764 8643.8.AT6.KQT52 A972.QJ53.QJ753. QJT.T4.942.AJ983"]
+[Auction "N"]
+1H pass 4C pass 4NT pass 6C pass 6H pass pass pass
+[Result ""]
+{When SOUTH makes a Splinter bid, showing
+
+♥
+
+support and ♣ shortness,
+
+NORTH naturally thinks about slam.
+
+She uses RKCB 4NT, and SOUTH, with one Key Card and a ♣ Void, bids 6♣.
+
+Just what NORTH needed for the 6
+
+♥
+
+bid.}
+[BCFlags "1f"]
+[RotationNote "Board 17, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "18"]
+{Baker Bidpractice/Set8 18}
+[Dealer "E"]
+[Declarer "E"]
+[Contract "6S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "E:Q982.A95.A64.KQJ 4.8762.9732.A963 AK63.KQT4.KQ85.2 JT75.J3.JT.T8754"]
+[Auction "E"]
+1NT pass 2C pass 2S pass 4NT pass 5S pass 6S pass pass pass
+[Result ""]
+{WEST thinks they should be in slam, and uses Stayman to check for a 4-4 Major fit.
+
+When EAST announces four ♠s WEST uses RKCB 4NT.
+
+EAST's 5♠ bid shows two Key Cards plus the ♠Q.
+
+This fills the holes in WEST's hand nicely, so she bids 6♠.}
+[BCFlags "1f"]
+[RotationNote "Board 18, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "19"]
+{Baker Bidpractice/Set8 19}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "5S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:J982.A95.AJ4.KQJ Q754.J86.T93.T54 AK63.KQT4.KQ85.2 T.732.762.A98763"]
+[Auction "S"]
+1NT pass 2C pass 2S pass 4NT pass 5H pass 5S pass pass pass
+[Result ""]
+{This is the companion hand to Deal 18.
+
+Again, NORTH uses RKCB after the 4-4 ♠ fit is discovered.
+
+This time SOUTH shows two Key Cards without the ♠Q.
+
+Now NORTH realizes that in addition to one outside Ace, there is a very possible loser
+
+in trumps. So she stops at 5♠.}
+[BCFlags "1f"]
+[RotationNote "Board 19, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "20"]
+{Baker Bidpractice/Set8 20}
+[Dealer "E"]
+[Declarer "W"]
+[Contract "3NT"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "E:732.AKQ864.53.87 T95.T732.Q8.KJ92 AK4.J95.AK76.A54 QJ86..JT942.QT63"]
+[Auction "E"]
+2H pass 2NT pass 3NT pass pass pass
+[Result ""]
+{The chances of a slam on this hand are very small, and if WEST decides to use RKCB it will
+
+just confuse matters when EAST shows two Key Cards.
+
+WEST has a better way to find out about the hand. She bids 2NT asking EAST to further describe
+
+his hand. EAST should then bid 3NT, showing a solid suit headed by AKQ.
+
+EAST cannot have as much as an extra Jack, so WEST just passes 3NT.}
+[BCFlags "1f"]
+[RotationNote "Board 20, chOption: W, chBasis: N, basisKind:Declarer, nOption:3, nBasis: 0, nRot: 3, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "21"]
+{Baker Bidpractice/Set8 21}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "6S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AQJ862.KQ7.KQJ.A .84.AT762.J98732 K53.A952.854.654 T974.JT63.93.KQT"]
+[Auction "N"]
+2C pass 2D pass 2S pass 3S pass 4NT pass 5H pass 6S pass pass pass
+[Result ""]
+{NORTH realizes SOUTH has fewer than 8 points, but the 3♠ support bid is enough
+
+for her to try a RKCB 4NT bid.
+
+SOUTH shows two Key Cards and NORTH figures they will be the ♠K and one of the
+
+red Aces. So she bids 6♠. If instead the Key Cards are the two red Aces NORTH
+
+might possibly make all thirteen tricks with a finesse.}
+[BCFlags "1f"]
+[RotationNote "Board 21, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "22"]
+{Baker Bidpractice/Set8 22}
+[Dealer "E"]
+[Declarer "E"]
+[Contract "6H"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "E:KQJ5.AK652.6.AKQ 4.JT93.AQ743.T76 A72.Q74.985.9843 T9863.8.KJT2.J52"]
+[Auction "E"]
+2C pass 2D pass 2H pass 3H pass 4NT pass 5C pass 5D pass 6H pass pass pass
+[Result ""]
+{WEST's 3
+
+♥
+
+bid is "encouraging" so EAST bids 4NT.
+
+When WEST shows one Key Card, (an Ace), EAST is afraid he may have a trump loser as well the
+
+other Ace. To find out about the
+
+♥
+
+Q he
+
+bids 5
+
+♦
+
+, the Queen Ask.
+
+WEST has the
+
+♥
+
+Q but no King so she jumps
+
+to 6
+
+♥
+
+.}
+[BCFlags "1f"]
+[RotationNote "Board 22, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "23"]
+{Baker Bidpractice/Set8 23}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:KQJ5.AK652.6.AKQ T86.QT.AQT93.762 A72.J9874.85.843 943.3.KJ742.JT95"]
+[Auction "S"]
+2C pass 2D pass 2H pass 3H pass 4NT pass 5C pass 5D pass 6H pass pass pass
+[Result ""]
+{This is the companion to Deal 22.
+
+Again, worried about a possible trump loser in addition to the missing Ace, SOUTH
+
+bids 5
+
+♦
+
+, the Queen Ask.
+
+NORTH definitely does NOT have the
+
+♥
+
+Q. But with five trumps she
+
+does know that SOUTH probably does not have a trump loser so she jumps
+
+to 6
+
+♥
+
+anyway.}
+[BCFlags "1f"]
+[RotationNote "Board 23, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "24"]
+{Baker Bidpractice/Set8 24}
+[Dealer "W"]
+[Declarer "W"]
+[Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:85.KQ964.73.AK85 J.T3.J9865.QT743 AK963.AJ75.KQ2.6 QT742.82.AT4.J92"]
+[Auction "W"]
+1H pass 2S pass 3C pass 3H pass 4H pass 4NT pass 5S pass 6H pass pass pass
+[Result ""]
+{EAST cannot use RKCB at her second bid because trumps have not been agreed. So she bids
+
+3
+
+♥
+
+to set trumps, knowing WEST cannot pass after her jump-shift.
+
+WEST tries to stop at game but EAST is too strong so she now uses RKCB and gets
+
+to 6
+
+♥
+
+when WEST shows two Key Cards and the trump Queen.}
+[BCFlags "1f"]
+[RotationNote "Board 24, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
+

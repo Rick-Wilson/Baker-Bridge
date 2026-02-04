@@ -1,0 +1,174 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:48:59 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker 2over1 5}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:AT2.65.432.KQ732 KJ965.AK843.75.4 873.J92.KQT98.J5 Q4.QT7.AJ6.AT986"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4H"]
+[Result ""]
+{North opens 1\S, the higher ranking of the two 5-card suits.
+
+South, with 14 points, responds 2\C, forcing the partnership to game.
+
+North now bids his \H suit.
+
+At this point South figures North for 5 \Ss and 4 \Hs. South cannot support either of North's Majors, but with a good stopper in the fourth suit bids 2NT. The game force is still on and North may not pass this bid.
+
+North bids 3\H, indicating that this is also a 5-card suit. Now South can bid the \H game, knowing there is an 8-card fit.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1S Pass 2C Pass
+2H Pass 2NT Pass
+3H Pass 4H Pass
+Pass Pass
+
+[Event ""]
+{Baker 2over1 6}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "E:Q983.64.JT82.K65 65.AQ953.KQ63.Q9 K2.J82.74.AJT843 AJT74.KT7.A95.72"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{North opens 1\S and South, with 14 points, responds 2\H. Note that South is not permitted to make this bid without a 5-card or longer \H suit.
+
+North, knowing that South has 5, bids 3\H to confirm the trump suit.
+
+South has a minimum strength hand with no slam aspirations, so he uses Fast Arrival and bids 4\H. North is also satisfied to just play at game.
+
+2/1 is a good bidding method, and here, 4\H is a good contract. But you can see that it is not a laydown - there is no bidding system that will always reach T0% contracts. In this hand a 3-3 \D split will provide the Tth trick, or if that fails, taking 2 \S finesses provides a 75% chance of success.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "W"]
+Pass 1S Pass 2H
+Pass 3H Pass 4H
+Pass Pass Pass
+
+[Event ""]
+{Baker 2over1 7}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:QJT4.Q42.A93.975 AK9652.T983.4.A8 83.J6.QJT85.J432 7.AK75.K762.KQT6"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4H"]
+[Result ""]
+{North has 13 points and naturally opens 1\S.
+
+South, with 15 points, would bid 2\H in standard bidding, but with 2/1 this promises a 5-card suit. So instead, South responds 2\C, forcing the partnership to game. Note that holding two 4-card minors South bids them up-the-line, just as in standard bidding.
+
+North has a nice 6-card \S suit, so you might think he would rebid them. But Opener's first responsibility with his second bid is to show a 4-card Major if he has one. This isn't much of a suit, but North still bids 2\H.
+
+You can see why it is important for Opener to show a 4-card Major. Since South couldn't bid \Hs in her first response the fit would have been lost if North had not mentioned the suit. South now confirms the trump suit with a 3\H bid, and North shows his minimum by just bidding the game.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 3, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1S Pass 2C Pass
+2H Pass 3H Pass
+4H Pass Pass Pass
+
+[Event ""]
+{Baker 2over1 8}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:JT64.762.K93.A54 AK92.AQ983.85.86 Q3.JT5.642.QJT32 875.K4.AQJT7.K97"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{North opens 1\H, his 5-card Major. South, with 14 points, naturally responds 2\D, forcing the partnership to game.
+
+North next bids 2\S, showing the other Major suit. In standard bidding North would not be able to bid the \Ss since that would be a Reverse and North is far too weak to Reverse. But after a 2/1 Response the concept of a Reverse does not apply, and the priority of showing a 4-card Major certainly does apply.
+
+South assumes North to be 4-5 in the Majors, so she cannot support either. She bids 2NT. If North actually has 6 \Hs (or 5 \Ss) he will rebid the suit. South's 2NT bid guarantees a stopper in the fourth suit.
+
+North does not have either 6 \Hs or 5 \Ss so he just bids 3NT. Notice that North never once considered the possibility of passing what might be a misfit - the initial 2/1 response unconditionally forced the partnership to reach a game somewhere.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1H Pass 2D Pass
+2S Pass 2NT Pass
+3NT Pass Pass Pass

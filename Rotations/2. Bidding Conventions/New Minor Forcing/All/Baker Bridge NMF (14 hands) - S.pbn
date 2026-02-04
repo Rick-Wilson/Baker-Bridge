@@ -1,0 +1,384 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%Creator: CSVtoPBN Version 1.00
+%Created: 2026-01-23 13:57:51
+%sourcefilename BakerBridgeFull.csv
+%HRTitleEvent NMF
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "1"]
+{Baker NMF 1}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:T92.AQ3.T86.AK54 43.JT864.QJ4.J72 QJ865.K92.AK.863 AK7.75.97532.QT9"]
+[Auction "N"]
+1C pass 1S pass 1NT pass 2D pass 2S pass 4S pass pass pass
+[Result ""]
+{With 14 points you will insist on game, but you aren't strong enough to jump shift. So you bid 1\S. Partner rebids 1NT.  
+
+Partner has a minimum hand, balanced. You know you want to be in game, but you aren't sure which game. If partner has only 2 \Ss then 3NT should be best. But if he has 3 \Ss then you would prefer to play the 8-card Major fit. The way to find out is with New Minor Forcing. So you bid 2\D. Partner answers with 2\S.  
+
+Partner tells you he has 3 \Ss. You already know he has a minimum strength hand. You bid the \S game.}
+[BCFlags "1f"]
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "2"]
+{Baker NMF 2}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:96.A82.AK74.Q863 A87.QT95.T952.J7 KQJT2.K63.86.A54 543.J74.QJ3.KT92"]
+[Auction "S"]
+1D pass 1S pass 1NT pass 2C pass 2NT pass 3NT all pass
+[Result ""]
+{You are the dealer.  
+
+With 13 points and 4 cards in each minor suit you should open 1\D. Partner responds 1\S.  
+
+You have a minimum, balanced hand. It would not be wrong to say 2\C, but 1NT is probably better. Partner says 2\C.  
+
+Do not support the \Cs if you have another decent bid. This is New Minor Forcing and partner may or may not have a \C suit. You do not have 3 \Ss. You do not have a 4-card \H suit. You do have a \H stopper, so bid 2NT. Partner then bids 3NT.}
+[BCFlags "1f"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "3"]
+{Baker NMF 3}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "2H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:962.A53.KQJ5.K84 AJT8.9.AT64.JT92 Q74.KQ642.87.A53 K53.JT87.932.Q76"]
+[Auction "N"]
+1D pass 1H pass 1NT pass 2C pass 2H pass pass pass
+[Result ""]
+{With 12 points you know game is likely, but for now you bid 1\H. Partner rebids 1NT. What do you say next? 
+
+Partner has 12-14 points, balanced. If he is at the top, game could still be there, but you aren't sure where to play. If partner has only 2 \Hs then NT is probably best, but if he has 3 \Hs then you would prefer to play the 8-card Major fit. New Minor Forcing will allow partner to answer both questions for you. So you bid 2\C. Partner answers with 2\H.  
+
+Partner tells you he has 3 \Hs. But he also tells you he has minimum strength - in other words not 14 points. So you pass and accept the partscore.}
+[BCFlags "1f"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "4"]
+{Baker NMF 4}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:63.KQJ2.AK86.985 JT94.754.QJ2.AJ7 AKQ52.AT63.75.T4 87.98.T943.KQ632"]
+[Auction "S"]
+1D pass 1S pass 1NT pass 2C pass 2H pass 4H all pass
+[Result ""]
+{You are the dealer.  
+
+With 13 points you open your 4-card minor, 1\D. Partner responds 1\S.  
+
+You have a great \H suit, but can't bid it. A 2\H bid here would be a Reverse and you are nowhere near strong enough. So instead you say 1NT.
+
+Partner says 2\C. What do you bid? 
+
+This is New Minor Forcing and your first priority is to show a 4-card \H suit. You bid 2\H and partner raises to 4\H.}
+[BCFlags "1f"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "5"]
+{Baker NMF 5}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "2NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:KJ2.73.AK62.Q742 T983.AT9.QJ4.K86 Q74.KQ642.87.A53 A65.J85.T953.JT9"]
+[Auction "S"]
+1D pass 1H pass 1NT pass 2C pass 2NT pass pass pass
+[Result ""]
+{With 12 points you know game is likely, but for now you bid 1\H. Partner rebids 1NT. What do you say next? 
+
+Partner has 12-14 points, balanced. If he is at the top, game could still be there, but you aren't sure where to play. If partner has only 2 \Hs then NT is probably best, but if he has 3 \Hs then you would prefer to play the 8-card Major fit. New Minor Forcing will allow partner to answer both questions for you. So you bid 2\C. Partner answers with 2NT.  
+
+Partner tells you he has only 2 \Hs. He also tells you he only has 12-13 points. So you pass 2NT.}
+[BCFlags "1f"]
+[RotationNote "Board 5, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "6"]
+{Baker NMF 6}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "4H"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "N:K43.K92.J85.AK86 QT98.J875.A97.T4 A7.AQT63.QT4.753 J652.4.K632.QJ92"]
+[Auction "N"]
+1C pass 1H pass 1NT pass 2D pass 3H pass 4H all pass
+[Result ""]
+{You are the dealer.  
+
+With 14 points you open your 4-card minor, 1\C. Partner responds 1\H.  
+
+This is easy. You cannot support \Hs at this point with only 3 cards. So you rebid 1NT.
+
+Partner says 2\D. What do you bid? 
+
+This is New Minor Forcing. Partner wants to know if you have 3 \Hs. Not only do you have 3 good \Hs, but you also have a maximum hand. So you jump to 3\H and partner bids the game.}
+[BCFlags "1f"]
+[RotationNote "Board 6, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "7"]
+{Baker NMF 7}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4H"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "S:Q2.Q954.A52.KQ97 AT54.T2.JT973.AJ KJ976.AK87.64.T3 83.J63.KQ8.86542"]
+[Auction "S"]
+1C pass 1S pass 1NT pass 2D pass 2H pass 4H pass pass pass
+[Result ""]
+{You have 12 points and you respond 1\S. Partner rebids 1NT. What do you say next? 
+
+Partner has 12-14 points, balanced. You have an excellent 4-card \H suit, but if you bid 2\H right now it is not forcing on partner and he will almost surely pass. And you definitely don't have the points to jump to 3\H. New Minor Forcing gives you a way out.
+
+So you say 2\D and your wonderful partner bids 2\H. What now? 
+
+Your 12 points just got upgraded! Bid 4\H.}
+[BCFlags "1f"]
+[RotationNote "Board 7, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "8"]
+{Baker NMF 8}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AQ9.82.AKT9.JT95 T73.KQ96.6432.A8 K52.AJT74.J5.Q74 J864.53.Q87.K632"]
+[Auction "S"]
+1D pass 1H pass 1NT pass 2C pass 3NT pass pass pass
+[Result ""]
+{You are the dealer.  
+
+This 14 point hand is almost good enough to open 1NT, but you bid 1\D. Partner responds 1\H. What do you bid next? 
+
+You could bid either 1NT or 2\C. You decide on 1NT.
+
+Partner says 2\C. What do you bid? 
+
+This is NMF, asking if you have 3 \Hs. You only have 2, but you have a great notrump hand now. Since partner must have at least invitational strength you jump right to 3NT.}
+[BCFlags "1f"]
+[RotationNote "Board 8, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "9"]
+{Baker NMF 9}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:QT5.JT.AK642.Q86 AJ86.9863.7.5432 K94.AK542.85.KJ9 732.Q7.QJT93.AT7"]
+[Auction "S"]
+1D pass 1H pass 1NT pass 2C pass 2NT pass 3NT pass pass pass
+[Result ""]
+{With 15 points you are going to insist on game. First you respond 1\H. Partner rebids 1NT. What do you say next? 
+
+Partner has 12-14 points, balanced. You are happy with notrump, but would prefer to play in \Hs if partner has three cards in the suit. To find out if he does, use New Minor Forcing.
+
+So you say 2\C and partner replies 2NT. It is your bid again. 
+
+Partner doesn't have 3 \Hs. That's what you wanted to know, you bid 3NT.}
+[BCFlags "1f"]
+[RotationNote "Board 9, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "10"]
+{Baker NMF 10}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:98.AJT2.AKQ4.T96 A753.8754.972.A8 KQJ62.KQ63.86.54 T4.9.JT53.KQJ732"]
+[Auction "S"]
+1D pass 1S pass 1NT pass 2C pass 3H pass 4H all pass
+[Result ""]
+{You are the dealer.  
+
+You have 14 points and you open 1\D. Partner responds 1\S.  
+
+You cannot bid 2\H because a Reverse shows at least 16 points. So you bid 1NT. Partner says 2\C.  
+
+This is NMF, asking you to further describe your hand. You do not have 3 \Ss. You do have a 4-card \H suit. You have a maximum hand for your previous bidding, so you jump to 3\H. Partner raises to 4\H.}
+[BCFlags "1f"]
+[RotationNote "Board 10, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "11"]
+{Baker NMF 11}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:72.KQ75.J96.AK94 A864.T64.A832.75 KQJT5.A3.KT7.T83 93.J982.Q54.QJ62"]
+[Auction "S"]
+1C pass 1S pass 1NT pass 2D pass 2H pass 3NT pass pass pass
+[Result ""]
+{You have 14 points and you respond 1\S. Partner rebids 1NT. What is your next bid? 
+
+Partner has 12-14 points, balanced. You will insist on reaching game, but don't know whether 3NT or 4\S is going to be the best spot. It depends on whether partner has 3 \Ss. So of course you use NMF.
+
+You bid 2\D and partner then says 2\H. Where do you go from here? 
+
+OK, partner has a 4-card \H suit - may or may not have 3 \Ss. Since you don't have 4 \Hs you bid 3NT, leaving it up to partner to correct to 4\S if he has 3 of them.}
+[BCFlags "1f"]
+[RotationNote "Board 11, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "12"]
+{Baker NMF 12}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "N:AT7.AJT.KJ5.KQT6 J.K9853.T87642.A KQ962.Q74.Q93.93 8543.62.A.J87542"]
+[Auction "N"]
+1C pass 1S pass 2NT pass 3D pass 3S pass 4S all pass
+[Result ""]
+{You are the dealer.  
+
+You are too strong for 1NT so you open 1\C. Partner responds 1\S.  
+
+You don't support \Ss with only 3 cards since partner might well have just a 4-card suit. With 18 points, balanced, all suits stopped, you jump to 2NT.
+
+Partner says 3\D. What do you bid? 
+
+This is New Minor Forcing. Partner wants to know if you have 3 \Ss. Since you do have 3 you bid 3\S and partner raises to 4\S.}
+[BCFlags "1f"]
+[RotationNote "Board 12, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "13"]
+{Baker NMF 13}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "6NT"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "S:J4.AKQ86.KQ4.KT4 A76.T542.872.972 KQT53.73.A53.AQ3 982.J9.JT96.J865"]
+[Auction "S"]
+1H pass 1S pass 2NT pass 3C pass 3NT pass 6NT pass pass pass
+[Result ""]
+{You have 16 points and you respond 1\S. Partner rebids 2NT. What is your next bid? 
+
+Partner has 18-19 points, balanced, with 5 \Hs. You are going to bid a slam, either 6NT or 6\S, depending on whether partner has 3 \Ss. Time for New Minor Forcing. 
+
+You bid 3\C rather than 3\D just because your \Cs are stronger. Partner now says 3NT. What do you bid? 
+
+Partner does not have 3 \Ss. That was the information you needed, so you bid 6NT.}
+[BCFlags "1f"]
+[RotationNote "Board 13, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "14"]
+{Baker NMF 14}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:K8.962.AKQ84.T96 JT93.A8.T97.K752 AQ642.KQ7.J6.QJ4 75.JT543.532.A83"]
+[Auction "S"]
+1D pass 1S pass 1NT pass 2C pass 2D pass 3NT all pass
+[Result ""]
+{You are the dealer.  
+
+You have 13 points and you open 1\D. Partner responds 1\S.  
+
+With a minimum opener you now bid 1NT. Partner says 2\C. What do you say next? 
+
+This is NMF, asking you to further describe your hand - and you are stuck for a bid. You do not have 4 \Hs. You do not have 3 \Ss. You do not have a stopper in either \Hs or \Cs so you cannot bid 2NT. Reluctantly you rebid your 5-card \D suit.
+
+Then you breathe a sigh of relief when partner says 3NT.}
+[BCFlags "1f"]
+[RotationNote "Board 14, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+

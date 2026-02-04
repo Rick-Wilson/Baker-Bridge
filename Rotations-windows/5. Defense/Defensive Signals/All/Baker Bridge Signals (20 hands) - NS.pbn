@@ -1,0 +1,748 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:03:15 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Signals 1}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:KQT42.985.T97.A4 63.AJ3.K52.KQJ62 987.T7642.A643.7 AJ5.KQ.QJ8.T9853"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "3NT"]
+[Result ""]
+{You are East. The bidding has been as shown. You led the \SK, West played the \S7 and North the \S5.
+
+What do you play to the second trick?
+
+When you have made your choice  
+
+You can see the \S6, \S5, \S4, \S3 and \S2. So the \S7 is West's lowest \S, he is doing his best to discourage you from leading the suit again.
+
+North held up with \S A J x, hoping you would play the suit again and give him two tricks.
+
+If you play the \DT West will win the \DA and return a \S, allowing you to drive out North's \SA while you still have the \CA for an entry.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "W"]
+[Auction "N"]
+1C 1S 3C Pass
+3NT Pass Pass Pass
+[Play "E"]
+SK
+
+[Event ""]
+{Baker Signals 2}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:KQT42.985.T97.A4 63.AJ3.K52.KQJ62 J75.T7642.A643.7 A98.KQ.QJ8.T9853"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{You are West. The bidding has been as shown. You led the \SK, East played the \S7 and South the \S8.
+
+What do you play to the second trick?
+
+When you have made your choice  
+
+You cannot see the \S5. The most likely reason is that East has it, and his \S7 is an encouraging signal. The only reason he would encourage you is if he held either the \SA or \SJ.
+
+Together, you two continue to play \Ss to drive out South's \SA. When you get the lead with your \CA you will cash your \S winners and East will still have the \DA for some icing on the cake.
+
+There IS another possibility if South is a better than average Declarer. East just might hold \S 9 7, giving South \S A J 8 5. South played the \S8 as a falsecard to tempt you into playing the suit again. This isn't too likely, but if it happens just congratulate South for the fine play.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "W"]
+[Auction "S"]
+1C 1S 3C Pass
+3NT Pass Pass Pass
+[Play "W"]
+SK
+
+[Event ""]
+{Baker Signals 3}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:54.64.J73.AKQ653 AT72.KJ83.Q86.J4 K863.QT.T9542.82 QJ9.A9752.AK.T97"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4H"]
+[Result ""]
+{You are West. The bidding has been as shown. Partner led the \CA, dummy played the \C4 and it is your play.
+
+When you have made your choice  
+
+East will play the \CQ on which you will play the \C2.
+
+East now knows you started with a doubleton, and more importantly, he also knows you want him to play a third \C.
+
+When he next plays the \CK dummy will ruff, but whatever card he ruffs with you will have established a trump trick. When you later win your \SK that will be down 1.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "E"]
+[Auction "N"]
+1H 2C 3C Pass
+4H Pass Pass Pass
+[Play "E"]
+CA
+
+[Event ""]
+{Baker Signals 4}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:73.J843.KJ952.82 J84.762.84.KJ965 QT962.T9.Q73.A74 AK5.AKQ5.AT6.QT3"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{You are West. The bidding has been as shown. You led the \D5, East wins the \DQ and returns the \D7. South holds up his \DA until the third round. He then plays the \CQ and it is your play. 
+
+When you have made your choice  
+
+You assume (hope) that East holds the \CA. If he does then he will need help from you to decide which trick he should win. You play the \C8 first, and the \C2 next to show an even number.
+
+If East is paying attention he will know to win the THIRD \C. This will kill dummy's \C suit, and with it South's chance of making 9 tricks.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "W"]
+[Auction "S"]
+2C Pass 2D Pass
+2NT Pass 3NT Pass
+Pass Pass
+[Play "W"]
+D5
+
+[Event ""]
+{Baker Signals 5}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:J7652.3.T64.AKT5 A.KT82.AQ73.J862 QT84.QJ9.K952.93 K93.A7654.J8.Q74"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4H"]
+[Result ""]
+{You are West. The bidding has been as shown. Partner led the \CA, dummy played the \C2 and it is your play.
+
+When you have made your choice  
+
+If you signal with the \C9 East will continue with the \CK and another which you will have to ruff. You will give up your NATURAL trump trick by doing so. Worse, you will allow South's \CJ to be established as a winner that North can later discard a \D on. 
+
+Much better to play low. Partner will surely switch to a \D, and North will probably finesse, though it doesn't matter whether he does or not. You will win the \DK, return the \C9 back to East's \CK, and still have your trump trick for later.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "E"]
+[Auction "S"]
+1D Pass 1H Pass
+2H Pass 4H Pass
+Pass Pass
+[Play "E"]
+CA
+
+[Event ""]
+{Baker Signals 6}
+[Site ""]
+[Date ""]
+[Board "6"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:AKQT7.T9.972.K84 J642.J63.AJ6.T73 93.54.QT83.J9652 85.AKQ872.K54.AQ"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{You are West. The bidding has been as shown. You led the \SA, East plays the \S9, South the \S5. You assume East has signaled you to continue \Ss, so you play the \SQ. On this trick East plays the \S3 and South the \S8. How will you continue? 
+
+When you have made your choice  
+
+You might just switch suits, but you have a better choice.
+
+If you play your \SQ, East won't bother ruffing, South WILL ruff and dummy's \SJ will be established as a winner.
+
+The best procedure is to lead a low \S. East will ruff and South will over-ruff but by playing this way you stop the establishment of North's \SJ. As you can see, South would have been able to discard a loser on that \SJ if you hadn't played this way.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 6, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "W"]
+[Auction "S"]
+1H 1S 2H Pass
+4H Pass Pass Pass
+[Play "W"]
+SA
+
+[Event ""]
+{Baker Signals 7}
+[Site ""]
+[Date ""]
+[Board "7"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:K963.QJT7.852.83 J8.962.KQT94.975 AT52.853.A73.J62 Q74.AK4.J6.AKQT4"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "3NT"]
+[Result ""]
+{You are West. The bidding has been as shown. Partner led the \HQ, you played low and North won the \HA.
+
+North now plays the \DJ on which East plays the \D2. What do you play now, and what is your plan.
+
+When you have made your choice  
+
+South hoped his \D suit would provide enough tricks to make the game. You can see that there is no entry to the South hand EXCEPT in \Ds, so you want to win your \DA on the trick that North plays his last \D. How can you tell which trick that is?
+
+Only by watching what East plays. On the \DJ East played the \D2, a low card signaling that he held an ODD number of \Ds. ODD must be either one or three so when he followed to the next \D you know he started with three. A little bit of counting tells you that North started with the doubleton Jack, so you want to win the second \D trick.
+
+This defense holds North to one \D tricks, if you had let him win the second one he would have had 9 tricks. }
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 7, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "E"]
+[Auction "N"]
+2NT Pass 3NT Pass
+Pass Pass
+[Play "E"]
+HQ
+
+[Event ""]
+{Baker Signals 8}
+[Site ""]
+[Date ""]
+[Board "8"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:A65.QT64.K72.T52 KQ93.873.Q6.9764 872.J952.A843.83 JT4.AK.JT95.AKQJ"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{You are West. The bidding has been as shown. You led the \H4, East plays the \HJ, won by South with \HA.
+
+South plays the \SJ, you follow with \S5, dummy \S3 and East plays the \S2. South continues with the \ST and it is your play.
+
+When you have made your choice  
+
+East's \S2 tells you he had an ODD number of \Ss, obviously 3. Since South also must have 3, you must take your \SA on the third round, depriving dummy of the extra \S trick.
+
+South may now turn to the \D suit, but your side can win the first \D and drive out South's \HK. You will win 2 \Hs, 2 \Ds and the \SA, down 1}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 8, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "W"]
+[Auction "S"]
+1C Pass 1S Pass
+2NT Pass 3NT Pass
+Pass Pass
+[Play "W"]
+H4
+
+[Event ""]
+{Baker Signals 9}
+[Site ""]
+[Date ""]
+[Board "9"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:84.A8752.752.642 KJ6.JT63.AQ6.QT5 9732..T9843.AKJ9 AQT5.KQ94.KJ.873"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "3NT"]
+[Result ""]
+{You are West. The bidding has been as shown. Partner led the \H5, dummy played the \HT and it is your play.
+
+When you have made your choice  
+
+You really want East to lead a \C if he gets into the lead. If you discard the \C9 East will surely get the message and will lead a \C. BUT - you will only win 3 \C tricks. The \C9 would have been the fourth winner.
+
+So instead, play a low card in one of the other suits, say the \D3.
+
+North is one trick short and he sees he can easily get that trick in \Hs. So he plays a second \H from dummy and you now discard the \S2. East takes the \HA and he can see that you don't want him to lead a \S or a \D. He deduces that you might like a \C so he plays his \C2 and you win 4 tricks.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 9, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "E"]
+[Auction "N"]
+1NT Pass 3NT Pass
+Pass Pass
+[Play "E"]
+H5
+
+[Event ""]
+{Baker Signals 10}
+[Site ""]
+[Date ""]
+[Board "10"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "W:653.4.J8642.J943 KJ7.QJ2.QT3.KT75 8.AT9763.975.A62 AQT942.K85.AK.Q8"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{You are West. The bidding has been as shown. You led the \H4, East takes the \HA and returns the \H3. You ruff and then play what??? 
+
+When you have made your choice  
+
+Partner played the \H3, a low card, for you to ruff. That means his re-entry, if he has one, is in the lower-ranking suit.
+
+Partner takes the \CA and gives you a second \H ruff.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 10, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "W"]
+[Auction "E"]
+2H 2S Pass 3S
+Pass 4S Pass Pass
+Pass
+[Play "W"]
+H4
+
+[Event ""]
+{Baker Signals 11}
+[Site ""]
+[Date ""]
+[Board "11"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:J863.T6.AK84.872 KQ752.Q4.963.K96 T94.953.Q72.AQJ4 A.AKJ872.JT5.T53"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "2H"]
+[Result ""]
+{You are West. The bidding has been as shown. Partner led the \DA, dummy played the \D3 and it is your play.
+
+When you have made your choice  
+
+You know partner also has the \DK, and normally you would give an encouraging signal when you hold the Queen. But with this hand you want partner to switch to \Cs as soon as possible. So you play a low \D.
+
+East looks at your signal, then looks at dummy, then looks at your signal. He knows you want a switch and it looks like a switch to \Cs might work the best. North plays a low \C from dummy, you win the \CJ. Next you play a low \D, taken by East with his \DK. East leads a \C. Dummy plays the \CK, you win that, cash another \C, then cash your \DQ. That first signal led to your side winning the first 6 tricks. Wow.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 11, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "E"]
+[Auction "N"]
+1H Pass 1S Pass
+2H Pass Pass Pass
+[Play "E"]
+DA
+
+[Event ""]
+{Baker Signals 12}
+[Site ""]
+[Date ""]
+[Board "12"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:964.AK72.A863.95 AT3.T6.972.KQJ32 8.QJ843.QJT4.876 KQJ752.95.K5.AT4"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{You are West. The bidding has been as shown. You led the \HA, East puts on the \HQ. It's your play. 
+
+When you have made your choice  
+
+East's \HQ is either a singleton, (practically impossible), or a signal showing that he also holds the \HJ. In either case you can reach the East hand on the second trick by playing a low \H. Since you don't particularly want to start playing \Ds from your side, you go ahead and play a small \H, won by East with the \HJ.
+
+East next plays the \DQ and however South tries it your side will take the next two \D tricks and set the contract.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 12, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "W"]
+[Auction "S"]
+1S Pass 3S Pass
+4S Pass Pass Pass
+[Play "W"]
+HA
+
+[Event ""]
+{Baker Signals 13}
+[Site ""]
+[Date ""]
+[Board "13"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:K874.63.AK96.953 J5.AQ9875.52.QT4 T9632.K2.QJ8.876 AQ.JT4.T743.AKJ2"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4H"]
+[Result ""]
+{You are West. The bidding has been as shown. East led the \DA, dummy played the \D2 and it is your play.
+
+When you have made your choice  
+
+As soon as dummy appears you can see 3 tricks for your side. Partner surely has the \DK to go with his Ace and you have a certain trump trick. However, that's all you can see.
+
+Your best hope is that East may be able to win a \S trick, and it may be important for the first \S lead to come from your side of the table.
+
+Your \DQ play informs partner that you also have the \DJ, giving him the option of underleading his \DK to get to your hand.
+
+East next plays a small \D which you win with your \DJ. You return the \ST. This establishes East's \SK before North can pull trumps and discard one of dummy's \Ss on his fourth \C.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 13, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "E"]
+[Auction "N"]
+1NT Pass 2D Pass
+2H Pass 4H Pass
+Pass Pass
+[Play "E"]
+DA
+
+[Event ""]
+{Baker Signals 14}
+[Site ""]
+[Date ""]
+[Board "14"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:J9652.AQT6.9542. 7.532.73.AKJ9642 T84.J74.KQ86.Q73 AKQ3.K98.AJT.T85"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{You are West. The bidding has been as shown. You led the \S5, East plays the \ST and South wins the \SK. To the second trick South plays the \CT and you must discard something. 
+
+When you have made your choice  
+
+You know that East has no high \S honor or he would have played it to the first trick. So South has the \S A Q left, plus all those \C tricks. You need to have West switch to a \H if possible.
+
+East must be expecting to lead a \S back when he wins the \CQ which you hope he holds. Your \SJ discard may make him rethink. If your \Ss were any good why would you be discarding a winner when all you had to do was toss a small red card?
+
+Hopefully East will come to the conclusion that this is Suit Preference for a \H return and will play his \HJ. Hopefully.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 14, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "W"]
+[Auction "S"]
+1NT Pass 3NT Pass
+Pass Pass
+[Play "W"]
+S5
+
+[Event ""]
+{Baker Signals 15}
+[Site ""]
+[Date ""]
+[Board "15"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:AKQ73.4.T653.T72 962.KT63.Q94.QJ4 T4.9.J872.A98653 J85.AQJ8752.AK.K"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4H"]
+[Result ""]
+{You are West. The bidding has been as shown. Partner led the \SA, dummy played the \S2 and you signal with your \ST. East next plays the \SQ and you drop the \S4, completing your doubleton signal. East then plays the \SK and it turns out you don't have to ruff after all. So what are you going to play?
+
+When you have made your choice  
+
+This should be a clear enough signal for East to play a \C to your \CA next.
+
+An alternate play, just as good, would be for you to ruff the good \SQ and play the \CA yourself.
+
+If you don't get your \C trick at trick 4 you will never get it. North will discard his \CK on South's extra \D winner.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 15, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "E"]
+[Auction "N"]
+1H 1S 2H Pass
+4H Pass Pass Pass
+[Play "E"]
+SA
+
+[Event ""]
+{Baker Signals 16}
+[Site ""]
+[Date ""]
+[Board "16"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:T.9643.975.KQT63 QJ9863.Q72.Q84.J 2.AKJ.JT632.A972 AK754.T85.AK.854"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{You are East. The bidding has been as shown. Partner led the \CK, dummy's singleton was played and it is your play.
+
+When you have made your choice  
+
+West will look at your \C9 and perhaps think for an instant that you want him to play another \C.
+
+But it will be a short instant because a look at dummy makes in absolutely clear to everybody that playing another \C could not help your side. Dummy has so many trumps that repeated \C leads would do nothing.
+
+OK. If it's not an encouraging Attitude signal, what is it? Suit preference of course. Since it is a high spot card you are asking West to switch to the higher suit (choosing between \Ds and \Hs).
+
+West dutifully plays a \H and you take the next three tricks. Had he switched to a \D instead, South would have been able to discard one of his \H losers on North's \DQ.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 16, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "E"]
+[Auction "S"]
+1S Pass 4S Pass
+Pass Pass
+[Play "W"]
+CK
+
+[Event ""]
+{Baker Signals 17}
+[Site ""]
+[Date ""]
+[Board "17"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:5.973.A87.AK9864 AT6.AKQ4.QT3.QJ2 83.JT62.KJ9542.3 KQJ9742.85.6.T75"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4S"]
+[Result ""]
+{You are West. The bidding has been as shown. Partner led the \CA. Seeing your \C3 he next played the \DA. What will you play on this trick?
+
+When you have made your choice  
+
+Normally with this holding you would play the \D9 to encourage East to play a second \D through dummy's \D Q T.
+
+But this time you really want him to take his \CK. So play the discouraging \D2 and hope he gets the message to go back to \Cs. If he does play the \CK next it will win and he can then give you a \C ruff.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 17, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "E"]
+[Auction "N"]
+3S Pass 4S Pass
+Pass Pass
+[Play "E"]
+CA
+
+[Event ""]
+{Baker Signals 18}
+[Site ""]
+[Date ""]
+[Board "18"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:985.KQ853.962.J4 642.964.KQ83.K73 JT73.J72.T75.A95 AKQ.AT.AJ4.QT862"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{You are East. The bidding has been as shown. Partner led the \H5, you put on the \HJ, South won with the \HA. The second trick was \DA, \D2, \D3, \D5. The third trick was \DJ, \D6, \D8, \D7. South then put the \CQ on the table.
+
+When you have made your choice  
+
+Does it look to you like South is trying to create an entry to dummy so he can cash the 2 \D winners? That's what he wants it to look like, hoping someone holds up their \CA.
+
+But don't believe Declarer, believe your partner. On the first \D West played the \D2. On the second \D he played the \D6. He has an odd number of \Ds, obviously 3. And South must also have a third one, so he is up to some trickery with that \CQ.
+
+So grab your \CA and return partner's \H suit. }
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 18, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "E"]
+[Auction "S"]
+2NT Pass 3NT Pass
+Pass Pass
+[Play "W"]
+H5
+
+[Event ""]
+{Baker Signals 19}
+[Site ""]
+[Date ""]
+[Board "19"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:75.9742.862.7652 K9864.A6.QJ3.AK9 T3.KQ85.9754.Q84 AQJ2.JT3.AKT.JT3"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "6S"]
+[Result ""]
+{You are West. The bidding has been as shown. The 2\H bid was a transfer. The 5NT bid meant to choose either 6\S or 6NT. North liked the suit. Partner led the \S5, won by North's \SQ. North pulls one more trump with his \SA, then wins three high \Ds. Next comes dummy's \HA on which he plays the \H3 and East plays the \H9. Then he leads dummy's \H6 which you win with the \HQ. On this trick North drops the \HJ and East the \H2. It is your play.
+
+When you have made your choice  
+
+If you believe North is now out of \Hs then you shoud not play your \HK because it would give him a ruff-sluff.
+
+But you shouldn't believe North when your partner has sent you a clear signal that he holds an EVEN number of \Hs. In this case an even number must be 4 which means that North has one more \H. So you play your \HK. He ruffs in dummy of course, but then has no way to get rid of that \C loser when the finesse fails.
+
+If you had not been paying attention to East's signal you might have decided to risk a \C lead - with a disastrous result.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 19, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "E"]
+[Auction "N"]
+1NT Pass 2H Pass
+2S Pass 5NT Pass
+6S Pass Pass Pass
+[Play "E"]
+S5
+
+[Event ""]
+{Baker Signals 20}
+[Site ""]
+[Date ""]
+[Board "20"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:AQT.92.852.AKT63 64.AJ8.AQJ6.8754 98752.T5.9743.Q2 KJ3.KQ7643.KT.J9"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{You are West. The bidding has been as shown. You led the \CA, East played the \C2 and South the \C9. What should you play to the second trick?
+
+When you have made your choice  
+
+On first thought East's \C2 seems to be a discouraging signal. Think again.
+
+After the first trick you know the location of every \C except the \CQ and \CJ. If East started with \C J 2 he would have signaled with the \CJ. If East started with \C Q J 2 he would have signaled with the \CQ. Since he did neither he started either with singleton \C 2 or with \C Q 2. In either case you should play a low \C now which he will either win with his \CQ or he will ruff.
+
+It turns out that he wins with the \CQ, then leads a \S back to your \S A Q.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 20, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "W"]
+[Auction "W"]
+1C Pass Pass 1H
+Pass 2C Pass 4H
+Pass Pass Pass
+[Play "W"]
+CA

@@ -1,0 +1,228 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:05:30 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",10,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker 100Deals 89}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:AJT84.43.T74.KT3 63.AJT.A63.A9842 K952.9.KQJ9.QJ75 Q7.KQ87652.852.6"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4H"]
+[Result ""]
+{You are South and it is your bid. Decide what you would say, then  on BID. 
+
+Responding to preempts is easy. You don't count points, you just count tricks. Assume partner for 6 tricks and add yours to see how high to go (or not go).
+
+Here, with three Aces and a possible \S ruff you raise to game.
+
+North would play 4\H.
+
+South plays 4\H. East leads the \DK.
+
+Win the \DA, play \CA and ruff the \C2 with a high trump. Play a \H to the \HT and ruff the \C4 with a high trump. Play a \H to the \HJ and ruff the \C8 with a high trump. Play a \H to the \HA and discard a loser on the good \C9.
+
+Fortunately that occurs a high percentage of the time. In any case, there was no other hope.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+3H Pass 4H Pass
+Pass Pass
+[Play "E"]
+DK
+
+[Event ""]
+{Baker 100Deals 90}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:A42.T953.742.543 K86.A84.AQ8.QJT7 Q973.J72.965.862 JT5.KQ6.KJT3.AK9"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6NT"]
+[Result ""]
+{You are North and it is your bid. Decide what you would say, then  on BID. 
+
+You have 16 points - a pretty solid 16 in fact. Partner has 15, 16 or 17, so together you have 31, 32 or 33. You want to invite partner to bid 6NT if he has 17, but to decline if he has 15. The correct bid for this invitation is 4NT. It is called a "quantitative" 4NT since it is just an invitational raise. It is NOT Blackwood - if you wanted to ask for Aces you would use Gerber.
+
+Partner bids the slam.
+
+South would play 6NT.
+
+North plays 6NT. East leads the \S3.
+
+Winner count: \S 0 : \H 3 : \D 4 : \C 4 : Total = 11
+
+It's pretty clear which suit you have to worry about! Your goal is simple, you must win one \S trick before you lose two. So the crux of your problem is: Who holds the \SA and \SQ?
+
+If East has both of them you are guaranteed to win the first trick no matter what you play.
+
+If West has both of them you are going to lose the first two tricks no matter what you play.
+
+The problem is to decide what to do if they are split. The answer relies on psychology, not on probability. East has made an attacking lead. But if you were East would you start out leading a low \S from a suit like \S A 9 7 3? That would be incredibly foolhardy, you would probably lead a different suit and save your \SA for catching something high from declarer. On the other hand you would be quite likely to lead a small card from \S Q 9 7 3. 
+
+Your PLAN should be to play low in dummy and win your \ST if West withholds the \SA.
+
+Since East is unlikely to underlead an Ace against 6NT you play West for the \SA. }
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT Pass 4NT Pass
+6NT Pass Pass Pass
+[Play "W"]
+S3
+
+[Event ""]
+{Baker 100Deals 91}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:K973.832.J4.QJT4 QJ5.K54.T973.862 T862.9.KQ86.K753 A4.AQJT76.A52.A9"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4H"]
+[Result ""]
+{You are North and it is your bid. Decide what you would say, then  on BID. 
+
+You are very close to the 22 points needed to open 2\C.
+
+Of course close only counts in horse-shoes and hand grenades. So you open 1\H.
+
+Partner responds 2\H. What do you say? 
+
+This is a no-brainer. With partner showing 6-10 points you have plenty enough for game.
+
+So you bid 4\H.
+
+North plays 4\H. East leads the \CQ.
+
+Losers: \S 1 : \H 0 : \D 2 : \C 1 : Total = 4
+
+Well, you are SUPPOSED to have plenty of points for game. So why isn't it laydown? Answer: Because South has \S Q J instead of \SK. If he had \SK it would be a laydown.
+
+So all you have to do is turn the \S Q J into the equivalent of the \SK. It's easy. 
+
+Win the \CA. Take two rounds of trumps with the \HA Q. West shows out on the second trump lead. Play the \SA, then the \S4. East will win the \SK and the defense will take their \C trick. Then they must give you the lead and you play a \H to dummy's \HK, pulling East's final trump. Play the good \SQ, discarding one of your \D losers.
+
+With the \S Q J instead you just have to take care with entries. (Make that entry, singular.)}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1H Pass 2H Pass
+4H Pass Pass Pass
+[Play "E"]
+CQ
+
+[Event ""]
+{Baker 100Deals 92}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:5.KT4.J942.JT932 KQJ2.853.K7.A874 864.AJ92.QT3.K65 AT973.Q76.A865.Q"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{You are South and it is your bid. Decide what you would say, then  on BID. 
+
+You have a real bare-bones 13 points. No matter, you don't pass with 13. So you open 1\S.
+
+Partner responds 2\C. What do you bid next? 
+
+You have two choices - bid 2NT or bid 2\D. Neither is showing any extra strength so partner shouldn't go crazy. Not liking that singleton you say 2\D.
+
+Partner goes crazy and bids 4\S.
+
+South plays 4\S. West leads the \CJ.
+
+Losers: \S 0 : \H 3 : \D 2 : \C 0 : Total = 5
+
+You may think you're lucky they didn't take their \H tricks, but the truth is that they will probably get them anyway. If trumps split 2-2 then you can easily ruff both \D losers in dummy. Or, you could ruff three \C losers in your hand, it would work out the same.
+
+The first key is to go up with the \CA. you cannot afford to lose a \C now with those three \H losers staring you in the face.
+
+Next play the \SK and \SA, but West shows out on the second one. Don't pull a third one. You need to make those last five trumps separately. Take your two high \Ds, then start cross-ruffing \Cs and \Ds. You will lose the final three \Hs.
+
+And with any cross-ruff it is best to pull as many trumps as you can spare before you start ruffing. Leave yourself just the number of trumps you need.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1S Pass 2C Pass
+2D Pass 4S Pass
+Pass Pass
+[Play "W"]
+CJ

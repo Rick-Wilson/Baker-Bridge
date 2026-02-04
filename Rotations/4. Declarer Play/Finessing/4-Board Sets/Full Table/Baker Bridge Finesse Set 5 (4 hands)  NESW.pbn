@@ -1,0 +1,133 @@
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "1"]
+{Baker Finesse 17}
+[Dealer "S"]
+[Declarer "N"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:A75.AJ3.A86.T963 KJ84.T942.QJT5.5 Q3.KQ5.K942.QJ74 T962.876.73.AK82"]
+[Auction "S"]
+1C pass 2NT pass 3NT pass pass pass
+[Result ""]
+{North is to play 3NT. East leads the \CA, then \CK, \C2. West follows once, then discards a \S and a \H.
+
+West follows once, then discards a \S and a \H.
+
+Winners:   \S=1  \H=3  \D=2  \C=2  Total = 8
+
+There are two possibilities for getting an extra winner. If the \Ds are splitting 3-3 you could play \DA, \DK and another \D and establish the thirteenth \D as a winner. Or you could play West for the \SK and lead toward your \SQ.
+
+The chance of West holding the \SK is a little greater than 50%. (it is higher than the usual 50% because we know he started with only one \C, giving him more spaces for other cards).
+
+The chance of \Ds splitting 3-3 is about 40%.
+
+So you should enter dummy with a \H and play a small \S toward your \SQ.
+
+Did it work?  to see. 
+
+The problem is that you might run into this very distribution. You would establish a \D for West and when you played a \S from dummy West would jump up with the \SK and cash his winning \D for down 1.}
+[BCFlags "1f"]
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]CA
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "2"]
+{Baker Finesse 18}
+[Dealer "S"]
+[Declarer "E"]
+[Contract "3NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:KJ3.Q73.KQJ95.84 942.A85.763.AK65 T876.T642.82.T73 AQ5.KJ9.AT4.QJ92"]
+[Auction "S"]
+1D pass pass 1NT pass 3NT pass pass pass
+[Result ""]
+{East is to play 3NT. South leads the \DK.
+
+Winners:   \S=1  \H=2  \D=1  \C=4  Total = 8
+
+You only need one more winner. If North has the \SK or the \HQ a simple finesse will give you the trick.
+
+There are two problems though. The first one is that if South gets in he may take too many \D tricks. But the bigger problem is that North cannot possibly have either of those two high cards. You and dummy together hold 28 HCP and South must surely hold the other 12 since he opened the bidding. Neither simple finesse will work so you must try what is called a Backward Finesse.
+
+Hold up the \DA until the third round to confirm that North has only 2. He does. Then play four rounds of \Cs ending in your hand.
+
+Now play the \HJ. If South doesn't cover, you will let it ride for your ninth trick. But South does cover so you must take dummy's \HA. Next play a small \H from dummy and finesse the \H9, hoping North has the \HT. This is the Backward Finesse.
+
+for the complete Deal to see if it worked. 
+
+Like this time.
+
+By the way. Those of you with great short-term memories might think they have seen this hand before. Well, you ALMOST have. Deal 8 has an almost identical layout but a much simpler theme. Check it out.}
+[BCFlags "1f"]
+[RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+[Play "W"]DK
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "3"]
+{Baker Finesse 19}
+[Dealer "E"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:Q8.QJ942.95.J972 A76.K75.KJ63.AQ3 KJ953.T6.Q84.T85 T42.A83.AT72.K64"]
+[Auction "E"]
+pass 1NT pass 3NT pass pass pass
+[Result ""]
+{South is to play 3NT. West leads the \S5, East plays the \SQ.
+
+Winners:   \S=1  \H=2  \D=2  \C=3  Total = 8
+
+Before worrying about where that one winner is going to come from you need to decide what to do with the opening lead. A good guideline is to hold up unless you fear a switch. Here, with all other suits well protected you would welcome a switch, so you let East win the \SQ. East then plays the \S8. Do you hold up again?
+
+It probably doesn't matter, but since you cannot possibly win more than T tricks you might just as well hold up again. West wins the \SJ then plays the \S3. East discards a \H on the third \S.
+
+OK, now it is time to figure out where that extra trick is coming from. Not much figuring is needed, it must come from the \D suit. Since you are missing 5 cards including the Queen, the odds favor a finesse over playing for the drop. And, since you have the option of finessing either defender are you going to finesse into the one who can set you or into the safe one?
+
+Silly question. Of course you play the \DK from your hand, then a small \D finessing dummy's \DT, which wins the trick - and the game - and the overtrick.
+
+But in a situation like this you don't play odds. By finessing West you guaranteed making the contract even if the finesse lost because East had no more \Ss. Even a losing \D finesse would have established the one trick you needed.}
+[BCFlags "1f"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]S5
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "4"]
+{Baker Finesse 20}
+[Dealer "E"]
+[Declarer "W"]
+[Contract "6S"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "E:AQJ9.65.AKQ.AQJ5 T842.K9742.853.6 K753.A8.JT6.T943 6.QJT3.9742.K872"]
+[Auction "E"]
+2C pass 2NT pass 3C pass 3S pass 4NT pass 5D pass 6S pass pass pass
+[Result ""]
+{West is to play 6\S after East's Stayman bid. North leads the \HQ.
+
+Losers:   \S=0  \H=1  \D=0  \C=1  Total = 2
+
+This looks like a very simple plan. Since the hands have mirrored distribution there will be no discards anywhere. That means the \CK MUST be in North's hand or you will go down. But is that all there is to it?
+
+If North has \C K x or \C K x x then yes, that's all there is to it. But if he has \C K x x x then you won't have enough entries to your hand unless you take the first \C finesse BEFORE you start on trumps.
+
+So win the \HA and immediately play a \C to dummy's \CJ, which holds the trick. Then pull trumps, (it takes 4 rounds), ending in your hand.
+
+Next play your \CT, putting on the \C5 from dummy when North plays low again. This lets you stay in your hand to play another \C to the \CQ, picking up all four \C tricks and the slam.
+
+But also you had to play to one of dummy's honors first so you could retain that \C5 for letting you stay in your hand to make the third finesse. Bridge is great.}
+[BCFlags "1f"]
+[RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
+[Play "W"]HQ
+

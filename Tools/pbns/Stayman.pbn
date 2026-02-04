@@ -1,0 +1,658 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%Creator: CSVtoPBN Version 1.00
+%Created: 2026-01-23 13:57:51
+%sourcefilename BakerBridgeFull.csv
+%HRTitleEvent Stayman
+[Board "1"]
+[Event ""]
+{Baker Stayman 1}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "1NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:J753.AT32.J4.KT9 KT82.74.AK63.AJ7 Q96.Q65.Q95.Q432 A4.KJ98.T872.865"]
+[Auction "N"]
+1NT pass pass pass
+[Result ""]
+{North opens 1NT. What do you respond? [BID pass]
+
+
+
+If partner has a 4-card \H suit to match yours you could revalue your hand and add a point for your doubleton \S. That would give you the 9 points you need for an invitational response.
+
+It is far too risky to play for that possibility. So you just pass.}
+[BCFlags "1f"]
+
+
+[Board "2"]
+[Event ""]
+{Baker Stayman 2}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:T863.Q742.K5.A97 KQJ5.T63.AQ9.KQT 972.K5.J643.J432 A4.AJ98.T872.865"]
+[Auction "N"]
+1NT pass 2C pass 2S pass 2NT pass 3NT pass pass pass
+[Result ""]
+{North opens 1NT. What do you respond? [BID 2\C]
+
+
+
+You have 9 points and a 4-card Major. Just enough for an invitational Stayman sequence. You bid 2\C and partner answers 2\S. What do you bid next? [BID 2NT]
+
+
+
+Partner has the wrong Major. Now that you know there is no 8-card Major fit you must go to notrump. And since you don't have the strength to insist on game you say 2NT which is an invitation for partner to bid 3NT if he has a maximum.
+
+He has a maximum and he bids 3NT.}
+[BCFlags "1f"]
+
+
+[Board "3"]
+[Event ""]
+{Baker Stayman 3}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:54.QJT3.Q432.K52 A983.AK5.A95.J94 J72.872.76.AQT86 KQT6.964.KJT8.73"]
+[Auction "N"]
+1NT pass 2C pass 2S pass 4S pass pass pass
+[Result ""]
+{North opens 1NT. What do you respond? [BID 2\C]
+
+
+
+Of course you bid 2\C. Partner now bids 2\S. What is your next bid? [BID 4\S]
+
+
+
+Partner hit your suit. When you add a point for your doubleton \C you are up to 10 points. This is the situation where you have to use your judgement, either to invite or to bid the game yourself.
+
+There is really no right or wrong here, between 3\S and 4\S. Those extra T's and 9's swing you to 4\S. As you see it will be a close call, but even if you misguess the \D finesse you will still establish a \D winner for a discard.}
+[BCFlags "1f"]
+
+
+[Board "4"]
+[Event ""]
+{Baker Stayman 4}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:Q8.8643.K94.T952 965.A9.AQT5.KQ86 K732.T72.J72.A43 AJT4.KQJ5.863.J7"]
+[Auction "N"]
+1NT pass 2C pass 2D pass 3NT pass pass pass
+[Result ""]
+{North opens 1NT. What do you respond? [BID 2\C]
+
+
+
+Both Majors! Lucky you. So you bid a Stayman 2\C. Unfortunately partner comes back with 2\D. What is your next bid? [BID 3NT]
+
+
+
+Partner doesn't have a 4-card Major so your side doesn't have an 8-card Major fit. Therefore you will play in notrump. And with your 12 points you MUST play in game. So you bid 3NT.}
+[BCFlags "1f"]
+
+
+[Board "5"]
+[Event ""]
+{Baker Stayman 5}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:A5.T97.JT653.QJ6 T982.KQ6.A94.AK5 764.8432.KQ8.T72 KQJ3.AJ5.72.9843"]
+[Auction "N"]
+1NT pass 2C pass 2S pass 4S pass pass pass
+[Result ""]
+{North opens 1NT. What do you respond? [BID 2\C]
+
+
+
+With 11 points and a 4-card Major suit you bid 2\C. Partner answers 2\S. What is your next bid? [BID 4\S]
+
+
+
+Stayman bidding can be very straightforward. Partner has 4 \Ss, you have 4 \Ss. That makes 8. Partner has 15-17 points, you have 11-12 points. That makes 26-29.
+
+You bid 4\S.}
+[BCFlags "1f"]
+
+
+[Board "6"]
+[Event ""]
+{Baker Stayman 6}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "6NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:J83.A864.T852.54 KQ5.Q95.KQ94.A62 762.32.763.JT987 AT94.KJT7.AJ.KQ3"]
+[Auction "N"]
+1NT pass 2C pass 2D pass 6NT pass pass pass
+[Result ""]
+{North opens 1NT. What do you respond? [BID 2\C]
+
+
+
+You have a very big hand. Enormous. But you also have two 4-card Majors, so the first step is Stayman. You bid 2\C and partner replies 2\D. What do you bid next? [BID 6NT]
+
+
+
+You have 18 points and partner has 15, 16 or 17. Your total is between 33 and 35. You have enough POINTS for a small slam, not enough for a grand. You have no Major suit fit, and are happy to play notrump.
+
+There is a lot to be said for bidding 6NT immediately. You could ask for Aces if you like but whether partner shows one or two isn't going to change your decision. Be bold.}
+[BCFlags "1f"]
+
+
+[Board "7"]
+[Event ""]
+{Baker Stayman 7}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:KJ8.864.76542.32 QT9.AQJ3.AT8.QJ6 A76532.52.9.T974 4.KT97.KQJ3.AK85"]
+[Auction "N"]
+1NT pass 2C pass 2H pass 4NT pass 5H pass 6H pass pass pass
+[Result ""]
+{North opens 1NT. What do you respond? [BID 2\C]
+
+
+
+You have another big hand. And with a 4-card Major you start with 2\C. Partner answers 2\H and it's your turn again. [BID 4NT]
+
+
+
+What with your singleton \S you certainly have enough points for slam. But since it's possible partner has only one Ace you check with Blackwood. Partner says 5\H and you say . . . What? [BID 6\H]
+
+
+
+Missing one Ace you bid 6\H.}
+[BCFlags "1f"]
+
+
+[Board "8"]
+[Event ""]
+{Baker Stayman 8}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:T.A842.Q982.J542 95.KQ95.AK63.KQ8 J8763.3.JT4.AT76 AKQ42.JT76.75.93"]
+[Auction "N"]
+1NT pass 2C pass 2H pass 4H pass pass pass
+[Result ""]
+{North opens 1NT. What do you respond? [BID 2\C]
+
+
+
+This may go against your instincts, but if you're going to play Stayman then you should follow the rules. Granted that you have a great \S suit, you also have 4 \Hs. And when you have a 4-card Major you use Stayman. You bid 2\C and partner says 2\H. What do you bid now? [BID 4\H]
+
+
+
+That is why you used Stayman - to uncover a 4-4 Major suit fit. Having done so you know that you will play in \Hs and you have enough points to bid game. You bid 4\H.}
+[BCFlags "1f"]
+
+
+[Board "9"]
+[Event ""]
+{Baker Stayman 9}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:J9.A83.JT93.Q842 T86.KQ5.A864.AKT 753.942.KQ2.J765 AKQ42.JT76.75.93"]
+[Auction "N"]
+1NT pass 2C pass 2D pass 3S pass 4S pass pass pass
+[Result ""]
+{North opens 1NT. What do you respond? [BID 2\C]
+
+
+
+Yes, this is the same hand as Deal 8. Again you bid 2\CThis time partner says 2\D. What do you bid now? [BID 3\S]
+
+
+
+You need to describe your hand clearly to partner with this bid. You want to show a game-forcing hand (11 points or more) with 4 \Hs and 5 \Ss. You do that by now jumping to 3\S.
+
+If partner had just 2 \Ss he would have bid 3NT. Since he has 3 \Ss he bids 4\S.}
+[BCFlags "1f"]
+
+
+[Board "10"]
+[Event ""]
+{Baker Stayman 10}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:86.742.AJ9.KJT62 AQJ9.KJ.Q764.Q53 753.85.KT8532.A9 KT42.AQT963..874"]
+[Auction "N"]
+1NT pass 2C pass 2S pass 4S pass pass pass
+[Result ""]
+{ [BID 2\C]
+
+Even when you hold a 6-card Major, if you have 4 cards in the other Major you use Stayman. Partner answers 2\S. What do you bid? [BID 4\S]
+
+You've found an 8-card Major fit and you know there are enough points for game. So you bid 4\S.
+
+Yes, but you already knew you had an 8-card \H fit since partner's 1NT promised at least 2 \Hs. In fact, you could play game in either Major. However, it is often better to play in a 4-4 fit rather than a 5-3 or 6-2. This hand shows why. Played in \Hs you will make exactly T tricks with any opening lead. Played in \Ss you will again make T tricks when the defenders start with their 3 \C winners. If they start with anything else you are very likely to make 1 or 2 overtricks by discarding dummy losers on your \H suit.}
+[BCFlags "1f"]
+
+
+[Board "11"]
+[Event ""]
+{Baker Stayman 11}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:8765.85.A952.AJ9 AQJ.KJ.Q764.Q653 93.742.KJT83.KT2 KT42.AQT963..874"]
+[Auction "N"]
+1NT pass 2C pass 2D pass 4H pass pass pass
+[Result ""]
+{This is the follow-up to Deal T. North opens 1NT. What do you respond? [BID 2\C]
+
+
+
+Just like the previous deal with a 4-card Major you use Stayman. This time partner says 2\D. Your turn again. [BID 4\H]
+
+
+
+With partner showing no 4-card Major the bidding takes a turn. With your 6 \Hs you are sure of an 8-card fit in the suit. With 11 points you must be sure of reaching game. So you bid 4\H.
+
+In this case the strong hand does not become declarer, but the contract is the right one anyway.}
+[BCFlags "1f"]
+
+
+[Board "12"]
+[Event ""]
+{Baker Stayman 12}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "2NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:AJ5.JT6.K82.J963 83.KQ74.7643.A82 Q976.9852.AT.T54 KT42.A3.QJ95.KQ7"]
+[Auction "S"]
+1NT pass 2C pass 2S pass 2NT pass pass pass
+[Result ""]
+{You open 1NT and partner responds 2\C. What do you bid? [BID 2\S]
+
+
+
+Partner has commanded you to bid a 4-card Major if you have one. You have one, so you bid 2\S. Partner now says 2NT. What do you bid? [BID pass]
+
+
+
+Partner evidently has 4 \Hs. He also evidently has about 9 points since he is INVITING you to bid 3NT. With your minimum 15 points you decline the invitation by passing.}
+[BCFlags "1f"]
+
+
+[Board "13"]
+[Event ""]
+{Baker Stayman 13}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:A764.7542.A74.T5 JT83.JT86.KT.A84 95.KQ.8632.J9632 KQ2.A93.QJ95.KQ7"]
+[Auction "S"]
+1NT pass 2C pass 2D pass 2NT pass 3NT pass pass pass
+[Result ""]
+{You open 1NT and partner responds 2\C. What do you bid? [BID 2\D]
+
+
+
+With no 4-card Major you reply 2\D. What do you bid after partner next says 2NT? [BID 3NT]
+
+
+
+Partner seems to have about 9 points and is inviting you to say 3NT. Since you have a maximum 17 point hand you accept the invitation.}
+[BCFlags "1f"]
+
+
+[Board "14"]
+[Event ""]
+{Baker Stayman 14}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:A3.KJT4.T874.984 KT85.9852.A93.Q5 J94.A7.652.KT632 Q762.Q63.KQJ.AJ7"]
+[Auction "S"]
+1NT pass 2C pass 2S pass 3S pass pass pass
+[Result ""]
+{You open 1NT and partner responds 2\C. What do you bid? [BID 2\S]
+
+
+
+You bid 2\S. Partner next says 3\S. What do you say now? [BID pass]
+
+
+
+Considering the bidding you have done so far you couldn't have a worse hand. With 4-3-3-3 distribution and a bare 15 points you most certainly don't want to accept any invitation from partner. So you pass. As you see, 9 tricks are not going to come easily.}
+[BCFlags "1f"]
+
+
+[Board "15"]
+[Event ""]
+{Baker Stayman 15}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:K5.Q64.97632.852 QT93.K873.A5.764 A874.J2.T8.KJT93 J62.AT95.KQJ4.AQ"]
+[Auction "S"]
+1NT pass 2C pass 2H pass 3H pass 4H pass pass pass
+[Result ""]
+{You open 1NT and partner responds 2\C. What do you bid? [BID 2\H]
+
+
+
+You respond 2\H. Partner now says 3\H. What do you bid? [BID 4\H]
+
+
+
+Partner has told you he has 4 \Hs and approximately 9 points. Add that to your 4 \Hs and 17 points and the total equals a game bid in \Hs. So you say 4\H.}
+[BCFlags "1f"]
+
+
+[Board "16"]
+[Event ""]
+{Baker Stayman 16}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:8732.QJ7.K2.J762 AT96.63.QT84.K83 5.K842.A965.T954 KQJ4.AT95.J73.AQ"]
+[Auction "S"]
+1NT pass 2C pass 2H pass 2NT pass 4S pass pass pass
+[Result ""]
+{You open 1NT and partner responds 2\C. What do you bid? [BID 2\H]
+
+
+
+When you have 4 cards in both Majors you respond 2\H. Partner bids 2NT. What is your next bid? [BID 4\S]
+
+
+
+Partner would never bid Stayman without a 4-card Major. Since he did not like your \H bid it is clear that his 4-card Major must be \Ss. His 2NT bid was an invitation for you to bid 3NT, which means he has about 9 points. Knowing that partner has 9 points and 4 \Ss, your call is clear : 4\S.}
+[BCFlags "1f"]
+
+
+[Board "17"]
+[Event ""]
+{Baker Stayman 17}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:983.J532.A42.653 AQ52.KQT96.T9.97 T76.74.K865.KJ42 KJ4.A8.QJ73.AQT8"]
+[Auction "S"]
+1NT pass 2C pass 2D pass 2H pass 3NT pass pass pass
+[Result ""]
+{You open 1NT and partner responds 2\C. What do you bid? [BID 2\D]
+
+
+
+You do not have a 4-card Major. So your correct response is 2\D. Partner bids 2\H. What do you bid now? [BID 3NT]
+
+
+
+Partner has described a hand with 4 \Ss and 5 \Hs. You don't know his strength but it must be at least 9 points. You know that you have just a 7-card fit in both Majors, and since you have a full 17 points you bid 3NT.}
+[BCFlags "1f"]
+
+
+[Board "18"]
+[Event ""]
+{Baker Stayman 18}
+[Dealer "S"]
+[Declarer "N"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:JT984.A82.864.72 Q2.K9753.Q73.QT6 A653.64.JT2.A853 K7.QJT.AK95.KJ94"]
+[Auction "S"]
+1NT pass 2C pass 2D pass 2H pass 4H pass pass pass
+[Result ""]
+{You open 1NT and partner responds 2\C. What do you bid? [BID 2\D]
+
+
+
+Your 2\D response tells partner you have no 4-card Major suit. Then he bids 2\H. What do you say next? [BID 4\H]
+
+
+
+Partner knows you do not have 4 \Hs, but he bid the suit anyway. He must have 5 of them and he must also have 4 \Ss (since he used Stayman). But it's the \Hs you are interested in. Partner has 5 and you have 3. So you know of an 8-card Major suit fit. And you also know you have a maximum 1NT opening. So you say 4\H.}
+[BCFlags "1f"]
+
+
+[Board "19"]
+[Event ""]
+{Baker Stayman 19}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:T94.A8.T95.K9432 QJ763.KT73.42.Q5 852.6542.AJ76.86 AK.QJ9.KQ83.AJT7"]
+[Auction "S"]
+2NT pass 3C pass 3D pass 3S pass 3NT pass pass pass
+[Result ""]
+{With a balanced 20 points you open 2NT and partner responds 3\C. What do you bid? [BID 3\D]
+
+
+
+Stayman applies after a 2NT opening, just one level higher. With no 4-card Major you bid 3\D. Partner next bids 3\S. What do you bid? [BID 3NT]
+
+
+
+Partner is showing 5 \Ss and 4 \Hs. In neither case would you have the 8-card fit you need. So you bid 3NT.}
+[BCFlags "1f"]
+
+
+[Board "20"]
+[Event ""]
+{Baker Stayman 20}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:72.642.KT3.JT965 Q963.K5.Q875.742 A84.T873.642.A83 KJT5.AQJ9.AJ9.KQ"]
+[Auction "S"]
+2NT pass 3C pass 3H pass 3NT pass 4S pass pass pass
+[Result ""]
+{You open 2NT and partner responds 3\C. What do you bid? [BID 3\H]
+
+
+
+With 4 cards in each Major suit you bid 3\H. Partner puts you in 3NT. What do you do? Pass or bid? [BID 4\S]
+
+
+
+You certainly do not pass. Partner's Stayman bid tells you he has a 4-card Major suit. His 3NT bid tells you the suit was not \Hs. Elementary, Watson, the suit must be \Ss. So you convert the 3NT bid to 4\S.
+
+If you want to make yourself happy you use Stayman, just imagine playing 3NT after a \C lead!}
+[BCFlags "1f"]
+
+
+[Board "21"]
+[Event ""]
+{Baker Stayman 21}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "6S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:T73.865.QJT4.QT2 AJ85.KJ.AK8.KJ96 96.72.976532.A53 KQ42.AQT943..874"]
+[Auction "N"]
+2NT pass 3C pass 3S pass 6S pass pass pass
+[Result ""]
+{North opens 2NT. What do you respond? [BID 3\C]
+
+Wow! Start thinking slam, but first things first. Find the suit by starting with Stayman. You bid 3\C and partner replies 3\S. What do you say next? [BID 6\S]
+
+
+
+Your hand revalues to 16 points now that you know there's a \S fit. So certainly you want to be in slam as long as there are not two quick \C losers. At this point you might try something like a 4\D cue bid, hoping partner will read that as a slam try in \Ss, but denying the \C control. But that seems awfully easy to be misunderstood. We suggest an immediate 6\S.
+
+Good thing it's being played by North, right?}
+[BCFlags "1f"]
+
+
+[Board "22"]
+[Event ""]
+{Baker Stayman 22}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "2H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:JT5.QJ7.AKT4.J65 A83.AK64.Q52.Q87 K96.52.9.AKT9432 Q742.T983.J8763."]
+[Auction "N"]
+1NT pass 2C pass 2H pass pass pass
+[Result ""]
+{North opens 1NT. What do you respond? [BID 2\C]
+
+
+
+Your first thought should be that with only 4 points you will pass. But on second thought, what would partner respond if you bid a Stayman 2\C? So you give it a shot and partner says 2\H. What next? [BID pass]
+
+
+
+What's next is your PASS. And if he had bid 2\S you also would have passed. And if he had bid 2\D you also would have passed. You figured that with this hand any response partner could make would be a better place than 1NT.}
+[BCFlags "1f"]
+
+
+[Board "23"]
+[Event ""]
+{Baker Stayman 23}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:6.QJ832.K653.J93 AK73.A95.982.AQ2 T942.T7.AT4.7654 QJ85.K64.QJ7.KT8"]
+[Auction "N"]
+1NT pass 3NT pass pass pass
+[Result ""]
+{North opens 1NT. What do you respond? [BID 3NT]
+
+
+
+With 12 points and a 4-card \S suit this fits the model for Stayman.
+
+But thinking a little further, with this 4-3-3-3 distribution you have no ruffing values whatsoever. So even if partner also has 4 \Ss there might not be an advantage in playing the suit contract. So for this specific distribution you ignore your 4-card Major and just bid 3NT.}
+[BCFlags "1f"]
+
+
+[Board "24"]
+[Event ""]
+{Baker Stayman 24}
+[Dealer "E"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:3.98653.K862.632 AQT6.Q7.T95.K974 KJ7542.AT2.43.QJ 98.KJ4.AQJ7.AT85"]
+[Auction "E"]
+pass 1NT pass 2C 2S pass pass 3NT pass pass pass
+[Result ""]
+{After you open 1NT partner bids 2\C, then East says 2\S. What do you say next? [BID pass]
+
+
+
+Basically you said your say when you opened 1NT. You don't have a 4-card Major and you have a minimum hand. The best way to convey this information to partner is to pass. At which point partner jumps to 3NT. What do you say? [BID pass]
+
+
+
+Pass, then "Thank you partner" when dummy comes down. The thing to remember is that partner is in charge. You describe your hand as well as you can and then sit back and let him make the decisions. Perhaps you would have doubled if you held his hand but he didn't.}
+[BCFlags "1f"]
+
+
+[Board "25"]
+[Event ""]
+{Baker Stayman 25}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:963.9852.95.JT96 A8.KJ74.A72.KQ53 J754.6.KQJT84.A2 KQT2.AQT3.63.874"]
+[Auction "N"]
+1NT 2D 3D pass 3H pass 4H pass pass pass
+[Result ""]
+{North opens 1NT and East overcalls 2\D. What do you say? [BID 3\D]
+
+
+
+Dad-burned interfering opponents. You were going to bid a Stayman 2\C and now you can't. You also don't want to bid either Major with only 4 of them. And you certainly can't bid notrump with no \D stopper. Fortunately the overcall has opened a window of opportunity for you. So you cue-bid 3\D. Even if you and partner haven't discussed this it is pretty obvious that you don't really want to play in \Ds, so the most likely action for him is to bid a suit, and a Major suit would have priority. So really, the cue-bid achieves the same purpose as Stayman would have.
+
+Partner now bids 3\H. What do you say? [BID 4\H]
+
+
+
+Partner showed a 4-card \H suit. With your 4 that makes a fit. You have 12 revalued points so you bid 4\H.}
+[BCFlags "1f"]
+
+

@@ -1,0 +1,570 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%Creator: CSVtoPBN Version 1.00
+%Created: 2025-04-11 19:08:14
+%sourcefilename BakerBridgeFull.csv
+%HRTitleEvent Minor
+[Board "1"]
+[Event ""]
+{Baker Minor 1}
+[Dealer "S"]
+[Declarer "N"]
+[Contract "2H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:2.A7543.QT3.AT62 K73.QT62.J5.J874 QJT9865..AK64.93 A4.KJ98.9872.KQ5"]
+[Auction "S"]
+1D pass 1H pass 2H pass pass pass
+[Result ""]
+{You dealt this hand. Decide what you would say, then click BID above. [BID 1\D]
+
+
+
+With 13 points you will open. You cannot bid 1\H with only 4 of them, so you say 1\D. Partner responds 1\H and it is your bid again. [BID 2\H]
+
+
+
+Partner's response is forcing. He might have anywhere from 6 points to about 17. With a minimum opener and 4-card support for his Major suit you bid 2\H. Partner passes.}
+[BCFlags "1f"]
+
+
+[Board "2"]
+[Event ""]
+{Baker Minor 2}
+[Dealer "S"]
+[Declarer "N"]
+[Contract "1NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:T83.T53.AQ4.KJ54 762.Q96.J92.AQ96 K94.A872.876.T83 AQJ5.KJ4.KT53.72"]
+[Auction "S"]
+1D pass 1NT pass pass pass
+[Result ""]
+{You dealt this hand. What do you bid? [BID 1\D]
+
+
+
+You are not strong enough to open 1NT, but too strong to pass. You bid 1\D. Partner responds 1NT. What do you say next? [BID pass]
+
+
+
+You are not strong enough to open 1NT, but too strong to pass. You bid 1\D. Partner responds 1NT. What do you say next?
+
+With that small doubleton in \Cs it is very tempting to rescue partner from 1NT by bidding 2\S. There are three good reasons why you don't. First, bidding 1\D followed by 2\S is a REVERSE, which shows a strong hand, perhaps 16-17 points or more. Second, and even more important, partner's 1NT bid DENIES a 4-card Major suit. And third, partner probably has something in \Cs since he has no 4-card Major and also didn't feel like supporting your \Ds.
+
+So you pass and hope for the best.}
+[BCFlags "1f"]
+
+
+[Board "3"]
+[Event ""]
+{Baker Minor 3}
+[Dealer "S"]
+[Declarer "N"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:J82.93.AQJ42.J73 653.K872.873.KQ5 QT4.T64.KT96.T92 AK97.AQJ5.5.A864"]
+[Auction "S"]
+1C pass 1H pass 4H pass pass pass
+[Result ""]
+{You dealt this hand. What do you bid? [BID 1\C]
+
+
+
+The \H and \S suits look really good, but neither of them are 5 cards, so you open 1\C. Partner responds 1\H. What is your next bid? [BID 4\H]
+
+
+
+Partner's bid shows 6-10 points and at least 4 \Hs. Since you now know there is an 8-card Major suit fit you revalue your hand, adding 2 more points for the singleton \D.
+
+That gives you 20 points; add partner's 6-T and you have enough for game. She who knows, goes, so you bid 4\H.}
+[BCFlags "1f"]
+
+
+[Board "4"]
+[Event ""]
+{Baker Minor 4}
+[Dealer "S"]
+[Declarer "N"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:J3.KQJT.J653.K64 K8654.A86.742.95 Q2.9432.QT98.QJ7 AT97.75.AK.AT832"]
+[Auction "S"]
+1C pass 1S pass 3S pass 4S all pass
+[Result ""]
+{You dealt this hand. What do you bid? [BID 1\C]
+
+
+
+You have the right strength but the wrong distribution to open 1NT. So you bid 1\C. Partner responds 1\S. What do you say next? [BID 3\S]
+
+
+
+With partner's \S bid giving you a fit, your hand revalues to 18 points. If partner has only 6 or 7 points there is not enough for game, but if he has more than that then you should bid game.
+
+When you are in-between like this you just invite. So you jump to 3\S. This tells partner to bid game if he has more than the minimum for his bid. He has 9 revalued points, so he bids 4\S.}
+[BCFlags "1f"]
+
+
+[Board "5"]
+[Event ""]
+{Baker Minor 5}
+[Dealer "S"]
+[Declarer "N"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:9642.A8.J32.J843 Q73.KT3.KT4.AQT2 A5.7542.Q987.765 KJT8.QJ96.A65.K9"]
+[Auction "S"]
+1D pass 2NT pass 3NT pass pass pass
+[Result ""]
+{You dealt this hand. What do you bid? [BID 1\D]
+
+
+
+This is the one situation when you open a 3-card \D suit; two 4-card Majors, three \Ds and two \Cs, but not enough strength to open 1NT.
+
+Partner responds 2NT. What do you bid? [BID 3NT]
+
+
+
+Partner's bid shows 13-16 points, balanced. And most importantly, it denies holding a 4-card Major suit. So you do not consider bidding either your \Hs or \Ss, but just bid 3NT.}
+[BCFlags "1f"]
+
+
+[Board "6"]
+[Event ""]
+{Baker Minor 6}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3C"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:974.A93.KJ87.763 AJ3.J64.93.KT985 KQT52.KQ875.42.4 86.T2.AQT65.AQJ2"]
+[Auction "S"]
+1D pass 1NT pass 2C pass 3C pass pass pass
+[Result ""]
+{You dealt this hand. What do you bid? [BID 1\D]
+
+
+
+With a 5-card and a 4-card Minor you open the 5-card. Partner responds 1NT. What do you say now? [BID 2\C]
+
+
+
+With only 14 points a pass might be the best bid. But with doubletons in both Majors, knowing partner does not have 4 of either, you elect to bid 2\C. Partner now surprises you and bids 3\C. It's your bid. [BID pass]
+
+
+
+Partner evidently found some hidden treasure when he revalued! But you still have only 16 points at the most so you pass.}
+[BCFlags "1f"]
+
+
+[Board "7"]
+[Event ""]
+{Baker Minor 7}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "6C"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:82.832.KT743.965 J4.QJ4.AQ5.KT873 AT973.T65.J962.4 KQ65.AK97.8.AQJ2"]
+[Auction "S"]
+1C pass 3C pass 4NT pass 5D pass 6C pass pass pass
+[Result ""]
+{You dealt this hand. What do you bid? [BID 1\C]
+
+
+
+Nice hand! But not strong enough to open with anything other than 1\C. Partner jumps to 3\C! What do you bid? [BID 4NT]
+
+
+
+You might be tempted to mention one of your Majors at this point, but resist the temptation. Trust that your partner also knows the bidding priorities and that he would have bid a 4-card Major if he had held one. The problem with you now saying 3\H for example, is that partner would probably think you had a 5-card \H suit and support you with only 3 of them. You know that \Cs is your suit so stick to it.
+
+With partner showing 13-16 points, and your hand revaluing to 21 you are definitely thinking slam. It would not be terrible to just bid 6\C right now, but Blackwood was invented just for these situations, to make sure you are not missing 2 Aces when you bid a slam. So you bid 4NT. Partner answers with 5\D. What say you? [BID 6\C]
+
+
+
+Blackwood did its job. You are missing one Ace so all thoughts of a Grand are put aside. Bid 6\C.}
+[BCFlags "1f"]
+
+
+[Board "8"]
+[Event ""]
+{Baker Minor 8}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:72.K852.954.K864 AJ.Q73.KQT62.T92 K98643.T64.A.J73 QT5.AJ9.J873.AQ5"]
+[Auction "S"]
+1D pass 3D pass 3NT pass pass pass
+[Result ""]
+{You dealt this hand. What do you bid? [BID 1\D]
+
+
+
+This would be a perfect hand to open 1NT - well, it would be if it held one more point. But with only 14 you open your 4-card Minor, 1\D. Partner responds 3\D.
+
+What do you say now? [BID 3NT]
+
+
+
+Partner suggests that \Ds is your suit, and he may be right. But you would much rather play the less demanding Notrump game if he is willing. So you bid 3NT, knowing that if partner is really distributional he will take you back to \Ds. He doesn't, so you play 3NT.}
+[BCFlags "1f"]
+
+
+[Board "9"]
+[Event ""]
+{Baker Minor 9}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:9853.A9.Q542.Q42 Q742.KJ5.A83.T76 K6.86432.T97.J95 AJT.QT7.KJ6.AK83"]
+[Auction "S"]
+1C pass 1S pass 2NT pass 3NT pass pass pass
+[Result ""]
+{You dealt this hand. What do you bid? [BID 1\C]
+
+
+
+This would be an ideal hand to open 1NT - well, it would be with one less point. But with 18 you are too strong to open 1NT so you open 1\C. Partner responds 1\S. What do you bid next? [BID 2NT]
+
+
+
+DO NOT fall into the trap of supporting partner's \Ss just because you have such nice help for him. He might have a 4-card suit. Instead, just describe your hand by jumping to 2NT, showing a balanced hand with 18-19 points. Partner now bids 3NT and you play it there.}
+[BCFlags "1f"]
+
+
+[Board "10"]
+[Event ""]
+{Baker Minor 10}
+[Dealer "S"]
+[Declarer "N"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:83.962.AJT2.QJ65 KT9742.QJ5.3.743 A5.T843.K975.T92 QJ6.AK7.Q864.AK8"]
+[Auction "S"]
+1D pass 1S pass 2NT pass 3S pass 4S pass pass pass
+[Result ""]
+{You dealt this hand. What do you bid? [BID 1\D]
+
+
+
+You open 1\D and partner responds 1\S. What is your next bid? [BID 2NT]
+
+
+
+Do not support what may be a 4-card suit with only 3 cards. Instead, jump to 2NT, showing 18-19, balanced. Partner rebids the \Ss. What do you say next? [BID 4\S]
+
+
+
+Partner shows a minimum hand, but with 6 \Ss. 3NT is very tempting, and might work out fine, but with 9 \Ss it is probably better to play the suit game. So you bid 4\S and everybody passes.
+
+Bidding 4\S was a good choice. It makes easily, yet 3NT might have gone down.}
+[BCFlags "1f"]
+
+
+[Board "11"]
+[Event ""]
+{Baker Minor 11}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "2S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:852.AJT.K653.Q42 AK74.KQ96.J8.976 Q3.7432.AQT9.JT5 JT96.85.742.AK83"]
+[Auction "N"]
+1C pass 1S pass 2S pass pass
+[Result ""]
+{The bidding is shown. Decide what you would say, then click BID. [BID 1\S]
+
+
+
+You have plenty good support to raise partner's \C suit. But your first priority is to show a 4-card Major suit if you have one. You do, so you respond 1\S. Partner raises you to 2\S. What do you bid now? [BID pass]
+
+
+
+Are you tempted to take partner back to \Cs since you have such good support? Don't be. Partner has 4 \Ss, but he might have only 3 \Cs.
+
+Are you tempted to bid 3\S since partner raised you? Don't be. He showed a minimum hand with his single raise and you only have 9 points. Just pass.}
+[BCFlags "1f"]
+
+
+[Board "12"]
+[Event ""]
+{Baker Minor 12}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:82.T52.965.AK964 AK9.KQ83.QT42.T3 QJT543.74.J7.Q72 76.AJ96.AK83.J85"]
+[Auction "N"]
+1D pass 1H pass 2H pass 4H pass pass pass
+[Result ""]
+{The bidding is shown. Decide what you would say, then click BID. [BID 1\H]
+
+
+
+Some might jump to 2NT, "to show partner my point count". Some might jump to 3\D, "to force partner to game and show my \D support". The wise ones will just bid 1\H, striving to find an 8-card Major fit, the first priority of bidding.
+
+You choose the 1\H route, and partner obligingly says 2\H. What do you bid next? [BID 4\H]
+
+
+
+Remember "She who knows, goes"? You know of the 8-card Major fit. You know of at least 26 combined points. You know you should bid 4\H, so you do.}
+[BCFlags "1f"]
+
+
+[Board "13"]
+[Event ""]
+{Baker Minor 13}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:4.653.AQ543.9643 K963.A7.JT9.AJT7 A852.JT42.K8.852 QJT7.KQ98.762.KQ"]
+[Auction "N"]
+1C pass 1H pass 1S pass 4S pass pass pass
+[Result ""]
+{The bidding is shown. Decide what you would say, then click BID. [BID 1\H]
+
+
+
+When you have two 4-card suits to show you bid them "up-the-line". In this case it means you say 1\H. Partner replies 1\S. What do you bid? [BID 4\S]
+
+
+
+There are enough points for game and a known 8-card Major fit. So you bid 4\S.
+
+Perfect bidding isn't always rewarded. They can win three \D tricks and the Ace of trumps. If the opening lead is a \H or a \C you might make it, so it just depends on luck.}
+[BCFlags "1f"]
+
+
+[Board "14"]
+[Event ""]
+{Baker Minor 14}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:976.A4.J53.QJT87 KT4.J97.AK72.K53 Q832.Q8532.T4.42 AJ5.KT6.Q986.A96"]
+[Auction "N"]
+1D pass 2NT pass 3NT pass pass pass
+[Result ""]
+{The bidding is shown. Decide what you would say, then click BID. [BID 2NT]
+
+
+
+You have two very good choices, neither of which is really wrong. You could bid 2NT, showing 13-16 points, balanced, or you could bid 3\D, showing 13-16 points, good trump support.
+
+What should decide you is the bidding priorities. You'd much rather try to play a 9-trick game than an 11-trick game. And at the same time you must trust your partner not to leave you hung out in Notrump with an unsuitable hand. (Can you believe I wrote Notrump and unsuitable in the same sentence?)
+
+Anyway, you bid 2NT and partner raises to 3NT.}
+[BCFlags "1f"]
+
+
+[Board "15"]
+[Event ""]
+{Baker Minor 15}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:J65.93.T843.AT97 AK92.J5.K72.K832 Q74.A8742.J95.64 T83.KQT6.AQ6.QJ5"]
+[Auction "N"]
+1C pass 1H pass 1S pass 3NT pass pass pass
+[Result ""]
+{The bidding is shown. Decide what you would say, then click BID. [BID 1\H]
+
+
+
+With 14 points and a 4-3-3-3 distribution this could be the perfect hand for a jump to 2NT. But not when the 4-card suit is a Major - you should not skip bidding a Major when you have the opportunity.
+
+So you respond 1\H. Partner says 1\S. What do you bid? [BID 3NT]
+
+
+
+Partner doesn't have 4 \Hs so you go back to thinking this is an ideal notrump hand. So ideal that you apply the "She who knows, goes" principle and bid 3NT. Partner smiles and passes.}
+[BCFlags "1f"]
+
+
+[Board "16"]
+[Event ""]
+{Baker Minor 16}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:Q2.J752.A652.Q64 KT93.AT84.QT3.A9 J8654.Q63.8.K732 A7.K9.KJ974.JT85"]
+[Auction "N"]
+1D pass 3D pass 3NT pass pass pass
+[Result ""]
+{The bidding is shown. Decide what you would say, then click BID. [BID 3\D]
+
+
+
+You have great \D support and perhaps 15 points. The "perhaps" is because partner may have only 3 \Ds, and if you are the long-trump hand any ruffs you take will probably not increase the number of trump tricks your side makes. But still, you have a great hand.
+
+So you bid 3\D. Partner now says 3NT. What do you bid? [BID pass]
+
+
+
+You described your hand very well with your first bid. Partner heard the description and chose 3NT. Since you trust your partner you pass.}
+[BCFlags "1f"]
+
+
+[Board "17"]
+[Event ""]
+{Baker Minor 17}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "3S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:T72.AJT.K7642.43 AK63.K9.A83.Q975 Q4.86532.QJ9.AJT J985.Q74.T5.K862"]
+[Auction "N"]
+1C pass 1S pass 3S pass pass pass
+[Result ""]
+{The bidding is shown. Decide what you would say, then click BID. [BID 1\S]
+
+
+
+You must make a weak response, and in theory there are 3 weak responses you could make with this hand. You could bid 2\C, 1\S or 1NT. And while none of them would be actually incorrect the best choice is to show your 4-card Major.
+
+You bid 1\S. Partner jumps to 3\S. What do you say now? [BID pass]
+
+
+
+You started with just 6 points, and after discovering the \S fit you revalue all the way up to 7 points. Partner has shown 16-18 and that's still not enough for game. You pass.}
+[BCFlags "1f"]
+
+
+[Board "18"]
+[Event ""]
+{Baker Minor 18}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:T2.J52.8432.A954 A93.AT83.KQJ6.QJ KQJ765.64.97.K73 84.KQ97.AT5.T862"]
+[Auction "N"]
+1D pass 1H pass 3H pass 4H pass pass pass
+[Result ""]
+{The bidding is shown. Decide what you would say, then click BID. [BID 1\H]
+
+
+
+Your top priority as responder is to show a Major suit if you have one, so you say 1\H. Partner jumps to 3\H. What do you say? [BID 4\H]
+
+
+
+Partner knows you may have only 6 points and went to the 3-level anyway. He is inviting you to bid game if you have a bit more than the 6 you promised. You revalue up to T so you have quite a bit more. You accept his invitation and bid 4\H.}
+[BCFlags "1f"]
+
+
+[Board "19"]
+[Event ""]
+{Baker Minor 19}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "5S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:2.T832.A7532.543 QT86..KQJT.KQJT8 A74.QJ975.864.62 KJ953.AK64.9.A97"]
+[Auction "N"]
+1C pass 1S pass 3S pass 4NT pass 5C pass 5S pass pass pass
+[Result ""]
+{The bidding is shown. Decide what you would say, then click BID. [BID 1\S]
+
+
+
+You have a very big hand. But there is no need to start jumping before you know whether you have a fit. So just bid 1\S, partner cannot pass this bid.
+
+Partner now surprises you with a jump to 3\S!. What do you bid next? [BID 4NT]
+
+
+
+Wow! Partner has 16 and you have more than that. Slam appears certain, by why not check for Aces? So you bid 4NT and partner answers 5\C. What do you say next? [BID 5\S]
+
+
+
+You probably say "Oh Darn!" or perhaps something less printable. But then you just sign of at 5\S.}
+[BCFlags "1f"]
+
+
+[Board "20"]
+[Event ""]
+{Baker Minor 20}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "5D"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:Q873.T42.72.AT86 9.AK8.AJT64.KQJ2 AJ542.QJ963.8.53 KT6.75.KQ953.974"]
+[Auction "N"]
+1D pass 2D pass 4D pass 5D pass pass pass
+[Result ""]
+{The bidding is shown. Decide what you would say, then click BID. [BID 2\D]
+
+
+
+That is great support, but always remember when supporting a Minor that partner might have only 3 of them. So you bid 2\D. Partner jumps to 4\D. What do you bid? [BID 5\D]
+
+
+
+You were cautious with your first bid, but that is over now. Partner didn't open with a 3-card suit, he really has \Ds. He bypassed 3NT in a flash, so he has no interest in playing anywhere but a \D contract. He invites you to bid game if you have something extra above the 6 points you already promised. You have a lot more than that, so you bid 5\D.}
+[BCFlags "1f"]
+
+

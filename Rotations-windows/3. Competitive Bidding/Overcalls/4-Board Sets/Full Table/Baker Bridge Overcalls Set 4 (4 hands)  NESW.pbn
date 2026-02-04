@@ -1,0 +1,160 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:57:49 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Overcalls 13}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "E:A532.J9.AT4.KJ63 T7.KQ62.K85.8742 6.AT753.J972.AQT KQJ984.84.Q63.95"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "2S"]
+[Result ""]
+{The bidding has been as shown. It is your bid. 
+
+If you had been the dealer you would have opened 2\S. The situation is no different after they open so you Overcall 2\S. Everybody passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "W"]
+1H 2S Pass Pass
+Pass
+
+[Event ""]
+{Baker Overcalls 14}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:QT2.AT8.KQT97.J3 975.KQJ97.83.K52 4.6542.AJ42.A984 AKJ863.3.65.QT76"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "2S"]
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+You don't like to take partner out of his overcalled suit without good reason. Here you have good reason. So you bid 1\S. Partner replies 2\S. What do you say next? 
+
+You expect partner to have three trumps, but he has made a minimum bid. So you take the conservative route and pass.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+[Student "S"]
+[Auction "S"]
+1D 1H Pass 1S
+Pass 2S Pass Pass
+Pass
+
+[Event ""]
+{Baker Overcalls 15}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "E:42.T53.T954.K632 KQJ973.Q.A872.T4 A6.9762.QJ.AQJ87 T85.AKJ84.K63.95"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{The bidding has been as shown. It is your bid. 
+
+You have a nice easy decision here. You overcall 1\H. Then partner bids 1\S. What do you say next? 
+
+Whether you play a change of suit as forcing or not, your hand certainly qualifies as one where you should make a bid. Partner doesn't really like your \Hs but you are quite satisfied to play in \Ss. So you bid 2\S. Partner jumps to 4\S and that closes out the auction.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "W"]
+1C 1H Pass 1S
+Pass 2S Pass 4S
+ALL Pass
+
+[Event ""]
+{Baker Overcalls 16}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:A652.QJ2.Q832.K4 JT9.KT73.AJT.AQ5 74.94.K974.J9832 KQ83.A865.65.T76"]
+[Scoring ""]
+[Declarer "W"]
+[Contract "3H"]
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+You treat partner's 1NT Overcall the same as a 1NT Opening. You use Stayman and bid 2\C. Partner replies 2\H. What is your next bid? 
+
+You have 9 points, an invitational strength hand. You bid 3\H, inviting partner to go to game with a maximum. He declines your invitation.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 4, chOption: W, chBasis: N, basisKind:Declarer, nOption:3, nBasis: 0, nRot: 3, useStandardVul: true"]
+[Student "S"]
+[Auction "S"]
+1D 1NT Pass 2C
+Pass 2H Pass 3H
+Pass Pass Pass

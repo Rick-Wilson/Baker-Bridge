@@ -1,0 +1,115 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:04:36 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker ThirdHand 19}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:7.Q8732.854.KQ95 KT83.AJ94.AJ7.T7 A42.5.T963.A8643 QJ965.KT6.KQ2.J2"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4S"]
+[Result ""]
+{The bidding has been as shown. Partner led the \CK, dummy played the \C7 and it is your play.
+
+When you have made your choice  
+
+As soon as you see the opening lead and dummy you should start figuring out just how you can defeat the contract. Hopefully this plan came to your mind.
+
+From his lead, you know partner also holds the \CQ. Overtake the \CK. Play your singleton \H5. When North starts on trumps, win the first one with your \SA. Put partner back on lead with a small \C to his known \CQ.
+
+If you have a partner who pays attention he will now play a \H for you to ruff. Two \Cs, the Ace of trumps, and a \H ruff makes down 1.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Student "E"]
+[Auction "S"]
+1D Pass 1S Pass
+2S Pass 4S Pass
+Pass Pass
+[Play "E"]
+CK
+
+[Event ""]
+{Baker ThirdHand 20}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "S:JT98.73.KQT93.A9 Q74.AQJ5.862.KJ4 632.KT862.J4.873 AK5.94.A75.QT652"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "3NT"]
+[Result ""]
+{The bidding has been as shown. Partner led the \DK, dummy played low and it is your play.
+
+When you have made your choice  
+
+Put yourself in partner's shoes. He almost surely has \D K Q T x (x). When East holds up on his \DA, which he almost surely will, South may think he is holding up with \D A J x, and be afraid to continue the suit.
+
+You can help your partner figure out the true situation by merely playing your \DJ so he can see that East doesn't have it.
+
+With this good play South will be able to continue \Ds and defeat the contract.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+[Student "E"]
+[Auction "E"]
+1C Pass 1H Pass
+1NT Pass 3NT Pass
+Pass Pass
+[Play "S"]
+DK

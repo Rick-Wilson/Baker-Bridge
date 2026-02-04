@@ -1,0 +1,197 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:13:40 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Bidpractice/Set8 1}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:T3.KQ6.632.JT863 KQJ96.4.KQJ7.AKQ 752.JT952.A84.94 A84.A873.T95.752"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "6S"]
+[Result ""]
+{2NT shows a balanced hand with 8+ points, and when SOUTH then supports â™ s
+
+NORTH makes a slam try.
+
+NORTH bids RKC Blackwood 4NT. SOUTH shows two Keycards (two Aces) and NORTH bids 6â™ .}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+2C Pass 2NT Pass
+3S Pass 4S Pass
+4NT Pass 5H Pass
+6S Pass Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set8 2}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "S:T632.96.A82.JT85 KJ.QJ85.QT97.Q42 9854.A3.654.9763 AQ7.KT742.KJ3.AK"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "5H"]
+[Result ""]
+{WEST has a decent Limit Raise, and EAST tries RKC Blackwood.
+
+WEST replies to the 4NT bid with 5
+
+â™¦
+
+, zero or three Keycards.
+
+So which is it, zero or three?
+
+Pretty simple - since EAST holds three Keycards himself WEST can hardly have three also since there
+
+are only five total. She must have zero and EAST signs off at 5
+
+â™¥
+
+.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+[Student "S"]
+[Auction "E"]
+1H Pass 3H Pass
+4NT Pass 5D Pass
+5H Pass Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set8 3}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:95.A976.T932.J94 KT74.KQJ84.A6.A3 J.T32.J854.T8762 AQ8632.5.KQ7.KQ5"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6S"]
+[Result ""]
+{NORTH jumps to 4â™ , confident that SOUTH could make 10 tricks
+
+even if he just has 6 points.
+
+SOUTH knows he can make more and bids RKCB 4NT.
+
+NORTH's 5
+
+â™¦
+
+response shows zero or three Keycards.
+
+So which is it? Zero or three?
+
+NORTH bid much too strongly to have no Aces. SOUTH
+
+bids a confident 6â™ , knowing NORTH has either three Aces or two Aces plus the â™ K.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+1H Pass 1S Pass
+4S Pass 4NT Pass
+5D Pass 6S Pass
+Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set8 4}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:832.J6.QT32.A876 A75.QT83.A854.92 KQJT94.2.KJ97.54 6.AK9754.6.KQJT3"]
+[Scoring ""]
+[Declarer "W"]
+[Contract "6H"]
+[Result ""]
+{With eleven cards in the "round" suits WEST has a lot of playing strength. So when EAST bids
+
+a Limit Raise in
+
+â™¥
+
+s WEST wants to know about Aces.
+
+RKCBlackwood tells him that EAST has two Aces plus the trump Queen, so WEST can see that 6
+
+â™¥
+
+is practically a certainty.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
+[Student "S"]
+[Auction "W"]
+1H Pass 3H Pass
+4NT Pass 5S Pass
+6H Pass Pass Pass

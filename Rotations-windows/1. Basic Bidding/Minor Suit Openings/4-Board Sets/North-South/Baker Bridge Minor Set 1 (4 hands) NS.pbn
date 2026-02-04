@@ -1,0 +1,168 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:47:52 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Minor 1}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:2.A7543.QT3.AT62 K73.QT62.J5.J874 QJT9865..AK64.93 A4.KJ98.9872.KQ5"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "2H"]
+[Result ""]
+{You dealt this hand. Decide what you would say, then  BID above. 
+
+With 13 points you will open. You cannot bid 1\H with only 4 of them, so you say 1\D. Partner responds 1\H and it is your bid again. 
+
+Partner's response is forcing. He might have anywhere from 6 points to about 17. With a minimum opener and 4-card support for his Major suit you bid 2\H. Partner passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1D Pass 1H Pass
+2H Pass Pass Pass
+
+[Event ""]
+{Baker Minor 2}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:T83.T53.AQ4.KJ54 762.Q96.J92.AQ96 K94.A872.876.T83 AQJ5.KJ4.KT53.72"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "1NT"]
+[Result ""]
+{You dealt this hand. What do you bid? 
+
+You are not strong enough to open 1NT, but too strong to pass. You bid 1\D. Partner responds 1NT. What do you say next? 
+
+You are not strong enough to open 1NT, but too strong to pass. You bid 1\D. Partner responds 1NT. What do you say next?
+
+With that small doubleton in \Cs it is very tempting to rescue partner from 1NT by bidding 2\S. There are three good reasons why you don't. First, bidding 1\D followed by 2\S is a REVERSE, which shows a strong hand, perhaps 16-17 points or more. Second, and even more important, partner's 1NT bid DENIES a 4-card Major suit. And third, partner probably has something in \Cs since he has no 4-card Major and also didn't feel like supporting your \Ds.
+
+So you pass and hope for the best.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1D Pass 1NT Pass
+Pass Pass
+
+[Event ""]
+{Baker Minor 3}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:J82.93.AQJ42.J73 653.K872.873.KQ5 QT4.T64.KT96.T92 AK97.AQJ5.5.A864"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4H"]
+[Result ""]
+{You dealt this hand. What do you bid? 
+
+The \H and \S suits look really good, but neither of them are 5 cards, so you open 1\C. Partner responds 1\H. What is your next bid? 
+
+Partner's bid shows 6-10 points and at least 4 \Hs. Since you now know there is an 8-card Major suit fit you revalue your hand, adding 2 more points for the singleton \D.
+
+That gives you 20 points; add partner's 6-T and you have enough for game. She who knows, goes, so you bid 4\H.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 3, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1C Pass 1H Pass
+4H Pass Pass Pass
+
+[Event ""]
+{Baker Minor 4}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:J3.KQJT.J653.K64 K8654.A86.742.95 Q2.9432.QT98.QJ7 AT97.75.AK.AT832"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{You dealt this hand. What do you bid? 
+
+You have the right strength but the wrong distribution to open 1NT. So you bid 1\C. Partner responds 1\S. What do you say next? 
+
+With partner's \S bid giving you a fit, your hand revalues to 18 points. If partner has only 6 or 7 points there is not enough for game, but if he has more than that then you should bid game.
+
+When you are in-between like this you just invite. So you jump to 3\S. This tells partner to bid game if he has more than the minimum for his bid. He has 9 revalued points, so he bids 4\S.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1C Pass 1S Pass
+3S Pass 4S ALL
+Pass

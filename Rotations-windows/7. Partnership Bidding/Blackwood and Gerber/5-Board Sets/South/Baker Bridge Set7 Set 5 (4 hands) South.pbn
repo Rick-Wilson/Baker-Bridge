@@ -1,0 +1,200 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:11:24 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Bidpractice/Set7 21}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:QJT97.643.83.752 A62.KQJ7.6.KQJT9 84.8.KQJT752.863 K53.AT952.A94.A4"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "7H"]
+[Result ""]
+{When NORTH answers Blackwood with one Ace SOUTH decides to bid 5NT to ask for Kings.
+
+With two Kings, NORTH would bid 6
+
+â™¥
+
+.
+
+But she knows that if she does so, SOUTH might stop right there.
+
+Knowing the 5NT bid guarantees all four Aces, NORTH figures her â™£ suit will
+
+supply five tricks so she bids 7
+
+â™¥
+
+.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1C Pass 1H Pass
+3H Pass 4NT Pass
+5D Pass 5NT Pass
+7H Pass Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set7 22}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:J62.KT83.J732.92 87.Q974.KQ5.AT83 T943..AT984.7654 AKQ5.AJ652.6.KQJ"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "5H"]
+[Result ""]
+{SOUTH thinks there might be slam if NORTH holds both minor Aces, so he tries Blackwood.
+
+When NORTH shows just one Ace SOUTH is afraid he will have a trump loser as well, so
+
+he stops at 5
+
+â™¥
+
+.
+
+It turns out that SOUTH might make twelve tricks, depending on the
+
+â™¥
+
+K situation.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1H Pass 3H Pass
+4NT Pass 5D Pass
+5H Pass Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set7 23}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:QT985.963.73.T62 AJ6.K5.AQ62.A974 73.T.JT9854.QJ85 K42.AQJ8742.K.K3"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "7NT"]
+[Result ""]
+{NORTH might be tempted to blast into Blackwood with his first bid, pushing toward some slam
+
+in
+
+â™¥
+
+s. He chooses to temporize with a 1
+
+â™¥
+
+response and is rewarded when SOUTH jumps to 2NT (18-19 points).
+
+The Notrump bid prevents NORTH from using Blackwood, but Gerber 4â™£ will work just fine.
+
+When he discovers that SOUTH holds three Aces and one King he can count thirteen tricks.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1D Pass 1H Pass
+2NT Pass 4C Pass
+4NT Pass 5C Pass
+5H Pass 7NT Pass
+Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set7 24}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:JT5.9632.AT76.43 Q63.AT7.952.AT86 98742.J85.84.972 AK.KQ4.KQJ3.KQJ5"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6NT"]
+[Result ""]
+{SOUTH responds 2NT, showing 8+ points with no 5-card suit.
+
+NORTH only needs to know how many Aces are in the SOUTH hand. He must use Gerber since
+
+4NT in this situation would not be Blackwood.
+
+When SOUTH shows two Aces NORTH bids 6NT.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+2C Pass 2NT Pass
+4C Pass 4S Pass
+6NT Pass Pass Pass

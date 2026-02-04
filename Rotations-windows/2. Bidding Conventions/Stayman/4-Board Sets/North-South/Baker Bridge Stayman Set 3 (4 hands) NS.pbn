@@ -1,0 +1,167 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:54:25 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Stayman 9}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:953.A8.QJT92.J87 T86.KQ5.A864.AKT J7.9432.K3.Q6542 AKQ42.JT76.75.93"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4S"]
+[Result ""]
+{South opens 1NT. What do you respond? 
+
+Yes, this is the same hand as Deal 8. Again you bid 2\CThis time partner says 2\D.  
+
+You need to describe your hand clearly to partner with this bid. You want to show a game-forcing hand (11 points or more) with 4 \Hs and 5 \Ss. You do that by now jumping to 3\S.
+
+If partner had just 2 \Ss he would have bid 3NT. Since he has 3 \Ss he bids 4\S.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT Pass 2C Pass
+2D Pass 3S Pass
+4S Pass Pass Pass
+
+[Event ""]
+{Baker Stayman 10}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:753.85.JT983.AKJ AQJ9.KJ.Q764.Q53 86.742.AK52.T962 KT42.AQT963..874"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{Even when you hold a 6-card Major, if you have 4 cards in the other Major you use Stayman. Partner answers 2\S. What do you bid? 
+
+You've found an 8-card Major fit and you know there are enough points for game. So you bid 4\S.
+
+Yes, but you already knew you had an 8-card \H fit since partner's 1NT promised at least 2 \Hs. In fact, you could play game in either Major. However, it is often better to play in a 4-4 fit rather than a 5-3 or 6-2. This hand shows why. Played in \Hs you will make exactly T tricks with any opening lead. Played in \Ss you will again make T tricks when the defenders start with their 3 \C winners. If they start with anything else you are very likely to make 1 or 2 overtricks by discarding dummy losers on your \H suit.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT Pass 2C Pass
+2S Pass 4S Pass
+Pass Pass
+
+[Event ""]
+{Baker Stayman 11}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:976.87542.KJ9.A9 AQJ.KJ.Q764.Q653 853..AT8532.KJT2 KT42.AQT963..874"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4H"]
+[Result ""]
+{This is the follow-up to Deal T. South opens 1NT. What do you respond? 
+
+Just like the previous deal with a 4-card Major you use Stayman. This time partner says 2\D. Your turn again. 
+
+With partner showing no 4-card Major the bidding takes a turn. With your 6 \Hs you are sure of an 8-card fit in the suit. With 11 points you must be sure of reaching game. So you bid 4\H.
+
+In this case the strong hand does not become declarer, but the contract is the right one anyway.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT Pass 2C Pass
+2D Pass 4H Pass
+Pass Pass
+
+[Event ""]
+{Baker Stayman 12}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:AJ9.652.K82.T543 83.KQ74.7643.A82 Q765.JT98.AT.J96 KT42.A3.QJ95.KQ7"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "2NT"]
+[Result ""]
+{You open 1NT and partner responds 2\C. What do you bid? 
+
+Partner has commanded you to bid a 4-card Major if you have one. You have one, so you bid 2\S. Partner now says 2NT. What do you bid? 
+
+Partner evidently has 4 \Hs. He also evidently has about 9 points since he is INVITING you to bid 3NT. With your minimum 15 points you decline the invitation by passing.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1NT Pass 2C Pass
+2S Pass 2NT Pass
+Pass Pass

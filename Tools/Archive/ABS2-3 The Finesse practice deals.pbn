@@ -1,0 +1,259 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%Creator: BridgeComposer Version 5.109
+%Created: Sat Dec  7 14:45:41 2024 -0800
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent "ABS2-3 Developing Tricks — the Finesse"
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:AKQT6.83.KJ4.952 J43.AQJT2.AQ.T43 5.74.T86532.J876 9872.K965.97.AKQ"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4H"]
+[Result ""]
+{<b>Taking a Finesse</b>
+
+<b>Bidding.</b> North holds enough to overcall at the two-level to show a good
+five-card suit and 13–18 points.
+
+With 13 points in support of hearts, South can just bid game. An alternative is
+to cue-bid 2\S and then bid 4\H to show a good raise (an immediate 4\H can be
+bid with five-card support, a weak hand, and a singleton). However, such a
+sequence invites slam, which is not quite warranted.
+
+<b>Defense.</b> Remembering the bidding, East leads partner's suit. West can take
+the \SQ-A-K. Another round of spades is fine as it is <i>declarer</i> who will be
+ruffing and partner may be able to overruff. Switching to a diamond also has
+merit.
+
+<b>Declarer play.</b> Nine sure tricks, needing one more. The only chance of another
+is to score the \DQ by way of a finesse. Since West opened the bidding, this
+finesse is very likely to succeed.
+
+Ruff the fourth round of spades <i>high</i>, lest East overruff. Now pull trumps,
+enter dummy with a club, and lead a diamond to the \DQ.
+
+<b>Key point.</b> The finesse is a good way to get the extra trick you need to make a
+contract.}
+[BCFlags "1f"]
+[OriginalRotationBasis "E"]
+[RotationNote "Board 1, chOption: N, chBasis: E, basisKind:Declarer, nOption:0, nBasis: 1, nRot: 3, useStandardVul: true"]
+[Auction "W"]
+1S 2H Pass 4H
+AP
+[Play "E"]
+S5
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:K95.KT84.KQJT5.7 AQJ.952.A73.AJ64 7632.Q76.86.T853 T84.AJ3.942.KQ92"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "3NT"]
+[Result ""]
+{<b>A Repeated Finesse</b>
+
+<b>Bidding.</b> East overcalls 1NT to show 15–18 points, balanced, with some strength
+in opener's suit. West has the option of advancing with Stayman 2\C or a
+Jacoby transfer, but on this hand has no interest in a major-suit contract so
+just bids game in notrump.
+
+<b>Defense.</b> With nothing more attractive, South leads diamonds — partner's
+suit — selecting the \D8, highest of a doubleton. Yes, North might hold as few
+as three diamonds, but probably holds more. Any other lead is purely
+speculative.
+
+Since the \D9 is in dummy, South's \D8 is as high as any of North's diamonds.
+Regardless, North can afford to overtake with the \D10 in case South holds a
+singleton diamond. If declarer ducks the first trick, North should continue with
+the \DK.
+
+<b>Declarer play.</b> Seven sure tricks, needing two more. The only chance is to score
+the \SQ and \SJ by way of <i>repeated finesses</i>. Dummy's clubs will provide the two
+entries needed.
+
+You could hold up in diamonds, but this runs the risk of a shift to hearts.
+Just win the \DA, play a low club to dummy's \CK, then lead a low spade to the
+\SQ. This wins, so play another low club to dummy's \CQ to lead a second spade
+to the \SJ. Now you have nine tricks.
+
+<b>Key point.</b> By leading toward your honors, you can hope to take tricks with
+them, if the opponents’ high cards are favorably placed. In this hand, luck was
+with the declarer, provided the hand was played carefully.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+[Auction "N"]
+1D 1NT Pass 3NT
+AP
+[Play "S"]
+D8
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:75.KQJ.AT98.K943 AKJT8.854.72.AJT 962.T762.QJ6.Q75 Q43.A93.K543.862"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "2S"]
+[Result ""]
+{<b>Finessing against Two Cards</b>
+
+<b>Bidding.</b> North holds enough to overcall at the one-level to show a good
+five-card suit and 8–18 points.
+
+North advances to 2\S to show 8–10 support points. Raising the overcall
+obstructs rebids by opener, so might even be risked with fewer points and no
+chance of game.
+
+Over 2\S, East doesn't hold much extra with which to compete. Doubling for
+takeout is possible, but should promise some extra values lest West-East bid
+too high.
+
+With 14 points, South is satisfied with a partscore contract.
+
+<b>Defense.</b> West leads partner's suit, diamonds, selecting the \DQ, highest of
+touching honors. East signals encouragement with the \D10 (unless the \DK is
+played from dummy), and West continues with the \DJ and her last diamond.
+
+<b>Declarer play.</b> Seven sure tricks, needing one more. The chance that the \DK
+would win a trick has flown. However, if East holds the \CK or \CQ, then two
+finesses in clubs will yield an extra trick. You can use the \SQ and \HA as two
+entries to dummy to take the finesse.
+
+Ruff the third round of diamonds. Play a spade to the \SQ, then a low club to
+the \CJ. West wins and shifts to a low heart. You can win this with the \HA to
+lead a second club, this time finessing the \C10. It works, so now pull trumps
+and take the \CA for eight tricks.
+
+<b>Key point.</b> Declarer may sometimes have to finesse twice in order to win an
+extra trick.}
+[BCFlags "1f"]
+[OriginalRotationBasis "W"]
+[RotationNote "Board 3, chOption: S, chBasis: W, basisKind:Declarer, nOption:2, nBasis: 3, nRot: 3, useStandardVul: true"]
+[Auction "E"]
+1D 1S Pass 2S
+AP
+[Play "W"]
+DQ
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:T9652.K84.8.T982 A4.AQJ965.954.AK KJ8.7.KQJT32.QJ4 Q73.T32.A76.7653"]
+[Scoring ""]
+[Declarer "W"]
+[Contract "4H"]
+[Result ""]
+{<b>Leading a High Card</b>
+
+<b>Bidding.</b> North holds enough to overcall at the two-level to show a good
+five-card suit and 13–18 points.
+
+East can still raise opener to 2\H as she had planned to do before North
+overcalled. Game is still possible.
+
+Sure enough, West holds a maximum-strength hand and contracts for game, which
+should have a good chance even if East holds only six points.
+
+<b>Defense.</b> North leads the \DK, highest of touching honors. South perforce plays
+the \D8. Considering North's diamond honors, and that the \DA is in dummy, this
+must be a discouraging play from \D9 8, or a singleton.
+
+<b>Declarer play.</b> Only five sure tricks, needing five more.
+
+The \SQ might score via a finesse, but North should win the \SK immediately to
+cash two tricks in diamonds. Now you have no entry to dummy and no eventual
+losers to discard on \SQ anyway.
+
+Your best chance is to score five extra winners in the trump suit, hearts. Win
+the \DA immediately lest it get ruffed away. Then lead the \H10. Since you hold
+so much strength in hearts, you would be pleased if South covered with the \HK.
+If she does not, you are well placed in dummy to lead a second heart for a
+finesse of the \HQ. Now the \HA picks up South's last heart.
+
+Notice what happens if you lead a low heart from dummy to finesse the \HQ. The
+finesse wins, but you have no entry to dummy to repeat the finesse. Now you can
+lose four tricks… and your contract.
+
+<b>Key point.</b> Sometimes, when you have enough high cards, you can afford to lead
+one of them to try to trap one of the defender's cards. This is the case when
+you don’t lead toward the card you hope will take a trick, but lead the high
+card itself. Before leading a card for a finesse, always ask yourself whether
+you would be happy if the opponent played a higher card on it. If not, try to
+lead toward the card you hope will take a trick.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 4, chOption: W, chBasis: N, basisKind:Declarer, nOption:3, nBasis: 0, nRot: 3, useStandardVul: true"]
+[Auction "S"]
+Pass 1H 2D 2H
+Pass 4H AP
+[Play "N"]
+DK

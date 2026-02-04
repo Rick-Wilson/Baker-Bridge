@@ -1,0 +1,191 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:01:49 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Establishment 9}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:98653.Q932.K4.62 QT2.86.952.AT983 A4.JT4.QJT6.J754 KJ7.AK75.A873.KQ"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "3NT"]
+[Result ""]
+{North is to play 3NT. East leads the \S9, taken by West with the \SA. West next plays the \S4.
+
+Winners:   \S=2  \H=2  \D=1  \C=3  Total = 8
+
+You only need one more winner and if \Ds split 3-3 you can easily establish a trick in that suit. But what if \Ds split 4-2? If the \CJ falls you can get an extra \C trick. In fact, no matter how the \Cs are arranged you can establish your extra trick there.
+
+First make sure that you win the second trick with the \SK, keeping dummy's \SQ for a later entry. Then play \CK, and \CQ overtaking with dummy's \CA. Then play the \CT, losing to the \CJ but establishing the \C9 while you still have the \SQ as an entry.
+
+}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+2NT Pass 3NT Pass
+Pass Pass
+[Play "E"]
+S9
+
+[Event ""]
+{Baker Establishment 10}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "S:QT4.963.932.KQJT A852.Q7.K74.8643 KJ9.JT84.QJT5.92 763.AK52.A86.A75"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "2NT"]
+[Result ""]
+{East is to play 2NT. South leads the \CK.
+
+Winners:   \S=1  \H=3  \D=2  \C=1  Total = 7
+
+You need to find another winner and the chances are not good. If either black suit splits 3-3 you can establish dummy's fourth card in that suit. But with South's opening lead of the \CK it is unlikely that \Cs will split. So your only slim hope is that the \Ss split 3-3 and dummy's fourth \S will be a winner.
+
+Win the first trick and play a \S to the \SA. Then play another \S. The defense will win and probably take some \C tricks . When they have finished and play a red card, you win it and play a third round of \Ss. If both defenders follow to all three \Ss then dummy's \S8 is now a winner.
+
+Next time they probably won't and you'll go down.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+[Student "S"]
+[Auction "E"]
+1NT Pass 2C Pass
+2H Pass 2NT Pass
+Pass Pass
+[Play "S"]
+CK
+
+[Event ""]
+{Baker Establishment 11}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:JT4.83.Q972.KQJT 86532.AKJ5.65.83 AK97.42.KT84.965 Q.QT976.AJ3.A742"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{South is to play 4\H. West leads the \CK.
+
+Losers:   \S=1  \H=0  \D=2  \C=3  Total = 6
+
+Obviously you don't really have 6 losers since some of those \Ds and \Cs can be ruffed in dummy. But if you are playing against competent defenders you will only be able to ruff two of them because every time they get the lead they will play a trump. So you must figure on ruffing 2 losers and establishing dummy's fifth \S for a discard of the other one.
+
+Win the \CA and immediately play your \SQ. The defense will win this trick and probably play a trump. Be sure to win this in dummy and then ruff a \S with a high \H. Now exit with a \C. They will win and probably play another trump. Win this one in dummy also, breathing a sigh of relief when \Hs split 2-2. Ruff another \S with your second-last trump, then play \DA and concede a \D. 
+
+Whichever minor suit the defense plays next you ruff in dummy, then ruff the fourth \S, establishing dummy's \S8 while you still have a trump left in dummy. Dummy is now high.
+
+But that was your best shot.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "S"]
+1H Pass 3H Pass
+4H Pass Pass Pass
+[Play "W"]
+CK
+
+[Event ""]
+{Baker Establishment 12}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:J963.J2.QJT76.84 875.K8753.AK5.T2 QT4.QT96.932.763 AK2.A4.84.AKQJ95"]
+[Scoring ""]
+[Declarer "W"]
+[Contract "7C"]
+[Result ""]
+{West is to play 7\C. North leads the \DQ.
+
+Losers:   \S=1  \H=0  \D=0  \C=0  Total = 1
+
+It should be very clear that the only way to get rid of that \S loser is to discard it on dummy's \H suit. So after taking the first trick with dummy's \DA you could pull trumps, then play \HA, \HK and ruff a \H. IF the \Hs split 3-3 you could then enter dummy with the \DK and discard your loser.
+
+The problem is that the \Hs are much more likely to split 4-2, in which case you will need to ruff twice to establish a winner. That means you will need an extra entry to dummy. 
+
+That extra entry can only be the \CT so you must delay pulling trumps until after you ruff the first \H. Win the \DA and immediately play \HA, \HK and ruff a \H with a high \C. North discards on this \H play. Enter dummy with a trump and ruff another \H high. The suit is now established, so you pull trumps, enter dummy one last time with the \DK and discard that losing \S on the good \H8.
+
+And if they had split 3-3 this Plan would still have worked.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
+[Student "S"]
+[Auction "W"]
+2C Pass 2H Pass
+3C Pass 3NT Pass
+4NT Pass 5D Pass
+5NT Pass 6H Pass
+7C Pass Pass Pass
+[Play "N"]
+DQ

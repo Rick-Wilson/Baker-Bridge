@@ -1,0 +1,191 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:53:22 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Preempt 6}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:A54.J93.QT3.QT95 KQJ9873.6.9842.7 2.T742.J765.KJ32 T6.AKQ85.AK.A864"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "6S"]
+[Result ""]
+{The bidding has been as shown. Decide what you would bid, then  on BID above. 
+
+If is hard to imagine any hand partner could have where the slam wouldn't be there. Maybe you should use Blackwood, just to be sure? If partner shows 1 Ace you would then bid 6\S. And if he shows no Aces you would then . . . bid 6\S anyway. So you leave out the middle step and bid 6\S.
+
+Did you think about bidding 6NT instead? Ugh, they would have led a \C.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+3S Pass 6S Pass
+Pass
+
+[Event ""]
+{Baker Preempt 7}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:AJ42.J.KQ96.AKQ6 Q876.5.AJT4.J853 KT3.A942.753.742 95.KQT8763.82.T9"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "3S"]
+[Result ""]
+{You dealt this hand. Decide what you would bid, then  on BID above. 
+
+You make a simple 3\H opening bid and then the fireworks start. West doubles, your partner passes and East bids 3\S.  
+
+Do not preempt the same hand twice. The idea of a preemptive bid is that you bid it's maximum at your first turn. If there is to any further competing on this hand partner will have to do it.}
+[BCFlags "1f"]
+[OriginalRotationBasis "E"]
+[RotationNote "Board 2, chOption: E, chBasis: E, basisKind:Declarer, nOption:1, nBasis: 1, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "S"]
+3H X Pass 3S
+Pass Pass Pass
+
+[Event ""]
+{Baker Preempt 8}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:A7.T9743.2.KQJ94 4.652.KQJT873.85 KQJT95.AQJ.5.T62 8632.K8.A964.A73"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4D"]
+[Result ""]
+{The bidding has been as shown. Decide what you would bid, then  on BID above. 
+
+You do not have the 4 fast winners you need to raise partner to the 4-level. But you do have 4 of his trumps and 2 and a half winners. And your side doesn't have much defense against a 3\S contract. You should raise partner to 4\D because you think they can make 3\S. With these hands it appears they might have gone to 4\S in which case you would have had to decide whether to continue to 5\D. More judgement would be called for,based on Vulnerability, whether you think they can make the game, etc. The Law of Total Tricks can be a help in these competitive situations; it would lead you to 5\D.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "S"]
+3D 3S 4D Pass
+Pass Pass
+
+[Event ""]
+{Baker Preempt 9}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:QT72.KT532.K5.Q8 A8.874.J942.K632 KJ643.AQJ9..AJ74 95.6.AQT8763.T95"]
+[Scoring ""]
+[Declarer "W"]
+[Contract "4H"]
+[Result ""]
+{You dealt this hand. Decide what you would bid, then  on BID above. 
+
+You open 3\D. East doubles, partner raises to 4\D, and West bids 4\H. What do you say? 
+
+You just pass. Partner's raise was probably just advancing your preempt and they got to 4\H anyway. Sometimes preempts don't do the full job.
+
+It is partner's decision, not yours, whether to continue to 5\D as a sacrifice.}
+[BCFlags "1f"]
+[OriginalRotationBasis "E"]
+[RotationNote "Board 4, chOption: W, chBasis: E, basisKind:Declarer, nOption:3, nBasis: 1, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+3D X 4D 4H
+Pass Pass Pass
+
+[Event ""]
+{Baker Preempt 10}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:KJ7.K2.KJ93.T965 853.AQJ9843.T76. AQT2.T765.AQ.742 964..8542.AKQJ83"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "3H"]
+[Result ""]
+{The bidding has been as shown. Decide what you would bid, then  on BID above. 
+
+The guidelines in the summary would have you bid 4\H. After all you very clearly have four quick winners.
+
+But you also have seven quick losers in the other suits, and a trump void to boot.
+
+Somewhere in some of these lessons there should be a guideline that says:
+
+<table bgcolor="#ccccff" border="2" bordercolor="#000099" cellpadding="3" cellspacing="0"><tr><td>}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 5, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+3H Pass Pass Pass

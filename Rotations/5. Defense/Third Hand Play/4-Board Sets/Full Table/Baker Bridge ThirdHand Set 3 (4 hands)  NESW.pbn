@@ -1,0 +1,115 @@
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "1"]
+{Baker ThirdHand 9}
+[Dealer "S"]
+[Declarer "N"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "E"]
+[Deal "S:K92.QT985.A6.AT6 AJ7.642.T985.973 Q43.J7.KJ43.KQJ5 T865.AK3.Q72.842"]
+[Auction "S"]
+1H pass 2NT pass 3NT pass pass pass
+[Result ""]
+{The bidding has been as shown. Partner led the \S5, dummy played the \S2 and it is your play.
+
+When you have made your choice  
+
+Partner's low \S lead tells you he has an honor in the suit, so it must be either the \SQ or the \ST. North's jump to 2NT makes it almost certain that he holds the \SQ, so you can figure partner probably led from \S T x x 5.
+
+Apply the Rule of 11. 11 minus 5 = 6 cards higher than the \S5 held by dummy, you, and declarer. Since you can see 5 of the 6 you conclude that that declarer will have to play his \SQ to beat your \S7.
+
+North will take the \SQ at trick 1, but when East wins a high \H he will play another \S through dummy's \S K 9 to your \S A J. Once you clear dummy's \S away partner will win another \H and be able to cash his last \S.
+
+Note that if dummy's \S9 was played you would cover with your \SJ, leading to the same situation.}
+[BCFlags "1f"]
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]S5
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "2"]
+{Baker ThirdHand 10}
+[Dealer "E"]
+[Declarer "E"]
+[Contract "3NT"]
+[Vulnerable "NS"]
+[Student "E"]
+[Deal "E:AQT.K43.KQ92.Q85 K852.JT652.64.93 J64.98.A5.AJT742 973.AQ7.JT873.K6"]
+[Auction "E"]
+1NT pass 3NT pass pass pass
+[Result ""]
+{The bidding has been as shown. Partner led the \H5, dummy played the \H8 and it is your play.
+
+When you have made your choice  
+
+The Rule of Eleven tells you there are 6 cards in West, North and East that are higher than the \H5. You can see 5 of them, so that leaves just one of them for East.
+
+South cannot have all three of the outstanding honors, because from \H K J T x x his correct lead would be the Jack. So you can deduce that East must hold exactly one of \HK, \HJ, or \HT.
+
+If his honor is not the \HK then it won't matter whether you play \HA or \HQ to the first trick; you will win your two top cards and then play your small one back to South.
+
+So assume East actually holds the \HK x x. If you play the \HA to trick one, then lead \HQ, East will hold up on the second trick, and win the third \H. Then, when you win your \CK you will not have a \H to return to partner and declarer will make the contract.
+
+So what happens if you play the \HQ at trick one? East could still make the contract by holding up, but he will be afraid to do so. After all, from his perspective it looks like South probably holds the \HA and he will be afraid of losing the first 5 \H tricks, perhaps even when the \CK finessing is working!}
+[BCFlags "1f"]
+[RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+[Play "W"]H5
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "3"]
+{Baker ThirdHand 11}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "3S"]
+[Vulnerable "None"]
+[Student "E"]
+[Deal "N:AQ83.T6.752.AKQ5 74.AK4.T984.T842 JT962.853.KJ3.J6 K5.QJ972.AQ6.973"]
+[Auction "N"]
+1C pass 1S 2H 3S pass pass pass
+[Result ""]
+{The bidding has been as shown. Partner led the \HQ, dummy played the \H6 and it is your play.
+
+When you have made your choice  
+
+Your side needs to take 5 tricks to defeat this contract. Two of them will be \Hs, but it doesn't look like you can win any \Cs or \Ss.
+
+That means you need to win 3 \D tricks and the only way that can happen is if you play \Ds from your side.
+
+So win the first \HK (so partner will know you also have the \HA), and play the \DT. Presumably South will play an honor, but West will take the trick and put you back on lead with your \HA. You play the \D9 and your side will collect 3 \D tricks to go with your 2\Hs.}
+[BCFlags "1f"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]HQ
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "4"]
+{Baker ThirdHand 12}
+[Dealer "E"]
+[Declarer "W"]
+[Contract "4H"]
+[Vulnerable "All"]
+[Student "E"]
+[Deal "E:J3.KQJ6.AKQT5.62 T.732.9863.Q7543 9752.AT954.J.KT8 AKQ864.8.742.AJ9"]
+[Auction "E"]
+1D pass 1H 1S 4H pass pass pass
+[Result ""]
+{The bidding has been as shown. Partner led the \SA, then the \SK. Dummy follows suit and it is your play to the second trick.
+
+When you have made your choice  
+
+It is obvious that your side can only get 2 \S tricks. And assuming that West has the Ace of trumps you will not make a single trick in the red suits. So you need to make 2 \C tricks.
+
+If partner has the \C A K then he will take them, but if he has the \C A J he cannot win 2 \C tricks from his side. 
+
+To allow for this situation it will be better to play \Cs from your side of the table, and the way to make that happen is for you to ruff partner's \SK with an otherwise useless trump. You still get your two \S winners (sort of) but now you get to play a \C through West's \CK at trick 3.}
+[BCFlags "1f"]
+[RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
+[Play "W"]SA
+

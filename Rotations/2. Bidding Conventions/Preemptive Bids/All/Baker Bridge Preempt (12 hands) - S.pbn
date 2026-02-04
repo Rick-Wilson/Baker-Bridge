@@ -1,0 +1,310 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%Creator: CSVtoPBN Version 1.00
+%Created: 2026-01-23 13:57:51
+%sourcefilename BakerBridgeFull.csv
+%HRTitleEvent Preempt
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "1"]
+{Baker Preempt 1}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3D"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:952.2.AQT9875.87 KQJ3.J95.K43.QT6 A87.KQ873.J.A954 T64.AT64.62.KJ32"]
+[Auction "S"]
+3D pass pass pass
+[Result ""]
+{You dealt this hand. Decide what you would bid, then  on BID above. 
+
+You estimate you can win 6 \D tricks so you open 3\D. Everybody passes.}
+[BCFlags "1f"]
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "2"]
+{Baker Preempt 2}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:KQJT864.97.65.T4 A53.QT.AT8743.J2 92.KJ85.KJ9.KQ83 7.A6432.Q2.A9765"]
+[Auction "S"]
+3S pass pass pass
+[Result ""]
+{The bidding has been as shown. Decide what you would bid, then  on BID above. 
+
+You have 13 points and if partner had opened with a 1\S bid you'd be feeling "jumpy". But what a preemptive bidder needs from dummy are immediate winners, not points. So you pass.
+
+Here's a pretty good tip:When partner opens with a 3-bid and you are trying to decide whether to take him to game, visualize him holding this very hand:K Q J T x x x of trumps and nothing in any other suit. Then base your decision on that.}
+[BCFlags "1f"]
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "3"]
+{Baker Preempt 3}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:A.QJT8763.975.62 T4.K95.AQJT4.J94 J9873.A42.82.AK7 KQ652..K63.QT853"]
+[Auction "S"]
+3H pass 4H pass pass pass
+[Result ""]
+{You dealt this hand. Decide what you would bid, then  on BID above. 
+
+You expect your hand to produce 5 \H tricks and the \SA. So you open 3\H. Partner responds 4\H. What do you bid? 
+
+When you preempted 3\H you described your hand perfectly. You have nothing more to say except pass.}
+[BCFlags "1f"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "4"]
+{Baker Preempt 4}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4H"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "S:83.KQT8742.862.5 QJT2.6.KQ53.K962 AK76.J53.94.A874 954.A9.AJT7.QJT3"]
+[Auction "S"]
+3H pass 4H pass pass pass
+[Result ""]
+{The bidding has been as shown. Decide what you would bid, then  on BID above. 
+
+No matter how much we try to reduce bridge to rules and guidelines we will never get rid of the judgement factor. With this hand you definitely have 3 fast tricks for partner. In theory he can take 6 of his own, so 3\H should be the right contract. BUT, maybe he could ruff a \D in your dummy?
+
+Fortune favors the bold so you bid 4\H . . . and live happily ever after.}
+[BCFlags "1f"]
+[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "5"]
+{Baker Preempt 5}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:KQJ98752.9.52.87 3.AKJ4.QJT4.KT53 T4.Q86.A963.J642 A6.T7532.K87.AQ9"]
+[Auction "S"]
+4S pass pass pass
+[Result ""]
+{You dealt this hand. Decide what you would bid, then  on BID above. 
+
+With 7 estimated winners and an 8-card suit you preempt 4\S. And you are not going to make it. In fact you are only going to make 8 tricks so you will go down 2.
+
+You may be wishing that you had opened just 3\S, rather than following the guidelines and opening at the 4-level. The problem with that thinking is that the lower your preempt, the less difficult it is for the opponent's to enter the bidding. If you had opened 3\S West might have been able to make a Takeout Double and they could have found their \H fit. Just visualize their combined hands; they have 9 \Hs between them, they have no \S losers, no \C losers and just one \D loser. If they decide to finesse your partner for the \HQ they can make slam.
+
+This is what preempting is all about.}
+[BCFlags "1f"]
+[RotationNote "Board 5, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "6"]
+{Baker Preempt 6}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "6S"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:KQJ9873.6.9842.7 A5.J943.T76.QT95 T6.AKQ85.AK.A864 42.T72.QJ53.KJ32"]
+[Auction "S"]
+3S pass 6S pass pass
+[Result ""]
+{The bidding has been as shown. Decide what you would bid, then  on BID above. 
+
+If is hard to imagine any hand partner could have where the slam wouldn't be there. Maybe you should use Blackwood, just to be sure? If partner shows 1 Ace you would then bid 6\S. And if he shows no Aces you would then . . . bid 6\S anyway. So you leave out the middle step and bid 6\S.
+
+Did you think about bidding 6NT instead? Ugh, they would have led a \C.}
+[BCFlags "1f"]
+[RotationNote "Board 6, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "7"]
+{Baker Preempt 7}
+[Dealer "W"]
+[Declarer "S"]
+[Contract "3S"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "W:95.KQT8763.82.T9 AJT4.J.KQ73.A742 Q876.5.AJT4.J853 K32.A942.965.KQ6"]
+[Auction "W"]
+3H X pass 3S pass pass pass
+[Result ""]
+{You dealt this hand. Decide what you would bid, then  on BID above. 
+
+You make a simple 3\H opening bid and then the fireworks start. North doubles, your partner passes and South bids 3\S.  
+
+Do not preempt the same hand twice. The idea of a preemptive bid is that you bid it's maximum at your first turn. If there is to any further competing on this hand partner will have to do it.}
+[BCFlags "1f"]
+[RotationNote "Board 7, chOption: S, chBasis: E, basisKind:Declarer, nOption:2, nBasis: 1, nRot: 1, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "8"]
+{Baker Preempt 8}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4D"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:4.652.KQJT873.85 AKQJ95.Q93.52.J6 8632.K8.A964.A73 T7.AJT74..KQT942"]
+[Auction "S"]
+3D 3S 4D pass pass pass
+[Result ""]
+{The bidding has been as shown. Decide what you would bid, then  on BID above. 
+
+You do not have the 4 fast winners you need to raise partner to the 4-level. But you do have 4 of his trumps and 2 and a half winners. And your side doesn't have much defense against a 3\S contract. You should raise partner to 4\D because you think they can make 3\S. With these hands it appears they might have gone to 4\S in which case you would have had to decide whether to continue to 5\D. More judgement would be called for,based on Vulnerability, whether you think they can make the game, etc. The Law of Total Tricks can be a help in these competitive situations; it would lead you to 5\D.}
+[BCFlags "1f"]
+[RotationNote "Board 8, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "9"]
+{Baker Preempt 9}
+[Dealer "W"]
+[Declarer "S"]
+[Contract "4H"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "W:95.6.AQT8763.T95 J762.AQ932.K5.A8 A8.874.J942.K632 KQT43.KJT5..QJ74"]
+[Auction "W"]
+3D X 4D 4H pass pass pass
+[Result ""]
+{You dealt this hand. Decide what you would bid, then  on BID above. 
+
+You open 3\D. North doubles, partner raises to 4\D, and South bids 4\H. What do you say? 
+
+You just pass. Partner's raise was probably just advancing your preempt and they got to 4\H anyway. Sometimes preempts don't do the full job.
+
+It is partner's decision, not yours, whether to continue to 5\D as a sacrifice.}
+[BCFlags "1f"]
+[RotationNote "Board 9, chOption: S, chBasis: E, basisKind:Declarer, nOption:2, nBasis: 1, nRot: 1, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "10"]
+{Baker Preempt 10}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3H"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "S:853.AQJ9843.T76. AKQT.KT75.93.T64 964..8542.AKQJ83 J72.62.AKQJ.9752"]
+[Auction "S"]
+3H pass pass pass
+[Result ""]
+{The bidding has been as shown. Decide what you would bid, then  on BID above. 
+
+The guidelines in the summary would have you bid 4\H. After all you very clearly have four quick winners.
+
+But you also have seven quick losers in the other suits, and a trump void to boot.
+
+Somewhere in some of these lessons there should be a guideline that says:
+
+<table bgcolor="#ccccff" border="2" bordercolor="#000099" cellpadding="3" cellspacing="0"><tr><td>}
+[BCFlags "1f"]
+[RotationNote "Board 10, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "11"]
+{Baker Preempt 11}
+[Dealer "E"]
+[Declarer "S"]
+[Contract "3S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:J.KQT54.KJT2.J76 AKT8763.6.84.T95 942.972.A93.A843 Q5.AJ83.Q765.KQ2"]
+[Auction "E"]
+1H 3S pass pass pass
+[Result ""]
+{The bidding has been as shown. Decide what you would bid, then  on BID above. 
+
+The fact that East opened doesn't change your hand at all. You had planned on Opening 3\S, now you make a Weak Jump Overcall of 3\S. If partner has some "stuff" you might get to a makeable contract, and if he doesn't you may keep the opponents out of a \H game.
+
+This time everybody passes.}
+[BCFlags "1f"]
+[RotationNote "Board 11, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "12"]
+{Baker Preempt 12}
+[Dealer "E"]
+[Declarer "S"]
+[Contract "4H"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "E:JT86.A5.J.KQJT82 Q.KJT9642.T8.764 9543.83.KQ9763.3 AK72.Q7.A542.A95"]
+[Auction "E"]
+1C 3H pass 4H pass pass pass
+[Result ""]
+{The bidding has been as shown. Decide what you would bid, then  on BID above. 
+
+You have four quick winners. If partner had opened 3\H you would have bid 4\H in the blink of an eye. His Weak Jump Overcall describes the exact same hand. So blink and bid 4\H.}
+[BCFlags "1f"]
+[RotationNote "Board 12, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+

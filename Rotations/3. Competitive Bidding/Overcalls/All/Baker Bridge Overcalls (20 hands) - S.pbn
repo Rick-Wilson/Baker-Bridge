@@ -1,0 +1,478 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%Creator: CSVtoPBN Version 1.00
+%Created: 2026-01-23 13:57:51
+%sourcefilename BakerBridgeFull.csv
+%HRTitleEvent Overcalls
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "1"]
+{Baker Overcalls 1}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "1D"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:53.K865.AQJT64.K A9.AQ93.K875.J65 KJT82.T4.3.QT972 Q764.J72.92.A843"]
+[Auction "S"]
+1D pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your turn. Decide what you would say, then  on "" above. 
+
+You have 14 points but so what. You have no 5-card suit to Overcall. You cannot make a Takeout Double with 4 of their suit. So you pass. It is important to realize that there are hands you would open but cannot overcall with.}
+[BCFlags "1f"]
+[RotationNote "Board 1, chOption: S, chBasis: E, basisKind:Declarer, nOption:2, nBasis: 1, nRot: 1, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "2"]
+{Baker Overcalls 2}
+[Dealer "E"]
+[Declarer "S"]
+[Contract "3H"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "E:K.862.A832.AQJ73 T92.AQJ75.QJ7.86 QJ864.4.T5.KT942 A753.KT93.K964.5"]
+[Auction "E"]
+1C 1H pass 3H pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+With four trumps and 12 points you have a text-book raise to 3\H. Partner had a minimum overcall though, so he passed.}
+[BCFlags "1f"]
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "3"]
+{Baker Overcalls 3}
+[Dealer "E"]
+[Declarer "S"]
+[Contract "2H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:QJ.92.KQJ4.AKQT2 T9.AQJ75.A875.65 K8652.T64.T92.J7 A743.K83.63.9843"]
+[Auction "E"]
+1C 1H pass 2H pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. 
+
+With 12 points and a good suit you have a very solid overcall so you bid 1\H. Partner responds 2\H. What do you say? 
+
+Partner is showing 6-10 points and three trumps. Your hand revalues to 14 at most so you pass.}
+[BCFlags "1f"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "4"]
+{Baker Overcalls 4}
+[Dealer "E"]
+[Declarer "S"]
+[Contract "1S"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "E:A.AT52.AT875.AK2 KQJ97.8.Q62.Q943 T85432.Q76.J3.JT 6.KJ943.K94.8765"]
+[Auction "E"]
+1D 1S pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+You really don't like partner's \Ss, and you do have 8 points. But 8 points is not enough to be considering game, and you would have to bid your \Hs at the 2-level. All things considered it is better to pass while you still aren't doubled.}
+[BCFlags "1f"]
+[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "5"]
+{Baker Overcalls 5}
+[Dealer "E"]
+[Declarer "S"]
+[Contract "3H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:AK864.T9.5.AJ842 T9.KQJ752.QJ7.65 Q3.4.K98643.KQ97 J752.A863.AT2.T3"]
+[Auction "E"]
+1S 2H pass 3H pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. 
+
+You overcall 2\H and hear partner raise you to 3\H. What do you say now? 
+
+No matter how many times you check this hand you cannot revalue it any more than 13 points. Since partner has T at the most you reluctantly pass.}
+[BCFlags "1f"]
+[RotationNote "Board 5, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "6"]
+{Baker Overcalls 6}
+[Dealer "E"]
+[Declarer "S"]
+[Contract "2S"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "E:Q62.874.AQ84.AQT AK975.KT3.953.K7 T4.Q65.KJ62.J654 J83.AJ92.T7.9832"]
+[Auction "E"]
+1D 1S 2D 2S pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+With only 7 points you might not think you have enough to make a "free bid". But in competitive bidding situations like these, where both sides have a fit, bidding is usually better than passing. So you bid 2\S.
+
+You might look at the Law of Total Tricks lesson for more on this subject.}
+[BCFlags "1f"]
+[RotationNote "Board 6, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "7"]
+{Baker Overcalls 7}
+[Dealer "E"]
+[Declarer "S"]
+[Contract "3S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:A7.J85.AQ74.T754 QJT93.KQ4.863.82 65.T762.KJ92.AJ6 K842.A93.T5.KQ93"]
+[Auction "E"]
+1D 1S pass 3S pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. 
+
+You have enough for a 1-level Overcall so you bid 1\S. Partner says 3\S. What do you say now? 
+
+The jump raise tells you partner has 11-14 points.
+
+With your minimum it's going to have to be better than that to get you excited. So you pass.}
+[BCFlags "1f"]
+[RotationNote "Board 7, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "8"]
+{Baker Overcalls 8}
+[Dealer "E"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:T.AKQ98.J53.AKQ9 AQJ64.3.9862.J82 92.JT64.KQT74.T6 K8753.752.A.7543"]
+[Auction "E"]
+1H 1S 3H 4S pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+You have 10 points, but in cases like this points don't matter that much. They MIGHT be able to make 4\H. Partner MIGHT be able to make 4\S. This preemptive jump takes the decision away from them.
+
+Looking at the hands you can see that partner is going to go down 1 at 4\S. However, that is an excellent result since they appear to be cold for 5\H.}
+[BCFlags "1f"]
+[RotationNote "Board 8, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "9"]
+{Baker Overcalls 9}
+[Dealer "E"]
+[Declarer "S"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:KQT4.5.QT9.KJT76 53.AKT84.K63.A54 982.J62.J872.Q83 AJ76.Q973.A54.92"]
+[Auction "E"]
+1C 1H pass 3H pass 4H pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. 
+
+Nice hand. But not nice enough to double, then bid your \Hs. So you overcall 1\H. Partner says 3\H. It is your bid. 
+
+The jump raise promises 11-14 points. Your 17 plus partner's 11 or so takes you right up to game. You bid 4\H.}
+[BCFlags "1f"]
+[RotationNote "Board 9, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "10"]
+{Baker Overcalls 10}
+[Dealer "W"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:Q9863.A764.KQ.T6 72.Q8.J52.AKJ972 JT4.J93.A863.854 AK5.KT52.T974.Q3"]
+[Auction "W"]
+1S 2C pass 2NT pass 3NT pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+Partner has at least 11 points for his 2-level overcall. He might have as many as 16. You have a perfect invitational hand including two sure stoppers in their suit. So you bid 2NT. Partner raises to 3NT and you get to play it there.}
+[BCFlags "1f"]
+[RotationNote "Board 10, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "11"]
+{Baker Overcalls 11}
+[Dealer "E"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:J64.Q95.KQ.AJ542 KQ9.A84.AT5.KQ93 T75.732.87642.76 A832.KJT6.J93.T8"]
+[Auction "E"]
+1C 1NT pass 2C pass 2D pass 2NT pass 3NT pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. 
+
+This hand would be one point too strong to Open 1NT, but it fits the 15-18 range to Overcall 1NT. Partner responds 2\C. What do you bid? 
+
+Don't get your systems crossed. Partner did not make a cue-bid, he is using Stayman. Since you have no 4-card Major suit you answer 2\D. Partner now says 2NT and the ball is in your court. 
+
+This is just a plain old 1NT/Stayman sequence. Partner is inviting, and since you have 18 points you accept.}
+[BCFlags "1f"]
+[RotationNote "Board 11, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "12"]
+{Baker Overcalls 12}
+[Dealer "E"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "E:J92.852.AKT8.A95 AKT75.J6.972.Q83 4.T943.QJ43.J742 Q863.AKQ7.65.KT6"]
+[Auction "E"]
+1D 1S pass 2D pass 2S pass 4S pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+Wow! Great \S support and 15 points. You cue-bid 2\D, forcing partner to bid. He says 2\S. Your turn. 
+
+Partner has not made a strong bid and it is possible that T tricks will be too high. But it is pretty likely that game can be made so you bid it. Be bold!}
+[BCFlags "1f"]
+[RotationNote "Board 12, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "13"]
+{Baker Overcalls 13}
+[Dealer "E"]
+[Declarer "S"]
+[Contract "2S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:5.AJT973.J9.AQJT KQJ984.84.Q63.95 A632.5.AT742.K63 T7.KQ62.K85.8742"]
+[Auction "E"]
+1H 2S pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. 
+
+If you had been the dealer you would have opened 2\S. The situation is no different after they open so you Overcall 2\S. Everybody passes.}
+[BCFlags "1f"]
+[RotationNote "Board 13, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "14"]
+{Baker Overcalls 14}
+[Dealer "W"]
+[Declarer "S"]
+[Contract "2S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:QT.542.KQ742.A94 975.KQJ97.83.K52 42.AT86.AJT9.J83 AKJ863.3.65.QT76"]
+[Auction "W"]
+1D 1H pass 1S pass 2S pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+You don't like to take partner out of his overcalled suit without good reason. Here you have good reason. So you bid 1\S. Partner replies 2\S. What do you say next? 
+
+You expect partner to have three trumps, but he has made a minimum bid. So you take the conservative route and pass.}
+[BCFlags "1f"]
+[RotationNote "Board 14, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "15"]
+{Baker Overcalls 15}
+[Dealer "W"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "W:A2.T72.J5.AQJ763 T85.AKJ84.K63.95 64.9653.QT94.K82 KQJ973.Q.A872.T4"]
+[Auction "W"]
+1C 1H pass 1S pass 2S pass 4S all pass
+[Result ""]
+{The bidding has been as shown. It is your bid. 
+
+You have a nice easy decision here. You overcall 1\H. Then partner bids 1\S. What do you say next? 
+
+Whether you play a change of suit as forcing or not, your hand certainly qualifies as one where you should make a bid. Partner doesn't really like your \Hs but you are quite satisfied to play in \Ss. So you bid 2\S. Partner jumps to 4\S and that closes out the auction.}
+[BCFlags "1f"]
+[RotationNote "Board 15, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "16"]
+{Baker Overcalls 16}
+[Dealer "E"]
+[Declarer "S"]
+[Contract "3H"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "E:A754.QJ.KQ82.942 JT9.KT73.AJT.AQ5 62.942.9743.KJ83 KQ83.A865.65.T76"]
+[Auction "E"]
+1D 1NT pass 2C pass 2H pass 3H pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+You treat partner's 1NT Overcall the same as a 1NT Opening. You use Stayman and bid 2\C. Partner replies 2\H. What is your next bid? 
+
+You have 9 points, an invitational strength hand. You bid 3\H, inviting partner to go to game with a maximum. He declines your invitation.}
+[BCFlags "1f"]
+[RotationNote "Board 16, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "17"]
+{Baker Overcalls 17}
+[Dealer "E"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:K7532.A2.J62.A84 AJ9.T94.K3.QJT63 QT6.87653.T874.5 84.KQJ.AQ95.K972"]
+[Auction "E"]
+1S 2C pass 2S pass 2NT pass 3NT all pass
+[Result ""]
+{The bidding has been as shown. It is your bid. 
+
+You have a sound 2-level overcall. You bid 2\C and partner replies 2\S. What is your next bid? 
+
+Partner's cue-bid obviously forces you to bid. Partner's hand might be very distributional, but rather than just sticking to \Cs you suggest with 2NT. This guarantees you have \Ss stopped. Partner likes your suggestion and bids 3NT.}
+[BCFlags "1f"]
+[RotationNote "Board 17, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "18"]
+{Baker Overcalls 18}
+[Dealer "W"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:A76.K63.T54.AK93 KQJT5.QT7.AJ3.87 942.8542.862.542 83.AJ9.KQ97.QJT6"]
+[Auction "W"]
+1C 1S pass 2NT pass 3NT pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+Balanced hand, poor support for partner's suit, stoppers in their suit and 13 points. You couldn't get a better hand to jump to 2NT. Partner takes you to 3NT.}
+[BCFlags "1f"]
+[RotationNote "Board 18, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "19"]
+{Baker Overcalls 19}
+[Dealer "W"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "W:K65.A962.3.AJ853 83.K85.KQT964.72 Q9742.J43.J82.64 AJT.QT7.A75.KQT9"]
+[Auction "W"]
+1C 2D pass 2NT pass 3H pass 3NT all pass
+[Result ""]
+{The bidding has been as shown. It is your bid. 
+
+With a good 6-card suit and 10 points you make a Weak Jump Overcall to 2\D. Partner says 2NT.  
+
+The 2NT bid is a standard response to a Weak 2-bid. It asks for the identification of any outside high-card if the Weak 2-bidder has more than a minimum. Here you are in the top range for your bid so you show your \HK.
+
+That was apparently the missing link for partner, he now says 3NT.}
+[BCFlags "1f"]
+[RotationNote "Board 19, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "20"]
+{Baker Overcalls 20}
+[Dealer "E"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "E:J7.Q5.9532.AKJ53 KQT932.842.A7.92 64.JT963.QT84.Q7 A85.AK7.KJ6.T864"]
+[Auction "E"]
+1C 2S pass 2NT pass 3D pass 4S pass pass pass
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+You might just try 4\S. Of course if partner has a minimum Weak Jump Overcall that will get you much too high. A better approach is to ask for more information from partner. The bid that asks is 2NT. Partner replies 3\D.  
+
+Partner's 3\D bid tells you two things. One, he is in the top half of his 6-11 point range. Two, he has a high card (Ace or King) in \Ds. When you construct a hand for him which contains 6 pretty good \Ss and the \DA you come up with a hand which will probably make game. Bid 4\S.}
+[BCFlags "1f"]
+[RotationNote "Board 20, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+

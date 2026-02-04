@@ -1,0 +1,163 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:56:50 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Michaels 9}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "E:932.KT753.AQ82.T KQJ7.6.974.K8654 A8654.A2.6.AQ973 T.QJ984.KJT53.J2"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "3D"]
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+With 5 cards in the "other" Major and a 5-card Minor you bid 2\S, Michaels of course. Partner bids 2NT. What do you say next? 
+
+Is it possible that partner wants to play Notrump? Not at all. He hates \Hs and wants you to bid your Minor suit. So you say 3\D and he passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "W"]
+1S 2S Pass 2NT
+Pass 3D Pass Pass
+Pass
+
+[Event ""]
+{Baker Michaels 10}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:AJ42.52.A92.KJ82 KQ.AKQ83.QJT54.3 98753.JT96.8.Q74 T6.74.K763.AT965"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "5D"]
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+Partner asked you to choose between \Hs and \Ds so you bid 3\D. He then raises you to 4\D. What do you bid? 
+
+If you say to yourself "I only have 7 HCP" then you might pass. But if you say "Partner invited me to bid game, even though I might have no points and only 3 trumps. I'm a lot better than that.", then you will accept the invitation. So you bid 5\D and everybody passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "W"]
+1C 2NT Pass 3D
+Pass 4D Pass 5D
+Pass Pass Pass
+
+[Event ""]
+{Baker Michaels 11}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "E:.T83.J9874.T9842 KT93.J652.K6.KQ5 8742.AKQ74.2.AJ7 AQJ65.9.AQT53.63"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4S"]
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+With 5 cards in the "other" Major and a 5-card Minor suit this looks like an ideal Michaels Cue-Bid, right? No, not really. While it would not be a capital offense to bid 2\H here, it generally works out better with 13-16 point hands to just overcall in your higher-ranking suit. You bid 1\S. Partner responds 2\H. What do you bid? 
+
+Partner's cue-bid shows a limit-raise or better in \Ss. So you bid 4\S without the blink of an eye.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Student, nOption:0, nBasis: 2, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "W"]
+1H 1S Pass 2H
+Pass 4S Pass Pass
+Pass
+
+[Event ""]
+{Baker Michaels 12}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:Q2.AJT975.AQJ6.A AT983.8.75.QJT74 KJ754.Q3.842.932 6.K642.KT93.K865"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3C"]
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+Partner is 5-5 in \Ss and one of the Minor suits. Forget \Ss, you want him to bid the Minor. So you bid 2NT. Partner says 3\C.  
+
+Partner only made a minimum bid, so you have no choice but to pass.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "E"]
+1H 2H Pass 2NT
+Pass 3C Pass Pass
+Pass

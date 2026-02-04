@@ -1,0 +1,214 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:05:07 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",10,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker 100Deals 45}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:75.QJT853.KJ7.T9 Q4.A6.98653.Q842 T93.92.AQT4.AJ73 AKJ862.K74.2.K65"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{You are South and it is your bid. Decide what you would say, then  on BID. 
+
+An easy one. You bid 1\S. Partner responds 1NT.
+
+What is your next bid? 
+
+You're going to rebid your 6-card \S suit, but how high? The usual guideline is to bid 2\S with 13-15 points, but jump to 3\S with 16-18 points. You come in just over the line so you bid 3\S. Partner puts it in game.
+
+South plays 4\S. West leads the \HQ, East playing \H9.
+
+Losers: \S 0 : \H 1 : \D 1 : \C 2 : Total = 4
+
+You must eliminate one loser and the easiest one will be the \H which you can ruff in dummy. However, East's \H9 looks a little ominous, particularly since West apparently has some length in the suit. Presumably you played the \HA on the first trick. Next lead the \H6 from dummy, hoping East can't (or doesn't) ruff. He plays the \H2. Win the \HK and play your \H 4, ruffing with dummy's \SQ. East is out of \Hs, but can't over-ruff. Now pull trumps and set up one \C trick. You lose 2 \Cs and a \D, just as expected.
+
+}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1S Pass 1NT Pass
+3S Pass 4S Pass
+Pass Pass
+[Play "W"]
+HQ
+
+[Event ""]
+{Baker 100Deals 46}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:95.84.AKQJ54.QT5 8743.AK63.73.AK6 T62.JT95.82.9832 AKQJ.Q72.T96.J74"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{You are South and it is your bid. Decide what you would say, then  on BID. 
+
+When responding to a takeout double use these guidelines:0-8 points: bid a suit cheaply9-11 points: bid a suit with a jump12 or more points: cue-bid the opponent's suit
+
+With 13 points you cue-bid 2\D. Partner says 2\H.
+
+You are forced to game, now you must find a suit. Partner suggested \Hs, you suggest \Ss. Partner agrees \Ss and bids the game.
+
+South plays 4\S. West leads \DA, \DK, \DQ. East plays \D8 then \D2.
+
+Losers: \S 0 : \H 0 : \D 3 : \C 1 : Total = 4
+
+If you could ruff that \D then one of your \D losers would be eliminated - if East didn't over-ruff. But you know that East is going to over-ruff. So don't ruff it, discard dummy's \C6 instead. Later you can ruff your \C loser in dummy.
+
+}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "W"]
+1D X Pass 2D
+Pass 2H Pass 2S
+Pass 4S Pass Pass
+Pass
+[Play "W"]
+DA
+
+[Event ""]
+{Baker 100Deals 47}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "W:T4.K972.J93.T976 A62.JT3.854.AK85 QJ98.A5.QT62.Q43 K753.Q864.AK7.J2"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{You are South and it is your bid. Decide what you would say, then  on BID. 
+
+You have 13 points so you will definitely open the bidding. You don't open with a 4-card Major and you don't open with a 2-card \C suit. So this is the one distribution where you open a 3-card \D suit. Partner responds 2\C and it is your bid. 
+
+Be very careful! You are tempted to now bid 2\H or 2\S. Don't give in to the temptation. That would be a REVERSE - bidding a second, higher-ranking suit at the 2-level. You should have at least 16 points to reverse. Besides, if you trust partner you don't need to bid either of those suits anyway. If he had a 4-card Major he probably would have shown it on his first bid. No, your next bid is clearly 2NT. Partner raises to 3NT and you pass.
+
+South plays 3NT. West leads the \H2, East wins the \HA and returns the \H5. West takes the \HK and plays the \H7.
+
+West leads the \H2, East wins the \HA and returns the \H5. West takes the \HK and plays the \H7.
+
+Winner count: \S 2 : \H 2 : \D 2 : \C 2 : Total = 8
+
+You are glad the defense started with \Hs, that was a suit you would have had to play yourself. You need one more winner and your first thought may be that the \Ss are going to have to split 3-3. However, that happens only about 40% of the time so you keep looking. There is one more card that might be valuable, the \CJ. If East holds the \CQ then you can make a trick out of the \CJ.
+
+You are already in dummy with the \HJ so you lead a small \C. If East plays low you will play the \CJ which will hold the trick and become your 9th winner. If East plays his \CQ you will have the \CJ for your 9th winner later.
+
+And if East doesn't have the \CQ at all? then you STILL have the possibility of a 3-3 \S split.
+
+}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "E"]
+Pass 1D Pass 2C
+Pass 2NT Pass 3NT
+Pass Pass Pass
+[Play "W"]
+H2
+
+[Event ""]
+{Baker 100Deals 48}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:.AKQT3.9642.T632 QJT82.965.QT.Q74 K7.J74.A753.J985 A96543.82.KJ8.AK"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{You are South and it is your bid. Decide what you would say, then  on BID. 
+
+You open 1\S. West overcalls 2\H and partner bids 4\S.
+
+South plays 4\S. West leads \HA, \HK, \HQ.
+
+Losers: \S 1 : \H 2 : \D 1 : \C 0 : Total = 4
+
+You have already lost the 2 \Hs and you will definitely lose the \D. So you cannot lose a \S as well. When you have 11 cards in a suit missing the King, the recommended play is to play for the drop. But the recommended play shouldn't be used on this hand because you know that East has the \SK. How do you know this? Because West has turned up with 10 points in \Hs, (the A K Q and a fifth one). If he held the \SK as well he would have had 13 points and a good suit and would have opened he bidding. But he didn't open, so he doesn't have the \SK.
+
+Ruff the \H. Play the \D8 to dummy's \DT. If East takes the \DA win his return and enter dummy with the \DQ. When in dummy lead the \SQ and finesse East out of his \SK.
+
+}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "W"]
+Pass Pass Pass 1S
+2H 4S Pass Pass
+Pass
+[Play "W"]
+HA

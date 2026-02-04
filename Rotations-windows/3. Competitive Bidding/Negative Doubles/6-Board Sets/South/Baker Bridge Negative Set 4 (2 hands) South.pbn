@@ -1,0 +1,102 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:57:40 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Negative 19}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:52.KQT97.A83.953 KQT94.A86.95.KT4 A86.J42.762.Q872 J73.53.KQJT4.AJ6"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+It is the sign of a novice to support responder's 1-level response with only 3 of the suit. Very often he will have responded in a 4-card suit and you end up playing in a 7-card fit.
+
+But that is not the case here. If partner had only 4 \Ss he would not have bid the suit, he would have made a Negative Double. Since his \S bid promises 5 it is quite correct for you to support with only 3. So you raise to 2\S and partner bids the game.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 1, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1D 1H 1S Pass
+2S Pass 4S Pass
+Pass Pass
+
+[Event ""]
+{Baker Negative 20}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:JT842.J4.QJ9743. AK75.A983.K86.95 Q.KQ76.T5.AJ7432 963.T52.A2.KQT86"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "2C"]
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+First let's agree on what you DON'T say. You don't say "double" because that would a Negative Double showing at least one 4-card Major. You don't support partner's \Ds with just two of them. You probably don't bid 1NT with no honor in either Major. So you pass. This is called a "Trap Pass". Partner re-opens with a double. What do you say? 
+
+Now you see why it's called a "Trap Pass". When an overcall is followed by two passes Opener should try to find another bid. In particular he should try to double for takeout if he can. That's what East did here, but you converted it to a Penalty Double by passing.}
+[BCFlags "1f"]
+[OriginalRotationBasis "E"]
+[RotationNote "Board 2, chOption: S, chBasis: E, basisKind:Student, nOption:2, nBasis: 1, nRot: 1, useStandardVul: false"]
+[Student "S"]
+[Auction "E"]
+1D 2C Pass Pass
+X Pass Pass Pass

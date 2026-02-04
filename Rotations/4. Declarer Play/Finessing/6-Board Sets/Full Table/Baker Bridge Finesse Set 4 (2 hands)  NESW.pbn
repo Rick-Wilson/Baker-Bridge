@@ -1,0 +1,63 @@
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "1"]
+{Baker Finesse 19}
+[Dealer "W"]
+[Declarer "N"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:Q8.QJ942.95.J972 A76.K75.KJ63.AQ3 KJ953.T6.Q84.T85 T42.A83.AT72.K64"]
+[Auction "W"]
+pass 1NT pass 3NT pass pass pass
+[Result ""]
+{North is to play 3NT. East leads the \S5, West plays the \SQ.
+
+Winners:   \S=1  \H=2  \D=2  \C=3  Total = 8
+
+Before worrying about where that one winner is going to come from you need to decide what to do with the opening lead. A good guideline is to hold up unless you fear a switch. Here, with all other suits well protected you would welcome a switch, so you let West win the \SQ. West then plays the \S8. Do you hold up again?
+
+It probably doesn't matter, but since you cannot possibly win more than T tricks you might just as well hold up again. East wins the \SJ then plays the \S3. West discards a \H on the third \S.
+
+OK, now it is time to figure out where that extra trick is coming from. Not much figuring is needed, it must come from the \D suit. Since you are missing 5 cards including the Queen, the odds favor a finesse over playing for the drop. And, since you have the option of finessing either defender are you going to finesse into the one who can set you or into the safe one?
+
+Silly question. Of course you play the \DK from your hand, then a small \D finessing dummy's \DT, which wins the trick - and the game - and the overtrick.
+
+But in a situation like this you don't play odds. By finessing East you guaranteed making the contract even if the finesse lost because West had no more \Ss. Even a losing \D finesse would have established the one trick you needed.}
+[BCFlags "1f"]
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Play "W"]S5
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "2"]
+{Baker Finesse 20}
+[Dealer "W"]
+[Declarer "E"]
+[Contract "6S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "W:AQJ9.65.AKQ.AQJ5 T842.K9742.853.6 K753.A8.JT6.T943 6.QJT3.9742.K872"]
+[Auction "W"]
+2C pass 2NT pass 3C pass 3S pass 4NT pass 5D pass 6S pass pass pass
+[Result ""]
+{East is to play 6\S after West's Stayman bid. South leads the \HQ.
+
+Losers:   \S=0  \H=1  \D=0  \C=1  Total = 2
+
+This looks like a very simple plan. Since the hands have mirrored distribution there will be no discards anywhere. That means the \CK MUST be in South's hand or you will go down. But is that all there is to it?
+
+If South has \C K x or \C K x x then yes, that's all there is to it. But if he has \C K x x x then you won't have enough entries to your hand unless you take the first \C finesse BEFORE you start on trumps.
+
+So win the \HA and immediately play a \C to dummy's \CJ, which holds the trick. Then pull trumps, (it takes 4 rounds), ending in your hand.
+
+Next play your \CT, putting on the \C5 from dummy when South plays low again. This lets you stay in your hand to play another \C to the \CQ, picking up all four \C tricks and the slam.
+
+But also you had to play to one of dummy's honors first so you could retain that \C5 for letting you stay in your hand to make the third finesse. Bridge is great.}
+[BCFlags "1f"]
+[RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+[Play "W"]HQ
+

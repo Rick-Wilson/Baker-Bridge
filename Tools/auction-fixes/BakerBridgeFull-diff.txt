@@ -1,0 +1,3656 @@
+BBA Validation Differences: BakerBridgeFull
+Generated: 2026-01-24 11:56:59
+================================================================================
+
+Summary: 262/1173 matches (22.3%)
+Mismatches: 911
+Errors: 0
+
+--------------------------------------------------------------------------------
+AUCTION DIFFERENCES
+--------------------------------------------------------------------------------
+
+Board 100Deals-4:
+  Original: 1S Pass 2H Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1S Pass 1NT Pass 2S Pass 4S Pass Pass Pass
+
+Board 100Deals-6:
+  Original: 1NT Pass Pass Pass
+  BBA:      1NT Pass 2C Pass 2H Pass 2NT Pass Pass Pass
+
+Board 100Deals-7:
+  Original: 1H Pass 2H Pass 4H Pass Pass Pass
+  BBA:      1H Pass Pass X 3H Pass Pass Pass
+
+Board 100Deals-9:
+  Original: 1H Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1H Pass 2NT Pass 3H Pass 4H Pass Pass Pass
+
+Board 100Deals-10:
+  Original: 1C Pass 1S Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1C Pass 1S Pass 2S Pass 3C Pass 3D Pass 4D Pass 4S Pass Pass Pass
+
+Board 100Deals-11:
+  Original: Pass 1NT Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      Pass 1NT Pass 2NT Pass Pass Pass
+
+Board 100Deals-12:
+  Original: 1NT Pass 2C Pass 2S Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 2C Pass 2S Pass 3C Pass 3NT Pass Pass Pass
+
+Board 100Deals-13:
+  Original: 1S Pass 1NT Pass 4S Pass Pass Pass
+  BBA:      1S Pass 1NT Pass 2S Pass Pass Pass
+
+Board 100Deals-14:
+  Original: 1NT Pass 3H Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 2D Pass 2H Pass 3NT Pass Pass Pass
+
+Board 100Deals-15:
+  Original: 1H 1S 2H Pass Pass Pass
+  BBA:      1H 1S 3H Pass Pass X Pass 4C Pass Pass Pass
+
+Board 100Deals-18:
+  Original: 1D 1H Pass 4H Pass Pass Pass
+  BBA:      1D 2H Pass 4H Pass Pass Pass
+
+Board 100Deals-19:
+  Original: 1S Pass 3S Pass 4NT Pass 5H Pass 6S Pass Pass Pass
+  BBA:      1S Pass 1NT Pass 3C Pass 3S Pass 4C Pass 4D Pass 4S Pass Pass Pass
+
+Board 100Deals-20:
+  Original: 1D 1S Pass 1NT Pass 3NT Pass Pass Pass
+  BBA:      1D 1H X Pass 1NT Pass 3NT Pass Pass Pass
+
+Board 100Deals-22:
+  Original: 1C Pass 1S Pass 2S Pass Pass Pass
+  BBA:      1C Pass 1S Pass 2S Pass Pass X Pass 3H 3S Pass Pass Pass
+
+Board 100Deals-23:
+  Original: 1D Pass 2C Pass 3NT Pass Pass Pass
+  BBA:      1D Pass 1NT Pass 2NT Pass 3C Pass 3NT Pass Pass Pass
+
+Board 100Deals-24:
+  Original: 1C Pass 1S Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1C Pass 4C Pass Pass Pass
+
+Board 100Deals-25:
+  Original: 1S Pass 2C Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1S Pass 1NT Pass 2S Pass 3S Pass 3NT Pass 4S Pass Pass Pass
+
+Board 100Deals-26:
+  Original: 1NT Pass Pass Pass
+  BBA:      1NT Pass 2C Pass 2S Pass Pass Pass
+
+Board 100Deals-27:
+  Original: 1S Pass 1NT Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1S Pass 1NT Pass 2S Pass 3S Pass 3NT Pass 4S Pass Pass Pass
+
+Board 100Deals-29:
+  Original: Pass 1D Pass 1H Pass 1NT Pass 3NT Pass Pass Pass
+  BBA:      Pass 1D Pass 1H Pass 1NT Pass 3D Pass 3NT Pass Pass Pass
+
+Board 100Deals-31:
+  Original: 1C Pass 1H Pass 1S Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1C Pass 1H Pass 1S Pass 4S Pass Pass Pass
+
+Board 100Deals-33:
+  Original: Pass 1C Pass 3C Pass 5C Pass Pass Pass
+  BBA:      Pass 1C X XX 2S 3C 3S 4C 4S X Pass Pass Pass
+
+Board 100Deals-34:
+  Original: Pass 1H Pass 3H Pass 4NT Pass 5C Pass 5H Pass Pass Pass
+  BBA:      Pass 1H Pass 3C Pass 4NT Pass 5D Pass 5H Pass Pass Pass
+
+Board 100Deals-35:
+  Original: 1D Pass 2D Pass 3NT Pass Pass Pass
+  BBA:      1D Pass 1NT Pass 2NT Pass 3NT Pass Pass Pass
+
+Board 100Deals-36:
+  Original: 1NT Pass 4S Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass 4S Pass Pass Pass
+
+Board 100Deals-37:
+  Original: 1D Pass 1S Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1D Pass 1S Pass 2S Pass 3S Pass 4S Pass Pass Pass
+
+Board 100Deals-38:
+  Original: 1NT 2S 2NT Pass 3NT Pass Pass Pass
+  BBA:      1NT 2S Pass Pass Pass
+
+Board 100Deals-39:
+  Original: 2S Pass Pass Pass
+  BBA:      2S Pass Pass X Pass 3H Pass Pass Pass
+
+Board 100Deals-40:
+  Original: 3H Pass Pass Pass
+  BBA:      4H Pass Pass Pass
+
+Board 100Deals-41:
+  Original: 1D Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1D Pass 2C Pass 2D Pass 2NT Pass 3NT Pass Pass Pass
+
+Board 100Deals-42:
+  Original: 1H Pass 2H Pass 4H Pass Pass Pass
+  BBA:      1H 1S 2H Pass 4H Pass Pass Pass
+
+Board 100Deals-43:
+  Original: 1NT Pass 2C Pass 2D Pass 2H Pass 3H Pass Pass Pass
+  BBA:      1NT Pass 2D Pass 2H Pass 2S Pass 4H Pass Pass Pass
+
+Board 100Deals-44:
+  Original: Pass 1D Pass 1H Pass 2NT Pass 3D Pass 3NT Pass Pass Pass
+  BBA:      Pass 1D 2S X 3S 3NT Pass Pass Pass
+
+Board 100Deals-45:
+  Original: 1S Pass 1NT Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1S Pass 1NT Pass 2S Pass 3S Pass 4C Pass 4S Pass Pass Pass
+
+Board 100Deals-46:
+  Original: 1D X Pass 2D Pass 2H Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1D X Pass 2D X Pass Pass 2S Pass 3D Pass 4S Pass Pass Pass
+
+Board 100Deals-47:
+  Original: Pass 1D Pass 2C Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      Pass 1D Pass 2NT Pass 3H Pass 3NT Pass Pass Pass
+
+Board 100Deals-48:
+  Original: Pass Pass Pass 1S 2H 4S Pass Pass Pass
+  BBA:      Pass Pass Pass 1S Pass 2S Pass 3S Pass 4S Pass Pass Pass
+
+Board 100Deals-49:
+  Original: 1H Pass 2H Pass 3C Pass 4H Pass Pass Pass
+  BBA:      1H 1S 2S Pass 2NT Pass 3C Pass 3D Pass 3H Pass 4D Pass 4H Pass Pass Pass
+
+Board 100Deals-50:
+  Original: 1D Pass 1S Pass 2S Pass 3C Pass 3D Pass 4NT Pass 5H Pass 6S Pass Pass Pass
+  BBA:      1D Pass 1S 2D 2S 4H 4S Pass Pass Pass
+
+Board 100Deals-52:
+  Original: 1S Pass 2S Pass 3D Pass 3S Pass Pass Pass
+  BBA:      1S Pass Pass Pass
+
+Board 100Deals-53:
+  Original: 1C Pass 1D Pass 1NT Pass 3NT Pass Pass Pass
+  BBA:      1C Pass 1D Pass 1NT Pass 2D Pass 3NT Pass Pass Pass
+
+Board 100Deals-55:
+  Original: 1H Pass 4H Pass Pass Pass Pass
+  BBA:      1H X 2H Pass Pass X 3H Pass Pass Pass
+
+Board 100Deals-57:
+  Original: 3H 3S 4H Pass Pass Pass
+  BBA:      3H 3S 4H X Pass Pass Pass
+
+Board 100Deals-58:
+  Original: 2C Pass 2NT Pass 4C Pass 4D Pass 6NT Pass Pass Pass
+  BBA:      2C Pass 2NT Pass 3D Pass 3H Pass 3NT Pass 4D Pass 4S Pass 6D Pass Pass Pass
+
+Board 100Deals-60:
+  Original: 1S Pass 2H Pass 2S Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1S Pass 1NT Pass 2S Pass 4S Pass Pass Pass
+
+Board 100Deals-62:
+  Original: 1C Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1C Pass 1D 1H 1S Pass 3NT Pass Pass Pass
+
+Board 100Deals-63:
+  Original: 1D Pass 1H Pass 3D Pass 4D Pass 5D Pass Pass Pass
+  BBA:      1D Pass 1H Pass 3D Pass 3NT Pass 4D Pass 5D Pass Pass Pass
+
+Board 100Deals-64:
+  Original: 2C Pass 2D Pass 2S Pass 3S Pass 4NT Pass 5D Pass 6S Pass Pass Pass
+  BBA:      2C Pass 2D Pass 2S Pass 3S Pass 3NT Pass 4D Pass 4H Pass 4NT Pass 5D Pass 5H Pass 6C Pass 6S Pass Pass Pass
+
+Board 100Deals-66:
+  Original: 1C Pass 1H Pass 2H Pass 4H Pass Pass Pass
+  BBA:      1C Pass 1H Pass 2H Pass 2S Pass 3C Pass 4H Pass Pass Pass
+
+Board 100Deals-67:
+  Original: 2H Pass 2NT Pass 3D Pass 6NT Pass Pass Pass
+  BBA:      2H Pass 2NT Pass 3S Pass 4H Pass Pass Pass
+
+Board 100Deals-68:
+  Original: 1H 2D 2H 2S Pass Pass 3H Pass Pass Pass
+  BBA:      1H 2D 3D Pass 4H Pass Pass Pass
+
+Board 100Deals-69:
+  Original: 2C Pass 3C Pass 4NT Pass 5D Pass 5NT Pass 6D Pass 6NT Pass Pass Pass
+  BBA:      2C Pass 3C Pass 4C Pass 4D Pass 4H Pass 4NT Pass 5C Pass 6C Pass Pass Pass
+
+Board 100Deals-70:
+  Original: 1C Pass 5C Pass Pass Pass
+  BBA:      1C Pass 4C Pass 5C Pass Pass Pass
+
+Board 100Deals-71:
+  Original: 1H Pass 2H Pass 3D Pass 4H Pass Pass Pass
+  BBA:      1H X 2H Pass 3H Pass Pass Pass
+
+Board 100Deals-72:
+  Original: 1H X Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1H X Pass 1S 2H 2S Pass 4S Pass Pass Pass
+
+Board 100Deals-73:
+  Original: 1H Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1H Pass 3C Pass 3H Pass Pass Pass
+
+Board 100Deals-74:
+  Original: 1H Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1H Pass 3C Pass 4H Pass Pass Pass
+
+Board 100Deals-75:
+  Original: 1NT Pass 2C Pass 2S Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 3NT Pass Pass Pass
+
+Board 100Deals-76:
+  Original: 1S Pass 2S X 4S Pass Pass Pass
+  BBA:      1S Pass Pass 2H 3S Pass 4H Pass 4S Pass Pass Pass
+
+Board 100Deals-77:
+  Original: 1S Pass 2S Pass 3H Pass 4S Pass Pass Pass
+  BBA:      1S Pass 2S Pass 4S Pass Pass Pass
+
+Board 100Deals-78:
+  Original: 1S Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1S X 2NT Pass 4S Pass Pass Pass
+
+Board 100Deals-80:
+  Original: Pass 1NT Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      Pass 1NT Pass 2NT Pass Pass Pass
+
+Board 100Deals-81:
+  Original: 1D 1H 1S 2H 2S 4H Pass Pass Pass
+  BBA:      1D 1H 1S 2H 3S 4H X Pass Pass Pass
+
+Board 100Deals-82:
+  Original: 1S Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1S Pass 3D Pass 3NT Pass 4S Pass Pass Pass
+
+Board 100Deals-83:
+  Original: 1H Pass 2D Pass 2H Pass 4H Pass Pass Pass
+  BBA:      1H Pass 2D Pass 2NT Pass 4H Pass Pass Pass
+
+Board 100Deals-84:
+  Original: 1S Pass 1NT Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1S Pass 1NT Pass 2S Pass 3S Pass 3NT Pass 4S Pass Pass Pass
+
+Board 100Deals-85:
+  Original: 2D Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      2D Pass 2NT Pass 3NT Pass 4D Pass Pass Pass
+
+Board 100Deals-86:
+  Original: 1H 1S Pass Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1H 1S X Pass 3H Pass 4H Pass Pass Pass
+
+Board 100Deals-88:
+  Original: 1H Pass 1S Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1H Pass 1S Pass 2C Pass 2H Pass 4H Pass Pass Pass
+
+Board 100Deals-89:
+  Original: 3H Pass 4H Pass Pass Pass
+  BBA:      3H X 4H Pass Pass Pass
+
+Board 100Deals-90:
+  Original: 1NT Pass 4NT Pass 6NT Pass Pass Pass
+  BBA:      1NT Pass 4NT Pass Pass Pass
+
+Board 100Deals-91:
+  Original: 1H Pass 2H Pass 4H Pass Pass Pass
+  BBA:      1H Pass Pass X 3H Pass Pass Pass
+
+Board 100Deals-92:
+  Original: 1S Pass 2C Pass 2D Pass 4S Pass Pass Pass
+  BBA:      1S Pass 2NT Pass 3C Pass 3S Pass 4S Pass Pass Pass
+
+Board 100Deals-93:
+  Original: 1S Pass 2H Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1S Pass 2D Pass 2S Pass 4S Pass Pass Pass
+
+Board 100Deals-94:
+  Original: 1H Pass 2H Pass 3C Pass 4H Pass Pass Pass
+  BBA:      1H Pass 2H Pass 4H Pass Pass Pass
+
+Board 100Deals-96:
+  Original: 2C Pass 2D Pass 2S Pass 4S Pass Pass Pass
+  BBA:      2C Pass 2D Pass 2NT Pass 3NT Pass Pass Pass
+
+Board 100Deals-97:
+  Original: 4H Pass Pass Pass
+  BBA:      1H Pass Pass X 3H Pass Pass Pass
+
+Board 100Deals-99:
+  Original: 1NT Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 3NT Pass Pass Pass
+
+Board 100Deals-100:
+  Original: 1S Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1S Pass Pass 2D 3D Pass 3S Pass Pass Pass
+
+Board 100NT-2:
+  Original: 1NT Pass 2H Pass 2S Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass 3S Pass 4S Pass Pass Pass
+
+Board 100NT-3:
+  Original: 1NT Pass 2C Pass 2D Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 2C Pass 2D Pass 3D Pass 3NT Pass Pass Pass
+
+Board 100NT-5:
+  Original: 1NT Pass 2H Pass 3S Pass 4NT Pass 5D Pass 6S Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass 3H Pass 4S Pass 4NT Pass 5C Pass 6S Pass Pass Pass
+
+Board 100NT-6:
+  Original: 1NT Pass 2D Pass 2H Pass 4H Pass Pass Pass
+  BBA:      1NT Pass 2D Pass 2H X XX 2S 3H Pass 4H Pass Pass Pass
+
+Board 100NT-7:
+  Original: 1NT Pass 2C Pass 2S Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 3NT Pass Pass Pass
+
+Board 100NT-8:
+  Original: 1NT Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 3NT Pass Pass Pass
+
+Board 100NT-9:
+  Original: 2NT Pass 3C Pass 3D Pass 4D Pass 5D Pass Pass Pass
+  BBA:      2NT Pass 3C Pass 3D Pass 4D Pass 5D Pass 6D Pass Pass Pass
+
+Board 100NT-11:
+  Original: 1NT Pass 3C Pass 4C Pass 6C Pass Pass Pass
+  BBA:      1NT Pass 3NT Pass Pass Pass
+
+Board 100NT-14:
+  Original: 1NT 2H X Pass Pass Pass
+  BBA:      1NT 2H Pass Pass Pass
+
+Board 100NT-15:
+  Original: 1NT Pass 4NT Pass 6NT Pass Pass Pass
+  BBA:      1NT Pass 6NT Pass Pass Pass
+
+Board 100NT-17:
+  Original: 1NT Pass 2C Pass 2S Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 2C Pass 2S Pass 3NT Pass Pass Pass
+
+Board 100NT-19:
+  Original: 1NT Pass 2C Pass 2D Pass 2H Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 2D Pass 2H Pass 2S Pass Pass Pass
+
+Board 100NT-20:
+  Original: 2NT Pass 3H Pass 3S Pass 4S Pass Pass Pass
+  BBA:      2NT Pass 3H Pass 3S Pass Pass Pass
+
+Board 100NT-21:
+  Original: 1NT Pass 2D Pass 2H Pass 2NT Pass Pass Pass
+  BBA:      1NT Pass 2D Pass 2H Pass Pass Pass
+
+Board 100NT-24:
+  Original: 1NT Pass 2C Pass 2D Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 2C Pass 2D Pass 2NT Pass Pass Pass
+
+Board 100NT-27:
+  Original: 1NT Pass 2S Pass 3C Pass Pass Pass
+  BBA:      1NT Pass Pass Pass
+
+Board 100NT-28:
+  Original: 1NT Pass 2H Pass 3S Pass 6S Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass 4NT Pass 6S Pass Pass Pass
+
+Board 100NT-29:
+  Original: 1NT 2H 3NT Pass Pass Pass
+  BBA:      1NT 2H 3C Pass 3NT Pass Pass Pass
+
+Board 100NT-32:
+  Original: Pass 1NT Pass 2S Pass 3C Pass Pass Pass
+  BBA:      Pass 1NT Pass Pass Pass
+
+Board 100NT-33:
+  Original: 2NT Pass 4NT Pass 6NT Pass Pass Pass
+  BBA:      2NT Pass 6NT Pass Pass Pass
+
+Board 100NT-34:
+  Original: 1NT Pass 2C Pass 2S Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 2C Pass 2S Pass 3NT Pass Pass Pass
+
+Board 100NT-35:
+  Original: 1H 1NT Pass 3NT Pass Pass Pass
+  BBA:      1H 2D Pass 3NT Pass Pass Pass
+
+Board 100NT-39:
+  Original: 1NT Pass 2C Pass 2D Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 2C Pass 2D Pass 3C Pass 3NT Pass Pass Pass
+
+Board 100NT-40:
+  Original: 1NT Pass 2D Pass 2H Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass 4H Pass 4S Pass Pass Pass
+
+Board 100NT-42:
+  Original: 2NT Pass 3C Pass 3D Pass 3NT Pass Pass Pass
+  BBA:      1D Pass 1H Pass 2NT Pass Pass Pass
+
+Board 100NT-43:
+  Original: 2NT Pass 3D Pass 3H Pass 3NT Pass Pass Pass
+  BBA:      2NT Pass 3D Pass 3H Pass 4H Pass Pass Pass
+
+Board 100NT-45:
+  Original: 2NT Pass 4NT Pass 6NT Pass Pass Pass
+  BBA:      2NT Pass 3C Pass 3D Pass 6NT Pass Pass Pass
+
+Board 100NT-46:
+  Original: 1NT Pass 2H Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass 2NT Pass 4S Pass Pass Pass
+
+Board 100NT-48:
+  Original: 1NT 2H 3C Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 3NT Pass Pass Pass
+
+Board 100NT-52:
+  Original: 1NT Pass 2C Pass 2H Pass 6H Pass Pass Pass
+  BBA:      1NT Pass 2C Pass 2H Pass 3S Pass 4H Pass 4NT Pass 5H Pass 5NT Pass 6D Pass 6H Pass Pass Pass
+
+Board 100NT-53:
+  Original: 1NT Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 3NT Pass Pass Pass
+
+Board 100NT-54:
+  Original: 1NT Pass 4C Pass 4S Pass 6H Pass Pass Pass
+  BBA:      1NT Pass 2D Pass 2H Pass 3C Pass 4H Pass 4NT Pass 5H Pass 5NT Pass 6D Pass 7H Pass Pass Pass
+
+Board 100NT-55:
+  Original: 1NT 2D 2NT Pass 3C Pass 3NT Pass Pass Pass
+  BBA:      1NT 2D 3C Pass 3NT Pass Pass Pass
+
+Board 100NT-57:
+  Original: 1NT Pass 2S Pass 3C Pass 3D Pass Pass Pass
+  BBA:      1NT Pass Pass Pass
+
+Board 100NT-58:
+  Original: 1NT Pass 2H Pass 2S Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass Pass Pass
+
+Board 100NT-59:
+  Original: 2NT Pass 3H Pass 4S Pass 6S Pass Pass Pass
+  BBA:      2NT Pass 3H Pass 3S Pass 6NT Pass Pass Pass
+
+Board 100NT-63:
+  Original: 1NT Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 3NT Pass Pass Pass
+
+Board 100NT-66:
+  Original: 2NT Pass 3C Pass 3H Pass 6H Pass Pass Pass
+  BBA:      2NT Pass 3C Pass 3H Pass 3S Pass 4H Pass 4NT Pass 5D Pass 5S Pass 6D Pass 6H Pass Pass Pass
+
+Board 100NT-69:
+  Original: 1NT Pass 2D Pass 3H Pass 4NT Pass 5S Pass 6H all Pass
+  BBA:      1NT Pass 2D Pass 2H Pass 4H Pass Pass Pass
+
+Board 100NT-71:
+  Original: 1NT Pass 2C Pass 2D Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 2C Pass 2D Pass 3NT Pass Pass Pass
+
+Board 100NT-72:
+  Original: 1NT Pass 2C Pass 2H Pass 4NT Pass 5H Pass 6H all Pass
+  BBA:      1NT Pass 2C Pass 2H Pass 3S Pass 4C Pass 4D Pass 4NT Pass 5D Pass 5S Pass 6H Pass Pass Pass
+
+Board 100NT-73:
+  Original: 1NT 2S 2NT Pass 3C Pass 3H Pass Pass Pass
+  BBA:      1NT 2S X Pass 3H Pass Pass 3S 4H Pass Pass Pass
+
+Board 100NT-74:
+  Original: 1NT Pass 2C Pass 2D Pass 3S Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass 3H Pass 3NT Pass Pass Pass
+
+Board 100NT-75:
+  Original: 1NT 2H 2NT Pass 3C Pass 3H Pass 3NT Pass Pass Pass
+  BBA:      1NT 2H X Pass 2S Pass 3NT Pass Pass Pass
+
+Board 100NT-76:
+  Original: 2S Pass Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      2S Pass Pass 2NT Pass Pass Pass
+
+Board 100NT-77:
+  Original: 1NT Pass 2H Pass 2S Pass 3S Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass Pass Pass
+
+Board 100NT-79:
+  Original: 1NT Pass 2H Pass 2S Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass Pass Pass
+
+Board 100NT-80:
+  Original: 1NT 2H 2NT Pass 3C Pass 3H Pass 3S Pass 4S all Pass
+  BBA:      1NT 2H X Pass 2S Pass 3NT Pass 4S Pass Pass Pass
+
+Board 100NT-81:
+  Original: 1NT Pass 3D Pass 4D Pass 4H Pass 4S Pass 6D Pass Pass Pass
+  BBA:      1NT Pass 3NT Pass Pass Pass
+
+Board 100NT-86:
+  Original: 1NT Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 2NT Pass Pass Pass
+
+Board 100NT-88:
+  Original: 1NT Pass 2H Pass 2S Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass 4H Pass Pass Pass
+
+Board 100NT-89:
+  Original: 1NT Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass Pass Pass
+
+Board 100NT-90:
+  Original: 1S Pass Pass 1NT Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1S Pass Pass X Pass 2C Pass 3C Pass 3D Pass 3NT Pass Pass Pass
+
+Board 100NT-92:
+  Original: 1NT Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 4C Pass Pass Pass
+
+Board 100NT-94:
+  Original: 1NT Pass 2C Pass 2D Pass 4H Pass Pass Pass
+  BBA:      1NT Pass 2D Pass 2H Pass 4H Pass Pass Pass
+
+Board 100NT-95:
+  Original: 1NT 2S 3S Pass 3NT Pass Pass Pass
+  BBA:      1NT 2S X Pass 3C Pass 3D Pass 3NT Pass Pass Pass
+
+Board 100NT-96:
+  Original: 1NT Pass 2H Pass 2S Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass 4S Pass Pass Pass
+
+Board 100NT-97:
+  Original: 2NT Pass 3D Pass 4H Pass 4NT Pass 5S Pass 6H all Pass
+  BBA:      2NT Pass 3D Pass 3H Pass 3NT Pass 4H Pass 4NT Pass 5D Pass 6H Pass Pass Pass
+
+Board 100NT-98:
+  Original: 2NT Pass 4C Pass 4S Pass 7NT Pass Pass Pass
+  BBA:      2NT Pass 6NT Pass Pass Pass
+
+Board 100NT-99:
+  Original: 1NT Pass 2H Pass 2S Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass 4H Pass Pass Pass
+
+Board 2Club-3:
+  Original: 2C Pass 2D Pass 3NT Pass Pass Pass
+  BBA:      3NT Pass Pass Pass
+
+Board 2Club-4:
+  Original: 2C Pass 2D Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      2C Pass 2D Pass 2NT Pass 3C X 3D Pass 3NT Pass Pass Pass
+
+Board 2Club-5:
+  Original: 2C Pass 2D Pass 2H Pass 2NT Pass 4H Pass Pass Pass
+  BBA:      2C Pass 2D Pass 2H Pass 3NT Pass 4H Pass Pass Pass
+
+Board 2Club-6:
+  Original: 2C Pass 2D Pass 2H Pass 3D Pass 3NT Pass Pass Pass
+  BBA:      2C Pass 3D Pass 3H Pass 3NT Pass Pass Pass
+
+Board 2Club-7:
+  Original: 2C Pass 2D Pass 2S Pass 4S Pass Pass Pass
+  BBA:      2C Pass 2D Pass 2S Pass 3S Pass 4S Pass Pass Pass
+
+Board 2Club-9:
+  Original: 2C Pass 2D Pass 2H Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      2C Pass 2D Pass 2NT Pass 3C Pass 3H Pass 3NT Pass Pass Pass
+
+Board 2Club-10:
+  Original: 2C Pass 2NT Pass 3NT Pass 6NT Pass Pass Pass
+  BBA:      2C Pass 2NT Pass 3NT Pass 4NT Pass 6NT Pass Pass Pass
+
+Board 2Club-11:
+  Original: 2C Pass 2D Pass 2S Pass 3C Pass 3H Pass 3S Pass Pass Pass
+  BBA:      1S Pass Pass X 2H 3D 3S Pass 4S Pass Pass Pass
+
+Board 2Club-12:
+  Original: 2C Pass 2D Pass 3C Pass 3D Pass 3NT Pass Pass Pass
+  BBA:      2C Pass 2D Pass 3C Pass 4C Pass Pass Pass
+
+Board 2Club-13:
+  Original: 2C Pass 2H Pass 3H Pass 4H Pass 4NT Pass 5D Pass 6H Pass Pass Pass
+  BBA:      2C Pass 3H Pass 4NT Pass 5C Pass 6H Pass Pass Pass
+
+Board 2Club-14:
+  Original: 2C Pass 2S Pass 3S Pass 4S Pass Pass Pass
+  BBA:      2C Pass 2S Pass 3S Pass 4NT Pass 5D Pass 6S Pass Pass Pass
+
+Board 2Club-15:
+  Original: 2C Pass 2NT Pass 3NT Pass 6NT Pass Pass Pass
+  BBA:      2C Pass 2NT Pass 3NT Pass 4NT Pass 6NT Pass Pass Pass
+
+Board 2Club-16:
+  Original: 2C Pass 2NT Pass 3NT Pass 7NT Pass Pass Pass
+  BBA:      2C Pass 2NT Pass 4NT Pass 7NT Pass Pass Pass
+
+Board 2Club-17:
+  Original: 2C Pass 2D Pass 2H Pass 3H Pass 4C Pass 4D Pass 6H all Pass
+  BBA:      2C Pass 2D Pass 2H Pass 3H Pass 3NT Pass 4NT Pass 5C Pass 6H Pass Pass Pass
+
+Board 2Club-18:
+  Original: 2C Pass 2D Pass 2H Pass 2S Pass 2NT Pass 3S Pass 4S all Pass
+  BBA:      2C Pass 3S Pass 4S Pass Pass Pass
+
+Board 2Club-19:
+  Original: 2C Pass 2S Pass 4NT Pass 5H Pass 7NT Pass Pass Pass
+  BBA:      3NT Pass 6NT Pass Pass Pass
+
+Board 2Club-20:
+  Original: 2C Pass 2D Pass 2S Pass 3H Pass 3NT Pass Pass Pass
+  BBA:      2C Pass 2D Pass 2NT Pass 3D Pass 3H Pass 4H Pass Pass Pass
+
+Board 2over1-1:
+  Original: 1H Pass 2D Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1H Pass 1NT Pass 2C Pass 2NT Pass 3NT Pass Pass Pass
+
+Board 2over1-2:
+  Original: 1H Pass 2D Pass 2H Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1H 2S 3D Pass 3H Pass 3NT Pass Pass Pass
+
+Board 2over1-3:
+  Original: 1H Pass 2D Pass 2H Pass 3H Pass 4C Pass 4D Pass 4NT Pass 5H Pass 6H Pass Pass
+  BBA:      1H Pass 2D Pass 3H Pass 4NT Pass 5S Pass 6H Pass Pass Pass
+
+Board 2over1-5:
+  Original: 1S Pass 2C Pass 2H Pass 2NT Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1S Pass 2C Pass 2H Pass 3NT Pass Pass Pass
+
+Board 2over1-6:
+  Original: Pass 1S Pass 2H Pass 3H Pass 4H Pass Pass Pass
+  BBA:      Pass 1S Pass 2H Pass 4H Pass Pass Pass
+
+Board 2over1-8:
+  Original: 1H Pass 2D Pass 2S Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1H Pass 2D Pass 2NT Pass 3NT Pass Pass Pass
+
+Board 2over1-9:
+  Original: 1S Pass 2C Pass 2H Pass 3D Pass 3NT Pass Pass Pass
+  BBA:      1S Pass 1NT Pass 2H Pass 2NT Pass Pass Pass
+
+Board 2over1-10:
+  Original: 1S Pass 2H Pass 3H Pass 3S Pass 4C Pass 4NT Pass 5H Pass 6H all Pass
+  BBA:      1S Pass 2H 2NT 4NT Pass 5H Pass 6H Pass Pass Pass
+
+Board 2over1-11:
+  Original: Pass 1H Pass 2C Pass 2NT Pass 3NT Pass 4NT Pass 6NT Pass Pass Pass
+  BBA:      Pass 1H Pass 2C Pass 3NT Pass 6NT Pass Pass Pass
+
+Board 2over1-12:
+  Original: Pass 1S Pass 2D Pass 2S Pass 4S Pass Pass Pass
+  BBA:      Pass 1S Pass 1NT Pass 2S Pass 4S Pass Pass Pass
+
+Board 2over1-13:
+  Original: Pass 1S Pass 2H Pass 3H Pass 4NT Pass 5H Pass 5NT Pass 6C Pass 6H Pass Pass Pass
+  BBA:      Pass 1S 2NT 3H Pass 4H Pass 4NT Pass 5H Pass 5NT Pass 6C Pass 6H Pass Pass Pass
+
+Board 2over1-14:
+  Original: 1H Pass 2D Pass 2H Pass 4H Pass Pass Pass
+  BBA:      1H Pass 2D Pass 3H Pass 4H Pass Pass Pass
+
+Board 2over1-15:
+  Original: 1S Pass 1NT Pass 2C Pass 2H Pass Pass Pass
+  BBA:      1S Pass 3H Pass 4H Pass Pass Pass
+
+Board 2over1-16:
+  Original: 1S Pass 1NT Pass 2C Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1S Pass 1NT Pass 3C Pass 4NT Pass 5C Pass 6C Pass Pass Pass
+
+Board 2over1-17:
+  Original: 1H Pass 1NT Pass 2H Pass Pass Pass
+  BBA:      1H X Pass 2S Pass Pass Pass
+
+Board 2over1-18:
+  Original: 1S Pass 2D Pass 3D Pass 4S Pass Pass Pass
+  BBA:      1S Pass 1NT Pass 2D Pass 4S Pass Pass Pass
+
+Board 2over1-20:
+  Original: 1S Pass 2D Pass 2S Pass 3S Pass 4C Pass 4S all Pass
+  BBA:      1S Pass 2D Pass 3S Pass 4NT Pass 5H Pass 5S Pass Pass Pass
+
+Board 2over1-22:
+  Original: 1S Pass 2D Pass 2H Pass 3C Pass 3NT Pass Pass Pass
+  BBA:      1S Pass 2D Pass 2H Pass 3NT Pass Pass Pass
+
+Board 2over1-23:
+  Original: Pass Pass 1S Pass 2D Pass 2H Pass 2S Pass Pass Pass
+  BBA:      Pass Pass 1S Pass 2C Pass 2D Pass 2S Pass Pass Pass
+
+Board 2over1-25:
+  Original: 1S Pass 2H Pass 3H Pass 4C Pass 4D Pass 4NT Pass 5H Pass 5NT Pass 6D Pass 6H all Pass
+  BBA:      1S Pass 2H Pass 4H Pass 4NT Pass 5H Pass Pass Pass
+
+Board 2over1-26:
+  Original: 1S Pass 1NT Pass 2S Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1S Pass 1NT Pass 2S Pass 4S Pass Pass Pass
+
+Board 2over1-27:
+  Original: 1S Pass 2C Pass 2H Pass 2NT Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1S Pass 2C Pass 2H Pass 3NT Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set1-5:
+  Original: Pass 1NT Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      Pass 1NT Pass 3NT Pass Pass Pass
+
+Board Bidpractice/Set1-6:
+  Original: 1NT Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 3NT Pass Pass Pass
+
+Board Bidpractice/Set1-7:
+  Original: Pass 1NT Pass 2NT Pass Pass Pass
+  BBA:      Pass 1NT Pass 3NT Pass Pass Pass
+
+Board Bidpractice/Set1-9:
+  Original: Pass 1NT Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      Pass 1NT Pass 3NT Pass Pass Pass
+
+Board Bidpractice/Set1-10:
+  Original: 2NT Pass 3NT Pass Pass Pass
+  BBA:      2NT Pass 3C Pass 3D Pass 3NT Pass Pass Pass
+
+Board Bidpractice/Set1-11:
+  Original: Pass 1NT Pass 4NT Pass
+  BBA:      Pass 1NT Pass 4NT Pass Pass Pass
+
+Board Bidpractice/Set1-12:
+  Original: 1NT Pass 2NT Pass Pass Pass
+  BBA:      1NT Pass 3NT Pass Pass Pass
+
+Board Bidpractice/Set1-13:
+  Original: Pass 1NT Pass 6NT Pass
+  BBA:      Pass 1NT Pass 6NT Pass Pass Pass
+
+Board Bidpractice/Set1-16:
+  Original: 1NT Pass 6NT Pass Pass Pass
+  BBA:      1NT Pass 4NT Pass Pass Pass
+
+Board Bidpractice/Set1-18:
+  Original: Pass Pass 1NT Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      Pass Pass 1NT Pass 3NT Pass Pass Pass
+
+Board Bidpractice/Set1-19:
+  Original: Pass 1NT Pass 4NT Pass 6NT Pass Pass Pass
+  BBA:      Pass 1NT Pass 3NT Pass Pass Pass
+
+Board Bidpractice/Set1-24:
+  Original: Pass Pass 1NT Pass Pass Pass
+  BBA:      Pass Pass 1NT Pass 2NT Pass 3NT Pass Pass Pass
+
+Board Bidpractice/Set10-1:
+  Original: 1H 1S Pass Pass Pass
+  BBA:      1H 1S 2D 3S 4H Pass Pass Pass
+
+Board Bidpractice/Set10-2:
+  Original: 1H 1S Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1H 1S 2H 2S Pass 3S Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set10-3:
+  Original: 1H 1S Pass 3S Pass Pass Pass
+  BBA:      1H 1S Pass 2H 3C X 3H 4S Pass Pass Pass
+
+Board Bidpractice/Set10-5:
+  Original: 1S X Pass 2C Pass Pass Pass
+  BBA:      1S X XX Pass Pass Pass
+
+Board Bidpractice/Set10-6:
+  Original: 1C X Pass 2C Pass 2H Pass 2S Pass 4S Pass Pass Pass
+  BBA:      Pass 1D Pass 1S Pass 2S Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set10-7:
+  Original: 1H Pass Pass X Pass 2C Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1H Pass Pass X Pass 2C 2H 2S Pass 3H Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set10-8:
+  Original: 1S 1NT Pass 2C Pass 2D Pass 3NT Pass Pass Pass
+  BBA:      Pass 1C Pass 1H 1S X 2S 3S Pass 3NT Pass Pass Pass
+
+Board Bidpractice/Set10-9:
+  Original: 1D X Pass 1S Pass 1NT Pass Pass Pass
+  BBA:      1D X Pass 1H Pass 1NT Pass Pass Pass
+
+Board Bidpractice/Set10-11:
+  Original: 1H 1S Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1H 1S Pass 2H Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set10-12:
+  Original: 1D X Pass 4H Pass Pass Pass
+  BBA:      1D X Pass 2D X Pass Pass 2H Pass 3D Pass 4H Pass Pass Pass
+
+Board Bidpractice/Set10-13:
+  Original: 1D X Pass 1NT Pass 3NT Pass Pass Pass
+  BBA:      Pass 1C Pass 1D Pass 2NT Pass 3NT Pass Pass Pass
+
+Board Bidpractice/Set10-15:
+  Original: 1S X Pass 2S Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1S X Pass 3NT Pass Pass Pass
+
+Board Bidpractice/Set10-16:
+  Original: 1H X Pass 2C Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1H 1S Pass Pass X 3S Pass 4H Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set10-17:
+  Original: 1D Pass Pass X Pass 2D Pass 2H Pass 2S Pass 3C Pass 3NT Pass Pass Pass
+  BBA:      Pass 1C Pass 1H Pass 1S Pass 2D Pass 3C Pass 3NT Pass Pass Pass
+
+Board Bidpractice/Set10-18:
+  Original: 1S Pass Pass Pass
+  BBA:      1S Pass 1NT Pass 2C Pass Pass Pass
+
+Board Bidpractice/Set10-19:
+  Original: 1C 3S Pass Pass Pass
+  BBA:      1C 3S Pass Pass X Pass 4H Pass Pass Pass
+
+Board Bidpractice/Set10-20:
+  Original: 1C 1S Pass Pass Pass
+  BBA:      1C 1S X Pass 2H Pass Pass Pass
+
+Board Bidpractice/Set10-21:
+  Original: 1S Pass Pass Pass
+  BBA:      1S Pass 1NT Pass 2H Pass 2S Pass Pass Pass
+
+Board Bidpractice/Set10-23:
+  Original: 1C 1S Pass 4S Pass Pass Pass
+  BBA:      1C 1S Pass 2C X XX Pass 2D Pass 2S Pass 3H Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set10-24:
+  Original: 1D 1H Pass 1NT Pass Pass Pass
+  BBA:      1D 1H Pass Pass X Pass 1S Pass Pass Pass
+
+Board Bidpractice/Set11-1:
+  Original: 1C 1D X Pass 1S Pass 4S Pass Pass Pass
+  BBA:      1C 3D X Pass 3S Pass 4D Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set11-2:
+  Original: 1C 1D X Pass 1NT Pass 3NT Pass Pass Pass
+  BBA:      1C 1D X 2D Pass Pass Pass
+
+Board Bidpractice/Set11-3:
+  Original: 1C 1D 1S Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1C 1D 1S Pass 2S 3D 3S Pass Pass Pass
+
+Board Bidpractice/Set11-4:
+  Original: 1S 2H X Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1S Pass 2C Pass 2NT Pass 3NT Pass Pass Pass
+
+Board Bidpractice/Set11-5:
+  Original: 1C 1S X Pass 4H Pass Pass Pass
+  BBA:      1C 1S X 3S 4H Pass Pass Pass
+
+Board Bidpractice/Set11-6:
+  Original: 1C 1H X Pass 1NT Pass 2C Pass Pass Pass
+  BBA:      1C 1H X Pass 1NT 2H Pass Pass Pass
+
+Board Bidpractice/Set11-7:
+  Original: 1C 1H 1S Pass 2S Pass Pass Pass
+  BBA:      1C 1H 1S 2H 2S Pass Pass Pass
+
+Board Bidpractice/Set11-9:
+  Original: Pass 1H 1S 3H Pass Pass Pass
+  BBA:      Pass 1H 1S 3H Pass Pass X Pass 3S Pass Pass Pass
+
+Board Bidpractice/Set11-10:
+  Original: 1D 1S Pass 2D Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1D 1S Pass 2D X XX Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set11-11:
+  Original: 1D 1S Pass 2D Pass 2S Pass Pass Pass
+  BBA:      1D 1S Pass 2D X Pass Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set11-12:
+  Original: 1H 1S 2S Pass 4NT Pass 5D Pass 6H Pass Pass Pass
+  BBA:      1H 2S 3H 4S X Pass Pass Pass
+
+Board Bidpractice/Set11-13:
+  Original: 1D 1S X Pass 1NT Pass Pass Pass
+  BBA:      1D 2S X Pass 2NT Pass Pass Pass
+
+Board Bidpractice/Set11-14:
+  Original: 1D 1H 1S Pass 2S Pass Pass Pass
+  BBA:      1D 1H 1S Pass 2S 3H Pass Pass 3S Pass Pass Pass
+
+Board Bidpractice/Set11-16:
+  Original: 1D 1H X 2H 2S Pass Pass Pass
+  BBA:      1D 1H X Pass 1S Pass Pass 2H 2S Pass Pass Pass
+
+Board Bidpractice/Set11-17:
+  Original: 1H 1S 2S Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1H 1S 2S Pass 3H Pass 4C Pass 4H Pass Pass Pass
+
+Board Bidpractice/Set11-19:
+  Original: 1S 2D 3D Pass 4NT Pass 5D Pass 6S Pass Pass Pass
+  BBA:      2C Pass 3C Pass 3S Pass 4NT Pass 5S Pass 6S Pass Pass Pass
+
+Board Bidpractice/Set11-20:
+  Original: 1C 2S X Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1C 2S X 3S 4H Pass Pass Pass
+
+Board Bidpractice/Set11-21:
+  Original: 1C 1H X Pass 1S Pass 3S Pass Pass Pass
+  BBA:      1C 1H X Pass 1S Pass 2H Pass 3H Pass 3S Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set12-2:
+  Original: 1H Pass 2H Pass 3C Pass 3H Pass Pass Pass
+  BBA:      1H Pass 2H 3H Pass 3S 4H Pass Pass Pass
+
+Board Bidpractice/Set12-3:
+  Original: 1S Pass 2C Pass 2H Pass 3D Pass 3NT Pass Pass Pass
+  BBA:      1S Pass 2C Pass 2H Pass 2NT Pass 3NT Pass Pass Pass
+
+Board Bidpractice/Set12-4:
+  Original: 1D Pass 1S Pass 1NT Pass 2C Pass 2NT Pass Pass Pass
+  BBA:      1D Pass 1S Pass 1NT Pass Pass Pass
+
+Board Bidpractice/Set12-5:
+  Original: 1S Pass 2S Pass 3D Pass 4S Pass Pass Pass
+  BBA:      1S Pass 3D Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set12-7:
+  Original: 1H Pass 1S Pass 2C Pass 2D Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1H Pass 1S 2D Pass Pass 2S Pass 3D Pass 3NT Pass 4C Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set12-9:
+  Original: Pass Pass 1S Pass 2S Pass 3H Pass 4S Pass Pass Pass
+  BBA:      Pass Pass 1S X 3S Pass Pass Pass
+
+Board Bidpractice/Set12-11:
+  Original: 1H Pass 2H Pass Pass Pass
+  BBA:      1H Pass 3D Pass 3H Pass Pass Pass
+
+Board Bidpractice/Set12-12:
+  Original: 1D Pass 1S Pass 1NT Pass 2C Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1D Pass 1S Pass 1NT Pass 2C Pass 3NT Pass Pass Pass
+
+Board Bidpractice/Set12-13:
+  Original: 1H Pass 2H Pass 3C Pass 4H Pass Pass Pass
+  BBA:      1H Pass 3D Pass 4H Pass Pass Pass
+
+Board Bidpractice/Set12-14:
+  Original: 1C Pass 1D Pass 1H Pass 2S Pass 3NT Pass Pass Pass
+  BBA:      1C Pass 1D Pass 1H Pass 2NT Pass 3NT Pass Pass Pass
+
+Board Bidpractice/Set12-15:
+  Original: 1C Pass 1S Pass 1NT Pass 2D Pass 2H Pass 4H Pass Pass Pass
+  BBA:      1C 1D X Pass 2H Pass 4H Pass Pass Pass
+
+Board Bidpractice/Set12-16:
+  Original: 1C Pass 1D Pass 1H Pass 1S Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1C Pass 1D Pass 1H Pass 2NT Pass 3NT Pass Pass Pass
+
+Board Bidpractice/Set12-17:
+  Original: 1H Pass 2H Pass 3C Pass 4H Pass Pass Pass
+  BBA:      1H Pass 3D Pass 4H Pass Pass Pass
+
+Board Bidpractice/Set12-19:
+  Original: 1D Pass 1S Pass 2C Pass 3H Pass 4S Pass Pass Pass
+  BBA:      1D Pass 1S Pass 1NT Pass 2C Pass 3S Pass 4C Pass 4D Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set12-20:
+  Original: 1D Pass 1H Pass 1NT Pass 2C Pass 2D Pass Pass Pass
+  BBA:      1D Pass 1H Pass 1NT Pass 2C X 2NT Pass Pass Pass
+
+Board Bidpractice/Set12-22:
+  Original: 1S Pass 2S Pass 3H Pass 3S Pass Pass Pass
+  BBA:      1S Pass 2S Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set12-23:
+  Original: 1D Pass 1S Pass 1NT Pass 2C Pass 2S Pass Pass Pass
+  BBA:      1D 2NT X 3C Pass Pass Pass
+
+Board Bidpractice/Set12-24:
+  Original: 1D Pass 1H Pass 2C Pass 2S Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1D Pass 1H Pass 1NT Pass 2C Pass 3NT Pass Pass Pass
+
+Board Bidpractice/Set2-1:
+  Original: 1H Pass Pass Pass
+  BBA:      1H Pass Pass X XX 1S 2H Pass Pass Pass
+
+Board Bidpractice/Set2-2:
+  Original: 1S Pass 2S Pass 3S Pass Pass Pass
+  BBA:      1S Pass 1NT Pass 2NT Pass Pass Pass
+
+Board Bidpractice/Set2-3:
+  Original: Pass Pass 1S Pass 2S Pass Pass Pass
+  BBA:      Pass 1C 1S X Pass 2C 2S Pass Pass Pass
+
+Board Bidpractice/Set2-4:
+  Original: 1H Pass 2H Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1H Pass 3D Pass 4H Pass Pass Pass
+
+Board Bidpractice/Set2-6:
+  Original: Pass Pass 1S Pass Pass Pass
+  BBA:      Pass Pass 1S Pass Pass X XX 2C 2S Pass Pass 3C 3S Pass Pass Pass
+
+Board Bidpractice/Set2-7:
+  Original: 1S Pass 2S Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1S Pass 3D Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set2-8:
+  Original: 1H Pass 3H Pass Pass Pass
+  BBA:      1H Pass 2NT Pass 4H Pass Pass Pass
+
+Board Bidpractice/Set2-9:
+  Original: Pass Pass 1H Pass 3H Pass Pass Pass
+  BBA:      Pass 1S 2H 2S 2NT Pass 3H 3S 4H Pass Pass Pass
+
+Board Bidpractice/Set2-11:
+  Original: 1S Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1S Pass 3C Pass 3NT Pass 4C Pass 4D Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set2-12:
+  Original: 1S Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1S Pass 2NT Pass 3S Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set2-13:
+  Original: 1H Pass 4H Pass Pass Pass
+  BBA:      1H Pass 2NT Pass 4H Pass Pass Pass
+
+Board Bidpractice/Set2-14:
+  Original: 1S Pass 3S Pass 6S Pass Pass Pass
+  BBA:      1S Pass 3C Pass 4NT Pass 5C Pass 6S Pass Pass Pass
+
+Board Bidpractice/Set2-16:
+  Original: 1H Pass 4H Pass Pass Pass
+  BBA:      1H Pass 2NT Pass 4H Pass Pass Pass
+
+Board Bidpractice/Set2-17:
+  Original: 1H Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1H Pass 2NT Pass 3H Pass 4C Pass 4D Pass 4H Pass 4NT Pass 5D Pass 5H Pass Pass Pass
+
+Board Bidpractice/Set2-18:
+  Original: Pass Pass 1S Pass 4S Pass Pass Pass
+  BBA:      2S 3C 4S Pass Pass Pass
+
+Board Bidpractice/Set2-19:
+  Original: 1S Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1S Pass 2S Pass 2NT Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set2-20:
+  Original: 1H Pass 2H Pass 4H Pass Pass Pass
+  BBA:      1H Pass 2H 2S 3S Pass 4H Pass Pass Pass
+
+Board Bidpractice/Set2-21:
+  Original: 1H Pass Pass Pass
+  BBA:      1H 1S Pass 2S 3H 3S Pass Pass 4H Pass Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set2-22:
+  Original: 1S Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1S X 2NT Pass 3S Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set2-23:
+  Original: 1S Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1S Pass 2NT Pass 3NT Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set2-24:
+  Original: Pass Pass 1H Pass 2H Pass 3H Pass Pass Pass
+  BBA:      Pass 1S 2H 3H Pass 3S 4H Pass Pass 4S Pass Pass 5H X Pass Pass Pass
+
+Board Bidpractice/Set3-3:
+  Original: 1C Pass 1S Pass 2S Pass Pass Pass
+  BBA:      1C 1D 1S X 2S Pass Pass Pass
+
+Board Bidpractice/Set3-4:
+  Original: 1H Pass 2H Pass 3H Pass Pass Pass
+  BBA:      1H Pass 2H Pass 4H Pass Pass Pass
+
+Board Bidpractice/Set3-5:
+  Original: 1NT Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 3NT Pass Pass Pass
+
+Board Bidpractice/Set3-7:
+  Original: 1S Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1S Pass 2NT Pass 3S Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set3-9:
+  Original: 1H Pass 1NT Pass Pass Pass
+  BBA:      1H Pass 1NT Pass 2C Pass 2H Pass Pass Pass
+
+Board Bidpractice/Set3-10:
+  Original: 1S Pass 2S Pass Pass Pass
+  BBA:      1S X 3S Pass Pass Pass
+
+Board Bidpractice/Set3-11:
+  Original: 1NT Pass 6NT Pass Pass Pass
+  BBA:      1NT Pass 2C Pass 2D Pass 6NT Pass Pass Pass
+
+Board Bidpractice/Set3-12:
+  Original: 1S Pass 1NT Pass 3NT Pass Pass Pass
+  BBA:      2NT Pass 3NT Pass Pass Pass
+
+Board Bidpractice/Set3-13:
+  Original: 1S Pass 4NT Pass 5H Pass 6S Pass Pass Pass
+  BBA:      1S Pass 2NT Pass 4S Pass 4NT Pass 5S Pass 6S Pass Pass Pass
+
+Board Bidpractice/Set3-14:
+  Original: 1H Pass 1NTPASS3H Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1H Pass 1NT Pass 2H Pass 3H Pass 3NT Pass 4H Pass Pass Pass
+
+Board Bidpractice/Set3-15:
+  Original: 1C Pass 1H Pass 1S Pass 2S Pass Pass Pass
+  BBA:      1C 2H Pass Pass X Pass 2S Pass Pass Pass
+
+Board Bidpractice/Set3-16:
+  Original: 1NT Pass 4NT Pass 6NT Pass Pass Pass
+  BBA:      1NT Pass 3NT Pass Pass Pass
+
+Board Bidpractice/Set3-17:
+  Original: Pass Pass 1S Pass 3S Pass Pass Pass
+  BBA:      Pass Pass 1S Pass 2C Pass 2S Pass 3S Pass Pass Pass
+
+Board Bidpractice/Set3-18:
+  Original: 1H Pass 4H Pass Pass Pass
+  BBA:      1H Pass 3H Pass 4H Pass Pass Pass
+
+Board Bidpractice/Set3-19:
+  Original: 1D Pass 1S Pass 4S Pass Pass Pass
+  BBA:      1D Pass 1S 2D 4H Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set3-20:
+  Original: 1S Pass 2S Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1S Pass 3D Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set3-21:
+  Original: 2NT Pass 4NT Pass Pass Pass
+  BBA:      2NT Pass 6NT Pass Pass Pass
+
+Board Bidpractice/Set3-22:
+  Original: 1NT Pass 2NT Pass Pass Pass
+  BBA:      1NT Pass 3NT Pass Pass Pass
+
+Board Bidpractice/Set3-23:
+  Original: 1C Pass 1S Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1C Pass 1S Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set4-4:
+  Original: 1NT Pass 2C Pass 2S Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 2C Pass 2S Pass 3NT Pass Pass Pass
+
+Board Bidpractice/Set4-6:
+  Original: 1NT Pass 2H Pass 2S Pass Pass Pass
+  BBA:      1NT Pass 2H X 2S Pass Pass X Pass 3H 3S Pass Pass Pass
+
+Board Bidpractice/Set4-10:
+  Original: 1NT Pass 2H Pass 2S Pass 3NT Pass 4S Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass 3C Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set4-11:
+  Original: 2NT Pass 3D Pass 3H Pass 4NT Pass 5H Pass 6H Pass Pass Pass
+  BBA:      2NT Pass 3D Pass 3H Pass 6H Pass Pass Pass
+
+Board Bidpractice/Set4-12:
+  Original: 1NT Pass 2C Pass 2H Pass 2NT Pass Pass Pass
+  BBA:      1NT Pass 2C Pass 2H Pass 3NT Pass Pass Pass
+
+Board Bidpractice/Set4-13:
+  Original: 1NT Pass 2C Pass 2D Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass 3H Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set4-14:
+  Original: 1NT Pass 2CPASS2S Pass 2S Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1NT Pass 2C Pass 2S Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set4-15:
+  Original: 1NT Pass 2H Pass 2S Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set4-16:
+  Original: 1NT Pass 2C Pass 2D Pass 2H Pass 4H Pass Pass Pass
+  BBA:      1NT Pass 2D Pass 2H Pass 2S Pass 4H Pass Pass Pass
+
+Board Bidpractice/Set4-17:
+  Original: 1NT Pass 2C Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1NT Pass 2D Pass 2H Pass 2S Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set4-18:
+  Original: 1NT Pass 2C Pass 2D Pass 2H Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 2D Pass 2H Pass 2S Pass Pass Pass
+
+Board Bidpractice/Set4-19:
+  Original: 1NT Pass 2C Pass 2D Pass 4S Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set4-20:
+  Original: 1NT Pass 2D Pass 3H Pass 4C Pass 4D Pass 6H Pass Pass Pass
+  BBA:      1NT Pass 2D Pass 2H Pass 6H Pass Pass Pass
+
+Board Bidpractice/Set4-22:
+  Original: 1NT Pass 2C Pass 2H Pass Pass Pass
+  BBA:      1NT Pass 2C X 2H 3C Pass Pass Pass
+
+Board Bidpractice/Set4-24:
+  Original: 1NT Pass 2H Pass 2S Pass 2NT Pass 4S Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass Pass Pass
+
+Board Bidpractice/Set5-1:
+  Original: 2S Pass Pass Pass
+  BBA:      2S Pass 3S Pass Pass Pass
+
+Board Bidpractice/Set5-3:
+  Original: 2S Pass 4S Pass Pass Pass
+  BBA:      2S 3H 4S 5H Pass Pass Pass
+
+Board Bidpractice/Set5-4:
+  Original: 3D Pass Pass Pass
+  BBA:      3D Pass 4D Pass Pass Pass
+
+Board Bidpractice/Set5-6:
+  Original: 1S Pass 2C Pass 2S Pass 4S Pass Pass Pass
+  BBA:      3S Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set5-7:
+  Original: 2H Pass 4H Pass Pass Pass
+  BBA:      2H Pass 2NT Pass 3S Pass 4NT Pass 5H Pass Pass Pass
+
+Board Bidpractice/Set5-8:
+  Original: 2H Pass Pass Pass
+  BBA:      2H Pass 2NT Pass 3D Pass 3H Pass Pass Pass
+
+Board Bidpractice/Set5-9:
+  Original: 2H Pass 2S Pass 3S Pass 4S Pass Pass Pass
+  BBA:      2H Pass 2S Pass 6S Pass Pass Pass
+
+Board Bidpractice/Set5-10:
+  Original: 3H Pass 4NT Pass 5D Pass 6H Pass Pass Pass
+  BBA:      3H Pass 4NT Pass 5C Pass 6H Pass Pass Pass
+
+Board Bidpractice/Set5-12:
+  Original: 2H Pass 2NT Pass 3H Pass 4H Pass Pass Pass
+  BBA:      2H Pass 2NT Pass 3C Pass 4H Pass Pass Pass
+
+Board Bidpractice/Set5-13:
+  Original: 2S Pass 2NT Pass 3C Pass 3S Pass Pass Pass
+  BBA:      2S Pass Pass Pass
+
+Board Bidpractice/Set5-14:
+  Original: 2D Pass 2NT Pass 3H Pass 3NT Pass Pass Pass
+  BBA:      2D Pass 2NT Pass 3S Pass 3NT Pass Pass Pass
+
+Board Bidpractice/Set5-17:
+  Original: 1S Pass 2C Pass 2S Pass 4S Pass Pass Pass
+  BBA:      2S Pass Pass 3D Pass Pass 3S Pass Pass Pass
+
+Board Bidpractice/Set5-18:
+  Original: 3H Pass Pass Pass
+  BBA:      3H Pass 4H Pass Pass Pass
+
+Board Bidpractice/Set5-19:
+  Original: 2D Pass 2NT Pass 3NT Pass 6NT Pass Pass Pass
+  BBA:      2D Pass 2NT Pass 3NT Pass Pass Pass
+
+Board Bidpractice/Set5-20:
+  Original: 2S Pass 2NT Pass 3H Pass 4S Pass Pass Pass
+  BBA:      2S Pass 2NT Pass 3S Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set5-21:
+  Original: 2S Pass 2NT Pass 3S Pass Pass Pass
+  BBA:      2S Pass 2NT Pass 3D Pass 3S Pass Pass Pass
+
+Board Bidpractice/Set5-23:
+  Original: Pass Pass 1H Pass 3H Pass 4H Pass Pass Pass
+  BBA:      Pass Pass 1H Pass 3D Pass 3H Pass Pass Pass
+
+Board Bidpractice/Set5-24:
+  Original: 2D Pass 2NT Pass 3C Pass 3NT Pass Pass Pass
+  BBA:      2D 2H 3H 4S 5D Pass Pass X Pass Pass Pass
+
+Board Bidpractice/Set6-4:
+  Original: 2C Pass 2D Pass 2H Pass 4H Pass Pass Pass
+  BBA:      2C Pass 2D Pass 2NT Pass 3C Pass 3H Pass 4H Pass Pass Pass
+
+Board Bidpractice/Set6-5:
+  Original: 2C Pass 2D Pass 3NT Pass Pass Pass
+  BBA:      3NT Pass Pass Pass
+
+Board Bidpractice/Set6-6:
+  Original: 2C Pass 2D Pass 2H Pass 3C Pass 3H Pass Pass Pass
+  BBA:      2C Pass 2D Pass 2H Pass 4H Pass Pass Pass
+
+Board Bidpractice/Set6-7:
+  Original: 2C Pass 2H Pass 4NT Pass 5D Pass 6H Pass Pass Pass
+  BBA:      3NT Pass 6NT Pass Pass Pass
+
+Board Bidpractice/Set6-8:
+  Original: 2C Pass 2S Pass 3S Pass 4C Pass 4D Pass 4NT Pass 5S Pass 7S all Pass
+  BBA:      2C Pass 2S Pass 3S Pass 4NT Pass 5D Pass 5H Pass 6C Pass 6S Pass Pass Pass
+
+Board Bidpractice/Set6-12:
+  Original: 2C Pass 2NT Pass 3NT Pass 6NT Pass Pass Pass
+  BBA:      2C Pass 2NT Pass 4NT Pass 6NT Pass Pass Pass
+
+Board Bidpractice/Set6-13:
+  Original: 2C Pass 2D Pass 2S Pass 2NT Pass 3H Pass 4H Pass Pass Pass
+  BBA:      2C X Pass Pass 2S Pass 3H Pass 4H Pass 4S Pass 5H Pass Pass Pass
+
+Board Bidpractice/Set6-14:
+  Original: 2C Pass 3D Pass 3NT Pass 6NT Pass Pass Pass
+  BBA:      2C Pass 3D Pass 4D Pass 4S Pass 4NT Pass 5C Pass 5D Pass Pass Pass
+
+Board Bidpractice/Set6-15:
+  Original: 2C Pass 2S Pass 3H Pass 4H Pass 4NT Pass 5H Pass 6H Pass Pass Pass Pass Pass
+  BBA:      3NT Pass 6NT Pass Pass Pass
+
+Board Bidpractice/Set6-16:
+  Original: 2C Pass 2D Pass 2S Pass 3S Pass 4S Pass Pass Pass
+  BBA:      2C Pass 2D Pass 2S Pass 3S Pass 3NT Pass 4C Pass 4H Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set6-17:
+  Original: 2C Pass 2NT Pass 6NT Pass Pass Pass
+  BBA:      3NT Pass 6NT Pass Pass Pass
+
+Board Bidpractice/Set6-18:
+  Original: 2C Pass 2H Pass 2S Pass 3H Pass 6H Pass Pass all Pass
+  BBA:      2C Pass 3H Pass 4H Pass Pass Pass
+
+Board Bidpractice/Set6-19:
+  Original: 2C Pass 2NT Pass 3C Pass 3S Pass 4S Pass 6S Pass Pass Pass
+  BBA:      2C Pass 2NT Pass 3NT Pass 6NT Pass Pass Pass
+
+Board Bidpractice/Set6-20:
+  Original: 2C Pass 2D Pass 2S Pass 3C Pass 3H Pass 4H Pass Pass Pass
+  BBA:      2C Pass 2D Pass 2S Pass 3NT Pass Pass Pass
+
+Board Bidpractice/Set6-22:
+  Original: 2C Pass 2D Pass 2NT Pass 3C Pass 3S Pass 4S all Pass
+  BBA:      2C Pass 2D Pass 2NT Pass 3C X 3S Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set6-23:
+  Original: 2C Pass 2NT Pass 4C Pass 4S Pass 5C Pass 5H Pass 7NT all Pass
+  BBA:      2C Pass 2NT Pass 4D Pass 4NT Pass 5D Pass 5H Pass 6C Pass 6NT Pass Pass Pass
+
+Board Bidpractice/Set6-24:
+  Original: 2C Pass 3D Pass 4NT Pass 5D Pass 6D Pass Pass Pass
+  BBA:      2C Pass 3D Pass 4D Pass 4NT Pass 5D Pass Pass Pass
+
+Board Bidpractice/Set7-1:
+  Original: 2C Pass 2D Pass 2S Pass 3S Pass 4NT Pass 5C Pass 5S Pass Pass Pass
+  BBA:      2C Pass 2D Pass 2S Pass 3S Pass 3NT Pass 4S Pass 4NT Pass 5D Pass 5S Pass Pass Pass
+
+Board Bidpractice/Set7-2:
+  Original: 2C Pass 2H Pass 4NT Pass 5D Pass 6H Pass Pass Pass
+  BBA:      2C Pass 2H Pass 3H Pass 4NT Pass 5D Pass 5H Pass 6H Pass Pass Pass
+
+Board Bidpractice/Set7-3:
+  Original: 1NT Pass 4C Pass 4S Pass 6NT Pass Pass Pass
+  BBA:      1NT Pass 6NT Pass Pass Pass
+
+Board Bidpractice/Set7-4:
+  Original: 1H Pass 2S Pass 3S Pass 4NT Pass 5H Pass 7NT Pass Pass Pass
+  BBA:      1H Pass 2S Pass 4S Pass 4NT Pass 5H Pass 7S Pass Pass Pass
+
+Board Bidpractice/Set7-5:
+  Original: 2C Pass 2H Pass 4NT Pass 5D Pass 5H Pass Pass Pass
+  BBA:      2C Pass 2H Pass 3H Pass 4H Pass Pass Pass
+
+Board Bidpractice/Set7-6:
+  Original: 1D Pass 2NT Pass 4C Pass 4S Pass 6NT Pass Pass Pass
+  BBA:      1D Pass 2C Pass 3D Pass 4D Pass 4NT Pass 5H Pass 6D Pass Pass Pass
+
+Board Bidpractice/Set7-8:
+  Original: 2C Pass 2H Pass 3H Pass 3S Pass 4NT Pass 6C Pass 6H Pass Pass Pass
+  BBA:      2C Pass 2H Pass 3H Pass 3S Pass 4C Pass 4NT Pass 5H Pass 6H Pass Pass Pass
+
+Board Bidpractice/Set7-9:
+  Original: 1H Pass 4C Pass 4NT Pass 5NT Pass 7H Pass Pass Pass
+  BBA:      1H 3C 4C Pass 4H Pass Pass Pass
+
+Board Bidpractice/Set7-10:
+  Original: 1H Pass 3H Pass 4NT Pass 6H Pass Pass Pass
+  BBA:      1H 2NT 4H 4S Pass Pass 5H 5S X Pass Pass Pass
+
+Board Bidpractice/Set7-11:
+  Original: 1S Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1S Pass 3D Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set7-12:
+  Original: 1H Pass 3H Pass 4C Pass 4D Pass 6H Pass Pass Pass
+  BBA:      1H Pass 3C Pass 4NT Pass 5C Pass 6H Pass Pass Pass
+
+Board Bidpractice/Set7-13:
+  Original: 2NT Pass 4C Pass 4NT Pass 5C Pass 5NT Pass 7NT Pass Pass Pass
+  BBA:      2NT Pass 6D Pass Pass Pass
+
+Board Bidpractice/Set7-14:
+  Original: 2NT Pass 4C Pass 4H Pass 4NT Pass Pass Pass
+  BBA:      2NT Pass 6C Pass Pass Pass
+
+Board Bidpractice/Set7-15:
+  Original: 1NT Pass 4NT Pass Pass Pass
+  BBA:      1NT Pass 3NT Pass Pass Pass
+
+Board Bidpractice/Set7-16:
+  Original: 1NT Pass 4C Pass 4NT Pass 6NT Pass Pass Pass
+  BBA:      1NT Pass 2C Pass 2S Pass 3H Pass 4C Pass 4H Pass 4NT Pass 5C Pass 5D Pass 5H Pass 5S Pass Pass Pass
+
+Board Bidpractice/Set7-17:
+  Original: 2C Pass 2D Pass 2H Pass 3H Pass 4NT Pass 5C Pass 5NT Pass 6H Pass 7NT all Pass
+  BBA:      2C Pass 2NT Pass 3H Pass 4H Pass 4NT Pass 5C Pass 5NT Pass 6D Pass 7H Pass Pass Pass
+
+Board Bidpractice/Set7-18:
+  Original: 1D Pass 2NT Pass 4C Pass 4S Pass 5C Pass 5S Pass 7NT Pass Pass Pass
+  BBA:      2NT Pass 6NT Pass Pass Pass
+
+Board Bidpractice/Set7-19:
+  Original: 1D Pass 3D Pass 4C Pass 4S Pass 4NT Pass 5D Pass Pass Pass
+  BBA:      1D 2D 5D 5S 6D Pass Pass Pass
+
+Board Bidpractice/Set7-20:
+  Original: 1S Pass 2H Pass 3H Pass 4NT Pass 5H Pass 6H Pass Pass Pass
+  BBA:      1S Pass 2H Pass 4H Pass Pass Pass
+
+Board Bidpractice/Set7-21:
+  Original: 1C Pass 1H Pass 3H Pass 4NT Pass 5D Pass 5NT Pass 7H Pass Pass Pass
+  BBA:      1C 2D 2H Pass 4D Pass 4NT Pass 5S Pass 5NT Pass 6D Pass 7H Pass Pass Pass
+
+Board Bidpractice/Set7-22:
+  Original: 1H Pass 3H Pass 4NT Pass 5D Pass 5H Pass Pass Pass
+  BBA:      1H Pass 2NT Pass 3D Pass 4H Pass 4NT Pass 5C Pass 5H Pass Pass Pass
+
+Board Bidpractice/Set7-23:
+  Original: 1D Pass 1H Pass 2NT Pass 4C Pass 4NT Pass 5C Pass 5H Pass 7NT Pass Pass Pass
+  BBA:      1D Pass 2H Pass 3C Pass 3H Pass 4NT Pass 5C Pass 5D Pass 5S Pass 5NT Pass 6S Pass 7H Pass Pass Pass
+
+Board Bidpractice/Set7-24:
+  Original: 2C Pass 2NT Pass 4C Pass 4S Pass 6NT Pass Pass Pass
+  BBA:      2C Pass 2NT Pass 4NT Pass 6NT Pass Pass Pass
+
+Board Bidpractice/Set8-1:
+  Original: 2C Pass 2NT Pass 3S Pass 4S Pass 4NT Pass 5H Pass 6S Pass Pass Pass
+  BBA:      2C Pass 2NT Pass 3S Pass 4NT Pass 5S Pass 6S Pass Pass Pass
+
+Board Bidpractice/Set8-2:
+  Original: 1H Pass 3H Pass 4NT Pass 5D Pass 5H Pass Pass Pass
+  BBA:      2NT Pass 3C Pass 3H Pass 3S Pass 4NT Pass 5D Pass 5H Pass Pass Pass
+
+Board Bidpractice/Set8-3:
+  Original: 1H Pass 1S Pass 4S Pass 4NT Pass 5D Pass 6S Pass Pass Pass
+  BBA:      1H Pass 2S Pass 3S Pass 4C Pass 4H Pass 4NT Pass 5D Pass 6S Pass Pass Pass
+
+Board Bidpractice/Set8-4:
+  Original: 1H Pass 3H Pass 4NT Pass 5S Pass 6H Pass Pass Pass
+  BBA:      1H Pass 3C Pass 4D Pass 4H Pass Pass Pass
+
+Board Bidpractice/Set8-5:
+  Original: 1S Pass 3S Pass 4C Pass 4H Pass 4S Pass Pass Pass
+  BBA:      1S 3C 3S 5C 5S Pass Pass Pass
+
+Board Bidpractice/Set8-6:
+  Original: 1H Pass 2D Pass 4NT Pass 5S Pass 6D Pass Pass Pass
+  BBA:      1H Pass 2D Pass 3D Pass 3NT Pass 4D Pass 4S Pass 4NT Pass 5S Pass 6D Pass Pass Pass
+
+Board Bidpractice/Set8-7:
+  Original: 1H Pass 2C Pass 4NT Pass 5C Pass Pass Pass
+  BBA:      1H Pass 2C Pass 3C Pass 3NT Pass 4C Pass 4D Pass 4H Pass 4S Pass 4NT Pass 5C Pass Pass Pass
+
+Board Bidpractice/Set8-8:
+  Original: 1NT Pass 4C Pass 4S Pass 6S Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass 6S Pass Pass Pass
+
+Board Bidpractice/Set8-9:
+  Original: 2C Pass 2S Pass 4NT Pass 6D Pass 7S Pass Pass Pass
+  BBA:      2C Pass 3S Pass 4NT Pass 5C Pass 6S Pass Pass Pass
+
+Board Bidpractice/Set8-10:
+  Original: 1NT Pass 3H Pass 4NT Pass 5S Pass 6H Pass Pass Pass
+  BBA:      1NT Pass 2D Pass 2H Pass 6NT Pass Pass Pass
+
+Board Bidpractice/Set8-11:
+  Original: 2C Pass 2S Pass 3S Pass 4NT Pass 5D Pass 5H Pass 6C Pass 7NT Pass Pass Pass
+  BBA:      2C Pass 2S Pass 3S Pass 4NT Pass 5D Pass 5H Pass 6C Pass 7S Pass Pass Pass
+
+Board Bidpractice/Set8-12:
+  Original: 1NT Pass 3S Pass 4S Pass 4NT Pass 5S Pass 6S Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass 3D Pass 4S Pass 4NT Pass 5S Pass 6S Pass Pass Pass
+
+Board Bidpractice/Set8-13:
+  Original: 1NT Pass 3S Pass 4S Pass 4NT Pass 5D Pass 6S Pass Pass Pass
+  BBA:      1D Pass 2S Pass 3S Pass 4C Pass 4D Pass 4NT Pass 5D Pass 6S Pass Pass Pass
+
+Board Bidpractice/Set8-14:
+  Original: 3H Pass 4NT Pass 5H Pass 7NT Pass Pass Pass
+  BBA:      3H Pass 4NT Pass 5H Pass 5NT Pass 6C Pass 7H Pass Pass Pass
+
+Board Bidpractice/Set8-15:
+  Original: 1S Pass 3S Pass 4NT Pass 5C Pass 5S Pass Pass Pass
+  BBA:      2NT Pass 3H Pass 3S Pass 4NT Pass 6S Pass Pass Pass
+
+Board Bidpractice/Set8-16:
+  Original: 1D Pass 1H Pass 2NT Pass 4NT Pass Pass Pass
+  BBA:      1D Pass 1H Pass 2NT Pass 6NT Pass Pass Pass
+
+Board Bidpractice/Set8-17:
+  Original: 1H Pass 4C Pass 4NT Pass 6C Pass 6H Pass Pass Pass
+  BBA:      1H 2S 3S Pass 4H Pass Pass Pass
+
+Board Bidpractice/Set8-18:
+  Original: 1NT Pass 2C Pass 2S Pass 4NT Pass 5S Pass 6S Pass Pass Pass
+  BBA:      1NT Pass 2C Pass 2S Pass 3H Pass 4C Pass 4H Pass 4NT Pass 5H Pass 6S Pass Pass Pass
+
+Board Bidpractice/Set8-19:
+  Original: 1NT Pass 2C Pass 2S Pass 4NT Pass 5H Pass 5S Pass Pass Pass
+  BBA:      1NT Pass 2C Pass 2S Pass 3H Pass 4C Pass 4H Pass 4NT Pass 5H Pass 5S Pass Pass Pass
+
+Board Bidpractice/Set8-20:
+  Original: 2H Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      2H Pass 2NT Pass 3NT Pass 6H Pass Pass Pass
+
+Board Bidpractice/Set8-21:
+  Original: 2C Pass 2D Pass 2S Pass 3S Pass 4NT Pass 5H Pass 6S Pass Pass Pass
+  BBA:      2C Pass 2NT Pass 3S Pass 4S Pass 4NT Pass 5H Pass 6S Pass Pass Pass
+
+Board Bidpractice/Set8-22:
+  Original: 2C Pass 2D Pass 2H Pass 3H Pass 4NT Pass 5C Pass 5D Pass 6H Pass Pass Pass
+  BBA:      2C Pass 2D Pass 2H Pass 3H Pass 4H Pass Pass Pass
+
+Board Bidpractice/Set8-23:
+  Original: 2C Pass 2D Pass 2H Pass 3H Pass 4NT Pass 5C Pass 5D Pass 6H Pass Pass Pass
+  BBA:      2C 3D 3H 5D 5H Pass 6H Pass Pass Pass
+
+Board Bidpractice/Set8-24:
+  Original: 1H Pass 2S Pass 3C Pass 3H Pass 4H Pass 4NT Pass 5S Pass 6H Pass Pass Pass
+  BBA:      1H 3D 4D Pass 4H Pass 4NT Pass 5S Pass 6H Pass Pass Pass
+
+Board Bidpractice/Set9-3:
+  Original: 1S Pass 2NT Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1S Pass 2NT Pass 3NT Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set9-4:
+  Original: 1S Pass 2NT Pass 3C Pass 3H Pass 4S Pass Pass Pass
+  BBA:      1S Pass 2NT Pass 3C Pass 3S Pass 4H Pass 4S Pass 4NT Pass 5S Pass Pass Pass
+
+Board Bidpractice/Set9-5:
+  Original: 1S Pass 2NT Pass 3C Pass 3D Pass 4NT Pass 5H Pass 6S Pass Pass Pass
+  BBA:      1S 3C 4C 5C X Pass Pass Pass
+
+Board Bidpractice/Set9-6:
+  Original: 1H Pass 2NT Pass 3H Pass 4NT Pass 5H Pass 6H Pass Pass Pass
+  BBA:      1H Pass 2NT Pass 3NT Pass 6H Pass Pass Pass
+
+Board Bidpractice/Set9-7:
+  Original: 1S Pass 2NT Pass 3NT Pass 4H Pass 4S Pass Pass Pass
+  BBA:      1S Pass 2NT Pass 3S Pass 3NT Pass 4D Pass 4H Pass 4NT Pass 5S Pass Pass Pass
+
+Board Bidpractice/Set9-10:
+  Original: 1S Pass 2NT Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1S Pass 2NT Pass 3NT Pass 4S Pass Pass Pass
+
+Board Bidpractice/Set9-11:
+  Original: 1H Pass 2NT Pass 3H Pass 3S Pass 4C Pass 4D Pass 6H Pass Pass Pass
+  BBA:      1H Pass 2NT Pass 3NT Pass 6H Pass Pass Pass
+
+Board Bidpractice/Set9-12:
+  Original: 1S Pass 2NT Pass 3NT Pass 4C Pass 4H Pass 4NT Pass 5H Pass 6S Pass Pass Pass
+  BBA:      1S Pass 2NT Pass 3S Pass 3NT Pass 5S Pass 6S Pass Pass Pass
+
+Board Bidpractice/Set9-13:
+  Original: 1H Pass 3S Pass 4H Pass Pass Pass
+  BBA:      1H 2S 3S Pass 4H Pass Pass Pass
+
+Board Bidpractice/Set9-14:
+  Original: 1H Pass 3S Pass 4C Pass 4D Pass 4NT Pass 5H Pass 6H Pass Pass Pass
+  BBA:      1H 2S 3S Pass 4H Pass Pass Pass
+
+Board Bidpractice/Set9-16:
+  Original: 1H Pass 2NT Pass 3S Pass 4C Pass 4NT Pass 5H Pass Pass Pass
+  BBA:      1H Pass 2NT Pass 3S Pass 3NT Pass 4C Pass 4H Pass 4NT Pass 5H Pass Pass Pass
+
+Board Bidpractice/Set9-17:
+  Original: 1H Pass 2NT Pass 4C Pass 4H Pass Pass Pass
+  BBA:      1H Pass 2NT Pass 3S Pass 4H Pass Pass Pass
+
+Board Bidpractice/Set9-18:
+  Original: 1S Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1S Pass 2NT Pass 3S Pass 4S Pass 4NT Pass 5C Pass 5S Pass Pass Pass
+
+Board Bidpractice/Set9-19:
+  Original: 1S Pass 2NT Pass 3NT Pass 4D Pass 4H Pass 4NT Pass 5D Pass 5S Pass Pass Pass
+  BBA:      1S Pass 2NT Pass 3S Pass 4NT Pass 5S Pass Pass Pass
+
+Board Bidpractice/Set9-20:
+  Original: 1S Pass 2NT Pass 3S Pass 4C Pass 4H Pass 4S Pass Pass Pass
+  BBA:      1S Pass 2NT Pass 3S Pass 3NT Pass 4C Pass 4H Pass 4NT Pass 5H Pass 6S Pass Pass Pass
+
+Board Bidpractice/Set9-21:
+  Original: 1H Pass 2S Pass 4NT Pass 5D Pass 6S Pass Pass Pass
+  BBA:      1H Pass 2NT Pass 3C Pass 3H Pass 4NT Pass 5C Pass 5H Pass Pass Pass
+
+Board Bidpractice/Set9-22:
+  Original: 1S Pass 2NT Pass 4C Pass 4NT Pass 5H Pass 7S all Pass
+  BBA:      1S Pass 2NT Pass 3D Pass 3S Pass 4C Pass 4H Pass 4NT Pass 5D Pass 6S Pass Pass Pass
+
+Board Bidpractice/Set9-23:
+  Original: 1H Pass 4C Pass 4D Pass 4H Pass 4S Pass 6H Pass Pass Pass
+  BBA:      1H Pass 4C Pass 4D Pass 4NT Pass 5D Pass 5S Pass 5NT Pass 6H Pass Pass Pass
+
+Board Bidpractice/Set9-24:
+  Original: 1S Pass 2NT Pass 3C Pass 3H Pass 4NT Pass 5H Pass 6S Pass Pass Pass
+  BBA:      1S Pass 2NT Pass 3C Pass 3S Pass 4NT Pass 5H Pass 6S Pass Pass Pass
+
+Board Blackwood-1:
+  Original: 1H Pass 3H Pass 4NT Pass 5D Pass 5H Pass Pass Pass
+  BBA:      1H 2S 3H 4S X Pass Pass Pass
+
+Board Blackwood-2:
+  Original: Pass 1NT Pass 4C Pass 4S Pass 6NT Pass Pass Pass
+  BBA:      Pass 1NT Pass 6NT Pass Pass Pass
+
+Board Blackwood-3:
+  Original: 1NT Pass 4C Pass 4H Pass 4NT Pass Pass Pass
+  BBA:      1NT Pass 3D Pass 3NT Pass 4D Pass 4S Pass 4NT Pass 5C Pass 5D Pass Pass Pass
+
+Board Blackwood-4:
+  Original: Pass 2NT Pass 4C Pass 4S Pass 6NT Pass Pass Pass
+  BBA:      Pass 2NT Pass 6NT Pass Pass Pass
+
+Board Blackwood-5:
+  Original: 2H Pass 4NT Pass 5H Pass 6H Pass Pass Pass
+  BBA:      2H Pass 2NT Pass 3S Pass 4H Pass Pass Pass
+
+Board Blackwood-7:
+  Original: 1D Pass 2NT Pass 4C Pass 4S Pass 6NT
+  BBA:      1D Pass 2C Pass 3C Pass 3NT Pass 4C Pass 4H Pass 4S Pass 5C Pass 6C Pass Pass Pass
+
+Board Blackwood-8:
+  Original: 1S Pass 3H Pass 3S Pass 4NT Pass 5H Pass 5NT Pass 6C Pass 6NT all Pass
+  BBA:      1S Pass 2H Pass 2S Pass 3S Pass 4S Pass 4NT Pass 5S Pass 6S Pass Pass Pass
+
+Board Blackwood-9:
+  Original: 2H Pass 4NT Pass 6D Pass 6H Pass Pass Pass
+  BBA:      2H 3H 3S Pass 4H Pass Pass Pass
+
+Board Blackwood-10:
+  Original: 2C Pass 2NT Pass 4C Pass 4S Pass 6NT Pass Pass Pass
+  BBA:      2C Pass 2NT Pass 4NT Pass 6NT Pass Pass Pass
+
+Board Blackwood-11:
+  Original: 2C Pass 2S Pass 2NT Pass 4C Pass 4D Pass 7NT Pass Pass Pass
+  BBA:      2C Pass 2S Pass 2NT Pass 3S Pass 4NT Pass 5C Pass 5D Pass 6D Pass 7S Pass Pass Pass
+
+Board Blackwood-12:
+  Original: 1C Pass 1S Pass 4S Pass 4NT Pass 5D Pass 6S Pass Pass Pass
+  BBA:      2NT Pass 3H Pass 3S Pass 4D Pass 4S Pass 4NT Pass 5C Pass 5D Pass 5H Pass 6S Pass Pass Pass
+
+Board Blackwood-13:
+  Original: 1S Pass 3S Pass 4C Pass 4H Pass 4S Pass Pass Pass
+  BBA:      1S Pass 3C Pass 3NT Pass 4S Pass 4NT Pass 5C Pass 5D Pass 5NT Pass 6S Pass Pass Pass
+
+Board Blackwood-14:
+  Original: Pass 1NT Pass 4NT Pass 6NT Pass Pass Pass
+  BBA:      Pass 1NT Pass 6NT Pass Pass Pass
+
+Board Blackwood-15:
+  Original: 1H Pass 4NT Pass 5H Pass 6H Pass Pass Pass
+  BBA:      1H Pass 2NT Pass 3C Pass 4D Pass 4NT Pass 5S Pass 6H Pass Pass Pass
+
+Board Blackwood-16:
+  Original: 1D Pass 1S Pass 3S Pass 4NT Pass 5H Pass 6S Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass 4NT Pass 6S Pass Pass Pass
+
+Board Blackwood-17:
+  Original: 1NT Pass 3D Pass 4D Pass 4NT Pass 5H Pass 6D Pass Pass Pass
+  BBA:      1NT Pass 3NT Pass Pass Pass
+
+Board Blackwood-18:
+  Original: 3S Pass 4NT Pass 6C Pass 7S Pass Pass Pass
+  BBA:      3S Pass 4NT Pass 5C Pass 6S Pass Pass Pass
+
+Board Blackwood-19:
+  Original: 2NT Pass 4C Pass 4H Pass Pass Pass
+  BBA:      2NT Pass 3D Pass 3H Pass 6H Pass Pass Pass
+
+Board Blackwood-20:
+  Original: 1H Pass 4C Pass 4NT Pass 5NT Pass 7H Pass Pass Pass
+  BBA:      1H Pass 4C Pass 4D Pass 4NT Pass 5S Pass 6H Pass Pass Pass
+
+Board Cue-bid-3:
+  Original: 1H 1S 2S Pass 3H Pass Pass Pass
+  BBA:      1H 2S 3H Pass Pass Pass
+
+Board Cue-bid-4:
+  Original: 1H 1S 3H Pass Pass Pass
+  BBA:      1H 1S 3H Pass Pass X Pass 3S Pass Pass Pass
+
+Board Cue-bid-5:
+  Original: 1S 2H 3S Pass Pass Pass
+  BBA:      1S 2H 3H Pass 4S Pass Pass Pass
+
+Board Cue-bid-6:
+  Original: 1H 1S 2S Pass 3H Pass Pass Pass
+  BBA:      1H 1S 2S Pass 3H 3S 4H Pass Pass Pass
+
+Board Cue-bid-7:
+  Original: 1H 1S Pass 2H Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1H 1S 2H 3H X XX Pass 4S Pass Pass Pass
+
+Board Cue-bid-8:
+  Original: 1S 2H 3H Pass 4NT Pass 5H Pass 6S Pass Pass Pass
+  BBA:      2C 2H X 4H 4S Pass 4NT Pass 5S Pass 6S Pass Pass Pass
+
+Board Cue-bid-9:
+  Original: 1C 1H 1S 2C Pass 2H Pass Pass Pass
+  BBA:      1C 1H 2S 3H Pass Pass Pass
+
+Board Cue-bid-10:
+  Original: 1H 2C 3C Pass 4H Pass 5C Pass 6H Pass Pass Pass
+  BBA:      1H 2C 4C Pass 4D Pass 4H Pass 4NT Pass 5D Pass 6H Pass Pass Pass
+
+Board DONT-1:
+  Original: 1NT 2D Pass 2H Pass Pass Pass
+  BBA:      1NT Pass Pass Pass
+
+Board DONT-2:
+  Original: 1NT X Pass 2C Pass 2H Pass Pass Pass
+  BBA:      1NT 2H X Pass 2S Pass 2NT Pass 3NT Pass Pass Pass
+
+Board DONT-3:
+  Original: 1NT Pass Pass 2H Pass 2S Pass Pass Pass
+  BBA:      1NT Pass Pass Pass
+
+Board DONT-4:
+  Original: 1NT Pass Pass 2D Pass Pass Pass
+  BBA:      1NT Pass Pass Pass
+
+Board DONT-5:
+  Original: 1NT X Pass 2C Pass 2H Pass Pass Pass
+  BBA:      1NT 2H Pass Pass Pass
+
+Board DONT-6:
+  Original: 1NT X Pass 2S Pass Pass Pass
+  BBA:      1NT 2H Pass Pass Pass
+
+Board DONT-7:
+  Original: 1NT Pass Pass X Pass 2C Pass 2H Pass Pass Pass
+  BBA:      1NT X Pass 2H Pass Pass X 3H Pass Pass Pass
+
+Board DONT-8:
+  Original: 1NT Pass Pass X Pass 2C Pass Pass Pass
+  BBA:      1NT Pass 3NT Pass Pass Pass
+
+Board DONT-9:
+  Original: 1NT X Pass 2H Pass Pass Pass Pass
+  BBA:      1NT 2C 2H 4H Pass Pass 4S Pass Pass Pass
+
+Board DONT-10:
+  Original: 1NT 2H Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1NT Pass Pass Pass
+
+Board DONT-11:
+  Original: 1NT Pass Pass 2C Pass 2D Pass 2S Pass Pass Pass
+  BBA:      1NT Pass Pass Pass
+
+Board DONT-12:
+  Original: 1NT Pass Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1NT Pass Pass Pass
+
+Board DONT-13:
+  Original: 1NT X Pass 2C Pass Pass Pass
+  BBA:      1H Pass Pass Pass
+
+Board DONT-14:
+  Original: 1NT 2C Pass 2D Pass 2S Pass Pass Pass
+  BBA:      1NT Pass 2NT Pass Pass Pass
+
+Board DONT-15:
+  Original: 1NT Pass Pass 2C Pass 2H Pass Pass Pass
+  BBA:      1NT Pass Pass Pass
+
+Board DONT-16:
+  Original: 1NT Pass Pass 2H Pass Pass Pass
+  BBA:      1NT Pass Pass Pass
+
+Board DONT-17:
+  Original: 1NT 2S Pass Pass Pass
+  BBA:      1NT 2S X 3H Pass 3S Pass Pass Pass
+
+Board DONT-18:
+  Original: 1NT Pass Pass Pass
+  BBA:      1S 1NT Pass Pass Pass
+
+Board DONT-19:
+  Original: 1NT Pass Pass 2S Pass Pass Pass
+  BBA:      1NT Pass 2C Pass 2D Pass 2NT Pass Pass Pass
+
+Board DONT-20:
+  Original: 1NT Pass Pass 2H Pass 2S Pass Pass Pass
+  BBA:      1NT X Pass 2H Pass Pass Pass
+
+Board Drury-1:
+  Original: Pass Pass 1H Pass 2C Pass 2H Pass Pass Pass
+  BBA:      Pass Pass 2H Pass 3H Pass Pass Pass
+
+Board Drury-2:
+  Original: Pass Pass 1S Pass 2C Pass 2S Pass Pass Pass
+  BBA:      Pass Pass 2S Pass Pass Pass
+
+Board Drury-3:
+  Original: Pass Pass 1S Pass 2C Pass 2D Pass 4S Pass Pass Pass
+  BBA:      Pass Pass 1S Pass 2C X 2D Pass 3S Pass 4S Pass Pass Pass
+
+Board Drury-4:
+  Original: Pass Pass 1H Pass 2C Pass 2D Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1D Pass 1H Pass 1NT Pass 2C Pass 2H Pass 3H Pass 3NT Pass Pass Pass
+
+Board Drury-5:
+  Original: Pass Pass 1H Pass 3H Pass Pass Pass
+  BBA:      Pass Pass 1H X 4H X Pass Pass Pass
+
+Board Drury-6:
+  Original: Pass Pass 1S Pass 2C Pass 4S Pass Pass Pass
+  BBA:      Pass Pass 1S Pass 2C Pass 2D Pass 4S Pass Pass Pass
+
+Board Drury-7:
+  Original: Pass Pass 1S Pass 2C Pass 2D Pass 2S Pass Pass Pass
+  BBA:      Pass Pass 1S X XX 2H Pass Pass 3S Pass Pass Pass
+
+Board Drury-8:
+  Original: Pass Pass 1S Pass 3S Pass Pass Pass
+  BBA:      Pass 1H 1S 2S 3S 4H Pass Pass Pass
+
+Board Eliminations-1:
+  Original: 1S Pass 3S Pass 6S Pass Pass Pass
+  BBA:      2NT Pass 3H Pass 3S Pass 4S Pass Pass Pass
+
+Board Eliminations-2:
+  Original: 1S Pass 4S Pass Pass Pass
+  BBA:      1S Pass 2S Pass 2NT Pass 4S Pass Pass Pass
+
+Board Eliminations-3:
+  Original: 1S Pass 3S Pass 6S Pass Pass Pass
+  BBA:      1S Pass 3S Pass 3NT Pass 4S Pass 4NT Pass 5C Pass 6S Pass Pass Pass
+
+Board Eliminations-4:
+  Original: 1H Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1H Pass 2NT Pass 3NT Pass 4H Pass Pass Pass
+
+Board Eliminations-5:
+  Original: 1C Pass 1S Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1C 1H 1S 2H 2S Pass 4S Pass Pass Pass
+
+Board Eliminations-6:
+  Original: 1S Pass 3S Pass 6S Pass Pass Pass
+  BBA:      2NT Pass 3H Pass 3S Pass 3NT Pass 4S Pass Pass Pass
+
+Board Eliminations-8:
+  Original: 2C Pass 2D Pass 3D Pass 4D Pass 6D Pass Pass Pass
+  BBA:      2C Pass 2D Pass 3D Pass 5D Pass 6D Pass Pass Pass
+
+Board Eliminations-10:
+  Original: Pass 1D 1H 2H X 6D Pass Pass Pass
+  BBA:      Pass 1D 1H 2D 3H 3NT 4H X Pass 5D Pass Pass Pass
+
+Board Eliminations-11:
+  Original: 1C 1S 2S Pass 3C Pass 5C Pass Pass Pass
+  BBA:      1C 1S 2S Pass 3C Pass Pass Pass
+
+Board Eliminations-12:
+  Original: Pass 1NT Pass 3H Pass 4H Pass 5C Pass 6H Pass Pass Pass
+  BBA:      Pass 1NT Pass 2D Pass 2H Pass 4H Pass Pass Pass
+
+Board Eliminations-15:
+  Original: 1NT Pass 3C Pass 4C Pass 6C Pass Pass Pass
+  BBA:      1NT Pass 6C Pass Pass Pass
+
+Board Eliminations-16:
+  Original: 1C Pass 1S Pass 2NT Pass 4C Pass 6C Pass Pass Pass
+  BBA:      1C Pass 1S Pass 2NT Pass 6NT Pass Pass Pass
+
+Board Eliminations-17:
+  Original: 1S 4H 4S Pass Pass Pass
+  BBA:      1S 3H 4H Pass 4S Pass Pass Pass
+
+Board Eliminations-18:
+  Original: Pass 1S Pass 3S Pass 4NT Pass 5H Pass 6S Pass Pass Pass
+  BBA:      Pass 1S Pass 3C Pass 4D X Pass Pass 4NT Pass 5H Pass 7S Pass Pass Pass
+
+Board Eliminations-19:
+  Original: 1C Pass Pass X Pass 1S Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1C Pass Pass X 1S Pass Pass 3H Pass 3S Pass 4H Pass Pass Pass
+
+Board Eliminations-21:
+  Original: 1H Pass 3H Pass 6H Pass Pass Pass
+  BBA:      1H 1S 2S 3S 4NT Pass 5H Pass 6H Pass Pass Pass
+
+Board Eliminations-22:
+  Original: 2NT 3S 6NT Pass Pass Pass
+  BBA:      2NT 3S X Pass Pass Pass
+
+Board Eliminations-23:
+  Original: 1NT Pass 2C 2S 3H Pass 4H Pass Pass Pass
+  BBA:      1NT Pass 2C 2S Pass Pass 2NT Pass Pass Pass
+
+Board Eliminations-25:
+  Original: 2S 3C Pass 4NT Pass 5H Pass 6C Pass Pass Pass
+  BBA:      2S 3C Pass 4NT Pass 5S Pass 7C Pass Pass Pass
+
+Board Entries-2:
+  Original: Pass Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      Pass Pass 2NT Pass Pass Pass
+
+Board Entries-3:
+  Original: 1H Pass 1NT Pass 3NT Pass Pass Pass
+  BBA:      1H 1S Pass Pass X Pass 2D Pass Pass Pass
+
+Board Entries-5:
+  Original: 1D Pass 1NT Pass 3NT Pass Pass Pass
+  BBA:      1D Pass 1NT Pass 2NT Pass 3NT Pass Pass Pass
+
+Board Entries-6:
+  Original: 2C Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      2C Pass 2D Pass 2NT Pass 3NT Pass Pass Pass
+
+Board Entries-9:
+  Original: 2C Pass 2S Pass 3C Pass 3NT Pass 6C Pass Pass Pass
+  BBA:      2C Pass 2S Pass 3C Pass 6NT Pass 7C Pass Pass Pass
+
+Board Entries-10:
+  Original: 1H Pass 2C Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1H 1S 3C 4S X Pass Pass Pass
+
+Board Entries-12:
+  Original: 1S Pass 2C Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1S Pass 1NT Pass 2C Pass 4C Pass Pass Pass
+
+Board Entries-13:
+  Original: 1D Pass 1S Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1D Pass 1S Pass 2NT Pass Pass Pass
+
+Board Entries-14:
+  Original: 1D 1NT Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1D Pass 1NT Pass 2NT Pass 3NT Pass Pass Pass
+
+Board Entries-17:
+  Original: 2C Pass 2D Pass 3D Pass 3H Pass 3NT Pass Pass Pass
+  BBA:      2C Pass 2D Pass 3D Pass 3H Pass 4D Pass 5D Pass Pass Pass
+
+Board Entries-19:
+  Original: 2C Pass 2H Pass 2NT Pass 6NT Pass Pass Pass
+  BBA:      2C Pass 2H Pass 3H Pass 4NT Pass 5C Pass 6H Pass Pass Pass
+
+Board Entries-20:
+  Original: 2C Pass 2H Pass 2S Pass 3H Pass 6S Pass Pass Pass
+  BBA:      2C Pass 2H Pass 2S Pass 4H Pass 4S Pass Pass Pass
+
+Board Establishment-1:
+  Original: 1H Pass 1NT Pass 3NT Pass Pass Pass
+  BBA:      1H Pass Pass Pass
+
+Board Establishment-2:
+  Original: 1S Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1S Pass Pass 2H 3S Pass 4H Pass 4S Pass Pass Pass
+
+Board Establishment-3:
+  Original: 1NT Pass 2C Pass 2S Pass 3NT all Pass
+  BBA:      1NT Pass 2C Pass 2S Pass 3C Pass 3NT Pass Pass Pass
+
+Board Establishment-4:
+  Original: 1NT Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 5C Pass Pass Pass
+
+Board Establishment-5:
+  Original: 2NT Pass 3NT Pass Pass Pass
+  BBA:      2NT Pass Pass Pass
+
+Board Establishment-6:
+  Original: 1NT Pass 2D Pass 2H Pass 3NT all Pass
+  BBA:      1NT Pass 2D Pass 2H Pass 3NT Pass Pass Pass
+
+Board Establishment-7:
+  Original: 1C Pass 1S Pass 2S Pass 4NT Pass 5H Pass 6S Pass Pass Pass
+  BBA:      1C 1D 1S 2D 2S Pass 2NT 3D 4S Pass Pass Pass
+
+Board Establishment-8:
+  Original: 1NT Pass Pass Pass
+  BBA:      1NT Pass 2C Pass 2H Pass Pass Pass
+
+Board Establishment-10:
+  Original: 1NT Pass 2C Pass 2H Pass 2NT Pass Pass Pass
+  BBA:      1NT Pass 2C Pass 2H Pass 3NT Pass Pass Pass
+
+Board Establishment-11:
+  Original: 1H Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1H Pass 3D Pass 3H Pass Pass Pass
+
+Board Establishment-12:
+  Original: 2C Pass 2H Pass 3C Pass 3NT Pass 4NT Pass 5D Pass 5NT Pass 6H Pass 7C Pass Pass Pass
+  BBA:      2C Pass 2H Pass 3C Pass 3NT Pass 4C Pass 5C Pass Pass Pass
+
+Board Establishment-14:
+  Original: Pass Pass 1C Pass 2C Pass 3NT Pass Pass Pass
+  BBA:      Pass Pass 1C 1S 3C Pass Pass Pass
+
+Board Establishment-15:
+  Original: Pass Pass 1D Pass 1H Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      Pass Pass 1D Pass 1H Pass 2NT Pass Pass Pass
+
+Board Establishment-16:
+  Original: 1H Pass 3H Pass 4H Pass Pass Pass Pass
+  BBA:      1H Pass 2H Pass Pass Pass
+
+Board Establishment-17:
+  Original: 1NT Pass 2D Pass 2H Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 2D Pass 2H Pass Pass Pass
+
+Board Establishment-19:
+  Original: 2S X Pass 2NT Pass 3D Pass 4D Pass 5D Pass Pass Pass
+  BBA:      2S 3D Pass Pass Pass
+
+Board Establishment-20:
+  Original: Pass Pass 2C Pass 2NT Pass 3S Pass 4S Pass 4NT Pass 5D Pass 6S Pass Pass Pass
+  BBA:      Pass Pass 2C Pass 3C Pass 3S Pass 4S Pass 4NT Pass 5H Pass 5NT Pass 6C X Pass Pass 6S Pass Pass Pass
+
+Board FSF-1:
+  Original: 1C Pass 1H Pass 1S Pass 2D Pass 2H Pass 4H Pass Pass Pass
+  BBA:      1C Pass 1H Pass 1S Pass 3NT Pass Pass Pass
+
+Board FSF-2:
+  Original: 1D Pass 1H Pass 1S Pass 2C Pass 2NT Pass Pass Pass
+  BBA:      1D 1H Pass 1S Pass 2C X Pass Pass Pass
+
+Board FSF-3:
+  Original: 1C Pass 1H Pass 1S Pass 2D Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1C Pass 1H Pass 1S Pass 3NT Pass Pass Pass
+
+Board FSF-4:
+  Original: 1D Pass 1S Pass 2C Pass 2H Pass 3NT Pass Pass Pass
+  BBA:      1D Pass 1S Pass 2C Pass 2H Pass 2NT Pass 3S Pass 3NT Pass Pass Pass
+
+Board FSF-6:
+  Original: 1H Pass 1S Pass 2C Pass 2D Pass 3C Pass 5C all Pass
+  BBA:      1H Pass 1S Pass 2C Pass 2D X 3C Pass 3H Pass 3NT Pass Pass Pass
+
+Board FSF-8:
+  Original: 1D Pass 1S Pass 2C Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1D Pass 1S Pass 2C Pass 3H Pass 4NT Pass 5H Pass Pass Pass
+
+Board FSF-10:
+  Original: 1D Pass 1S Pass 2C Pass 2H Pass 2S Pass 4S all Pass
+  BBA:      1D Pass 1S Pass 1NT Pass 2C Pass 3S Pass 4C Pass 4D Pass 4S Pass Pass Pass
+
+Board FSF-11:
+  Original: 1H Pass 2C Pass 2D Pass 2S Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1H Pass 2C Pass 3D Pass 3NT Pass Pass Pass
+
+Board FSF-12:
+  Original: 1C Pass 1D Pass 1H Pass 1S Pass 2S Pass 4S all Pass
+  BBA:      1C Pass 1D Pass 1H Pass 3NT Pass Pass Pass
+
+Board FSF-13:
+  Original: 1H Pass 1S Pass 2C Pass 2D Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1H Pass 1S Pass 2C Pass 3NT Pass Pass Pass
+
+Board FSF-14:
+  Original: 1C Pass 1H Pass 1S Pass 2D Pass 3H Pass 4H all Pass
+  BBA:      1C Pass 1H Pass 1S Pass 2NT Pass 3H Pass 4H Pass Pass Pass
+
+Board Finesse-2:
+  Original: 1H Pass 1NT Pass 3NT Pass Pass Pass
+  BBA:      1H Pass Pass Pass
+
+Board Finesse-4:
+  Original: 1H Pass 2H Pass 4H Pass Pass Pass
+  BBA:      1H Pass 2H Pass 4D Pass 4H Pass Pass Pass
+
+Board Finesse-5:
+  Original: 1C Pass 2NT Pass 6NT Pass Pass Pass
+  BBA:      1C Pass 1D Pass 2NT Pass 3NT Pass Pass Pass
+
+Board Finesse-6:
+  Original: 2C Pass 2D Pass 2S Pass 2NT Pass 4S Pass Pass Pass
+  BBA:      2C Pass 2D Pass 2S Pass 2NT Pass 3S Pass 4S Pass Pass Pass
+
+Board Finesse-7:
+  Original: 1S Pass 3S Pass 4NT Pass 5H Pass 6S Pass Pass Pass
+  BBA:      1S Pass 2NT Pass 3C Pass 4S Pass Pass Pass
+
+Board Finesse-8:
+  Original: 1D Pass Pass 1NT Pass 3NT Pass Pass Pass
+  BBA:      1D Pass Pass X Pass 2C Pass 3C Pass 4H Pass 4S Pass 5C Pass Pass Pass
+
+Board Finesse-9:
+  Original: 1C Pass 1S Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1C Pass 1S Pass 3S Pass 3NT Pass 4S Pass Pass Pass
+
+Board Finesse-10:
+  Original: Pass 1H Pass 1NT Pass 4H Pass Pass Pass
+  BBA:      Pass 1H Pass Pass Pass
+
+Board Finesse-11:
+  Original: Pass 1D Pass 2D Pass 3H Pass 5D Pass 6D Pass Pass Pass
+  BBA:      Pass 1D X 3D Pass 4NT Pass 5C Pass 6D Pass Pass Pass
+
+Board Finesse-12:
+  Original: 2NT Pass 4C Pass 4NT Pass 7NT Pass Pass Pass
+  BBA:      2NT Pass 6NT Pass Pass Pass
+
+Board Finesse-15:
+  Original: 1D Pass 2C Pass 3NT Pass Pass Pass
+  BBA:      1D Pass 1NT Pass 2NT Pass 3C Pass 3NT Pass Pass Pass
+
+Board Finesse-16:
+  Original: 1D Pass 2D Pass 3NT Pass Pass Pass
+  BBA:      1D Pass 1NT Pass 2NT Pass 3NT Pass Pass Pass
+
+Board Finesse-17:
+  Original: 1C Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1C Pass 1D Pass 1NT Pass 2NT Pass 3D Pass 3NT Pass Pass Pass
+
+Board Finesse-18:
+  Original: 1D Pass Pass 1NT Pass 3NT Pass Pass Pass
+  BBA:      1D Pass Pass X Pass 2C Pass 3C Pass 4H Pass 4S Pass 5C Pass Pass Pass
+
+Board Finesse-20:
+  Original: 2C Pass 2NT Pass 3C Pass 3S Pass 4NT Pass 5D Pass 6S Pass Pass Pass
+  BBA:      2C Pass 2NT Pass 4NT Pass 6NT Pass Pass Pass
+
+Board Help-1:
+  Original: 1H Pass 2H Pass Pass Pass
+  BBA:      1H 1S 2H 2S 3H Pass Pass Pass
+
+Board Help-2:
+  Original: 1S Pass 2S Pass 3H Pass 4S Pass Pass Pass
+  BBA:      1S Pass 3D Pass 4S Pass Pass Pass
+
+Board Help-3:
+  Original: 1S Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1S Pass 3D Pass 3NT Pass 4S Pass Pass Pass
+
+Board Help-4:
+  Original: 1H Pass 2H Pass 3D Pass 3H Pass Pass Pass
+  BBA:      1H Pass 2H Pass 3H Pass 4H Pass Pass Pass
+
+Board Help-5:
+  Original: 1H Pass 2H Pass 3C Pass 3H Pass Pass Pass
+  BBA:      1H 1S 2H 2S 3H Pass Pass Pass
+
+Board Help-6:
+  Original: 1S Pass 2S Pass 3H Pass 4S Pass Pass Pass
+  BBA:      1S Pass 2S Pass 4S Pass Pass Pass
+
+Board Help-7:
+  Original: 1S Pass 2S Pass 3D Pass 4S Pass Pass Pass
+  BBA:      1S 2H 2S Pass Pass 3H Pass Pass 3S Pass Pass Pass
+
+Board Help-8:
+  Original: 1H Pass 2H Pass 3C Pass 4H Pass Pass Pass
+  BBA:      1H Pass 2H Pass 4H Pass Pass Pass
+
+Board Help-9:
+  Original: 1H Pass 2H Pass 2S Pass 4H Pass Pass Pass
+  BBA:      1H Pass 3D Pass 4H Pass Pass Pass
+
+Board Help-10:
+  Original: 1S Pass 2S Pass 3D Pass 3H Pass 4S all Pass
+  BBA:      1S Pass 2S Pass 4S Pass Pass Pass
+
+Board Holdup-1:
+  Original: 1NT Pass 2C Pass 2S Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 2C Pass 2S Pass 3NT Pass Pass Pass
+
+Board Holdup-2:
+  Original: 1H Pass 1NT Pass 3NT Pass Pass Pass
+  BBA:      1H Pass Pass 1S X Pass 2D Pass Pass 2S Pass Pass X Pass 3D Pass Pass Pass
+
+Board Holdup-8:
+  Original: 1C 1S Pass 2C Pass 4S Pass Pass Pass
+  BBA:      1C 1S Pass 2C X 2NT Pass 3C Pass 4S Pass Pass Pass
+
+Board Holdup-11:
+  Original: 1NT Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 2NT Pass Pass Pass
+
+Board Jacoby-3:
+  Original: 1S Pass 2NT Pass 3C Pass 3H Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1S 3C 4C Pass 4S Pass Pass Pass
+
+Board Jacoby-4:
+  Original: 1S Pass 2NT Pass 3NT Pass 4S Pass Pass Pass
+  BBA:      1S Pass 2NT Pass 3S Pass 4C Pass 4NT Pass 5C Pass 5S Pass Pass Pass
+
+Board Jacoby-5:
+  Original: 1S Pass 2NT Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1S Pass 2NT Pass 3NT Pass 4S Pass Pass Pass
+
+Board Jacoby-7:
+  Original: 1H Pass 2NT Pass 4D Pass 4H Pass Pass Pass
+  BBA:      1H 1S 2S 4S X Pass Pass Pass
+
+Board Jacoby-8:
+  Original: 1H Pass 2NT Pass 3D Pass 4H Pass Pass Pass
+  BBA:      1H Pass 2NT Pass 3D Pass 3H Pass 4NT Pass 5C Pass 5H Pass Pass Pass
+
+Board Jacoby-9:
+  Original: 1H Pass 3S Pass 4C Pass 4D Pass 6H Pass Pass Pass
+  BBA:      1H Pass 3S X 4D Pass 4H Pass 4NT Pass 5C Pass 5D Pass 6C Pass 6H Pass Pass Pass
+
+Board Jacoby-10:
+  Original: 1H Pass 2NT Pass 3H Pass 3S Pass 4NT Pass 5H Pass 6H Pass Pass Pass
+  BBA:      1H Pass 2NT Pass 3H Pass 3S Pass 4C Pass 4NT Pass 5S Pass 6H Pass Pass Pass
+
+Board Jacoby-11:
+  Original: 1S Pass 2NT Pass 4NT Pass 5S Pass 7NT Pass Pass Pass
+  BBA:      1S Pass 2NT Pass 3C Pass 3S Pass 4NT Pass 5D Pass 5NT Pass 6C Pass 7S Pass Pass Pass
+
+Board Jacoby-12:
+  Original: 1H Pass 3S Pass 4C Pass 4D Pass 6H Pass Pass Pass
+  BBA:      1H 2S 3S Pass 4H Pass Pass Pass
+
+Board Jacoby-13:
+  Original: 1S 2C 3C Pass 3S Pass Pass Pass
+  BBA:      1S 2C 3C Pass 3S Pass 4S Pass Pass Pass
+
+Board Jacoby-14:
+  Original: 1H Pass 2NT Pass 4H Pass Pass Pass
+  BBA:      1H Pass 2NT Pass 3NT Pass 4H Pass Pass Pass
+
+Board Jacoby-15:
+  Original: 1H Pass 4C Pass 4NT Pass 5D Pass 5H Pass Pass Pass
+  BBA:      1H Pass 4C X 4D Pass 4H Pass 4NT Pass 5C Pass 5H Pass Pass Pass
+
+Board Jacoby-16:
+  Original: 1S Pass 2NT Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1S Pass 2NT Pass 3S Pass 4C Pass 4D Pass 4NT Pass 5S Pass Pass Pass
+
+Board Jacoby-17:
+  Original: 1H Pass 2NT Pass 4H Pass 4S Pass 5H Pass Pass Pass
+  BBA:      1H Pass 2NT Pass 4H Pass Pass Pass
+
+Board Jacoby-18:
+  Original: 1S Pass 4H Pass 5C Pass 5H Pass 6S Pass Pass Pass
+  BBA:      1S Pass 4H Pass 4NT Pass 5C Pass 5S Pass Pass Pass
+
+Board Jacoby-19:
+  Original: 1S Pass 2NT Pass 3NT Pass 4D Pass 4H Pass 4NT Pass 5S Pass 7S Pass Pass Pass
+  BBA:      1S Pass 2NT Pass 3S Pass 4NT Pass 5D Pass 5NT Pass 6C Pass 7S Pass Pass Pass
+
+Board Jacoby-20:
+  Original: 1H 1S 2S Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1H 1S 2S Pass 3H 3S 4H Pass Pass 4S 5H Pass Pass X Pass Pass Pass
+
+Board Jacoby-21:
+  Original: 1H Pass 4C Pass 4NT Pass 5H Pass 6H Pass Pass Pass
+  BBA:      1H Pass 4C Pass 4D Pass 4NT Pass 5D Pass 6H Pass Pass Pass
+
+Board Jacoby-22:
+  Original: 1S Pass 2NT Pass 3H Pass 4D Pass 4S Pass Pass Pass
+  BBA:      1S Pass 2NT Pass 3H Pass 4S Pass Pass Pass
+
+Board Jacoby-23:
+  Original: 1H Pass 2NT Pass 3H Pass 3S Pass 4NT Pass 5D Pass 5H
+  BBA:      1H Pass 2NT Pass 3H Pass 3NT Pass 4C Pass 4NT Pass 5C Pass 5H Pass Pass Pass
+
+Board Jacoby-24:
+  Original: 1S Pass 2NT Pass 4D Pass 4NT Pass 5H Pass 6S Pass Pass Pass
+  BBA:      1S Pass 2NT Pass 3H Pass 3S Pass 4S Pass 4NT Pass 5S Pass 6S Pass Pass Pass
+
+Board Jacoby-25:
+  Original: 1S Pass 2NT Pass 3NT Pass 4C Pass 4S Pass Pass Pass
+  BBA:      1S Pass 2NT Pass 3S Pass 3NT Pass 4C Pass 4H Pass 4NT Pass 5H Pass 5S Pass Pass Pass
+
+Board Leben-2:
+  Original: 1NT 2H 3S Pass 4S Pass Pass Pass
+  BBA:      1NT 2H 3NT Pass Pass Pass
+
+Board Leben-3:
+  Original: 1NT 2D 3H Pass 4H Pass Pass Pass
+  BBA:      1NT 2D 2H Pass Pass Pass
+
+Board Leben-4:
+  Original: 1NT 2C 2H Pass Pass Pass
+  BBA:      1NT 2C 2D Pass 2H Pass Pass Pass
+
+Board Leben-5:
+  Original: 1NT 2C 3C Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1NT 2C 3NT Pass Pass Pass
+
+Board Leben-6:
+  Original: 1NT 2D 3D Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1NT 2D X Pass 2S Pass 3C Pass 4H Pass Pass Pass
+
+Board Leben-7:
+  Original: 1NT 2S 2NT Pass 3C Pass 3D Pass Pass Pass
+  BBA:      1NT 2S Pass Pass Pass
+
+Board Leben-8:
+  Original: 1NT 2S 2NT Pass 3C Pass 3H Pass Pass Pass
+  BBA:      1NT 2S Pass 4S Pass Pass Pass
+
+Board Leben-9:
+  Original: 1NT 2S 3S Pass 4H Pass Pass Pass
+  BBA:      1NT 2S X Pass 3H Pass Pass Pass
+
+Board Leben-10:
+  Original: 1NT 2H 3D Pass 3NT Pass Pass Pass
+  BBA:      1NT 2H 2NT Pass 3C Pass 3NT Pass Pass Pass
+
+Board Leben-11:
+  Original: 1NT 2S 2NT Pass 3C Pass 3S Pass 3NT Pass Pass Pass
+  BBA:      1NT 2S X Pass 3C Pass 3NT Pass Pass Pass
+
+Board Leben-12:
+  Original: 1NT 2D 2NT Pass 3C Pass 3D Pass 3NT Pass Pass Pass
+  BBA:      1NT 2D X Pass 3C Pass 3NT Pass Pass Pass
+
+Board Leben-13:
+  Original: 1NT 2H 3NT Pass Pass Pass
+  BBA:      1NT 2H Pass Pass Pass
+
+Board Leben-16:
+  Original: 1NT 2S X Pass Pass Pass
+  BBA:      1NT 2S Pass Pass Pass
+
+Board Leben-17:
+  Original: 1NT 2D 2NT Pass 3C Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1NT 2D X Pass 3C Pass Pass Pass
+
+Board Leben-18:
+  Original: 1NT 2H 3H Pass 4C Pass 5C Pass Pass Pass
+  BBA:      1NT 2H X Pass 2S Pass 3NT Pass Pass Pass
+
+Board Leben-19:
+  Original: 1NT 2D X Pass Pass Pass
+  BBA:      1NT 2D Pass Pass Pass
+
+Board Leben-20:
+  Original: 1NT 2D 2NT Pass 3C Pass 3D Pass 3H Pass 3NT Pass 4S Pass Pass Pass
+  BBA:      1NT 2D X Pass 2S Pass 4S Pass Pass Pass
+
+Board Major-1:
+  Original: 1H Pass 2H Pass Pass Pass
+  BBA:      1H Pass 3D Pass 3H Pass Pass Pass
+
+Board Major-2:
+  Original: 1H Pass 2H Pass 4H Pass Pass Pass
+  BBA:      1H Pass 3D Pass 3NT Pass 4C Pass 4D Pass 4H Pass Pass Pass
+
+Board Major-3:
+  Original: 1S Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1S Pass 2NT Pass 3H Pass 4S Pass Pass Pass
+
+Board Major-4:
+  Original: Pass 1S Pass 3S Pass Pass Pass Pass
+  BBA:      2H 2S Pass 3H Pass 3S Pass 4S Pass Pass Pass
+
+Board Major-6:
+  Original: 1H Pass 1S Pass 2S Pass Pass Pass
+  BBA:      1H Pass 1S 2D 2S Pass Pass 3D X Pass Pass Pass
+
+Board Major-7:
+  Original: 1H Pass 1S Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1H Pass 1S Pass 4S Pass Pass Pass
+
+Board Major-8:
+  Original: 1S Pass 2C Pass 2H Pass 3NT Pass Pass Pass
+  BBA:      1S Pass 2C Pass 2H Pass 3D Pass 3NT Pass Pass Pass
+
+Board Major-9:
+  Original: 1S Pass 2H Pass 4H Pass Pass Pass
+  BBA:      1S Pass 1NT Pass 2H Pass 4H Pass Pass Pass
+
+Board Major-10:
+  Original: 1S Pass 1NT Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1S Pass 1NT Pass 2S Pass 3S Pass 3NT Pass 4S Pass Pass Pass
+
+Board Major-11:
+  Original: 1H Pass 3H Pass 4NT Pass 5H Pass 6H Pass Pass Pass
+  BBA:      1H Pass 2NT Pass 3S Pass 4H Pass 4NT Pass 5D Pass 5NT Pass 6C Pass 7H Pass Pass Pass
+
+Board Major-12:
+  Original: 1H Pass 2H Pass 4H Pass Pass Pass
+  BBA:      1H 2H Pass 2S 2NT Pass 3H Pass Pass Pass
+
+Board Major-13:
+  Original: 1H Pass 4H Pass Pass Pass
+  BBA:      1H X 4H X Pass Pass Pass
+
+Board Major-14:
+  Original: 1H Pass 1S Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1H Pass 1S Pass 2D Pass 2H Pass 4H Pass Pass Pass
+
+Board Major-15:
+  Original: 1S Pass 2C Pass 2D Pass 4S Pass 4NT Pass 5D Pass 6S all Pass
+  BBA:      1S Pass 2NT Pass 3C Pass 3S Pass 4D Pass 4H Pass 4NT Pass 5H Pass 5S Pass Pass Pass
+
+Board Major-16:
+  Original: 1H Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1H 2S 3S Pass 4H Pass Pass Pass
+
+Board Major-17:
+  Original: 1H Pass 1S Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1H Pass 1S Pass 2S Pass 2NT Pass 3H Pass 4S Pass Pass Pass
+
+Board Major-18:
+  Original: 1S Pass 2S Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1S Pass 3D Pass 4S Pass Pass Pass
+
+Board Major-19:
+  Original: 1S Pass 2S Pass 3C Pass 3S Pass Pass Pass
+  BBA:      1S Pass 2S Pass 3S Pass Pass Pass
+
+Board Major-20:
+  Original: 1H Pass 2H Pass 3D Pass 4H Pass Pass Pass
+  BBA:      1H Pass 2H Pass 4H Pass Pass Pass
+
+Board Michaels-1:
+  Original: 1D 2D Pass 2S Pass Pass Pass
+  BBA:      1D 2D Pass 2S 3D Pass 4D X Pass Pass Pass
+
+Board Michaels-2:
+  Original: 1C 2C Pass 2H Pass Pass Pass
+  BBA:      1C 2C 2NT Pass 3NT Pass Pass Pass
+
+Board Michaels-3:
+  Original: 1H 2NT Pass 3C Pass Pass Pass
+  BBA:      1H 2NT Pass 3C 3H Pass Pass X Pass Pass Pass
+
+Board Michaels-4:
+  Original: 1S 2NT Pass 3D Pass Pass Pass
+  BBA:      1S 2NT 3S Pass Pass Pass
+
+Board Michaels-5:
+  Original: 1S 2S Pass 4H Pass Pass Pass
+  BBA:      1S 2S 3H 4H 4S Pass Pass Pass
+
+Board Michaels-6:
+  Original: 1H 2NT Pass 3NT Pass Pass Pass
+  BBA:      1H Pass Pass X Pass 2D Pass Pass Pass
+
+Board Michaels-7:
+  Original: 1C 2NT Pass 4D Pass Pass Pass
+  BBA:      1C Pass 1S 1NT 2S X Pass 3D Pass 3H Pass Pass Pass
+
+Board Michaels-8:
+  Original: 1D 2D Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1D Pass 1NT Pass 2C Pass 2D Pass Pass Pass
+
+Board Michaels-9:
+  Original: 1S 2S Pass 2NT Pass 3D Pass Pass Pass
+  BBA:      1S 2S 3H Pass 3S Pass Pass Pass
+
+Board Michaels-10:
+  Original: 1C 2NT Pass 3D Pass 4D Pass 5D Pass Pass Pass
+  BBA:      1C 2NT Pass 4D Pass Pass Pass
+
+Board Michaels-11:
+  Original: 1H 1S Pass 2H Pass 4S Pass Pass Pass
+  BBA:      1H 2H Pass 2S X Pass 3H 3S Pass Pass Pass
+
+Board Michaels-12:
+  Original: 1H 2H Pass 2NT Pass 3C Pass Pass Pass
+  BBA:      1H 2H 2S Pass 4H Pass Pass Pass
+
+Board Michaels-13:
+  Original: 1D 2D Pass 2H Pass 3H Pass Pass Pass
+  BBA:      Pass 1S Pass Pass X 3H Pass 3S Pass Pass Pass
+
+Board Michaels-14:
+  Original: 1C 2NT Pass 3S Pass Pass Pass
+  BBA:      1C 2NT X XX 3C Pass 4C Pass Pass Pass
+
+Board Michaels-15:
+  Original: 1C 2C Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1C X 1D Pass 1S 2H Pass Pass Pass
+
+Board Michaels-16:
+  Original: 1D 2D Pass 4H Pass Pass Pass
+  BBA:      1D Pass Pass X 2C Pass 2D Pass Pass 2H Pass 3H Pass 4H Pass Pass Pass
+
+Board Michaels-17:
+  Original: 1S 2NT Pass 3S Pass 4C Pass 5C Pass Pass Pass
+  BBA:      1S 2NT Pass 4NT Pass 5D Pass 6C Pass Pass Pass
+
+Board Michaels-18:
+  Original: 1C 2C 3C Pass Pass Pass
+  BBA:      1C 2C Pass 2H Pass Pass 3C Pass Pass Pass
+
+Board Michaels-19:
+  Original: 1D 2D Pass 3C Pass Pass Pass
+  BBA:      1C Pass 1D Pass 1H Pass 2D 3C 3D 4C Pass Pass X Pass Pass Pass
+
+Board Michaels-20:
+  Original: 1D 2D 3D 3S Pass Pass Pass
+  BBA:      1D 2D 5D Pass Pass Pass
+
+Board Minor-3:
+  Original: 1C Pass 1H Pass 4H Pass Pass Pass
+  BBA:      1C Pass 1H Pass 4D Pass 4H Pass Pass Pass
+
+Board Minor-4:
+  Original: 1C Pass 1S Pass 3S Pass 4S all Pass
+  BBA:      1NT Pass 2H 2S 3H Pass 4S Pass Pass Pass
+
+Board Minor-5:
+  Original: 1D Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1D Pass 2C Pass 2D Pass 2NT Pass 3H Pass 3NT Pass Pass Pass
+
+Board Minor-7:
+  Original: 1C Pass 3C Pass 4NT Pass 5D Pass 6C Pass Pass Pass
+  BBA:      1C Pass 2C Pass 2H Pass 3NT Pass 4NT Pass 5H Pass 6C Pass Pass Pass
+
+Board Minor-8:
+  Original: 1D Pass 3D Pass 3NT Pass Pass Pass
+  BBA:      1D Pass 2D Pass 3NT Pass Pass Pass
+
+Board Minor-11:
+  Original: 1C Pass 1S Pass 2S Pass Pass
+  BBA:      1C 1D 1S 2H 2S Pass Pass 3D Pass Pass 3S Pass Pass Pass
+
+Board Minor-13:
+  Original: 1C Pass 1H Pass 1S Pass 4S Pass Pass Pass
+  BBA:      1C 1H X Pass 2S Pass 3S Pass Pass Pass
+
+Board Minor-14:
+  Original: 1D Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1D Pass 3NT Pass Pass Pass
+
+Board Minor-15:
+  Original: 1C Pass 1H Pass 1S Pass 3NT Pass Pass Pass
+  BBA:      1C Pass 1H Pass 1S Pass 2D Pass 3C Pass 3NT Pass Pass Pass
+
+Board Minor-16:
+  Original: 1D Pass 3D Pass 3NT Pass Pass Pass
+  BBA:      1D Pass 2D Pass 2H Pass 3NT Pass Pass Pass
+
+Board Minor-17:
+  Original: 1C Pass 1S Pass 3S Pass Pass Pass
+  BBA:      1NT Pass Pass Pass
+
+Board Minor-18:
+  Original: 1D Pass 1H Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1NT Pass 2C Pass 2H Pass 4H Pass Pass Pass
+
+Board Minor-19:
+  Original: 1C Pass 1S Pass 3S Pass 4NT Pass 5C Pass 5S Pass Pass Pass
+  BBA:      1C Pass 1S Pass 3S Pass 4NT Pass 5D Pass 5S Pass Pass Pass
+
+Board Minor-20:
+  Original: 1D Pass 2D Pass 4D Pass 5D Pass Pass Pass
+  BBA:      1D 2S 3D Pass 4C Pass 4S Pass 5D Pass Pass Pass
+
+Board NMF-1:
+  Original: 1C Pass 1S Pass 1NT Pass 2D Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1C Pass 1S Pass 1NT Pass 2D Pass 3S Pass 4D Pass 4H Pass 4S Pass Pass Pass
+
+Board NMF-2:
+  Original: 1D Pass 1S Pass 1NT Pass 2C Pass 2NT Pass 3NT all Pass
+  BBA:      1D Pass 1S Pass 1NT Pass 2C Pass 3NT Pass Pass Pass
+
+Board NMF-3:
+  Original: 1D Pass 1H Pass 1NT Pass 2C Pass 2H Pass Pass Pass
+  BBA:      1D Pass 1H Pass 1NT Pass 2C Pass 3H Pass 4H Pass Pass Pass
+
+Board NMF-4:
+  Original: 1D Pass 1S Pass 1NT Pass 2C Pass 2H Pass 4H all Pass
+  BBA:      1D Pass 1S Pass 1NT Pass 2C X 2H Pass 3C Pass 3D Pass 3S Pass 4H Pass Pass Pass
+
+Board NMF-5:
+  Original: 1D Pass 1H Pass 1NT Pass 2C Pass 2NT Pass Pass Pass
+  BBA:      1D Pass 1H Pass 1NT Pass 2C Pass 3NT Pass Pass Pass
+
+Board NMF-6:
+  Original: 1C Pass 1H Pass 1NT Pass 2D Pass 3H Pass 4H all Pass
+  BBA:      1C Pass 1H Pass 1NT Pass 2D Pass 3H Pass 3S Pass 4C Pass 4H Pass Pass Pass
+
+Board NMF-7:
+  Original: 1C Pass 1S Pass 1NT Pass 2D Pass 2H Pass 4H Pass Pass Pass
+  BBA:      1C Pass 1S Pass 1NT Pass 2D X 2H Pass 3H Pass 4H Pass Pass Pass
+
+Board NMF-8:
+  Original: 1D Pass 1H Pass 1NT Pass 2C Pass 3NT Pass Pass Pass
+  BBA:      1D 1S 2H Pass 3C Pass Pass Pass
+
+Board NMF-10:
+  Original: 1D Pass 1S Pass 1NT Pass 2C Pass 3H Pass 4H all Pass
+  BBA:      1D Pass 1S Pass 1NT Pass 2C X 3H Pass 4H Pass 4S Pass Pass Pass
+
+Board NMF-11:
+  Original: 1C Pass 1S Pass 1NT Pass 2D Pass 2H Pass 3NT Pass Pass Pass
+  BBA:      1C Pass 1S Pass 1NT Pass 2D X 2H Pass 3NT Pass Pass Pass
+
+Board NMF-12:
+  Original: 1C Pass 1S Pass 2NT Pass 3D Pass 3S Pass 4S all Pass
+  BBA:      1C 1D 1S Pass 2NT Pass 3NT Pass Pass Pass
+
+Board NMF-13:
+  Original: 1H Pass 1S Pass 2NT Pass 3C Pass 3NT Pass 6NT Pass Pass Pass
+  BBA:      1H Pass 2S Pass 4NT Pass 5D Pass 5H Pass 5NT Pass 6NT Pass Pass Pass
+
+Board NMF-14:
+  Original: 1D Pass 1S Pass 1NT Pass 2C Pass 2D Pass 3NT all Pass
+  BBA:      1D Pass 2S Pass 3D Pass 3NT Pass Pass Pass
+
+Board Negative-1:
+  Original: 1H 1S 2S Pass 4H Pass Pass Pass
+  BBA:      1H 2S 3H Pass Pass Pass
+
+Board Negative-2:
+  Original: 1D 1S X Pass 2H Pass Pass Pass
+  BBA:      1D 1S X 2S 3H 3S Pass Pass Pass
+
+Board Negative-3:
+  Original: 1C 1S X Pass 2H Pass Pass Pass
+  BBA:      1C 1S X Pass 2H X Pass 3D 3H Pass Pass Pass
+
+Board Negative-4:
+  Original: 1D 1H X Pass 2S Pass Pass Pass
+  BBA:      1NT Pass 2C Pass 2S Pass Pass Pass
+
+Board Negative-5:
+  Original: 1D 1H X Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1D 2H X 3H 4H Pass 4S Pass Pass Pass
+
+Board Negative-6:
+  Original: 1C 1S X Pass 2H Pass 4H Pass Pass Pass
+  BBA:      1C 1S X 2S 3H Pass 3S Pass 4C Pass 4H Pass Pass Pass
+
+Board Negative-7:
+  Original: 1C 1D X Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1C 1D X Pass 1NT Pass 2NT Pass 3NT Pass Pass Pass
+
+Board Negative-8:
+  Original: 1D 1H X Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1NT 2H X Pass 2S Pass 3NT Pass 4H Pass 4S Pass Pass Pass
+
+Board Negative-9:
+  Original: 1D 1S X Pass 2S Pass 3NT Pass Pass Pass
+  BBA:      1D 2S Pass Pass 3D Pass Pass Pass
+
+Board Negative-10:
+  Original: 1H 1S X Pass 2H Pass Pass Pass
+  BBA:      1H 1S X Pass 2H Pass Pass 2S Pass Pass Pass
+
+Board Negative-11:
+  Original: 1H 1S X Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1H 1S X 2S 3H Pass 4H Pass Pass Pass
+
+Board Negative-12:
+  Original: 1S 2H X Pass 3D Pass Pass Pass
+  BBA:      1H Pass 1NT Pass 2D Pass 2H Pass Pass Pass
+
+Board Negative-13:
+  Original: 1D 2C X Pass 2H Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1D 2C X Pass 2D 3C X Pass Pass Pass
+
+Board Negative-14:
+  Original: 1C 1D X Pass 1S Pass Pass Pass
+  BBA:      1C 1D X Pass 1S 2D Pass Pass 2S Pass Pass 3D Pass Pass 3S Pass Pass Pass
+
+Board Negative-15:
+  Original: 1H 2D X Pass 4S Pass Pass Pass
+  BBA:      1H 2D X Pass 4D X XX Pass 4S Pass Pass Pass
+
+Board Notrump-1:
+  Original: 1NT Pass 2NT Pass Pass Pass
+  BBA:      1NT Pass 3NT Pass Pass Pass
+
+Board Notrump-2:
+  Original: 1NT Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 3NT Pass Pass Pass
+
+Board Notrump-3:
+  Original: 1NT Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 3NT Pass Pass Pass
+
+Board Notrump-4:
+  Original: 1NT Pass 4NT Pass Pass Pass
+  BBA:      1NT Pass 6NT Pass Pass Pass
+
+Board Notrump-5:
+  Original: 1NT Pass 4NT Pass 6NT Pass Pass Pass
+  BBA:      1NT Pass 6NT Pass Pass Pass
+
+Board Notrump-6:
+  Original: 1NT Pass 4NT Pass 6NT Pass Pass Pass
+  BBA:      1NT Pass 6NT Pass Pass Pass
+
+Board Notrump-7:
+  Original: Pass 1NT Pass 2H Pass Pass Pass
+  BBA:      1S 1NT X 2D 3D Pass 3S Pass Pass Pass
+
+Board Notrump-8:
+  Original: Pass Pass Pass 1NT Pass 3H Pass 3NT Pass Pass Pass
+  BBA:      Pass Pass Pass 1NT Pass 2D Pass 2H Pass 3NT Pass Pass Pass
+
+Board Notrump-9:
+  Original: Pass Pass Pass 1NT Pass 3S Pass 4S Pass Pass Pass
+  BBA:      Pass Pass Pass 1NT Pass 2H Pass 2S Pass 3NT Pass 4S Pass Pass Pass
+
+Board Notrump-10:
+  Original: Pass 1NT Pass 3D Pass 3NT Pass Pass Pass
+  BBA:      2H 2NT Pass 3NT Pass Pass Pass
+
+Board Notrump-11:
+  Original: Pass 1NT Pass 3C Pass 4C Pass 4NT Pass 5D Pass 6C all Pass
+  BBA:      Pass 1NT Pass 3NT Pass Pass Pass
+
+Board Notrump-12:
+  Original: 1D 1NT Pass 2H Pass Pass Pass
+  BBA:      1D 1NT Pass 2D X 2H 3D 3H Pass Pass Pass
+
+Board Notrump-13:
+  Original: 2NT Pass 3S Pass 4S Pass Pass Pass
+  BBA:      2NT Pass 3H Pass 3S Pass 3NT Pass 4S Pass Pass Pass
+
+Board Notrump-14:
+  Original: Pass 1NT Pass Pass Pass
+  BBA:      Pass 1NT Pass 2NT Pass Pass Pass
+
+Board Notrump-15:
+  Original: 1NT Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 3NT Pass Pass Pass
+
+Board Notrump-17:
+  Original: 1NT Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass Pass Pass
+
+Board Notrump-20:
+  Original: 1NT Pass 2S Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass Pass X Pass 3H 3S Pass Pass 4H Pass Pass Pass
+
+Board Notrump-21:
+  Original: 1NT Pass 4H Pass Pass Pass
+  BBA:      1NT Pass 2D Pass 2H Pass 4H Pass Pass Pass
+
+Board Notrump-22:
+  Original: 1NT Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass 3NT Pass 4S Pass Pass Pass
+
+Board Notrump-23:
+  Original: 1NT Pass 3C Pass 4C Pass 4D Pass 6C Pass Pass Pass
+  BBA:      1NT Pass 3NT Pass Pass Pass
+
+Board Notrump-25:
+  Original: 2NT Pass 4C Pass 4S Pass 6S Pass Pass Pass
+  BBA:      1D Pass 1S Pass 2NT Pass 6NT Pass Pass Pass
+
+Board OLead-3:
+  Original: 1NT 3NT Pass Pass
+  BBA:      1NT Pass 3NT Pass Pass Pass
+
+Board OLead-4:
+  Original: 1H Pass 2C Pass 2H Pass 4H Pass Pass Pass
+  BBA:      1H Pass 2C Pass 2H Pass 3H Pass 3S Pass 4C Pass 4H Pass Pass Pass
+
+Board OLead-5:
+  Original: 1NT Pass 3NT Pass Pass
+  BBA:      1NT Pass 3NT Pass Pass Pass
+
+Board OLead-8:
+  Original: 1D Pass 2C Pass 3D Pass 4NT Pass 5D Pass 6D Pass Pass Pass
+  BBA:      1D Pass 2C Pass 3D Pass 4D Pass 4H Pass 4NT Pass 5C Pass 5H Pass 5NT Pass 6D Pass Pass Pass
+
+Board OLead-10:
+  Original: 1H Pass 1S Pass 2C Pass 4H Pass Pass Pass
+  BBA:      1H Pass 4C Pass 4H Pass Pass Pass
+
+Board OLead-11:
+  Original: 1C 1S 2NT Pass 3NT Pass Pass Pass
+  BBA:      1C 1S 3NT Pass Pass Pass
+
+Board OLead-13:
+  Original: 1D Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1D Pass 2NT Pass Pass Pass
+
+Board OLead-14:
+  Original: 1H 2S 3D 3S 4C Pass 4H Pass Pass 4S X Pass Pass Pass
+  BBA:      1H 2S 3S 4S X Pass Pass Pass
+
+Board OLead-16:
+  Original: 1D Pass 1S Pass 3D Pass 3S Pass 4S Pass 4NT Pass 5D Pass 6S Pass Pass Pass
+  BBA:      1D Pass 2S Pass 4D Pass 4S Pass 4NT Pass 5D Pass 5H Pass 5NT Pass 6S Pass Pass Pass
+
+Board OLead-17:
+  Original: 1S Pass 2NT Pass 3NT X Pass Pass Pass
+  BBA:      1S Pass 2D Pass 2NT Pass 3NT Pass Pass Pass
+
+Board OLead-19:
+  Original: 1H Pass 2NT Pass 6NT Pass Pass Pass
+  BBA:      1H Pass 2C Pass 3NT Pass 6NT Pass Pass Pass
+
+Board OLead-20:
+  Original: 1S Pass 2C Pass 3C Pass 4S Pass Pass X Pass Pass Pass
+  BBA:      1S X 2NT Pass 3S Pass 4S Pass Pass Pass
+
+Board Ogust-6:
+  Original: Pass 2D Pass 2NT Pass 3D Pass 3NT Pass Pass Pass
+  BBA:      Pass 2D Pass 2NT Pass 3D Pass Pass Pass
+
+Board Ogust-10:
+  Original: Pass 2S Pass 2NT Pass 3S Pass 6S Pass Pass Pass
+  BBA:      Pass 2S Pass 2NT Pass 3S Pass 4NT Pass 5C Pass 5D Pass 6C Pass 6S Pass Pass Pass
+
+Board Overcalls-1:
+  Original: 1D Pass Pass Pass
+  BBA:      Pass 1D Pass 1S Pass 1NT Pass Pass Pass
+
+Board Overcalls-2:
+  Original: 1C 1H Pass 3H Pass Pass Pass
+  BBA:      1C 1H 2C 3C 4C 4H Pass Pass 5C X Pass Pass Pass
+
+Board Overcalls-3:
+  Original: 1C 1H Pass 2H Pass Pass Pass
+  BBA:      1C 1H Pass Pass 1S Pass Pass 2H Pass Pass Pass
+
+Board Overcalls-4:
+  Original: 1D 1S Pass Pass Pass
+  BBA:      1D 1S X Pass 2H Pass Pass Pass
+
+Board Overcalls-5:
+  Original: 1S 2H Pass 3H Pass Pass Pass
+  BBA:      1S Pass 1NT Pass 2C 2H 3C 4H X Pass Pass Pass
+
+Board Overcalls-6:
+  Original: 1D 1S 2D 2S Pass Pass Pass
+  BBA:      1D 1S 2D Pass Pass Pass
+
+Board Overcalls-7:
+  Original: 1D 1S Pass 3S Pass Pass Pass
+  BBA:      1D 1S X 2D 3C 3S Pass Pass Pass
+
+Board Overcalls-8:
+  Original: 1H 1S 3H 4S Pass Pass Pass
+  BBA:      1H 1S 2S 4S 5H Pass Pass X Pass Pass Pass
+
+Board Overcalls-9:
+  Original: 1C 1H Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1C 1H Pass 2C Pass 2D Pass 2S Pass 4H Pass Pass Pass
+
+Board Overcalls-10:
+  Original: 1S 2C Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1S 2C 2S 3NT Pass Pass Pass
+
+Board Overcalls-11:
+  Original: 1C 1NT Pass 2C Pass 2D Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1C X Pass 1H Pass 1NT Pass 3S Pass 3NT Pass Pass Pass
+
+Board Overcalls-12:
+  Original: 1D 1S Pass 2D Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1D 1S Pass 2D 3D 3S Pass 4S Pass Pass Pass
+
+Board Overcalls-13:
+  Original: 1H 2S Pass Pass Pass
+  BBA:      1H 2S X Pass 3H Pass Pass Pass
+
+Board Overcalls-14:
+  Original: 1D 1H Pass 1S Pass 2S Pass Pass Pass
+  BBA:      1D 1H 1NT 2S 3D Pass Pass Pass
+
+Board Overcalls-15:
+  Original: 1C 1H Pass 1S Pass 2S Pass 4S all Pass
+  BBA:      1C 1H 3C Pass Pass Pass
+
+Board Overcalls-16:
+  Original: 1D 1NT Pass 2C Pass 2H Pass 3H Pass Pass Pass
+  BBA:      1D 1NT Pass 2C Pass 2H Pass 4H Pass Pass Pass
+
+Board Overcalls-17:
+  Original: 1S 2C Pass 2S Pass 2NT Pass 3NT all Pass
+  BBA:      1S Pass Pass X 2D Pass 2S Pass Pass 3C Pass Pass Pass
+
+Board Overcalls-18:
+  Original: 1C 1S Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1C 1S Pass 1NT Pass 3NT Pass Pass Pass
+
+Board Overcalls-19:
+  Original: 1C 2D Pass 2NT Pass 3H Pass 3NT all Pass
+  BBA:      1C 2D Pass 2NT Pass 3H Pass 4C X Pass Pass 4D Pass Pass Pass
+
+Board Overcalls-20:
+  Original: 1C 2S Pass 2NT Pass 3D Pass 4S Pass Pass Pass
+  BBA:      1C 2S Pass 3C X XX Pass 4S Pass Pass Pass
+
+Board Preempt-2:
+  Original: 3S Pass Pass Pass
+  BBA:      3S Pass 4S Pass Pass Pass
+
+Board Preempt-5:
+  Original: 4S Pass Pass Pass
+  BBA:      4S Pass Pass 5H Pass Pass Pass
+
+Board Preempt-6:
+  Original: 3S Pass 6S Pass Pass
+  BBA:      4S Pass 4NT Pass 5C Pass 6S Pass Pass Pass
+
+Board Preempt-7:
+  Original: 3H X Pass 3S Pass Pass Pass
+  BBA:      3H Pass Pass Pass
+
+Board Preempt-8:
+  Original: 3D 3S 4D Pass Pass Pass
+  BBA:      3D 3S 5D Pass Pass X Pass Pass Pass
+
+Board Preempt-9:
+  Original: 3D X 4D 4H Pass Pass Pass
+  BBA:      3D Pass 5D X Pass Pass Pass
+
+Board Preempt-12:
+  Original: 1C 3H Pass 4H Pass Pass Pass
+  BBA:      1C 3H Pass 4C X Pass Pass 4H Pass Pass Pass
+
+Board Reverse-1:
+  Original: 1C Pass 1H Pass 1S Pass 4S Pass Pass Pass
+  BBA:      1C 1D X Pass 1S Pass 2D Pass 4S Pass Pass Pass
+
+Board Reverse-2:
+  Original: 1C Pass 1S Pass 1NT Pass 3NT all Pass
+  BBA:      1C Pass 1S Pass 1NT Pass 3C Pass 3NT Pass Pass Pass
+
+Board Reverse-3:
+  Original: 1C Pass 1H Pass 2D Pass 2NT Pass Pass Pass
+  BBA:      1NT Pass Pass Pass
+
+Board Reverse-4:
+  Original: 1C Pass 1S Pass 2D Pass 3S Pass 3NT Pass Pass Pass
+  BBA:      1C Pass 1S Pass 2D Pass 2H Pass 3NT Pass Pass Pass
+
+Board Reverse-5:
+  Original: 1C Pass 1S Pass 2H Pass 4H Pass Pass Pass
+  BBA:      1C 1S Pass Pass X Pass 2H Pass Pass Pass
+
+Board Reverse-6:
+  Original: 1S Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1S Pass 2S Pass 4C Pass 4D Pass 4S Pass Pass Pass
+
+Board Reverse-7:
+  Original: 1C Pass 1H Pass 2D Pass 3C Pass Pass Pass
+  BBA:      1C 1S X Pass 3D Pass 4C Pass Pass Pass
+
+Board Reverse-8:
+  Original: 1D Pass 1S Pass 2H Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 2C Pass 2H Pass 3NT Pass Pass Pass
+
+Board Reverse-10:
+  Original: 1C Pass 1H Pass 2D Pass 2H Pass Pass Pass
+  BBA:      1C 1S Pass Pass Pass
+
+Board Reverse-11:
+  Original: 1D Pass 1S Pass 2H Pass 3D Pass 5D Pass Pass Pass
+  BBA:      1D Pass 1S Pass 2H Pass 2NT Pass 3D Pass 4D Pass 5D Pass Pass Pass
+
+Board Reverse-12:
+  Original: 1C Pass 1S Pass 2D Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1C Pass 1S Pass 2D Pass 2S Pass 4S Pass Pass Pass
+
+Board Reverse-13:
+  Original: 1C Pass 1S Pass 2D Pass 4D Pass 5D Pass Pass Pass
+  BBA:      1C Pass 1S Pass 2D Pass 2H Pass 3NT Pass 4D Pass 4H Pass 4S Pass 5D Pass 6D Pass Pass Pass
+
+Board Roman-1:
+  Original: 1S Pass 2H Pass 4NT Pass 5S Pass 6H Pass Pass Pass
+  BBA:      1S Pass 1NT Pass 2H Pass 4H Pass Pass Pass
+
+Board Roman-2:
+  Original: 1C Pass 1S Pass 4S Pass 5C Pass 5H Pass 5S Pass Pass Pass
+  BBA:      2NT Pass 3H Pass 3S Pass 6S Pass Pass Pass
+
+Board Roman-3:
+  Original: 1D Pass 1S Pass 3S Pass 4NT Pass 5D Pass 6S Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass 3H Pass 4S Pass 4NT Pass 5D Pass 6S Pass Pass Pass
+
+Board Roman-4:
+  Original: 1S Pass 2NT Pass 3NT Pass 4H Pass 4NT Pass 5S Pass 6S Pass Pass Pass
+  BBA:      2NT Pass 3C Pass 3S Pass 4H Pass 4NT Pass 5S Pass Pass Pass
+
+Board Roman-5:
+  Original: 1NT Pass 3D Pass 4D Pass 4NT Pass 5H Pass 6D all Pass
+  BBA:      1NT Pass 3NT Pass Pass Pass
+
+Board Roman-6:
+  Original: 1H Pass 3H Pass 4C Pass 4H Pass 4NT Pass 5C Pass 6H Pass Pass Pass
+  BBA:      2C Pass 2NT Pass 3H Pass 4NT Pass 5D Pass 6H Pass Pass Pass
+
+Board Roman-7:
+  Original: 1S Pass 4D Pass 4NT Pass 5NT Pass 6S Pass Pass Pass
+  BBA:      1S Pass 4D Pass 4H Pass 4NT Pass 5S Pass Pass Pass
+
+Board Roman-8:
+  Original: 2NT Pass 3C Pass 3H Pass 4NT Pass 5H Pass Pass Pass Pass
+  BBA:      2NT Pass 3C Pass 3H Pass 3S Pass 3NT Pass 4NT Pass 5H Pass 6H Pass Pass Pass
+
+Board Roman-9:
+  Original: 2C Pass 2H Pass 4NT Pass 5C Pass 6H Pass Pass Pass
+  BBA:      2C Pass 2H Pass 3H Pass 3NT Pass 4NT Pass 5C Pass 5D Pass 6D Pass 6H Pass Pass Pass
+
+Board Roman-10:
+  Original: 1S Pass 3H Pass 3S Pass 4NT Pass 5S Pass 6S Pass Pass Pass
+  BBA:      1S Pass 2H Pass 2S Pass 3S Pass 4S Pass 4NT Pass 5S Pass 6S Pass Pass Pass
+
+Board Roman-11:
+  Original: 2C Pass 2H Pass 4NT Pass 6C Pass 7H Pass Pass Pass
+  BBA:      2C 3C 3H Pass 4NT Pass 5C Pass 6H Pass Pass Pass
+
+Board Roman-12:
+  Original: 1NT Pass 2C Pass 2S Pass 4NT Pass 5C Pass 5D Pass 5S Pass Pass Pass Pass
+  BBA:      1NT Pass 2C Pass 2S Pass 3H Pass 4C Pass 4H Pass 4NT Pass 5D Pass 5H Pass 5S Pass Pass Pass
+
+Board Roman-13:
+  Original: Pass 1D Pass 1S Pass 2H Pass 4NT Pass 5C Pass 5D Pass 5H Pass 6H Pass Pass Pass
+  BBA:      Pass 1D Pass 1S Pass 2H Pass 3C Pass 3NT Pass 6H Pass Pass Pass
+
+Board Roman-14:
+  Original: 1H Pass 2D Pass 3H Pass 4NT Pass 5C Pass 5NT Pass 6D Pass 7NT Pass Pass Pass
+  BBA:      1H 3S 4H Pass 4NT Pass 5C Pass 5H Pass Pass Pass
+
+Board Roman-15:
+  Original: 1H Pass 3S Pass 4NT Pass 6H Pass Pass Pass
+  BBA:      1H Pass 3S X 4D Pass 4H Pass 4NT Pass 5C Pass 5H Pass Pass Pass
+
+Board Roman-16:
+  Original: Pass 1S Pass 4D Pass 4NT Pass 6D Pass 7S Pass Pass Pass
+  BBA:      Pass 1S Pass 4D Pass 4H Pass 4S Pass 4NT Pass 5C Pass 6S Pass Pass Pass
+
+Board Roman-17:
+  Original: 2C Pass 2NT Pass 3D Pass 4D Pass 4NT Pass 5C Pass 5H Pass 5S Pass 7NT all Pass
+  BBA:      2C Pass 2NT Pass 4D Pass 5D Pass 6D Pass Pass Pass
+
+Board Roman-18:
+  Original: Pass 2C Pass 2H Pass 3H Pass 3S Pass 4NT Pass 6H all Pass
+  BBA:      4S Pass Pass Pass
+
+Board Roman-19:
+  Original: 2C Pass 2H Pass 2S Pass 3S Pass 4NT Pass 5H Pass 5NT Pass 6D Pass 7NT all Pass
+  BBA:      2C Pass 2H Pass 2S Pass 3S Pass 4NT Pass 5H Pass 5NT Pass 6D Pass 7S Pass Pass Pass
+
+Board Roman-20:
+  Original: Pass 1S Pass 3S Pass 4C Pass 4H Pass 6S Pass Pass Pass
+  BBA:      Pass 1S 2S 3H Pass 3NT Pass 4H Pass 4NT Pass 5C Pass 5S Pass Pass Pass
+
+Board SecondHand-2:
+  Original: 1S Pass 3D Pass 3H Pass 3NT Pass 4H Pass 4NT Pass 5H Pass 6H all Pass
+  BBA:      1S Pass 2D Pass 2H Pass 4NT Pass 5H Pass 5S Pass 6S Pass Pass Pass
+
+Board SecondHand-3:
+  Original: 1H Pass 4H Pass Pass Pass
+  BBA:      1H Pass 2H Pass 3H Pass Pass Pass
+
+Board SecondHand-4:
+  Original: 1S Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1S Pass 2S Pass 2NT Pass 4S Pass Pass Pass
+
+Board SecondHand-7:
+  Original: 1C Pass 1H Pass 2NT Pass 6H Pass Pass Pass
+  BBA:      1C Pass 1H Pass 2NT Pass 4H Pass Pass Pass
+
+Board SecondHand-8:
+  Original: 1C Pass 1H Pass 1NT Pass 3NT Pass Pass Pass
+  BBA:      1C 1D 1H Pass 1NT Pass 2H Pass Pass Pass
+
+Board SecondHand-10:
+  Original: 1C Pass 1D Pass 2C Pass 3NT Pass Pass Pass
+  BBA:      1C Pass 1H 1S 2C Pass 3NT Pass Pass Pass
+
+Board SecondHand-11:
+  Original: 2C Pass 2D Pass 2H Pass 3H Pass 6H Pass Pass Pass
+  BBA:      2C Pass 2D Pass 2H Pass 3H Pass 4NT Pass 5D Pass 6H Pass Pass Pass
+
+Board SecondHand-14:
+  Original: 1H Pass 3H Pass 4NT Pass 5C Pass 6H Pass Pass Pass
+  BBA:      1H Pass 2NT Pass 3H Pass 3S Pass 4D Pass 4NT Pass 5D Pass 6H Pass Pass Pass
+
+Board SecondHand-16:
+  Original: 1S Pass 2H Pass 4H Pass 4S Pass 6S Pass Pass Pass
+  BBA:      1S Pass 2NT Pass 3NT Pass 4D Pass 4H Pass 4NT Pass 5H Pass 6S Pass Pass Pass
+
+Board SecondHand-17:
+  Original: 1H Pass 3D Pass 3NT Pass 6H Pass Pass Pass
+  BBA:      1H Pass 2NT Pass 3NT Pass 4C Pass 4H Pass 4NT Pass 5D Pass 6H Pass Pass Pass
+
+Board SecondHand-18:
+  Original: 2H Pass 4H Pass Pass Pass
+  BBA:      2H Pass 2NT Pass 3S Pass 4H Pass Pass Pass
+
+Board SecondHand-19:
+  Original: 1H Pass 3H Pass 4NT Pass 5D Pass 6H Pass Pass Pass
+  BBA:      1H Pass 2NT Pass 3H Pass 3S X 4D Pass 4NT Pass 5S Pass 6H Pass Pass Pass
+
+Board SecondHand-20:
+  Original: 1NT Pass 3S Pass 6S Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass 3H Pass 4S Pass 4NT Pass 5D Pass 5H Pass 6C Pass 6S Pass Pass Pass
+
+Board Signals-1:
+  Original: 1C 1S 3C Pass 3NT Pass Pass Pass
+  BBA:      1C 1S 2S Pass 3C Pass 3S Pass 3NT Pass Pass Pass
+
+Board Signals-2:
+  Original: 1C 1S 3C Pass 3NT Pass Pass Pass
+  BBA:      1C 1S 2S Pass 3C Pass 3S Pass 3NT Pass Pass Pass
+
+Board Signals-3:
+  Original: 1H 2C 3C Pass 4H Pass Pass Pass
+  BBA:      1H Pass 2NT Pass 3NT Pass 4H Pass Pass Pass
+
+Board Signals-5:
+  Original: 1D Pass 1H Pass 2H Pass 4H Pass Pass Pass
+  BBA:      1D Pass 1H 1S 3H 3S 4H Pass Pass Pass
+
+Board Signals-7:
+  Original: 2NT Pass 3NT Pass Pass Pass
+  BBA:      1C Pass 1D Pass 2NT Pass Pass Pass
+
+Board Signals-10:
+  Original: 2H 2S Pass 3S Pass 4S Pass Pass Pass
+  BBA:      2H 2S Pass 3H Pass 3NT Pass 4H Pass 4NT Pass 5C Pass 5S Pass Pass Pass
+
+Board Signals-11:
+  Original: 1H Pass 1S Pass 2H Pass Pass Pass
+  BBA:      1H Pass 1S Pass 2H Pass 3H Pass 4H Pass Pass Pass
+
+Board Signals-12:
+  Original: 1S Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1S Pass 1NT Pass 2S Pass 4S Pass Pass Pass
+
+Board Signals-14:
+  Original: 1NT Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 5C Pass Pass Pass
+
+Board Signals-19:
+  Original: 1NT Pass 2H Pass 2S Pass 5NT Pass 6S Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass 4NT Pass 6S Pass Pass Pass
+
+Board Signals-20:
+  Original: 1C Pass Pass 1H Pass 2C Pass 4H Pass Pass Pass
+  BBA:      1C Pass Pass 1H Pass 2H Pass 3H Pass 4H Pass Pass Pass
+
+Board Squeeze-1:
+  Original: 2C Pass 2D Pass 3D Pass 3S Pass 4NT Pass 5D Pass 7NT Pass Pass Pass
+  BBA:      2C Pass 2D Pass 4NT Pass 6NT Pass Pass Pass
+
+Board Squeeze-2:
+  Original: 2C Pass 2D Pass 3C Pass 3H Pass 4NT Pass 5C Pass 7C Pass Pass Pass
+  BBA:      2C Pass 2D Pass 3C Pass 3NT Pass 6C Pass Pass Pass
+
+Board Squeeze-3:
+  Original: 1NT Pass 6NT Pass Pass Pass
+  BBA:      1NT Pass 2C Pass 2H Pass 6NT Pass Pass Pass
+
+Board Squeeze-4:
+  Original: 1NT 2H 6NT Pass Pass Pass
+  BBA:      1NT 2H 2NT Pass 3C Pass 6NT Pass 7C Pass Pass Pass
+
+Board Squeeze-5:
+  Original: 1C 2H X Pass 2NT Pass 6NT all Pass
+  BBA:      1C 2H X Pass 2NT Pass 3D Pass 3NT Pass 4NT Pass 6NT Pass Pass Pass
+
+Board Squeeze-8:
+  Original: 1C Pass 2D Pass 3C Pass 4C Pass 4H Pass 4S Pass 6C Pass Pass Pass
+  BBA:      1C Pass 2C Pass 3C Pass 4S Pass 5C Pass Pass Pass
+
+Board Squeeze-9:
+  Original: 2S Pass 2NT Pass 3NT Pass 7NT Pass Pass Pass
+  BBA:      2S Pass 2NT Pass 3NT Pass 6S Pass Pass Pass
+
+Board Squeeze-11:
+  Original: 1C Pass 2D Pass 2S Pass 4NT Pass 5H Pass 6NT Pass Pass Pass
+  BBA:      1C Pass 2D Pass 2S Pass 3NT Pass 4D Pass 4H Pass 4S Pass 4NT Pass 5H Pass 6D Pass Pass Pass
+
+Board Squeeze-12:
+  Original: 1H Pass 3C Pass 3H Pass 6H Pass Pass Pass
+  BBA:      1H Pass 2NT Pass 4H Pass Pass Pass
+
+Board Squeeze-13:
+  Original: Pass 1NT Pass 3D Pass 4D Pass 4NT Pass 5H Pass 7NT Pass Pass Pass
+  BBA:      Pass 1NT Pass 3D Pass 3NT Pass 4D Pass 4H X 4NT Pass 5S Pass 6NT Pass Pass Pass
+
+Board Squeeze-14:
+  Original: 2C Pass 3D Pass 4NT Pass 5D Pass 7NT Pass Pass Pass
+  BBA:      3NT Pass 6NT Pass Pass Pass
+
+Board Squeeze-15:
+  Original: 1H 1S 2C Pass 3H Pass 4H Pass 4NT Pass 5D Pass 6H Pass Pass Pass
+  BBA:      1H 1S X 2S 3H Pass 4H Pass Pass Pass
+
+Board Squeeze-16:
+  Original: 1NT Pass 2C Pass 2D Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 2C Pass 2D Pass 3D Pass Pass Pass
+
+Board Squeeze-17:
+  Original: 2C Pass 3D Pass 4NT Pass 5D Pass 5NT Pass 6D Pass 7C Pass Pass Pass
+  BBA:      2C Pass 3D Pass 4C Pass 5C Pass 6C Pass Pass Pass
+
+Board Squeeze-18:
+  Original: 2C 4S Pass Pass 5H Pass 6H Pass Pass Pass
+  BBA:      2C 4S Pass Pass 5H Pass Pass Pass
+
+Board Squeeze-19:
+  Original: 1S Pass Pass X 2D 2NT Pass 4H Pass 6H Pass Pass Pass
+  BBA:      1S Pass Pass X 2S Pass Pass 3H Pass 3S Pass 4C Pass 4D Pass 4NT Pass 5C Pass 7H Pass Pass Pass
+
+Board Squeeze-20:
+  Original: 1H 1S Pass 2H Pass 4S Pass Pass Pass
+  BBA:      1H 1S 3H 3S Pass Pass Pass
+
+Board Stayman-1:
+  Original: 1NT Pass Pass Pass
+  BBA:      1NT Pass 2C X 2S Pass 2NT Pass Pass Pass
+
+Board Stayman-2:
+  Original: 1NT Pass 2C Pass 2S Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 2C Pass 2S Pass 3NT Pass Pass Pass
+
+Board Stayman-7:
+  Original: 1NT Pass 2C Pass 2H Pass 4NT Pass 5H Pass 6H Pass Pass Pass
+  BBA:      1NT 3S 3NT Pass Pass Pass
+
+Board Stayman-8:
+  Original: 1NT Pass 2C Pass 2H Pass 4H Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass 3H Pass 4H Pass Pass Pass
+
+Board Stayman-9:
+  Original: 1NT Pass 2C Pass 2D Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass 3H Pass 4S Pass Pass Pass
+
+Board Stayman-10:
+  Original: 1NT Pass 2C Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1NT 2D 3H Pass 3NT Pass 4H Pass Pass Pass
+
+Board Stayman-11:
+  Original: 1NT Pass 2C Pass 2D Pass 4H Pass Pass Pass
+  BBA:      1NT Pass 2D X XX Pass 4H Pass Pass Pass
+
+Board Stayman-12:
+  Original: 1NT Pass 2C Pass 2S Pass 2NT Pass Pass Pass
+  BBA:      1NT Pass 2C Pass 2S Pass 3NT Pass Pass Pass
+
+Board Stayman-13:
+  Original: 1NT Pass 2C Pass 2D Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 2C Pass 2D Pass 3NT Pass Pass Pass
+
+Board Stayman-14:
+  Original: 1NT Pass 2C Pass 2S Pass 3S Pass Pass Pass
+  BBA:      1NT Pass 2C Pass 2S Pass 4S Pass Pass Pass
+
+Board Stayman-15:
+  Original: 1NT Pass 2C Pass 2H Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1NT Pass 2C Pass 2H Pass 4H Pass Pass Pass
+
+Board Stayman-16:
+  Original: 1NT Pass 2C Pass 2H Pass 2NT Pass 4S Pass Pass Pass
+  BBA:      1NT Pass 2C Pass 2H Pass 3NT Pass 4S Pass Pass Pass
+
+Board Stayman-17:
+  Original: 1NT Pass 2C Pass 2D Pass 2H Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 2D Pass 2H Pass 2S Pass Pass Pass
+
+Board Stayman-18:
+  Original: 1NT Pass 2C Pass 2D Pass 2H Pass 4H Pass Pass Pass
+  BBA:      1NT Pass 2D Pass 2H Pass 3NT Pass 4H Pass Pass Pass
+
+Board Stayman-19:
+  Original: 2NT Pass 3C Pass 3D Pass 3S Pass 3NT Pass Pass Pass
+  BBA:      2NT Pass 3C Pass 3D Pass 3S Pass 3NT Pass 4S Pass Pass Pass
+
+Board Stayman-21:
+  Original: 2NT Pass 3C Pass 3S Pass 6S Pass Pass Pass
+  BBA:      2NT 3D 6H Pass Pass Pass
+
+Board Stayman-22:
+  Original: 1NT Pass 2C Pass 2H Pass Pass Pass
+  BBA:      1NT 2C Pass 3C Pass Pass Pass
+
+Board Stayman-24:
+  Original: Pass 1NT Pass 2C 2S Pass Pass 3NT Pass Pass Pass
+  BBA:      1S X Pass 2NT Pass 3NT Pass Pass Pass
+
+Board Stayman-25:
+  Original: 1NT 2D 3D Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1NT 2D X Pass 3C Pass 3NT Pass Pass Pass
+
+Board Takeout-1:
+  Original: 1D X Pass 1H Pass Pass Pass
+  BBA:      1D X 1S Pass 2D Pass Pass Pass
+
+Board Takeout-2:
+  Original: 1D X Pass 1S Pass 2S Pass 4S Pass Pass Pass
+  BBA:      Pass 1C Pass 1S Pass 4D Pass 4S Pass Pass Pass
+
+Board Takeout-3:
+  Original: 1C X Pass 1H Pass 3H Pass Pass Pass
+  BBA:      1C X 1S Pass 1NT X Pass 2H Pass Pass Pass
+
+Board Takeout-4:
+  Original: 1H X Pass 2S Pass Pass Pass
+  BBA:      1H X 2H Pass Pass X Pass 2S Pass Pass 3H Pass Pass Pass
+
+Board Takeout-5:
+  Original: 1H X Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1H X Pass 2S 3H 3S Pass Pass 4H Pass Pass Pass
+
+Board Takeout-6:
+  Original: 1D X Pass 2D 3D 3S Pass 4S Pass Pass Pass
+  BBA:      1D X Pass 2D 3D Pass Pass X Pass Pass Pass
+
+Board Takeout-8:
+  Original: 1S X Pass 1NT Pass 3NT Pass Pass Pass
+  BBA:      1S X Pass 2C Pass 2S Pass 3NT Pass Pass Pass
+
+Board Takeout-9:
+  Original: 1S X Pass 2C Pass 2H Pass 4H Pass Pass Pass
+  BBA:      1S 2H Pass Pass Pass
+
+Board Takeout-10:
+  Original: 1C Pass 1S X Pass 2D Pass Pass Pass
+  BBA:      1D Pass 1S Pass 1NT Pass Pass Pass
+
+Board Takeout-11:
+  Original: Pass 2S X Pass 3H Pass 4H Pass Pass Pass
+  BBA:      Pass 2S X Pass 3H Pass 3S Pass 3NT Pass 6H Pass Pass Pass
+
+Board Takeout-12:
+  Original: 1D X Pass 1S Pass 1NT Pass 3NT Pass Pass Pass
+  BBA:      Pass 2NT Pass 3C Pass 3D Pass 3NT Pass Pass Pass
+
+Board Takeout-13:
+  Original: 1C X Pass 1D Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1C X Pass 1D 1S X Pass 3D Pass 3NT Pass Pass Pass
+
+Board Takeout-14:
+  Original: 1D X Pass 1S Pass 2S Pass Pass Pass
+  BBA:      1C X 3C Pass Pass X Pass 3S Pass Pass Pass
+
+Board Takeout-15:
+  Original: 1H X Pass 1S Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1H X Pass 1S Pass 4S Pass Pass Pass
+
+Board Takeout-16:
+  Original: 1S X Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1S X 3S Pass Pass Pass
+
+Board Takeout-17:
+  Original: 1C X Pass 2C Pass 2H Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1C X Pass 1S 2C Pass Pass 3NT Pass Pass Pass
+
+Board Takeout-18:
+  Original: 1S X Pass 4H Pass Pass Pass
+  BBA:      1S X Pass 2S 3C Pass Pass 4H Pass Pass Pass
+
+Board Takeout-19:
+  Original: 1D X Pass 1H Pass 2S Pass Pass Pass
+  BBA:      1D 1S 2H Pass 3H 3S 4H Pass Pass 4S X Pass Pass Pass
+
+Board Takeout-20:
+  Original: 1H X Pass 2C 2H 2S Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1H 1S Pass Pass 3H 3S 4H 4S X Pass Pass Pass
+
+Board Takeout-21:
+  Original: 1D X 1S Pass 2D X Pass 3C Pass Pass Pass
+  BBA:      1D X 1H X 2D Pass Pass 2S Pass Pass 3D Pass Pass Pass
+
+Board Takeout-22:
+  Original: 1D X 1S 2H Pass Pass Pass
+  BBA:      1D X 1S 2H Pass Pass 2S Pass Pass Pass
+
+Board Takeout-23:
+  Original: 1D X XX 1H Pass Pass 2D Pass Pass Pass
+  BBA:      1D X XX 1H 3D Pass 3NT Pass Pass Pass
+
+Board Takeout-24:
+  Original: 2H X Pass 3H Pass 3S Pass 4C Pass 5C Pass Pass Pass
+  BBA:      2H X 4H 5C Pass Pass Pass
+
+Board Takeout-25:
+  Original: 1C X Pass Pass Pass
+  BBA:      Pass 1D Pass 1NT Pass Pass Pass
+
+Board ThirdHand-2:
+  Original: 1S Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1S Pass 3C Pass 3NT Pass 4S Pass Pass Pass
+
+Board ThirdHand-4:
+  Original: 1H Pass 2C Pass 2H Pass 4H Pass Pass Pass
+  BBA:      1H Pass 1NT Pass 2H Pass 3H Pass 4H Pass Pass Pass
+
+Board ThirdHand-6:
+  Original: 1H 1S Pass 2H Pass 4S Pass Pass Pass
+  BBA:      1H 1S Pass 2S 3H X Pass 4S Pass Pass Pass
+
+Board ThirdHand-8:
+  Original: 1S Pass 1NT Pass 3NT Pass Pass Pass
+  BBA:      1S Pass Pass Pass
+
+Board ThirdHand-9:
+  Original: 1H Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1H Pass 2C Pass 2NT Pass 3NT Pass Pass Pass
+
+Board ThirdHand-11:
+  Original: 1C Pass 1S 2H 3S Pass Pass Pass
+  BBA:      1C Pass 1S 2H 2S 3H 3S Pass Pass Pass
+
+Board ThirdHand-12:
+  Original: 1D Pass 1H 1S 4H Pass Pass Pass
+  BBA:      1D Pass 1H 1S 2S Pass 3H Pass 3S Pass 4H Pass Pass Pass
+
+Board ThirdHand-15:
+  Original: 1H X Pass 2C Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1H X Pass 2C Pass 2NT Pass Pass Pass
+
+Board ThirdHand-16:
+  Original: 1C 1S 2NT Pass 3NT Pass Pass Pass
+  BBA:      1C 1S 2NT Pass Pass Pass
+
+Board ThirdHand-17:
+  Original: 1C 2S 2NT Pass 3NT Pass Pass Pass
+  BBA:      1C 2S 3NT Pass Pass Pass
+
+Board ThirdHand-18:
+  Original: 1H X XX 2C Pass 3C 3H Pass 4H Pass Pass Pass
+  BBA:      1H X XX 2C 2H Pass 4H Pass Pass Pass
+
+Board ThirdHand-20:
+  Original: 1C Pass 1H Pass 1NT Pass 3NT Pass Pass Pass
+  BBA:      1C 1D 1H Pass 1NT Pass 3NT Pass Pass Pass
+
+Board Transfers-1:
+  Original: 1NT Pass 2D Pass 2H Pass Pass Pass
+  BBA:      1NT Pass 2D Pass 2H Pass 3H Pass Pass Pass
+
+Board Transfers-2:
+  Original: 1NT Pass 2H Pass 2S Pass 2NT Pass 3S Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass Pass Pass
+
+Board Transfers-4:
+  Original: 1NT Pass 2D Pass 2H Pass 3H Pass Pass Pass
+  BBA:      1NT 2S 4H Pass Pass Pass
+
+Board Transfers-6:
+  Original: 1NT Pass 2D Pass 2H Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass 4H Pass 4S Pass Pass Pass
+
+Board Transfers-7:
+  Original: 1NT Pass 2H Pass 2S Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass 4H Pass Pass Pass
+
+Board Transfers-8:
+  Original: 1NT Pass 2H Pass 2S Pass 3C Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass 3C Pass 3NT Pass 4NT Pass Pass Pass
+
+Board Transfers-10:
+  Original: 2NT Pass D Pass 3H Pass 3NT Pass 4H Pass Pass Pass
+  BBA:      2NT Pass 3D Pass 3H Pass 3NT Pass 4H Pass Pass Pass
+
+Board Transfers-11:
+  Original: 1NT Pass 2D Pass 2H Pass 2NT Pass Pass Pass
+  BBA:      1NT Pass 2D Pass 2H Pass Pass Pass
+
+Board Transfers-12:
+  Original: 1NT Pass 2H Pass 2S Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass Pass Pass
+
+Board Transfers-13:
+  Original: 1NT Pass 2D Pass 2H Pass 2NT Pass 4H Pass Pass Pass
+  BBA:      1NT Pass 2D Pass 2H Pass Pass Pass
+
+Board Transfers-16:
+  Original: 1NT Pass 2H Pass 2S Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass 3NT Pass Pass Pass
+
+Board Transfers-17:
+  Original: 1NT Pass 2D Pass 2H Pass 2S Pass 4H Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass 4H Pass Pass Pass
+
+Board Transfers-18:
+  Original: 1NT Pass 2H Pass 2S Pass 3H Pass 4S Pass Pass Pass
+  BBA:      1NT Pass 2H Pass 2S Pass 4H Pass Pass Pass
+
+Board Transfers-19:
+  Original: 1NT Pass 2D Pass 3H Pass 4C Pass 4D Pass 6H all Pass
+  BBA:      1NT Pass 2D Pass 2H Pass 2S Pass 4H Pass Pass Pass
+
+Board Transfers-22:
+  Original: 1NT Pass 2D Pass 2H Pass 3C Pass 3NT Pass Pass Pass
+  BBA:      1NT Pass 2D Pass 2H Pass 3C Pass 3NT Pass 4NT Pass Pass Pass
+
+Board Transfers-23:
+  Original: 1NT Pass 2D 2S Pass Pass 3NT Pass 4H Pass Pass Pass
+  BBA:      1NT Pass 2D Pass 2H Pass 3NT Pass 4H Pass Pass Pass
+
+Board Transfers-24:
+  Original: 1NT Pass 2D 2S 3H Pass Pass Pass
+  BBA:      1NT Pass 2D 2S X Pass 3H Pass Pass X Pass Pass Pass
+
+Board Transfers-25:
+  Original: 1NT Pass 2D 2S Pass Pass X Pass Pass Pass
+  BBA:      1NT 2NT 3H Pass 3NT Pass Pass Pass
+
+Board Trumpmgmt-1:
+  Original: 1C Pass 1S Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1C Pass 1S Pass 2S Pass 3C Pass 3H Pass 4H Pass 4S Pass Pass Pass
+
+Board Trumpmgmt-3:
+  Original: 1H Pass 1NT Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1H Pass 1S Pass 3H Pass 4H Pass Pass Pass
+
+Board Trumpmgmt-4:
+  Original: 1D Pass 2NT Pass 3D Pass 5D Pass Pass Pass
+  BBA:      1D Pass 3NT Pass 4D Pass 5D Pass Pass Pass
+
+Board Trumpmgmt-5:
+  Original: 1D Pass 1H Pass 1S Pass 3D Pass 4C Pass 4H Pass 6D Pass Pass Pass
+  BBA:      1D Pass 1H Pass 2NT Pass 6NT Pass Pass Pass
+
+Board Trumpmgmt-6:
+  Original: 1C Pass 1S Pass 1NT Pass 2D Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1C Pass 2S Pass 3S Pass 4C Pass 4D Pass 4S Pass Pass Pass
+
+Board Trumpmgmt-7:
+  Original: 2C Pass 2D Pass 2S Pass 3H Pass 6S Pass Pass Pass
+  BBA:      2C Pass 2D Pass 2S Pass 2NT Pass 3S Pass 4S Pass 4NT Pass 5D Pass 5NT Pass 6D Pass 7NT Pass Pass Pass
+
+Board Trumpmgmt-8:
+  Original: 1C Pass 1NT Pass 3C Pass 4C Pass 5C Pass Pass Pass
+  BBA:      1C 1S Pass 2S 4C Pass Pass Pass
+
+Board Trumpmgmt-9:
+  Original: 1H Pass 2C Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1H Pass 1NT Pass 3H Pass 4H Pass Pass Pass
+
+Board Trumpmgmt-10:
+  Original: 1S Pass 3S Pass 4S Pass Pass Pass
+  BBA:      1S Pass 3C Pass 4S Pass Pass Pass
+
+Board Trumpmgmt-11:
+  Original: 1H Pass 1S Pass 2D Pass 3H Pass 4H Pass Pass Pass
+  BBA:      1H 1S 2S Pass 4H Pass Pass Pass
+
+Board Trumpmgmt-12:
+  Original: 1H Pass 2H Pass 4H Pass Pass Pass
+  BBA:      1H Pass 2H Pass 3C Pass 3D Pass 4H Pass Pass Pass
+
+Board Trumpmgmt-13:
+  Original: 2H Pass 4H Pass Pass Pass
+  BBA:      2H Pass 2NT Pass 3C Pass 3H Pass Pass Pass
+
+Board Trumpmgmt-14:
+  Original: 1S Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1S Pass 2S Pass 2NT Pass 4S Pass Pass Pass
+
+Board Trumpmgmt-15:
+  Original: 1S Pass 2S Pass 4S Pass Pass Pass
+  BBA:      1S Pass 2S Pass 2NT Pass 4S Pass Pass Pass
+
+Board Trumpmgmt-17:
+  Original: Pass 1H Pass 2H Pass 4H Pass Pass Pass
+  BBA:      Pass 1H Pass Pass X 3H Pass Pass Pass
+
+Board Trumpmgmt-18:
+  Original: Pass 1S Pass 1NT Pass 4S Pass Pass Pass
+  BBA:      Pass 1S Pass Pass Pass
+
+Board Trumpmgmt-19:
+  Original: 1S Pass 2D Pass 3H Pass 4H Pass 4NT Pass 6H Pass Pass Pass
+  BBA:      1S Pass 1NT Pass 3H Pass 3NT Pass Pass Pass
+
+Board Trumpmgmt-20:
+  Original: 1D Pass 1H Pass 4NT Pass 5D Pass 6H Pass Pass Pass
+  BBA:      1D Pass 1H Pass 4C Pass 4H Pass Pass Pass
+
+Board Weak2-1:
+  Original: 2D Pass 4D Pass Pass Pass
+  BBA:      2D 2H 4D 6S Pass Pass Pass
+
+Board Weak2-2:
+  Original: 2H Pass Pass Pass
+  BBA:      2H Pass 2NT Pass 3C Pass 3H Pass Pass Pass
+
+Board Weak2-3:
+  Original: 2S Pass 3S Pass Pass Pass Pass
+  BBA:      2S X 4S X Pass Pass Pass
+
+Board Weak2-4:
+  Original: 2D Pass 2H Pass 3H Pass Pass Pass
+  BBA:      2D 2S Pass 3D Pass 4S Pass Pass Pass
+
+Board Weak2-5:
+  Original: 2H Pass 2NT Pass 3H Pass Pass Pass
+  BBA:      2H Pass 2NT Pass 3C Pass 3H Pass Pass Pass
+
+Board Weak2-6:
+  Original: 2S Pass 4S Pass Pass Pass
+  BBA:      2S 3H Pass 3S Pass 4H Pass Pass Pass
+
+Board Weak2-7:
+  Original: 2S Pass 2NT Pass 3H Pass 3S Pass Pass Pass
+  BBA:      2S Pass 2NT Pass 3S Pass 4S Pass Pass Pass
+
+Board Weak2-8:
+  Original: 1H 2S 3H 4S X Pass Pass Pass
+  BBA:      1H 2S 3S 4S 4NT Pass 5C Pass 5D Pass 6C Pass 6H Pass Pass Pass
+
+Board Weak2-9:
+  Original: 2D Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      2D Pass 2S Pass 3NT Pass Pass Pass
+
+Board Weak2-10:
+  Original: 2S Pass 4S Pass Pass Pass
+  BBA:      2S 3H 4H Pass 4S Pass Pass 5H X Pass 5S Pass Pass Pass
+
+Board Weak2-11:
+  Original: 2H Pass 2NT Pass 3C Pass 4H Pass Pass Pass
+  BBA:      2H Pass 4H Pass Pass Pass
+
+Board Weak2-12:
+  Original: 2H Pass 2NT Pass 3H Pass Pass Pass
+  BBA:      2H Pass 2NT Pass 3D Pass 4H Pass Pass Pass
+
+Board Weak2-13:
+  Original: 2D Pass 2NT Pass 3H Pass 3NT Pass Pass Pass
+  BBA:      2D Pass 2NT Pass 3S Pass 3NT Pass Pass Pass
+
+Board Weak2-14:
+  Original: 2S Pass 2NT Pass 3D Pass 4S Pass Pass Pass
+  BBA:      2S Pass 2NT Pass 3S Pass 4S Pass Pass Pass
+
+Board Weak2-15:
+  Original: 1H 2S Pass 3S Pass Pass Pass
+  BBA:      1H 2S 3H 4S X Pass Pass Pass
+
+Board Weak2-16:
+  Original: 2D Pass 2NT Pass 3NT Pass Pass Pass
+  BBA:      2D Pass Pass Pass
+
+Board Weak2-17:
+  Original: Pass Pass Pass 1S Pass 3S Pass 4S Pass Pass Pass
+  BBA:      Pass Pass 3C 3S Pass Pass Pass
+
+Board Weak2-18:
+  Original: 2S Pass 4NT Pass 5D Pass 6S Pass Pass Pass
+  BBA:      2S Pass 2NT Pass 3H Pass 4S Pass Pass Pass
+
+Board Weak2-19:
+  Original: 2H Pass 2S Pass 3S Pass 4S Pass Pass Pass
+  BBA:      2H Pass 2S Pass 6S Pass Pass Pass
+
+Board Weak2-20:
+  Original: 2H Pass 2S Pass 3S Pass 4S Pass Pass Pass
+  BBA:      2H Pass 2S Pass 4S Pass Pass Pass
+

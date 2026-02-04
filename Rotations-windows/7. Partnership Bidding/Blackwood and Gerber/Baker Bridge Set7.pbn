@@ -1,0 +1,646 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%Creator: CSVtoPBN Version 1.00
+%Created: 2025-04-11 19:08:14
+%sourcefilename BakerBridgeFull.csv
+%HRTitleEvent Bidpractice/Set7
+[Board "1"]
+[Event ""]
+{Baker Bidpractice/Set7 1}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "5S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:T.AT873.QT953.42 AKQ983.2.AK.KQJ8 65.J96.J764.AT96 J742.KQ54.82.753"]
+[Auction "N"]
+2C pass 2D pass 2S pass 3S pass 4NT pass 5C pass 5S pass pass pass
+[Result ""]
+{SOUTH's 3♠ supporting bid is enough to convince NORTH to make a slam try.
+
+NORTH bids Blackwood 4NT. If SOUTH shows one Ace NORTH plans to bid 6♠, but
+
+when SOUTH bids 5♣ NORTH settles for 5♠}
+[BCFlags "1f"]
+
+[Board "2"]
+[Event ""]
+{Baker Bidpractice/Set7 2}
+[Dealer "S"]
+[Declarer "N"]
+[Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:T85.43.864.A8632 J3.AQT86.T3.JT74 KQ972.752.752.95 A64.KJ9.AKQJ9.KQ"]
+[Auction "S"]
+2C pass 2H pass 4NT pass 5D pass 6H pass pass pass
+[Result ""]
+{NORTH makes a positive 3
+
+♥
+
+response to SOUTH's 2♣ opener.
+
+This promises at least 8 points and a 5-card suit with two or more honors.
+
+SOUTH only needs to know one thing - how many Aces in the NORTH hand.
+
+A Blackwood 4NT tells her the answer is one, so she bids 6
+
+♥
+
+.}
+[BCFlags "1f"]
+
+[Board "3"]
+[Event ""]
+{Baker Bidpractice/Set7 3}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "6NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:853.985.J952.T64 A97.QJ42.KQ86.A5 JT642.AT73.T73.8 KQ.K6.A4.KQJ9732"]
+[Auction "N"]
+1NT pass 4C pass 4S pass 6NT pass pass pass
+[Result ""]
+{When NORTH opens 1NT, point-count alone tells SOUTH that 6NT can surely be made.
+
+NORTH is bound to hold at least two Aces. But SOUTH doesn't want to miss a Grand slam.
+
+SOUTH bids 4♣, (Gerber), and NORTH admits to just two Aces.
+
+So SOUTH settles for the small slam.}
+[BCFlags "1f"]
+
+[Board "4"]
+[Event ""]
+{Baker Bidpractice/Set7 4}
+[Dealer "S"]
+[Declarer "N"]
+[Contract "7NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:T.Q962.T965.QT32 AKQ643.K5.K73.AK 87.T8.J842.J7654 J952.AJ743.AQ.98"]
+[Auction "S"]
+1H pass 2S pass 3S pass 4NT pass 5H pass 7NT pass pass pass
+[Result ""]
+{NORTH has a powerhouse and knows she will reach a slam somewhere. When SOUTH
+
+supports the ♠s, it seems she has found her spot.
+
+Blackwood tells her that SOUTH has two Aces.
+
+She can see there are 12 tricks available and decides to take a chance that
+
+SOUTH will have a thirteenth trick somewhere among his opening hand points.
+
+She bids 7NT.}
+[BCFlags "1f"]
+
+[Board "5"]
+[Event ""]
+{Baker Bidpractice/Set7 5}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "5H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:Q85.742.A974.T32 AK2.KQ65.KQJ.KJ6 T964.3.T65.A9754 J73.AJT98.832.Q8"]
+[Auction "N"]
+2C pass 2H pass 4NT pass 5D pass 5H pass pass pass
+[Result ""]
+{NORTH is tempted to go right to 6
+
+♥
+
+when she hears SOUTH's positive
+
+response. BUT, she should use Blackwood first.
+
+It's good thing she did because SOUTH admits to only one Ace - they are missing two Aces.}
+[BCFlags "1f"]
+
+[Board "6"]
+[Event ""]
+{Baker Bidpractice/Set7 6}
+[Dealer "S"]
+[Declarer "N"]
+[Contract "6NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:972.653.85.AT632 A63.KT7.A94.Q987 JT85.QJ942.62.J4 KQ4.A8.KQJT73.K5"]
+[Auction "S"]
+1D pass 2NT pass 4C pass 4S pass 6NT pass pass pass
+[Result ""]
+{SOUTH not only has 20 points, he also has a lot of winners.
+
+So when NORTH jumps to 2NT, showing 13-15 points, SOUTH uses Gerber.
+
+NORTH shows two Aces so SOUTH decides 6NT will be just right.}
+[BCFlags "1f"]
+
+[Board "7"]
+[Event ""]
+{Baker Bidpractice/Set7 7}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "6S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:T2.Q9852.T93.T32 KQ85.J63.87.AQJ4 74.KT7.K542.9876 AJ963.A4.AQJ6.K5"]
+[Auction "N"]
+1C pass 2S pass 3S pass 4NT pass 5S pass 5NT pass 6C pass 6S pass pass pass
+[Result ""]
+{When NORTH gives immediate ♠ support, SOUTH's thoughts naturally
+
+turn to slam. This is a good hand to use Blackwood on, so SOUTH bids 4NT.
+
+NORTH's 5
+
+♦
+
+answer shows one Ace, which SOUTH cleverly deduces
+
+must be the ♣A.
+
+SOUTH bids 6♠ since NORTH has not bid strongly enough to think about 7.}
+[BCFlags "1f"]
+
+[Board "8"]
+[Event ""]
+{Baker Bidpractice/Set7 8}
+[Dealer "S"]
+[Declarer "N"]
+[Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:75.532.T74.AT865 A64.QJ9874.J983. T9832.6.A65.J942 KQJ.AKT.KQ2.KQ73"]
+[Auction "S"]
+2C pass 2H pass 3H pass 3S pass 4NT pass 6C pass 6H pass pass pass
+[Result ""]
+{SOUTH expects to bid 2NT at his second turn, but NORTH gives a positive 2
+
+♥
+
+response and his thinking changes! First he supports
+
+♥
+
+s, setting the
+
+trump suit.
+
+NORTH then bids 3♠, showing first round control. SOUTH tries 4NT (Blackwood) and
+
+NORTH replies 6♣. This shows a ♣ void and one Ace, obviously the ♠A.
+
+SOUTH bids 6
+
+♥
+
+, knowing they must lose the
+
+♦
+
+A.}
+[BCFlags "1f"]
+
+[Board "9"]
+[Event ""]
+{Baker Bidpractice/Set7 9}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "7H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:Q93.92.QT5.KQT73 K5.AKT753.K7.J96 JT76.4.J42.A8542 A842.QJ86.A9863."]
+[Auction "N"]
+1H pass 4C pass 4NT pass 5NT pass 7H pass pass pass
+[Result ""]
+{SOUTH's jump to 4♣ is a Splinter bid, at least 4-card
+
+♥
+
+support,
+
+at least opening hand, and a ♣ Singleton or Void.
+
+NORTH bids 4NT, Blackwood.
+
+SOUTH's 5NT reply shows two Aces and a Void somewhere, obviously ♣s.
+
+NORTH counts thirteen tricks and bids 7
+
+♥
+
+.}
+[BCFlags "1f"]
+
+[Board "10"]
+[Event ""]
+{Baker Bidpractice/Set7 10}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:AT86.64.JT32.875 .A975.K9864.J932 QJ9742.82.Q75.A4 K53.KQJT3.A.KQT6"]
+[Auction "S"]
+1H pass 3H pass 4NT pass 6H pass pass pass
+[Result ""]
+{SOUTH figures that if NORTH holds two Aces he will bid the slam.
+
+NORTH only has one Ace, but she has something else just as good - a void in a suit which
+
+is higher-ranking than
+
+♥
+
+s.
+
+SOUTH manages to figure out that NORTH has a ♠ void and bids the slam anyway.}
+[BCFlags "1f"]
+
+[Board "11"]
+[Event ""]
+{Baker Bidpractice/Set7 11}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:Q2.962.932.AQ982 A9864.AKQ.7.KJ63 JT.T543.KQJT4.T5 K753.J87.A865.74"]
+[Auction "N"]
+1S pass 2S pass 4S pass pass pass
+[Result ""]
+{NORTH may have a good hand but SOUTH merely gave a simple raise.
+
+Even if SOUTH has a maximum there won't be a slam.}
+[BCFlags "1f"]
+
+[Board "12"]
+[Event ""]
+{Baker Bidpractice/Set7 12}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:AJT64.75.Q74.T98 Q753.T942.A8.KJ4 K982.A.T9653.732 .KQJ863.KJ2.AQ65"]
+[Auction "S"]
+1H pass 3H pass 4C pass 4D pass 6H pass pass pass
+[Result ""]
+{SOUTH has a tough decision after the two Control-showing bids.
+
+If he uses Blackwood and NORTH shows two Aces he will be no better off, because he won't know if one
+
+of the Aces is the useless ♠A. Based on knowing that NORTH holds the
+
+♦
+
+A,
+
+he bids 6
+
+♥
+
+, hoping that he can at least make that and that 7 isn't a laydown!}
+[BCFlags "1f"]
+
+[Board "13"]
+[Event ""]
+{Baker Bidpractice/Set7 13}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "7NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:QJ5.J7542.T5.Q53 K62.AT9.AK3.AK84 T9843.Q86.6.JT92 A7.K3.QJ98742.76"]
+[Auction "N"]
+2NT pass 4C pass 4NT pass 5C pass 5NT pass 7NT pass pass pass
+[Result ""]
+{SOUTH isn't sure just how much he can make, but surely 6
+
+♦
+
+isn't
+
+too much to hope for.
+
+He starts with a Gerber 4♣ and NORTH shows three Aces.
+
+Hmmm, 5♣ asks for Kings and NORTH shows three.
+
+Hmm, SOUTH can now count all thirteen tricks, so he forgets about the
+
+♦
+
+slam and bids 7NT.}
+[BCFlags "1f"]
+
+[Board "14"]
+[Event ""]
+{Baker Bidpractice/Set7 14}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:T94.T843.AJ97.43 J8.J72.85.AKQT96 76532.A95.T642.2 AKQ.KQ6.KQ3.J875"]
+[Auction "S"]
+2NT pass 4C pass 4H pass 4NT pass pass pass
+[Result ""]
+{NORTH has 13 points and can contribute six tricks so she figures that twelve tricks will be a slam (dunk).
+
+However, just to make sure the opponents don't take the first two tricks she checks with Gerber.
+
+Uh Oh, missing two Aces she signs off at 4NT. She could also happily play 5♣, but it
+
+would be tricky to get there. Very tricky.}
+[BCFlags "1f"]
+
+[Board "15"]
+[Event ""]
+{Baker Bidpractice/Set7 15}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "4NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:JT983.JT8.J5.J82 K75.Q96.A983.AQ7 42.A542.QT742.94 AQ6.K73.K6.KT653"]
+[Auction "N"]
+1NT pass 4NT pass pass pass
+[Result ""]
+{Yes, this has nothing to do with Gerber or Blackwood, but everything to do with smart bidding.
+
+SOUTH has a 16 points and NORTH has 15, 16 or 17. SOUTH wants to be in 6NT if NORTH has 17,
+
+but merely a Notrump game if she has 15 or 16.
+
+The way to find out is to bid 4NT - not Blackwood but merely an invitation to bid 6NT.
+
+In this case, NORTH has but 15 points and declines the invitation. If her
+
+♥
+
+Q
+
+were changed to the
+
+♥
+
+A she would bid 6NT and collect her twelve easy tricks.}
+[BCFlags "1f"]
+
+[Board "16"]
+[Event ""]
+{Baker Bidpractice/Set7 16}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "6NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:T953.A854.96.963 KQJ4.K6.K4.KQJT5 2.T932.QT8752.74 A876.QJ7.AJ3.A82"]
+[Auction "S"]
+1NT pass 4C pass 4NT pass 6NT pass pass pass
+[Result ""]
+{When SOUTH opens 1NT NORTH hopes his hand includes all four Aces so she can bid 7NT.
+
+So she uses Gerber to find out.
+
+But, when she discovers they are missing an Ace she settles for 6NT.}
+[BCFlags "1f"]
+
+[Board "17"]
+[Event ""]
+{Baker Bidpractice/Set7 17}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "7NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:QJT85.874.62.T83 AK.AQT96.AQJ3.AK 643.2.T9854.QJ95 972.KJ53.K7.7642"]
+[Auction "N"]
+2C pass 2D pass 2H pass 3H pass 4NT pass 5C pass 5NT pass 6H pass 7NT all pass
+[Result ""]
+
+[BCFlags "1f"]
+
+[Board "18"]
+[Event ""]
+{Baker Bidpractice/Set7 18}
+[Dealer "S"]
+[Declarer "N"]
+[Contract "7NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:QJ5.J7532.963.54 A62.AT4.K75.K862 T9843.Q86.82.T93 K7.K9.AQJT4.AQJ7"]
+[Auction "S"]
+1D pass 2NT pass 4C pass 4S pass 5C pass 5S pass 7NT pass pass pass
+[Result ""]
+{SOUTH is just shy of a 2♣ opening bid, and when NORTH shows 13-15 points SOUTH
+
+wants to be in a slam.
+
+SOUTH cannot use Blackwood because 4NT would be a natural invitation, but with NORTH's latest bid
+
+being 2NT he can use Gerber.
+
+Two Major Aces and two Minor Kings fill the holes in SOUTH's hand so he bids 7NT.}
+[BCFlags "1f"]
+
+[Board "19"]
+[Event ""]
+{Baker Bidpractice/Set7 19}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "5D"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:Q974.Q632.A8.763 6.K4.KJ974.AQJ92 JT832.AJT985.2.5 AK5.7.QT653.KT84"]
+[Auction "N"]
+1D pass 3D pass 4C pass 4S pass 4NT pass 5D pass pass pass
+[Result ""]
+{NORTH thinks slam may be possible, so she uses Blackwood.
+
+And that's what Blackwood is really good for - keeping you out of slams when you are
+
+missing two Aces!}
+[BCFlags "1f"]
+
+[Board "20"]
+[Event ""]
+{Baker Bidpractice/Set7 20}
+[Dealer "S"]
+[Declarer "N"]
+[Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:9862.74.QJ42.KJ3 K4.KQT95.A76.A54 T5.32.KT98.QT962 AQJ73.AJ86.53.87"]
+[Auction "S"]
+1S pass 2H pass 3H pass 4NT pass 5H pass 6H pass pass pass
+[Result ""]
+{NORTH knows SOUTH has at least five ♠s, and they might provide discards for two or three
+
+of her minor suit losers.
+
+She tries Blackwood and, sure enough, SOUTH comes through with two Aces.
+
+Even with all the Aces NORTH knows there are not enough points for Grand,
+
+so she bids 6
+
+♥
+
+.}
+[BCFlags "1f"]
+
+[Board "21"]
+[Event ""]
+{Baker Bidpractice/Set7 21}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "7H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:QJT97.643.83.752 A62.KQJ7.6.KQJT9 84.8.KQJT752.863 K53.AT952.A94.A4"]
+[Auction "N"]
+1C pass 1H pass 3H pass 4NT pass 5D pass 5NT pass 7H pass pass pass
+[Result ""]
+{When NORTH answers Blackwood with one Ace SOUTH decides to bid 5NT to ask for Kings.
+
+With two Kings, NORTH would bid 6
+
+♥
+
+.
+
+But she knows that if she does so, SOUTH might stop right there.
+
+Knowing the 5NT bid guarantees all four Aces, NORTH figures her ♣ suit will
+
+supply five tricks so she bids 7
+
+♥
+
+.}
+[BCFlags "1f"]
+
+[Board "22"]
+[Event ""]
+{Baker Bidpractice/Set7 22}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "5H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:J62.KT83.J732.92 87.Q974.KQ5.AT83 T943..AT984.7654 AKQ5.AJ652.6.KQJ"]
+[Auction "S"]
+1H pass 3H pass 4NT pass 5D pass 5H pass pass pass
+[Result ""]
+{SOUTH thinks there might be slam if NORTH holds both minor Aces, so he tries Blackwood.
+
+When NORTH shows just one Ace SOUTH is afraid he will have a trump loser as well, so
+
+he stops at 5
+
+♥
+
+.
+
+It turns out that SOUTH might make twelve tricks, depending on the
+
+♥
+
+K situation.}
+[BCFlags "1f"]
+
+[Board "23"]
+[Event ""]
+{Baker Bidpractice/Set7 23}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "7NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:QT985.963.73.T62 AJ6.K5.AQ62.A974 73.T.JT9854.QJ85 K42.AQJ8742.K.K3"]
+[Auction "N"]
+1D pass 1H pass 2NT pass 4C pass 4NT pass 5C pass 5H pass 7NT pass pass pass
+[Result ""]
+{SOUTH might be tempted to blast into Blackwood with his first bid, pushing toward some slam
+
+in
+
+♥
+
+s. He chooses to temporize with a 1
+
+♥
+
+response and is rewarded when NORTH jumps to 2NT (18-19 points).
+
+The Notrump bid prevents SOUTH from using Blackwood, but Gerber 4♣ will work just fine.
+
+When he discovers that NORTH holds three Aces and one King he can count thirteen tricks.}
+[BCFlags "1f"]
+
+[Board "24"]
+[Event ""]
+{Baker Bidpractice/Set7 24}
+[Dealer "S"]
+[Declarer "N"]
+[Contract "6NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:JT5.9632.AT76.43 Q63.AT7.952.AT86 98742.J85.84.972 AK.KQ4.KQJ3.KQJ5"]
+[Auction "S"]
+2C pass 2NT pass 4C pass 4S pass 6NT pass pass pass
+[Result ""]
+{NORTH responds 2NT, showing 8+ points with no 5-card suit.
+
+SOUTH only needs to know how many Aces are in the NORTH hand. He must use Gerber since
+
+4NT in this situation would not be Blackwood.
+
+When NORTH shows two Aces SOUTH bids 6NT.}
+[BCFlags "1f"]
+

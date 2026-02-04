@@ -1,0 +1,605 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:47:45 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Major 1}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:KQJT6.64.JT6.Q32 975.Q732.543.AK4 832.T5.AKQ9.JT97 A4.AKJ98.872.865"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "2H"]
+[Result ""]
+{You dealt the hand. Decide what you would say, then  on BID in the bidding section above. 
+
+With 13 points and a nice 5-card Major suit you open 1\H. Partner responds 2\H. What do you say next? 
+
+You say pass. You have a minimum opening hand and partner has 6-10 points so no game is available.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1H Pass 2H Pass
+Pass Pass
+
+[Event ""]
+{Baker Major 2}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:Q2.643.QJ983.A62 963.Q752.K4.K874 KJT875.J.T65.T93 A4.AKT98.A72.QJ5"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{Nice hand. 19 points and a good 5-card Major. You open 1\H. Partner responds 2\H. What is your next bid? 
+
+You revalue to 20 points (doubleton \S) and partner has between 6 and T. So, 26 to 30 is the total. Game should be there, but slam is out of reach. So you bid 4\H.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1H Pass 2H Pass
+4H Pass Pass Pass
+
+[Event ""]
+{Baker Major 3}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:5.T96542.K654.A8 9872.K83.AQJ.Q64 A43.QJ7.T3.T9732 KQJT6.A.9872.KJ5"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{With 15 points and a 5-card Major you open 1\S. Partner responds 3\S. What do you say? 
+
+Your 15 points gets revalued to 16/17 for the singleton. Add partner's T-12 and you have enough for game. So you bid 4\S.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1S Pass 3S Pass
+4S Pass Pass Pass
+
+[Event ""]
+{Baker Major 4}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "W:QT9.AT962.T9.873 K742.Q8.A653.K94 J.K753.KQ84.JT52 A8653.J4.J72.AQ6"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3S"]
+[Result ""]
+{With 13 points you open 1\S. Partner responds 3\S. What do you say now? 
+
+Figure partner for 11-12 points. You have 13 but could revalue to 14 with the doubleton \H. But the truth is that your points are not very good ones. You should pass.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "E"]
+Pass 1S Pass 3S
+Pass Pass Pass Pass
+
+[Event ""]
+{Baker Major 5}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:QT86.Q52.AT9.972 A73.A73.Q5.QJ543 KJ4.9.J8643.KT86 952.KJT864.K72.A"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{You open 1\H and partner responds 2\C, showing at least 11 points. You dealt this hand. What do you bid? 
+
+Partner's bid forces you to bid again. You have a bare-minimum hand, but at least you have a 6-card suit which you can rebid. You say 2\H and partner raises to 4\H.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 5, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1H Pass 2C Pass
+2H Pass 4H Pass
+Pass Pass
+
+[Event ""]
+{Baker Major 6}
+[Site ""]
+[Date ""]
+[Board "6"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:T32.AQ32.AJT.974 J874.75.K54.QJ52 Q9.KT.Q9863.KT86 AK65.J9864.72.A3"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "2S"]
+[Result ""]
+{You open 1\H and partner responds 1\S. It is your bid again. 
+
+You have good \S support but you must tell partner of your minimum hand. So you bid 2\S and he passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 6, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1H Pass 1S Pass
+2S Pass Pass Pass
+
+[Event ""]
+{Baker Major 7}
+[Site ""]
+[Date ""]
+[Board "7"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:Q42.QJT32.83.K42 K973.5.KQ64.Q876 J8.97.AJT95.JT95 AT65.AK864.72.A3"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{Naturally you open 1\H. Partner responds 1\S. What do you say next? 
+
+Partner has at least 4 \Ss and you have 4. So you have found the 8-card Major fit. Now it is a question of finding the right level. Your job is to further describe your hand as either minimum, medium, or maximum. With 17/18 points (revalued) you are a medium, so you jump to 3\S.
+
+Partner bids the game.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 7, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1H Pass 1S Pass
+3S Pass 4S Pass
+Pass Pass
+
+[Event ""]
+{Baker Major 8}
+[Site ""]
+[Date ""]
+[Board "8"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:T652.J643.A8.742 A4.Q7.KT97.KQJ86 J8.K82.6542.A953 KQ973.AT95.QJ3.T"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{Of course you open 1\S. Partner responds 2\C. What is your next bid? 
+
+Partner has shown at least 11 points and you are forced to bid again. Since the \Hs rank below \Ss you can bid them with your minimum hand. Apparently that is just what partner wanted to hear since he jumps to 3NT which you happily pass.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 8, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1S Pass 2C Pass
+2H Pass 3NT Pass
+Pass Pass
+
+[Event ""]
+{Baker Major 9}
+[Site ""]
+[Date ""]
+[Board "9"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:Q.A842.T97532.Q6 62.K973.A84.A983 KJT84.6.6.KJT542 A9753.QJT5.KQJ.7"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{You open 1\S and partner responds 2\H. What do you bid next? 
+
+Partner has shown 11+ points and at least 4 \Hs. Your hand revalues to 16 points in support of \Hs, where you know you have an 8-card fit or better. You bid 4\H confidently.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 9, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1S Pass 2H Pass
+4H Pass Pass Pass
+
+[Event ""]
+{Baker Major 10}
+[Site ""]
+[Date ""]
+[Board "10"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:942.A942.J65.J62 Q6.K873.A97.T854 J8.T6.8432.AKQ93 AKT753.QJ5.KQT.7"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{We all know you will open 1\S with this hand. And after partner responds 1NT what is your next bid? 
+
+With 6 of them you can rebid \Ss but you are too strong to say just 2\S. Your 17 points puts you in the Medium range where you make a jump. So you bid 3\S and partner bids 4\S.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 10, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1S Pass 1NT Pass
+3S Pass 4S Pass
+Pass Pass
+
+[Event ""]
+{Baker Major 11}
+[Site ""]
+[Date ""]
+[Board "11"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:Q54.T643.QT96.T5 AT2.K752.743.A97 KJ9873..J2.86432 6.AQJ98.AK85.KQJ"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6H"]
+[Result ""]
+{This is a big hand. But not quite enough to open 2\C. So you open 1\H and partner responds 3\H. Now what? 
+
+You might bid 4\D as a slam try, but it is probably just as well to go ahead and ask for Aces. So you bid 4NT and partner owns up to holding 2 Aces. What is your next bid? 
+
+You have all the Aces but don't go crazy. Partner only has 11-12 points so don't think too Grand! Bid 6\H.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 11, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1H Pass 3H Pass
+4NT Pass 5H Pass
+6H Pass Pass Pass
+
+[Event ""]
+{Baker Major 12}
+[Site ""]
+[Date ""]
+[Board "12"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:Q32.9432.J974.K9 K5.AKQ75.K63.AT8 AJT64.J.T2.QJ754 987.T86.AQ85.632"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{With 6 points you must respond and you should let partner know you have support for his suit. So you bid 2\H and he promptly raises to 4\H. It's a good thing he had 20 points isn't it.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 12, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1H Pass 2H Pass
+4H Pass Pass Pass
+
+[Event ""]
+{Baker Major 13}
+[Site ""]
+[Date ""]
+[Board "13"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:K65.AJ6.T9632.Q9 742.KT742.AQ4.K3 AQJT93..7.AJT752 8.Q9853.KJ85.864"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{When you have a weak, distributional hand with 5 of partner's suit an immediate jump to game is usually the best approach. If he has a good hand you will probably make the contract. If he is minimum then you might get a preemptive effect and stop your LHO from entering the bidding.
+
+This is a good example. Partner may be lucky and make 4\H. But if they had had an opportunity to compete the opponents might well be able to make 4\S.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 13, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1H Pass 4H Pass
+Pass Pass
+
+[Event ""]
+{Baker Major 14}
+[Site ""]
+[Date ""]
+[Board "14"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:J.T642.KT86.KQ82 3.AKJ873.AQJ3.73 QT8654.9.95.AJ94 AK972.Q5.742.T65"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{You can't support partner's \Hs with only 2 of them so you bid your nice \S suit. Partner then jumps to 3\H. Now what do you bid? 
+
+Here's where a lot of players go wrong. Since they only promised 4 \Ss with their first response they think they should now rebid them to show partner they had 5. And this MIGHT work if it turns out partner has 3 \Ss. Not only is this a risky bid, it is unnecessary. When partner jump rebid \Hs he showed 16-18 points and 6 \Hs. So you know of an 8-card fit and you know you should be in game. Bid 4\H.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 14, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1H Pass 1S Pass
+3H Pass 4H Pass
+Pass Pass
+
+[Event ""]
+{Baker Major 15}
+[Site ""]
+[Date ""]
+[Board "15"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:6.JT643.AT865.T7 AQT93.A92.KQJ3.4 854.KQ7.9.J98632 KJ72.85.742.AKQ5"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "6S"]
+[Result ""]
+{As soon as partner opens 1\S you know you will settle for nothing less than the \S game. The problem with bidding 4\S right now is that partner will take you for the "weak-distributional-with-five-trumps" hand. So you temporize by first bidding 2\C. Partner rebids 2\D. What do you say now? 
+
+You now jump to 4\S, completing the picture of an opening hand with good \S support. Partner bids 4NT. What say you? 
+
+This is Blackwood so you answer 5\D for one Ace. Partner says 6\S.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 15, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1S Pass 2C Pass
+2D Pass 4S Pass
+4NT Pass 5D Pass
+6S ALL Pass
+
+[Event ""]
+{Baker Major 16}
+[Site ""]
+[Date ""]
+[Board "16"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:J643.Q2.A854.642 75.AKT764.KJ.QJT Q92.J.732.AK9753 AKT8.9853.QT96.8"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{You could bid 1\S. Many would do so, thinking "I have to show partner my \S suit."
+
+In fact, you don't have to show partner your \S suit. You already know of a partnership 9-card fit in \Hs, so there is no reason to search for a possible 8-card fit in \Ss.
+
+With 11 points and 4 trumps you bid 3\H, a limit raise. Partner raises to game.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 16, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1H Pass 3H Pass
+4H Pass Pass Pass
+
+[Event ""]
+{Baker Major 17}
+[Site ""]
+[Date ""]
+[Board "17"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:7.9832.AK8432.Q8 A962.AKJ74.T5.73 J543.T5.7.KJT542 KQT8.Q6.QJ96.A96"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{You MIGHT jump to 2NT to "show your points". However, a notrump bid now would deny a 4-card \S suit. Instead, your priority is to show that Major, so you respond 1\S. Partner bids 2\S. What do you say next? 
+
+Partner would not support a response which might be 4 cards unless he had 4 himself. Knowing that you have two opening hands facing each other, each containing 4 \Ss, you bid the \S game.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 17, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "N"]
+1H Pass 1S Pass
+2S Pass 4S Pass
+Pass Pass
+
+[Event ""]
+{Baker Major 18}
+[Site ""]
+[Date ""]
+[Board "18"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:4.98432.A9432.Q5 AT975.KQ.KT5.AJ7 J32.AT5.8.KT8432 KQ86.J76.QJ76.96"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{With 4-card support you respond 2\S. Partner raises to 3\S. What do you say next? 
+
+Partner's bid is an invitation. You have told him you have 6-10 points and he probably has about 17-18. If you are at the high end of your 6-T he wants you to bid game, at the low end he wants you to pass. You actually have T, definitely high end, so you bid 4\S.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 18, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1S Pass 2S Pass
+3S Pass 4S Pass
+Pass Pass
+
+[Event ""]
+{Baker Major 19}
+[Site ""]
+[Date ""]
+[Board "19"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:4.8432.KQ982.A82 AT975.KQ.A3.QT43 J32.AT95.T54.KJ7 KQ86.J76.J76.965"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3S"]
+[Result ""]
+{With 7 points and good trumps you respond 2\S. Partner now bids 3\C. What do you bid next? 
+
+Again partner is inviting you to bid game. He wants you to bid it if you are at the top of your 6-T range, and he wants you to particularly promote any Help you can give him in \Cs.
+
+You are at the bottom of your range and you have no help in \Cs, so you just return to \Ss. Partner passes.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 19, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1S Pass 2S Pass
+3C Pass 3S Pass
+Pass Pass
+
+[Event ""]
+{Baker Major 20}
+[Site ""]
+[Date ""]
+[Board "20"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:J.9742.A965.KQ72 AK42.AKJ53.J72.T QT8765.8.84.AJ83 93.QT6.KQT3.9654"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{Your only reasonable response is 2\H. Partner now bids 3\D. What do you say? 
+
+With 8 points you are right in the middle of the 6-10 points you promised. So you could either accept partner's invitation or decline it. BUT, he said you should particularly look at any Help you could provide in \Ds. Since you have lots of good stuff in that suit you upgrade your 8 points and bid 4\H.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 20, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "S"]
+1H Pass 2H Pass
+3D Pass 4H Pass
+Pass Pass

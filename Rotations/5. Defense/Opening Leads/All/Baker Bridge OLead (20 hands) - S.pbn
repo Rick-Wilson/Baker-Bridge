@@ -1,0 +1,609 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%Creator: CSVtoPBN Version 1.00
+%Created: 2026-01-23 13:57:51
+%sourcefilename BakerBridgeFull.csv
+%HRTitleEvent OLead
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "1"]
+{Baker OLead 1}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "W"]
+[Deal "N:KQ4.642.A3.QT874 T972.T5.QJT95.92 AJ3.A83.K74.AJ65 865.KQJ97.862.K3"]
+[Auction "N"]
+pass pass 1NT pass 3NT pass pass pass
+[Result ""]
+{The bidding has been as shown. The contract is 3NT and it is your lead.
+
+When you have made your choice  
+
+Leading an honor sequence is always good strategy against a notrump contract. It is attacking, threatening to set up several winners for you, and there is little risk that you will give away a trick.
+
+South will probably hold up, at least once. If he does, you should continue the suit by next playing the \HJ. This is standard technique; if your first card holds the trick and you want to continue the suit, play the lowest card in the sequence and partner will know that you have all the ones in between.
+
+South only has 7 winners unless he can establish the \C suit, and when you win your \CK you will also be able to win enough \Hs to set the contract. }
+[BCFlags "1f"]
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]HK
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "2"]
+{Baker OLead 2}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "W"]
+[Deal "N:QJ84.AJ6.AK.KQ98 3.K9753.T52.A764 KT972.QT84.Q97.3 A65.2.J8643.JT52"]
+[Auction "N"]
+1C pass 1S pass 4S pass pass pass
+[Result ""]
+{The bidding has been as shown. The contract is 4\S and it is your lead.
+
+When you have made your choice  
+
+Against confident bidding an attacking lead is probably called for and having the Ace of trumps makes a singleton lead a particularly good choice.
+
+If declarer plays low in dummy partner will win the \HK and give you an immediate ruff. You play a \C back to partner and get another ruff for down 2.
+
+Declarer would be better off to go up with the \HA at the first trick and try to pull trumps. This would still not be good enough. You win your \SA, and lead a \C to partner's hand. He can then win his \HK and lead a third \H for you to ruff. Down 1.}
+[BCFlags "1f"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]H2
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "3"]
+{Baker OLead 3}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "W"]
+[Deal "S:QT6.AQ9.AT7.KQ73 KJ943.653.82.T62 872.K87.KQJ.A854 A5.JT42.96543.J9"]
+[Auction "S"]
+1NT 3NT pass pass
+[Result ""]
+{The bidding has been as shown. The contract is 3NT and it is your lead.
+
+When you have made your choice  
+
+The only suit you have worth attacking with is your \Ss. Leading fourth down is standard with this type of holding, but it does have some risk. You are hoping to find partner with the \SQ or, even better, the \SA.
+
+This time he comes through with the \SA and your side wins the first 5 tricks for a 1-trick set.
+
+If you had led any card other than a low \S declarer would take T tricks.}
+[BCFlags "1f"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]S4
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "4"]
+{Baker OLead 4}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "W"]
+[Deal "S:AJ5.QT8432.AQ.73 KQ73.KJ9.T84.952 982.A65.K3.AQJT4 T64.7.J97652.K86"]
+[Auction "S"]
+1H pass 2C pass 2H pass 4H pass pass pass
+[Result ""]
+{The bidding has been as shown. The contract is 4\H and it is your lead.
+
+When you have made your choice  
+
+Against a suit contract you want to try to set up a quick winner in the suit.
+
+Notice that with any other lead declarer would have been able to discard a \S loser  (maybe both of them) on dummy's \Cs.}
+[BCFlags "1f"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]SK
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "5"]
+{Baker OLead 5}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "W"]
+[Deal "S:KT4.KQ9.AT7.QJ97 QJ963.A64.863.82 A82.873.K92.AT54 75.JT52.QJ54.K63"]
+[Auction "S"]
+1NT pass 3NT pass pass
+[Result ""]
+{The bidding has been as shown. The contract is 3NT and it is your lead.
+
+When you have made your choice  
+
+The top of a solid 3-card honor sequence is best, but as you can see, a broken 3-card sequence may work out just as good.
+
+South will likely try the \C finesse, and when East wins the \CK he will return a \S through South's \ST.}
+[BCFlags "1f"]
+[RotationNote "Board 5, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]SQ
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "6"]
+{Baker OLead 6}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "W"]
+[Deal "S:AQT6.7.KJ962.K65 943.964.AQT8.983 KJ72.KJT32.7.A74 85.AQ85.543.QJT2"]
+[Auction "S"]
+1D pass 1H pass 1S pass 4S pass pass pass
+[Result ""]
+{The bidding has been as shown. The contract is 4\S and it is your lead.
+
+When you have made your choice  
+
+You have \D winners, but dummy will surely be short since he has at least 8 cards in the Major suits.
+
+Partner has whatever \H strength your side possesses.
+
+It is very likely that declarer will want to do some cross-trumping. To try to cut that down your best lead is a trump.
+
+Just imagine that declarer wins the first \S in his hand and plays a \H to dummy's honors. East will win and play another trump. Whenever you win your first \D you will play your last trump.
+
+As you can imagine, declarer will be in a whole lot of trouble.}
+[BCFlags "1f"]
+[RotationNote "Board 6, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "7"]
+{Baker OLead 7}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "6NT"]
+[Vulnerable "None"]
+[Student "W"]
+[Deal "S:AQ6.AQ9.AT7.KQ73 KJ943.653.82.T62 872.K87.KQJ.A854 T5.JT42.96543.J9"]
+[Auction "S"]
+2NT pass 6NT pass pass pass
+[Result ""]
+{The bidding has been as shown. The contract is 6NT and it is your lead.
+
+When you have made your choice  
+
+You held this identical hand in Deal 3. The declarer was playing 3NT and the best lead was the \S4, fourth down.
+
+It's different when the conract is 6NT. Against 6NT you should make a passive lead, which means don't underlead any honors. Against 6NT you have little chance of establishing a suit to win four or five tricks. Instead, you just want to try to not give declarer an undeserved trick.
+
+So any passive lead would be OK, you pick the \H just because they are less likely to have an unbid 4-card Major in either hand.
+
+Declarer has 11 winners sitting there; if you had led a low \S you would have handed him his 12 trick on a platter.}
+[BCFlags "1f"]
+[RotationNote "Board 7, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]H6
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "8"]
+{Baker OLead 8}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "6D"]
+[Vulnerable "None"]
+[Student "W"]
+[Deal "S:JT.KQJ.AQJ987.J5 K854.8652.K62.T2 A2.A97.T53.AKQ76 Q9763.T43.4.9843"]
+[Auction "S"]
+1D pass 2C pass 3D pass 4NT pass 5D pass 6D pass pass pass
+[Result ""]
+{The bidding has been as shown. The contract is 6\D and it is your lead.
+
+When you have made your choice  
+
+Against a notrump slam it is best to make a passive lead so you don't give declarer an undeserved winner.
+
+Against a suit slam the situation is very different. Against strong dummy bidding like this you are pretty sure that if you don't establish a winner early declarer will find something in dummy to discard losers on. In this hand it is dummy's \C suit.
+
+Your most promising suit is \Ss. Obviously partner has a very weak hand, but if he has the \SQ you can set up your \SK before your King of trumps is dislodged.
+
+Without a \S lead declarer will have smooth sailing.}
+[BCFlags "1f"]
+[RotationNote "Board 8, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]S4
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "9"]
+{Baker OLead 9}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "W"]
+[Deal "S:A43.A98.AJT6.QT4 QJT8.QT542.73.A3 975.J7.KQ8.KJ982 K62.K63.9542.765"]
+[Auction "S"]
+1NT pass 3NT pass pass pass
+[Result ""]
+{The bidding has been as shown. The contract is 3NT and it is your lead.
+
+When you have made your choice  
+
+This is a close call. The top of your \S honor sequence is very tempting, but even when you find partner with the \SK you can still only establish three \S winners to go with your \CA. Unfortunately, that's not enough to defeat the contract.
+
+Leading a \H from your 5-card suit is riskier, but it has the potential of setting up an additional winner. In this hand, as you see, the \H lead gets you 4 \H winners to go with your \CA. }
+[BCFlags "1f"]
+[RotationNote "Board 9, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]H4
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "10"]
+{Baker OLead 10}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "W"]
+[Deal "S:A93.QJ743.K.K874 84.982.AT53.AJ62 KJ75.AK65.8742.5 QT62.T.QJ96.QT93"]
+[Auction "S"]
+1H pass 1S pass 2C pass 4H pass pass pass
+[Result ""]
+{The bidding has been as shown. The contract is 4\H and it is your lead.
+
+When you have made your choice  
+
+A careful look at this hand shows just how bad it can turn out.
+
+And leading from a doubleton in a suit the opponents have bid is almost as bad.
+
+So by process of elimination you lead a trump, probably the \H9.
+
+And when South plays \Cs, (preparing to ruff in dummy), you will win and play another trump. Even if South guesses the \Ss correctly he will not be able to make the contract. }
+[BCFlags "1f"]
+[RotationNote "Board 10, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]H9
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "11"]
+{Baker OLead 11}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "W"]
+[Deal "N:852.A65.KJ.KQT94 KQJ93.42.9762.A5 AT4.K98.AQ84.J73 76.QJT73.T53.862"]
+[Auction "N"]
+1C 1S 2NT pass 3NT pass pass pass
+[Result ""]
+{The bidding has been as shown. The contract is 3NT and it is your lead.
+
+When you have made your choice  
+
+If partner had not overcalled, the \HQ would be the perfect lead against 3NT. But partner DID overcall, perhaps to give you a hint on what to lead if South became declarer.
+
+As you see, a \S lead will defeat the contract this time while the \HQ would let declarer make 11 tricks.
+
+Consider this: even if partner has a high \H to help you establish the suit it is not very likely that you would be able to get the lead with your entryless hand.
+
+There is another, more subtle, reason for leading partner's suit. If the lead turns out wrong, and the \HQ lead would have beaten the conract, partner will not blame you in the least. But if you lead the \HQ and it turns out that a \S lead would have let you set the contract, well, that would not be too good for partnership harmony.}
+[BCFlags "1f"]
+[RotationNote "Board 11, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]S7
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "12"]
+{Baker OLead 12}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "1CXX"]
+[Vulnerable "None"]
+[Student "W"]
+[Deal "S:AJ93.KJ.T53.A763 QT84.AQT7.KQ98.5 652.9532.A64.942 K7.864.J72.KQJT8"]
+[Auction "S"]
+1C X pass pass pass
+[Result ""]
+{The bidding has been as shown. The contract is 1\C doubled and it is your lead.
+
+When you have made your choice  
+
+There is only one reason partner would pass your takeout double - he has a great \C suit and he expects to inflict a large penalty.
+
+What he wants do do is pull South's trumps so your high card winners don't get ruffed by South. The way you can help him do that is to start with a trump lead.
+
+With the trump lead South might not make more than three tricks.}
+[BCFlags "1f"]
+[RotationNote "Board 12, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]C5
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "13"]
+{Baker OLead 13}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "W"]
+[Deal "N:KQ9.K64.KQT3.742 87543.QT3.A4.JT3 AT2.AJ7.J862.K65 J6.9852.975.AQ98"]
+[Auction "N"]
+1D pass 2NT pass 3NT pass pass pass
+[Result ""]
+{The bidding has been as shown. The contract is 3NT and it is your lead.
+
+When you have made your choice  
+
+Your \Cs are so good that all your instincts tell you to lead the \C8, and perhaps set up 3 winners.
+
+If you had one more small \Cs your instincts would be right, but with only a 4-card suit you should think a little longer. Three tricks won't set this contract, so you must depend on partner winning something. And if partner is going to win something perhaps he will lead a \C and you might make FOUR tricks in the suit.
+
+So lead the \H9. You lead a high card so partner won't be tempted to return the suit when he gets the lead. Note that although this lead finesses partner's \HQ, it didn't do anything that declarer wouldn't have done on his own.
+
+Declarer must play \Ds to get some winners, and when East takes the \DA he will surely switch to the \CJ. Down goes declarer.}
+[BCFlags "1f"]
+[RotationNote "Board 13, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]H9
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "14"]
+{Baker OLead 14}
+[Dealer "E"]
+[Declarer "S"]
+[Contract "4SXX"]
+[Vulnerable "None"]
+[Student "W"]
+[Deal "E:5.KQ963.K6.KQT96 QJ9762.A854.4.74 A43.JT2.QJT98.AJ KT8.7.A7532.8532"]
+[Auction "E"]
+1H 2S 3D 3S 4C pass 4H pass pass 4S X pass pass pass
+[Result ""]
+{The bidding has been as shown. The contract is 4\S doubled and it is your lead.
+
+When you have made your choice  
+
+South's 2\S bid is a Weak-jump Overcall, based on a 6-card \S suit and a weak hand.
+
+Either the \DQ or \HJ would normally be good leads.
+
+But on this deal North/South have clearly sacrificed against your almost certain \H game. Since they don't have enough high-card strength to make this contract declarer is hoping to get some ruffs.
+
+The way to cut down the number of ruffs he can make is to lead a trump at every opportunity.
+
+So take the \SA and then play another \S. Declarer will still be able to ruff one \H in dummy, but will be left with two losing \Hs and will be down 2. Without the two trump plays he could have ruffed all three of his \H losers and actually made the conract.}
+[BCFlags "1f"]
+[RotationNote "Board 14, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]SA
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "15"]
+{Baker OLead 15}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "W"]
+[Deal "S:AJ5.AJ9.QJT3.Q84 K873.QT73.75.632 T64.642.K942.AKJ Q92.K85.A86.T975"]
+[Auction "S"]
+1NT pass 3NT pass pass pass
+[Result ""]
+{The bidding has been as shown. The contract is 3NT and it is your lead.
+
+When you have made your choice  
+
+Sometimes it comes down to just this kind of choice. Do you lead fourth down from \S K 8 7 3 or from \H Q T 7 3.
+
+The presence of the \HT bolsters the \H suit enough to give it the edge.
+
+The suits could be arranged something like shown at left. With a \S lead the presence of the \ST in dummy allows declarer to make a second \S trick, which happens to be declarer's ninth trick.
+
+But when you lead the \H3 it does not promote a \H winner for declarer, and left to his own devices, he cannot establish the \S winner.}
+[BCFlags "1f"]
+[RotationNote "Board 15, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]H3
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "16"]
+{Baker OLead 16}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "6S"]
+[Vulnerable "None"]
+[Student "W"]
+[Deal "N:AT.94.KQJ983.KQJ 872.Q8752.T52.63 KQJ954.AJT.6.A52 63.K63.A74.T9874"]
+[Auction "N"]
+1D pass 1S pass 3D pass 3S pass 4S pass 4NT pass 5D pass 6S pass pass pass
+[Result ""]
+{The bidding has been as shown. The contract is 6\S and it is your lead.
+
+When you have made your choice  
+
+The \CT would probably be a very safe lead. But you don't want "safe", you want "attack".
+
+Dummy has advertised a long, strong \D suit which declarer will no doubt establish for discards.
+
+It is important for your side to create a winner before your \DA is forced out. The most likely looking winner is your \HK. So lead the small \H and hope partner has the Queen. }
+[BCFlags "1f"]
+[RotationNote "Board 16, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]H3
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "17"]
+{Baker OLead 17}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "3NTX"]
+[Vulnerable "None"]
+[Student "W"]
+[Deal "N:A9762.A63.K4.QJ5 KQJT8.752.A5.963 53.KQJ.QJT97.AT4 4.T984.8632.K872"]
+[Auction "N"]
+1S pass 2NT pass 3NT X pass pass pass
+[Result ""]
+{The bidding has been as shown. The contract is 3NT and it is your lead.
+
+When you have made your choice  
+
+If partner had not doubled the contract you would probably have started with the \HT, or possibly the \C2.
+
+But partner DID double, and most good players play that doubling 3NT is lead-directing as follows:If you have bid a suit, lead it. If doubler has bid a suit, lead it. If neither of you has bid, lead dummy's first bid suit.
+
+ So lead a \S, certainly not a lead you would have made without the double. Partner immediately establishes 4 \S winners and he has the \DA for an entry.
+
+With any other lead declarer will make the contract.}
+[BCFlags "1f"]
+[RotationNote "Board 17, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]S4
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "18"]
+{Baker OLead 18}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "W"]
+[Deal "S:KQ7.KT98.AK5.T92 JT93.42.JT963.85 A864.AJ65.Q7.J63 52.Q73.842.AKQ74"]
+[Auction "S"]
+1NT pass 2C X 2H pass 4H pass pass pass
+[Result ""]
+{The bidding has been as shown. The contract is 4\H and it is your lead.
+
+When you have made your choice  
+
+If partner had not doubled North's Stayman 2\C bid you would probably have started with one of your Jacks.
+
+But partner DID double, and the double of a conventional bid clearly means that the doubler would like you to lead that suit.
+
+ So lead a \C, and partner will take three \C tricks. With any other lead declarer would quickly discard a \C from dummy on a high \D, easily making the contract.
+
+Declarer may still make the contract if he guesses the \HQ correctly, but maybe not.}
+[BCFlags "1f"]
+[RotationNote "Board 18, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]C8
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "19"]
+{Baker OLead 19}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "6NT"]
+[Vulnerable "None"]
+[Student "W"]
+[Deal "N:AJ5.A9853.KQ.AQ5 T864.72.J93.JT98 KQ3.K4.A854.K642 972.QJT6.T762.73"]
+[Auction "N"]
+1H pass 2NT pass 6NT pass pass pass
+[Result ""]
+{The bidding has been as shown. The contract is 6NT and it is your lead.
+
+When you have made your choice  
+
+Admittedly the \HQ looks very tempting, but resist the temptation.
+
+Since dummy bid \Hs, don't help declarer by leading the suit. Declarer has 11 tricks, and will hope to pick up one more in \Cs, but that won't happen.
+
+But if you start with the \HQ, he will win with his \HK and can then establish an extra \H winner by leading through your \H J T into dummy's \H A 9.
+
+With any lead other than a \H honor he cannot come to 12 tricks.}
+[BCFlags "1f"]
+[RotationNote "Board 19, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]D2
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "20"]
+{Baker OLead 20}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4SX"]
+[Vulnerable "None"]
+[Student "W"]
+[Deal "S:KJ963.A6.K9.QT85 A.QJT3.8753.A742 QT85.K54.AT.KJ96 742.9872.QJ642.3"]
+[Auction "S"]
+1S pass 2C pass 3C pass 4S pass pass X pass pass pass
+[Result ""]
+{The bidding has been as shown. The contract is 4\S and it is your lead.
+
+When you have made your choice  
+
+Did you choose the \HQ? I was afraid you would. That is wrong, but because this is the last Deal I'm going to give you another chance.
+
+Look at the bidding carefully, then ask yourself why you doubled.
+
+Now pick the opening lead that will set the contract, then  
+
+North/South apparently have 8 or more \Cs between them, which leaves partner with a singleton at most.
+
+Partner will ruff the second \C, and when you get into the lead with the Ace of trumps you will play a third \C which he will again ruff.
+
+That's why you doubled.}
+[BCFlags "1f"]
+[RotationNote "Board 20, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Play "W"]CA
+

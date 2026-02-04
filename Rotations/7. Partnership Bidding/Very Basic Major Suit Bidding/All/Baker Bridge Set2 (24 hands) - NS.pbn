@@ -1,0 +1,830 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%Creator: CSVtoPBN Version 1.00
+%Created: 2026-01-23 13:57:51
+%sourcefilename BakerBridgeFull.csv
+%HRTitleEvent Bidpractice/Set2
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "1"]
+{Baker Bidpractice/Set2 1}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "1H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:A5.KQT97.KQ6.QJ4 QT92.853.AT53.K9 K763.J42.974.865 J84.A6.J82.AT732"]
+[Auction "N"]
+1H pass pass pass
+[Result ""]
+{NORTH has 18 points and a 5-card
+
+♥
+
+suit. This is a good hand
+
+to open 1
+
+♥
+
+.
+
+SOUTH has three
+
+♥
+
+s which is adequate support. But SOUTH only
+
+has 4 points which is not strong enough to respond. So SOUTH passes.}
+[BCFlags "1f"]
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "2"]
+{Baker Bidpractice/Set2 2}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:QJ964.A9.K74.KQJ A753.JT86.T5.A75 K82.K543.86.9832 T.Q72.AQJ932.T64"]
+[Auction "S"]
+1S pass 2S pass 3S pass pass pass
+[Result ""]
+{SOUTH has 17 points counting 1 extra for the fifth ♠. This is a middle-range hand with five ♠s.
+
+So he opens 1♠.
+
+NORTH only has 7 points, 6 in high cards and one more for the doubleton
+
+♦
+
+.
+
+But she does have three ♠s, so she can respond 2♠.
+
+Since SOUTH is middle-range, he makes one more try by bidding 3♠.
+
+If NORTH had 9 or 10 points she would now bid 4♠ - but with 7 she passes.}
+[BCFlags "1f"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "3"]
+{Baker Bidpractice/Set2 3}
+[Dealer "S"]
+[Declarer "N"]
+[Contract "2S"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:Q75.KJ74.J942.J8 T83.QT6.KT85.A32 AJ9642.83.A6.Q54 K.A952.Q73.KT976"]
+[Auction "S"]
+pass pass 1S pass 2S pass pass pass
+[Result ""]
+{With 8 points, SOUTH is not strong enough to open the bidding.
+
+NORTH has 13 points, barely meeting the minimum for a 1-opening. Note that the fifth and
+
+sixth ♠ each added 1 point to his count. He opens 1♠.
+
+Although SOUTH passed originally, she must respond to NORTH's opening bid. Since she has
+
+three ♠s she raises to 2♠.
+
+In light of SOUTH's weak response NORTH passes.}
+[BCFlags "1f"]
+[RotationNote "Board 3, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "4"]
+{Baker Bidpractice/Set2 4}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AK.QJ8642.KQ3.75 7432.93.J762.AQJ J65.KT75.A8.9862 QT98.A.T954.KT43"]
+[Auction "S"]
+1H pass 2H pass 3H pass 4H pass pass pass
+[Result ""]
+{SOUTH has 17 points and six
+
+♥
+
+s.
+
+This is a mid-range 1
+
+♥
+
+opening bid.
+
+With 9 points, (1 for the doubleton), NORTH raises to 2
+
+♥
+
+.
+
+SOUTH's hand is worth one more try. He invites with 3
+
+♥
+
+.
+
+NORTH had a strong 2
+
+♥
+
+raise, considering that she might
+
+have only had 6 points. So she carries on to 4
+
+♥
+
+.}
+[BCFlags "1f"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "5"]
+{Baker Bidpractice/Set2 5}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "3H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:T92.AK542.85.AKQ KQJ3..T7632.JT62 764.Q763.AJ4.985 A85.JT98.KQ9.743"]
+[Auction "N"]
+1H pass 2H pass 3H pass pass pass
+[Result ""]
+{NORTH opens 1
+
+♥
+
+with 17 points and five
+
+♥
+
+s.
+
+SOUTH, with 7 points and four trumps raises to 2
+
+♥
+
+.
+
+NORTH has a mid-range hand, good enough to invite SOUTH to bid the game.
+
+Too bad, but SOUTH is too weak to accept any invitations.}
+[BCFlags "1f"]
+[RotationNote "Board 5, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "6"]
+{Baker Bidpractice/Set2 6}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "1S"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "N:A63.9853.8643.92 9.QJT6.J2.KJ8763 KJ874.K72.A95.AQ QT52.A4.KQT7.T54"]
+[Auction "N"]
+pass pass 1S pass pass pass
+[Result ""]
+{NORTH has a terrible hand, and naturally passes.
+
+SOUTH, however, has a nice 18 points and opens 1♠.
+
+NORTH still has a terrible hand, and passes again. You need at least 6 points to respond to
+
+an opening one bid.}
+[BCFlags "1f"]
+[RotationNote "Board 6, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "7"]
+{Baker Bidpractice/Set2 7}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:KQJ54.A7.KQ5.J86 A82.JT8.JT8.QT43 T963.KQ4.9642.A7 7.96532.A73.K952"]
+[Auction "N"]
+1S pass 2S pass 3S pass 4S pass pass pass
+[Result ""]
+{NORTH has 17 points and might open 1NT. But with the 5-card Major suit she prefers
+
+to open 1♠.
+
+SOUTH has good ♠ support and 10 points, counting 1 for the doubleton ♣.
+
+It is easily worth a raise to 2♠
+
+NORTH cannot bid game yet, after all, SOUTH could have as few as 6 points. But she can
+
+continue with a 3♠ bid in hopes that SOUTH actually has 9 or 10 points.
+
+SOUTH comes through with 4♠.}
+[BCFlags "1f"]
+[RotationNote "Board 7, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "8"]
+{Baker Bidpractice/Set2 8}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "3H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:KJ6.KJ852.A74.85 T943.AT7.Q53.K72 872.Q964.K62.AQ3 AQ5.3.JT98.JT964"]
+[Auction "S"]
+1H pass 3H pass pass pass
+[Result ""]
+{SOUTH has a bare minimum 13 point hand, and he should open 1
+
+♥
+
+.
+
+NORTH has 11 points and good
+
+♥
+
+support so she jumps to 3
+
+♥
+
+.
+
+SOUTH knows he has been invited to bid higher, but with nothing above minimum he must pass.}
+[BCFlags "1f"]
+[RotationNote "Board 8, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "9"]
+{Baker Bidpractice/Set2 9}
+[Dealer "S"]
+[Declarer "N"]
+[Contract "3H"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:QJ.J854.A983.QJ7 AK9.3.QJT74.8632 863.AKQ72.K6.T95 T7542.T96.52.AK4"]
+[Auction "S"]
+pass pass 1H pass 3H pass pass pass
+[Result ""]
+{SOUTH has 11 points and she should pass.
+
+NORTH has a minimum 1
+
+♥
+
+opening, 13 points and five trumps.
+
+SOUTH, with 4-card trump support, jumps to 3
+
+♥
+
+.
+
+(This is called a Limit Raise.)
+
+A Limit Raise is an invitational bid, but NORTH can add and he knows the total points will
+
+be either 24 or 25. So he passes 3
+
+♥
+
+.}
+[BCFlags "1f"]
+[RotationNote "Board 9, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "10"]
+{Baker Bidpractice/Set2 10}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "2S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:KQT73.A42.975.A6 A85.J3.Q42.KQ532 J962.KQ75.83.T74 4.T986.AKJT6.J98"]
+[Auction "S"]
+1S pass 2S pass pass pass
+[Result ""]
+{SOUTH has a normal 1♠ opening bid, 14 points and five trumps.
+
+NORTH has good 4-card support and 7 points, so she raises to 2♠.
+
+SOUTH passes, knowing he is not missing a game contract. NORTH can have a maximum of 10 points, which would
+
+only reach 24 points when added to his 14.}
+[BCFlags "1f"]
+[RotationNote "Board 10, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "11"]
+{Baker Bidpractice/Set2 11}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AQ753.KQ.A876.94 8.T9763.QJ.KJT53 K642.J85.K32.A62 JT9.A42.T954.Q87"]
+[Auction "N"]
+1S pass 3S pass 4S pass pass pass
+[Result ""]
+{With a 5-card ♠ suit and 16 points NORTH should open 1♠.
+
+SOUTH has 11 points and four ♠s. So even though he has a balanced hand,
+
+he jumps to 3♠, a Limit Raise.
+
+NORTH adds: her 16 plus SOUTH's 11/12 equals a game, 4♠.}
+[BCFlags "1f"]
+[RotationNote "Board 11, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "12"]
+{Baker Bidpractice/Set2 12}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:JT864.A6.AK6.KJ3 532.KQJ95.J4.642 AKQ7.743.852.Q95 9.T82.QT973.AT87"]
+[Auction "S"]
+1S pass 3S pass 4S pass pass pass
+[Result ""]
+{SOUTH has the type of 5-card Major hand that many players would open 1NT.
+
+He has 17 points with most of them OUTSIDE the Major suit. But, many others
+
+would disagree so for this Deal SOUTH will open 1♠.
+
+NORTH has 11 points and excellent (is that strong enough?) ♠ support.
+
+So she naturally makes a Limit Raise of 3♠.
+
+SOUTH adds the points and ignores the fact that his ♠ suit is Jack high.
+
+He bids 4♠.}
+[BCFlags "1f"]
+[RotationNote "Board 12, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "13"]
+{Baker Bidpractice/Set2 13}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:K5.QJT83.KQJ.962 QT73.74.982.QJ74 A64.K952.7653.AK J982.A6.AT4.T853"]
+[Auction "N"]
+1H pass 4H pass pass pass
+[Result ""]
+{NORTH has a minimum 1
+
+♥
+
+opening bid - 13 points and five trumps.
+
+SOUTH also has opening hand strength, 14 points for him. He also has four of NORTH's
+
+♥
+
+s. He applies the "He who knows, goes" principle and
+
+bids 4
+
+♥
+
+.
+
+IMPORTANT NOTE: Most experienced bridge pairs would not bid the hand quite this way, although they
+
+would arrive at the same contract. See some of the other BakerBridge lessons for more details.}
+[BCFlags "1f"]
+[RotationNote "Board 13, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "14"]
+{Baker Bidpractice/Set2 14}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "6S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:AJT874.AK5.AK3.9 6.T87432.J.KT632 KQ92.QJ.Q764.J84 53.96.T9852.AQ75"]
+[Auction "S"]
+1S pass 3S pass 6S pass pass pass
+[Result ""]
+{SOUTH has a powerful hand (21 points) with a good 6-card suit. He opens 1♠.
+
+NORTH has an 11-point Limit Raise with four trumps. She jumps to 3♠.
+
+SOUTH now knows that the partnership holds at least 32 points, perhaps 33. Since he can see that
+
+the opponents have no way to win the first two tricks he decides to bid the slam, 6♠}
+[BCFlags "1f"]
+[RotationNote "Board 14, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "15"]
+{Baker Bidpractice/Set2 15}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:A7652.76.A83.AJ4 .QJT8.KT742.Q972 JT943.A53.9.K863 KQ8.K942.QJ65.T5"]
+[Auction "N"]
+1S pass 4S pass pass pass
+[Result ""]
+{NORTH has 14 points and opens 1♠, her 5-card Major.
+
+SOUTH could bid 3♠, a Limit Raise with his 11 points. But it is often a good idea,
+
+when you have five of the Major suit that partner opened with, to just go ahead and bid
+
+the game. So South should bid 4♠ here.
+
+See the NOTE in Deal 13. When you use weaker 5-card support hands for your jump to game, you
+
+need to find another way to describe your opening-hand-strength type hands.}
+[BCFlags "1f"]
+[RotationNote "Board 15, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "16"]
+{Baker Bidpractice/Set2 16}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:A87.T9863.A62.A8 KJT.J74.974.JT73 94.AK52.KJ3.K962 Q6532.Q.QT85.Q54"]
+[Auction "S"]
+1H pass 4H pass pass pass
+[Result ""]
+{SOUTH has 13 points so he must open.  He has five
+
+♥
+
+s so he
+
+should open 1
+
+♥
+
+.
+
+NORTH, with 14 points and four
+
+♥
+
+s knows there are
+
+enough points for a game contract and at least nine
+
+♥
+
+s between
+
+the partners. She who KNOWS, GOES, so NORTH bids 4
+
+♥
+
+.
+
+This is similar to Deal 13.}
+[BCFlags "1f"]
+[RotationNote "Board 16, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "17"]
+{Baker Bidpractice/Set2 17}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:K9.AKJ65.AT5.A76 J753.97.Q86.J954 Q82.Q843.K74.KQ2 AT64.T2.J932.T83"]
+[Auction "N"]
+1H pass 3H pass 4H pass pass pass
+[Result ""]
+{NORTH has 20 points, a pretty strong hand to open 1
+
+♥
+
+.
+
+SOUTH has 12 points, and makes a Limit Raise, a jump to 3
+
+♥
+
+.
+
+NORTH is very, very close to bidding a slam. But she knows SOUTH has 12 points at most, so she should
+
+take the safe position and just bid 4
+
+♥
+
+.}
+[BCFlags "1f"]
+[RotationNote "Board 17, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "18"]
+{Baker Bidpractice/Set2 18}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "N:Q98742.KQ3.86.95 T.8764.T.AKQJ832 AJ653.JT9.AQ54.6 K.A52.KJ9732.T74"]
+[Auction "N"]
+pass pass 1S pass 4S pass pass pass
+[Result ""]
+{NORTH passes to start with since he only has 9 points.
+
+SOUTH naturally opens 1♠ with her 13 point, 5-card ♠ suit hand.
+
+NORTH might now make a Limit Raise since his hand is now worth 11 points because of the
+
+two doubletons. However, with six trumps he should jump all the way to 4♠.}
+[BCFlags "1f"]
+[RotationNote "Board 18, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "19"]
+{Baker Bidpractice/Set2 19}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:AQ9753.Q7.AK3.K2 K6.J986.Q9754.A5 JT82.K52.86.Q763 4.AT43.JT2.JT984"]
+[Auction "N"]
+1S pass 2S pass 4S pass pass pass
+[Result ""]
+{NORTH has 20 points, counting two extra for the fifth and sixth ♠s.
+
+Naturally she opens 1♠.
+
+SOUTH has a poor hand, but with 7 points he must respond. He has four of partner's ♠s
+
+so he responds 2♠.
+
+NORTH
+
+KNOWS
+
+that 6 + 20 = 26, so she
+
+GOES
+
+to 4♠.}
+[BCFlags "1f"]
+[RotationNote "Board 19, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "20"]
+{Baker Bidpractice/Set2 20}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:A74.AJ872.KQJ.A3 65.T93.AT2.KJ852 J8.KQ54.9753.T64 KQT932.6.864.Q97"]
+[Auction "S"]
+1H pass 2H pass 4H pass pass pass
+[Result ""]
+{SOUTH has 20 points, but with a 5-card Major opens 1
+
+♥
+
+rather than 2NT.
+
+NORTH barely has enough points for a response, but she does have four
+
+♥
+
+s.
+
+So she responds 2
+
+♥
+
+.
+
+SOUTH adds NORTH's 6 to his 20 and bids the game, 4
+
+♥
+
+.}
+[BCFlags "1f"]
+[RotationNote "Board 20, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "21"]
+{Baker Bidpractice/Set2 21}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "1H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:A.KQ98742.KQ.K42 KQ9542.A.T5.T963 J863.63.J843.875 T7.JT5.A9762.AQJ"]
+[Auction "N"]
+1H pass pass pass
+[Result ""]
+{NORTH has 20 points because she gets to add one point each for her fifth, sixth and
+
+seventh
+
+♥
+
+s. So she opens 1
+
+♥
+
+.
+
+SOUTH, with just 2 points, would have passed almost anything NORTH bid. Certainly he
+
+passes the 1
+
+♥
+
+bid.}
+[BCFlags "1f"]
+[RotationNote "Board 21, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "22"]
+{Baker Bidpractice/Set2 22}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:KQT65.KQ2.K87.83 A93.AT53.653.954 J842.976.QJ.AK72 7.J84.AT942.QJT6"]
+[Auction "S"]
+1S pass 3S pass 4S pass pass pass
+[Result ""]
+{SOUTH has 14 points so he opens one of his 5-card Major suit, 1♠.
+
+NORTH has some good ♣s, but with four of partner's Major she doesn't bother bidding anything else.
+
+Since she has 11 points she jumps to 3♠, a Limit Raise.
+
+SOUTH is very close to passing. He now gets to add a point for his doubleton ♣ which takes
+
+him up to 15 points. So he has enough to bid 4♠.}
+[BCFlags "1f"]
+[RotationNote "Board 22, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "23"]
+{Baker Bidpractice/Set2 23}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:KJ872.A98.KQJ.65 6.Q54.T9743.AJT9 T953.KJ2.A5.K742 AQ4.T763.862.Q83"]
+[Auction "N"]
+1S pass 3S pass 4S pass pass pass
+[Result ""]
+{NORTH has a normal opening bid of 1♠.
+
+SOUTH has a Limit Raise in ♠s, 11 points and 4 ♠s.
+
+He responds 3♠
+
+NORTH figures that 15 points is enough for game with partner showing 11/12.
+
+She bids 4♠.}
+[BCFlags "1f"]
+[RotationNote "Board 23, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "24"]
+{Baker Bidpractice/Set2 24}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "3H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:543.K53.T65.QJ85 QJ97.JT9.KQJ9.T9 A6.AQ87642.A3.42 KT82..8742.AK763"]
+[Auction "N"]
+pass pass 1H pass 2H pass 3H pass pass pass
+[Result ""]
+{NORTH has 6 points and wouldn't dream of opening.
+
+SOUTH has 17 points, counting three extra length points, so she opens 1
+
+♥
+
+.
+
+NORTH does have enough to raise to 2
+
+♥
+
+.
+
+SOUTH makes one more try, inviting with a 3
+
+♥
+
+bid but NORTH just passes.}
+[BCFlags "1f"]
+[RotationNote "Board 24, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+

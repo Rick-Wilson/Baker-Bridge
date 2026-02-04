@@ -1,0 +1,194 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%Creator: CSVtoPBN Version 1.00
+%Created: 2025-04-11 19:08:14
+%sourcefilename BakerBridgeFull.csv
+%HRTitleEvent Drury
+[Board "1"]
+[Event ""]
+{Baker Drury 1}
+[Dealer "S"]
+[Declarer "N"]
+[Contract "2H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:Q76.762.J4.KQ762 K43.AQJ54.63.T95 JT982.9.AQT98.AJ A5.KT83.K752.843"]
+[Auction "S"]
+pass pass 1H pass 2C pass 2H pass pass pass
+[Result ""]
+{With 11 points in support of \Hs you would generally make a limit raise with this hand. But since partner is in third seat you need to go carefully in case he has opened light. So you bid a Reverse Drury 2\C.
+
+Partner rebids 2\H. What do you say next? 
+
+Partner's 2\H rebid tells you that he opened light. So you pass.}
+[BCFlags "1f"]
+
+[Board "2"]
+[Event ""]
+{Baker Drury 2}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "2S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:6.JT86.AJT942.A4 Q874.A53.KQ3.T82 T32.K72.85.KQJ73 AKJ95.Q94.76.965"]
+[Auction "N"]
+pass pass 1S pass 2C pass 2S pass pass pass
+[Result ""]
+{You open in third seat and the bidding continues as shown.  
+
+Partner has a limit raise in \Ss and wonders if you have a full strength opening bid. Since you opened light you just return to \Ss at the minimum level.
+
+Partner passes.}
+[BCFlags "1f"]
+
+[Board "3"]
+[Event ""]
+{Baker Drury 3}
+[Dealer "S"]
+[Declarer "N"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:843.T72.8764.AK8 AK952.K83.QJ.752 6.QJ965.A2.QJT63 QJT7.A4.KT953.94"]
+[Auction "S"]
+pass pass 1S pass 2C pass 2D pass 4S pass pass pass
+[Result ""]
+{Bold bidders might have opened with this hand, so when partner opens in third seat you naturally want to show your strength. If you play Reverse Drury there is only one way to do that, so you bid 2\C.
+
+Partner rebids 2\D. What do you say next? 
+
+The 2\D rebid shows a hand that partner would have opened in any position. So here it gets a little ambiguous. Surely a jump to 3\S would be forcing, but to keep the possibility of misunderstandings low a jump to 4\S is no doubt safer. After all, you can revalue your hand up to 13 points in support of \Ss.}
+[BCFlags "1f"]
+
+[Board "4"]
+[Event ""]
+{Baker Drury 4}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:KJT3.82.7654.KQ5 A94.AJ7.KT83.T82 Q86.954.A2.J9643 752.KQT63.QJ9.A7"]
+[Auction "N"]
+pass pass 1H pass 2C pass 2D pass 3H pass 4H pass pass pass
+[Result ""]
+{You open in third seat and the bidding continues as shown.  
+
+Partner has a limit raise in \Hs and wonders if you have a full strength opening bid. Your 13 point hand qualifies as a decent opening bid, but certainly not enough extra to just jump to game. You bid 2\D, confirming the legitimate opener. Partner jumps to 3\H. What do you bid? 
+
+Partner shows a maximum limit-raise with his jump, so you bid the game.}
+[BCFlags "1f"]
+
+[Board "5"]
+[Event ""]
+{Baker Drury 5}
+[Dealer "S"]
+[Declarer "N"]
+[Contract "3H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:KT63.T72.AQ6.QT9 Q84.AKJ53.82.A74 AJ952..KJ95.J652 7.Q9864.T743.K83"]
+[Auction "S"]
+pass pass 1H pass 3H pass pass pass
+[Result ""]
+{You like partner's \H suit but you have very little defensive strength. This is a good hand to preempt the bidding, trying to keep them from finding a \S fit.
+
+So you jump to 3\H. Partner realizes you don't have any strength since you did not invoke Reverse Drury. He passes and you have bought the contract. It appears that their side might be able to make 4\S.}
+[BCFlags "1f"]
+
+[Board "6"]
+[Event ""]
+{Baker Drury 6}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:K.9873.AT9732.K4 T642.KQ5.86.AQ93 A3.JT62.54.JT652 QJ9875.A4.KQJ.87"]
+[Auction "N"]
+pass pass 1S pass 2C pass 4S pass pass pass
+[Result ""]
+{You open in third seat and the bidding continues as shown.  
+
+Partner has a limit raise in \Ss and wonders if you have a full strength opening bid. Your 15 point hand is enough to insist on game, but opposite a passed hand you have no interest in a slam.
+
+So you sign-off at 4\S.}
+[BCFlags "1f"]
+
+[Board "7"]
+[Event ""]
+{Baker Drury 7}
+[Dealer "S"]
+[Declarer "N"]
+[Contract "2S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:A52.972.KQT93.Q4 KT843.J53.J76.AK 7.QT864.A4.JT832 QJ96.AK.852.9765"]
+[Auction "S"]
+pass pass 1S pass 2C pass 2D pass 2S pass pass pass
+[Result ""]
+{With 11 points in support of \Ss you need to let partner know. The way to do it is to bid 2\C.
+
+Partner rebids 2\D, confirming a full-strength opening bid. What do you bid next? 
+
+You've told partner you had at least a limit raise, now you need to tell him that it is pretty minimal. You bid 2\S and everybody passes.}
+[BCFlags "1f"]
+
+[Board "8"]
+[Event ""]
+{Baker Drury 8}
+[Dealer "N"]
+[Declarer "S"]
+[Contract "3S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:A43.AT95.T32.A97 JT96.Q8.86.K8653 2.J632.AJ954.QJ4 KQ875.K74.KQ7.T2"]
+[Auction "N"]
+pass pass 1S pass 3S pass pass pass
+[Result ""]
+{You open in third seat and the bidding continues as shown.  
+
+If you thought North had 11 points you'd bid 4\S. But you know he has a weak hand - with T+ points and support he would have said 2\C.
+
+His 3\S bid is just preemptive, so you pass.}
+[BCFlags "1f"]
+

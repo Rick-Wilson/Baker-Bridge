@@ -1,0 +1,269 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:05:42 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",10,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker 100Deals 6}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:8754.96.KQT9.Q84 QJT9.A5.7542.973 K63.QJT83.J.KJ62 A2.K742.A863.AT5"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "1NT"]
+[Result ""]
+{You are South and it is your bid. Decide what you would say, then  on BID. 
+
+You have 7 points so you know your side does not have a game. You also have no reason to think there is any better contract than 1NT. So you pass.
+
+North would play 1NT. To make life more convenient the hands will be rotated so that South becomes declarer. 
+
+ ROTATE. 
+
+South plays 1NT. West leads the \HQ.
+
+Winners: \S 1 : \H 2 : \D 1 : \C 1 : Total = 5
+
+You need two more winners. Even if the \Ds split 3-2 you can get only one more from that suit. So clearly you must use the \S suit. Since you have only one entry to dummy you must save it until the right time.
+
+Win the first trick with the \HK. Then play \SA followed by \S2. Continue playing \Ss until the \SK is forced out. Win whatever they play next and play your other winners. You cannot be stopped from taking 7 tricks.
+
+What would you try next? A \S finesse? Whether West took his \SK right then or later you would go down. You could never reach dummy again.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+1NT Pass Pass Pass
+[Play "E"]
+HQ
+
+[Event ""]
+{Baker 100Deals 7}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "S:AK73.842.J93.T84 T64.KJ7.86.J7532 982.5.QT742.AK96 QJ5.AQT963.AK5.Q"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "4H"]
+[Result ""]
+{You are East and it is your bid. Decide what you would say, then  on BID. 
+
+You have a nice hand, but 20 points is not strong enough to open 2\C. 
+
+So you open 1\H. Partner raises to 2\H.  
+
+Partner's raise to 2\H shows 6-10 points. You figure that should be enough for game but even if he has the full T you are not in slam range. So you bid the game. 
+
+East plays 4\H. South leads \SA, then switches to \H2.
+
+Losers: \S 2 : \H 0 : \D 1 : \C 1 : Total = 4
+
+It's a good thing you stopped at game - partner's hand is about as bad as it could be.
+
+The PLAN turns out simple. You can't avoid either of the three black losers so you must eliminate the \D loser. You can ruff it in dummy. Just to be safe you pull one more round of trumps, then play \DA, \DK and \D5, ruffing in dummy. You will eventually get to your hand (with a \S or a \C ruff) and pull the last trump.
+
+Only a real beginner would have pulled all the trumps and not been able to ruff that \D.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+[Student "S"]
+[Auction "E"]
+1H Pass 2H Pass
+4H Pass Pass Pass
+[Play "S"]
+SA
+
+[Event ""]
+{Baker 100Deals 8}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:K653.Q974.T8.974 74.K53.AK962.KQ3 QJT82.T86.754.A5 A9.AJ2.QJ3.JT862"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{You are North and it is your bid. Decide what you would say, then  on BID. 
+
+With 16 points as Responder you are not quite strong enough for a jump-shift to 2 \D. That requires at least 17 points. A jump to 3NT fits the point range (16-18) but promises a stopper in all unbid suits. So instead you bid 1\D, knowing partner is forced to keep the bidding alive. He now replies 1NT. What is your next bid? 
+
+Until now you were thinking the hand might end up in a slam. Now, with partner's minimum rebid, you happily say 3NT which partner passes.
+
+South would play 3NT. 
+
+North plays 3NT. East leads the \SQ. West puts on the \SK.
+
+Winners: \S 1 : \H 2 : \D 5 : \C 0 : Total = 8
+
+Let's say you hold up on the first \S, hoping they switch suits. HA! They aren't about to switch suits and they drive out your \SA at trick 2. That actually clears the situation up and makes this plan pretty simple to make.
+
+You have taken 1 \S, and you will surely make 5 \Ds. Despite the solidity of those \Cs you dare not try to win a \C trick, because the defenders will pounce on that first \C and then win a bunch of \S tricks. 
+
+So that makes it clear that you need 3 \H tricks, and there's only one way to get them. After taking your five \D tricks, play a \H to the \HK, then a \H back, finessing the \HJ. Half of the time you will make this contract, the other half of the time they will bury you with \Ss.
+
+}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "E"]
+Pass 1C Pass 1D
+Pass 1NT Pass 3NT
+Pass Pass Pass
+[Play "W"]
+SQ
+
+[Event ""]
+{Baker 100Deals 9}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "S:A74.J863.T5.9843 952.KQ92.KQ83.J7 KQJ8..9764.QT652 T63.AT754.AJ2.AK"]
+[Scoring ""]
+[Declarer "W"]
+[Contract "4H"]
+[Result ""]
+{You are East and it is your bid. Decide what you would say, then  on BID. 
+
+You have 12 points which isn't quite enough to force to game.
+
+It is just right for a limit raise though, so you bid 3\H.
+
+Partner does bid the game.
+
+West would play 4\H.
+
+East plays 4\H. The defense takes the first three \S tricks, then switches to a \C.
+
+Losers: \S 3 : \H ?? : \D 0 : \C 0 : Total = 3+??
+
+With no more outside losers your task is very very simple:DO NOT LOSE A TRUMP TRICK.
+
+There is no problem if trumps split 2-2 or 3-1, so you can put your mind to 4-0 splits only. If South holds \H J 8 6 3 then it won't matter whether your first trump play is \HA or \HK, you will still be able to finesse the \HJ. But if North holds \H J 8 6 3 it is vital that you first play either the \HK or \HQ. If you start with the \HA you will have lost your finesse position. The general rule is to first play a high trump from the hand that has two. That preserves a finesse through either defender's \H J x x x.
+
+Next visualize the situation if your first play was the \HK. South would show out and you would play the \HQ, then a small \H finessing your \HT. 
+
+Finally visualize the situation if your first play was the \HK and it was North who showed out. You would play a small \H to your \HA, then lead a \H toward dummy finessing with the \H9.
+
+Using the correct Plan guarantees the contract however \Hs split.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 4, chOption: W, chBasis: N, basisKind:Declarer, nOption:3, nBasis: 0, nRot: 3, useStandardVul: true"]
+[Student "S"]
+[Auction "W"]
+1H Pass 3H Pass
+4H Pass Pass Pass
+
+[Event ""]
+{Baker 100Deals 10}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "E:JT63.KQJ.T954.95 KQ92.952.K7.KQ83 .A874.QJ632.T764 A8754.T63.A8.AJ2"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4S"]
+[Result ""]
+{You are North and it is your bid. Decide what you would say, then  on BID. 
+
+Partner has opened and you have 14 points. You know you belong in game but there is no need to jump and use up bidding space. You respond 1\S.
+
+Partner now bids 2\S. What do you bid next? 
+
+You know you should be in game and now you know the suit. You bid 4\S.
+
+North plays 4\S. The defense quickly takes three \H tricks, then switches to a \D.
+
+Losers: \S 0? : \H 3 : \D 0 : \C 0 : Total = 3?
+
+This Deal is VERY similar to Deal 9 in that you are only worried about a 4-0 trump split. The reason that it shows up right here is to point out the difference between J 8 6 3 and J T 6 3.
+
+If West holds \S J T 6 3 then there is nothing you can do about it - you will go down. If you lead a \S from dummy he will "split his honors" by playing the \ST. This will force your \SA and he can just sit back and wait for his \SJ to make a trick.
+
+But if it is East with \S J T 6 3 you can keep him from winning a \S trick, IF YOUR FIRST \S PLAY IS THE \SA. West shows out and you play a small \S toward dummy's \S K Q 9. If East plays low you insert the \S9, if he plays one of his honors you win it, then return to your hand and finesse him out of the other honor.
+
+If your first \S was \SK or \SQ then it would be too late.
+
+ to see an alternate deal. 
+
+To summarize: If you are missing J x x x your first play should be from the hand with two honors. Then you will  be able to finesse in either direction. If you are missing J T x x your first play should be honor from the hand with only one. This will leave you with a double-finesse position in one direction. If the other defender has the trumps there is nothing you can do. }
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "S"]
+1C Pass 1S Pass
+2S Pass 4S Pass
+Pass Pass

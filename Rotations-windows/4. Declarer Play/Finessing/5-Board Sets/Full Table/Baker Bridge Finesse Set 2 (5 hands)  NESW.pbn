@@ -1,0 +1,235 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:00:40 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Finesse 6}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "E:65.T83.KQJT7.842 43.752.A653.JT95 K72.K964.92.K763 AQJT98.AQJ.84.AQ"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4S"]
+[Result ""]
+{North is to play 4\S. East leads the \DK.
+
+Losers:   \S=1  \H=1  \D=1  \C=1  Total = 4
+
+East has made another great lead. Any other suit would have given you a free finesse. You should duck the first \D. It is very possible that East has led from \D K Q T and will be afraid to continue for fear you have the \DJ in your hand. You'd be very happy to see him switch to any other suit. But he doesn't, he continues with the \DQ which you take with dummy's \DA.
+
+You are in dummy for the first, last, and only time. You need to try a finesse right now, but which one? At first you might think it makes no difference but, in fact, there is only one reasonable choice. If you finesse the \SK successfully you may still have a \S loser. If you finesse the \HK successfully you will surely still have a \H loser. But if you finesse the \CK successfully you will eliminate your \C loser.
+
+But as you can see, only the \C finesse will actually save you a trick.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+2C Pass 2D Pass
+2S Pass 2NT Pass
+4S Pass Pass Pass
+[Play "E"]
+DK
+
+[Event ""]
+{Baker Finesse 7}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "S:T2.KQJ52.QT8.943 A873.96.763.AQJT .T873.KJ94.K8652 KQJ9654.A4.A52.7"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "6S"]
+[Result ""]
+{East is to play 6\S. South leads the \HK.
+
+Losers:   \S=0  \H=1  \D=2  \C=0  Total = 3
+
+Your only hope for ridding yourself of two of those losers is dummy's \C suit. One possibility would be to finesse South for the \CK, and if that works, discard your \H loser on the \CA. You could then establish another \C winner for one of the \D losers. The problem with that plan is that if the finesse fails the defense will immediately take the setting \H trick.
+
+A better plan is a ruffing finesse. Win the first trick with your \HA and pull trumps with your \S K Q. 
+
+Next play your \C7 to dummy's \CA. Then lead the \CQ from dummy. If North plays the \CK you will ruff, enter dummy, and discard two red losers on the \C J T. If North plays low instead, you discard your \H loser. South may be able to win the trick but you can ruff a \H return, and dummy will have two good \Cs on which you can discard 2 \D losers.
+
+But they are easy to overlook, mainly because we don't use them often.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+[Student "S"]
+[Auction "E"]
+1S Pass 3S Pass
+4NT Pass 5H Pass
+6S Pass Pass Pass
+[Play "S"]
+HK
+
+[Event ""]
+{Baker Finesse 8}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:KJ3.Q73.KQJ95.84 942.AT5.763.AK65 T876.8642.82.T73 AQ5.KJ9.AT4.QJ92"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{South is to play 3NT. West leads the \DK.
+
+Winners:   \S=1  \H=2  \D=1  \C=4  Total = 8
+
+You only need one more winner. If East has the \SK you can finesse him out of it. Or, you have a two-way finesse for the \HQ.
+
+It is an easy choice. The defenders only have 12 HCP and West opened the bidding. So you know he must have both of the cards you are interested in.
+
+Hold up the \DA until the third round just to be safe. Then play four rounds of \Cs ending in your hand.
+
+Now play the \HJ. If West doesn't cover, you will let it ride for your ninth trick. But West does cover so you take dummy's \HA, then your other 2 \H tricks. The \SA  is your ninth trick.
+
+Sometimes that may be right. But there are other times when information from the bidding or the opening lead allows you to make a higher-percentage guess.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Declarer, nOption:2, nBasis: 2, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "W"]
+1D Pass Pass 1NT
+Pass 3NT Pass Pass
+Pass
+[Play "W"]
+DK
+
+[Event ""]
+{Baker Finesse 9}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:K2.KJ85.J874.T63 AJ74.T96.Q5.AK82 T98.AQ3.T9632.97 Q653.742.AK.QJ54"]
+[Scoring ""]
+[Declarer "W"]
+[Contract "4S"]
+[Result ""]
+{West is to play 4\S. North leads the \H5. The defense wins 3 \H tricks, then switches to a \D.
+
+Losers:   \S = ?    \H = 3  \D = 0    \C = 0 Total = 3 ?
+
+You have already lost the 3 \H tricks so you must pick up the trump suit without loss. The odds aren't in your favor, but you have no choice but to play North for the doubleton King.
+
+Lead a small \S from your hand and when North plays low put on the \SJ. When this holds the trick plunk down the \SA and hope.
+
+for the complete Deal to see if the \SK dropped or not. 
+
+Look what would have occurred if you had started with the \SQ. North would have covered with the \SK (if he had it) and you would have lost a trick to the \ST later. 
+
+The only hope is to try to drop the \SK without wasting an extra honor.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
+[Student "S"]
+[Auction "E"]
+1C Pass 1S Pass
+2S Pass 4S Pass
+Pass Pass
+[Play "N"]
+H5
+
+[Event ""]
+{Baker Finesse 10}
+[Site ""]
+[Date ""]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "E:QJ97.T53.AKT6.Q6 862.AQ.9754.8532 KT543.6.832.K974 A.KJ98742.QJ.AJT"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "4H"]
+[Result ""]
+{North is to play 4\H. East leads the \DA. The defenders take two \D tricks, then switch to a trump.
+
+Losers:   \S=0  \H=0  \D=2  \C=2  Total = 4
+
+The status is pretty clear, you've already lost the 2 \Ds so you have to keep your \C losers to just one. You have a good chance of pulling that off by playing for the \CK and \CQ to lie in different hands and taking two finesses.
+
+But you will only be in dummy once more so you MUST make the first finesse right now. Play a small \C from dummy and play the \CT. East wins with the \CQ and plays another trump.
+
+In dummy for the last time you must now take your second \C finesse. You play a small \C to your \CJ. When the \CJ wins you pull any leftover trumps and your hand is good.
+
+It was probably a better example of watching your entries. If you had pulled another trump before taking that first \C finesse you would not have been able to take the second one.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "W"]
+Pass 1H Pass 1NT
+Pass 4H Pass Pass
+Pass
+[Play "E"]
+DA

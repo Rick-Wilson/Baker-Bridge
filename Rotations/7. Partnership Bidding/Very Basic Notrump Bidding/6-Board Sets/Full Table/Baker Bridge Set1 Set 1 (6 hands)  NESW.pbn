@@ -1,0 +1,151 @@
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "1"]
+{Baker Bidpractice/Set1 1}
+[Dealer "W"]
+[Declarer "N"]
+[Contract "1NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:K.QJT5.J974.T732 AT6.A74.KQT2.K84 QJ9742.832.5.AQJ 853.K96.A863.965"]
+[Auction "W"]
+pass 1NT pass pass pass
+[Result ""]
+{NORTH has a perfect 1NT opener; a balanced hand with 16 points.
+
+SOUTH has 7 points; he knows that the most points the partnership could hold is 24 (7 + 17).
+
+Since this is below the 26 point game requirement he passes.}
+[BCFlags "1f"]
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "2"]
+{Baker Bidpractice/Set1 2}
+[Dealer "E"]
+[Declarer "E"]
+[Contract "3NT"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "E:AQ4.KT8.JT95.AQ6 J82.J52.A4.J7532 T97.A96.KQ73.K84 K653.Q743.862.T9"]
+[Auction "E"]
+1NT pass 3NT pass pass pass
+[Result ""]
+{EAST has an ideal 1NT opening -
+
+16 points and balanced distribution.
+
+With 12 points, WEST knows the partnership total is between 27 and 29, enough for game
+
+but not enough to think about slam. Since WEST also has a balanced hand she bids 3NT.}
+[BCFlags "1f"]
+[RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "3"]
+{Baker Bidpractice/Set1 3}
+[Dealer "E"]
+[Declarer "S"]
+[Contract "3NT"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "E:T976.43.K763.K82 KQ82.K96.A94.A65 54.QJT52.82.J943 AJ3.A87.QJT5.QT7"]
+[Auction "E"]
+pass 1NT pass 3NT pass pass pass
+[Result ""]
+{SOUTH has 16 points and balanced distribution.
+
+She naturally opens 1NT.
+
+NORTH has 14 points and balanced distribution so he does the math.
+
+The partnership has at least 29 points (14 + 15).
+
+The partnership has at most 31 points (14 + 17).
+
+Since this is more than the 26 needed for game, but fewer than the 33 needed for slam
+
+NORTH just bids 3NT, knowing SOUTH will respect his decision and pass.}
+[BCFlags "1f"]
+[RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "4"]
+{Baker Bidpractice/Set1 4}
+[Dealer "W"]
+[Declarer "W"]
+[Contract "1NT"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "W:J96.AJ5.AQJ.A932 QT.KT4.T8652.QJ8 AK52.872.943.765 8743.Q963.K7.KT4"]
+[Auction "W"]
+1NT pass pass pass
+[Result ""]
+{When WEST opens 1NT, EAST knows that he cannot have more
+
+than 17 points. So with her 7 points, she knows there is no reason to respond.}
+[BCFlags "1f"]
+[RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "5"]
+{Baker Bidpractice/Set1 5}
+[Dealer "W"]
+[Declarer "N"]
+[Contract "3NT"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:A74.T86.T762.A82 KQJ.QJ95.AJ8.QJT 952.A73.Q95.9643 T863.K42.K43.K75"]
+[Auction "W"]
+pass 1NT pass 2NT pass 3NT pass pass pass
+[Result ""]
+{NORTH has a maximum 17 point 1NT opener.
+
+SOUTH has 9 points:
+
+- if NORTH has 15 the total is 24, not enough for game.
+
+- if NORTH has 17 the total is 26, enough for game.
+
+Since SOUTH doesn't know what to do he passes the buck back to NORTH
+
+by bidding 2NT; this is an invitation for NORTH to bid game.
+
+NORTH has a maximum 17 point hand so she accepts the invitation.}
+[BCFlags "1f"]
+[RotationNote "Board 5, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "6"]
+{Baker Bidpractice/Set1 6}
+[Dealer "E"]
+[Declarer "E"]
+[Contract "3NT"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "E:A976.AQ4.AJ4.QT8 32.JT86.KT98.A54 T84.K72.Q65.KJ93 KQJ5.953.732.762"]
+[Auction "E"]
+1NT pass 2NT pass 3NT pass pass pass
+[Result ""]
+{With 9 points WEST is unable to decide the final contract. If EAST has 17 points then the partnership
+
+should be playing 3NT. If EAST opened with just 15 points then 3NT will be too high..
+
+So WEST makes the temporizing bid of 2NT. This tells EAST that he must make the final call - go on to
+
+game if he has maximum, pass if he has minimum. On this Deal EAST has 17 points so he bids 3NT.}
+[BCFlags "1f"]
+[RotationNote "Board 6, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+

@@ -1,0 +1,161 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:58:44 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Takeout 13}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "W:7432.Q652.9653.8 865.743.KQ742.52 AJT.JT9.8.KQT643 KQ9.AK8.AJT.AJ97"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+You double and partner responds 1\D. What do you bid next? 
+
+The pattern continues. Overcall 1NT with 15-18. Double, then bid notrump with 19-20. Double then jump in notrump with 21-22. So you jump to 2NT. Partner puts it to 3NT.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 1, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "E"]
+1C X Pass 1D
+Pass 2NT Pass 3NT
+Pass Pass Pass
+
+[Event ""]
+{Baker Takeout 14}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:J87.KT5.KT74.AKT AKT3.AJ82.AQ6.83 42.976.J93.QJ952 Q965.Q43.852.764"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "2S"]
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+You have no choice. You absolutely may not pass. So you say 1\S. Partner now bids 2\S. What do you say? 
+
+Partner obviously has a good hand. Your response showed 0-8 points and he still found enough strength to invite you to bid game. However, with your 4-point square hand you must decline the invitation.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 2, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "W"]
+1D X Pass 1S
+Pass 2S Pass Pass
+Pass
+
+[Event ""]
+{Baker Takeout 15}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:T8.AKQT964.A972. AKJ3.52.KQT6.KQ5 742.J.J53.T87432 Q965.873.84.AJ96"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+With 7 points you must make a minimum response. Even though \Cs is your best suit you should prefer to show a 4-card Major. So you bid 1\S. Partner raises to 2\S and it is your turn to bid. 
+
+Your first response showed 0-8 points. Knowing that, partner still invited you to go on if you were at the high end of the range. With 7 HCP and a doubleton you are right at the maximum for your bid, so you bid 4\S.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 3, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "W"]
+1H X Pass 1S
+Pass 2S Pass 4S
+Pass Pass Pass
+
+[Event ""]
+{Baker Takeout 16}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:KQJT863.QJ7.5.QT 9.A932.KT63.AK75 72.85.A742.J9642 A54.KT64.QJ98.83"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4H"]
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+Your hand falls in the 9-11 point mid-range response where you make a jump bid. With two decent suits you naturally choose the Major and bid 3\H. Partner raises you to game.}
+[BCFlags "1f"]
+[OriginalRotationBasis "S"]
+[RotationNote "Board 4, chOption: S, chBasis: S, basisKind:Student, nOption:2, nBasis: 2, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "W"]
+1S X Pass 3H
+Pass 4H Pass Pass
+Pass

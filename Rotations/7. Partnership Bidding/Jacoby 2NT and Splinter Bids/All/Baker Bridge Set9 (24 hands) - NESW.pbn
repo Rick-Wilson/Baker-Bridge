@@ -1,0 +1,776 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%Creator: CSVtoPBN Version 1.00
+%Created: 2026-01-23 13:57:51
+%sourcefilename BakerBridgeFull.csv
+%HRTitleEvent Bidpractice/Set9
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "1"]
+{Baker Bidpractice/Set9 1}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:A73.QJT82.K86.Q4 Q986.43.JT74.AJ9 K42.AK75.A2.8753 JT5.96.Q953.KT62"]
+[Auction "N"]
+1H pass 2NT pass 4H pass pass pass
+[Result ""]
+{SOUTH's 2NT bid is Jacoby, showing a game-forcing
+
+♥
+
+raise.
+
+NORTH has a minimum opening hand with nothing extra to show, so signs off at 4
+
+♥
+
+.}
+[BCFlags "1f"]
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "2"]
+{Baker Bidpractice/Set9 2}
+[Dealer "E"]
+[Declarer "E"]
+[Contract "4S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "E:AJT96.A62.AQ.T52 Q72.953.8764.AJ7 K854.KQ84.T52.KQ 3.JT7.KJ93.98643"]
+[Auction "E"]
+1S pass 2NT pass 3NT pass 4S pass pass pass
+[Result ""]
+{WEST's 2NT response is Jacoby - a game forcing ♠ raise.
+
+EAST's 3NT bid shows extra strength, a 5-card trump suit and no singleton/void. This is
+
+definitely NOT a suggestion to play Notrump - the trump suit is already agreed as ♠s.
+
+WEST cannot make any positive move, so she bids 4♠ which EAST passes.}
+[BCFlags "1f"]
+[RotationNote "Board 2, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "3"]
+{Baker Bidpractice/Set9 3}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:AJT762.KT.AJ6.J4 98.7643.732.AKT5 KQ53.QJ5.KQ.9732 4.A982.T9854.Q86"]
+[Auction "S"]
+1S pass 2NT pass 3S pass 4S pass pass pass
+[Result ""]
+{Following NORTH's Jacoby 2NT, SOUTH bids 3♠. This is stronger than 4♠ and
+
+shows a 6-card suit.
+
+NORTH has already bid the full strength of his hand so he signs off with 4♠ which SOUTH passes.}
+[BCFlags "1f"]
+[RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "4"]
+{Baker Bidpractice/Set9 4}
+[Dealer "W"]
+[Declarer "W"]
+[Contract "4S"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "W:AQJ743.KQJ5.J3.7 8.T982.AKT874.43 K9652.A76.Q5.KQ8 T.43.962.AJT9652"]
+[Auction "W"]
+1S pass 2NT pass 3C pass 3H pass 4S pass pass pass
+[Result ""]
+{The 3♣ bid shows a singleton / void in ♣s.
+
+EAST doesn't have much strength above what she has already shown, but she takes advantage
+
+of the bidding level to make a control-showing 3
+
+♥
+
+bid.
+
+WEST is concerned about the
+
+♦
+
+suit with a worthless doubleton,
+
+and he knows that EAST doesn't have first-round control. He bids 4♠ and EAST passes.}
+[BCFlags "1f"]
+[RotationNote "Board 4, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "5"]
+{Baker Bidpractice/Set9 5}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "6S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "N:AQJ743.KQJ5.J3.7 8.9842.KT87.AJ54 K9652.A76.A5.Q98 T.T3.Q9642.KT632"]
+[Auction "N"]
+1S pass 2NT pass 3C pass 3D pass 4NT pass 5H pass 6S pass pass pass
+[Result ""]
+{This is the companion to Deal 4.
+
+After NORTH bids 3♣ to show shortage, SOUTH makes a Control-showing bid
+
+of 3
+
+♦
+
+.
+
+NORTH no longer worries about losing two quick
+
+♦
+
+s. He uses
+
+Blackwood to check for Aces, then bids 6♠.}
+[BCFlags "1f"]
+[RotationNote "Board 5, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "6"]
+{Baker Bidpractice/Set9 6}
+[Dealer "E"]
+[Declarer "E"]
+[Contract "6H"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "E:A5.AJT962.KQ7.63 T9832.Q43.54.A85 KQ.K875.A9.KQT92 J764..JT8632.J74"]
+[Auction "E"]
+1H pass 2NT pass 3H pass 4NT pass 5H pass 6H pass pass pass
+[Result ""]
+{EAST's 3
+
+♥
+
+rebid shows better than average strength and six trumps.
+
+Just what WEST was hoping for. She bids Blackwood - her plan is to bid 7
+
+♥
+
+if EAST has three Aces, bid 6
+
+♥
+
+if he has two Aces,
+
+and stop at 5
+
+♥
+
+if he has just one. If East has no Aces WEST will get a new partner.}
+[BCFlags "1f"]
+[RotationNote "Board 6, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "7"]
+{Baker Bidpractice/Set9 7}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4S"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "S:AQT64.KQJ7.KJ.J5 83.8642.AT763.94 KJ972.A95.Q5.KQT 5.T3.9842.A87632"]
+[Auction "S"]
+1S pass 2NT pass 3NT pass 4H pass 4S pass pass pass
+[Result ""]
+{SOUTH indicates an above normal opening with five ♠s by her 3NT rebid.
+
+NORTH also has some extra strength so he makes a Control showing bid of 4
+
+♥
+
+.
+
+Despite both partners showing extra strength South merely signs of at 4♠. Why? Because NORTH's
+
+Control bid of 4
+
+♥
+
+denied first-round control in both ♣s and
+
+♦
+
+s. SOUTH realized she was off two Aces.}
+[BCFlags "1f"]
+[RotationNote "Board 7, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "8"]
+{Baker Bidpractice/Set9 8}
+[Dealer "W"]
+[Declarer "W"]
+[Contract "4S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:KQJ85.KJ7.Q85.84 T942.T932.A6.A65 A763.AQ84.94.KQ2 .65.KJT732.JT973"]
+[Auction "W"]
+1S pass 2NT pass 4S pass pass pass
+[Result ""]
+{WEST has a minimum opening hand with no extra features to brag about.
+
+So after EAST's Jacoby 2NT bid he merely signs off at 4♠.
+
+EAST would have cooperated if WEST had made a slam try, but she doesn't have enough
+
+to initiate the investigation herself.}
+[BCFlags "1f"]
+[RotationNote "Board 8, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "9"]
+{Baker Bidpractice/Set9 9}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:Q84.AK842.4.KJ95 KJT92.3.A862.T73 A765.QJT7.KQ75.4 3.965.JT93.AQ862"]
+[Auction "N"]
+1H pass 4C pass 4H pass pass pass
+[Result ""]
+{SOUTH's 4♣ is a Splinter bid.
+
+He promises 13+ points, at least four
+
+♥
+
+s and a singleton or void in ♣s.
+
+NORTH is obviously forced to game, but she is not thrilled to hear about SOUTH's ♣ shortness. In fact,
+
+it does nothing to help the value of her hand. So she bids the
+
+♥
+
+game.}
+[BCFlags "1f"]
+[RotationNote "Board 9, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "10"]
+{Baker Bidpractice/Set9 10}
+[Dealer "E"]
+[Declarer "E"]
+[Contract "4S"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "E:AQ9864.QJ7.J2.KQ 3.AT2.AT7653.654 KJ75.K6.KQ98.J83 T2.98543.4.AT972"]
+[Auction "E"]
+1S pass 2NT pass 3S pass 4S pass pass pass
+[Result ""]
+{EAST bids 3♠ to show the 6-card suit plus some extra strength.
+
+WEST's failure to make a Control bid in either ♣s,
+
+♦
+
+s
+
+or
+
+♥
+
+s, means just one thing -
+
+She doesn't have any controls.
+
+So EAST settles for game.}
+[BCFlags "1f"]
+[RotationNote "Board 10, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "11"]
+{Baker Bidpractice/Set9 11}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "S:KQ.AJT976.97.A96 52.5.T8632.KQJ85 A983.KQ83.AK4.72 JT764.42.QJ5.T43"]
+[Auction "S"]
+1H pass 2NT pass 3H pass 3S pass 4C pass 4D pass 6H pass pass pass
+[Result ""]
+{SOUTH's 3
+
+♥
+
+bid shows extra strength and a 6-trump hand.
+
+The next three bids are all Control-showing cue bids.}
+[BCFlags "1f"]
+[RotationNote "Board 11, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "12"]
+{Baker Bidpractice/Set9 12}
+[Dealer "W"]
+[Declarer "W"]
+[Contract "6S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "W:AQ984.AK4.98.QJ2 J2.T65.J632.T764 K763.J83.KQ.AK83 T5.Q972.AT754.95"]
+[Auction "W"]
+1S pass 2NT pass 3NT pass 4C pass 4H pass 4NT pass 5H pass 6S pass pass pass
+[Result ""]
+{WEST shows extra strength / five trumps.
+
+4♣ and 4
+
+♥
+
+are Control-showing bids.
+
+EAST knows they are missing the
+
+♦
+
+A, she uses
+
+Blackwood just to make certain WEST holds the trump Ace.}
+[BCFlags "1f"]
+[RotationNote "Board 12, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "13"]
+{Baker Bidpractice/Set9 13}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:KQJ.KQJ84.94.J65 T9542.72.K86.A73 3.A953.AJT2.KQ94 A876.T6.Q753.T82"]
+[Auction "N"]
+1H pass 3S pass 4H pass pass pass
+[Result ""]
+{SOUTH's 3♠ bid, a double-jump, is a Splinter bid. It shows game-forcing strength, at
+
+least four cards in partner's suit, and a singleton or void in the Splintered suit.
+
+NORTH has just 14 points and the ♠ shortness in SOUTH's hand doesn't improve her hand since
+
+she had just one ♠ loser anyway. She signs off in 4
+
+♥
+
+.}
+[BCFlags "1f"]
+[RotationNote "Board 13, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "14"]
+{Baker Bidpractice/Set9 14}
+[Dealer "E"]
+[Declarer "E"]
+[Contract "6H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "E:764.KQJ84.K4.A65 KQJ52.2.983.8732 3.A953.AJT2.KQ94 AT98.T76.Q765.JT"]
+[Auction "E"]
+1H pass 3S pass 4C pass 4D pass 4NT pass 5H pass 6H pass pass pass
+[Result ""]
+{This is a companion hand to Deal 13.
+
+EAST has 14 points, the same strength she had in Deal 13. But what a difference.
+
+This time WEST's ♠ shortness complements her hand very well. She bids 4♣
+
+to show her Control, and after WEST shows the
+
+♦
+
+A she
+
+uses Blackwood to make sure WEST also has the trump Ace.}
+[BCFlags "1f"]
+[RotationNote "Board 14, chOption: E, chBasis: N, basisKind:Declarer, nOption:1, nBasis: 0, nRot: 1, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "15"]
+{Baker Bidpractice/Set9 15}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "4H"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:A75.QJT76.J8.KQ3 T8643.92.KT9.A74 KQ.AK8.7543.JT65 J92.543.AQ62.982"]
+[Auction "S"]
+1H pass 2C pass 2NT pass 4H pass pass pass
+[Result ""]
+{NORTH has 13 points and good 3-card support for SOUTH's 1
+
+♥
+
+opening bid.
+
+But he should not bid 2NT since that bid promises 4+ cards in support. North must still insure
+
+they reach game, so he bids a forcing 2♣.
+
+When SOUTH next says 2NT NORTH can jump to 4
+
+♥
+
+.
+
+NOTE: if you used Jacoby 2NT and reached the 4
+
+♥
+
+game, give yourself credit anyway.}
+[BCFlags "1f"]
+[RotationNote "Board 15, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "16"]
+{Baker Bidpractice/Set9 16}
+[Dealer "W"]
+[Declarer "W"]
+[Contract "5H"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "W:3.KJ9652.KQJ.KQ5 T52.QT4.AT85.T63 KQJ.A873.62.AJ92 A98764..9743.874"]
+[Auction "W"]
+1H pass 2NT pass 3S pass 4C pass 4NT pass 5H pass pass pass
+[Result ""]
+{WEST bids 3♠ to show a strong hand with a singleton ♠.
+
+After EAST shows her first-round ♣ control WEST decides he will bid slam if EAST has three Aces.
+
+When Blackwood reveals just two Aces in EAST, WEST stops at 5
+
+♥
+
+.}
+[BCFlags "1f"]
+[RotationNote "Board 16, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "17"]
+{Baker Bidpractice/Set9 17}
+[Dealer "N"]
+[Declarer "N"]
+[Contract "4H"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "N:6.AK972.87.KQ865 T852.T6.K432.AT7 AQ9.QJ83.QJ96.J2 KJ743.54.AT5.943"]
+[Auction "N"]
+1H pass 2NT pass 4C pass 4H pass pass pass
+[Result ""]
+{NORTH bids 4♣ after SOUTH's Jacoby 2NT. The reason for this bid is just to describe
+
+her hand as having a side 5-card ♣ suit. NORTH knows the eventual contract will
+
+be some level of
+
+♥
+
+s.
+
+SOUTH doesn't have a strong hand, but he would show
+
+♦
+
+control at
+
+this time if he had the Ace. He isn't strong enough to go past game to show the ♠A, so he
+
+just bids 4
+
+♥
+
+.}
+[BCFlags "1f"]
+[RotationNote "Board 17, chOption: N, chBasis: N, basisKind:Declarer, nOption:0, nBasis: 0, nRot: 0, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "18"]
+{Baker Bidpractice/Set9 18}
+[Dealer "E"]
+[Declarer "E"]
+[Contract "4S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "E:AK9765.J9.K75.AQ 2.T432.QT986.KJ2 QJ84.K875.AJ4.64 T3.AQ6.32.T98753"]
+[Auction "E"]
+1S pass 3S pass 4S pass pass pass
+[Result ""]
+{WEST should not be tempted to use Jacoby 2NT with this hand. There are only 12 points, and
+
+the Limit Raise is a perfect way to show a 12 point support hand.
+
+EAST has more than enough strength to bid game after WEST's limit raise. If WEST had
+
+mistakenly used a Jacoby 2NT response, EAST would probably have tried to reach slam,
+
+and perhaps gotten too high.}
+[BCFlags "1f"]
+[RotationNote "Board 18, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "19"]
+{Baker Bidpractice/Set9 19}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "5S"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "S:KQ954.AQ8.Q97.QJ A2.95432.J4.9864 JT863.KJ7.AK3.K5 7.T6.T8652.AT732"]
+[Auction "S"]
+1S pass 2NT pass 3NT pass 4D pass 4H pass 4NT pass 5D pass 5S pass pass pass
+[Result ""]
+{SOUTH bids 3NT to show a good hand with five ♠s.
+
+NORTH shows his
+
+♦
+
+control, and SOUTH then shows her
+
+♥
+
+control.
+
+A final check with Blackwood shows two Aces missing. Too bad.}
+[BCFlags "1f"]
+[RotationNote "Board 19, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "20"]
+{Baker Bidpractice/Set9 20}
+[Dealer "W"]
+[Declarer "W"]
+[Contract "4S"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "W:AQ8752.A3.J62.KQ 4.J752.K87.JT962 KJ96.KQ98.Q94.A5 T3.T64.AT53.8743"]
+[Auction "W"]
+1S pass 2NT pass 3S pass 4C pass 4H pass 4S pass pass pass
+[Result ""]
+{WEST shows his 6-card ♠ suit by bidding 3♠.
+
+EAST shows her ♣ control and WEST shows his
+
+♥
+
+control,
+
+but it seems neither has a control in
+
+♦
+
+s.
+
+So they stop in game.}
+[BCFlags "1f"]
+[RotationNote "Board 20, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "21"]
+{Baker Bidpractice/Set9 21}
+[Dealer "S"]
+[Declarer "N"]
+[Contract "6S"]
+[Vulnerable "NS"]
+[Student "S"]
+[Deal "S:KJ84.AK943.A96.7 7.T.875432.A8632 AQ963.QJ75.KQ.QJ T52.862.JT.KT954"]
+[Auction "S"]
+1H pass 2S pass 4NT pass 5D pass 6S pass pass pass
+[Result ""]
+{NORTH might just use Jacoby 2NT since he has great
+
+♥
+
+support and
+
+more than 13 points. But, he has so much more than 13 points that he should inform partner by
+
+making a jump-shift. He plans to return to
+
+♥
+
+s later.
+
+SOUTH has different plans. Knowing partner has five ♠s and 17 or more points she pushes
+
+straight to the ♠ slam.
+
+It didn't matter, slam is cold in either Major.}
+[BCFlags "1f"]
+[RotationNote "Board 21, chOption: N, chBasis: S, basisKind:Declarer, nOption:0, nBasis: 2, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "22"]
+{Baker Bidpractice/Set9 22}
+[Dealer "E"]
+[Declarer "E"]
+[Contract "7S"]
+[Vulnerable "EW"]
+[Student "S"]
+[Deal "E:AQJ86.85.3.AQ963 52.Q976.QJ74.T74 K973.A42.AK82.K8 T4.KJT3.T965.J52"]
+[Auction "E"]
+1S pass 2NT pass 4C pass 4NT pass 5H pass 7S all pass
+[Result ""]
+
+[BCFlags "1f"]
+[RotationNote "Board 22, chOption: E, chBasis: S, basisKind:Declarer, nOption:1, nBasis: 2, nRot: 3, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "23"]
+{Baker Bidpractice/Set9 23}
+[Dealer "S"]
+[Declarer "S"]
+[Contract "6H"]
+[Vulnerable "All"]
+[Student "S"]
+[Deal "S:A95.KQJ72.AQ.964 643.8.J96.AJT752 KQJ.AT93.K8754.8 T872.654.T32.KQ3"]
+[Auction "S"]
+1H pass 4C pass 4D pass 4H pass 4S pass 6H pass pass pass
+[Result ""]
+{NORTH bids 4♣, showing
+
+♥
+
+support, 13+ points and a singleton
+
+or void in ♣s.
+
+SOUTH first shows her
+
+♦
+
+A, then, when NORTH signs off,
+
+makes one more try by showing her ♠A.
+
+NORTH finally gets inspired and bids the slam.}
+[BCFlags "1f"]
+[RotationNote "Board 23, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "24"]
+{Baker Bidpractice/Set9 24}
+[Dealer "W"]
+[Declarer "W"]
+[Contract "6S"]
+[Vulnerable "None"]
+[Student "S"]
+[Deal "W:KQ9762.KQJ2.A8.5 8.974.QT9653.KQ6 AJ53.A6.KJ72.874 T4.T853.4.AJT932"]
+[Auction "W"]
+1S pass 2NT pass 3C pass 3H pass 4NT pass 5H pass 6S pass pass pass
+[Result ""]
+{EAST has a very minimum 2NT bid, but when WEST shows ♣ shortness she can Control-bid
+
+her
+
+♥
+
+A without showing extra values.
+
+WEST's hand became huge when he heard about EAST's
+
+♥
+
+A.
+
+When Blackwood shows they hold three Aces he bids what he expects to be a comfortable slam.}
+[BCFlags "1f"]
+[RotationNote "Board 24, chOption: W, chBasis: S, basisKind:Declarer, nOption:3, nBasis: 2, nRot: 1, useStandardVul: true"]
+

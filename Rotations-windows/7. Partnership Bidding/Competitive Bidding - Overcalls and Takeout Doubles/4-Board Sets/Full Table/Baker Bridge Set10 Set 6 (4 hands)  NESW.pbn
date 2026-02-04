@@ -1,0 +1,180 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 21:12:31 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Bidpractice/Set10 21}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:KJT97.KT95.Q6.AK A53.42.AK2.J7642 42.AJ7.JT75.QT93 Q86.Q863.9843.85"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "1S"]
+[Result ""]
+{EAST has 13 points but she has to pass.
+
+She cannot Double without support for
+
+â™¥
+
+s.
+
+She cannot bid 1NT without 2 more points.
+
+She cannot overcall 2â™£ with a terrible suit like that.
+
+And WEST of course must also pass.}
+[BCFlags "1f"]
+[OriginalRotationBasis "W"]
+[RotationNote "Board 1, chOption: N, chBasis: W, basisKind:Declarer, nOption:0, nBasis: 3, nRot: 1, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+1S Pass Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set10 22}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "W:.T943.T96432.KT4 T3.KJ76.KJ5.AQ72 A9765.A85.A.J965 KQJ842.Q2.Q87.83"]
+[Scoring ""]
+[Declarer "E"]
+[Contract "1S"]
+[Result ""]
+{SOUTH obviously has to pass when EAST opens 1â™ .
+
+NORTH has a reasonable Takeout Double. She hopes SOUTH will name a suit and they can just
+
+play a partscore.
+
+You should almost always bid when partner makes a Takeout Double. Almost always. This is the one time
+
+when you don't. SOUTH's â™  are so good that he passes, converting the Takeout Double into a
+
+Penalty Double.}
+[BCFlags "1f"]
+[OriginalRotationBasis "E"]
+[RotationNote "Board 2, chOption: E, chBasis: E, basisKind:Declarer, nOption:1, nBasis: 1, nRot: 0, useStandardVul: true"]
+[Student "S"]
+[Auction "E"]
+1S Pass Pass X
+Pass Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set10 23}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "E:T.754.QJT4.AKJ73 AK872.J98.K76.65 9643.T63.32.QT98 QJ5.AKQ2.A985.42"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{SOUTH has a normal overcall of 1â™ .
+
+NORTH has a really good hand, but he doesn't have to worry about missing a slam since SOUTH will
+
+not have more than 16 points. So he just bids what he thinks SOUTH can make, 4â™ .}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 3, chOption: S, chBasis: N, basisKind:Declarer, nOption:2, nBasis: 0, nRot: 2, useStandardVul: true"]
+[Student "S"]
+[Auction "E"]
+1C 1S Pass 4S
+Pass Pass Pass
+
+[Event ""]
+{Baker Bidpractice/Set10 24}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "S:J842.T2.Q87.K975 T65.84.KJT3.AJ84 A97.A976.A42.Q32 KQ3.KQJ53.965.T6"]
+[Scoring ""]
+[Declarer "W"]
+[Contract "1NT"]
+[Result ""]
+{EAST has 12 points and a good enough suit to overcall 1
+
+â™¥
+
+.
+
+WEST has 9 points with a good
+
+â™¦
+
+stopper. She bids 1NT.
+
+EAST has nothing more to say, and lets WEST play 1NT.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 4, chOption: W, chBasis: N, basisKind:Declarer, nOption:3, nBasis: 0, nRot: 3, useStandardVul: true"]
+[Student "S"]
+[Auction "N"]
+1D 1H Pass 1NT
+Pass Pass Pass

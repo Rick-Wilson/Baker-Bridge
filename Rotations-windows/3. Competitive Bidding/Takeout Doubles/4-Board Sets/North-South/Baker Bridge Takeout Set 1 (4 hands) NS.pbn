@@ -1,0 +1,161 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=ISO-8859-1
+%Creator: BridgeComposer Version 5.111
+%Created: Fri Apr 11 20:58:43 2025 -0700
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleEvent ""
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
+%sourcefilename BakerBridgeFull.csv
+[Event ""]
+{Baker Takeout 1}
+[Site ""]
+[Date ""]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "W:Q83.76.KQJT6.KJ4 K5.JT53.9742.873 JT72.Q42.A53.A92 A964.AK98.8.QT65"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "1H"]
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+You have a perfect hand for a Takeout Double. Singleton in their suit, 4-card support for the other three suits and 13 HCP. You Double. Partner responds 1\H. What do you say next? 
+
+Yes, you like the \Hs. But remember, you forced partner to bid and his response showed 8 or fewer points. You are not strong enough to consider a game so you pass.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 1, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "E"]
+1D X Pass 1H
+Pass Pass Pass
+
+[Event ""]
+{Baker Takeout 2}
+[Site ""]
+[Date ""]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "E:J752.752.J4.QT97 A983.QJ.7652.843 6.T643.AKQT93.K2 KQT4.AK98.8.AJ65"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "4S"]
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+Naturally you make a Takeout Double. Partner responds 1\S. What is your next call? 
+
+With 17 HCP and the singleton you are not strong enough to insist on game. On the other hand if partner is at the top of his 0-8 point range then game is likely. A raise to 2\S invites partner to bid game with a maximum. Partner accepts the invitation.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 2, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "W"]
+1D X Pass 1S
+Pass 2S Pass 4S
+Pass Pass Pass
+
+[Event ""]
+{Baker Takeout 3}
+[Site ""]
+[Date ""]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "W:J85.97.K9532.T85 K62.T853.864.964 T973.A42.A.KQJ72 AQ4.KQJ6.QJT7.A3"]
+[Scoring ""]
+[Declarer "N"]
+[Contract "3H"]
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+With 19 HCP and a doubleton you certainly double. What do you bid after partner replies 1\H? 
+
+You need to make a strong invitation since partner needs very little for your side to have a game. So you bid 3\H. Partner has almost nothing so he passes. Good thing.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 3, chOption: N, chBasis: N, basisKind:Student, nOption:0, nBasis: 0, nRot: 0, useStandardVul: false"]
+[Student "S"]
+[Auction "E"]
+1C X Pass 1H
+Pass 3H Pass Pass
+Pass
+
+[Event ""]
+{Baker Takeout 4}
+[Site ""]
+[Date ""]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "E:T75.432.K964.984 KJ83.Q75.73.K652 92.AKJT96.AQ5.QJ AQ64.8.JT82.AT73"]
+[Scoring ""]
+[Declarer "S"]
+[Contract "2S"]
+[Result ""]
+{The bidding has been as shown. It is your bid. What do you say? 
+
+This is certainly not a great hand, but at least the shape is good. You should strive to get into the bidding whenever possible, and with this hand the only way in is to double. Partner jumps to 2\S and it is your bid again. 
+
+Partner shows 9-11 points and a \S suit. However, he didn't force you to game, and you barely scraped up the double to begin with. So you pass.}
+[BCFlags "1f"]
+[OriginalRotationBasis "N"]
+[RotationNote "Board 4, chOption: S, chBasis: N, basisKind:Student, nOption:2, nBasis: 0, nRot: 2, useStandardVul: false"]
+[Student "S"]
+[Auction "W"]
+1H X Pass 2S
+Pass Pass Pass
