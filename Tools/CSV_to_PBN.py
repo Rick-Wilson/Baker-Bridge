@@ -103,9 +103,15 @@ def inject_final_show(analysis):
 # Function to process analysis field
 def process_analysis(analysis, student=None, declarer=None):
     if analysis:
-        analysis = analysis.replace('!S', '\\S').replace('!H', '\\H')\
-                           .replace('!D', '\\D').replace('!C', '\\C')\
-                           .replace('\\n', '\\n\\n')    # double the line breaks - somehow BridgeComposer doesn't handle single breaks well
+        # Convert suit symbols only when followed by card rank, space, punctuation, or end of string
+        # This prevents "that!South" from becoming "that\South" (spade symbol)
+        # Pattern: !S followed by card rank (AKQJT98765432), space, punctuation, or end
+        suit_pattern = r'!([SHDC])(?=[AKQJT98765432\s\.,;:!\?\)\]\-]|$)'
+        analysis = re.sub(suit_pattern, r'\\\1', analysis)
+        # Fix lost spacing: add space after ! when followed by capital letter (start of sentence)
+        # This handles cases like "that!South" -> "that! South"
+        analysis = re.sub(r'!([A-Z])', r'! \1', analysis)
+        analysis = analysis.replace('\\n', '\\n\\n')    # double the line breaks - somehow BridgeComposer doesn't handle single breaks well
         analysis = "\n".join(analysis.split("\\n"))  # Ensure proper newline conversion
 
         # Inject visibility directives
