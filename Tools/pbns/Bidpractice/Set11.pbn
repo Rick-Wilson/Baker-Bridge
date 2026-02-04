@@ -1,46 +1,6 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=UTF-8
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%Creator: CSVtoPBN Version 1.00
-%Created: 2026-01-23 13:57:51
-%sourcefilename BakerBridgeFull.csv
+%Creator: CSVtoPBN Version 1.01
+%Created: 2026-02-04 15:17:05
+%sourcefilename BakerBridge.csv
 %HRTitleEvent Bidpractice/Set11
 [Board "1"]
 [Event ""]
@@ -50,11 +10,12 @@
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T8543.QT942.J.T7 AKJ7.87.976.KQ54 .J6.AKQT532.J983 Q962.AK53.84.A62"]
+[Deal "W: AKJ7.87.976.KQ54  Q962.AK53.84.A62"]
 [Auction "N"]
 1C 1D X pass 1S pass 4S pass pass pass
 [Result ""]
-{SOUTH has both Majors and planned on bidding 1
+{[show NS]
+SOUTH has both Majors and planned on bidding 1
 
 ♥
 
@@ -82,11 +43,12 @@ SOUTH has 13 points and the ♠ fit so he bids game.}
 [Contract "3NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:53.K52.Q85432.A3 AK62.AT93.97.Q82 JT84.Q64.JT.9765 Q97.J87.AK6.KJT4"]
+[Deal "W: AK62.AT93.97.Q82  Q97.J87.AK6.KJT4"]
 [Auction "S"]
 1C 1D X pass 1NT pass 3NT pass pass pass
 [Result ""]
-{NORTH has 13 points and four cards in both
+{[show NS]
+NORTH has 13 points and four cards in both
 
 ♥
 
@@ -118,11 +80,12 @@ NORTH happily bids 3NT.}
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T3.QT96432.Q3.J7 AKJ7.87.976.KQ54 854.J.AKJT52.T98 Q962.AK5.84.A632"]
+[Deal "W: AKJ7.87.976.KQ54  Q962.AK5.84.A632"]
 [Auction "N"]
 1C 1D 1S pass 2S pass 4S pass pass pass
 [Result ""]
-{SOUTH cannot respond with a Negative Double on this hand because he has only three
+{[show NS]
+SOUTH cannot respond with a Negative Double on this hand because he has only three
 
 ♥
 
@@ -144,11 +107,12 @@ has enough strength to bid game.}
 [Contract "3NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:QJ8.KQ7543.QJ.J3 K9.862.AK63.KQ75 764.9.T542.T9642 AT532.AJT.987.A8"]
+[Deal "W: K9.862.AK63.KQ75  AT532.AJT.987.A8"]
 [Auction "S"]
 1S 2H X pass 2NT pass 3NT pass pass pass
 [Result ""]
-{NORTH has 15 points, and when West overcalls 2
+{[show NS]
+NORTH has 15 points, and when West overcalls 2
 
 ♥
 
@@ -176,11 +140,12 @@ NORTH is more than happy to raise to 3NT.}
 [Contract "4H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:72.85.QJT9532.97 9.KQJ7.AK6.AQT54 AKQJ543.T3.7.J83 T86.A9642.84.K62"]
+[Deal "W: 9.KQJ7.AK6.AQT54  T86.A9642.84.K62"]
 [Auction "N"]
 1C 1S X pass 4H pass pass pass
 [Result ""]
-{SOUTH would have responded 1
+{[show NS]
+SOUTH would have responded 1
 
 ♥
 
@@ -214,11 +179,12 @@ and NORTH would have jumped to game.}
 [Contract "2C"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:Q5.AQJT64.J853.6 AK62.93.972.Q982 J843.52.QT4.A753 T97.K87.AK6.KJT4"]
+[Deal "W: AK62.93.972.Q982  T97.K87.AK6.KJT4"]
 [Auction "S"]
 1C 1H X pass 1NT pass 2C pass pass pass
 [Result ""]
-{NORTH has four ♠s, so instead of bidding them she makes a Negative Double.
+{[show NS]
+NORTH has four ♠s, so instead of bidding them she makes a Negative Double.
 
 SOUTH knows there is no 8-card fit in ♠s, but he does have
 
@@ -240,11 +206,12 @@ NORTH has 9 points and with four ♣s she goes back to that suit and SOUTH passe
 [Contract "2S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:8.KQT654.QT5.A76 AK632.93.972.Q92 JT54.A2.J843.853 Q97.J87.AK6.KJT4"]
+[Deal "W: AK632.93.972.Q92  Q97.J87.AK6.KJT4"]
 [Auction "S"]
 1C 1H 1S pass 2S pass pass pass
 [Result ""]
-{Compare this hand with Deal 6.
+{[show NS]
+Compare this hand with Deal 6.
 
 NORTH has five ♠s, this time so she bids 1♠.
 
@@ -266,11 +233,12 @@ NORTH has 10 points so she passes.}
 [Contract "4H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T3.52.AT842.Q853 A52.AQT93.97.AJ2 KQJ864.J6.J53.76 97.K874.KQ6.KT94"]
+[Deal "W: A52.AQT93.97.AJ2  97.K874.KQ6.KT94"]
 [Auction "W"]
 pass 1H 1S 2S pass 4H pass pass pass
 [Result ""]
-{SOUTH has 11/12 points, a Limit Raise in
+{[show NS]
+SOUTH has 11/12 points, a Limit Raise in
 
 ♥
 
@@ -298,11 +266,12 @@ If SOUTH had significantly more than 11 he could bid on, but in this case he sho
 [Contract "3H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:QT3.J52.AKJ43.87 852.AQT93.97.AQ2 AKJ64.6.Q52.J653 97.K874.T86.KT94"]
+[Deal "W: 852.AQT93.97.AQ2  97.K874.T86.KT94"]
 [Auction "W"]
 pass 1H 1S 3H pass pass pass
 [Result ""]
-{Compare this with Deal 8.
+{[show NS]
+Compare this with Deal 8.
 
 SOUTH has 7 points, barely enough for a 2
 
@@ -334,11 +303,12 @@ NORTH does know it and passes 3
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:JT5.T8752.JT8.Q5 Q862.AK93.97.A82 4.QJ.AKQ542.9763 AK973.64.63.KJT4"]
+[Deal "W: Q862.AK93.97.A82  AK973.64.63.KJT4"]
 [Auction "E"]
 1D 1S pass 2D pass 3S pass 4S pass pass pass
 [Result ""]
-{NORTH has the strength for a raise to game in ♠s, but this could be dangerous since SOUTH
+{[show NS]
+NORTH has the strength for a raise to game in ♠s, but this could be dangerous since SOUTH
 
 has overcalled rather than opened. Instead, NORTH shows her strength with a Support Cue-bid.
 
@@ -356,11 +326,12 @@ With a weak overcall SOUTH would have just returned to 2♠ which NORTH would pa
 [Contract "2S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:JT5.T72.T654.JT5 Q862.AK93.97.A82 4.QJ8.AKJ82.KQ94 AK973.654.Q3.763"]
+[Deal "W: Q862.AK93.97.A82  AK973.654.Q3.763"]
 [Auction "E"]
 1D 1S pass 2D pass 2S pass pass pass
 [Result ""]
-{Compare this to Deal 10.
+{[show NS]
+Compare this to Deal 10.
 
 NORTH has the strength for a raise to game in ♠s, but this could be dangerous since SOUTH
 
@@ -378,11 +349,12 @@ SOUTH has very minimal overcall so he just bids 2♠ which NORTH passes.}
 [Contract "6H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:AKJT93.42.96.T73 Q75.QJ93.AT82.Q8 642.65.753.J9542 8.AKT87.KQJ4.AK6"]
+[Deal "W: Q75.QJ93.AT82.Q8  8.AKT87.KQJ4.AK6"]
 [Auction "S"]
 1H 1S 2S pass 4NT pass 5D pass 6H pass pass pass
 [Result ""]
-{SOUTH has a maximum 1
+{[show NS]
+SOUTH has a maximum 1
 
 ♥
 
@@ -410,11 +382,12 @@ SOUTH bids the slam.}
 [Contract "1NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T8.984.KT532.K65 KQJ7.T7.A976.AT4 A9543.K652.Q.Q73 62.AQJ3.J84.J982"]
+[Deal "W: KQJ7.T7.A976.AT4  62.AQJ3.J84.J982"]
 [Auction "N"]
 1D 1S X pass 1NT pass pass pass
 [Result ""]
-{SOUTH has  9 points a a
+{[show NS]
+SOUTH has  9 points a a
 
 ♥
 
@@ -446,11 +419,12 @@ SOUTH should pass.}
 [Contract "2S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:JT.AK642.Q52.QJ7 AK642.93.T97.982 853.QT5.J43.A653 Q97.J87.AK86.KT4"]
+[Deal "W: AK642.93.T97.982  Q97.J87.AK86.KT4"]
 [Auction "S"]
 1D 1H 1S pass 2S pass pass pass
 [Result ""]
-{With five ♠s NORTH bids the suit rather than making a negative double.
+{[show NS]
+With five ♠s NORTH bids the suit rather than making a negative double.
 
 SOUTH knows this shows a 5-card suit so he can support with only three ♠s.
 
@@ -466,11 +440,12 @@ NORTH doesn't have anything extra so she passes 2♠.}
 [Contract "4H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T854.J4.T9532.97 AJ7.K987.KQ76.54 Q3.T62.AJ.KQJT83 K962.AQ53.84.A62"]
+[Deal "W: AJ7.K987.KQ76.54  K962.AQ53.84.A62"]
 [Auction "N"]
 1D 2C X pass 2H pass 4H pass pass pass
 [Result ""]
-{SOUTH has both Majors and planned on bidding 1
+{[show NS]
+SOUTH has both Majors and planned on bidding 1
 
 ♥
 
@@ -508,11 +483,12 @@ SOUTH has 13 points so he bids 4
 [Contract "2S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:64.KQJT4.K43.A97 AK82.963.JT.8653 T93.A52.9752.Q42 QJ75.87.AQ86.KJT"]
+[Deal "W: AK82.963.JT.8653  QJ75.87.AQ86.KJT"]
 [Auction "S"]
 1D 1H X 2H 2S pass pass pass
 [Result ""]
-{NORTH has 8 points and she makes a Negative Double of the
+{[show NS]
+NORTH has 8 points and she makes a Negative Double of the
 
 ♥
 
@@ -534,11 +510,12 @@ NORTH is happy to pass.}
 [Contract "4H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:6.932.JT764.AT87 T2.KQJ76.AQ5.963 AKQ9743.5.832.54 J85.AT84.K9.KQJ2"]
+[Deal "W: T2.KQJ76.AQ5.963  J85.AT84.K9.KQJ2"]
 [Auction "N"]
 1H 1S 2S pass 3H pass 4H pass pass pass
 [Result ""]
-{SOUTH's Support Cue-bid shows at least Limit Raise strength and
+{[show NS]
+SOUTH's Support Cue-bid shows at least Limit Raise strength and
 
 ♥
 
@@ -566,11 +543,12 @@ SOUTH actually has better than the 12 points he promised, so he now bids 4
 [Contract "3C"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:AQJT53.T5.J65.93 862.63.KQ97.AQ82 K4.Q942.AT82.765 97.AKJ87.43.KJT4"]
+[Deal "W: 862.63.KQ97.AQ82  97.AKJ87.43.KJT4"]
 [Auction "S"]
 1H 2S X pass 3C pass pass pass
 [Result ""]
-{NORTH has a 11 points with both Minors and she doesn't want to sell out to WEST's 2♠.
+{[show NS]
+NORTH has a 11 points with both Minors and she doesn't want to sell out to WEST's 2♠.
 
 So she makes a Negative Double, effectively bidding both minors at once.
 
@@ -586,11 +564,12 @@ SOUTH has four ♣s so he bids the suit at the minimum level and NORTH passes.}
 [Contract "6S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:864.T32.T86.T973 AQJ752.AKQ7.K2.8 .J984.QJ9753.AK4 KT93.65.A4.QJ652"]
+[Deal "W: AQJ752.AKQ7.K2.8  KT93.65.A4.QJ652"]
 [Auction "N"]
 1S 2D 3D pass 4NT pass 5D pass 6S pass pass pass
 [Result ""]
-{SOUTH makes a Support Cue-bid of 2
+{[show NS]
+SOUTH makes a Support Cue-bid of 2
 
 ♦
 
@@ -610,11 +589,12 @@ SOUTH says he has one so NORTH bids the slam.}
 [Contract "4H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:AQ7642.5.8764.T3 8.AJ93.KQ52.QJ82 KJT.T642.AT9.976 953.KQ87.J3.AK54"]
+[Deal "W: 8.AJ93.KQ52.QJ82  953.KQ87.J3.AK54"]
 [Auction "S"]
 1C 2S X pass 3H pass 4H pass pass pass
 [Result ""]
-{NORTH can't bid 3
+{[show NS]
+NORTH can't bid 3
 
 ♥
 
@@ -644,11 +624,12 @@ NORTH has 13 points so she bids 4
 [Contract "3S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:942.T53.JT32.875 QJ83.87.A76.KQJ4 A7.AKQ964.Q98.T9 KT65.J2.K54.A632"]
+[Deal "W: QJ83.87.A76.KQJ4  KT65.J2.K54.A632"]
 [Auction "N"]
 1C 1H X pass 1S pass 3S pass pass pass
 [Result ""]
-{SOUTH makes a Negative Double rather than responding 1♠ to indicate he has just a 4-card suit.
+{[show NS]
+SOUTH makes a Negative Double rather than responding 1♠ to indicate he has just a 4-card suit.
 
 NORTH has four ♠s so she bids 1♠, showing a minimum opener.
 
@@ -664,11 +645,12 @@ With 11 points SOUTH makes an invitational bid of 3♠ but NORTH declines the in
 [Contract "4H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:KJT43.T4.KJT5.53 A5.KQJ82.742.Q82 Q86.975.AQ93.T97 972.A63.86.AKJ64"]
+[Deal "W: A5.KQJ82.742.Q82  972.A63.86.AKJ64"]
 [Auction "S"]
 1C 1S 2H pass 3H pass 4H pass pass pass
 [Result ""]
-{NORTH has 13 points and a 5-card
+{[show NS]
+NORTH has 13 points and a 5-card
 
 ♥
 
@@ -702,11 +684,12 @@ game.}
 [Contract "4H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T762.8742.K93.52 K9.AQJ96.T54.A83 A843..Q87.KQJT97 QJ5.KT53.AJ62.64"]
+[Deal "W: K9.AQJ96.T54.A83  QJ5.KT53.AJ62.64"]
 [Auction "N"]
 1H 2C 3C pass 4H pass pass pass
 [Result ""]
-{SOUTH has a Limit Raise hand but after EAST's overcall a 3
+{[show NS]
+SOUTH has a Limit Raise hand but after EAST's overcall a 3
 
 ♥
 
@@ -734,11 +717,12 @@ SOUTH doesn't have a real block-buster.}
 [Contract "3NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:K98742.95.KQ3.Q8 AQJ3.J4.9642.T96 6.T872.J75.K5432 T5.AKQ63.AT8.AJ7"]
+[Deal "W: AQJ3.J4.9642.T96  T5.AKQ63.AT8.AJ7"]
 [Auction "S"]
 1H 1S 1NT pass 3NT pass pass pass
 [Result ""]
-{NORTH has 9 points and a stopper in ♠s so she responds 1NT.
+{[show NS]
+NORTH has 9 points and a stopper in ♠s so she responds 1NT.
 
 SOUTH has 19 points with a balanced hand so he bids 3NT.}
 [BCFlags "1f"]

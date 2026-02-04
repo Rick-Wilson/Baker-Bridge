@@ -1,46 +1,6 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=UTF-8
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%Creator: CSVtoPBN Version 1.00
-%Created: 2026-01-23 13:57:51
-%sourcefilename BakerBridgeFull.csv
+%Creator: CSVtoPBN Version 1.01
+%Created: 2026-02-04 15:17:05
+%sourcefilename BakerBridge.csv
 %HRTitleEvent Bidpractice/Set5
 [Board "1"]
 [Event ""]
@@ -50,11 +10,12 @@
 [Contract "2S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T6.QJ64.A74.KT97 AK9873.82.986.J4 54.AT3.JT53.A862 QJ2.K975.KQ2.Q53"]
+[Deal "W: AK9873.82.986.J4  QJ2.K975.KQ2.Q53"]
 [Auction "N"]
 2S pass pass pass
 [Result ""]
-{NORTH has a perfect hand for an opening bid of 2♠.
+{[show NS]
+NORTH has a perfect hand for an opening bid of 2♠.
 
 SOUTH will be tempted to respond with his opening hand and good trump support, but he should
 
@@ -70,11 +31,12 @@ resist the temptation. To raise a Weak Two-bid to game you should have quick win
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T4.JT9.QJT.KQ972 AK9873.82.986.J4 65.Q643.K543.T86 QJ2.AK75.A72.A53"]
+[Deal "W: AK9873.82.986.J4  QJ2.AK75.A72.A53"]
 [Auction "N"]
 2S pass 4S pass pass pass
 [Result ""]
-{NORTH has the same hand as in Deal 1 and again opens 2♠.
+{[show NS]
+NORTH has the same hand as in Deal 1 and again opens 2♠.
 
 This is the type of hand SOUTH needs to bid game. Notice that even with all those winners the
 
@@ -90,11 +52,12 @@ pair is nowhere close to having a slam. The will probably make just ten tricks.}
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:4.AQJT93.QT5.KT8 AK9873.82.986.J4 T5.K64.KJ43.A962 QJ62.75.A72.Q753"]
+[Deal "W: AK9873.82.986.J4  QJ62.75.A72.Q753"]
 [Auction "N"]
 2S pass 4S pass pass pass
 [Result ""]
-{Once more, NORTH has the same hand as Deals 1 and 2.
+{[show NS]
+Once more, NORTH has the same hand as Deals 1 and 2.
 
 This time SOUTH has a very poor hand without any chance of making game. However, he should bid
 
@@ -120,11 +83,12 @@ won't go down more than a couple of tricks.}
 [Contract "3D"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:JT92.Q43.A4.KT64 KQ76.A62.53.AQ83 A85.KJT97.T7.J52 43.85.KQJ9862.97"]
+[Deal "W: KQ76.A62.53.AQ83  43.85.KQJ9862.97"]
 [Auction "S"]
 3D pass pass pass
 [Result ""]
-{SOUTH has a pretty normal preemptive 3
+{[show NS]
+SOUTH has a pretty normal preemptive 3
 
 ♦
 
@@ -152,11 +116,12 @@ best call - PASS.}
 [Contract "4H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:K95.T65.J9832.AT 87.KQJ9732.5.864 Q2.84.QT7.KQJ532 AJT643.A.AK64.97"]
+[Deal "W: 87.KQJ9732.5.864  AJT643.A.AK64.97"]
 [Auction "N"]
 3H pass 4H pass pass pass
 [Result ""]
-{Here SOUTH has the kind of hand you need to raise a preempt to game.
+{[show NS]
+Here SOUTH has the kind of hand you need to raise a preempt to game.
 
 SOUTH assumes that NORTH has a hand with six winners in it. He can provide four more, so
 
@@ -176,11 +141,12 @@ that is just enough for game. He bids 4
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:2.8764.KQJT8.A94 K4.KJ5.942.KQJ72 T83.A93.A653.T85 AQJ9765.QT2.7.63"]
+[Deal "W: K4.KJ5.942.KQJ72  AQJ9765.QT2.7.63"]
 [Auction "S"]
 1S pass 2C pass 2S pass 4S pass pass pass
 [Result ""]
-{SOUTH has a 7-card ♠ suit but he is too strong to open with a preemptive bid.
+{[show NS]
+SOUTH has a 7-card ♠ suit but he is too strong to open with a preemptive bid.
 
 So he opens 1♠ instead.
 
@@ -198,11 +164,12 @@ NORTH thinks there should be game and bids 4♠}
 [Contract "4H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T95.T85.J843.A73 764.AK9743.72.Q5 AJ832.62.T9.T986 KQ.QJ.AKQ65.KJ42"]
+[Deal "W: 764.AK9743.72.Q5  KQ.QJ.AKQ65.KJ42"]
 [Auction "N"]
 2H pass 4H pass pass pass
 [Result ""]
-{NORTH is too weak to open 1
+{[show NS]
+NORTH is too weak to open 1
 
 ♥
 
@@ -242,11 +209,12 @@ too strong for a Weak-two opening. So SOUTH just bids 4
 [Contract "2H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:K92.A985.JT76.96 AQ5.4.KQ94.KJ742 T764.T3.A32.AQT3 J83.KQJ762.85.85"]
+[Deal "W: AQ5.4.KQ94.KJ742  J83.KQJ762.85.85"]
 [Auction "S"]
 2H pass pass pass
 [Result ""]
-{NORTH really hates that 2
+{[show NS]
+NORTH really hates that 2
 
 ♥
 
@@ -268,11 +236,12 @@ If you think 3NT has a chance you are delusional.}
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:3.93.QT862.AQ872 K84.AQT642.4.965 972.KJ85.KJ73.T4 AQJT65.7.A95.KJ3"]
+[Deal "W: K84.AQT642.4.965  AQJT65.7.A95.KJ3"]
 [Auction "N"]
 2H pass 2S pass 3S pass 4S pass pass pass
 [Result ""]
-{SOUTH expects to be better off in ♠s than NORTH would be in 2
+{[show NS]
+SOUTH expects to be better off in ♠s than NORTH would be in 2
 
 ♥
 
@@ -292,11 +261,12 @@ a hand this good. SOUTH then bids the ♠ game.}
 [Contract "6H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:J942.92.T87.KJ75 AK75.K63.KQJ54.A QT83.T.A9.QT9632 6.AQJ8754.632.84"]
+[Deal "W: AK75.K63.KQJ54.A  6.AQJ8754.632.84"]
 [Auction "S"]
 3H pass 4NT pass 5D pass 6H pass pass pass
 [Result ""]
-{SOUTH has a pretty normal 3
+{[show NS]
+SOUTH has a pretty normal 3
 
 ♥
 
@@ -320,11 +290,12 @@ with confidence.}
 [Contract "3NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:K75.T952.K864.63 J3.76.97.KQ98752 98642.A843.A52.4 AQT.KQJ.QJT3.AJT"]
+[Deal "W: J3.76.97.KQ98752  AQT.KQJ.QJT3.AJT"]
 [Auction "N"]
 3C pass 3NT pass pass pass
 [Result ""]
-{NORTH doesn't have much of a 3♣ opening bid.
+{[show NS]
+NORTH doesn't have much of a 3♣ opening bid.
 
 But SOUTH has just the type of hand you need to bid 3NT after partner's preempt. The other three
 
@@ -342,11 +313,12 @@ but 5♣ would go down 1.}
 [Contract "4H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T7.A75.T942.9653 AQ63.Q82.AKQ.KQJ K9852.4.J63.AT87 J4.KJT963.875.42"]
+[Deal "W: AQ63.Q82.AKQ.KQJ  J4.KJT963.875.42"]
 [Auction "S"]
 2H pass 2NT pass 3H pass 4H pass pass pass
 [Result ""]
-{When SOUTH opens with a Weak 2
+{[show NS]
+When SOUTH opens with a Weak 2
 
 ♥
 
@@ -372,11 +344,12 @@ s to show bare minimum so NORTH settles for game.}
 [Contract "3S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:4.J9.KT85.AT8753 KQ9862.864.94.K6 A75.QT72.J6.QJ92 JT3.AK53.AQ732.4"]
+[Deal "W: KQ9862.864.94.K6  JT3.AK53.AQ732.4"]
 [Auction "N"]
 2S pass 2NT pass 3C pass 3S pass pass pass
 [Result ""]
-{SOUTH has one of those hands which might or might not be helpful to NORTH. He needs
+{[show NS]
+SOUTH has one of those hands which might or might not be helpful to NORTH. He needs
 
 more information about NORTH's hand, so he bids 2NT.
 
@@ -400,11 +373,12 @@ he signs off in 3♠}
 [Contract "3NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:QJ.AJT86.653.T83 A64.Q42.AJ4.AK65 KT9852.97.9.QJ72 73.K53.KQT872.94"]
+[Deal "W: A64.Q42.AJ4.AK65  73.K53.KQT872.94"]
 [Auction "S"]
 2D pass 2NT pass 3H pass 3NT pass pass pass
 [Result ""]
-{With four fast winners NORTH should think about game. The best approach is usually to
+{[show NS]
+With four fast winners NORTH should think about game. The best approach is usually to
 
 use 2NT to find out more about SOUTH's hand.
 
@@ -436,11 +410,12 @@ she bids 3NT.}
 [Contract "3NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T643.QJ53.T7.KJ4 975.76.AKQ962.83 AJ2.T942.85.Q972 KQ8.AK8.J43.AT65"]
+[Deal "W: 975.76.AKQ962.83  KQ8.AK8.J43.AT65"]
 [Auction "N"]
 2D pass 2NT pass 3NT pass pass pass
 [Result ""]
-{SOUTH is strong enough to be thinking about game, depending on how good NORTH's hand is.
+{[show NS]
+SOUTH is strong enough to be thinking about game, depending on how good NORTH's hand is.
 
 So he bids 2NT to get more information.
 
@@ -458,11 +433,12 @@ Game (and bidding) doesn't get much easier.}
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:A6.KJ6.AJ962.763 T92.A8743.3.AK92 4.QT95.KQT8.QT84 KQJ8753.2.754.J5"]
+[Deal "W: T92.A8743.3.AK92  KQJ8753.2.754.J5"]
 [Auction "S"]
 3S pass 4S pass pass pass
 [Result ""]
-{NORTH assumes her partner can win six tricks. So she will need to contribute four more to
+{[show NS]
+NORTH assumes her partner can win six tricks. So she will need to contribute four more to
 
 make game.
 
@@ -482,11 +458,12 @@ ruff also.}
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:JT3.T96.KQ52.T93 AK8762.83.83.K65 54.AKQ42.JT74.87 Q9.J75.A96.AQJ42"]
+[Deal "W: AK8762.83.83.K65  Q9.J75.A96.AQJ42"]
 [Auction "N"]
 1S pass 2C pass 2S pass 4S pass pass pass
 [Result ""]
-{NORTH's hand has the look of a Weak Two-bid, but it is one point too strong. So she opens 1♠.
+{[show NS]
+NORTH's hand has the look of a Weak Two-bid, but it is one point too strong. So she opens 1♠.
 
 SOUTH naturally bids 2♣ and NORTH rebids the ♠ suit.
 
@@ -502,11 +479,12 @@ SOUTH always knew there would be a game bid, so with an 8-card fit he bids 4♠}
 [Contract "3H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:AT.942.QT63.AT98 QJ83.T6.KJ4.KQJ4 K9742.K.A82.7632 65.AQJ8753.975.5"]
+[Deal "W: QJ83.T6.KJ4.KQJ4  65.AQJ8753.975.5"]
 [Auction "S"]
 3H pass pass pass
 [Result ""]
-{NORTH may have an opening hand, but it is just the wrong kind of hand to respond to
+{[show NS]
+NORTH may have an opening hand, but it is just the wrong kind of hand to respond to
 
 partner's preemptive bid. She doesn't have the immediate winners that SOUTH is likely
 
@@ -524,11 +502,12 @@ In other words, NORTH has the perfect hand with which to pass.}
 [Contract "6NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:A9.QT95.852.JT96 54.863.AKQ974.85 T87632.J42.T.Q73 KQJ.AK7.J63.AK42"]
+[Deal "W: 54.863.AKQ974.85  KQJ.AK7.J63.AK42"]
 [Auction "N"]
 2D pass 2NT pass 3NT pass 6NT pass pass pass
 [Result ""]
-{The 2NT response to a Weak Two opening is a wonderful tool. You can learn a lot about
+{[show NS]
+The 2NT response to a Weak Two opening is a wonderful tool. You can learn a lot about
 
 partner's hand and you are absolutely certain that it will not be passed out.
 
@@ -556,11 +535,12 @@ A K Q x x x SOUTH has an easy 6NT bid.}
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:4.T976.AQT7.KJT2 KJ6.AQJ42.964.A5 T83.85.KJ3.Q9864 AQ9752.K3.852.73"]
+[Deal "W: KJ6.AQJ42.964.A5  AQ9752.K3.852.73"]
 [Auction "S"]
 2S pass 2NT pass 3H pass 4S pass pass pass
 [Result ""]
-{NORTH is unsure whether to bid game or not. So she temporizes with 2NT.
+{[show NS]
+NORTH is unsure whether to bid game or not. So she temporizes with 2NT.
 
 SOUTH shows an above average hand plus a high card in
 
@@ -580,11 +560,12 @@ NORTH is no longer unsure, so she bids 4♠.}
 [Contract "3S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T.T9876.AKJT5.Q6 AQ9864.53.873.72 752.K.Q2.KJT9843 KJ3.AQJ42.964.A5"]
+[Deal "W: AQ9864.53.873.72  KJ3.AQJ42.964.A5"]
 [Auction "N"]
 2S pass 2NT pass 3S pass pass pass
 [Result ""]
-{SOUTH is unsure whether to bid game or not, so he bids 2NT to get more information about
+{[show NS]
+SOUTH is unsure whether to bid game or not, so he bids 2NT to get more information about
 
 NORTH's hand.
 
@@ -602,11 +583,12 @@ SOUTH passes and hopes for the best.}
 [Contract "4H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:KQJ87.93.KJT.T75 A63.AKQJ742.A8.4 T942.T65.Q642.A2 5.8.9753.KQJ9863"]
+[Deal "W: A63.AKQJ742.A8.4  5.8.9753.KQJ9863"]
 [Auction "S"]
 3C pass 4H pass pass pass
 [Result ""]
-{NORTH has no way to tell whether SOUTH can provide one winner or not.
+{[show NS]
+NORTH has no way to tell whether SOUTH can provide one winner or not.
 
 So she takes the bold approach and bids 4
 
@@ -632,11 +614,12 @@ will probably make the game. Otherwise she will likely go down one.}
 [Contract "4H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:9.85.KJT864.QJT3 QJT742.KQ72.52.9 A865.T4.93.AK752 K3.AJ963.AQ7.864"]
+[Deal "W: QJT742.KQ72.52.9  K3.AJ963.AQ7.864"]
 [Auction "N"]
 pass pass 1H pass 3H pass 4H pass pass pass
 [Result ""]
-{Most good players have an extra restriction in their Weak Two-bid guidelines - they won't
+{[show NS]
+Most good players have an extra restriction in their Weak Two-bid guidelines - they won't
 
 open with a Weak Two-bid when they hold an outside 4-card Major, even if the hand qualifies
 
@@ -660,11 +643,12 @@ would be missed.}
 [Contract "3NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:KJ8.K653.96.J986 AQ3.AJT.K754.QT4 T9754.Q98.Q.A532 62.742.AJT832.K7"]
+[Deal "W: AQ3.AJT.K754.QT4  62.742.AJT832.K7"]
 [Auction "S"]
 2D pass 2NT pass 3C pass 3NT pass pass pass
 [Result ""]
-{NORTH responds 2NT, asking for more information.
+{[show NS]
+NORTH responds 2NT, asking for more information.
 
 When SOUTH shows a decent hand with a high ♣ NORTH should bid 3NT.}
 [BCFlags "1f"]

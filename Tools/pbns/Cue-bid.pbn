@@ -1,46 +1,6 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=UTF-8
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%Creator: CSVtoPBN Version 1.00
-%Created: 2026-01-23 13:57:51
-%sourcefilename BakerBridgeFull.csv
+%Creator: CSVtoPBN Version 1.01
+%Created: 2026-02-04 15:17:05
+%sourcefilename BakerBridge.csv
 %HRTitleEvent Cue-bid
 [Board "1"]
 [Event ""]
@@ -50,11 +10,12 @@
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:J5.KJ2.T982.7643 AQ876.73.KQJ7.Q2 42.AQT985.53.AT5 KT93.64.A64.KJ98"]
+[Deal "W: AQ876.73.KQJ7.Q2  KT93.64.A64.KJ98"]
 [Auction "N"]
 1S 2H 3H pass 4S pass pass pass
 [Result ""]
-{The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 3\H]
+{[show NS]
+The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 3\H]
 
 You have a limit raise in \Ss; if East had not overcalled you would have bid 3\S. 
 
@@ -70,11 +31,12 @@ Instead, you cue-bid 3\H, promising at least 11 points and support for \Ss. Part
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:J.K52.J62.KQJT93 KQ63.A873.Q8.842 752.QJT.T9543.76 AT984.964.AK7.A5"]
+[Deal "W: KQ63.A873.Q8.842  AT984.964.AK7.A5"]
 [Auction "S"]
 1S 2C 3C pass 4S pass pass pass
 [Result ""]
-{The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 4\S]
+{[show NS]
+The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 4\S]
 
 Partner has a limit raise or better in \Ss. 
 
@@ -90,11 +52,12 @@ With your 17 revalued points you know that your side has at least enough for gam
 [Contract "3H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:AKJ.JT.T986.T865 742.AK654.AJ3.43 QT963.82.752.AK7 85.Q973.KQ4.QJ92"]
+[Deal "W: 742.AK654.AJ3.43  85.Q973.KQ4.QJ92"]
 [Auction "N"]
 1H 1S 2S pass 3H pass pass pass
 [Result ""]
-{The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 2\S]
+{[show NS]
+The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 2\S]
 
 You have a limit raise in \Hs; if East had not overcalled you would have bid 3\H. 
 
@@ -114,11 +77,12 @@ Pass. Partner indicates a minimum hand and you don't have enough extra to bid mo
 [Contract "3H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:KQJT82.T6.QT83.J A3.Q874.J62.8742 75.92.AK5.QT9653 964.AKJ53.974.AK"]
+[Deal "W: A3.Q874.J62.8742  964.AKJ53.974.AK"]
 [Auction "S"]
 1H 1S 3H pass pass pass
 [Result ""]
-{The bidding has gone as shown. Decide what you would say, then click on BID above. [BID pass]
+{[show NS]
+The bidding has gone as shown. Decide what you would say, then click on BID above. [BID pass]
 
 You have a pretty good hand and if partner has a limit raise or better you should bid 4\H. 
 
@@ -134,11 +98,12 @@ But partner doesn't have a limit raise - if he did he would have cue-bid. So you
 [Contract "3S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:J52.QJ2.9853.K54 AQ876.73.KQJ7.92 4.AKT985.T2.AQJ7 KT93.64.A64.T863"]
+[Deal "W: AQ876.73.KQJ7.92  KT93.64.A64.T863"]
 [Auction "N"]
 1S 2H 3S pass pass pass
 [Result ""]
-{The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 3\S]
+{[show NS]
+The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 3\S]
 
 You would have bid 2\S if East had not overcalled. 
 
@@ -156,11 +121,12 @@ The jump to 3 is based on the Law of Total Tricks - bidding to a trick level equ
 [Contract "3H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:AKT952.832.K.J74 843.KT64.AQ5.Q93 Q7.A.T98632.T862 J6.QJ975.J74.AK5"]
+[Deal "W: 843.KT64.AQ5.Q93  J6.QJ975.J74.AK5"]
 [Auction "S"]
 1H 1S 2S pass 3H pass pass pass
 [Result ""]
-{The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 3\H]
+{[show NS]
+The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 3\H]
 
 Partner has a limit raise or better  in \Hs, 11 points or more. 
 
@@ -176,11 +142,12 @@ You, however, have a bare-bones minimum. So you rebid a minimum 3\H, which partn
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:753.AKQT6.JT2.QJ AKT94.853.653.K9 2.J942.987.AT754 QJ86.7.AKQ4.8632"]
+[Deal "W: AKT94.853.653.K9  QJ86.7.AKQ4.8632"]
 [Auction "W"]
 1H 1S pass 2H pass 3S pass 4S pass pass pass
 [Result ""]
-{The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 2\H]
+{[show NS]
+The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 2\H]
 
 You have 14 points in support of \Ss; however, partner's overcall does not promise more than 9 points or so. 
 
@@ -200,11 +167,12 @@ So you cue-bid 2\H, showing a good hand with support and forcing partner to bid 
 [Contract "6S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:75.AKQT53.JT5.64 JT98.J94.A862.AJ 3.762.973.T98732 AKQ642.8.KQ4.KQ5"]
+[Deal "W: JT98.J94.A862.AJ  AKQ642.8.KQ4.KQ5"]
 [Auction "S"]
 1S 2H 3H pass 4NT pass 5H pass 6S pass pass pass
 [Result ""]
-{The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 4NT]
+{[show NS]
+The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 4NT]
 
 Partner has a limit raise or better  in \Ss, 11 points or more. 
 
@@ -224,11 +192,12 @@ You know you have a loser. Bid 6\S. }
 [Contract "2H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:AT.753.AJ.K97543 QJ74.KQJT2.873.T K9532.6.KQT2.862 86.A984.9654.AQJ"]
+[Deal "W: QJ74.KQJT2.873.T  86.A984.9654.AQJ"]
 [Auction "W"]
 1C 1H 1S 2C pass 2H pass pass pass
 [Result ""]
-{The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 2\C]
+{[show NS]
+The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 2\C]
 
 You have 12 points in support of \Hs; however, partner's overcall does not promise more than 9 points or so. 
 
@@ -248,11 +217,12 @@ Pass. Partner had a minimum overcall so he made a minimum rebid.}
 [Contract "6H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:94.T4.KT9432.T32 A73.AK853.A6.974 J852.2.8.AKQJ865 KQT6.QJ976.QJ75."]
+[Deal "W: A73.AK853.A6.974  KQT6.QJ976.QJ75."]
 [Auction "N"]
 1H 2C 3C pass 4H pass 5C pass 6H pass pass pass
 [Result ""]
-{The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 3\C]
+{[show NS]
+The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 3\C]
 
 You have about 15 points in support of \Hs so you cue-bid 3\C, showing a limit raise or better and forcing partner to bid again. Partner bids 4\H. What do you say? [BID 5\C]
 

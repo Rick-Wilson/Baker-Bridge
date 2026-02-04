@@ -66,9 +66,170 @@ def extract_hands(soup):
         hands["North"] = parse_hand(" ".join(parsed_hands["North"]))
         hands["South"] = parse_hand(" ".join(parsed_hands["South"]))
         
-    # Remove dashes (used in the HTML to indicate voids):        
-    return remove_voids_from_hands(hands)   
-    
+    # Remove dashes (used in the HTML to indicate voids):
+    return remove_voids_from_hands(hands)
+
+def extract_hands_from_table(table):
+    """Extract N/S hands from a single table element."""
+    hands = {"North": None, "South": None}
+
+    td_elements = table.find_all("td")
+
+    # Extract North hand (width:6em/7em/8em style)
+    # Must have ALL 4 suit symbols to be a valid hand (not just ♠ which could be in headers)
+    for td in td_elements:
+        style = td.get("style", "")
+        text = td.get_text()
+        if ("width:6em" in style or "width:7em" in style or "width:8em" in style):
+            # Require all 4 suits to be present to identify as a hand
+            if "♠" in text and "♥" in text and "♦" in text and "♣" in text:
+                hands["North"] = parse_hand(text)
+                break
+
+    # Extract South hand (height:800px)
+    for td in td_elements:
+        text = td.get_text()
+        if "800px" in td.get("height", ""):
+            # Require all 4 suits to be present
+            if "♠" in text and "♥" in text and "♦" in text and "♣" in text:
+                hands["South"] = parse_hand(text)
+                break
+
+    return remove_voids_from_hands(hands)
+
+def parse_hand_to_cards(hand_str):
+    """Convert a hand string like 'S:AK4 H:AT865 D:Q3 C:AJ4' to a set of cards like {'SA', 'SK', 'S4', 'HA', ...}"""
+    if not hand_str:
+        return set()
+
+    cards = set()
+    current_suit = None
+
+    for part in hand_str.split():
+        if ':' in part:
+            suit_letter = part[0]  # S, H, D, or C
+            card_chars = part[2:]  # Everything after the colon
+        else:
+            card_chars = part
+
+        if part.startswith('S:'):
+            current_suit = 'S'
+            card_chars = part[2:]
+        elif part.startswith('H:'):
+            current_suit = 'H'
+            card_chars = part[2:]
+        elif part.startswith('D:'):
+            current_suit = 'D'
+            card_chars = part[2:]
+        elif part.startswith('C:'):
+            current_suit = 'C'
+            card_chars = part[2:]
+
+        if current_suit:
+            for c in card_chars:
+                if c in 'AKQJT98765432':
+                    cards.add(current_suit + c)
+
+    return cards
+
+def extract_hands_by_anchor(soup):
+    """
+    Extract hands at each anchor section and detect which cards were played.
+    Returns a list of dicts with 'anchor', 'played_north', 'played_south' keys.
+    """
+    anchors = soup.find_all("a", attrs={"name": True})
+
+    section_hands = []
+
+    for anchor in anchors:
+        anchor_name = anchor.get("name", "")
+        if not anchor_name or not anchor_name.isdigit():
+            continue
+
+        # Find the next table after this anchor
+        table = anchor.find_next("table")
+        if not table:
+            continue
+
+        hands = extract_hands_from_table(table)
+
+        # Convert hands to card sets
+        north_cards = parse_hand_to_cards(hands.get("North"))
+        south_cards = parse_hand_to_cards(hands.get("South"))
+
+        section_hands.append({
+            "anchor": anchor_name,
+            "north": north_cards,
+            "south": south_cards,
+            "north_raw": hands.get("North"),
+            "south_raw": hands.get("South")
+        })
+
+    # Compare consecutive sections to find played cards
+    played_by_section = []
+
+    for i in range(len(section_hands)):
+        if i == 0:
+            # First section - no cards played yet
+            played_by_section.append({
+                "anchor": section_hands[i]["anchor"],
+                "played_north": set(),
+                "played_south": set()
+            })
+        else:
+            prev = section_hands[i-1]
+            curr = section_hands[i]
+
+            # Only detect played cards if BOTH sections have valid (non-empty) hands
+            # If either section's hand is empty, the table structure changed - not card play
+            played_north = set()
+            played_south = set()
+
+            if prev["north"] and curr["north"]:
+                # Cards that were in previous section but not in current = played cards
+                played_north = prev["north"] - curr["north"]
+
+            if prev["south"] and curr["south"]:
+                played_south = prev["south"] - curr["south"]
+
+            played_by_section.append({
+                "anchor": section_hands[i]["anchor"],
+                "played_north": played_north,
+                "played_south": played_south
+            })
+
+    return played_by_section
+
+def format_played_directive(played_north, played_south):
+    """Format played cards into a [PLAY ...] directive with seat:card format.
+
+    Args:
+        played_north: set of cards played by North (e.g., {'SK', 'S4'})
+        played_south: set of cards played by South (e.g., {'S3', 'DK'})
+
+    Returns:
+        String like '[PLAY N:SK,N:S4,S:S3,S:DK]' or empty string if no cards played
+    """
+    if not played_north and not played_south:
+        return ""
+
+    # Sort cards by suit then rank for consistent output
+    suit_order = {'S': 0, 'H': 1, 'D': 2, 'C': 3}
+    rank_order = {'A': 0, 'K': 1, 'Q': 2, 'J': 3, 'T': 4, '9': 5, '8': 6, '7': 7, '6': 8, '5': 9, '4': 10, '3': 11, '2': 12}
+
+    def sort_key(card):
+        return (suit_order.get(card[0], 9), rank_order.get(card[1], 99))
+
+    # Format as seat:suitCard (e.g., N:SK means North played Spade King)
+    plays = []
+    for card in sorted(played_north or [], key=sort_key):
+        # card is like 'SK' (Spade King) -> format as N:SK
+        plays.append(f"N:{card}")
+    for card in sorted(played_south or [], key=sort_key):
+        plays.append(f"S:{card}")
+
+    return "[PLAY " + ",".join(plays) + "]"
+
 def replace_suits(text,use_colon):
     if not text:
         return text
@@ -184,7 +345,7 @@ def clean_up_analysis(analysis,td_str,last_bid):
         analysis = analysis.replace("lick.", "lick ROTATE.")
     elif not 'href="deal' in td_str:
         analysis = analysis + " [BID " + replace_suits(last_bid,False) + "]"
-        
+
 #     if "partner's minor suit opening you should have" in analysis:
 #         print("*****",analysis,"*****")
 #     if "But even with this type of hand you should" in analysis:
@@ -210,7 +371,7 @@ def extract_progressive_analysis(soup,filepath):
 #       Analysis for this step
 #
 # General approach:
-# 
+#
 #   1. get full auction as a simple list
 #   2. Iterate through tables (Steps)
 #       - find auction-so-far as a simple list.  This auction will end with "BID"
@@ -221,6 +382,9 @@ def extract_progressive_analysis(soup,filepath):
 #       - Save the analysis as a new list element, with [BID] prepended.
 
     analysis_lines = []
+
+    # Extract played cards by section (for declarer play scenarios)
+    played_by_section = extract_hands_by_anchor(soup)
 
     final_auction_table = extract_final_auction_table(soup)
     
@@ -270,9 +434,27 @@ def extract_progressive_analysis(soup,filepath):
             analysis = extract_analysis_text(str(td))
             analysis = clean_up_analysis(analysis,str(td),"")
             analysis_lines.append(analysis)
-            
+
 #         print(analysis)
 #         print()
+
+    # Inject [PLAY] directives into analysis lines based on section
+    # The played_by_section list matches anchors 1, 2, 3... to analysis lines
+    for i, section_info in enumerate(played_by_section):
+        played_n = section_info.get("played_north", set())
+        played_s = section_info.get("played_south", set())
+        if i < len(analysis_lines) and (played_n or played_s):
+            played_directive = format_played_directive(played_n, played_s)
+            # Insert the played directive at the start of this section's analysis
+            analysis_lines[i] = played_directive + "\\n" + analysis_lines[i]
+
+    # Add [RESET] tag to step AFTER one that mentions "complete deal" or "full deal"
+    # This shows original hands when viewing the complete deal
+    for i in range(len(analysis_lines) - 1):
+        line_lower = analysis_lines[i].lower()
+        if "complete deal" in line_lower or "full deal" in line_lower:
+            # Add [RESET] to the next step
+            analysis_lines[i + 1] = "[RESET]\\n" + analysis_lines[i + 1]
 
     return "\\n".join(analysis_lines)
 

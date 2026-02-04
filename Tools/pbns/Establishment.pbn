@@ -1,46 +1,6 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=UTF-8
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%Creator: CSVtoPBN Version 1.00
-%Created: 2026-01-23 13:57:51
-%sourcefilename BakerBridgeFull.csv
+%Creator: CSVtoPBN Version 1.01
+%Created: 2026-02-04 15:17:05
+%sourcefilename BakerBridge.csv
 %HRTitleEvent Establishment
 [Board "1"]
 [Event ""]
@@ -54,7 +14,8 @@
 [Auction "N"]
 1H pass 1NT pass 3NT pass pass pass
 [Result ""]
-{South is to play 3NT. West leads the \SJ.
+{[show NS]
+South is to play 3NT. West leads the \SJ.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -64,13 +25,20 @@ You need 4 more winners, and they will come from the \D suit once you have knock
 
 Click NEXT to see the hands. [NEXT]
 
+[PLAY N:SK,S:S3]
+
 Next start playing \Ds, first \DQ, then \DK. Assume the defenders take their \DA on the second round.
 
 Click NEXT. [NEXT]
 
+[PLAY N:DQ,N:D3,S:DK,S:D4]
+
 Win whatever they now play and come to your hand with the \SQ to enjoy your three established \Ds for 9 tricks total.
 
+[show NESW]
 Click NEXT to see the complete deal. [NEXT]
+
+[RESET]
 
 Just don't foul up on your \S entry.}
 [BCFlags "1f"]
@@ -88,7 +56,8 @@ Just don't foul up on your \S entry.}
 [Auction "S"]
 1S pass 2S pass 4S pass pass pass
 [Result ""]
-{You were counting on North to have a little better hand than that\South is to play 4\S. West leads the \S6, East plays \S4.
+{[show NS]
+You were counting on North to have a little better hand than that\South is to play 4\S. West leads the \S6, East plays \S4.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -98,17 +67,25 @@ You must find a place for one of those losers and that will mean establishing th
 
 Click NEXT. [NEXT]
 
+[PLAY N:S2,S:SA]
+
 Before you pull any trumps you start on the \Ds by playing \DA, \DK and then ruffing a \D with the \SK. West follows to the first two, then discards a \H.
 
 Click NEXT. [NEXT]
+
+[PLAY N:DK,N:D6,N:D3,S:SK,S:DA,S:D5]
 
 Play a small trump to dummy's \ST (East shows out) and ruff another \D with the \SJ.
 
 Click NEXT. [NEXT]
 
+[PLAY N:ST,N:D7,S:SJ,S:S3]
+
 Dummy's last \D is now good. Play a \S to the \SQ, (pulling West's last trump), and discard a \H or \C loser on the \D8.
 
 Clickfor the complete deal. [NEXT]
+
+[RESET]
 
 And once again you had to pay close attention to entries.}
 [BCFlags "1f"]
@@ -126,7 +103,8 @@ And once again you had to pay close attention to entries.}
 [Auction "S"]
 1NT pass 2C pass 2S pass 3NT all pass
 [Result ""]
-{North's \C bid was Stayman, but he didn't match \Ss. South is to play 3NT. West leads the \DJ, East plays \DK.
+{[show NS]
+North's \C bid was Stayman, but he didn't match \Ss. South is to play 3NT. West leads the \DJ, East plays \DK.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -138,9 +116,13 @@ Win the \DA and play a small \C from each hand.
 
 Click NEXT. [NEXT]
 
+[PLAY N:D6,N:C3,S:DA,S:C2]
+
 The defense gets a cheap trick in \Cs but you don't mind because you still have a small \C for an entry to dummy. You win whatever they return and take the rest of your winners, including 4 tricks in \Cs!
 
 Clickfor the complete deal. [NEXT]
+
+[RESET]
 
 }
 [BCFlags "1f"]
@@ -158,15 +140,20 @@ Clickfor the complete deal. [NEXT]
 [Auction "S"]
 1NT pass 3NT pass pass pass
 [Result ""]
-{South is to play 3NT. West leads the \H5, East plays the \H2.
+{[show NS]
+South is to play 3NT. West leads the \H5, East plays the \H2.
 
 Make a Plan, then click NEXT. [NEXT]
+
+[PLAY N:HT,S:H3]
 
 Winners:   \S = 2     \H = 2  \D = 1    \C = 2 Total = 7
 
 You are very lucky. Apparently West led from \H K Q so you won an undeserved \H trick. Now, if \Cs split 2-2 you can make 12 tricks!But hold it a minute. If you play dummy's two top \Cs and they DON'T split 2-2 you will only  win two \C tricks and the contract will fail. Instead you should play a small \C from dummy right now. The defenders will win the trick easily, but you will win their return and you will still have a \C to get to dummy's 6 \C winners!
 
 for the complete Deal. [NEXT]
+
+[RESET]
 
 }
 [BCFlags "1f"]
@@ -184,7 +171,8 @@ for the complete Deal. [NEXT]
 [Auction "S"]
 2NT pass 3NT pass pass pass
 [Result ""]
-{South is to play 3NT. West leads the \S2, East plays the \SJ.
+{[show NS]
+South is to play 3NT. West leads the \S2, East plays the \SJ.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -199,6 +187,8 @@ Next play a small \D from each hand. Win the return (probably a \S) and duck a s
 If the defenders can only take 2 \S tricks now you are home-free since dummy's 3 \Ds are now established.
 
 Clickfor the complete Deal. [NEXT]
+
+[RESET]
 
 But in fact you were pretty sure they were going to do so. Since West's \S2 was probably his fourth-down then he couldn't have a fifth-down.}
 [BCFlags "1f"]
@@ -216,7 +206,8 @@ But in fact you were pretty sure they were going to do so. Since West's \S2 was 
 [Auction "S"]
 1NT pass 2D pass 2H pass 3NT all pass
 [Result ""]
-{North's 3\D bid was a transfer to \Hs. South is to play 3NT. West leads the \S2.
+{[show NS]
+North's 3\D bid was a transfer to \Hs. South is to play 3NT. West leads the \S2.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -227,6 +218,8 @@ Obviously you need to establish 4 \H winners and by driving out the \HA you can 
 To assure the contract you should win the first trick in your hand with the \SK. Then play \HQ, \HJ overtaking with dummy's \HK so you can continue establishing the suit while you still have that \S entry.
 
 Clickfor the complete Deal. [NEXT]
+
+[RESET]
 
 }
 [BCFlags "1f"]
@@ -244,7 +237,8 @@ Clickfor the complete Deal. [NEXT]
 [Auction "N"]
 1C pass 1S pass 2S pass 4NT pass 5H pass 6S pass pass pass
 [Result ""]
-{South is to play 6\S. West leads the \HK.
+{[show NS]
+South is to play 6\S. West leads the \HK.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -253,6 +247,8 @@ Losers:   \S = 0     \H = 1  \D = 1    \C = 0 Total = 2
 One of the two red losers must be discarded on dummy's \C suit. So you pull trumps, taking two rounds, with \SK and \SQ. Then play two top \Cs and ruff a \C. When West shows out on the third \C, enter dummy with a trump and ruff another \C. Dummy's final \C is now established, so enter dummy with another trump and discard one of the red losers on the fifth \C.
 
 Clickfor the full Deal. [NEXT]
+
+[RESET]
 
 }
 [BCFlags "1f"]
@@ -270,7 +266,8 @@ Clickfor the full Deal. [NEXT]
 [Auction "S"]
 1NT pass pass pass
 [Result ""]
-{South is to play 1NT. West leads the \D6, taken by East with the \DJ. East next plays the \DQ on which West plays the \D2. East plays the \D9 which you finally win.
+{[show NS]
+South is to play 1NT. West leads the \D6, taken by East with the \DJ. East next plays the \DQ on which West plays the \D2. East plays the \D9 which you finally win.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -281,6 +278,8 @@ You only need one more winner and you have several possibilities. The \H finesse
 No, you must establish \Ss, the suit where they have 2 winners anyway. So you play a \S which West wins. He takes his 2 \Ds but you are now home free. When you gain the lead again you will get your \S winner established and only lose 2 \Ss and 4 \Ds.
 
 Clickfor the complete Deal. [NEXT]
+
+[RESET]
 
 If you had played 3 rounds of \Cs you would have gone down with the defenders winning 4 \Ds, 1 \C and 2 \Ss.
 
@@ -300,7 +299,8 @@ Only by establishing \Ss can you make the contract.}
 [Auction "S"]
 2NT pass 3NT pass pass pass
 [Result ""]
-{South is to play 3NT. West leads the \S9, taken by East with the \SA. East next plays the \S4.
+{[show NS]
+South is to play 3NT. West leads the \S9, taken by East with the \SA. East next plays the \S4.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -311,6 +311,8 @@ You only need one more winner and if \Ds split 3-3 you can easily establish a tr
 First make sure that you win the second trick with the \SK, keeping dummy's \SQ for a later entry. Then play \CK, and \CQ overtaking with dummy's \CA. Then play the \CT, losing to the \CJ but establishing the \C9 while you still have the \SQ as an entry.
 
 Clickfor the complete deal. [NEXT]
+
+[RESET]
 
 }
 [BCFlags "1f"]
@@ -328,7 +330,8 @@ Clickfor the complete deal. [NEXT]
 [Auction "S"]
 1NT pass 2C pass 2H pass 2NT pass pass pass
 [Result ""]
-{South is to play 2NT. West leads the \CK.
+{[show NS]
+South is to play 2NT. West leads the \CK.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -338,7 +341,10 @@ You need to find another winner and the chances are not good. If either black su
 
 Win the first trick and play a \S to the \SA. Then play another \S. The defense will win and probably take some \C tricks . When they have finished and play a red card, you win it and play a third round of \Ss. If both defenders follow to all three \Ss then dummy's \S8 is now a winner.
 
+[show NESW]
 Click NEXT to see the complete Deal. [NEXT]
+
+[RESET]
 
 Next time they probably won't and you'll go down.}
 [BCFlags "1f"]
@@ -356,7 +362,8 @@ Next time they probably won't and you'll go down.}
 [Auction "S"]
 1H pass 3H pass 4H pass pass pass
 [Result ""]
-{South is to play 4\H. West leads the \CK.
+{[show NS]
+South is to play 4\H. West leads the \CK.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -369,6 +376,8 @@ Win the \CA and immediately play your \SQ. The defense will win this trick and p
 Whichever minor suit the defense plays next you ruff in dummy, then ruff the fourth \S, establishing dummy's \S8 while you still have a trump left in dummy. Dummy is now high.
 
 Clickfor the complete Deal. [NEXT]
+
+[RESET]
 
 But that was your best shot.}
 [BCFlags "1f"]
@@ -386,7 +395,8 @@ But that was your best shot.}
 [Auction "S"]
 2C pass 2H pass 3C pass 3NT pass 4NT pass 5D pass 5NT pass 6H pass 7C pass pass pass
 [Result ""]
-{South is to play 7\C. West leads the \DQ.
+{[show NS]
+South is to play 7\C. West leads the \DQ.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -399,6 +409,8 @@ The problem is that the \Hs are much more likely to split 4-2, in which case you
 That extra entry can only be the \CT so you must delay pulling trumps until after you ruff the first \H. Win the \DA and immediately play \HA, \HK and ruff a \H with a high \C. West discards on this \H play. Enter dummy with a trump and ruff another \H high. The suit is now established, so you pull trumps, enter dummy one last time with the \DK and discard that losing \S on the good \H8.
 
 Clickfor the complete Deal. [NEXT]
+
+[RESET]
 
 And if they had split 3-3 this Plan would still have worked.}
 [BCFlags "1f"]
@@ -416,7 +428,8 @@ And if they had split 3-3 this Plan would still have worked.}
 [Auction "N"]
 1D pass 1H pass 2C pass 3NT pass pass pass
 [Result ""]
-{South is to play 3NT. West leads the \S4.
+{[show NS]
+South is to play 3NT. West leads the \S4.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -431,6 +444,8 @@ You best play next is to finesse the \DT. This may gain a trick by virtue of the
 Again don't hold up. Take the \SK and lead another small \D, finessing with dummy's \DQ. Happily this time the finesse works, and even more happily both defenders follow suit. That means the rest of the \Ds are good and you make an overtrick.
 
 Clickfor the complete Deal. [NEXT]
+
+[RESET]
 
 If looked different because of the two finesses you took.}
 [BCFlags "1f"]
@@ -448,7 +463,8 @@ If looked different because of the two finesses you took.}
 [Auction "N"]
 pass pass 1C pass 2C pass 3NT pass pass pass
 [Result ""]
-{South is to play 3NT. West leads the \S4. East puts on the \SA and returns the \S8.
+{[show NS]
+South is to play 3NT. West leads the \S4. East puts on the \SA and returns the \S8.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -460,9 +476,13 @@ You win the second \S and play your \CQ. West covers with the \CK. What do you d
 
  Click NEXT. [NEXT]
 
+[PLAY N:S9,N:S7,S:SQ,S:S3]
+
 You DUCK. If you take the \CA now you will never get back to dummy to enjoy those other \Cs. So let West have the \CK. You win his return, (probably a \S), and play \CJ, then \C9 to dummy's \CA. As long as \Cs split 3-2 you will get the three winners you need.
 
 Clickfor the complete Deal. [NEXT]
+
+[RESET]
 
 West's play of the \CK may have made you want to jump up with the \CA, but you must stick to the original play of ducking one trick.}
 [BCFlags "1f"]
@@ -480,7 +500,8 @@ West's play of the \CK may have made you want to jump up with the \CA, but you m
 [Auction "N"]
 pass pass 1D pass 1H pass 2NT pass 3NT pass pass pass
 [Result ""]
-{South is to play 3NT. West leads the \S2. East puts on the \SJ.
+{[show NS]
+South is to play 3NT. West leads the \S2. East puts on the \SJ.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -491,6 +512,8 @@ You need three more winners. It is possible your fourth \D can be established, b
 Win the first trick with your \SQ and play a low \H, ducking in dummy. East will no doubt win a cheap trick but no matter. When you next gain the lead play your other low \H and finesse the \HQ. Assume this wins (if it doesn't you will be going down for sure). Play the \HA and if both defenders follow your other 2 \Hs are good and your contract is made.
 
 Click NEXT to see the full Deal and whether you made the contract or not. [NEXT]
+
+[RESET]
 
 But, it is your only chance to make the contract.}
 [BCFlags "1f"]
@@ -508,7 +531,8 @@ But, it is your only chance to make the contract.}
 [Auction "S"]
 1H pass 3H pass 4H pass pass pass pass
 [Result ""]
-{Some pretty agressive bidding gets you to a challenging game. South is to play 4\H. West leads the \SK, overtaken by East's \SA. East returns a \S to West's \ST, and he then plays the \SQ.
+{[show NS]
+Some pretty agressive bidding gets you to a challenging game. South is to play 4\H. West leads the \SK, overtaken by East's \SA. East returns a \S to West's \ST, and he then plays the \SQ.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -520,7 +544,10 @@ The solution is to establish the \Ds before you use up dummy's \HK.
 
 Ruff the third \S, then play \DQ, (which they will duck), and another \D, (which they will probably take). Win whatever they return, pull trumps ending in dummy, and enjoy your 3 \D winners.
 
+[show NESW]
 Click NEXT to see the complete Deal. [NEXT]
+
+[RESET]
 
 }
 [BCFlags "1f"]
@@ -538,7 +565,8 @@ Click NEXT to see the complete Deal. [NEXT]
 [Auction "S"]
 1NT pass 2D pass 2H pass 2NT pass 3NT pass pass pass
 [Result ""]
-{North's 3\D bid was a transfer to \Hs, and his 2NT bid showed exactly 5 \Hs with an invitational strength hand. South is to play 3NT. West leads the \S6, you play dummy's \S9 and  East contributes the \S2.
+{[show NS]
+North's 3\D bid was a transfer to \Hs, and his 2NT bid showed exactly 5 \Hs with an invitational strength hand. South is to play 3NT. West leads the \S6, you play dummy's \S9 and  East contributes the \S2.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -548,7 +576,10 @@ The math is easy - you need 4 \H tricks. And you should be able to manage that b
 
 The \S Q J will provide that entry IF you make sure to win the first trick with your \SA as an unblocking move. If you don't do so then West will be able to keep you out of the dummy and away from those good \Hs.
 
+[show NESW]
 Click NEXT to see the complete Deal. [NEXT]
+
+[RESET]
 
 But if you win the first trick with the \SA, then dummy's \S Q J will provide a guaranteed entry to the good \Hs.}
 [BCFlags "1f"]
@@ -566,7 +597,8 @@ But if you win the first trick with the \SA, then dummy's \S Q J will provide a 
 [Auction "W"]
 pass pass pass 1D pass 1H pass 2NT pass 3NT pass pass pass
 [Result ""]
-{South is to play 3NT. West leads the \S2, you play dummy's \S4 and  East plays the \S8.
+{[show NS]
+South is to play 3NT. West leads the \S2, you play dummy's \S4 and  East plays the \S8.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -579,6 +611,8 @@ This won't work against good defenders, who will hold up on the first \H trick a
 Instead you should win the first trick with your \SA. Now when you attack \Hs a defensive holdup won't hurt you because you have TWO \S entries, the \SJ by a finesse and the \SK.
 
 Clickfor the complete Deal. [NEXT]
+
+[RESET]
 
 So the \S finesse is an odds-on play to get a second dummy entry.}
 [BCFlags "1f"]
@@ -596,7 +630,8 @@ So the \S finesse is an odds-on play to get a second dummy entry.}
 [Auction "E"]
 2S X pass 2NT pass 3D pass 4D pass 5D pass pass pass
 [Result ""]
-{3NT would have been a lot easier, but you didn't get there. South is to play 5\D. West leads the \ST.
+{[show NS]
+3NT would have been a lot easier, but you didn't get there. South is to play 5\D. West leads the \ST.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -614,6 +649,8 @@ Pull West's last trump and enter dummy with the \HA and FINALLY discard a loser 
 
 Clickfor the complete Deal. [NEXT]
 
+[RESET]
+
 Here you needed \S T 9 x to be with West if you were to make the contract so you played for just that holding.}
 [BCFlags "1f"]
 [Play "W"]ST
@@ -630,7 +667,8 @@ Here you needed \S T 9 x to be with West if you were to make the contract so you
 [Auction "N"]
 pass pass 2C pass 2NT pass 3S pass 4S pass 4NT pass 5D pass 6S pass pass pass
 [Result ""]
-{South is to play 6\S. West leads the \S5.
+{[show NS]
+South is to play 6\S. West leads the \S5.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -642,11 +680,15 @@ After pulling trumps, play the \C A K, then \DA. Next exit with a small \D.
 
 Click NEXT to see the position. [NEXT]
 
+[PLAY N:S6,N:S4,N:D8,N:D6,N:C4,N:C3,S:SA,S:SQ,S:DA,S:D5,S:CA,S:CK]
+
 The defender who won the \D trick has a problem. If he plays another \D you will get a ruff-sluff, and if he plays a \H you will play for the \HQ and \HJ to be in different hands. So he will probably play a \C.
 
 You ruff in your hand, play a trump to dummy's \SK and ruff the \C8, establishing the \C9 while you still have the \H entry. 
 
 Clickfor the complete Deal. [NEXT]
+
+[RESET]
 
 This was a combination of Suit Establishment and End-play. The lesson on Eliminations contains a lot more of this type of hand.}
 [BCFlags "1f"]

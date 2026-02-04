@@ -1,46 +1,6 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=UTF-8
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%Creator: CSVtoPBN Version 1.00
-%Created: 2026-01-23 13:57:51
-%sourcefilename BakerBridgeFull.csv
+%Creator: CSVtoPBN Version 1.01
+%Created: 2026-02-04 15:17:05
+%sourcefilename BakerBridge.csv
 %HRTitleEvent Stayman
 [Board "1"]
 [Event ""]
@@ -50,11 +10,12 @@
 [Contract "1NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:J753.AT32.J4.KT9 KT82.74.AK63.AJ7 Q96.Q65.Q95.Q432 A4.KJ98.T872.865"]
+[Deal "W: KT82.74.AK63.AJ7  A4.KJ98.T872.865"]
 [Auction "N"]
 1NT pass pass pass
 [Result ""]
-{North opens 1NT. What do you respond? [BID pass]
+{[show NS]
+North opens 1NT. What do you respond? [BID pass]
 
 
 
@@ -72,11 +33,12 @@ It is far too risky to play for that possibility. So you just pass.}
 [Contract "3NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T863.Q742.K5.A97 KQJ5.T63.AQ9.KQT 972.K5.J643.J432 A4.AJ98.T872.865"]
+[Deal "W: KQJ5.T63.AQ9.KQT  A4.AJ98.T872.865"]
 [Auction "N"]
 1NT pass 2C pass 2S pass 2NT pass 3NT pass pass pass
 [Result ""]
-{North opens 1NT. What do you respond? [BID 2\C]
+{[show NS]
+North opens 1NT. What do you respond? [BID 2\C]
 
 
 
@@ -98,11 +60,12 @@ He has a maximum and he bids 3NT.}
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:54.QJT3.Q432.K52 A983.AK5.A95.J94 J72.872.76.AQT86 KQT6.964.KJT8.73"]
+[Deal "W: A983.AK5.A95.J94  KQT6.964.KJT8.73"]
 [Auction "N"]
 1NT pass 2C pass 2S pass 4S pass pass pass
 [Result ""]
-{North opens 1NT. What do you respond? [BID 2\C]
+{[show NS]
+North opens 1NT. What do you respond? [BID 2\C]
 
 
 
@@ -124,11 +87,12 @@ There is really no right or wrong here, between 3\S and 4\S. Those extra T's and
 [Contract "3NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:Q8.8643.K94.T952 965.A9.AQT5.KQ86 K732.T72.J72.A43 AJT4.KQJ5.863.J7"]
+[Deal "W: 965.A9.AQT5.KQ86  AJT4.KQJ5.863.J7"]
 [Auction "N"]
 1NT pass 2C pass 2D pass 3NT pass pass pass
 [Result ""]
-{North opens 1NT. What do you respond? [BID 2\C]
+{[show NS]
+North opens 1NT. What do you respond? [BID 2\C]
 
 
 
@@ -148,11 +112,12 @@ Partner doesn't have a 4-card Major so your side doesn't have an 8-card Major fi
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:A5.T97.JT653.QJ6 T982.KQ6.A94.AK5 764.8432.KQ8.T72 KQJ3.AJ5.72.9843"]
+[Deal "W: T982.KQ6.A94.AK5  KQJ3.AJ5.72.9843"]
 [Auction "N"]
 1NT pass 2C pass 2S pass 4S pass pass pass
 [Result ""]
-{North opens 1NT. What do you respond? [BID 2\C]
+{[show NS]
+North opens 1NT. What do you respond? [BID 2\C]
 
 
 
@@ -174,11 +139,12 @@ You bid 4\S.}
 [Contract "6NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:J83.A864.T852.54 KQ5.Q95.KQ94.A62 762.32.763.JT987 AT94.KJT7.AJ.KQ3"]
+[Deal "W: KQ5.Q95.KQ94.A62  AT94.KJT7.AJ.KQ3"]
 [Auction "N"]
 1NT pass 2C pass 2D pass 6NT pass pass pass
 [Result ""]
-{North opens 1NT. What do you respond? [BID 2\C]
+{[show NS]
+North opens 1NT. What do you respond? [BID 2\C]
 
 
 
@@ -200,11 +166,12 @@ There is a lot to be said for bidding 6NT immediately. You could ask for Aces if
 [Contract "6H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:KJ8.864.76542.32 QT9.AQJ3.AT8.QJ6 A76532.52.9.T974 4.KT97.KQJ3.AK85"]
+[Deal "W: QT9.AQJ3.AT8.QJ6  4.KT97.KQJ3.AK85"]
 [Auction "N"]
 1NT pass 2C pass 2H pass 4NT pass 5H pass 6H pass pass pass
 [Result ""]
-{North opens 1NT. What do you respond? [BID 2\C]
+{[show NS]
+North opens 1NT. What do you respond? [BID 2\C]
 
 
 
@@ -228,11 +195,12 @@ Missing one Ace you bid 6\H.}
 [Contract "4H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T.A842.Q982.J542 95.KQ95.AK63.KQ8 J8763.3.JT4.AT76 AKQ42.JT76.75.93"]
+[Deal "W: 95.KQ95.AK63.KQ8  AKQ42.JT76.75.93"]
 [Auction "N"]
 1NT pass 2C pass 2H pass 4H pass pass pass
 [Result ""]
-{North opens 1NT. What do you respond? [BID 2\C]
+{[show NS]
+North opens 1NT. What do you respond? [BID 2\C]
 
 
 
@@ -252,11 +220,12 @@ That is why you used Stayman - to uncover a 4-4 Major suit fit. Having done so y
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:J9.A83.JT93.Q842 T86.KQ5.A864.AKT 753.942.KQ2.J765 AKQ42.JT76.75.93"]
+[Deal "W: T86.KQ5.A864.AKT  AKQ42.JT76.75.93"]
 [Auction "N"]
 1NT pass 2C pass 2D pass 3S pass 4S pass pass pass
 [Result ""]
-{North opens 1NT. What do you respond? [BID 2\C]
+{[show NS]
+North opens 1NT. What do you respond? [BID 2\C]
 
 
 
@@ -278,11 +247,12 @@ If partner had just 2 \Ss he would have bid 3NT. Since he has 3 \Ss he bids 4\S.
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:86.742.AJ9.KJT62 AQJ9.KJ.Q764.Q53 753.85.KT8532.A9 KT42.AQT963..874"]
+[Deal "W: AQJ9.KJ.Q764.Q53  KT42.AQT963..874"]
 [Auction "N"]
 1NT pass 2C pass 2S pass 4S pass pass pass
 [Result ""]
-{ [BID 2\C]
+{[show NS]
+ [BID 2\C]
 
 Even when you hold a 6-card Major, if you have 4 cards in the other Major you use Stayman. Partner answers 2\S. What do you bid? [BID 4\S]
 
@@ -300,11 +270,12 @@ Yes, but you already knew you had an 8-card \H fit since partner's 1NT promised 
 [Contract "4H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:8765.85.A952.AJ9 AQJ.KJ.Q764.Q653 93.742.KJT83.KT2 KT42.AQT963..874"]
+[Deal "W: AQJ.KJ.Q764.Q653  KT42.AQT963..874"]
 [Auction "N"]
 1NT pass 2C pass 2D pass 4H pass pass pass
 [Result ""]
-{This is the follow-up to Deal T. North opens 1NT. What do you respond? [BID 2\C]
+{[show NS]
+This is the follow-up to Deal T. North opens 1NT. What do you respond? [BID 2\C]
 
 
 
@@ -326,11 +297,12 @@ In this case the strong hand does not become declarer, but the contract is the r
 [Contract "2NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:AJ5.JT6.K82.J963 83.KQ74.7643.A82 Q976.9852.AT.T54 KT42.A3.QJ95.KQ7"]
+[Deal "W: 83.KQ74.7643.A82  KT42.A3.QJ95.KQ7"]
 [Auction "S"]
 1NT pass 2C pass 2S pass 2NT pass pass pass
 [Result ""]
-{You open 1NT and partner responds 2\C. What do you bid? [BID 2\S]
+{[show NS]
+You open 1NT and partner responds 2\C. What do you bid? [BID 2\S]
 
 
 
@@ -350,11 +322,12 @@ Partner evidently has 4 \Hs. He also evidently has about 9 points since he is IN
 [Contract "3NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:A764.7542.A74.T5 JT83.JT86.KT.A84 95.KQ.8632.J9632 KQ2.A93.QJ95.KQ7"]
+[Deal "W: JT83.JT86.KT.A84  KQ2.A93.QJ95.KQ7"]
 [Auction "S"]
 1NT pass 2C pass 2D pass 2NT pass 3NT pass pass pass
 [Result ""]
-{You open 1NT and partner responds 2\C. What do you bid? [BID 2\D]
+{[show NS]
+You open 1NT and partner responds 2\C. What do you bid? [BID 2\D]
 
 
 
@@ -374,11 +347,12 @@ Partner seems to have about 9 points and is inviting you to say 3NT. Since you h
 [Contract "3S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:A3.KJT4.T874.984 KT85.9852.A93.Q5 J94.A7.652.KT632 Q762.Q63.KQJ.AJ7"]
+[Deal "W: KT85.9852.A93.Q5  Q762.Q63.KQJ.AJ7"]
 [Auction "S"]
 1NT pass 2C pass 2S pass 3S pass pass pass
 [Result ""]
-{You open 1NT and partner responds 2\C. What do you bid? [BID 2\S]
+{[show NS]
+You open 1NT and partner responds 2\C. What do you bid? [BID 2\S]
 
 
 
@@ -398,11 +372,12 @@ Considering the bidding you have done so far you couldn't have a worse hand. Wit
 [Contract "4H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:K5.Q64.97632.852 QT93.K873.A5.764 A874.J2.T8.KJT93 J62.AT95.KQJ4.AQ"]
+[Deal "W: QT93.K873.A5.764  J62.AT95.KQJ4.AQ"]
 [Auction "S"]
 1NT pass 2C pass 2H pass 3H pass 4H pass pass pass
 [Result ""]
-{You open 1NT and partner responds 2\C. What do you bid? [BID 2\H]
+{[show NS]
+You open 1NT and partner responds 2\C. What do you bid? [BID 2\H]
 
 
 
@@ -422,11 +397,12 @@ Partner has told you he has 4 \Hs and approximately 9 points. Add that to your 4
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:8732.QJ7.K2.J762 AT96.63.QT84.K83 5.K842.A965.T954 KQJ4.AT95.J73.AQ"]
+[Deal "W: AT96.63.QT84.K83  KQJ4.AT95.J73.AQ"]
 [Auction "S"]
 1NT pass 2C pass 2H pass 2NT pass 4S pass pass pass
 [Result ""]
-{You open 1NT and partner responds 2\C. What do you bid? [BID 2\H]
+{[show NS]
+You open 1NT and partner responds 2\C. What do you bid? [BID 2\H]
 
 
 
@@ -446,11 +422,12 @@ Partner would never bid Stayman without a 4-card Major. Since he did not like yo
 [Contract "3NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:983.J532.A42.653 AQ52.KQT96.T9.97 T76.74.K865.KJ42 KJ4.A8.QJ73.AQT8"]
+[Deal "W: AQ52.KQT96.T9.97  KJ4.A8.QJ73.AQT8"]
 [Auction "S"]
 1NT pass 2C pass 2D pass 2H pass 3NT pass pass pass
 [Result ""]
-{You open 1NT and partner responds 2\C. What do you bid? [BID 2\D]
+{[show NS]
+You open 1NT and partner responds 2\C. What do you bid? [BID 2\D]
 
 
 
@@ -470,11 +447,12 @@ Partner has described a hand with 4 \Ss and 5 \Hs. You don't know his strength b
 [Contract "4H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:JT984.A82.864.72 Q2.K9753.Q73.QT6 A653.64.JT2.A853 K7.QJT.AK95.KJ94"]
+[Deal "W: Q2.K9753.Q73.QT6  K7.QJT.AK95.KJ94"]
 [Auction "S"]
 1NT pass 2C pass 2D pass 2H pass 4H pass pass pass
 [Result ""]
-{You open 1NT and partner responds 2\C. What do you bid? [BID 2\D]
+{[show NS]
+You open 1NT and partner responds 2\C. What do you bid? [BID 2\D]
 
 
 
@@ -494,11 +472,12 @@ Partner knows you do not have 4 \Hs, but he bid the suit anyway. He must have 5 
 [Contract "3NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T94.A8.T95.K9432 QJ763.KT73.42.Q5 852.6542.AJ76.86 AK.QJ9.KQ83.AJT7"]
+[Deal "W: QJ763.KT73.42.Q5  AK.QJ9.KQ83.AJT7"]
 [Auction "S"]
 2NT pass 3C pass 3D pass 3S pass 3NT pass pass pass
 [Result ""]
-{With a balanced 20 points you open 2NT and partner responds 3\C. What do you bid? [BID 3\D]
+{[show NS]
+With a balanced 20 points you open 2NT and partner responds 3\C. What do you bid? [BID 3\D]
 
 
 
@@ -518,11 +497,12 @@ Partner is showing 5 \Ss and 4 \Hs. In neither case would you have the 8-card fi
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:72.642.KT3.JT965 Q963.K5.Q875.742 A84.T873.642.A83 KJT5.AQJ9.AJ9.KQ"]
+[Deal "W: Q963.K5.Q875.742  KJT5.AQJ9.AJ9.KQ"]
 [Auction "S"]
 2NT pass 3C pass 3H pass 3NT pass 4S pass pass pass
 [Result ""]
-{You open 2NT and partner responds 3\C. What do you bid? [BID 3\H]
+{[show NS]
+You open 2NT and partner responds 3\C. What do you bid? [BID 3\H]
 
 
 
@@ -544,11 +524,12 @@ If you want to make yourself happy you use Stayman, just imagine playing 3NT aft
 [Contract "6S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T73.865.QJT4.QT2 AJ85.KJ.AK8.KJ96 96.72.976532.A53 KQ42.AQT943..874"]
+[Deal "W: AJ85.KJ.AK8.KJ96  KQ42.AQT943..874"]
 [Auction "N"]
 2NT pass 3C pass 3S pass 6S pass pass pass
 [Result ""]
-{North opens 2NT. What do you respond? [BID 3\C]
+{[show NS]
+North opens 2NT. What do you respond? [BID 3\C]
 
 Wow! Start thinking slam, but first things first. Find the suit by starting with Stayman. You bid 3\C and partner replies 3\S. What do you say next? [BID 6\S]
 
@@ -568,11 +549,12 @@ Good thing it's being played by North, right?}
 [Contract "2H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:JT5.QJ7.AKT4.J65 A83.AK64.Q52.Q87 K96.52.9.AKT9432 Q742.T983.J8763."]
+[Deal "W: A83.AK64.Q52.Q87  Q742.T983.J8763."]
 [Auction "N"]
 1NT pass 2C pass 2H pass pass pass
 [Result ""]
-{North opens 1NT. What do you respond? [BID 2\C]
+{[show NS]
+North opens 1NT. What do you respond? [BID 2\C]
 
 
 
@@ -592,11 +574,12 @@ What's next is your PASS. And if he had bid 2\S you also would have passed. And 
 [Contract "3NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:6.QJ832.K653.J93 AK73.A95.982.AQ2 T942.T7.AT4.7654 QJ85.K64.QJ7.KT8"]
+[Deal "W: AK73.A95.982.AQ2  QJ85.K64.QJ7.KT8"]
 [Auction "N"]
 1NT pass 3NT pass pass pass
 [Result ""]
-{North opens 1NT. What do you respond? [BID 3NT]
+{[show NS]
+North opens 1NT. What do you respond? [BID 3NT]
 
 
 
@@ -614,11 +597,12 @@ But thinking a little further, with this 4-3-3-3 distribution you have no ruffin
 [Contract "3NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:3.98653.K862.632 AQT6.Q7.T95.K974 KJ7542.AT2.43.QJ 98.KJ4.AQJ7.AT85"]
+[Deal "W: AQT6.Q7.T95.K974  98.KJ4.AQJ7.AT85"]
 [Auction "E"]
 pass 1NT pass 2C 2S pass pass 3NT pass pass pass
 [Result ""]
-{After you open 1NT partner bids 2\C, then East says 2\S. What do you say next? [BID pass]
+{[show NS]
+After you open 1NT partner bids 2\C, then East says 2\S. What do you say next? [BID pass]
 
 
 
@@ -638,11 +622,12 @@ Pass, then "Thank you partner" when dummy comes down. The thing to remember is t
 [Contract "4H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:963.9852.95.JT96 A8.KJ74.A72.KQ53 J754.6.KQJT84.A2 KQT2.AQT3.63.874"]
+[Deal "W: A8.KJ74.A72.KQ53  KQT2.AQT3.63.874"]
 [Auction "N"]
 1NT 2D 3D pass 3H pass 4H pass pass pass
 [Result ""]
-{North opens 1NT and East overcalls 2\D. What do you say? [BID 3\D]
+{[show NS]
+North opens 1NT and East overcalls 2\D. What do you say? [BID 3\D]
 
 
 

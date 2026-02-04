@@ -1,46 +1,6 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=UTF-8
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%Creator: CSVtoPBN Version 1.00
-%Created: 2026-01-23 13:57:51
-%sourcefilename BakerBridgeFull.csv
+%Creator: CSVtoPBN Version 1.01
+%Created: 2026-02-04 15:17:05
+%sourcefilename BakerBridge.csv
 %HRTitleEvent Roman
 [Board "1"]
 [Event ""]
@@ -50,11 +10,12 @@
 [Contract "6H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:942.T4.KQ65.KT87 KQJT75.AJ863.A.5 63.5.JT932.A9642 A8.KQ972.874.QJ3"]
+[Deal "W: KQJT75.AJ863.A.5  A8.KQ972.874.QJ3"]
 [Auction "N"]
 1S pass 2H pass 4NT pass 5S pass 6H pass pass pass
 [Result ""]
-{The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 5\S]
+{[show NS]
+The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 5\S]
 
 
 
@@ -72,11 +33,12 @@ So you have two Key-Cards (\SA and \HK, along with the \HQ). You therefore bid 5
 [Contract "5S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:84.T42.KT743.T54 KQJ5.AQJ3.Q6.KQJ 6.876.AJ92.98632 AT9732.K95.85.A7"]
+[Deal "W: KQJ5.AQJ3.Q6.KQJ  AT9732.K95.85.A7"]
 [Auction "N"]
 1C pass 1S pass 4S pass 5C pass 5H pass 5S pass pass pass
 [Result ""]
-{Partner's jump to 4\S indicates he is prepared to play at game even if you have as few as 6 points. So he must have 20 points or so. With your 14 that puts you in slam range. Decide what you would say next, then click on BID above. [BID 5\C]
+{[show NS]
+Partner's jump to 4\S indicates he is prepared to play at game even if you have as few as 6 points. So he must have 20 points or so. With your 14 that puts you in slam range. Decide what you would say next, then click on BID above. [BID 5\C]
 
 
 
@@ -98,11 +60,12 @@ Yes, partner should probably have opened 2NT. Sometimes partners don't make the 
 [Contract "6S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:4.QJT92.QJ9874.T KQ962.K865.5.KQ3 A53.43.T2.J97654 JT87.A7.AK63.A82"]
+[Deal "W: KQ962.K865.5.KQ3  JT87.A7.AK63.A82"]
 [Auction "S"]
 1D pass 1S pass 3S pass 4NT pass 5D pass 6S pass pass pass
 [Result ""]
-{The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 5\D]
+{[show NS]
+The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 5\D]
 
 
 
@@ -118,11 +81,12 @@ You have 3 Key-Cards so you bid 5\D. Partner bids 6\S.}
 [Contract "6S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:53.742.AT862.975 KQ84.AJ6.J3.QJ83 T6.T983.Q974.T42 AJ972.KQ5.K5.AK6"]
+[Deal "W: KQ84.AJ6.J3.QJ83  AJ972.KQ5.K5.AK6"]
 [Auction "S"]
 1S pass 2NT pass 3NT pass 4H pass 4NT pass 5S pass 6S pass pass pass
 [Result ""]
-{Your partnership plays Jacoby 2NT convention, so partner's 2NT shows a game-forcing raise in \Ss. Your 3NT bid indicates a 5-card suit and "extra values". Partner's 4\H is a control-bid showing the \HA. Decide what you would say next, then click on BID above. [BID 4NT]
+{[show NS]
+Your partnership plays Jacoby 2NT convention, so partner's 2NT shows a game-forcing raise in \Ss. Your 3NT bid indicates a 5-card suit and "extra values". Partner's 4\H is a control-bid showing the \HA. Decide what you would say next, then click on BID above. [BID 4NT]
 
 
 
@@ -142,11 +106,12 @@ Partner's response says 2 Key-Cards and the \SQ. So you are missing either the t
 [Contract "6D"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T65.A953.94.9842 KJ7.6.AQT875.AT6 98432.KQJ82.2.53 AQ.T74.KJ63.KQJ7"]
+[Deal "W: KJ7.6.AQT875.AT6  AQ.T74.KJ63.KQJ7"]
 [Auction "S"]
 1NT pass 3D pass 4D pass 4NT pass 5H pass 6D all pass
 [Result ""]
-{The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 4\D]
+{[show NS]
+The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 4\D]
 
 
 
@@ -166,11 +131,12 @@ You have 2 Key-Cards, the \SA and \DK. But you don't have the \DQ so you answer 
 [Contract "6H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:743.T7.AT85.JT54 A652.QJ52.KJ3.82 QJ9.3.Q97642.963 KT8.AK9864..AKQ7"]
+[Deal "W: A652.QJ52.KJ3.82  KT8.AK9864..AKQ7"]
 [Auction "S"]
 1H pass 3H pass 4C pass 4H pass 4NT pass 5C pass 6H pass pass pass
 [Result ""]
-{Your partner's 3\H is a limit-raise, 11-12 points with \H support. Decide what you would say next, then click on BID above. [BID pass]
+{[show NS]
+Your partner's 3\H is a limit-raise, 11-12 points with \H support. Decide what you would say next, then click on BID above. [BID pass]
 
 
 
@@ -194,11 +160,12 @@ It was a lot of work but you have figured out that partner holds 11-12 points in
 [Contract "6S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:JT3.Q96.K9875.76 AQ974.8.A632.KQJ .A5432.QJT4.T542 K8652.KJT7..A983"]
+[Deal "W: AQ974.8.A632.KQJ  K8652.KJT7..A983"]
 [Auction "N"]
 1S pass 4D pass 4NT pass 5NT pass 6S pass pass pass
 [Result ""]
-{The bidding has gone as shown. Your 4\D bid is a Splinter Bid, showing opening hand strength, at least 4 \Ss, and a singleton or void in \Ds. Partner bids 4NT. Decide what you would say, then click on BID above. [BID 5NT]
+{[show NS]
+The bidding has gone as shown. Your 4\D bid is a Splinter Bid, showing opening hand strength, at least 4 \Ss, and a singleton or void in \Ds. Partner bids 4NT. Decide what you would say, then click on BID above. [BID 5NT]
 
 
 
@@ -216,11 +183,12 @@ No. You have two Key-Cards AND a void. So you bid 5NT. Partner bids 6\S.}
 [Contract "5H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:9743.QJ53.732.83 KQJ.AT76.AQJ.QJ9 652.2.T8654.A742 AT8.K984.K9.KT65"]
+[Deal "W: KQJ.AT76.AQJ.QJ9  AT8.K984.K9.KT65"]
 [Auction "N"]
 2NT pass 3C pass 3H pass 4NT pass 5H pass pass pass pass
 [Result ""]
-{Your partner's 2NT opener is 20-21 points and the 3\C bid is Stayman. Decide what you would say next, then click on BID above. [BID 4NT]
+{[show NS]
+Your partner's 2NT opener is 20-21 points and the 3\C bid is Stayman. Decide what you would say next, then click on BID above. [BID 4NT]
 
 
 
@@ -240,11 +208,12 @@ You say "Darn!" You are missing just one Key-Card, but you are also missing the 
 [Contract "6H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T86.642.JT3.A654 AKQJ.AJT7.A5.KQT 95432.3.9862.J72 7.KQ985.KQ74.983"]
+[Deal "W: AKQJ.AJT7.A5.KQT  7.KQ985.KQ74.983"]
 [Auction "N"]
 2C pass 2H pass 4NT pass 5C pass 6H pass pass pass
 [Result ""]
-{The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 2\H]
+{[show NS]
+The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 2\H]
 
 
 
@@ -264,11 +233,12 @@ The 4NT bid agrees \Hs as trump. You have one Key-Card, the \HK, so you bid 5\C.
 [Contract "6S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:864.QT2.972.JT95 AQJ753.65.A43.82 92.J73.JT65.A743 KT.AK984.KQ8.KQ6"]
+[Deal "W: AQJ753.65.A43.82  KT.AK984.KQ8.KQ6"]
 [Auction "N"]
 1S pass 3H pass 3S pass 4NT pass 5S pass 6S pass pass pass
 [Result ""]
-{The bidding has been as shown. Decide what you would say next, then click on BID above. [BID 4NT]
+{[show NS]
+The bidding has been as shown. Decide what you would say next, then click on BID above. [BID 4NT]
 
 
 
@@ -288,11 +258,12 @@ Partner has two Aces and the \SQ. That should be all he needs to make slam so yo
 [Contract "7H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:8.76.T93.AT86542 AKQJ.AQT43.AJ8.7 T953.2.652.KQJ93 7642.KJ985.KQ74."]
+[Deal "W: AKQJ.AQT43.AJ8.7  7642.KJ985.KQ74."]
 [Auction "N"]
 2C pass 2H pass 4NT pass 6C pass 7H pass pass pass
 [Result ""]
-{The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 2\H]
+{[show NS]
+The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 2\H]
 
 
 
@@ -312,11 +283,12 @@ The 4NT bid agrees \Hs as trump. You have one Key-Card, the \HK, but you also ha
 [Contract "5S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:QJ83.932.52.T872 AT97.KJT.QJT3.KJ 4.865.A974.96543 K652.AQ74.K86.AQ"]
+[Deal "W: AT97.KJT.QJT3.KJ  K652.AQ74.K86.AQ"]
 [Auction "N"]
 1NT pass 2C pass 2S pass 4NT pass 5C pass 5D pass 5S pass pass pass pass
 [Result ""]
-{The bidding has been as shown. Decide what you would say next, then click on BID above. [BID 4NT]
+{[show NS]
+The bidding has been as shown. Decide what you would say next, then click on BID above. [BID 4NT]
 
 
 
@@ -340,11 +312,12 @@ Partner denies having the \SQ. Knowing that the best you could hope for would be
 [Contract "6H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T842.QJ.J32.T742 AKQJ3.T875.K.KQJ 65.432.T865.9863 97.AK96.AQ974.A5"]
+[Deal "W: AKQJ3.T875.K.KQJ  97.AK96.AQ974.A5"]
 [Auction "E"]
 pass 1D pass 1S pass 2H pass 4NT pass 5C pass 5D pass 5H pass 6H pass pass pass
 [Result ""]
-{Your 2\H bid is a Reverse, showing 17+ points. Decide what you would say, then click on BID above. [BID 5\C]
+{[show NS]
+Your 2\H bid is a Reverse, showing 17+ points. Decide what you would say, then click on BID above. [BID 5\C]
 
 
 
@@ -364,11 +337,12 @@ There has been no agreement on trumps, so you assume that North has implicitly a
 [Contract "7NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:J985.T7.9432.975 A63.AK9865.K.A32 QT42.42.6.QJT864 K7.QJ3.AQJT875.K"]
+[Deal "W: A63.AK9865.K.A32  K7.QJ3.AQJT875.K"]
 [Auction "N"]
 1H pass 2D pass 3H pass 4NT pass 5C pass 5NT pass 6D pass 7NT pass pass pass
 [Result ""]
-{The bidding has been as shown. Yes, you could have jump-shifted on your first bid. Decide what you would say next, then click on BID above. [BID 4NT]
+{[show NS]
+The bidding has been as shown. Yes, you could have jump-shifted on your first bid. Decide what you would say next, then click on BID above. [BID 4NT]
 
 
 
@@ -392,11 +366,12 @@ Partner has 1 King, the only one left, the \DK. You can count about 17 high-card
 [Contract "6H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:QJ7.54.A853.9754 T86.KQJ83.T.AKQ6 AK95432.72.962.2 .AT96.KQJ74.JT83"]
+[Deal "W: T86.KQJ83.T.AKQ6  .AT96.KQJ74.JT83"]
 [Auction "N"]
 1H pass 3S pass 4NT pass 6H pass pass pass
 [Result ""]
-{Your 3\S bid is a Splinter, agreeing \Hs as trump, and showing opening hand strength with a singleton or void in \Ss. Decide what you would say next, then click on BID above. [BID 6\H]
+{[show NS]
+Your 3\S bid is a Splinter, agreeing \Hs as trump, and showing opening hand strength with a singleton or void in \Ss. Decide what you would say next, then click on BID above. [BID 6\H]
 
 </table>
 
@@ -412,11 +387,12 @@ You have one Key-Card, the \HA. You also have a \S void, but since bidding 6\S w
 [Contract "7S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:7.653.AQT962.Q83 AT843.QT84..KJT2 2.J972.KJ43.9764 KQJ965.AK.875.A5"]
+[Deal "W: AT843.QT84..KJT2  KQJ965.AK.875.A5"]
 [Auction "E"]
 pass 1S pass 4D pass 4NT pass 6D pass 7S pass pass pass
 [Result ""]
-{Partner's 4\D bid is a Splinter Bid. It shows opening hand strength, at least 4-card \S support, and a singleton or void in \Ds. Decide what you would say next, then click on BID above. [BID 4NT]
+{[show NS]
+Partner's 4\D bid is a Splinter Bid. It shows opening hand strength, at least 4-card \S support, and a singleton or void in \Ds. Decide what you would say next, then click on BID above. [BID 4NT]
 
 
 
@@ -436,11 +412,12 @@ WOW! Partner has one Key-Card and a \D void. So the Key-Card is the \SA. You don
 [Contract "7NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:J963.872.J2.7543 AQ5.4.AKT863.AKQ T42.KQJ953.5.962 K87.AT6.Q974.JT8"]
+[Deal "W: AQ5.4.AKT863.AKQ  K87.AT6.Q974.JT8"]
 [Auction "N"]
 2C pass 2NT pass 3D pass 4D pass 4NT pass 5C pass 5H pass 5S pass 7NT all pass
 [Result ""]
-{Your 2NT response shows 8+ points, with no 5-card biddable suit. Decide what you would say next, then click on BID above. [BID 4\D]
+{[show NS]
+Your 2NT response shows 8+ points, with no 5-card biddable suit. Decide what you would say next, then click on BID above. [BID 4\D]
 
 
 
@@ -464,11 +441,12 @@ This is the Queen Ask, wanting to know if you hold the \DQ. Since you do have it
 [Contract "6H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:A652.54.A976.943 .KQT8632.53.JT82 KJT9743..T842.75 Q8.AJ97.KQJ.AKQ6"]
+[Deal "W: .KQT8632.53.JT82  Q8.AJ97.KQJ.AKQ6"]
 [Auction "E"]
 pass 2C pass 2H pass 3H pass 3S pass 4NT pass 6H all pass
 [Result ""]
-{Partner's 2\H is a positive response, 8+ points with a 5+ card suit. Decide what you would say next, then click on BID above. [BID 3\H]
+{[show NS]
+Partner's 2\H is a positive response, 8+ points with a 5+ card suit. Decide what you would say next, then click on BID above. [BID 3\H]
 
 
 
@@ -488,11 +466,12 @@ Partner promises first round \S control so NOW you can bid RCKB. When you bid 4N
 [Contract "7NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:96.QT94.T96.QJ93 AQJ8543.7.AK4.AK .J32.QJ752.T8752 KT72.AK865.83.64"]
+[Deal "W: AQJ8543.7.AK4.AK  KT72.AK865.83.64"]
 [Auction "N"]
 2C pass 2H pass 2S pass 3S pass 4NT pass 5H pass 5NT pass 6D pass 7NT all pass
 [Result ""]
-{Your 2\H response shows 8+ points, with at least 5 \Hs. Decide what you would say next, then click on BID above. [BID 3\S]
+{[show NS]
+Your 2\H response shows 8+ points, with at least 5 \Hs. Decide what you would say next, then click on BID above. [BID 3\S]
 
 
 
@@ -516,11 +495,12 @@ Partner is asking for Kings and you have just 1, the \HK. Remember, the \SK is n
 [Contract "6S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:8.T9742.A95.9876 QJ73.A8.T864.KJ5 T2.J53.73.AQT432 AK9654.KQ6.KQJ2."]
+[Deal "W: QJ73.A8.T864.KJ5  AK9654.KQ6.KQJ2."]
 [Auction "E"]
 pass 1S pass 3S pass 4C pass 4H pass 6S pass pass pass
 [Result ""]
-{Partner's 3\S is a limit raise, 11-12 points and good \S support. Decide what you would say next, then click on BID above. [BID 4\C]
+{[show NS]
+Partner's 3\S is a limit raise, 11-12 points and good \S support. Decide what you would say next, then click on BID above. [BID 4\C]
 
 
 

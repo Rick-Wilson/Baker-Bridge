@@ -1,46 +1,6 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=UTF-8
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%Creator: CSVtoPBN Version 1.00
-%Created: 2026-01-23 13:57:51
-%sourcefilename BakerBridgeFull.csv
+%Creator: CSVtoPBN Version 1.01
+%Created: 2026-02-04 15:17:05
+%sourcefilename BakerBridge.csv
 %HRTitleEvent Trumpmgmt
 [Board "1"]
 [Event ""]
@@ -54,7 +14,8 @@
 [Auction "N"]
 1C pass 1S pass 2S pass 4S pass pass pass
 [Result ""]
-{South is to play 4\S. West leads the \DK. East overtakes with the \DA and returns the \C4.
+{[show NS]
+South is to play 4\S. West leads the \DK. East overtakes with the \DA and returns the \C4.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -69,6 +30,8 @@ Now, what should go right. Just because the lesson had many examples where you d
 So grab your \CA at trick 2, pull trumps no matter how many pulls it takes, then establish the \Cs. The contract is cold.
 
 to see the full deal. [NEXT]
+
+[RESET]
 
 Clear thinking is important, too. Can you imagine any Bridge player in the East seat overtaking his partner's opening lead just so he could then underlead his \CK into dummy's \CQ?}
 [BCFlags "1f"]
@@ -86,7 +49,8 @@ Clear thinking is important, too. Can you imagine any Bridge player in the East 
 [Auction "N"]
 pass pass 1S pass 2S pass 4S pass pass pass
 [Result ""]
-{South is to play 4\S. West leads the \CQ.
+{[show NS]
+South is to play 4\S. West leads the \CQ.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -99,6 +63,8 @@ None would be the correct answer. Suppose you decide to go over to dummy with th
 Win the first trick and play a \H from your hand. If they play a \S, win in your hand and play another \H. If they play another \S it will be just the second and dummy will still have one \S left to ruff your \H loser.
 
  for the full deal. [NEXT]
+
+[RESET]
 
 So you must stay a jump ahead of them. In this Deal the only way they could have gotten the jump on you would have been with a trump opening lead.}
 [BCFlags "1f"]
@@ -116,7 +82,8 @@ So you must stay a jump ahead of them. In this Deal the only way they could have
 [Auction "S"]
 1H pass 1NT pass 3H pass 4H pass pass pass
 [Result ""]
-{South is to play 4\H. West leads the \H7.
+{[show NS]
+South is to play 4\H. West leads the \H7.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -127,6 +94,8 @@ You need to find East with the \SA to avoid two losers in the suit. But even if 
 Right now you must lead a \S toward your hand and put up the \SK when East plays low. When this wins the trick return to dummy with a trump and play another \S toward the \SQ. When this also wins you can pull trumps, not before.
 
  for the complete deal. [NEXT]
+
+[RESET]
 
 Here there was no realistic hope of making this contract without playing twice toward your \S K Q.}
 [BCFlags "1f"]
@@ -144,7 +113,8 @@ Here there was no realistic hope of making this contract without playing twice t
 [Auction "S"]
 1D pass 2NT pass 3D pass 5D pass pass pass
 [Result ""]
-{South is to play 5\D. West leads the \CT. You play dummy's \CJ and East puts on the \CK.
+{[show NS]
+South is to play 5\D. West leads the \CT. You play dummy's \CJ and East puts on the \CK.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -161,6 +131,8 @@ Instead, win the first trick and immediately play your \S toward dummy's \S K Q.
 And then, with that important job done, you can lead trumps.
 
 for the full deal. [NEXT]
+
+[RESET]
 
 Suppose West's opening lead was a \S, a \H or a \D. You would have still had the same 3 losers, but now the \C loser would have been "very slow". So slow that you could start on trumps before working on the \Ss.
 
@@ -180,7 +152,8 @@ In other words, with one of these opening leads a mediocre player, one who had n
 [Auction "S"]
 1D pass 1H pass 1S pass 3D pass 4C pass 4H pass 6D pass pass pass
 [Result ""]
-{The 4\C and 4\H bids were control-showing. South is to play 6\D. West leads the \CJ.
+{[show NS]
+The 4\C and 4\H bids were control-showing. South is to play 6\D. West leads the \CJ.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -196,7 +169,11 @@ Win the \C. Play the \DA and \DK, forgetting about even trying the finesse. If t
 
  for the complete deal. [NEXT]
 
+[RESET]
+
 again to see what would have happened if you had finessed in trumps. [NEXT]
+
+[PLAY N:DA,N:D5,N:D4,N:C2,S:DK,S:DJ,S:D3,S:CK]
 
 You need the rest of the tricks but the best you can do now is to take the two high \Cs, the two high \Hs, the two high \Ss, one \H ruff in your hand and one \S ruff in dummy. Letting West pull that third round of trumps did you in.
 
@@ -220,7 +197,8 @@ Needing just three more tricks, and with two trumps in each hand you just cross-
 [Auction "N"]
 1C pass 1S pass 1NT pass 2D pass 2S pass 4S pass pass pass
 [Result ""]
-{South's 2\D bid was New Minor Forcing, asking if North has 3 \Ss. North's 2\S response said "Yes, I have."South is to play 4\S. West leads the \HQ.
+{[show NS]
+South's 2\D bid was New Minor Forcing, asking if North has 3 \Ss. North's 2\S response said "Yes, I have."South is to play 4\S. West leads the \HQ.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -254,7 +232,8 @@ But you don't have to lose anything else as long as you don't lose trump control
 [Auction "S"]
 2C pass 2D pass 2S pass 3H pass 6S pass pass pass
 [Result ""]
-{South is to play 6\S. West leads the \DQ.
+{[show NS]
+South is to play 6\S. West leads the \DQ.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -267,6 +246,8 @@ But those two minor suit losers are definite UNLESS you can somehow get to dummy
 Yes you can get to dummy, in the trump suit. Win the opening \D lead. Unblock the \HA before touching trumps. Play a SMALL trump toward dummy. A defender will surely take his \SJ here, and play another \D. Win that trick and play another small \S. This one will get you into dummy. And by the way, West discards a \D so it turns out you were going to lose a trump in any case. Play dummy's \H K Q, discarding your two minor losers. Ruff a \H to return to your hand, pull trumps and claim.
 
 to see the full deal. [NEXT]
+
+[RESET]
 
 By establishing the \S entry to dummy you can discard the \D and \C.
 
@@ -290,7 +271,8 @@ So you give up a trump trick and gain two \H tricks in return. What a deal.}
 [Auction "S"]
 1C pass 1NT pass 3C pass 4C pass 5C pass pass pass
 [Result ""]
-{South is to play 5\C. West leads the \SJ.
+{[show NS]
+South is to play 5\C. West leads the \SJ.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -324,7 +306,8 @@ So you couldn't pull that one round of trumps because you couldn't waste either 
 [Auction "S"]
 1H pass 2C pass 3H pass 4H pass pass pass
 [Result ""]
-{South is to play 4\H. West leads the \DK.
+{[show NS]
+South is to play 4\H. West leads the \DK.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -337,6 +320,8 @@ Bad news. West discards a \D on the second \H lead. Time for a change in plans? 
 Actually, no. East has 2 master trumps at this point but you still have \H 9 7 5 3. So use one of your little ones to drive out East's \HJ. He will probably force you to ruff a \D, leaving you with \H 9 7. Use one of them to force out East's \HQ. You still have a trump left to stop their \Ds, and as soon as you get the lead you can now run dummy's \C suit safely.
 
 for the complete deal. [NEXT]
+
+[RESET]
 
 He would have ruffed the third \C, before you could discard a \S loser from your hand. You would lose two trumps and two \Ss.}
 [BCFlags "1f"]
@@ -354,7 +339,8 @@ He would have ruffed the third \C, before you could discard a \S loser from your
 [Auction "S"]
 1S pass 3S pass 4S pass pass pass
 [Result ""]
-{South is to play 4\S. West leads the \CJ.
+{[show NS]
+South is to play 4\S. West leads the \CJ.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -369,6 +355,8 @@ The correct procedure is to win the \CA, and immediately play a \D to dummy's \D
 Only then do you lead trumps.
 
 for the full deal. [NEXT]
+
+[RESET]
 
 When you need to do something else first - in this case, to establish a \Ds winner early.}
 [BCFlags "1f"]
@@ -386,7 +374,8 @@ When you need to do something else first - in this case, to establish a \Ds winn
 [Auction "S"]
 1H pass 1S pass 2D pass 3H pass 4H pass pass pass
 [Result ""]
-{South is to play 4\H. West leads the \SK, taken by dummy's \SA.
+{[show NS]
+South is to play 4\H. West leads the \SK, taken by dummy's \SA.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -406,6 +395,8 @@ You win 3 \Ds, 3 \Hs in dummy, the \SA and 3 \S ruffs in your hand. Total: T tri
 
 for the complete deal. [NEXT]
 
+[RESET]
+
 For a Dummy Reversal to work you usually have to have a decent trump split.}
 [BCFlags "1f"]
 [Play "W"]SK
@@ -422,7 +413,8 @@ For a Dummy Reversal to work you usually have to have a decent trump split.}
 [Auction "S"]
 1H pass 2H pass 4H pass pass pass
 [Result ""]
-{South is to play 4\H. West leads the \DK.
+{[show NS]
+South is to play 4\H. West leads the \DK.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -435,6 +427,8 @@ Or, you could try to get to dummy with a trump to the \HJ so you could make the 
 Forget the \C finesse. Forget pulling trumps. Win the first trick and play any \C from your hand. Let's say you play the \CJ. A defender wins the \CK and attacks \Ss. Too late, you are in the driver's seat. Win the \SA, play a \C to your \CQ, and then play the \CA, discarding a \S from dummy. You lose the Ace of trumps, one \C, and just one \S.
 
 to see the full deal. [NEXT]
+
+[RESET]
 
 Trying to sneak into dummy with a trump might have worked.
 
@@ -454,7 +448,8 @@ Playing a \C from your hand at the second trick WILL work.}
 [Auction "S"]
 2H pass 4H pass pass pass
 [Result ""]
-{South is to play 4\H. West leads the \CK which you win with dummy's \CA.
+{[show NS]
+South is to play 4\H. West leads the \CK which you win with dummy's \CA.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -472,6 +467,8 @@ Any problem with that? Yes, a big problem. East might be out of \Ds also. If you
 
 to see the full deal. [NEXT]
 
+[RESET]
+
 Did you notice that West is a pretty good defender? Playing the \DQ on the third round just might have convinced you that he was short in \Ds, in which case ruffing with the low trump would have been safe.}
 [BCFlags "1f"]
 [Play "W"]CK
@@ -488,7 +485,8 @@ Did you notice that West is a pretty good defender? Playing the \DQ on the third
 [Auction "S"]
 1S pass 2S pass 4S pass pass pass
 [Result ""]
-{South is to play 4\S. West leads the \HA, then the \HK, then \HT.
+{[show NS]
+South is to play 4\S. West leads the \HA, then the \HK, then \HT.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -499,6 +497,8 @@ The 2 \Hs are already lost, so you put your mind to the 2 \Cs. If the suit split
 Ruff the third \H. Then play \C A K 3. West discards a \H on the third \C which East wins. East will probably return his last \C at this point, hoping West can ruff higher than dummy's \S9. But he cannot, so you ruff in dummy, pull trumps and claim the rest.
 
 for the complete Deal. [NEXT]
+
+[RESET]
 
 But, it was a good plan because dummy held the \S9. Keep that in mind when you look at Deal 15.}
 [BCFlags "1f"]
@@ -516,7 +516,8 @@ But, it was a good plan because dummy held the \S9. Keep that in mind when you l
 [Auction "S"]
 1S pass 2S pass 4S pass pass pass
 [Result ""]
-{This is identical to Deal 14 except dummy has the \S4 in place of the \S9. South is to play 4\S. West leads the \HA, then the \HK, then \HT.
+{[show NS]
+This is identical to Deal 14 except dummy has the \S4 in place of the \S9. South is to play 4\S. West leads the \HA, then the \HK, then \HT.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -531,6 +532,8 @@ Suppose you ruff the third \H, pull just two rounds of trumps, then play \C A K 
 But this way will work. Ruff the third \H and duck a \C! Win any return and now pull two rounds of trumps. Then play \C A K 6, ruffing the \C6 with dummy's last trump. The rest of the tricks are yours.
 
 for the complete deal. [NEXT]
+
+[RESET]
 
 But you also had to be extremely clever to pull it off. This is probably the hardest Deal in this section.}
 [BCFlags "1f"]
@@ -548,7 +551,8 @@ But you also had to be extremely clever to pull it off. This is probably the har
 [Auction "N"]
 1D pass 1S pass 2S pass 4S pass pass pass
 [Result ""]
-{South is to play 4\S. West leads the \CK.
+{[show NS]
+South is to play 4\S. West leads the \CK.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -586,7 +590,8 @@ This time it worked, another time it might not.}
 [Auction "E"]
 pass 1H pass 2H pass 4H pass pass pass
 [Result ""]
-{South is to play 4\H. West leads the \H3.
+{[show NS]
+South is to play 4\H. West leads the \H3.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -601,6 +606,8 @@ So win the \HJ in dummy. Uh-Oh, East discards a \S. Now play the \SQ and when Ea
 West now leads the \H7. You cover with dummy's \H8 knowing the finesse will win. Next you play dummy's \SJ, covered by East and ruffed by you (if East didn't cover you would throw another \C loser). Now enter dummy with the \HQ, pulling West's last trump at the same time. Discard your 2 \Cs on the \S T 9 and try the \D finesse for an overtrick.
 
 for the complete deal. [NEXT]
+
+[RESET]
 
 Just the fact that you had to use the trump suit for entries to dummy, and therefore couldn't immediately pull trumps.}
 [BCFlags "1f"]
@@ -618,7 +625,8 @@ Just the fact that you had to use the trump suit for entries to dummy, and there
 [Auction "E"]
 pass 1S pass 1NT pass 4S pass pass pass
 [Result ""]
-{Make a Plan, then click NEXT. [NEXT]
+{[show NS]
+Make a Plan, then click NEXT. [NEXT]
 
 Losers:   \S = 0    \H = 1  \D = 0    \C = 3 Total = 4
 
@@ -644,7 +652,8 @@ So here's the Plan. Win the \HA. Pull one round of trumps with the \SA. Play the
 [Auction "S"]
 1S pass 2D pass 3H pass 4H pass 4NT pass 6H pass pass pass
 [Result ""]
-{North's 6\H response to Blackwood showed one Ace and a \S void. South is to play 6\H. West leads the \SQ.
+{[show NS]
+North's 6\H response to Blackwood showed one Ace and a \S void. South is to play 6\H. West leads the \SQ.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -659,6 +668,8 @@ First off, you must get a 3-2 split in trumps because if they don't split 3-2 yo
 At trick two you duck a trump. That's right, you lose a trump trick early. Since you have to lose a trump sometime, you do it at a time when the defenders can't hurt you. So a defender wins the trump trick, but now a \S play won't hurt because dummy still has a trump to ruff with! In fact, whatever they play next you will win, pull the outstanding trumps, then run dummy's \D suit.
 
 for the full deal. [NEXT]
+
+[RESET]
 
 When you have a trump loser but still need to pull their trumps, it may be better for you to lose an early trump trick rather than a later one.}
 [BCFlags "1f"]
@@ -676,7 +687,8 @@ When you have a trump loser but still need to pull their trumps, it may be bette
 [Auction "N"]
 1D pass 1H pass 4NT pass 5D pass 6H pass pass pass
 [Result ""]
-{Agreed that the bidding wasn't much. The final contract is still a good one. South is to play 6\H. West leads the \SJ.
+{[show NS]
+Agreed that the bidding wasn't much. The final contract is still a good one. South is to play 6\H. West leads the \SJ.
 
 Make a Plan, then click NEXT. [NEXT]
 

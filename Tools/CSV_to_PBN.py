@@ -4,7 +4,7 @@ import sys
 import datetime
 import re
 
-VERSION = "1.00"
+VERSION = "1.01"
 
 """
 CSV to PBN Converter Script
@@ -49,13 +49,77 @@ def load_header(header_filename):
             return f.read()
     return ""
 
+# Function to determine initial [show] and [rotate] directives based on student seat
+def get_visibility_directives(student, declarer):
+    """
+    Determine which hands to show and how to rotate based on lesson type.
+
+    For declarer play (student=S, usually declarer):
+        - Show NS (declarer + dummy)
+        - Rotate S (South at bottom, default)
+
+    For opening lead (student=W):
+        - Show W (only the leader's hand)
+        - Rotate W (West at bottom)
+
+    For third hand play (student=E):
+        - Show E (only third hand)
+        - Rotate E (East at bottom)
+
+    Returns tuple of (show_directive, rotate_directive)
+    """
+    if student == "W":
+        return "[show W]", "[rotate W]"
+    elif student == "E":
+        return "[show E]", "[rotate E]"
+    elif student == "N":
+        return "[show N]", "[rotate N]"
+    else:  # Default: student is South (declarer play)
+        # For declarer play, show declarer + dummy (NS)
+        return "[show NS]", None  # No rotate needed, S at bottom is default
+
+# Function to inject [show NESW] before final reveal
+def inject_final_show(analysis):
+    """
+    Look for patterns indicating the full deal should be revealed, and inject [show NESW].
+    Common patterns:
+    - "see the complete deal"
+    - "see the hands"
+    - "see all four hands"
+    """
+    reveal_patterns = [
+        (r'(Click.*?NEXT.*?to see the complete deal)', r'[show NESW]\n\1'),
+        (r'(Click.*?NEXT.*?to see the hands)', r'[show NESW]\n\1'),
+        (r'(Click.*?NEXT.*?to see all)', r'[show NESW]\n\1'),
+    ]
+
+    for pattern, replacement in reveal_patterns:
+        if re.search(pattern, analysis, re.IGNORECASE):
+            analysis = re.sub(pattern, replacement, analysis, flags=re.IGNORECASE)
+            break
+
+    return analysis
+
 # Function to process analysis field
-def process_analysis(analysis):
+def process_analysis(analysis, student=None, declarer=None):
     if analysis:
         analysis = analysis.replace('!S', '\\S').replace('!H', '\\H')\
                            .replace('!D', '\\D').replace('!C', '\\C')\
                            .replace('\\n', '\\n\\n')    # double the line breaks - somehow BridgeComposer doesn't handle single breaks well
         analysis = "\n".join(analysis.split("\\n"))  # Ensure proper newline conversion
+
+        # Inject visibility directives
+        if student:
+            show_directive, rotate_directive = get_visibility_directives(student, declarer)
+            prefix = show_directive
+            if rotate_directive:
+                prefix += "\n" + rotate_directive
+            prefix += "\n"
+            analysis = prefix + analysis
+
+        # Inject final [show NESW] if there's a reveal trigger
+        analysis = inject_final_show(analysis)
+
         return "{" + analysis + "}"
     return ""
 
@@ -118,9 +182,9 @@ def convert_csv_to_pbn(csv_filename, header_filename=None, source_filename=None)
             dealer = abbreviate_position(row.get("Dealer", ""))
             declarer = abbreviate_position(row.get("Declarer", ""))
             contract = row.get("Contract", "")
-            analysis = process_analysis(row.get("Analysis", ""))
-            lead = process_lead(row.get("Lead", ""), declarer)
             student = abbreviate_position(row.get("Student", ""))
+            analysis = process_analysis(row.get("Analysis", ""), student, declarer)
+            lead = process_lead(row.get("Lead", ""), declarer)
             
             if "/" in subfolder:
                 subfolder_path, filename = os.path.split(subfolder)
