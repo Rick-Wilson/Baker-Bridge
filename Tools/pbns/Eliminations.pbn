@@ -1,5 +1,5 @@
 %Creator: CSVtoPBN Version 1.01
-%Created: 2026-02-04 17:08:04
+%Created: 2026-02-04 17:20:43
 %sourcefilename BakerBridge.csv
 %HRTitleEvent Eliminations
 [Board "1"]
@@ -21,6 +21,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+This \D holding is the first example shown in the introduction.
+
 With one certain \H loser you cannot afford to lose a \D also. You could guess which way to finesse and be correct half of the time. But an elimination play will work ALL of the time.
 
 Win the first trick and play \SA, \SK. Trumps split 2-1.
@@ -29,11 +31,15 @@ Click NEXT to see the result of these plays. [NEXT]
 
 [PLAY N:SK,N:S4,N:H4,S:SA,S:S3,S:HA]
 
+
+
 Next play three rounds of \Cs to eliminate that suit from both your and dummy's hand.
 
 Click NEXT. [NEXT]
 
 [PLAY N:CK,N:C8,N:C2,S:CA,S:CQ,S:C5]
+
+
 
 With all the eliminations completed you are ready for the throw-in. Lead a \H from either hand. One of the defenders will win, (you don't care which), and will be end-played.
 
@@ -41,12 +47,16 @@ Click NEXT. [NEXT]
 
 [PLAY N:H6,S:H3]
 
+
+
 The defender who won the last trick cannot lead a trump because he has none. If he leads a \H or a \C you will get a ruff-sluff, ruffing in one hand while discarding a \D loser from the other. If he leads a \D you will get the free finesse you were hoping for all along.
 
 [show NESW]
 Click NEXT to see all the hands. [NEXT]
 
 [show NESW]
+
+If you finesse East for the \DQ you make the contract, but if you finesse West for that card you go down.
 
 With an elimination play you make it no matter who holds the Queen.}
 [BCFlags "1f"]
@@ -71,6 +81,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+This \D holding is the second example shown in the introduction.
+
 This should remind you a lot of Deal 1. This time you have 1 \H loser and 3 \D losers. If you can force the opponents to lead \Ds you can make a trick with the \DQ or \DJ, avoiding one of those losers.
 
 Win the first trick and play \SA, \SK. Trumps split 2-1.
@@ -79,17 +91,23 @@ Click NEXT. [NEXT]
 
 [PLAY N:SK,N:S4,N:H4,S:SA,S:S3,S:HA,S:D5]
 
+
+
 Next play three rounds of \Cs to eliminate that suit from you and dummy.
 
 Click NEXT. [NEXT]
 
 [PLAY N:CQ,N:C8,N:C2,S:CA,S:CK,S:C5]
 
+
+
 The eliminations are complete and it is time for the throw-in. Play the small \H from whichever hand you are in. This will be taken by one of the defenders.
 
 Click NEXT. [NEXT]
 
 [PLAY N:H6,S:H3]
+
+
 
 No matter which defender wins the \H he is end-played. A \H or a \C will give you a ruff-sluff, but if he leads a \D you cannot be prevented from establishing either your \DQ or \DJ as a winner.
 
@@ -100,6 +118,8 @@ Click to see the full deal. [NEXT]
 [show NESW]
 
 [PLAY S:D6]
+
+If you try to make a \D trick on your own you will fail. The first defender will play "second-hand-low" and the other defender will take your \DQ (or \DJ).
 
 Only by forcing them to start the \Ds can you take a trick in the suit. }
 [BCFlags "1f"]
@@ -124,6 +144,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+This \D holding is the third example shown in the introduction.
+
 This is another follow-up to Deal 1. But this time you are missing both the \DQ and \DJ. In this case an Elimination play doesn't give you a guarantee, it just improves your odds.
 
 Win the first trick and play \SA, \SK. Trumps split 2-1.
@@ -132,17 +154,23 @@ Click NEXT. [NEXT]
 
 [PLAY N:SK,N:S4,N:H4,N:CK,N:C2,S:SA,S:S3,S:HA,S:CQ]
 
+
+
 Play three rounds of \Cs to eliminate the suit from you and dummy.
 
 Click NEXT. [NEXT]
 
 [PLAY N:CQ,N:CJ,N:C8,S:CA,S:CK,S:C5]
 
+
+
 Now execute the throw-in by leading a \H from either hand.
 
 Click NEXT. [NEXT]
 
 [PLAY N:H6,S:H3]
+
+
 
 The defender who gets thrown in cannot play a \H or a \C without handing you the contract by way of a ruff-and-sluff. So he must lead a \D. Suppose it is West who leads the \D. You play low in dummy and East must play either the \DQ or \DJ to keep you from getting a cheap trick with your \D9. So you take East's honor with your \DA and then finesse West for the other honor. As long as the \DQ and \DJ are in different hands the elimination play will succeed.
 
@@ -151,6 +179,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+Against good defenders there is no way you can make all three \D tricks if you make the first play in the suit. This assumes that if one defender held both the \DQ and \DJ he would "split" the honors if you tried to lead through them. 
 
 By forcing them to start the \Ds you make three tricks when the two outstanding honors are divided. }
 [BCFlags "1f"]
@@ -175,11 +205,13 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
-Win the \DK, then pull trumps, it takes two rounds.
+With three unavoidable \S losers you cannot afford to lose a \C. So you either have to guess the location of the\CQ or (DRUMROLL) pull off an elimination play! Win the \DK, then pull trumps, it takes two rounds.
 
 Click NEXT. [NEXT]
 
 [PLAY N:HK,N:H2,N:D4,S:HA,S:H3,S:DK]
+
+
 
 Next you eliminate the \Ds by playing \DA then ruffing the \D8.
 
@@ -187,11 +219,15 @@ Click NEXT. [NEXT]
 
 [PLAY N:DA,N:D8,S:H7,S:D6]
 
+
+
 Execute the throw-in by leading a \S.
 
 Click NEXT. [NEXT]
 
 [PLAY N:S3,S:S5]
+
+
 
 The defense is in with a \S and they are welcome to take two more \Ss. But then they will to have to play a \S or a \D, giving you a ruff-sluff, or else lead a \C which finds the \CQ for you.
 
@@ -200,6 +236,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+Using elimination plays makes you a better player. But in Bridge, no matter how skillful you are, there will always be a luck factor.
 
 Here you were lucky the defense didn't start by taking their three \Ss. If they had, you would not have been able to pull off the throw-in, and would have had to try your luck with  guessing who had the \CQ. }
 [BCFlags "1f"]
@@ -226,6 +264,8 @@ Make a Plan, then click NEXT. [NEXT]
 
 [PLAY N:DK,N:DQ,S:D9,S:D3]
 
+
+
 You still have two losers in the \H suit, so the question is which way you plan to finesse the \Cs. And of course the answer is that you don't plan to finesse them at all!
 
 Pull trumps with the \SA, then \SK. Next ruff dummy's last \D.
@@ -234,17 +274,23 @@ Click NEXT. [NEXT]
 
 [PLAY N:SK,N:S4,N:D6,S:SA,S:S5,S:S2]
 
+
+
 Now exit with a \H. The defenders win this and take another \H trick, leaving this position.
 
 Click NEXT. [NEXT]
 
 [PLAY N:HQ,N:H7,S:HT,S:H4]
 
+
+
 They must now break the \C suit for you or give you a ruff-sluff. Of course you would ruff in dummy and discard a \C from the 3-card holding in your hand.
 
 Click to see all four hands. [NEXT]
 
 [show NESW]
+
+If East is the one who has to play a \C you just let it ride around to dummy's \C K J T 3.  
 
 If West is the one who has to play a \C you need to insert the \CT or \CJ from dummy.
 
@@ -273,6 +319,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+Your first thought is probably that if you can guess the \CQ you will make all thirteen tricks.
+
 So you win the \DK and play a \S to your \SK. When West discards a \D your second thought is probably that you MUST guess the \CQ just to make twelve tricks.
 
 Hopefully your third thought is that if you use an elimination play you won't have to guess.
@@ -281,11 +329,15 @@ Click NEXT. [NEXT]
 
 [PLAY N:S2,N:DK,S:SK,S:D3]
 
+
+
 Play your \SA, leaving East with the master \SQ. Then eliminate \Ds by playing \DA and ruffing a \D in dummy.
 
 Click NEXT. [NEXT]
 
 [PLAY N:S4,N:S3,N:D8,S:SA,S:DA,S:D6]
+
+
 
 Now eliminate \Hs by playing \HA, \HK, and ruffing a \H.
 
@@ -293,11 +345,15 @@ Click NEXT. [NEXT]
 
 [PLAY N:HK,N:H5,N:H2,S:S5,S:HA,S:H4]
 
+
+
 You are ready for the throw-in. Play a \S to East's \SQ.
 
 Click NEXT. [NEXT]
 
 [PLAY N:S6,S:S7]
+
+
 
 East has just taken the defender's first trick. First and only. Because if he now plays a red card you will ruff in one hand and discard a losing \C from the other. And if he plays a \C you will no longer have a \C loser.
 
@@ -306,6 +362,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+Most elimination plays work on the same principle. The biggest difference is usually the technique you have to use to complete the eliminations. 
 
 Here it took two ruffs, one in each hand.}
 [BCFlags "1f"]
@@ -334,17 +392,23 @@ Make a Plan, then click NEXT. [NEXT]
 
 [PLAY N:S8,N:S3,S:ST,S:S5]
 
+In addition to the two \Ss already lost you have a potential loser in each minor suit. On the plus side, you have a finesse position in \Ds and a two-way finesse in \Cs. If you work both finesses successfully you make an overtrick - if both fail you will be down 1. Or, you could try for a T0% sure end-play.
+
 Ruff the \SA with dummy's \HT and pull trumps (three rounds).
 
 Click NEXT. [NEXT]
 
 [PLAY N:HK,N:HQ,N:HT,N:H2,S:SJ,S:HA,S:H6,S:H4]
 
+
+
 Eliminate \Ds by playing \DK, \DA, \DJ. If you are REALLY lucky the \DQ will fall doubleton, but more than likely a defender will win the third \D. He won't be happy about it, though.
 
 Click NEXT. [NEXT]
 
 [PLAY N:DK,N:D9,N:D5,S:DA,S:DJ,S:D7]
+
+
 
 Whichever defender wins the \DQ is end-played. If he plays a \D or a \S you will ruff in one hand and discard a \C loser from the other. But if he leads a \C instead you no longer have a \C loser.
 
@@ -353,6 +417,8 @@ Clickfor the complete deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+On this Deal an elimination play will guarantee that you make your contract.
 
 However, it also guarantees that you will not make an overtrick.
 
@@ -381,11 +447,15 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+If the contract appears to depend upon a finesse, try to find another way. Here, you can always try the \C finesse, but maybe you can eliminate \Ss and see what happens.
+
 Win the \SA, play the \D4 to the \DT, and ruff a \S with the \DQ. Both opponents followed to the trump. 
 
 Click NEXT. [NEXT]
 
 [PLAY N:SA,N:DQ,N:D4,S:S6,S:S2,S:DT]
+
+
 
 Play the \D7 to the \DJ and ruff the last \S with the \DK.
 
@@ -393,11 +463,15 @@ Click NEXT. [NEXT]
 
 [PLAY N:DK,N:D9,N:D7,S:S8,S:DJ]
 
+
+
 Having eliminated the \Ds and \Ss, now remove the \Hs. Play \HA, \HK, and ruff a \H. 
 
 Click NEXT. [NEXT]
 
 [PLAY N:HA,N:HK,N:H6,S:HJ,S:H3,S:D5]
+
+
 
 At last it is time to play \Cs. Lead a \C from your hand and play dummy's \C9 if West plays low. East will win the trick but will be end-played, forced to either play a \C back to dummy's \C A Q, or give you a ruff-sluff. 
 
@@ -408,6 +482,8 @@ Click for the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+The A Q 9 combination is interesting. Obviously if you have A Q T it works very well in an end-play situation. 
 
 As you see, A Q 9 actually works just as well.}
 [BCFlags "1f"]
@@ -432,11 +508,15 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+You have two \D losers that you can't escape, as well as the \SA. So you must arrange your play so you don't lose a trick to the \SJ. That could mean you will finesse one defender for that card, but it would be a lot better if you could make the defense play \Ss first.
+
 There is no reason to hold up so take your \DA and pull trumps, East showing up with three of them.
 
 Click NEXT. [NEXT]
 
 [PLAY N:HA,N:H6,N:H3,N:DA,S:HK,S:HQ,S:H2,S:D4]
+
+
 
 Now eliminate \Cs by playing \CA, \CK, and ruffing a \C.
 
@@ -444,11 +524,15 @@ Click NEXT. [NEXT]
 
 [PLAY N:CK,N:C6,N:C4,S:H8,S:CA,S:C3]
 
+
+
 The stage is now set for the throw-in. Be SURE to lead a \D for the throw-in, not a \S.
 
 Click NEXT. [NEXT]
 
 [PLAY N:D2,S:D5]
+
+
 
 The defense will win the \D and can then take another \D trick if they like. But then they will have to play a \S (or give you a ruff-sluff). And as long as they start the \Ss you are assured that you will lose only one \S trick, the \SA.
 
@@ -457,6 +541,8 @@ Clickfor the complete deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+Assume West is on lead for the first \S play.
 
 If he leads the \SA it sets up both the \SK and \SQ so you only have one \S loser. If he leads low you also play low from dummy and East must play the \SJ to prevent you getting a trick with the \ST. Again you only lose one \S.
 
@@ -485,11 +571,13 @@ Make a Plan, then click NEXT. [NEXT]
 
 [PLAY N:H3,S:HA]
 
-The bad news is that you have two losers in \Cs. The good news is that missing the \C K Q you could try two finesses. The bad news is that West overcalled, so he probably has both honors. The best news of all is that you know how to pull off an elimination play!. Play a trump to dummy's \DK (West discards a \H) and ruff the \H5.
+The good news is that you have no losers in \Ss, \H, or \Ds. The bad news is that you have two losers in \Cs. The good news is that missing the \C K Q you could try two finesses. The bad news is that West overcalled, so he probably has both honors. The best news of all is that you know how to pull off an elimination play!. Play a trump to dummy's \DK (West discards a \H) and ruff the \H5.
 
 Click NEXT. [NEXT]
 
 [PLAY N:H5,N:DK,S:D4,S:D3]
+
+
 
 Pull the outstanding trump with the \DA, then play \SA, \SK and ruff a \S.
 
@@ -497,11 +585,15 @@ Click NEXT. [NEXT]
 
 [PLAY N:SK,N:S7,N:S2,N:D5,S:SA,S:SJ,S:DA,S:D7]
 
+
+
 You want to play the first \C from dummy, so enter dummy with a trump.
 
 Click NEXT. [NEXT]
 
 [PLAY N:DJ,S:D8]
+
+
 
 Play the \CT from dummy and let it ride if East does not produce the \CQ or \CK. West will win with one of the honors but will have to return another \C or give you a ruff-sluff.
 
@@ -510,6 +602,8 @@ Clickfor the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+When you are missing the K Q of a suit, as in the \Cs on this hand, taking two finesses gives you a 75% chance of success - all things being equal.  
 
 In this case though, West's overcall means all things are not equal, so your chances are lower than 75%.
 
@@ -538,11 +632,15 @@ Make a Plan, then click NEXT. [NEXT]
 
 [PLAY N:S3,N:S2,S:SK,S:S4]
 
+You have lost one trick already and have a possible loser in trumps and another possible loser in \Hs. Both loserscan be avoided with successful finesses. The problem with the \C finesse is that West made an overcall so he is more likely to hold the \CK. If you don't try the \C finesse you may be able to throw a defender in with the \CK at a time when he will have to help you with his next play.
+
 After winning the \SK immediately play the \CA.
 
 Click NEXT. [NEXT]
 
 [PLAY N:C3,S:CA]
+
+
 
 It would have been nice to see the \CK fall, but it didn't. So play a small \D to dummy's \DA and play the \S9, ruffing in your hand.
 
@@ -550,17 +648,23 @@ Click NEXT. [NEXT]
 
 [PLAY N:S9,N:DA,S:D5,S:C2]
 
+
+
 Eliminate the \Ds by playing \DK, then ruffing your last \D in dummy.
 
 Click NEXT. [NEXT]
 
 [PLAY N:D4,N:C7,S:DK,S:D9]
 
+
+
 You have done all the eliminating, time to throw in somebody. Play a \C.
 
 Click NEXT. [NEXT]
 
 [PLAY N:C8,S:C6]
+
+
 
 Whichever defender had the \CK is now on lead, but wishes he wasn't. If he plays a \H  you get a free finesse. If he plays anything else you get a ruff-sluff.
 
@@ -569,6 +673,8 @@ Clickfor the complete deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+If you had finessed for the \CK West would have won the trick and been able to make a safe exit, probably with his other \C.
 
 You would then have been forced to rely on the \H finesse, and with West being the defender who showed some strength, you would likely have finessed through him.
 
@@ -597,11 +703,15 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+This is a good slam. You have only two possible \C losers, and by taking two \C finesses you have an excellent chance of success. But by using an elimination play you will have a sure thing. 
+
 Win the \SA and ruff a \S with a \H honor.
 
 Click NEXT. [NEXT]
 
 [PLAY N:SA,N:S2,S:S5,S:HJ]
+
+
 
 Play a small \H to dummy's \H9 and ruff another \S. Both defenders followed to the trump play.
 
@@ -609,11 +719,15 @@ Click NEXT. [NEXT]
 
 [PLAY N:S6,N:H9,S:H4,S:H3]
 
+
+
 Play another \H to dummy's \HT and ruff the last \S.
 
 Click NEXT. [NEXT]
 
 [PLAY N:S8,N:HT,S:H7,S:H5]
+
+
 
 Play the \DA and \DK.
 
@@ -621,11 +735,15 @@ Click NEXT. [NEXT]
 
 [PLAY N:DA,N:DK,S:DQ,S:D5]
 
+
+
 Conveniently in dummy, you play a \C and insert the \CT if East plays low.
 
 Click NEXT. [NEXT]
 
 [PLAY N:C3,S:CT]
+
+
 
 West will probably win this trick. If he wins with the \CK then your hand is good. If he wins with the \CJ then he is end-played, forced to either lead a \C into your \C A Q or to give you a ruff-sluff.
 
@@ -634,6 +752,8 @@ Clickfor the complete Deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+You probably noticed that you could have finessed your \CQ on the first \C play and pulled off the end-play just as effectively. But there is an advantage to making the first finesse with the \CT.
 
 If East just happens to hold both the \CK and \CJ you will make all thirteen tricks if your first finesse is with the \CT!}
 [BCFlags "1f"]
@@ -660,17 +780,23 @@ Make a Plan, then click NEXT. [NEXT]
 
 [PLAY N:H5,S:HQ]
 
+You have one trick already in the bag, four more to come in \Cs, and three other Aces. So all you have to do it get one of those finesse positions to come through. By now, though, you must have figured that nothing is going to work! Even your best shot, East holding at least one of \S K Q will not happen. The answer (again) is to eliminate, then throw in.
+
 This time there is only one suit you can eliminate, \Cs. So play all four \Cs, ending in dummy. They split 3-2.
 
 Click NEXT. [NEXT]
 
 [PLAY N:CA,N:CQ,N:C8,N:C4,S:CK,S:CJ,S:C7,S:C5]
 
+
+
 You now play the \SJ from dummy and let it ride when East follows with a low card. (If East had covered you would win the Ace then set up a second trick in the suit.)West wins with the \SQ, and guess what?
 
 Click NEXT. [NEXT]
 
 [PLAY N:SJ,S:S6]
+
+
 
 HE IS ENDPLAYED!. He has no \Cs, and whichever other suit he plays will give you your ninth trick! 
 
@@ -681,7 +807,7 @@ Click NEXT to see the complete deal. [NEXT]
 
 [show NESW]
 
-}
+Wow! End-played at trick #6. }
 [BCFlags "1f"]
 [Play "W"]H2
 
@@ -706,11 +832,15 @@ Make a Plan, then click NEXT. [NEXT]
 
 [PLAY N:H6,S:HA]
 
+With three possible losers in \Ds you might first think that you will have to finesse one of the defenders for the trump Queen. But anytime you see an unsupported Jack opposite an unsupported Queen you should start thinking about a throw-in play. And what better card to use for the throw-in than the Queen of trumps.
+
 So pull two rounds of trumps with the \SA and \SK, hoping the \SQ falls. She doesn't fall, but both defenders do follow suit. So the \SQ is the only trump outstanding.
 
 Click NEXT. [NEXT]
 
 [PLAY N:SA,N:S2,S:SK,S:S5]
+
+
 
 Next eliminate \Hs from you and dummy by playing the \HK.
 
@@ -718,17 +848,23 @@ Click NEXT. [NEXT]
 
 [PLAY N:H9,S:HK]
 
+
+
 Now play four rounds of \Cs to eliminate that suit. If a defender decides to ruff one of these \Cs with the master trump he will be end-played, forced to either play a \D or to give you a ruff-sluff. So assume that all four \Cs win tricks.
 
 Click NEXT. [NEXT]
 
 [PLAY N:CQ,N:CJ,N:C9,N:C5,S:CA,S:CK,S:C7,S:C4]
 
+
+
 Now you administer the coup de gras, you lead a trump.
 
 Click NEXT. [NEXT]
 
 [PLAY N:S7,S:S6]
+
+
 
 One of the defenders has won the \SQ. Too bad for him. If he now plays a \D you will make either the \DQ or \DJ. If he plays a \H you will ruff in one hand and discard a \D loser from the other.
 
@@ -738,6 +874,8 @@ Click NEXT to see the complete deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+It is clear that the elimination play saved you having to guess the finesse for the \SQ.  
 
 But what if you considered yourself a really good guesser? So good that you felt confident in taking the finesse, and so good that you pulled it off successfully. 
 
@@ -764,6 +902,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+You wish, you hope, you may even pray, but when you play the \SQ East covers with the \SK. So you know you have a \S loser. And unless East holds the \DQ you might have a \D loser also.
+
 Perhaps an elimination play will improve your chances. Don't lead a trump yet though, you're going to need several entries to dummy to eliminate the \Hs. 
 
 Win the \S, play to the \HA and ruff a \H.
@@ -772,11 +912,15 @@ Click NEXT. [NEXT]
 
 [PLAY N:SQ,N:HA,N:H2,S:SA,S:H5,S:C9]
 
+
+
 Play a trump to dummy's \CJ (both defenders follow) and ruff another \H high.
 
 Click NEXT. [NEXT]
 
 [PLAY N:H6,N:CJ,S:CT,S:C3]
+
+
 
 Play to dummy's \CA, pulling their last trump, and ruff the last \H.
 
@@ -784,17 +928,23 @@ Click NEXT. [NEXT]
 
 [PLAY N:HJ,N:CA,S:C6,S:C4]
 
+
+
 Now execute the throw-in by leading a \S. If West wins the trick he will have to play \Ds for you or give you a ruff-sluff. So if these are competent defenders they will make sure that it is EAST who wins the \S trick. So he does, and he plays a small \D.
 
 Click NEXT. [NEXT]
 
 [PLAY N:S5,S:S4]
 
+
+
 DO NOT PLAY THE JACK! If the finesse is going to work now it will still work one trick later. By playing low you take advantage of the possibility that East held the \DT and West will have to put on the \DQ to prevent you taking a trick with dummy's \D9.
 
 Click to see the Deal. [NEXT]
 
 [show NESW]
+
+Many elimination endings give you a sure thing. Others just improve your chances.  
 
 Here you had two chances. First, West might have HAD to win the throw-in, either because he had all of the high \Ss, or more likely because he messed up. The second chance paid off when East took the throw-in but you found a fortunate position with the \Ds.}
 [BCFlags "1f"]
@@ -819,9 +969,13 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+You have one certain \D loser, and a two-way finesse for the \SQ. That should make you start thinking about elimination and throw-in. So win the \DA and pull trumps, West having a singleton.
+
 Click NEXT. [NEXT]
 
 [PLAY N:D4,N:CK,N:C8,N:C4,S:DA,S:CJ,S:CT,S:C2]
+
+
 
 Now eliminate \Hs from your hand and dummy by playing \HK, \HA, \HJ. BUT BE CAREFUL! On the \HJ you must discard a \D from dummy so both of you will be out of \Ds at the throw-in.
 
@@ -829,11 +983,15 @@ Click NEXT. [NEXT]
 
 [PLAY N:HK,N:HQ,N:D8,S:HA,S:HJ,S:H5]
 
+
+
 NOW you can execute the throw-in. Play your \D, which eliminates \Ds from both you and dummy and at the same time throws in one of the defenders. Whoever it is will be forced to lead a \S and eliminate your guess for the \SQ or else give you a ruff-sluff, allowing you to ruff in dummy and discard a \S loser from your hand.
 
 Click for the Deal. [NEXT]
 
 [show NESW]
+
+Among Bridge players you often hear about someone (usually Aunt Harriet) who is amazingly lucky at guessing the location of missing Queens.  
 
 Perhaps Aunt Harriet isn't that lucky after all, perhaps she just knows how to perform elimination plays.
 
@@ -860,6 +1018,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+
+
 And it looks like you are too high. Assuming the trumps split 2-1, you still have one \H loser, two \D losers and one \C loser.
 
 You win the \HA and play a \S to your \SK. East discards a \D! 
@@ -867,6 +1027,8 @@ You win the \HA and play a \S to your \SK. East discards a \D!
 Click NEXT. [NEXT]
 
 [PLAY N:S3,N:HA,S:SK,S:H5]
+
+
 
 From bad to worse. Now you must add a \S loser to the four you already had. Are you finished?
 
@@ -878,11 +1040,15 @@ Click NEXT. [NEXT]
 
 [PLAY N:S4,N:DA,N:CK,N:C3,S:SA,S:D2,S:CA,S:C5]
 
+
+
 You've done all you can do. Now play the \HT to West's high \H. 
 
 Click NEXT. [NEXT]
 
 [PLAY N:S5,S:S2]
+
+
 
 West has just won his side's first trick with the \HJ. He now plays the \SQ, winning his side's second trick.
 
@@ -890,11 +1056,15 @@ Click NEXT. [NEXT]
 
 [PLAY N:H3,S:HT]
 
+
+
 Now, West is still on lead, and he has nothing in his hand but good \Hs. So he leads one of them, and you DO NOT RUFF. Instead you discard a \C from dummy and a \D from your own hand. West has now taken his side's third trick. He plays another good \H, and you ruff in dummy and discard the last \D loser from your hand. You can now cross-ruff for the rest of the tricks.
 
 Click to see all the hands. [NEXT]
 
 [show NESW]
+
+Incredible isn't it.  
 
 You just wonder how many bridge players would have just conceded down 2 on this hand.
 
@@ -923,11 +1093,15 @@ Make a Plan, then click NEXT. [NEXT]
 
 [PLAY N:DA,S:D5]
 
+Is this a really easy elimination play showing up this late in the group? Or are you just getting better at seeing them? In any case, you should see that a successful \H finesse will land your contract, but you should also remember that there aren't many finesses working on these 25 deals.
+
 So rather than finesse, eliminate! Pull trumps in two rounds, ending in dummy.
 
 Click NEXT. [NEXT]
 
 [PLAY N:SA,N:S3,S:SK,S:S2]
+
+
 
 Ruff the \D6, then play \CA, \CK, \CQ.
 
@@ -935,11 +1109,15 @@ Click NEXT. [NEXT]
 
 [PLAY N:D6,N:CQ,N:C7,N:C5,S:S4,S:CA,S:CK,S:C3]
 
+
+
 So here you are in dummy. Do you finesse the \H now? Of course not. You play the \DJ and discard a small \H from your hand. West wins his \DQ (which his opening lead told you he held) and is end-played. He must lead a \H to your tenace or give you a ruff-sluff.
 
 Clickfor a view of all four hands. [NEXT]
 
 [show NESW]
+
+The answer to the question posed above is:
 
 Both.  
 
@@ -968,17 +1146,23 @@ Make a Plan, then click NEXT. [NEXT]
 
 [PLAY N:C3,S:CA]
 
+You have four losers. If you are thinking about leading toward your \DK you are delusionary. West has the \DA and you know it. Your best hope is to end-play West with the \CT and force him to break the \Ds. 
+
 Play one round of trumps with the \HA. You can't play any more because you will need an entry to dummy for the elimination.
 
 Click NEXT. [NEXT]
 
 [PLAY N:H4,S:HA]
 
+
+
 Next play \SK, \SA and ruff a \S high.
 
 Click NEXT. [NEXT]
 
 [PLAY N:SA,N:S5,N:S3,S:SK,S:S6,S:HT]
+
+
 
 Lead a \H to dummy's \HQ. West shows out. Play dummy's last \S. East is now void, so if he ruffs you over-ruff. Otherwise you ruff with a small trump.
 
@@ -988,11 +1172,15 @@ Click NEXT. [NEXT]
 
 [PLAY N:S8,N:HQ,N:C8,S:H5,S:H2,S:CT]
 
+
+
 Fortunately West has to take the \CT. Since he has nothing left but \Cs and \Ds he must lead one or the other. A \D lead will give you a trick with your \DK and a \C lead will allow you to ruff in dummy (East still has a \C) and discard a \D from your hand.
 
 Click to see all hands. [NEXT]
 
 [show NESW]
+
+Some problems are tougher than others, this being a tough one.  
 
 It was not a complete elimination since East still had a trump when you threw West in. However, it worked because West was out of both \Ss and \Hs.}
 [BCFlags "1f"]
@@ -1017,9 +1205,13 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+Unless West is real beginner East will hold the \DA so you should not try the \DK on this trick. And when West continues with the \DJ you should again duck in dummy, ruffing with an honor in your hand.
+
 Click NEXT. [NEXT]
 
 [PLAY N:D6,N:D3,S:SQ,S:D7]
+
+
 
 The contract is in danger if East holds the \CA because you would have three \C losers to go with the \D already lost. One really good possibility is that East now has the lone \DA and you can set up dummy's \DK with a ruff.
 
@@ -1029,6 +1221,8 @@ Click NEXT. [NEXT]
 
 [PLAY N:S9,N:D8,S:SK,S:S2]
 
+
+
 Too bad, the \DA did not fall so dummy's \DK is not a winner. But it will still prove to be useful. 
 
 Play the \HA, then ruff a \H in dummy. Play a trump to your \SA and ruff your last \H.
@@ -1037,11 +1231,15 @@ Click NEXT. [NEXT]
 
 [PLAY N:ST,N:S7,N:S5,N:H7,S:SA,S:HA,S:H6,S:H3]
 
+
+
 You are in dummy, just where you want to be. Play the \DK, and when East plays the \DA don't ruff but instead discard a \C from your hand. You knew all along that he held the \DA.
 
 Click NEXT. [NEXT]
 
 [PLAY N:DK,S:C4]
+
+
 
 East is end-played, forced to either break the \Cs and give you a \C trick, or give you a ruff-sluff.
 
@@ -1050,6 +1248,8 @@ Click for the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+This was the toughest hand so far and the end-play depended upon your correct reading that East must hold the \DA.
 
 It also depended upon the defenders not switching to \Cs at the second trick. If West had decided to switch to the \CQ you would have had no chance at all. }
 [BCFlags "1f"]
@@ -1074,11 +1274,15 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+Very bold in fact. The opening lead has exposed a \S loser in addition to your two \C losers. On the plus side dummy has an extra \D trick. You are going to have to try to throw West in with the \C suit, but you will have to be very careful with dummy's entries.
+
 Win the \SA, play the \DJ to dummy's \DK and discard the \SJ on dummy's \DA.
 
 Click NEXT. [NEXT]
 
 [PLAY N:S6,N:DA,N:DK,S:SA,S:SJ,S:DJ]
+
+
 
 You are in dummy, so ruff the \S7 with a high trump. Next play the \H9 to dummy's \HJ. Both defenders follow, whew!
 
@@ -1086,17 +1290,23 @@ Click NEXT. [NEXT]
 
 [PLAY N:S7,N:HJ,S:HA,S:H9]
 
+
+
 Back in dummy, ruff a \D with the \HQ, then lead the \HT to dummy's \HK, pulling the last trump as you enter dummy.
 
 Click NEXT. [NEXT]
 
 [PLAY N:HK,N:D4,S:HQ,S:HT]
 
+
+
 It would be great if you could ruff dummy's last \D, then get back to dummy with a trump so you could lead a \C from dummy and finesse. But check your trumps. If you do that you will have no more trumps in your hand and West won't be endplayed because you have no ruff-sluff. The only thing you can do is to go ahead and play \Cs now, finessing into West and HOPING he has no more \Ds!
 
 Click to see if you made the slam. [NEXT]
 
 [show NESW]
+
+You were lucky, West had only three \Ds so your partial elimination worked.  
 
 But if it had turned out that West DID have another \D, and led it, all would not be lost. You would ruff in your hand, play a trump to dummy, then take a second \C finesse. If it turned out the \CK and \CQ were in different hands you would make the slam.}
 [BCFlags "1f"]
@@ -1121,6 +1331,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+Mirror distributions! So you can only make ten tricks in \Hs, \Ds and \Cs. 
+
 That means you will have to make two \S tricks. And since the odds are 5000 to 1 that West has the \SK, leading toward your \SQ is NOT your play.
 
 Win the \D and play 4 rounds of \Cs. West follows to the first, then discards 3 \Ss.
@@ -1129,11 +1341,15 @@ Click NEXT. [NEXT]
 
 [PLAY N:D2,N:CK,N:CJ,N:C6,N:C2,S:DK,S:CA,S:CQ,S:C5,S:C4]
 
+
+
 Next play 3 \H winners. West follows twice, then discards a \S.
 
 Click NEXT. [NEXT]
 
 [PLAY N:HK,N:HQ,N:HJ,S:HA,S:H9,S:H6]
+
+
 
 Now play your 2 \D winners. East and West both follow.
 
@@ -1141,11 +1357,15 @@ Click NEXT. [NEXT]
 
 [PLAY N:D7,N:D5,S:DA,S:DQ]
 
+
+
 Keeping your fingers crossed that West must win the next trick you play the \S9. West puts on the \ST, you play low in dummy, and East (thankfully) discards a \H. 
 
 Click NEXT. [NEXT]
 
 [PLAY N:S2,S:S9]
+
+
 
 West has been thrown in and he has nothing left but the \S K J. Whichever one he plays you will take the last two tricks.
 
@@ -1154,6 +1374,8 @@ Clickfor the complete Deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+West no doubt thought his 3\S bid was a good idea. 
 
 In fact, it just kept you from making a losing play, (leading toward the \SQ), and allowed you to find the end-play to make the slam.}
 [BCFlags "1f"]
@@ -1180,11 +1402,15 @@ Make a Plan, then click NEXT. [NEXT]
 
 [PLAY N:S3,N:S2,S:SK,S:S5]
 
+
+
 After that unfortunate start you seem to be in a bit of trouble. Two tricks are already in the defender's pockets and you still have a \S loser and a \D loser. So you win with your \DK and play two rounds of trumps.
 
 Click NEXT. [NEXT]
 
 [PLAY N:HJ,N:H6,N:D3,S:HA,S:H5,S:DK]
+
+
 
 The good news is that West started with three trumps, and since he already used one it only takes two pulls to pick up the remaining trumps.
 
@@ -1194,11 +1420,15 @@ Click NEXT. [NEXT]
 
 [PLAY N:H8,N:CA,N:C9,S:CK,S:C7,S:C4]
 
+
+
 So far East has followed suit to every trick, meaning he has not discarded a single \S. Since you know he started with 6 \Ss, his final 5 cards consist of 4 \Ss and one other. You play to the \DA and East follows suit again.
 
 Click NEXT. [NEXT]
 
 [PLAY N:DA,S:D2]
+
+
 
 Play dummy's \S7. East will win, but he has nothing left but \Ss. When he plays another \S you discard your \D loser and ruff in dummy.
 
@@ -1207,6 +1437,8 @@ Clickfor the complete deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+This is called a Partial Elimination because all of the \Ds were not eliminated.  
 
 However, the key is that you could tell they were eliminated from the East hand, and East was going to be the throw-in target because of his long \Ss. 
 
@@ -1237,6 +1469,8 @@ Make a Plan, then click NEXT. [NEXT]
 
 [PLAY N:C8,N:C7,N:C6,S:CQ,S:CJ,S:C4]
 
+
+
 With two tricks lost already you have a sure \D loser (unless the defenders goof) and a \H loser that might be taken care of if East holds the \HK. But what if West holds the \HK? Maybe an elimination play.
 
 First pull trumps - they split 2-1.
@@ -1245,11 +1479,15 @@ Click NEXT. [NEXT]
 
 [PLAY N:SA,N:S3,S:SK,S:S2]
 
+
+
 Next eliminate \Ds by playing \DA then another \D. This does the elimination and throw-in at the same time.
 
 Click NEXT. [NEXT]
 
 [PLAY N:DA,N:D2,S:DQ,S:D7]
+
+
 
 If the defender who won the \DK plays a \D or a \C you will ruff in your hand and discard dummy's \H loser. So that defender is going to have to lead a \H.
 
@@ -1262,6 +1500,8 @@ In other words, played this way you make the contract whenever West holds the \D
 Click to see all the hands.. [NEXT]
 
 [show NESW]
+
+With the cards as shown the elimination play works.
 
 But if the \DK is with East and the \HK with West it wouldn't.
 
@@ -1290,6 +1530,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+
+
 You have one \S loser and one \D loser. A successful finesse will take care of either one of them. Chance of the \S finesse working? Zero. Chance of the \D finesse working? Maybe 50%. Chance of an elimination play? Priceless.
 
 Win the \SA and pull trumps with the \CA and \CQ. They split 2-1.
@@ -1298,17 +1540,23 @@ Click NEXT. [NEXT]
 
 [PLAY N:SA,N:C8,N:C7,S:S3,S:CA,S:CQ]
 
+
+
 Play the \DA, just in case there is a singleton \DQ somewhere. There isn't. Then eliminate \Hs by playing \HA and ruff a \H.
 
 Click NEXT. [NEXT]
 
 [PLAY N:H6,N:DA,N:CT,S:HA,S:H7,S:D3]
 
+
+
 Now play a low \S from both hands. West doesn't follow suit as East wins with a small card.
 
 Click NEXT. [NEXT]
 
 [PLAY N:S2,S:S4]
+
+
 
 East is end-played. He has no \Cs. If he plays a \D it will be into dummy's \D K J. If he plays a \H you will discard a \D from your hand and ruff in dummy. If he plays the \SK you will ruff, and dummy's \SQ will be promoted. If he plays a small \S you will let it ride to dummy's \SQ.
 
@@ -1317,6 +1565,8 @@ Click to see the complete Deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+A fairly complex elimination play to finish off the set. 
 
 I hope you enjoyed them.}
 [BCFlags "1f"]

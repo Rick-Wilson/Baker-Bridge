@@ -1,5 +1,5 @@
 %Creator: CSVtoPBN Version 1.01
-%Created: 2026-02-04 17:08:04
+%Created: 2026-02-04 17:20:43
 %sourcefilename BakerBridge.csv
 %HRTitleEvent 100Deals
 [Board "1"]
@@ -27,6 +27,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 1NT. West leads the \S4. East wins the \SA, then plays the \S9. West takes his \SK and leads another \S, East discarding a \H.
+
 To make a PLAN for a Notrump contract you should count your winners.
 
 Winners: \S 1 : \H 1 : \D 2 : \C 3 : Total = 7
@@ -41,6 +43,8 @@ Click NEXT to see the complete deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+This is an example of a straightforward hand where you should take your winners.
 
 But even with this type of hand you should make sure you take them in the right order. Here, if you had played the \DA and \DK BEFORE you played the \C A K Q you would have had no entry back to the fourth \C in your hand. In this case it was only an overtrick, in other deals it could make the difference between making and going down.}
 [BCFlags "1f"]
@@ -73,6 +77,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\H. West leads the \DT.
+
 To make a PLAN for a suit contract you should count your losers.
 
 Losers: \S 0 : \H 1 : \D 0 : \C 3 : Total = 4
@@ -84,6 +90,8 @@ You can take care of this possibility by discarding a \C from dummy BEFORE you p
 Click NEXT to see the Deal that could have set you. [NEXT]
 
 [show NESW]
+
+Visualize what would have happened if you had taken the first trick and immediately tried to pull trumps.
 
 East would win his \HA and would switch to a black suit to lead up to dummy's weakness. In this case he would surely lead the \CQ, and you would lose three \C tricks and be down before you started.
 
@@ -116,6 +124,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 3NT. West leads the \S4.
+
 Winners: \S 1 : \H 0 : \D 4 : \C 4 : Total = 9
 
 It's nice to have a hand where the Winner count is 9. And guess what? West probably has the \SK, so you can finesse on the first trick for an overtrick.
@@ -132,6 +142,8 @@ Click NEXT to see the complete Deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+There are times when you have to take finesses - like when you just have to find one more winner. 
 
 This wasn't one of those times.}
 [BCFlags "1f"]
@@ -162,6 +174,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\S. West leads the \D5 on which you play dummy's \D3. East wins \DJ, plays \DA, then \D2.
+
 Losers: \S 1 : \H 0 : \D 2 : \C 1 : Total = 4
 
 You have already lost the 2 \Ds and you sure can't escape losing the Ace of trumps. So you mustnot lose a \C trick. So your Plan will be to pull trumps, then finesse East for the \CQ. 
@@ -173,6 +187,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+You were lucky that the \CQ was with East.
 
 It's never great when the success of your contract depends on a finesse, but sometimes that's your only hope - a 50% chance.}
 [BCFlags "1f"]
@@ -201,7 +217,7 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
-You hopefully put on the \HQ, but East plays the \HK.
+South plays 3NT. West leads the \HJ. You hopefully put on the \HQ, but East plays the \HK.
 
 Winners: \S 0 : \H 1 : \D 1 : \C 4 : Total = 6
 
@@ -215,7 +231,7 @@ Click for the full deal. [NEXT]
 
 [show NESW]
 
-}
+You can see what could have happened if you had tried to sneak even one \S trick. East would have grabbed the \SA and played a small \H. West would have happily taken 4 \H tricks and you would be down 1.}
 [BCFlags "1f"]
 [Play "W"]HJ
 
@@ -248,6 +264,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 1NT. West leads the \HQ.
+
 Winners: \S 1 : \H 2 : \D 1 : \C 1 : Total = 5
 
 You need two more winners. Even if the \Ds split 3-2 you can get only one more from that suit. So clearly you must use the \S suit. Since you have only one entry to dummy you must save it until the right time.
@@ -259,6 +277,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+Imagine what would have happened if you had taken the first trick with dummy's \HA.
 
 What would you try next? A \S finesse? Whether West took his \SK right then or later you would go down. You could never reach dummy again.}
 [BCFlags "1f"]
@@ -291,6 +311,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\H. West leads \SA, then switches to \H2.
+
 Losers: \S 2 : \H 0 : \D 1 : \C 1 : Total = 4
 
 It's a good thing you stopped at game - partner's hand is about as bad as it could be.
@@ -302,6 +324,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+This PLAN was not difficult.
 
 Only a real beginner would have pulled all the trumps and not been able to ruff that \D.}
 [BCFlags "1f"]
@@ -338,6 +362,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 3NT. West leads the \SQ. East puts on the \SK.
+
 Winners: \S 1 : \H 2 : \D 5 : \C 0 : Total = 8
 
 Let's say you hold up on the first \S, hoping they switch suits. HA! They aren't about to switch suits and they drive out your \SA at trick 2. That actually clears the situation up and makes this plan pretty simple to make.
@@ -352,7 +378,7 @@ Click NEXT to see the full deal. [NEXT]
 
 [show NESW]
 
-}
+You might think if you could just sneak one \C through you wouldn't have to depend on the \H finesse. But put yourself in West's chair. Do you really think he will let you win a \C when he sees he can defeat you by taking his \CA and leading \S winners?}
 [BCFlags "1f"]
 [Play "W"]SQ
 
@@ -389,6 +415,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\H. The defense takes the first three \S tricks, then switches to a \C.
+
 Losers: \S 3 : \H ?? : \D 0 : \C 0 : Total = 3+??
 
 With no more outside losers your task is very very simple:DO NOT LOSE A TRUMP TRICK.
@@ -400,6 +428,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+Visualize the situation if your first play was the \HA. West would show out and you would learn that East held \H J 8 6 3 but you couldn't do anything about it.
 
 Next visualize the situation if your first play was the \HK. West would show out and you would play the \HQ, then a small \H finessing your \HT. 
 
@@ -436,6 +466,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\S. The defense quickly takes three \H tricks, then switches to a \D.
+
 Losers: \S 0? : \H 3 : \D 0 : \C 0 : Total = 3?
 
 This Deal is VERY similar to Deal 9 in that you are only worried about a 4-0 trump split. The reason that it shows up right here is to point out the difference between J 8 6 3 and J T 6 3.
@@ -450,11 +482,15 @@ Click NEXT to see the full deal. [NEXT]
 
 [show NESW]
 
+When West holds four trumps you can pick them up if your first \S play is the \SA.
+
 If your first \S was \SK or \SQ then it would be too late.
 
 Click NEXT to see an alternate deal. [NEXT]
 
 [PLAY E:H4,E:DQ,E:C6,E:C4,W:SJ,W:ST,W:S6,W:S3]
+
+When East holds four trumps there is no way to avoid a loser. As soon as you lead the first small \S from dummy East will play the \ST. That will force your \SA and leave him with \S J 6 3 behind dummy's \S K Q 9.
 
 To summarize: If you are missing J x x x your first play should be from the hand with two honors. Then you will  be able to finesse in either direction. If you are missing J T x x your first play should be honor from the hand with only one. This will leave you with a double-finesse position in one direction. If the other defender has the trumps there is nothing you can do. }
 [BCFlags "1f"]
@@ -487,6 +523,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 3NT. West leads the \C2.
+
 Winner count: \S 2 : \H 1 : \D 2 : \C 1 : Total = 6
 
 Wow. Things do look a little Acey/Spacey. If the \Ds are 3-2, which is likely, you can establish 2 tricks there. You need one more and the best hope is the \CQ. There is a very good chance that West led from the \CK. So with a brief prayer to Brigidda (the Goddess of Bridge) you put up the \CQ. It wins the trick.
@@ -499,7 +537,7 @@ Click NEXT to see the full deal. [NEXT]
 
 [show NESW]
 
-}
+As you can see your plan was the only way to make the contract.}
 [BCFlags "1f"]
 [Play "W"]C2
 
@@ -536,6 +574,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 3NT. West leads \DJ, East plays \DK.
+
 Winners: \S 2 : \H 1 : \D 2 : \C 3 : Total = 8
 
 Thanks to the opening lead you get an extra \D winner. Well, since the finesse would have worked it really isn't extra, it's just nice to know about it early. You need to find one more winner and the \C suit beckons. A 3-3 split would be very nice, but a 4-2 is more likely. Even with a 4-2 split you can still make your fifth \C good - but you must be careful with entries.
@@ -547,6 +587,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+Ducking the first \C is the only way to make the contract.
 
 If you played a high \C first you would never have an entry back to dummy. You would have been forced to try to get there with the \HJ but as you can see, that wouldn't work.
 
@@ -585,6 +627,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\S. West leads the \HK.
+
 Losers: \S ? : \H 0 : \D 1 : \C 0 : Total = ?
 
 That 1 \D loser is definite. So instead of guessing how many \S losers you have, just approach it from the viewpoint that you can afford 2 but not 3.
@@ -598,6 +642,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+If your second \S play is the \SJ East will win the \SK and West will be able to take two more tricks with his \S Q 9 because you have the \S T 7 left.
 
 But if your second \S play is a small \S East will win the \SK and you will be left with the \S J T to deal with West's \S Q 9, holding him to just one more trick.}
 [BCFlags "1f"]
@@ -636,6 +682,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 3NT. West leads the \SJ.
+
 Winner count: \S 2 : \H 0 : \D 2 : \C 1 : Total = 5
 
 Although the \D and \C suits offer the possibility for creating a winner it is evident that you really need to bring in the \Hs. By driving out the \HA you will establish the 4 winners that you need. The problem is that when you play \HQ then \HJ a good defender will hold up his \HA. You could get to dummy with the \SA and continue \Hs, but you would no longer have a sure entry to get back to those winners.
@@ -648,7 +696,7 @@ Click NEXT to see the full deal. [NEXT]
 
 [show NESW]
 
-}
+As you can see, if you don't play the \Hs as suggested East can prevent you from reaching Dummy in either \Cs or \Ds.}
 [BCFlags "1f"]
 [Play "W"]SJ
 
@@ -677,6 +725,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 2\H. West leads the \SK.
+
 Losers: \S 2 : \H 2 : \D 0 : \C 2 : Total = 6
 
 You might get lucky in the trump suit and only lose one trick, but you can't count on it. Dummy's \D suit has two extra winners, but there is the problem of transportation. By the time you get to enjoy those two winners you might have already lost six tricks.
@@ -688,6 +738,8 @@ Clickfor the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+It shouldn't have come as a surprise that West held both \H A Q, after all he is the one who overcalled.
 
 Make sure you visualize how the play would have gone if you had played a trump to the second trick. When you see clearly the bad things that are likely to happen you will look harder for a remedy. When confronted with a hand such as this many beginning (or careless) players just automatically start trying to pull trumps. And many times they go down on hands that could have been made.}
 [BCFlags "1f"]
@@ -736,6 +788,8 @@ But when you play the second high \H East shows out.
 
 Make another Plan, then click NEXT. [NEXT]
 
+South plays 4\H. West leads the \SQ.
+
 Let's start over. Play \HK, then \HA. East shows out. If you play another \H West will pull all the trumps and they will start winning \D tricks. Lots of \D tricks.
 
 So don't lead the third \H. Leave West with his two master trumps and start playing \C winners. West will eventually ruff in with one of his high trumps and perhaps take a \D trick. But you have trump control and can get in again and reach dummy with a ruff to continue \Cs. All West can do is get his one more trump.
@@ -745,6 +799,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+When you have pulled a couple of rounds of trumps and the defenders hold a master trump it is usually good technique to leave it out. No sense using two of yours to get one of theirs.
 
 This hand is much rarer - leaving TWO master trumps out. But you can see that it is the correct technique.}
 [BCFlags "1f"]
@@ -777,6 +833,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 3NT. West leads the \H5. East plays the \HQ.
+
 Winner count: \S 2 : \H 1 : \D 0 : \C 4 : Total = 7
 
 You need 2 more winners and they will come from the \D suit once you have forced out the \DA. There is a problem though. When the opponents get the lead with the \DA they might cash 4 \H tricks. Of course if it is East who wins the \DA and if he doesn't have a \H to play then all will be well. So you don't take your \HA on the first trick, nor do you take it on the second trick. At trick 3 you have no choice so you win your \HA. 
@@ -788,6 +846,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+Visualize what would happen if you played the \HA on the first or second trick. When you tried to establish \D tricks East would take the \DA and play a \H to West and you would go down 1. By waiting until the third round to take the \HA you exhaust East of his \Hs.
 
 Notice that if West was the one who had the \DA then you would go down despite your hold-up play. This PLAN is not a guarantee - but if you follow it you will make the contract 50% of the time. If you don't follow it you will make the contract 0% of the time.}
 [BCFlags "1f"]
@@ -818,6 +878,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\H. West leads the \DA and the defense wins two high \Ds then switches to a trump.
+
 Losers: \S 0 : \H 0 : \D 2 : \C 2 : Total = 4
 
 The two \D losers are already lost, so you must eliminate a \C loser. If West has the \CK then a simple finesse will win the day. That would be a 50% chance, right? WRONG! That would be a 0% chance. You and partner hold 23 HCP. West has already produced 4 HCP with the \DA, and if he had 3 more that would mean East opened with only 10 points. Very doubtful.
@@ -831,6 +893,8 @@ Clickfor the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+If you separate the bidding from the play in your mind you will too often miss clues that should be telling you that certain plans will or won't work.
 
 This was a perfect example. After the opening lead it was easy to deduce that all the rest of the high cards had to be in the East hand.}
 [BCFlags "1f"]
@@ -869,6 +933,8 @@ South plays 6\S. West leads the \DK.
 
 Make a Plan, then click NEXT. [NEXT]
 
+South plays 6\S. West leads the \DK.
+
 Losers: \S 1? : \H 1 : \D 0 : \C 0 : Total = 2?
 
 If trumps don't split 3-2 you will definitely go down 1, so assume they do split. You could finesse East once in \Hs, or use a ruffing finesse on West, but the cleanest approach is just to ruff two \Hs in dummy. Of course you must do this before you pull trumps.
@@ -882,6 +948,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+It was very bold to bid this slam and North/South were fortunate to find a distribution where it could be made.
 
 But that would have been all for nothing if South had not found the PLAN to make it.}
 [BCFlags "1f"]
@@ -920,6 +988,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 3NT. West leads the \HQ.
+
 Winner count: \S 0 : \H 2 : \D 2 : \C 3 : Total = 7
 
 You need two more winners and you can almost surely get them in \Ds. In fact, if the suit splits 2-2 you could actually get three more winners. But the danger here is that if they DON'T split 2-2 and if East happens to win the third \D he might lead a \S. And that might lead to disaster!
@@ -931,6 +1001,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+Sometimes good play is just visualizing what bad thing might happen.
 
 Here the bad thing would be for East to get the lead and play a \S. In this case you were able to avoid the bad situation by playing a suit differently than you might have done if there were no danger.}
 [BCFlags "1f"]
@@ -971,6 +1043,8 @@ South plays 4\S. West leads the \HQ.
 
 Make a Plan, then click NEXT. [NEXT]
 
+South plays 4\S. West leads the \HQ.
+
 Losers: \S 1? : \H 1 : \D 2 : \C 0 : Total = 4?
 
 That question mark means that if \Ss don't split 3-2 you will have 2 losers in which case the \D finesse will just have to work. However, the 3-2 split will probably occur, so you make your PLAN based on that.
@@ -984,6 +1058,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+Imagine you had NOT driven out the \SQ.
 
 You would have played \CA, \C K, then a small \C to dummy's \CJ. East would ruff this with his \SQ and you would never be able to reach dummy's \CJ. You would be down 1, losing 1 \S, 1 \H and 2 \Ds.}
 [BCFlags "1f"]
@@ -1018,6 +1094,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 2\S. West leads the \DK.
+
 Losers: \S 3? : \H 1 : \D 2 : \C 0 : Total = 6?
 
 Your \H loser can disappear on dummy's third \C.
@@ -1031,6 +1109,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+When the defenders have a lot of high trumps you have to try to make sure they fall on the same tricks.
 
 You were a little lucky that the defender who got the ruff, East, was the one who started with 3 trumps.}
 [BCFlags "1f"]
@@ -1063,6 +1143,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 3NT. West leads the \H7 East wins \HA and returns \H9.
+
 Winner count: \S 3 : \H 1 : \D 3 : \C 1 : Total = 8
 
 You have a LOT of points - but only 8 tricks. And you know that if you lose the lead there will be a deluge of \Hs on the table. \Cs is your best suit, and if the finesse works you will make 6. Of course if it fails you will go down. But there is one thing you should do before you stake everything on a 50% finesse. You should play 3 rounds of \Ds. If they split 3-3 you will have found your ninth trick and you won't risk the \C finesse.
@@ -1072,6 +1154,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+If you try the \C finesse you will go down, losing 1 \C and 4 \Hs. If you take your 4 \D tricks and refuse to try the \C finesse you will make the contract.
 
 The best thing about this plan is that when you test the \Ds, if it turns out they do not split 3-3 you can still try the \C finesse. }
 [BCFlags "1f"]
@@ -1104,11 +1188,15 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\S. West leads the \HK.
+
 Losers: \S 2 : \H 0 : \D 0 : \C 0 : Total = 2
 
 You expect trumps to split 3-2 so you would lose 2 trumps. You have no other losers so you decide to pull trumps. You win the \HA and play the \SA. East plays the \SK!
 
 Do you change your Plan? Click? [NEXT]
+
+Do you change your PLAN?
 
 Well, East may be false-carding. He may also have the \SQ for example. But if you decide to play another trump and it turns out he was NOT false-carding you will be dead in the water. West will take his three trump tricks and some \Hs. Many \Hs.
 
@@ -1119,6 +1207,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+The risk of leading a second trump was too great.
 
 As you see, West would have pulled your and dummy's trumps and then won 3 \H tricks.
 
@@ -1151,6 +1241,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\S. West leads the \HQ.
+
 Losers: \S 1 : \H 1 : \D 2 : \C 0 : Total = 4
 
 You have plenty of \C winners in dummy but you must be careful because there are no outside entries. You win your \HA and play \SA and \SK, both defenders following suit. The \SQ is still out. To make sure you get to enjoy those \C winners you should continue with another \S, forcing out the \SQ. The defense will now take a \H if they are smart, but the rest of the tricks are yours because you can run the \C suit without anyone trumping in.
@@ -1160,6 +1252,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+Think through what would have happened if you had not forced out the \SQ.
 
 East would have used his master \SQ to ruff the second \C, before you had taken any discards. You would still have to lose a \H and two \Ds.}
 [BCFlags "1f"]
@@ -1194,6 +1288,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 1NT. West leads the \C4. East plays the \CQ, then the \CK , West playing the \C3 on the second trick. East then plays the \C2 which you win with your \CA.
+
 Winners: \S 2 : \H 0 : \D 3 : \C 1 : Total = 6
 
 You only need one more winner and there are possibilities in \Ss, \Hs and \Ds. But you need to be very careful. If you watched those \C spots you will realize that West started with 5 \Cs (he led the \C4, later played the \C3). So the defenders will win 2 more \C tricks to go with the 2 they already have. And they can also take the \HA and \HK whenever they want. In other words, they also have 6 winners. So the battle is for the 7th trick for either side. If you do anything that gives them a trick they will win.
@@ -1205,6 +1301,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+If you try to get a winner by taking the \S finesse you will give THEM a winner and you will go down.
 
 If you play your three high \Ds you will set up a winner for THEM and you will go down.
 
@@ -1239,6 +1337,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\S. West leads the \CQ.
+
 Losers: \S 0 : \H 2 : \D 1 : \C 1 : Total = 4
 
 You have no time to waste. You have no way to discard either minor suit loser, so you absolutely must ruff a \H in dummy. You dare not pull a trump. Win the \CA in dummy and play a \H to your \HQ. West will win and probably lead a trump. You win, cash the \HK and ruff your small \H with dummy's last trump. Now take the \DA and give up the lead. Ruff at the first opportunity and pull trumps, making 6 \S tricks, 2 minor suit Aces, one \H trick and a \H ruff in dummy.
@@ -1248,6 +1348,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+It's easy to decide whether to draw trumps or not.
 
 Always draw them - unless you have some other need for them first. Like in this hand.
 
@@ -1280,6 +1382,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 2\S. West leads the \HQ, East plays \H9.
+
 Losers: \S 0 : \H 1 : \D 3 : \C 2 : Total = 6
 
 You have one loser too many. It doesn't seem you can do anything about the 3 \Ds but you might be able to avoid one of the \Cs if you are lucky. However, you can probably get rid of the \H loser by ruffing it in dummy. 
@@ -1293,6 +1397,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+As you see, the \C A Q were sitting badly and you could not win a \C trick.
 
 The only way to make the contract was to ruff a \H in dummy. }
 [BCFlags "1f"]
@@ -1323,6 +1429,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 3NT. West leads the \CK.
+
 Winners: \S 3 : \H 2 : \D 1 : \C 1 : Total = 7
 
 You need to find 2 more winners and they can come from the \D suit. You can finesse West for the \DK. If he has it then you will get 3 extra tricks, but even if East has the \DK you can still make 2 winners.
@@ -1335,7 +1443,7 @@ Click NEXT to see the full deal. [NEXT]
 
 [show NESW]
 
-When East won the \DK he would still have had a \C to return to West's hand. You would have lost 4 \C tricks and the \DK.
+Imagine that you had won either the first or second \C. When East won the \DK he would still have had a \C to return to West's hand. You would have lost 4 \C tricks and the \DK.
 
 But what if East DID have another \C when he won the \DK?
 
@@ -1343,7 +1451,7 @@ Click NEXT to see different East/West hands. [NEXT]
 
 [PLAY E:S4,W:C4]
 
-When East won the \DK  here he had a fourth \C to return to West's hand. That means the \C suit split 4-4 so you would have lost only 3 \C tricks and the \DK.}
+Suppose you held up until the third \C. When East won the \DK  here he had a fourth \C to return to West's hand. That means the \C suit split 4-4 so you would have lost only 3 \C tricks and the \DK.}
 [BCFlags "1f"]
 [Play "W"]CK
 
@@ -1380,6 +1488,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\S. West leads the \DA, then \DK, then \DJ. East discards on the second \D and ruffs the third one with the \ST.
+
 Losers: \S 0? : \H 1 : \D 2? : \C 0 : Total = 3?
 
 The loser count looks a little messy - that's because of the circumstances. If you could have just played three rounds of \Ss you would probably have had 0 losers, and if you ruff this \D you will have only 2 \D losers, but maybe create a \S loser.
@@ -1391,6 +1501,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+Discarding the \H loser instead of over-ruffing was the winning Plan. If you had over-ruffed you would have lost the \H, but you would also have to lose a trump. You made a good play.
 
 But did you notice that West made a bad play? He should have cashed his \HA before he led the third \D for his partner to ruff. Then when his partner ruffed with the \ST your goose would have been cooked. }
 [BCFlags "1f"]
@@ -1431,6 +1543,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\S. West leads the \D2. East plays \DJ.
+
 Losers: \S 1 : \H 0 : \D 2 : \C 2 : Total = 5
 
 Counting losers from the South hand you have 2 \C losers to get rid of. If you had counted from the North hand there would have been 2 \H losers to get rid of. In any case the plan is the same.
@@ -1442,6 +1556,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+This is another example of the general principle to leave a master trump out.
 
 North and South were able to make all their small trumps individually.
 
@@ -1472,6 +1588,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 3NT. West leads the \HQ.
+
 Winner count: \S 1 : \H 2 : \D 1 : \C 2 : Total = 6
 
 In many Notrump hands it is good to hold up to disrupt the defender's communications. In this hand you have a double-stopper in \Hs but only a single stop in \Ss and \Ds so win the first trick.
@@ -1485,6 +1603,8 @@ Clickfor the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+You can see that with \Cs splitting 3-2 the Duck insures the contract.
 
 But just imagine you had played \CA, \CK, \C2. At that point \C 9 6 5 would all be winners, but don't think East is going to let you reach dummy with either of those two Jacks!}
 [BCFlags "1f"]
@@ -1519,6 +1639,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 5\C. West leads the \DQ.
+
 Losers: \S 1 : \H 0 : \D 1 : \C 1 : Total = 3
 
 The two black Aces aren't going away so if you are to make this contract you must do something about your \D loser. And the only likely place to put it is on dummy's \SK. If West has the \SA, you can lead up to the \SK and make a winner out of it.
@@ -1534,6 +1656,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+Pulling trumps is very important, but sometimes there is something you must do BEFORE you play trumps.
 
 In this hand that something is to establish the \SK so you can discard your \D loser.}
 [BCFlags "1f"]
@@ -1566,6 +1690,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 5\H. West leads the \ST. You put on dummy's \SJ, East plays the \SK and you win the \SA.
+
 Losers: \S 1 : \H 1 : \D 0 : \C 1 : Total = 3
 
 You cannot avoid losing either of the two Aces. So therefore you must do something about the \S loser. And the only thing you can do with it is to discard it on one of dummy's \Cs.
@@ -1577,6 +1703,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+The way you decide whether to start pulling trumps right away is to use your imagination.
 
 Imagine what the defense will do if you lead a round of trumps. Then imagine what they will do if you play a different suit instead.}
 [BCFlags "1f"]
@@ -1607,6 +1735,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 3NT. West leads the \HQ.
+
 Winners: \S 1 : \H 2 : \D 1 : \C 3 : Total = 7
 
 You can create one winner in \Ds if they split 3-2, but too late, the defense would have set up their \Hs. So you must get 2 more \S tricks.
@@ -1621,7 +1751,7 @@ Click NEXT to see the full deal. [NEXT]
 
 [show NESW]
 
-}
+When East holds the \SK you can always get 3 \S tricks if you play correctly. }
 [BCFlags "1f"]
 [Play "W"]HQ
 
@@ -1648,6 +1778,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\S. West leads the \DJ.
+
 Losers: \S 2/3 : \H 0 : \D 1 : \C 0 : Total = 3/4
 
 You are definitely going to lose the \DA and the \S A K. Therefore you must plan to avoid losing a third \S.
@@ -1660,11 +1792,15 @@ Clickfor the full deal. [NEXT]
 
 [show NESW]
 
+Leading twice toward the \S Q J gives you a guarantee on this layout because East held a doubleton high honor.
+
 Now click for an alternate possible. [BID ]
 
 [PLAY E:H2,W:S2]
 
-You might think that West is just as likely to have held an original doubleton \S A K as doubleton \S A T, and that playing the \S9 would be as good a play as \SQ.
+Here West has taken your \SJ with the \SA. When you again lead a small \S from dummy say that East plays the \S5.
+
+ You might think that West is just as likely to have held an original doubleton \S A K as doubleton \S A T, and that playing the \S9 would be as good a play as \SQ.
 
 This is untrue for a very classy-named reason - The Principle of Restricted Choice. You may not even believe it when you read it, but it's mathematically sound. If West were dealt an original \S A K, he would have been just as likely to win with the \SK as with the \SA. The fact that he actually won the \SA makes it less likely that he also holds the \SK.}
 [BCFlags "1f"]
@@ -1699,6 +1835,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\S. West leads the \HK. The defense takes the first three \H tricks, then switch to a \C.
+
 Losers: \S ? : \H 3 : \D 0 : \C 0 : Total = 3?
 
 It kinda makes you wish you'd bid 2NT after all doesn't it?
@@ -1714,6 +1852,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+The reason you must not lead the \SQ is that West will always cover and that  will force you to use two of your honors on one trick.
 
 Since you would only have one more honor you'd be bound to lose a trick.}
 [BCFlags "1f"]
@@ -1744,6 +1884,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 3NT. West leads the \SQ.
+
 Winner count: \S 2 : \H 0 : \D 0 : \C 2 : Total = 4
 
 This looks scary. Needing 5 more tricks means you are going to have to establish BOTH red suits. And with only two \S stoppers you have to hope West doesn't have both red Aces. If he does, you're down, so just assume that he only has one of them. Now if you can just figure out which Ace West has you can establish that suit first.
@@ -1757,6 +1899,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+Without the holdup you could still have made the contract, but only if you had established the \H winners first. That would have been a total guess.
 
 With the holdup it didn't matter which red suit you established first.}
 [BCFlags "1f"]
@@ -1791,6 +1935,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+North plays 2\S. East leads \HA, then \HK.
+
 Losers: \S 1/2 : \H 1 : \D 0 : \C 3 : Total = 5/6
 
 If West has both \CA and \CK you could save yourself 1 \C loser, but the odds are about 3 to 1 against that. Your best chance of making this contract is just to hold your \S losers to 1. With an expected 3-2 split there will not be a problem, but you might as well take extra pains if you can do so without risk.
@@ -1802,6 +1948,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+If you had led your \SK East would have won the \SA and you would later have to give up a \S trick to West's \ST.
 
 It costs nothing to make a careful play. Most of the time it doesn't matter, but every now and again it pays off in a contract that couldn't be made without the careful play. }
 [BCFlags "1f"]
@@ -1838,6 +1986,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 3\H. West leads the \SQ.
+
 It turns out there was a fourth reason not to bid 3\S - the opponents might lead the suit.
 
 Losers: \S 0 : \H 1/2 : \D 1 : \C 4 : Total = 6/7
@@ -1850,7 +2000,7 @@ Click NEXT to see the full deal. [NEXT]
 
 [show NESW]
 
-}
+Some contracts are impossible. So you just play to keep the damage as low as possible.}
 [BCFlags "1f"]
 [Play "W"]SQ
 
@@ -1879,6 +2029,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 3NT. West leads the \HJ.
+
 Winner count: \S 1 : \H 3 : \D 0 : \C 3 : Total = 7
 
 If West has the \SK then a finesse will gain you the two winners you need. However, if East has the \SK then the finesse will gain you just one winner and you will be hoping for a  3-3 \C split for the other. While this is a possible Plan, there is a far better one.
@@ -1890,6 +2042,8 @@ Clickfor the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+If you had taken an early \S finesse you would have gone down.
 
 East would have won and played a \H, removing your second stopper. When \Cs did not split 3-3 you would have been forced to try a \D. East would win his \DK and drive out the last \H stopper. Then West would be able to take the \DA plus his established \Hs. }
 [BCFlags "1f"]
@@ -1922,6 +2076,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\H. West leads the \SQ.
+
 Losers: \S 2 : \H 0 : \D 1 : \C 2 : Total = 5
 
 The three minor suit losers cannot be avoided, but the two \S losers can be ruffed in dummy. A small amount of caution is in order. Win the \SK and play the \SA. Ruff a \S with dummy's \H8. East shows out but cannot over-ruff. Return to your hand with the \DA and ruff your last \S with dummy's \HA. Return to your hand with a trump. You will lose three minor suit cards and nothing else.
@@ -1932,7 +2088,7 @@ Click NEXT to see the full deal. [NEXT]
 
 [show NESW]
 
-}
+Some would go down on this hand when they ruffed the first \S with dummy's \H3 and East over-ruffed. It is pretty clear that you should ruff with one of the higher cards, but sometimes the thought comes too late.}
 [BCFlags "1f"]
 [Play "W"]SQ
 
@@ -1969,6 +2125,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 3\H. West leads the \CJ.
+
 Losers: \S 2 : \H 2 : \D 1 : \C 1 : Total = 6
 
 You may be able to ruff 1 \S in dummy, and discard another on a long \D. And you hope to keep your trump losers to 1.
@@ -1981,7 +2139,7 @@ Click NEXT to see the full deal. [NEXT]
 
 [show NESW]
 
-}
+The play for this hand was not straightforward at all, and might have taken a different path had the East/West cards been arranged differently. However, the general approach of ruffing a \S in dummy and setting up the \D suit would bring the best result with most arrangements.}
 [BCFlags "1f"]
 [Play "W"]CJ
 
@@ -2018,6 +2176,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 3NT. West leads the \S5. East plays the \S9.
+
 Winner count: \S 2 : \H 0 : \D 2 : \C 4? : Total = 8?
 
 Those 4 \C winners assume a 3-2 split. Since that is going to be the first suit you play you will find out soon enough.
@@ -2031,6 +2191,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+As you can see, with this layout a \D finesse would be fatal.
 
 East would win and play a \S, and whether you ducked this one or not your last stopper would soon be removed. When \Ds failed to split 3-2 you would have been forced to try a \H. West would win his \HA and set you with \Ss.
 
@@ -2065,6 +2227,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\S. West leads the \HQ, East playing \H9.
+
 Losers: \S 0 : \H 1 : \D 1 : \C 2 : Total = 4
 
 You must eliminate one loser and the easiest one will be the \H which you can ruff in dummy. However, East's \H9 looks a little ominous, particularly since West apparently has some length in the suit. Presumably you played the \HA on the first trick. Next lead the \H6 from dummy, hoping East can't (or doesn't) ruff. He plays the \H2. Win the \HK and play your \H 4, ruffing with dummy's \SQ. East is out of \Hs, but can't over-ruff. Now pull trumps and set up one \C trick. You lose 2 \Cs and a \D, just as expected.
@@ -2075,7 +2239,7 @@ Click NEXT to see the full deal. [NEXT]
 
 [show NESW]
 
-}
+Ruffing with the \SQ might cost a trick if the \Ss split 4-1 and East did not have a doubleton \H.  But you need to stay flexible and make your  decisions based on what you see happening at the table. In this deal, after East signalled high-low in \Hs it was logical to play him for a doubleton.}
 [BCFlags "1f"]
 [Play "W"]HQ
 
@@ -2108,6 +2272,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\S. West leads \DA, \DK, \DQ. East plays \D8 then \D2.
+
 Losers: \S 0 : \H 0 : \D 3 : \C 1 : Total = 4
 
 If you could ruff that \D then one of your \D losers would be eliminated - if East didn't over-ruff. But you know that East is going to over-ruff. So don't ruff it, discard dummy's \C6 instead. Later you can ruff your \C loser in dummy.
@@ -2118,7 +2284,7 @@ Click NEXT to see the full deal. [NEXT]
 
 [show NESW]
 
-}
+If you had ruffed, East would have over-ruffed. And you would still have a \C loser. You don't have to worry about a fourth \D lead because you can ruff in your hand higher than any card East might ruff with.}
 [BCFlags "1f"]
 [Play "W"]DA
 
@@ -2147,7 +2313,7 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
-West leads the \H2, East wins the \HA and returns the \H5. West takes the \HK and plays the \H7.
+South plays 3NT. West leads the \H2, East wins the \HA and returns the \H5. West takes the \HK and plays the \H7.
 
 Winner count: \S 2 : \H 2 : \D 2 : \C 2 : Total = 8
 
@@ -2163,7 +2329,7 @@ Click NEXT to see the full deal. [NEXT]
 
 [show NESW]
 
-}
+As you see, this time the \Ss didn't split so you had to make the \CJ to succeed. }
 [BCFlags "1f"]
 [Play "W"]H2
 
@@ -2190,6 +2356,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\S. West leads \HA, \HK, \HQ.
+
 Losers: \S 1 : \H 2 : \D 1 : \C 0 : Total = 4
 
 You have already lost the 2 \Hs and you will definitely lose the \D. So you cannot lose a \S as well. When you have 11 cards in a suit missing the King, the recommended play is to play for the drop. But the recommended play shouldn't be used on this hand because you know that East has the \SK. How do you know this? Because West has turned up with 10 points in \Hs, (the A K Q and a fifth one). If he held the \SK as well he would have had 13 points and a good suit and would have opened he bidding. But he didn't open, so he doesn't have the \SK.
@@ -2202,7 +2370,7 @@ Clickfor the full deal. [NEXT]
 
 [show NESW]
 
-}
+You have to listen to the bidding and draw conclusions from what is bid - and not bid. Because he passed originally you could figure out that West could not hold the \SK. Or, if you had needed to know, he could also not have had the \DA.}
 [BCFlags "1f"]
 [Play "W"]HA
 
@@ -2235,6 +2403,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\H. West leads the \SK.
+
 Losers: \S 1 : \H 0 : \D 1 : \C 2 : Total = 4
 
 You win the \SA and pull trumps in three rounds. You need to manufacture one winner and you can see right off the bat that it cannot be manufactured in \Ds or \Cs. However, you CAN set up the \S8.
@@ -2246,6 +2416,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+It is extra nice when the opponents hand you a contract.
 
 You cannot make T tricks unless West's opening lead is a \S. }
 [BCFlags "1f"]
@@ -2294,6 +2466,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 6\S. West leads the \HQ.
+
 Losers: \S 0 : \H 1 : \D 0 : \C 1 : Total = 2
 
 Too bad partner didn't have either \HK or \CK. But since he didn't you will just have to establish the \D suit.
@@ -2305,6 +2479,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+Establishing a long side suit in dummy is one of the basic ways to eliminate a loser.
 
 In this hand you could not be defeated unless the \Ds split 5-1.}
 [BCFlags "1f"]
@@ -2341,6 +2517,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\H. West leads the \SQ.
+
 Losers: \S 0 : \H 0 : \D 1 : \C 3 : Total = 4
 
 There are two ways to get rid of one of those \C losers. You can lead up to the \CK, hoping that West holds \CA, or you can ruff it in dummy.
@@ -2354,6 +2532,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+You can see that playing a \C from dummy will guarantee the contract.
 
 You can also see that leading a \H back to your hand at trick 2 is a bad idea.
 
@@ -2396,6 +2576,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 3\S. West leads the \DK.
+
 Losers: \S 1 : \H 2 : \D 1 : \C 1 : Total = 5
 
 The \D loser, the \C loser and the Ace of trumps are unavoidable. One \H loser is also unavoidable, but the second one can be ruffed in dummy. You cannot afford to play a single trump.
@@ -2407,6 +2589,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+The defenders may not lead trumps to try to stop your ruff.
 
 In that case you must be sure to ruff the fourth \H with the \SQ or the \S9. If East wants to over-ruff it will be with the \SA which you must lose anyway.
 
@@ -2439,6 +2623,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 3NT. West leads \S6. East plays \SK.
+
 Winners: \S 1 : \H 2 : \D 1 : \C 2 : Total = 6
 
 You need 3 more winners and clearly they must come from the \D suit. If West happens to hold the \DK all will be well, but what about the times when East holds it?
@@ -2452,6 +2638,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+This is one of those hands where your thinking would be clearer if you had less strength.
 
 If you did not have the \SJ you would never consider doing anything except hold up. But with it you start wondering if you can get a trick with it. Of course, as you see, the hold-up would be correct with \S A 3 2, and it is also correct with \S A J 2.}
 [BCFlags "1f"]
@@ -2486,6 +2674,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\H. West leads the \DQ.
+
 Losers: \S 2 : \H 1 : \D 1 : \C 1 : Total = 5
 
 One of the \S losers will be ruffed in dummy so you really just have to eliminate one loser.
@@ -2499,6 +2689,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+Declarers in suit contracts tend to focus on trumps, they want to pull them right away. And for good reason, that is usually the best Plan.
 
 But there are many situations when that is NOT the best plan. Perhaps because you need to ruff something in dummy, or perhaps (like this hand) because playing trumps would give the timing to the defense. 
 
@@ -2529,6 +2721,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\H. West leads the \CQ.
+
 Losers: \S 2 : \H 0 : \D 2 : \C 1 : Total = 5
 
 The \C losers are shown as 1 since you will always be able to ruff a \C in dummy.
@@ -2540,6 +2734,8 @@ Or, if West holds the \SQ and East the \SA then leading up to the \SJ would also
 Click NEXT to see a miracle. [NEXT]
 
 [show NESW]
+
+Some times you don't really expect to make a contract - this is one of those times.
 
 But you should still ask yourself if there is some distribution that will allow you to be successful. And if there is, just assume that distribution and boldly play the cards out.}
 [BCFlags "1f"]
@@ -2570,6 +2766,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 3NT. West leads \SQ.
+
 Winners: \S 2 : \H 0 : \D 4 : \C 2 : Total = 8
 
 The only thing better than being good is being lucky! You are very lucky that you didn't get a \H lead - now you must take advantage of your good luck.
@@ -2583,6 +2781,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+This is another hand where you want to keep a particular defender off lead. In this hand it is West who is the Danger hand.
 
 Be on the lookout for this type of situation because many times you have a finesse that can be made either way. So you finesse into the Safe hand.}
 [BCFlags "1f"]
@@ -2611,6 +2811,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\H. West leads the \SK.
+
 Losers: \S 1 : \H 1 : \D 0 : \C 1 : Total = 3
 
 This looks way too easy. If the \H finesse works and the \C finesse works you could make 6. It is when things look too easy that you should look for danger! What if you play the \SA and East ruffs. What if East also gets a trick with the \HK and West gets a trick with the \CQ. What with your \S loser you would be down 1.
@@ -2624,6 +2826,8 @@ Clickfor the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+You always had T winners in this hand, as long as one of them didn't disappear.
 
 To make sure the \SA didn't disappear you had to hold it until East no longer had a trump. }
 [BCFlags "1f"]
@@ -2660,6 +2864,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South to play 6NT. West leads the \SJ.
+
 Winners: \S 3 : \H 2 : \D 3 : \C 0 : Total = 8
 
 You need 4 more winners. The \C suit will provide 3 of them once the \CA is gone. A 3-2 split in \Ds will assure 2 more \D tricks. There are lots of possibilities but you must be careful of entries and unblocking. In particular, you only have one entry to your hand (if you don't waste the \SQ) and that is the \C K Q. So you need to be sure to unblock the \S A Q before you try to get to your hand in \Cs.
@@ -2671,6 +2877,8 @@ Clickfor the full Deal - and an auxiliary plan. [NEXT]
 [RESET]
 
 [show NESW]
+
+What if you had carried out the plan up to the point when you led a \C toward your hand and the defense didn't take their \CA?
 
 You must abandon \Cs temporarily and take the \D finesse. You take your good \Ds and then go back to \Cs. }
 [BCFlags "1f"]
@@ -2707,6 +2915,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 6NT. West leads the \SJ.
+
 Winners: \S 3 : \H 2 : \D 2 : \C 4 : Total = 11
 
 It's nice to make Plans for slams because there are so few losers to worry about.
@@ -2720,6 +2930,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+Always be on the lookout for situations where there are two possible routes to success.
 
 Here the \D finesse was one possibility, but by ducking a \H you could test the \H suit and still keep the \D finesse in reserve.  }
 [BCFlags "1f"]
@@ -2756,6 +2968,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\S. West leads the \DK.
+
 Losers: \S 0 : \H 2 : \D 2 : \C 0 : Total = 4
 
 The two fast losers in \Hs can't be helped, but maybe you can get rid of one of the \D losers.
@@ -2766,6 +2980,8 @@ Win the \DA and play the \C6 to your \CA. Play \SA, then a small \S to dummy's \
 Click NEXT to see all four hands. [NEXT]
 
 [show NESW]
+
+In some hands there is more than one way to make the conrract.
 
 But in this deal the ruffing finesse is the only Plan that works. }
 [BCFlags "1f"]
@@ -2808,7 +3024,7 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
-The defense takes three \C tricks, then plays a small \D.
+South plays 4\H. West leads the \C2. The defense takes three \C tricks, then plays a small \D.
 
 Losers: \S 0 : \H 1 : \D 0 : \C 3 : Total = 4
 
@@ -2824,7 +3040,7 @@ Click NEXT to see why. [NEXT]
 
 [show NESW]
 
-VISUALIZE:
+To prove that only the original \H9 play will work . . VISUALIZE:
 
 (1) That your first play from dummy was  \HJ, and you played \H3 from your hand. The next \H would have to be taken in your hand and you no longer have a finesse.
 
@@ -2859,6 +3075,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 3NT. West leads \H7, East plays \HT and you win \HJ.
+
 Winners: \S 2 : \H 1 : \D 2 : \C 2 : Total = 7
 
 The opening lead gave you 1 \H trick. If \Cs split 2-2 you can make T tricks! But wait, you only need 9 tricks. What if you play 2 top \Cs and it turns out East has \C Q x x ? He could win the next \C and lead a \H through your \H K 9. That would not be good.
@@ -2870,6 +3088,8 @@ Clickfor the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+EIGHT EVER, NINE NEVER ???.
 
 That old guideline says you should finesse for a missing Queen when you and partner have eight cards in the suit, but play for the drop when you have nine.
 
@@ -2908,6 +3128,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 5\D. West leads the \CJ and East plays the \CK.
+
 Losers: \S 1 : \H 1 : \D 0 : \C 1 : Total = 3
 
 The \C lead was pleasant, it gave you a free finesse. But it didn't really give you a winner since you would have ended up taking the finesse yourself even without the lead. Still, it clears the position somewhat.
@@ -2921,6 +3143,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+As you can see, if you ruffed the third \C with a low \D East would over-ruff.
 
 If you ruffed the third \C with the \DA East would win a trump trick.
 
@@ -2963,6 +3187,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 6\S. West leads the \CJ.
+
 Losers: \S 0 : \H 1 : \D 0 : \C 1 : Total = 2
 
 Between the \H loser and the \C loser which one can you eliminate? Easy question, fast losers like the \HA are tough to eliminate. Usually you work on those slow losers.
@@ -2974,6 +3200,8 @@ First take two rounds of trumps with the \SA and \SK. Then play two top \Cs. Onl
 Clickfor proof that this elaborate Plan was the best. [NEXT]
 
 [show NESW]
+
+You only needed one trump in dummy to ruff your one \C loser, so that made it right to pull two rounds of trumps first.
 
 It made no difference in tricks whether you ruffed the third or fourth \C so that made it right to ruff the third one.}
 [BCFlags "1f"]
@@ -3014,6 +3242,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\S. West leads \DA, \DK, \D4. East wins the third trick with \DQ and plays a \H.
+
 Losers: \S 0 : \H 0 : \D 3 : \C 1 : Total = 4
 
 Since you've already lost the three \Ds you'd better not lose the \C.
@@ -3027,6 +3257,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+This was not an easy plan. 
 
 The first part is realizing that you need to have three entries to dummy.
 
@@ -3061,6 +3293,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\H. West leads the \S2, East playing the \SQ.
+
 Losers: \S 1 : \H 0 : \D 2 : \C 1 : Total = 4
 
 If the \C finesse works you have no \C loser, and as a bonus you will be able to discard one of your other losers. Even if the finesse fails you still have an extra winner for the discard.
@@ -3074,6 +3308,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+You usually think of a hold-up play in a Notrump contract, trying to exhaust one defender of his partner's suit. 
 
 For this deal the hold-up serves a different purpose. It keeps one defender from ever gaining the lead.
 
@@ -3118,6 +3354,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 6NT. West leads the \SQ.
+
 Winners: \S 2 : \H 6? : \D 0 : \C 1 : Total = 9
 
 The winner list isn't as bad as it looks, once you drive out the \DA you'll have your three extra winners in \Ds. 
@@ -3131,6 +3369,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+A 4-1 split isn't as likely as a 3-2 split. 
 
 But when you can make a plan that caters for the possibility you should certainly do so.
 
@@ -3175,6 +3415,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 3\H. West leads \DA, \DK, \DJ. East plays first the \DT, then \D2.
+
 Losers: \S 2 : \H 1 : \D 3 : \C 0 : Total = 6
 
 Although there are two \S losers in your hand, one can either be ruffed in dummy or discarded on a high \C. So you really only have one loser too many.
@@ -3188,6 +3430,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+Be ever watchful for situations where you may be over-ruffed. 
 
 Often, like in this deal, you can discard a loser instead.}
 [BCFlags "1f"]
@@ -3232,6 +3476,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 6NT. West leads the \DT.
+
 Winner count: \S 1 : \H 1 : \D 4 : \C 5 : Total = 11
 
 You need just one more winner. If the \SK is with East then a simple finesse will provide it. This would not be a terrible plan - you can expect it to succeed 50% of the time. Of course that means you will go down the other 50% of the time.
@@ -3245,6 +3491,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+Sometimes you will have two or three possible ways to try for a contract. You need to evaluate them as to which is the most likely to succeed. There are times when this can be very difficult to analyze, but fortunately some choices are pretty easy to make.
 
 The choice between a single finesse and a double finesse is one that you will face many times. So remember that the double finesse works 75% of the time.}
 [BCFlags "1f"]
@@ -3283,6 +3531,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 5\C. West leads \DA, then \D2.
+
 Losers: \S 2 : \H 1 : \D 1 : \C 0 : Total = 4
 
 MAYBE East will have the \SA and the \HK. But maybe not. You do have an extra \D trick so you need to determine the best use you can make of that.
@@ -3296,6 +3546,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+It's always nice to give yourself two chances. 
 
 With correct play you succeed when East holds the \SA, but also if he holds the \HK.
 
@@ -3336,6 +3588,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\H. West leads the \CA, \CK, \CQ.
+
 Losers: \S 0 : \H 0 : \D 2 : \C 2 : Total = 4
 
 You must eliminate one \D loser, that means ruffing it in dummy. You would like to pull trumps first but you cannot chance pulling two rounds because if they don't split 2-2 you would have to leave one out until after you had ruffed the \D. The problem would then be that the defender who took the \DA might lead the third trump, preventing your ruff.
@@ -3347,6 +3601,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+As you see you couldn't afford to pull trumps until after the \D ruff. 
 
 And you couldn't get the \D ruff until after you had forced out the \DA.}
 [BCFlags "1f"]
@@ -3377,6 +3633,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\S. West leads the \HK.
+
 Losers: \S 1 : \H 3? : \D 0 : \C 1 : Total = 5?
 
 The loser count is somewhat misleading because obviously you can ruff some \Hs in dummy.
@@ -3390,6 +3648,8 @@ Clickfor the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+You may have been tempted to play the \SK, then finesse West for the \SQ. 
 
 If you tried that East would have won his \SQ, then played another \S. That would leave both you and dummy with only one trump each and you would have come up a trick short. You can afford to pull just two rounds of trumps, then must cross-ruff with your remaining four.}
 [BCFlags "1f"]
@@ -3424,6 +3684,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\H. West leads the \C4, East plays the \CK.
+
 Losers: \S 3 : \H 0 : \D 2 : \C 1 : Total = 6
 
 There is no hope of extra winners except the \D suit. You are wide open in \Ss, so you have to hope that West holds the \DK. But that won't be enough by itself, in case he has \D K x x x you also have to have three entries to your hand. Two of them will be the \HA and \HQ and the third entry must be the \CA.
@@ -3435,6 +3697,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+This plan would work 50% of the time, whenever West was dealt the \DK. 
 
 Any other plan that was based on West holding the \DK would work ALMOST 50% of the time but would fail when West had three protectors for the \DK.}
 [BCFlags "1f"]
@@ -3471,6 +3735,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\H. West leads the \SQ.
+
 Losers: \S 1 : \H 1 : \D 1 : \C 1 : Total = 4
 
 You know you can't get rid of the \D loser, and it's hard to imagine a way that would let you get rid of the \C loser. The \H loser depends on the finesse. So you should try to find somewhere to put the \S loser.
@@ -3484,6 +3750,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+Take the \H finesse before you set up a \D trick and you will be just fine if the finesse wins. But if it loses you will lose a tempo and the defense will get to your \S loser before you can set up a \D. 
 
 Set up the \D winner before you take the \H finesse and you will always be able to dump the \S loser no matter who has the \HK.}
 [BCFlags "1f"]
@@ -3518,7 +3786,7 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
-You hold up on this trick and East returns the \D3.
+South plays 3NT. West leads the \D2. East plays \DQ. You hold up on this trick and East returns the \D3.
 
 Winners: \S 1 : \H 4 : \D 1 : \C 0 : Total = 6
 
@@ -3535,6 +3803,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+In this layout the \S finesse fails, as it would do half the time.
 
 West's lead of the \D2 should have made you pretty sure that he had led from a 4-card suit. If the \D2 is fourth down, there cannot be a fifth down. Additionally, East's return of the \D3 confirmed that conclusion. If East had started with only 3 \Ds, (say \D Q 6 3) his correct return at trick 2 would have been his next highest, the \D6. With 4 cards in the suit his correct return is his original fourth down.}
 [BCFlags "1f"]
@@ -3571,6 +3841,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\S. West leads the \DJ.
+
 Losers: \S 0 : \H 1 : \D 1 : \C 2 : Total = 4
 
 One loser to get rid of. Perhaps you could lead toward the \HQ? Nope, that wouldn't work because East surely has the \HK for his Takeout Double.
@@ -3584,6 +3856,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+You are only going to be in dummy that one time so you must make sure to do whatever you need to do right then.
 
 If you decided to play for trumps to split 2-2 so you could use the \S8 as an entry back to dummy for the \C finesse then you need to start thinking more clearly!}
 [BCFlags "1f"]
@@ -3618,6 +3892,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South to play 4\S. West leads the \CQ. East plays \C6.
+
 Losers: \S 1 : \H 0 : \D 2 : \C 1 : Total = 4
 
 You know you are going to get to dummy with a \H and then try the \S finesse. Your big worry should be that if the \S finesse loses East will be able to get the lead and play a \D through your \D K 8.
@@ -3629,6 +3905,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+Recognize that East is the Danger Hand because he can lead a \D.
 
 Then think about how to keep East from getting the lead - in this case holding up on the first trick.}
 [BCFlags "1f"]
@@ -3665,6 +3943,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\S. West leads the \HQ.
+
 Losers: \S 1 : \H 1 : \D 1 : \C 1 : Total = 4
 
 You have a loser in each suit and must eliminate one of them. Since the defense can take their Aces whenever they want to you need to find a place to put your "slow" \H loser. There are two possibilites, but each must be tried immediately because once you lose the lead the defenders will set up their \H.
@@ -3680,6 +3960,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+It was wise to choose to set up your \D rather than dummy's \CK because the \D play did not depend on a fortunate placement of the cards. 
 
 A very important part of this Plan was where you chose to win the first trick. Since entries are a problem with either hand you had to save the high \H as entry to the hand that would have the eventual winner. }
 [BCFlags "1f"]
@@ -3714,6 +3996,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\H. West leads the \CQ.
+
 Losers: \S 1 : \H 0 : \D 1 : \C 2 : Total = 4
 
 The defense will take their two \C tricks as soon as they get the lead. But you can discard your "slow" \S loser on one of dummy's \D honors IF West has the \DA and IF you act quickly.
@@ -3725,6 +4009,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+It was important to start on \Ds at the second trick because you were conveniently in your hand and your hand didn't have other entries outside the trump suit. Not knowing how trumps would split you needed to make the first \D play right then. 
 
 This wasn't a guaranteed Plan like some. If East held the \DA then you would go down.}
 [BCFlags "1f"]
@@ -3755,6 +4041,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 3NT. West leads the \S6, East plays \S2.
+
 Winner count: \S 2 : \H 2 : \D 0 : \C 1 : Total = 5
 
 You are bound to get 2 winners in \Ss. You need to create 4 winners and the \D suit offers the perfect opportunity. Drive out the \DA and the other four \Ds are winners. But there is a very critical problem. If the defenders hold up their \DA until the third round of the suit you may be locked out of dummy.
@@ -3769,15 +4057,19 @@ Click NEXT to see the full deal. [NEXT]
 
 [show NESW]
 
-Click NEXT to see the effect of your play to the first trick. [NEXT]
+Here are the initial hands. Click NEXT to see the effect of your play to the first trick. [NEXT]
 
 [PLAY N:S5,N:H4,N:DQ,N:DT,N:D3,E:S2,E:H3,E:DA,E:D9,E:D2,S:S8,S:HK,S:DJ,S:D8,S:D7,W:S6,W:H5,W:H2,W:D5,W:D4]
+
+This shows the hands after five tricks have been played in the case where you took the first trick with your \S8. You have just won trick 5 with your \HK.
 
 Notice that no matter what you try West can prevent you from reaching dummy.
 
 Click NEXT to see how the correct play works. [NEXT]
 
 [PLAY S:SA]
+
+This shows the hands after five tricks have been played in the case where you took the first trick with your \SA. You have just won trick 5 with your \HK.
 
 Notice that West cannot prevent you from reaching dummy with the \S Q J.}
 [BCFlags "1f"]
@@ -3814,6 +4106,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\H. West leads the \SA then the \S8.
+
 Losers: \S 1 : \H 0 : \D 2 : \C 2 : Total = 5
 
 You cannot avoid losing the two \Ds and since you have already lost a \S you must not lose any \Cs. So you have to find East with the \CK. But that isn't all - you also need to get to dummy twice to make two finesses. The \HA is one entry and the other one will have to be the \H7.
@@ -3825,6 +4119,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+When entries are scarce look at the suits where you have a fit. Sometimes you can find an extra entry by unblocking high spot cards in one hand. 
 
 If you hadn't been able to find that extra entry you would have had no choice but to play East for the doubleton \C K x.}
 [BCFlags "1f"]
@@ -3857,6 +4153,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\S. West leads \HA, \HK, \H3 and East follows to all three.
+
 Losers: \S 0 : \H 2 : \D 2 : \C 1 : Total = 5
 
 The 5 loser count isn't actually right because at this point you can dump one of those losers on dummy's \HQ. The question is: Which one?
@@ -3870,6 +4168,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+You might have thought it was better to discard the \CQ rather than a \D because the \C finesse was only a 50% chance while the chance of a 3-2 \D split was much better than that. 
 
 The percentages are right but the logic is wrong. If you are going to benefit from a 3-2 \D split it is only necessary for you to keep 4 \Ds in one of the hands, not both. So the fourth \D in your hand was unimportant while the \CQ gave you an extra shot.}
 [BCFlags "1f"]
@@ -3908,6 +4208,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\H. West leads the \SQ and the defense plays three high \Ss.
+
 Losers: \S 2 : \H 0/1 : \D 0 : \C 1 : Total = 3/4
 
 If the trumps split 3-2 you are going to make 11 easy tricks.
@@ -3916,6 +4218,8 @@ So you ruff the third \S and play \HA, \HK. East shows out.
 
 Decide whether to revise the Plan, then click NEXT. [NEXT]
 
+South plays 4\H. West leads the \SQ and the defense plays three high \Ss.
+
 Don't change plans, the old one was doing fine. Pull one more trump with the \HQ. That leaves West with \HJ and you with \H7. Don't panic, just don't lead any more \Hs. Start playing \D winners, then \C winners. Let West ruff with his \HJ any time he wants to, your \H7 will then be able to take care of a \S return and let you get back to minor suit winners.
 
 Click NEXT to see the full deal. [NEXT]
@@ -3923,6 +4227,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+When you have pulled some trumps and one defender has the master trump left, it is usually correct to leave it out and start on your side suits. He can ruff with if he wants to, but then you will have trump control again. 
 
 This deal is a good example of that principle.}
 [BCFlags "1f"]
@@ -3967,6 +4273,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\S. West leads the \HK.
+
 Losers: \S 0 : \H 2 : \D 1 : \C 1 : Total = 4
 
 You have one loser to get rid of. Your best approach is to establish a \C in dummy to take care of your \D loser. You can't pull trumps yet because you need  the \SQ as an entry.
@@ -3978,6 +4286,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+With the \H lead you first take the \HA, then establish a \C to discard your \D loser, using the \SQ as an entry. 
 
 If the opening lead had been a \D you would first take the \DA, then pull trumps, then establish a \C to discard a \H loser, using the \HA as an entry.
 
@@ -4018,6 +4328,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 3NT. West leads \SJ. East plays \SK.
+
 Winner count: \S 2 : \H 1 : \D 3 : \C 1 : Total = 7
 
 The \S lead assures you of two tricks in the suit. So you only need to create two more. If the \Ds split 3-2 (likely) you could get 3 extra tricks there. But there's a danger - if they split 4-1 you wouldn't have an entry to them. Well, you wouldn't have an entry unless you DUCKED the first \D. Then a 4-1 split wouldn't prevent you from making 5 \D winners.
@@ -4027,6 +4339,8 @@ So you win the \SA and lead the \D3, planning to duck.
 West shows out.
 
 Make PLAN B, then click NEXT. [NEXT]
+
+So you win the \SA and lead the \D3, planning to duck. 
 
 West shows out.
 
@@ -4039,6 +4353,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+Sometimes you have to change your plan.
 
 When the \Ds turned out to be 5-0 you had to get lucky. Your back-up Plan wasn't likely to work - it required the missing \C honors to be split, but also required a 3-3 \C split, not a likely outcome.
 
@@ -4073,6 +4389,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\H. West leads the \SQ.
+
 Losers: \S 2 : \H 1 : \D 2 : \C 0 : Total = 5
 
 Win the \SK, then enter dummy with the \CA and play another \S toward your \SA. You do this to prevent East ruffing your high \S. Next you lead the \S2 and ruff with dummy's \HK. Ruff a \C to get back to your hand and ruff the \S7 with dummy's \H9. East may over-ruff this, but only with a trump trick he was going to win anyway.
@@ -4084,6 +4402,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+It is tempting to ruff the first \S with dummy's \H9, hoping to sneak that through then ruff the second one with \HK. 
 
 The problem is that East would have over-ruffed the \H9 and then played another \H and you would not have gotten to ruff either \S,}
 [BCFlags "1f"]
@@ -4122,6 +4442,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\H. West leads the \CK.
+
 Losers: \S 0 : \H 0 : \D 2 : \C 2 : Total = 4
 
 You might consider setting up dummy's \S suit for a discard but there are too few entries to make that work.
@@ -4135,6 +4457,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+Taking two finesses in \Ds will be successful whenever East holds the \DK OR the \DQ OR both the \D K Q. 
 
 This will happen about 75% of the time, so the double finesse is a good Plan. And on this Deal it was the only plan available.}
 [BCFlags "1f"]
@@ -4177,6 +4501,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\H. West leads \CA, \CK, \C4. East plays \C8 then \C2.
+
 Losers: \S 0 : \H 0 : \D 1 : \C 3 : Total = 4
 
 Suppose you discard a \D from dummy. If East doesn't ruff this \Cthen your \CQ will win. You could then try to establish dummy's \DQ to discard your fourth \C on. 
@@ -4188,6 +4514,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+The prayer was answered, East did not hold the \HJ. 
 
 So you won that trick and still had your \CQ to use after you pulled trumps.}
 [BCFlags "1f"]
@@ -4224,6 +4552,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+Things look grim. The defense has exposed your \D losers already and those two \S losers seem pretty obvious also. If you are to make this contract you must do so before you lose the lead. That means you must establish the \C suit NOW.
+
 Win the \DA, play \CA and ruff the \C2 with a high trump. Play a \H to the \HT and ruff the \C4 with a high trump. Play a \H to the \HJ and ruff the \C8 with a high trump. Play a \H to the \HA and discard a loser on the good \C9.
 
 Click NEXT to see the full deal. [NEXT]
@@ -4231,6 +4561,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+It took a 4-3 \C split to make this contract. 
 
 Fortunately that occurs a high percentage of the time. In any case, there was no other hope.}
 [BCFlags "1f"]
@@ -4267,6 +4599,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 6NT. West leads the \S3.
+
 Winner count: \S 0 : \H 3 : \D 4 : \C 4 : Total = 11
 
 It's pretty clear which suit you have to worry about! Your goal is simple, you must win one \S trick before you lose two. So the crux of your problem is: Who holds the \SA and \SQ?
@@ -4284,6 +4618,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+If you think West has \S A 9 7 3 then you should play the \SK from dummy. But if you think West has \S Q 9 7 3 you should play low from dummy.
 
 Since West is unlikely to underlead an Ace against 6NT you play East for the \SA. }
 [BCFlags "1f"]
@@ -4320,6 +4656,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\H. West leads the \CQ.
+
 Losers: \S 1 : \H 0 : \D 2 : \C 1 : Total = 4
 
 Well, you are SUPPOSED to have plenty of points for game. So why isn't it laydown? Answer: Because North has \S Q J instead of \SK. If he had \SK it would be a laydown.
@@ -4333,6 +4671,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+Admittedly it would have been simpler if North held the \SK. 
 
 With the \S Q J instead you just have to take care with entries. (Make that entry, singular.)}
 [BCFlags "1f"]
@@ -4367,6 +4707,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\S. West leads the \CJ.
+
 Losers: \S 0 : \H 3 : \D 2 : \C 0 : Total = 5
 
 You may think you're lucky they didn't take their \H tricks, but the truth is that they will probably get them anyway. If trumps split 2-2 then you can easily ruff both \D losers in dummy. Or, you could ruff three \C losers in your hand, it would work out the same.
@@ -4380,6 +4722,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+This is really a cross-ruff type plan. 
 
 And with any cross-ruff it is best to pull as many trumps as you can spare before you start ruffing. Leave yourself just the number of trumps you need.}
 [BCFlags "1f"]
@@ -4420,6 +4764,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\S. West leads the \CJ. They play two more high \Cs.
+
 Losers: \S 0 : \H 2 : \D 0 : \C 2 : Total = 4
 
 You ruff the third \C, then play \SQ and \SJ. Come to your hand with the \DA and pull the last trump. Now decide what to do with the \Hs.
@@ -4433,6 +4779,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+This is called a Deep Finesse. 
 
 The only time it is a mistake is when West holds the \H K Q and East holds the \HT. Even in that case though some Wests will "split their honors" and give it away.}
 [BCFlags "1f"]
@@ -4471,6 +4819,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\H. West leads the \CJ.
+
 Losers: \S 2 : \H 1 : \D 1 : \C 0 : Total = 4
 
 The \SA and the \HA definitely won't go away. And the \D loser is pretty sure also. However, the second \S loser can be eliminated either by leading up to the \S K Q 5 or by ruffing it in dummy.
@@ -4484,6 +4834,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+Leading even one round of trumps would be a mistake. 
 
 Suppose when you led toward your \SQ it held the trick. Would you be convinced that East musthold the \SA and change your plan? Would you then pull trumps and let your contract depend on that assumption? I hope not.}
 [BCFlags "1f"]
@@ -4514,6 +4866,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 3NT. The defenders win 4 \H tricks, then play a small \D.
+
 Winners: \S 2 : \H 0 : \D 2 : \C 3 : Total = 7
 
 You need 2 more tricks and you expect to get them from \Cs. This should have been evident while they were leading all those \H winners so you would not have discarded one of the \Cs from your hand. But you also had to be careful not to discard even one of dummy's \Cs, you need all three of them.
@@ -4525,6 +4879,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+Suppose you had incorrectly discarded dummy's \C3 on one of those \Hs. You would have played the \Cs by first leading small to the \CK (West following) then the \C7 back toward your hand. It is true that you COULD finesse now but you wouldn't know that you SHOULD since you wouldn't know that West was now void.
 
 This was a very difficult hand.}
 [BCFlags "1f"]
@@ -4565,6 +4921,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\S. West leads the \DQ.
+
 Losers: \S 0 : \H 3 : \D 0 : \C 1 : Total = 4
 
 It is possible (but not probable) that \Cs will split 3-3. 
@@ -4578,6 +4936,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+You cannot be defeated if you play \Hs at the second trick. 
 
 If instead you decide to lead a \S to dummy's \SJ and lead a \H toward your \HK you might go down. West could win the \HA and play a second trump. When you played the next \H West would win again and play a third round of trumps. You would no longer be able to ruff the \H loser.}
 [BCFlags "1f"]
@@ -4610,6 +4970,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\H. West leads the \DQ.
+
 Losers: \S 3 : \H 0 : \D 0 : \C 1 : Total = 4
 
 You are going to lose the \C for sure, so you need to find a way to hold the \S losers to 2. The obvious possibility is for West to hold the \SA and you lead through him to make the \SK a winner. That's a 50% possibility.
@@ -4623,6 +4985,8 @@ Clickfor the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+You can see that the deep finesse would indeed force East's \SA. However, West played his \SQ to the trick, forcing you to go up with dummy's \SK, which was taken by East's \SA. 
 
 You must modify the Plan a little bit. Now your only hope is that West still holds the \SJ. So you win the next trick in your hand and lead a \S toward dummy's \ST. This time West is caught. He plays the \SJ hoping you had a doubleton, but you still have a \S to get to the now high \ST.}
 [BCFlags "1f"]
@@ -4653,6 +5017,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\H. West leads \SA, then \H8.
+
 Losers: \S 2 : \H 1 : \D 0 : \C 1 : Total = 4
 
 You've already lost 1 \S, you can't escape the \C and it looks like the \H is unavoidable also. So that means you can't afford to lose that second \S.
@@ -4666,6 +5032,8 @@ Clickfor the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+Usually it is a good play to let a lead come up to your Queen. It's like a free finesse.
 
 But you don't want to get into the habit of doing what is USUALLY good without thinking through the consequences.}
 [BCFlags "1f"]
@@ -4696,6 +5064,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 3NT. West leads \S5. You put on dummy's \S6 and East plays the \S8.
+
 Winner count: \S 2 : \H 0 : \D 1 : \C 5 : Total = 8
 
 The good news is that they didn't lead a \H. The bad news is that if you give up the lead they probably will. 
@@ -4709,6 +5079,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+With the unfortunate placement of red cards the only way you can enjoy 3 \S tricks is to take your \SK on the first trick and later finesse West for the \SQ.
 
 Notice how strange this game can be. If your holding was \S K 2 rather than \S K T you would have had no difficulty coming up with the correct play. But the fact that you can win a cheap trick with the \ST tries to lure you into making an inferior play. }
 [BCFlags "1f"]
@@ -4743,6 +5115,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+South plays 4\S. West leads the \DT, you cover and East plays the three high \Ds.
+
 Losers: \S 0 : \H 1 : \D 2 : \C 1 : Total = 4
 
 To start with, you ruff the third \D. You cannot avoid the \C loser, so you might think that \Hs must break evenly to give you a fourth \H trick. In fact, there is a chance that you might ruff the fourth \H.
@@ -4754,6 +5128,8 @@ Click NEXT to see the full deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+You will always make the contract when \Hs split 3-3.
 
 By pulling exactly 2 rounds of trumps first you can also succeed in the case where \Hs split 4-2 and the defender with the doubleton \H also has a doubleton trump.}
 [BCFlags "1f"]

@@ -1,5 +1,5 @@
 %Creator: CSVtoPBN Version 1.01
-%Created: 2026-02-04 17:08:04
+%Created: 2026-02-04 17:20:43
 %sourcefilename BakerBridge.csv
 %HRTitleEvent Finesse
 [Board "1"]
@@ -21,6 +21,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+
+
 Winners:   \S = 0    \H = 2  \D = 4    \C = 1 Total = 7
 
 Needing two more winners you will have to make both the \SK and \SQ. This will only be possible if West holds the \SA. Win the first trick (if you don't West might switch to \Cs) and play a small \S toward dummy's \SQ. It holds the trick.
@@ -29,11 +31,15 @@ Click NEXT. [NEXT]
 
 [PLAY N:SQ,N:H4,S:S4,S:HK]
 
+
+
 You should take your four \D winners now, being sure to end up in your hand. Then play another small \S toward dummy's \SK. This also wins.
 
 Click NEXT. [NEXT]
 
 [PLAY N:SK,N:DA,N:DQ,N:D7,N:D3,S:S6,S:DK,S:DJ,S:DT,S:D2]
+
+
 
 You have now won 7 tricks so don't mess around now. Take your two Aces and let them have the last four tricks.
 
@@ -43,6 +49,8 @@ Click NEXT to see the complete Deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+If East held the \SA you would not have made the contract.
 
 A Simple Finesse has only a 50% success rate. That's why we only take finesses as a last resort.}
 [BCFlags "1f"]
@@ -67,6 +75,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+
+
 Winners:   \S = 1    \H = 5  \D = 1    \C = 1 Total = 8
 
 You need just one more winner. Since West probably has 4 \Ds you will not be able to establish a trick in that suit, so your only hope is the \SQ. You win the first \D so they don't get a chance to switch to \Cs, a suit you are worse off in. Then take your 5 \H tricks, ending in dummy.
@@ -75,11 +85,15 @@ Click NEXT. [NEXT]
 
 [PLAY N:HA,N:HK,N:HQ,N:HJ,N:H4,N:DA,S:S7,S:HT,S:H6,S:D2,S:C4,S:C3]
 
+
+
 You can't put it off any longer so play a small \S from dummy and put the \SQ on. If it wins you will make your contract, if it loses you won't.
 
 Click NEXT to find out which. [NEXT]
 
 [show NESW]
+
+East held the \SK so you were lucky this time.
 
 But remember, finesses only work half the time. The other half they lose.}
 [BCFlags "1f"]
@@ -104,6 +118,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+
+
 Winners:   \S = 0    \H = 2  \D = 2    \C = 4 Total = 8
 
 Needing one more winner you should see right away that it cannot come from \Hs, \Ds, or \Cs. That means you must hope that East has the \SA. Win the first \H, then play your 4 \C winners ending in dummy.
@@ -112,6 +128,8 @@ Click NEXT. [NEXT]
 
 [PLAY N:H2,N:CK,N:CJ,N:C5,N:C2,S:HK,S:CA,S:CQ,S:C8,S:C7]
 
+
+
 The moment of truth. You lead a small \S from dummy. East plays low and you play the \SK.
 
 Unfortunately West takes your \SK with the \SA. He then plays another \H and you at least make 8 tricks but have no hope for a ninth one so you go down 1.
@@ -119,6 +137,8 @@ Unfortunately West takes your \SK with the \SA. He then plays another \H and you
 Click NEXT to see the bad news. [NEXT]
 
 [show NESW]
+
+You probably thought since these Deals were all about finesses that they would work all of the time.
 
 Welcome to the real world.}
 [BCFlags "1f"]
@@ -143,6 +163,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+
+
 Losers:   \S = 2    \H = 1  \D = 0    \C = 1 Total = 4
 
 West found the best opening lead for his side, exposing your \S losers before you could establish the \C suit for a discard. If you start to pull trumps right away the defense will grab the \HA, then take their two \S tricks and you will still have the \CA that you cannot avoid.
@@ -153,6 +175,8 @@ Click NEXT. [NEXT]
 
 [PLAY N:S2,N:DA,N:DQ,S:SA,S:S4,S:D8]
 
+
+
 At this point you have not lost any tricks, and you can see that you have only 3 losers remaining in your hand. So you start pulling trumps and establishing the \Cs.
 
 Clickfor the complete deal. [NEXT]
@@ -160,6 +184,8 @@ Clickfor the complete deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+If the \D finesse had lost you would have gone down 2 instead of just one.
 
 The risk was worthwhile though since it gave you your only chance of making the contract.}
 [BCFlags "1f"]
@@ -184,6 +210,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+
+
 Winners:   \S = 4    \H = 1  \D = 5    \C = 1 Total = 11
 
 You need one more winner from the \H or \C suit. The straight finesse of the \HK offers a 50% chance of success. The double finesse of the \C K Q offers a 75% chance of success. It's a no-brainer. Run 4 \Ss and 5 \Ds ending in your hand. Be very careful not to discard a \C from your hand.
@@ -192,11 +220,15 @@ Click NEXT. [NEXT]
 
 [PLAY N:SA,N:SQ,N:SJ,N:S2,N:H7,N:H6,N:DA,N:DK,N:D5,S:SK,S:S9,S:S5,S:H2,S:DQ,S:DJ,S:DT,S:D8,S:D7]
 
+
+
 Lead a small \C and play the \CT if West plays low. Let's say East wins the \CK and returns a \H.
 
 Click NEXT. [NEXT]
 
 [PLAY N:CT,S:C3]
+
+
 
 DO NOT FINESSE THE \H. Stick with your original 75% plan. Take the \HA and play your small \C, finessing the \CJ. This is why you couldn't discard a \C earlier.
 
@@ -206,6 +238,8 @@ Click NEXT to see the complete Deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+The single \H finesse is an inferior play because its success depends on East holding a specific card, the \HK.
 
 The double \C finesse is much better because its success depends on West holding either of two cards, the \CQ OR the \CK.}
 [BCFlags "1f"]
@@ -230,6 +264,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+
+
 Losers:   \S = 1    \H = 1  \D = 1    \C = 1 Total = 4
 
 West has made another great lead. Any other suit would have given you a free finesse. You should duck the first \D. It is very possible that West has led from \D K Q T and will be afraid to continue for fear you have the \DJ in your hand. You'd be very happy to see him switch to any other suit. But he doesn't, he continues with the \DQ which you take with dummy's \DA.
@@ -238,6 +274,8 @@ Click NEXT. [NEXT]
 
 [PLAY N:DA,N:D3,S:D8,S:D4]
 
+
+
 You are in dummy for the first, last, and only time. You need to try a finesse right now, but which one? At first you might think it makes no difference but, in fact, there is only one reasonable choice. If you finesse the \SK successfully you may still have a \S loser. If you finesse the \HK successfully you will surely still have a \H loser. But if you finesse the \CK successfully you will eliminate your \C loser.
 
 Clickfor the complete Deal. [NEXT]
@@ -245,6 +283,8 @@ Clickfor the complete Deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+What a great layout! Three possible finesses and every one of them would work.
 
 But as you can see, only the \C finesse will actually save you a trick.}
 [BCFlags "1f"]
@@ -269,6 +309,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+
+
 Losers:   \S = 0    \H = 1  \D = 2    \C = 0 Total = 3
 
 Your only hope for ridding yourself of two of those losers is dummy's \C suit. One possibility would be to finesse West for the \CK, and if that works, discard your \H loser on the \CA. You could then establish another \C winner for one of the \D losers. The problem with that plan is that if the finesse fails the defense will immediately take the setting \H trick.
@@ -279,6 +321,8 @@ Click NEXT. [NEXT]
 
 [PLAY N:S7,N:S3,N:H6,S:SK,S:SQ,S:HA]
 
+
+
 Next play your \C7 to dummy's \CA. Then lead the \CQ from dummy. If East plays the \CK you will ruff, enter dummy, and discard two red losers on the \C J T. If East plays low instead, you discard your \H loser. West may be able to win the trick but you can ruff a \H return, and dummy will have two good \Cs on which you can discard 2 \D losers.
 
 Clickfor the complete Deal. [NEXT]
@@ -286,6 +330,8 @@ Clickfor the complete Deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+Ruffing finesses sometimes provide you the best opportunity, like this time.
 
 But they are easy to overlook, mainly because we don't use them often.}
 [BCFlags "1f"]
@@ -310,6 +356,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+
+
 Winners:   \S = 1    \H = 2  \D = 1    \C = 4 Total = 8
 
 You only need one more winner. If East has the \SK you can finesse him out of it. Or, you have a two-way finesse for the \HQ.
@@ -322,6 +370,8 @@ Click NEXT. [NEXT]
 
 [PLAY N:D7,N:D6,N:D3,N:CA,N:CK,N:C6,N:C5,S:DA,S:DT,S:D4,S:CQ,S:CJ,S:C9,S:C2]
 
+
+
 Now play the \HJ. If West doesn't cover, you will let it ride for your ninth trick. But West does cover so you take dummy's \HA, then your other 2 \H tricks. The \SA  is your ninth trick.
 
 Clickfor the complete Deal. [NEXT]
@@ -329,6 +379,8 @@ Clickfor the complete Deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+You might think that a two-way finesse offers you a 50% chance of guessing correctly.
 
 Sometimes that may be right. But there are other times when information from the bidding or the opening lead allows you to make a higher-percentage guess.}
 [BCFlags "1f"]
@@ -355,11 +407,15 @@ Make a Plan, then click NEXT. [NEXT]
 
 [PLAY N:HT,N:H9,N:H6,N:D5,S:H7,S:H4,S:H2,S:DK]
 
+
+
 Losers:   \S = ?    \H = 3  \D = 0    \C = 0 Total = 3 ?
 
 You have already lost the 3 \H tricks so you must pick up the trump suit without loss. The odds aren't in your favor, but you have no choice but to play West for the doubleton King.
 
 Click NEXT. [NEXT]
+
+
 
 Lead a small \S from your hand and when West plays low put on the \SJ. When this holds the trick plunk down the \SA and hope.
 
@@ -368,6 +424,8 @@ Clickfor the complete Deal to see if the \SK dropped or not. [NEXT]
 [RESET]
 
 [show NESW]
+
+This position is one that is misplayed very often.
 
 Look what would have occurred if you had started with the \SQ. West would have covered with the \SK (if he had it) and you would have lost a trick to the \ST later. 
 
@@ -396,6 +454,8 @@ Make a Plan, then click NEXT. [NEXT]
 
 [PLAY N:HQ,N:D5,N:D4,S:H2,S:DQ,S:DJ]
 
+
+
 Losers:   \S = 0    \H = 0  \D = 2    \C = 2 Total = 4
 
 The status is pretty clear, you've already lost the 2 \Ds so you have to keep your \C losers to just one. You have a good chance of pulling that off by playing for the \CK and \CQ to lie in different hands and taking two finesses.
@@ -406,13 +466,17 @@ But you will only be in dummy once more so you MUST make the first finesse right
 
 [PLAY N:HA,N:C2,S:H4,S:CT]
 
-In dummy for the last time you must now take your second \C finesse. You play a small \C to your \CJ. When the \CJ wins you pull any leftover trumps and your hand is good.
+
+
+  In dummy for the last time you must now take your second \C finesse. You play a small \C to your \CJ. When the \CJ wins you pull any leftover trumps and your hand is good.
 
 Clickfor the complete Deal. [NEXT]
 
 [RESET]
 
 [show NESW]
+
+This Deal is an excellent example of how and when to use the Double-Finesse, which gives you a 75% chance of success.
 
 It was probably a better example of watching your entries. If you had pulled another trump before taking that first \C finesse you would not have been able to take the second one.}
 [BCFlags "1f"]
@@ -437,11 +501,15 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+
+
 Losers:   \S = 2    \H = 2  \D = 0    \C = 0 Total = 4
 
 You don't really have 2 \H losers since both of them can be ruffed in dummy. The 2 \S losers are real, though, and must be dealt with. If East holds the \SK then a simple finesse will win the contract for you. A 50% chance. But there is more to this Deal than a simple finesse, look at it carefully.
 
 Click NEXT. [NEXT]
+
+
 
 In addition to the trumps, dummy has another useful card, the \HJ. You can give yourself a second chance by playing West to hold the \HQ.
 
@@ -451,11 +519,15 @@ Click NEXT. [NEXT]
 
 [PLAY N:H6,N:D2,N:C7,N:C6,S:H5,S:DK,S:D6,S:D3]
 
+
+
 You are in control now. You play a \H to dummy's \HJ, then a \S back to your \SA. Discard dummy's 2 \S losers on the \H A K and claim your slam.
 
 Click NEXT to see that this was the only way it would make this time. [NEXT]
 
 [show NESW]
+
+Suppose that it was East who held the \HQ. Your \HJ would have been taken and you wouldn't get the two \S discards.
 
 Then you would have to rely on the \S finesse after all. You'd be no worse off because you could still discard one of dummy's \Ss on a big \H.
 
@@ -482,6 +554,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+
+
 Winners:   \S = 4    \H = 2  \D = 4    \C = 2 Total = 12
 
 A. Conan Doyle would have called this "The Tale of Two Queens". You need to find one more trick and to do so you are going to have to find either the \HQ or the \CQ. You can finesse East for the \HQ, and you can finesse either defender for the \CQ.
@@ -490,17 +564,23 @@ So which will you choose?
 
 Click NEXT. [NEXT]
 
+
+
 Neither, yet. First take your 8 winners in \Ss and \Ds, hoping somebody discards something to help you. They don't.
 
 Click NEXT. [NEXT]
 
 [PLAY N:SK,N:SJ,N:S7,N:DA,N:DJ,N:DT,N:D8,N:C6,S:SA,S:SQ,S:S5,S:S3,S:DK,S:DQ,S:C7,S:C2]
 
+
+
 Now play the \CA, then \CK, hoping the \CQ falls. If she does you have your thirteenth trick in \Cs. If she doesn't you take the \HK then finesse East for the \HQ. Two chances.
 
 Click NEXT to see what happened. [NEXT]
 
 [show NESW]
+
+As you see, the \H finesse would have failed. You might have guessed the \CQ correctly, but you might not have.
 
 It always pays to look for a second chance. Here you try to drop the \CQ, and if it doesn't work you have the finesse for the \HQ in reserve. 
 
@@ -527,6 +607,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+
+
 Winners:   \S = 0    \H = 2  \D = 2    \C = 4 Total = 8
 
 First things first. Win the first \H, do not hold up. West's \H3 indicates he has led a 4-card suit so a hold-up wouldn't help you. And if you did hold up they might pocket their \H trick and switch to \Ds, a suit you are no better off in.
@@ -535,6 +617,8 @@ You need to get one more winner and it will have to be a \S winner. You could le
 
 Click NEXT. [NEXT]
 
+
+
 Having won the first \H trick in your hand, play a small \S and finesse the \ST. Suppose East wins the \SK and returns a \H. Take your \HA and play another \S, going up with the \SQ if West plays low. If the \SQ wins, take your 9 tricks and run.
 
 Clickfor the complete Deal. [NEXT]
@@ -542,6 +626,8 @@ Clickfor the complete Deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+Although this doesn't look like a normal A Q finesse it really is about the same.
 
 Whenever the \SA and \SK are in different hands, the only thing that matters is the location of the \SJ. 
 
@@ -570,17 +656,23 @@ Make a Plan, then click NEXT. [NEXT]
 
 [PLAY N:D8,N:D6,N:D4,N:C3,S:DQ,S:D5,S:D3,S:CJ]
 
+
+
 Losers:   \S = 0 or 1    \H = 0  \D = 3    \C = 0 Total = 3 or 4
 
 Since you have already lost 3 \D tricks you cannot also lose a \S trick. That means East will have to have the \SK and it also means that you will have to be careful with your finessing.
 
 Click NEXT. [NEXT]
 
+
+
 In your hand with a \C you play over to dummy's \HA. Now lead the \SQ from dummy and when East plays low play the \SJ (or T) from your hand.
 
 Click NEXT. [NEXT]
 
 [PLAY N:SQ,N:HA,S:ST,S:H4]
+
+
 
 The \SQ held the trick so you are still in dummy. Play the \S9, and when East doesn't cover, play your \S8 under it. West shows out on this trick and you are glad you played so carefully. Play one more \S, finessing East's \SK again, then play your \SA and the rest of your winners.
 
@@ -589,6 +681,8 @@ Clickfor the complete Deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+If you had played the \SQ and carelessly followed with the \S8 on your first finesse you would have gone down. You would have had to win the second finesse in your hand and would have no dummy entry to let you take the third finesse.
 
 True, the chances of East holding 4 \Ss to the King are pretty small, but it costs you nothing to protect yourself against that holding. 
 
@@ -617,6 +711,8 @@ Make a Plan, then click NEXT. [NEXT]
 
 [PLAY N:HT,N:H5,S:HK,S:H4]
 
+
+
 Winners:   \S = 3    \H = 1  \D = 3    \C = 1 Total = 8
 
 You need one more winner and \Cs is your best suit. If the \CK is in West's hand you can finesse it for 12 tricks. But if the \CK is in East's hand you will lose that trick and at least 4 \Hs.
@@ -625,15 +721,23 @@ Before you put all your eggs in the \C finesse basket there is one thing you sho
 
 Click NEXT. [NEXT]
 
+
+
 You should test the \D suit by playing \DQ, \DK, \DA. Both defenders follow three times and your \D6 has become a winner, which you cash.
 
 Click NEXT. [NEXT]
 
 [PLAY N:DQ,N:D7,N:D2,N:C5,S:DA,S:DK,S:D6,S:D5]
 
-Now you have a problem. You have won 5 tricks so far and you have 4 more winners ready to take. So you can take your 9 tricks and run, or you can finesse the \C trying for 3 overtricks.<br><br>It's your decision, but click NEXT to see how your decision would have turned out.</br></br> [NEXT]
+
+
+Now you have a problem. You have won 5 tricks so far and you have 4 more winners ready to take. So you can take your 9 tricks and run, or you can finesse the \C trying for 3 overtricks.
+
+It's your decision, but click NEXT to see how your decision would have turned out.</br></br> [NEXT]
 
 [show NESW]
+
+At Rubber Bridge or Team play it would probably be foolish to risk your contract for the sake of three overtricks.
 
 But at Match Point Pairs the reward would be much greater, a probable very high board. Of course with this layout it might have gotten you a bottom board.}
 [BCFlags "1f"]
@@ -658,6 +762,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+
+
 Winners:   \S = 1    \H = 2  \D = 1    \C = 3 Total = 7
 
 You need two more winners and \Ds is your longest combined suit. But you can only establish one extra winner in \Ds, and before you could even do that the defenders would have taken a bunch of \H tricks.
@@ -667,6 +773,8 @@ So you must turn to the \Ss for the extra two winners.
 Click NEXT. [NEXT]
 
 [PLAY N:H2,S:HK]
+
+
 
 You win the first \H and lead . . . which \S? If you play the \SQ you will go down, even if West has the \SK. He would cover and you would be held to just 2 \S tricks.
 
@@ -678,13 +786,15 @@ Clickfor the full Deal. [NEXT]
 
 [show NESW]
 
+You were a little lucky that East's \SK fell on the second round. 
+
 If it had not dropped you would just have played a third round of \Ss, hoping for a 3-3 split in the suit.
 
 Clickagain. [NEXT]
 
 [PLAY E:C2,W:S2]
 
-}
+You could also have gotten 3 \S winners with this distribution.}
 [BCFlags "1f"]
 [Play "W"]HQ
 
@@ -709,13 +819,15 @@ Make a Plan, then click NEXT. [NEXT]
 
 [PLAY N:C9,N:C6,N:C3,S:CJ,S:C7,S:C4]
 
-East follows once, then discards a \S and a \H.
+West leads the \CA, then \CK, \C2. East follows once, then discards a \S and a \H.
 
 Winners:   \S = 1    \H = 3  \D = 2    \C = 2 Total = 8
 
 There are two possibilities for getting an extra winner. If the \Ds are splitting 3-3 you could play \DA, \DK and another \D and establish the thirteenth \D as a winner. Or you could play East for the \SK and lead toward your \SQ.
 
 Click NEXT. [NEXT]
+
+
 
 The chance of East holding the \SK is a little greater than 50%. (it is higher than the usual 50% because we know he started with only one \C, giving him more spaces for other cards).
 
@@ -726,6 +838,8 @@ So you should enter dummy with a \H and play a small \S toward your \SQ.
 Did it work? Click NEXT to see. [NEXT]
 
 [show NESW]
+
+You might have thought of another possibility; duck a \D, then play \DA and \DK to see if the \Ds split before you try leading toward the \SQ.
 
 The problem is that you might run into this very distribution. You would establish a \D for East and when you played a \S from dummy East would jump up with the \SK and cash his winning \D for down 1.}
 [BCFlags "1f"]
@@ -750,6 +864,8 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+
+
 Winners:   \S = 1    \H = 2  \D = 1    \C = 4 Total = 8
 
 You only need one more winner. If East has the \SK or the \HQ a simple finesse will give you the trick.
@@ -762,6 +878,8 @@ Click NEXT. [NEXT]
 
 [PLAY N:D7,N:D6,N:D3,N:CA,N:CK,N:C6,N:C5,S:DA,S:DT,S:D4,S:CQ,S:CJ,S:C9,S:C2]
 
+
+
 Now play the \HJ. If West doesn't cover, you will let it ride for your ninth trick. But West does cover so you must take dummy's \HA. Next play a small \H from dummy and finesse the \H9, hoping East has the \HT. This is the Backward Finesse.
 
 Clickfor the complete Deal to see if it worked. [NEXT]
@@ -769,6 +887,8 @@ Clickfor the complete Deal to see if it worked. [NEXT]
 [RESET]
 
 [show NESW]
+
+The Backward Finesse if a pretty rare play. It is against the odds so you only try it when you are absolutely certain that a normal finesse is doomed to fail.
 
 Like this time.
 
@@ -797,6 +917,8 @@ Make a Plan, then click NEXT. [NEXT]
 
 [PLAY N:S2,S:S6]
 
+
+
 Winners:   \S = 1    \H = 2  \D = 2    \C = 3 Total = 8
 
 Before worrying about where that one winner is going to come from you need to decide what to do with the opening lead. A good guideline is to hold up unless you fear a switch. Here, with all other suits well protected you would welcome a switch, so you let East win the \SQ. East then plays the \S8. Do you hold up again?
@@ -805,11 +927,15 @@ Click NEXT. [NEXT]
 
 [PLAY N:S4,S:S7]
 
+
+
 It probably doesn't matter, but since you cannot possibly win more than T tricks you might just as well hold up again. West wins the \SJ then plays the \S3. East discards a \H on the third \S.
 
 Click NEXT. [NEXT]
 
 [PLAY N:ST,S:SA]
+
+
 
 OK, now it is time to figure out where that extra trick is coming from. Not much figuring is needed, it must come from the \D suit. Since you are missing 5 cards including the Queen, the odds favor a finesse over playing for the drop. And, since you have the option of finessing either defender are you going to finesse into the one who can set you or into the safe one?
 
@@ -820,6 +946,8 @@ Clickfor the complete Deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+Actually the odds slightly favored East holding the \DQ because East started with only 2 \Ss compared to West's 5 \Ss. Therefore East had 11 spaces which could hold the \DQ whereas West only had 8 spaces.
 
 But in a situation like this you don't play odds. By finessing West you guaranteed making the contract even if the finesse lost because East had no more \Ss. Even a losing \D finesse would have established the one trick you needed.}
 [BCFlags "1f"]
@@ -844,11 +972,15 @@ Make a Plan, then click NEXT. [NEXT]
 [AUCTION off]
 [SHOW_LEAD]
 
+
+
 Losers:   \S = 0    \H = 1  \D = 0    \C = 1 Total = 2
 
 This looks like a very simple plan. Since the hands have mirrored distribution there will be no discards anywhere. That means the \CK MUST be in West's hand or you will go down. But is that all there is to it?
 
 Click NEXT. [NEXT]
+
+
 
 If West has \C K x or \C K x x then yes, that's all there is to it. But if he has \C K x x x then you won't have enough entries to your hand unless you take the first \C finesse BEFORE you start on trumps.
 
@@ -858,6 +990,8 @@ Click NEXT. [NEXT]
 
 [PLAY N:SA,N:SQ,N:SJ,N:S9,N:CJ,S:SK,S:S7,S:S5,S:S3,S:HA,S:C3]
 
+
+
 Next play your \CT, putting on the \C5 from dummy when West plays low again. This lets you stay in your hand to play another \C to the \CQ, picking up all four \C tricks and the slam.
 
 Clickfor the complete Deal. [NEXT]
@@ -865,6 +999,8 @@ Clickfor the complete Deal. [NEXT]
 [RESET]
 
 [show NESW]
+
+This Deal took a lot of care and attention. As you can see you had to take one \C finesse before you drew trumps because you were in your hand right then and you could only get back one more time.
 
 But also you had to play to one of dummy's honors first so you could retain that \C5 for letting you stay in your hand to make the third finesse. Bridge is great.}
 [BCFlags "1f"]

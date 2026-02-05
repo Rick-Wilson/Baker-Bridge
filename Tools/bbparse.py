@@ -361,9 +361,14 @@ def parse_hand(hand_text):
 def extract_analysis_text(td_text):
     # remove any grey text:
     black_text = re.sub(r'<font[^>]*?>.*?</font>', '', td_text, flags=re.DOTALL)
-    # Regular expression to capture text between the first <br/> and the first </td>
-    match = re.search(r'<br/>(.*?)</td>', black_text, re.DOTALL)
-    return match.group(1).strip() if match else ""
+    # Remove any nested tables (auction tables) first
+    black_text = re.sub(r'<table[^>]*>.*?</table>', '', black_text, flags=re.DOTALL)
+    # Extract all content from the TD
+    # Match content after the opening <td...> tag up to closing </td>
+    match = re.search(r'<td[^>]*>(.*?)</td>', black_text, re.DOTALL)
+    if match:
+        return match.group(1).strip()
+    return ""
     
 def clean_up_analysis(analysis,td_str,last_bid):
 #     if "partner's minor suit opening you should have" in analysis:
@@ -376,8 +381,9 @@ def clean_up_analysis(analysis,td_str,last_bid):
     analysis = analysis.replace("\n  ", "")               # remove hard line breaks
     analysis = analysis.replace("\n ", "")               # remove hard line breaks
     analysis = analysis.replace("\n", "")               # remove hard line breaks
-    analysis = analysis.replace("<br/><br/>",r"\n")     # convert double line breaks to \n (will separate lines)
-    analysis = analysis.replace("<br/>","")             # remove single line breaks
+    # Handle both <br> and <br/> variants
+    analysis = re.sub(r'<br\s*/?>\s*<br\s*/?>', r'\\n', analysis)  # convert double line breaks to \n
+    analysis = re.sub(r'<br\s*/?>', '', analysis)                   # remove single line breaks
     analysis = replace_suits(analysis,False)
     analysis = analysis.replace("T point","10 point")   # undo 10 to T conversion when talking about points
     analysis = re.sub(r'<font.*?>.*?</font>', "", analysis, flags=re.DOTALL)
