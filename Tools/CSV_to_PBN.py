@@ -4,7 +4,398 @@ import sys
 import datetime
 import re
 
-VERSION = "1.01"
+VERSION = "1.02"
+
+# =============================================================================
+# BAKER BRIDGE TAXONOMY
+# Maps subfolders to skill paths, categories, and descriptions
+# This data is embedded in PBN files so consuming apps don't need separate config
+# =============================================================================
+
+BAKER_BRIDGE_TAXONOMY = {
+    # BASIC BIDDING
+    'Major': {
+        'path': 'basic_bidding/major_suit_openings',
+        'name': 'Major Suit Openings',
+        'category': 'Basic Bidding',
+        'difficulty': 'beginner',
+        'description': 'Opening 1H and 1S, responses and rebids'
+    },
+    'Minor': {
+        'path': 'basic_bidding/minor_suit_openings',
+        'name': 'Minor Suit Openings',
+        'category': 'Basic Bidding',
+        'difficulty': 'beginner',
+        'description': 'Opening 1C and 1D, responses and rebids'
+    },
+    'Notrump': {
+        'path': 'basic_bidding/notrump_openings',
+        'name': 'Notrump Openings',
+        'category': 'Basic Bidding',
+        'difficulty': 'beginner',
+        'description': 'Opening 1NT, 2NT, responses'
+    },
+
+    # BIDDING CONVENTIONS
+    '2over1': {
+        'path': 'bidding_conventions/two_over_one',
+        'name': '2-Over-1 Game Force',
+        'category': 'Bidding Conventions',
+        'difficulty': 'intermediate',
+        'description': '2/1 game forcing responses'
+    },
+    '2Club': {
+        'path': 'bidding_conventions/strong_2c',
+        'name': 'Strong 2C Bids',
+        'category': 'Bidding Conventions',
+        'difficulty': 'intermediate',
+        'description': 'Strong artificial 2C opening and responses'
+    },
+    'Blackwood': {
+        'path': 'bidding_conventions/blackwood',
+        'name': 'Blackwood',
+        'category': 'Bidding Conventions',
+        'difficulty': 'intermediate',
+        'description': '4NT ace-asking convention'
+    },
+    'Drury': {
+        'path': 'bidding_conventions/reverse_drury',
+        'name': 'Reverse Drury',
+        'category': 'Bidding Conventions',
+        'difficulty': 'intermediate',
+        'description': '2C response to third/fourth seat major opening'
+    },
+    'FSF': {
+        'path': 'bidding_conventions/fourth_suit_forcing',
+        'name': 'Fourth Suit Forcing',
+        'category': 'Bidding Conventions',
+        'difficulty': 'intermediate',
+        'description': 'Bidding the fourth suit to create a force'
+    },
+    'Help': {
+        'path': 'bidding_conventions/help_suit_game_try',
+        'name': 'Help Suit Game Try',
+        'category': 'Bidding Conventions',
+        'difficulty': 'intermediate',
+        'description': 'Game tries after major suit agreement'
+    },
+    'Jacoby': {
+        'path': 'bidding_conventions/jacoby_2nt_splinters',
+        'name': 'Jacoby 2NT / Splinters',
+        'category': 'Bidding Conventions',
+        'difficulty': 'intermediate',
+        'description': 'Forcing major raises and splinter bids'
+    },
+    'NMF': {
+        'path': 'bidding_conventions/new_minor_forcing',
+        'name': 'New Minor Forcing',
+        'category': 'Bidding Conventions',
+        'difficulty': 'intermediate',
+        'description': 'Checkback after 1NT rebid'
+    },
+    'Ogust': {
+        'path': 'bidding_conventions/ogust',
+        'name': 'Ogust',
+        'category': 'Bidding Conventions',
+        'difficulty': 'intermediate',
+        'description': '2NT inquiry after weak two opening'
+    },
+    'Preempt': {
+        'path': 'bidding_conventions/preemptive_bids',
+        'name': 'Preemptive Bids',
+        'category': 'Bidding Conventions',
+        'difficulty': 'intermediate',
+        'description': 'Three-level and four-level preempts'
+    },
+    'Reverse': {
+        'path': 'bidding_conventions/reverse_bids',
+        'name': 'Reverse Bids',
+        'category': 'Bidding Conventions',
+        'difficulty': 'intermediate',
+        'description': "Opener's reverse showing extra values"
+    },
+    'Roman': {
+        'path': 'bidding_conventions/roman_keycard',
+        'name': 'Roman Key Card Blackwood',
+        'category': 'Bidding Conventions',
+        'difficulty': 'advanced',
+        'description': 'RKCB 1430 or 0314'
+    },
+    'Stayman': {
+        'path': 'bidding_conventions/stayman',
+        'name': 'Stayman',
+        'category': 'Bidding Conventions',
+        'difficulty': 'beginner',
+        'description': '2C asking for majors over 1NT'
+    },
+    'Transfers': {
+        'path': 'bidding_conventions/jacoby_transfers',
+        'name': 'Jacoby Transfers',
+        'category': 'Bidding Conventions',
+        'difficulty': 'beginner',
+        'description': 'Transfer bids over 1NT/2NT'
+    },
+    'Weak2': {
+        'path': 'bidding_conventions/weak_2s',
+        'name': 'Weak 2-Bids',
+        'category': 'Bidding Conventions',
+        'difficulty': 'beginner',
+        'description': 'Weak two openings and responses'
+    },
+
+    # COMPETITIVE BIDDING
+    'Cue-bid': {
+        'path': 'competitive_bidding/support_cuebids',
+        'name': 'Support Cue-bids',
+        'category': 'Competitive Bidding',
+        'difficulty': 'intermediate',
+        'description': "Cue-bidding opponent's suit to show support"
+    },
+    'DONT': {
+        'path': 'competitive_bidding/dont',
+        'name': 'DONT',
+        'category': 'Competitive Bidding',
+        'difficulty': 'intermediate',
+        'description': "Disturbing Opponent's Notrump"
+    },
+    'Leben': {
+        'path': 'competitive_bidding/lebensohl',
+        'name': 'Lebensohl',
+        'category': 'Competitive Bidding',
+        'difficulty': 'advanced',
+        'description': 'Lebensohl convention after interference'
+    },
+    'Michaels': {
+        'path': 'competitive_bidding/michaels_unusual',
+        'name': 'Michaels / Unusual NT',
+        'category': 'Competitive Bidding',
+        'difficulty': 'intermediate',
+        'description': 'Two-suited overcalls'
+    },
+    'Negative': {
+        'path': 'competitive_bidding/negative_doubles',
+        'name': 'Negative Doubles',
+        'category': 'Competitive Bidding',
+        'difficulty': 'intermediate',
+        'description': 'Doubles after opponent overcalls'
+    },
+    'Overcalls': {
+        'path': 'competitive_bidding/overcalls',
+        'name': 'Overcalls',
+        'category': 'Competitive Bidding',
+        'difficulty': 'beginner',
+        'description': 'Simple and jump overcalls'
+    },
+    'Takeout': {
+        'path': 'competitive_bidding/takeout_doubles',
+        'name': 'Takeout Doubles',
+        'category': 'Competitive Bidding',
+        'difficulty': 'beginner',
+        'description': 'Takeout doubles and responses'
+    },
+
+    # DECLARER PLAY
+    'Eliminations': {
+        'path': 'declarer_play/elimination_plays',
+        'name': 'Elimination Plays',
+        'category': 'Declarer Play',
+        'difficulty': 'advanced',
+        'description': 'Strip and endplay techniques'
+    },
+    'Entries': {
+        'path': 'declarer_play/entry_management',
+        'name': 'Entry Management',
+        'category': 'Declarer Play',
+        'difficulty': 'intermediate',
+        'description': 'Preserving and creating entries'
+    },
+    'Establishment': {
+        'path': 'declarer_play/suit_establishment',
+        'name': 'Suit Establishment',
+        'category': 'Declarer Play',
+        'difficulty': 'intermediate',
+        'description': 'Setting up long suits'
+    },
+    'Finesse': {
+        'path': 'declarer_play/finessing',
+        'name': 'Finessing',
+        'category': 'Declarer Play',
+        'difficulty': 'beginner',
+        'description': 'Finesse techniques and combinations'
+    },
+    'Holdup': {
+        'path': 'declarer_play/holdup_plays',
+        'name': 'Holdup Plays',
+        'category': 'Declarer Play',
+        'difficulty': 'intermediate',
+        'description': 'Holding up winners to break communication'
+    },
+    'Squeeze': {
+        'path': 'declarer_play/squeeze_plays',
+        'name': 'Squeeze Plays',
+        'category': 'Declarer Play',
+        'difficulty': 'advanced',
+        'description': 'Simple and compound squeezes'
+    },
+    'Trumpmgmt': {
+        'path': 'declarer_play/trump_management',
+        'name': 'Trump Management',
+        'category': 'Declarer Play',
+        'difficulty': 'intermediate',
+        'description': 'Drawing trumps, ruffs, and trump control'
+    },
+
+    # DEFENSE
+    'OLead': {
+        'path': 'defense/opening_leads',
+        'name': 'Opening Leads',
+        'category': 'Defense',
+        'difficulty': 'beginner',
+        'description': 'Choosing and making opening leads'
+    },
+    'SecondHand': {
+        'path': 'defense/second_hand_play',
+        'name': 'Second Hand Play',
+        'category': 'Defense',
+        'difficulty': 'intermediate',
+        'description': 'Second hand low and exceptions'
+    },
+    'Signals': {
+        'path': 'defense/defensive_signals',
+        'name': 'Defensive Signals',
+        'category': 'Defense',
+        'difficulty': 'intermediate',
+        'description': 'Attitude, count, and suit preference'
+    },
+    'ThirdHand': {
+        'path': 'defense/third_hand_play',
+        'name': 'Third Hand Play',
+        'category': 'Defense',
+        'difficulty': 'beginner',
+        'description': 'Third hand high and exceptions'
+    },
+
+    # PRACTICE DEALS
+    '100Deals': {
+        'path': 'practice_deals/100_miscellaneous',
+        'name': '100 Miscellaneous Deals',
+        'category': 'Practice Deals',
+        'difficulty': 'mixed',
+        'description': 'Mixed practice deals covering various topics'
+    },
+    '100NT': {
+        'path': 'practice_deals/100_notrump',
+        'name': '100 Notrump Deals',
+        'category': 'Practice Deals',
+        'difficulty': 'mixed',
+        'description': 'Notrump bidding and play practice'
+    },
+
+    # PARTNERSHIP BIDDING
+    'Bidpractice/Set1': {
+        'path': 'partnership_bidding/set_01',
+        'name': 'Partnership Bidding Set 1',
+        'category': 'Partnership Bidding',
+        'difficulty': 'intermediate',
+        'description': 'Partnership bidding practice set 1'
+    },
+    'Bidpractice/Set2': {
+        'path': 'partnership_bidding/set_02',
+        'name': 'Partnership Bidding Set 2',
+        'category': 'Partnership Bidding',
+        'difficulty': 'intermediate',
+        'description': 'Partnership bidding practice set 2'
+    },
+    'Bidpractice/Set3': {
+        'path': 'partnership_bidding/set_03',
+        'name': 'Partnership Bidding Set 3',
+        'category': 'Partnership Bidding',
+        'difficulty': 'intermediate',
+        'description': 'Partnership bidding practice set 3'
+    },
+    'Bidpractice/Set4': {
+        'path': 'partnership_bidding/set_04',
+        'name': 'Partnership Bidding Set 4',
+        'category': 'Partnership Bidding',
+        'difficulty': 'intermediate',
+        'description': 'Partnership bidding practice set 4'
+    },
+    'Bidpractice/Set5': {
+        'path': 'partnership_bidding/set_05',
+        'name': 'Partnership Bidding Set 5',
+        'category': 'Partnership Bidding',
+        'difficulty': 'intermediate',
+        'description': 'Partnership bidding practice set 5'
+    },
+    'Bidpractice/Set6': {
+        'path': 'partnership_bidding/set_06',
+        'name': 'Partnership Bidding Set 6',
+        'category': 'Partnership Bidding',
+        'difficulty': 'intermediate',
+        'description': 'Partnership bidding practice set 6'
+    },
+    'Bidpractice/Set7': {
+        'path': 'partnership_bidding/set_07',
+        'name': 'Partnership Bidding Set 7',
+        'category': 'Partnership Bidding',
+        'difficulty': 'intermediate',
+        'description': 'Partnership bidding practice set 7'
+    },
+    'Bidpractice/Set8': {
+        'path': 'partnership_bidding/set_08',
+        'name': 'Partnership Bidding Set 8',
+        'category': 'Partnership Bidding',
+        'difficulty': 'intermediate',
+        'description': 'Partnership bidding practice set 8'
+    },
+    'Bidpractice/Set9': {
+        'path': 'partnership_bidding/set_09',
+        'name': 'Partnership Bidding Set 9',
+        'category': 'Partnership Bidding',
+        'difficulty': 'intermediate',
+        'description': 'Partnership bidding practice set 9'
+    },
+    'Bidpractice/Set10': {
+        'path': 'partnership_bidding/set_10',
+        'name': 'Partnership Bidding Set 10',
+        'category': 'Partnership Bidding',
+        'difficulty': 'intermediate',
+        'description': 'Partnership bidding practice set 10'
+    },
+    'Bidpractice/Set11': {
+        'path': 'partnership_bidding/set_11',
+        'name': 'Partnership Bidding Set 11',
+        'category': 'Partnership Bidding',
+        'difficulty': 'intermediate',
+        'description': 'Partnership bidding practice set 11'
+    },
+    'Bidpractice/Set12': {
+        'path': 'partnership_bidding/set_12',
+        'name': 'Partnership Bidding Set 12',
+        'category': 'Partnership Bidding',
+        'difficulty': 'intermediate',
+        'description': 'Partnership bidding practice set 12'
+    },
+}
+
+
+def get_taxonomy_info(subfolder):
+    """
+    Get taxonomy info for a subfolder.
+    Returns dict with path, name, category, difficulty, description.
+    Falls back to generated values for unknown subfolders.
+    """
+    if subfolder in BAKER_BRIDGE_TAXONOMY:
+        return BAKER_BRIDGE_TAXONOMY[subfolder]
+
+    # Fallback for unknown subfolders
+    return {
+        'path': f'unknown/{subfolder.lower().replace("/", "_")}',
+        'name': subfolder,
+        'category': 'Unknown',
+        'difficulty': 'intermediate',
+        'description': ''
+    }
 
 """
 CSV to PBN Converter Script
@@ -232,9 +623,14 @@ def convert_csv_to_pbn(csv_filename, header_filename=None, source_filename=None)
                 pbn_content.append(f"%Created: {start_time}")
                 pbn_content.append(f"%sourcefilename {source_file}")
                 pbn_content.append(f"%HRTitleEvent {subfolder}")
+            # Get taxonomy info for this lesson
+            taxonomy = get_taxonomy_info(subfolder)
+
             pbn_content.append(f"[Board \"{board}\"]")
-            # pbn_content.append(f"[Event \"Baker Bridge - {subfolder}\"]")
-            pbn_content.append(f"[Event \"\"]")
+            pbn_content.append(f"[Event \"Baker Bridge - {taxonomy['name']}\"]")
+            pbn_content.append(f"[SkillPath \"{taxonomy['path']}\"]")
+            pbn_content.append(f"[Category \"{taxonomy['category']}\"]")
+            pbn_content.append(f"[Difficulty \"{taxonomy['difficulty']}\"]")
             pbn_content.append(f"{{Baker {subfolder} {board}}}")
             pbn_content.append(f"[Dealer \"{dealer}\"]")
             pbn_content.append(f"[Declarer \"{declarer}\"]")

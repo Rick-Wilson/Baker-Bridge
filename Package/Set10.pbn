@@ -1,60 +1,24 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=UTF-8
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%Creator: CSVtoPBN Version 1.00
-%Created: 2026-01-23 13:57:51
-%sourcefilename BakerBridgeFull.csv
+%Creator: CSVtoPBN Version 1.02
+%Created: 2026-02-05 09:36:22
+%sourcefilename BakerBridge.csv
 %HRTitleEvent Bidpractice/Set10
 [Board "1"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 10"]
+[SkillPath "partnership_bidding/set_10"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set10 1}
 [Dealer "W"]
 [Declarer "N"]
 [Contract "1S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T5.AKQJ43.J532.3 AKJ74.87.A76.Q54 83.T6.QT84.AKJT7 Q962.952.K9.9862"]
+[Deal "W: AKJ74.87.A76.Q54  Q962.952.K9.9862"]
 [Auction "W"]
 1H 1S pass pass pass
 [Result ""]
-{NORTH has an opening hand, 15 points, and a 5-card ♠ suit. Unfortunately WEST beat her to
+{[show NS]
+NORTH has an opening hand, 15 points, and a 5-card ♠ suit. Unfortunately WEST beat her to
 
 the punch by opening 1
 
@@ -73,18 +37,22 @@ the Overcall will not be made with more than 16 points, SOUTH just passes.}
 
 
 [Board "2"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 10"]
+[SkillPath "partnership_bidding/set_10"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set10 2}
 [Dealer "E"]
 [Declarer "S"]
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:853.J3.T8532.T87 Q962.T52.KQ4.KJ6 T.AKQ964.J9.A932 AKJ74.87.A76.Q54"]
+[Deal "W: Q962.T52.KQ4.KJ6  AKJ74.87.A76.Q54"]
 [Auction "E"]
 1H 1S pass 2S pass 4S pass pass pass
 [Result ""]
-{SOUTH has an opening hand, 15 points and five ♠s. But EAST beat him to the punch,
+{[show NS]
+SOUTH has an opening hand, 15 points and five ♠s. But EAST beat him to the punch,
 
 so he overcalls 1♠.
 
@@ -99,18 +67,22 @@ SOUTH actually has a strong Overcall so he bids 4♠.}
 
 
 [Board "3"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 10"]
+[SkillPath "partnership_bidding/set_10"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set10 3}
 [Dealer "W"]
 [Declarer "N"]
 [Contract "3S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:8.AKJ93.542.AQT9 AKJ74.87.976.J54 T53.Q64.QJT83.73 Q962.T52.AK.K862"]
+[Deal "W: AKJ74.87.976.J54  Q962.T52.AK.K862"]
 [Auction "W"]
 1H 1S pass 3S pass pass pass
 [Result ""]
-{This time NORTH has just 10 points, nowhere near an opening hand. Still, when WEST opens
+{[show NS]
+This time NORTH has just 10 points, nowhere near an opening hand. Still, when WEST opens
 
 1
 
@@ -129,18 +101,22 @@ minimum type hand by passing.}
 
 
 [Board "4"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 10"]
+[SkillPath "partnership_bidding/set_10"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set10 4}
 [Dealer "E"]
 [Declarer "N"]
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:2.QJ6.JT9652.T43 AT53.T75.Q8.A862 QJ74.AK9832.4.J9 K986.4.AK73.KQ75"]
+[Deal "W: AT53.T75.Q8.A862  K986.4.AK73.KQ75"]
 [Auction "E"]
 1H X pass 2S pass 4S pass pass pass
 [Result ""]
-{SOUTH has 15 points, a singleton in the opponent's suit and 4-card support for any suit
+{[show NS]
+SOUTH has 15 points, a singleton in the opponent's suit and 4-card support for any suit
 
 partner might name. In other words, a perfect Takeout Double.
 
@@ -153,18 +129,22 @@ SOUTH's hand is now worth 17 points because of the singleton. Since he is quite 
 
 
 [Board "5"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 10"]
+[SkillPath "partnership_bidding/set_10"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set10 5}
 [Dealer "W"]
 [Declarer "S"]
 [Contract "2C"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:AQJT8.QT9.32.A65 53.AJ42.KQJ.K742 K9.K85.AT975.QT3 7642.763.864.J98"]
+[Deal "W: 53.AJ42.KQJ.K742  7642.763.864.J98"]
 [Auction "W"]
 1S X pass 2C pass pass pass
 [Result ""]
-{NORTH has 14 points, a doubleton in the opponent's ♠ suit and at least three cards in
+{[show NS]
+NORTH has 14 points, a doubleton in the opponent's ♠ suit and at least three cards in
 
 each of the other suits. This is a normal Takeout Double.
 
@@ -179,18 +159,22 @@ Mercifully NORTH also passes.}
 
 
 [Board "6"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 10"]
+[SkillPath "partnership_bidding/set_10"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set10 6}
 [Dealer "E"]
 [Declarer "N"]
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:43.9632.T87.JT65 AJT7.J7.QJ95.A83 K62.A84.642.KQ97 Q985.KQT5.AK3.42"]
+[Deal "W: AJT7.J7.QJ95.A83  Q985.KQT5.AK3.42"]
 [Auction "E"]
 1C X pass 2C pass 2H pass 2S pass 4S pass pass pass
 [Result ""]
-{With 14 points, ♣ shortage, and support for the other suits SOUTH makes a Takeout Double.
+{[show NS]
+With 14 points, ♣ shortage, and support for the other suits SOUTH makes a Takeout Double.
 
 NORTH has 13 points so she bids 2♣. This is an artificial bid, apprising SOUTH of NORTH's opening
 
@@ -213,18 +197,22 @@ SOUTH agrees with ♠s and bids game, 4♠.}
 
 
 [Board "7"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 10"]
+[SkillPath "partnership_bidding/set_10"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set10 7}
 [Dealer "W"]
 [Declarer "S"]
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:5.KQJ843.76.KQJ4 Q74.9652.Q5.A863 T62.AT.T9842.T92 AKJ983.7.AKJ3.75"]
+[Deal "W: Q74.9652.Q5.A863  AKJ983.7.AKJ3.75"]
 [Auction "W"]
 1H pass pass X pass 2C pass 2S pass 4S pass pass pass
 [Result ""]
-{WEST's 1
+{[show NS]
+WEST's 1
 
 ♥
 
@@ -245,18 +233,22 @@ NORTH raises to 4♠.}
 
 
 [Board "8"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 10"]
+[SkillPath "partnership_bidding/set_10"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set10 8}
 [Dealer "E"]
 [Declarer "S"]
 [Contract "3NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T63.T532.T3.T742 87.A976.A62.K963 KQ542.J4.KJ985.J AJ9.KQ8.Q74.AQ85"]
+[Deal "W: 87.A976.A62.K963  AJ9.KQ8.Q74.AQ85"]
 [Auction "E"]
 1S 1NT pass 2C pass 2D pass 3NT pass pass pass
 [Result ""]
-{SOUTH has 18 points, a balanced hand, and a good stopper in their suit. He should overcall 1NT.
+{[show NS]
+SOUTH has 18 points, a balanced hand, and a good stopper in their suit. He should overcall 1NT.
 
 For 1NT overcalls, the range is increased to 15-18 points.
 
@@ -269,18 +261,22 @@ since SOUTH promised he had the suit controlled.}
 
 
 [Board "9"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 10"]
+[SkillPath "partnership_bidding/set_10"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set10 9}
 [Dealer "W"]
 [Declarer "N"]
 [Contract "1NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:4.A93.KQ5432.AT7 A86.KQJ.AJ97.KQ4 KQ973.T85.T.9532 JT52.7642.86.J86"]
+[Deal "W: A86.KQJ.AJ97.KQ4  JT52.7642.86.J86"]
 [Auction "W"]
 1D X pass 1S pass 1NT pass pass pass
 [Result ""]
-{NORTH has 20 points, excellent
+{[show NS]
+NORTH has 20 points, excellent
 
 ♦
 
@@ -297,18 +293,22 @@ NORTH now bids 1NT, showing the balanced 19-21 point hand. SOUTH passes, of cour
 
 
 [Board "10"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 10"]
+[SkillPath "partnership_bidding/set_10"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set10 10}
 [Dealer "E"]
 [Declarer "S"]
 [Contract "3NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T985.94.T962.532 KJ62.65.AQ3.9874 A3.KJ8732.84.QJT Q74.AQT.KJ75.AK6"]
+[Deal "W: KJ62.65.AQ3.9874  Q74.AQT.KJ75.AK6"]
 [Auction "E"]
 1H X pass 2S pass 3NT pass pass pass
 [Result ""]
-{SOUTH has a 19 point balanced hand, including a stop in
+{[show NS]
+SOUTH has a 19 point balanced hand, including a stop in
 
 ♥
 
@@ -325,18 +325,22 @@ go ahead and bid 3NT instead.}
 
 
 [Board "11"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 10"]
+[SkillPath "partnership_bidding/set_10"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set10 11}
 [Dealer "W"]
 [Declarer "N"]
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:.KQT73.A9875.Q53 AQT53.64.QT.A974 9876.J92.64.KT86 KJ42.A85.KJ32.J2"]
+[Deal "W: AQT53.64.QT.A974  KJ42.A85.KJ32.J2"]
 [Auction "W"]
 1H 1S pass 3S pass 4S pass pass pass
 [Result ""]
-{With a 5-card ♠ suit and 13 points NORTH should overcall 1♠.
+{[show NS]
+With a 5-card ♠ suit and 13 points NORTH should overcall 1♠.
 
 SOUTH has 13 points and four ♠s. If NORTH had opened, SOUTH's hand would be good enough
 
@@ -347,18 +351,22 @@ NORTH has better than a minimum overcall so she accepts the invitation and bids 
 
 
 [Board "12"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 10"]
+[SkillPath "partnership_bidding/set_10"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set10 12}
 [Dealer "E"]
 [Declarer "N"]
 [Contract "4H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T975.2.Q9873.T72 Q3.KQ9864.A52.95 A82.A3.KJT4.Q864 KJ64.JT75.6.AKJ3"]
+[Deal "W: Q3.KQ9864.A52.95  KJ64.JT75.6.AKJ3"]
 [Auction "E"]
 1D X pass 4H pass pass pass
 [Result ""]
-{SOUTH has a very minimum Takeout Double of 1
+{[show NS]
+SOUTH has a very minimum Takeout Double of 1
 
 ♦
 
@@ -377,18 +385,22 @@ SOUTH passes happily.}
 
 
 [Board "13"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 10"]
+[SkillPath "partnership_bidding/set_10"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set10 13}
 [Dealer "W"]
 [Declarer "S"]
 [Contract "3NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:K5.A4.K8753.J763 AT94.KQJ7.Q6.AQ4 Q832.9863.T2.985 J76.T52.AJ94.KT2"]
+[Deal "W: AT94.KQJ7.Q6.AQ4  J76.T52.AJ94.KT2"]
 [Auction "W"]
 1D X pass 1NT pass 3NT pass pass pass
 [Result ""]
-{NORTH has 18 points, a doubleton in the opponent's suit, and at least three cards in the unbid suits.
+{[show NS]
+NORTH has 18 points, a doubleton in the opponent's suit, and at least three cards in the unbid suits.
 
 This is an ideal hand for a Takeout Double.
 
@@ -411,18 +423,22 @@ so she bids 3NT.}
 
 
 [Board "14"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 10"]
+[SkillPath "partnership_bidding/set_10"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set10 14}
 [Dealer "E"]
 [Declarer "N"]
 [Contract "3NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:7532.84.T32.6542 Q8.AJ92.AJ6.Q983 JT.KT763.Q985.AK AK964.Q5.K74.JT7"]
+[Deal "W: Q8.AJ92.AJ6.Q983  AK964.Q5.K74.JT7"]
 [Auction "E"]
 1H 1S pass 2NT pass 3NT pass pass pass
 [Result ""]
-{SOUTH has an opening hand, 14 points and five ♠s. But EAST beat him to the punch,
+{[show NS]
+SOUTH has an opening hand, 14 points and five ♠s. But EAST beat him to the punch,
 
 so he overcalls 1♠.
 
@@ -443,18 +459,22 @@ he happily bids 3NT.}
 
 
 [Board "15"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 10"]
+[SkillPath "partnership_bidding/set_10"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set10 15}
 [Dealer "W"]
 [Declarer "N"]
 [Contract "4H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:KQJ642.A42.J.T95 87.KQ97.AK83.QJ4 T5.86.T97642.732 A93.JT53.Q5.AK86"]
+[Deal "W: 87.KQ97.AK83.QJ4  A93.JT53.Q5.AK86"]
 [Auction "W"]
 1S X pass 2S pass 3H pass 4H pass pass pass
 [Result ""]
-{NORTH has 15 points and all the requirements for a Takeout Double of 1♠.
+{[show NS]
+NORTH has 15 points and all the requirements for a Takeout Double of 1♠.
 
 With 14 points of his own, SOUTH knows his side needs to be in a game somewhere. He passes this information
 
@@ -475,18 +495,22 @@ makes it easy for SOUTH - he bids 4
 
 
 [Board "16"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 10"]
+[SkillPath "partnership_bidding/set_10"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set10 16}
 [Dealer "E"]
 [Declarer "S"]
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T8.T43.A86.JT543 K75.852.KQ3.9762 93.KQJ96.T954.KQ AQJ642.A7.J72.A8"]
+[Deal "W: K75.852.KQ3.9762  AQJ642.A7.J72.A8"]
 [Auction "E"]
 1H X pass 2C pass 2S pass 4S pass pass pass
 [Result ""]
-{There is only one reason that SOUTH should not overcall with 1♠. He is too strong.
+{[show NS]
+There is only one reason that SOUTH should not overcall with 1♠. He is too strong.
 
 The maximum strength of an overcall is 16 points. Above that you should double.
 
@@ -499,18 +523,22 @@ NORTH has fine trump support and 8 points so she bids a confident 4♠.}
 
 
 [Board "17"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 10"]
+[SkillPath "partnership_bidding/set_10"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set10 17}
 [Dealer "W"]
 [Declarer "N"]
 [Contract "3NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:A64.Q8.AJT832.T4 K983.76.KQ5.AJ76 T75.JT952.96.953 QJ2.AK43.74.KQ82"]
+[Deal "W: K983.76.KQ5.AJ76  QJ2.AK43.74.KQ82"]
 [Auction "W"]
 1D pass pass X pass 2D pass 2H pass 2S pass 3C pass 3NT pass pass pass
 [Result ""]
-{NORTH has 13 points but has no bid over 1
+{[show NS]
+NORTH has 13 points but has no bid over 1
 
 ♦
 
@@ -537,18 +565,22 @@ SOUTH shows his ♣ suit, NORTH likes it fine, but decides 3NT will be easier th
 
 
 [Board "18"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 10"]
+[SkillPath "partnership_bidding/set_10"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set10 18}
 [Dealer "E"]
 [Declarer "E"]
 [Contract "1S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:8.KJT94.T9.A8743 96.Q65.J754.KT62 KQ532.82.KQ32.QJ AJT74.A73.A86.95"]
+[Deal "W: 96.Q65.J754.KT62  AJT74.A73.A86.95"]
 [Auction "E"]
 1S pass pass pass
 [Result ""]
-{SOUTH would have had a great opening 1♠ bid. But when EAST opened 1♠
+{[show NS]
+SOUTH would have had a great opening 1♠ bid. But when EAST opened 1♠
 
 in front of him he was hornswaggled. He couldn't bid any other suit, he couldn't bid 1NT
 
@@ -559,18 +591,22 @@ And so does everybody else pass.}
 
 
 [Board "19"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 10"]
+[SkillPath "partnership_bidding/set_10"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set10 19}
 [Dealer "W"]
 [Declarer "N"]
 [Contract "3S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:64.KQ96.A4.AQ984 KQJ9753.74.Q3.62 T.AT83.JT752.KJT A82.J52.K986.753"]
+[Deal "W: KQJ9753.74.Q3.62  A82.J52.K986.753"]
 [Auction "W"]
 1C 3S pass pass pass
 [Result ""]
-{If West had passed, NORTH would have opened with a preemptive 3♠.
+{[show NS]
+If West had passed, NORTH would have opened with a preemptive 3♠.
 
 She should make the same bid with the same hand AFTER the opponents open. And she makes it
 
@@ -583,18 +619,22 @@ In this case, SOUTH passes.}
 
 
 [Board "20"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 10"]
+[SkillPath "partnership_bidding/set_10"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set10 20}
 [Dealer "E"]
 [Declarer "S"]
 [Contract "1S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:Q963.KT72.92.Q72 K72.QJ54.63.9864 4.A98.KQ74.AKJT5 AJT85.63.AJT85.3"]
+[Deal "W: K72.QJ54.63.9864  AJT85.63.AJT85.3"]
 [Auction "E"]
 1C 1S pass pass pass
 [Result ""]
-{SOUTH has 12 points, but with two 5-card suits worthy of an overcall. There isn't really a
+{[show NS]
+SOUTH has 12 points, but with two 5-card suits worthy of an overcall. There isn't really a
 
 right and wrong here, but it usually works out best to overcall in the higher-ranking suit. That
 
@@ -607,18 +647,22 @@ everybody should pass.}
 
 
 [Board "21"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 10"]
+[SkillPath "partnership_bidding/set_10"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set10 21}
 [Dealer "W"]
 [Declarer "W"]
 [Contract "1S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:KJT742.A9.T6.AKQ A53.42.AK2.J7642 9.KJT75.QJ75.T93 Q86.Q863.9843.85"]
+[Deal "W: A53.42.AK2.J7642  Q86.Q863.9843.85"]
 [Auction "W"]
 1S pass pass pass
 [Result ""]
-{NORTH has 13 points but she has to pass.
+{[show NS]
+NORTH has 13 points but she has to pass.
 
 She cannot Double without support for
 
@@ -635,18 +679,22 @@ And SOUTH of course must also pass.}
 
 
 [Board "22"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 10"]
+[SkillPath "partnership_bidding/set_10"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set10 22}
 [Dealer "E"]
 [Declarer "E"]
 [Contract "1S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:.T943.6432.KJT94 T3.KJ76.KJ5.AQ72 A9765.A85.AT9.65 KQJ842.Q2.Q87.83"]
+[Deal "W: T3.KJ76.KJ5.AQ72  KQJ842.Q2.Q87.83"]
 [Auction "E"]
 1S pass pass X pass pass pass
 [Result ""]
-{SOUTH obviously has to pass when EAST opens 1♠.
+{[show NS]
+SOUTH obviously has to pass when EAST opens 1♠.
 
 NORTH has a reasonable Takeout Double. She hopes SOUTH will name a suit and they can just
 
@@ -661,18 +709,22 @@ Penalty Double.}
 
 
 [Board "23"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 10"]
+[SkillPath "partnership_bidding/set_10"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set10 23}
 [Dealer "W"]
 [Declarer "N"]
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:943.T65.Q42.AKQ7 AK872.J98.K76.65 T6.743.JT3.JT983 QJ5.AKQ2.A985.42"]
+[Deal "W: AK872.J98.K76.65  QJ5.AKQ2.A985.42"]
 [Auction "W"]
 1C 1S pass 4S pass pass pass
 [Result ""]
-{NORTH has a normal overcall of 1♠.
+{[show NS]
+NORTH has a normal overcall of 1♠.
 
 SOUTH has a really good hand, but he doesn't have to worry about missing a slam since NORTH will
 
@@ -681,18 +733,22 @@ not have more than 16 points. So he just bids what he thinks NORTH can make, 4�
 
 
 [Board "24"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 10"]
+[SkillPath "partnership_bidding/set_10"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set10 24}
 [Dealer "E"]
 [Declarer "N"]
 [Contract "1NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:984.A762.84.KQ95 T65.84.KJT3.AJ84 AJ72.T9.AQ72.732 KQ3.KQJ53.965.T6"]
+[Deal "W: T65.84.KJT3.AJ84  KQ3.KQJ53.965.T6"]
 [Auction "E"]
 1D 1H pass 1NT pass pass pass
 [Result ""]
-{SOUTH has 12 points and a good enough suit to overcall 1
+{[show NS]
+SOUTH has 12 points and a good enough suit to overcall 1
 
 ♥
 

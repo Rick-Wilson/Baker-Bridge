@@ -1,60 +1,24 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=UTF-8
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%Creator: CSVtoPBN Version 1.00
-%Created: 2026-01-23 13:57:51
-%sourcefilename BakerBridgeFull.csv
+%Creator: CSVtoPBN Version 1.02
+%Created: 2026-02-05 09:36:22
+%sourcefilename BakerBridge.csv
 %HRTitleEvent Bidpractice/Set4
 [Board "1"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 4"]
+[SkillPath "partnership_bidding/set_04"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set4 1}
 [Dealer "N"]
 [Declarer "N"]
 [Contract "3NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:854.K865.J865.K2 KQ7.AT4.K9.QJT85 J63.J2.T732.A743 AT92.Q973.AQ4.96"]
+[Deal "W: KQ7.AT4.K9.QJT85  AT92.Q973.AQ4.96"]
 [Auction "N"]
 1NT pass 2C pass 2D pass 3NT pass pass pass
 [Result ""]
-{SOUTH's 2♣ bid is Stayman, asking for a 4-card Major.
+{[show NS]
+SOUTH's 2♣ bid is Stayman, asking for a 4-card Major.
 
 NORTH's 2
 
@@ -69,18 +33,22 @@ so he bids 3NT.}
 
 
 [Board "2"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 4"]
+[SkillPath "partnership_bidding/set_04"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set4 2}
 [Dealer "S"]
 [Declarer "S"]
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:32.AJ74.JT7.KJ93 KJ8754.86.KQ3.72 A96.T52.9864.Q54 QT.KQ93.A52.AT86"]
+[Deal "W: KJ8754.86.KQ3.72  QT.KQ93.A52.AT86"]
 [Auction "S"]
 1NT pass 2H pass 2S pass 4S pass pass pass
 [Result ""]
-{NORTH, with 11 points and six ♠s, knows immediately that the final contract will be 4♠
+{[show NS]
+NORTH, with 11 points and six ♠s, knows immediately that the final contract will be 4♠
 
 since the partners must have at least eight ♠s and at least 26 points.
 
@@ -95,18 +63,22 @@ closes the auction with SOUTH as Declarer.}
 
 
 [Board "3"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 4"]
+[SkillPath "partnership_bidding/set_04"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set4 3}
 [Dealer "N"]
 [Declarer "N"]
 [Contract "4H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:AJ982.T42.Q96.84 K75.Q93.K75.AKJ3 QT.8.AJT43.T9652 643.AKJ765.82.Q7"]
+[Deal "W: K75.Q93.K75.AKJ3  643.AKJ765.82.Q7"]
 [Auction "N"]
 1NT pass 2D pass 2H pass 4H pass pass pass
 [Result ""]
-{SOUTH knows the partnership has a fit in
+{[show NS]
+SOUTH knows the partnership has a fit in
 
 ♥
 
@@ -123,18 +95,22 @@ The contract might go down if played by SOUTH, but is odds on when played by NOR
 
 
 [Board "4"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 4"]
+[SkillPath "partnership_bidding/set_04"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set4 4}
 [Dealer "S"]
 [Declarer "S"]
 [Contract "3NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:QT2.9732.A85.742 73.KQ86.K42.JT95 J984.J5.T63.AQ63 AK65.AT4.QJ97.K8"]
+[Deal "W: 73.KQ86.K42.JT95  AK65.AT4.QJ97.K8"]
 [Auction "S"]
 1NT pass 2C pass 2S pass 2NT pass 3NT pass pass pass
 [Result ""]
-{NORTH, with 9 points and a 4-card
+{[show NS]
+NORTH, with 9 points and a 4-card
 
 ♥
 
@@ -149,18 +125,22 @@ SOUTH has a maximum 1NT opening and bids 3NT.}
 
 
 [Board "5"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 4"]
+[SkillPath "partnership_bidding/set_04"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set4 5}
 [Dealer "N"]
 [Declarer "N"]
 [Contract "3NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:Q532.74.T98.KQ42 KJ4.QT.KQJ6.A973 T876.K652.A43.T5 A9.AJ983.752.J86"]
+[Deal "W: KJ4.QT.KQJ6.A973  A9.AJ983.752.J86"]
 [Auction "N"]
 1NT pass 2D pass 2H pass 3NT pass pass pass
 [Result ""]
-{SOUTH has 11 points and five
+{[show NS]
+SOUTH has 11 points and five
 
 ♥
 
@@ -193,18 +173,22 @@ she passes 3NT.}
 
 
 [Board "6"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 4"]
+[SkillPath "partnership_bidding/set_04"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set4 6}
 [Dealer "S"]
 [Declarer "S"]
 [Contract "2S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:A.JT43.Q762.AT62 Q87632.85.954.53 T94.KQ92.KJT.J87 KJ5.A76.A83.KQ94"]
+[Deal "W: Q87632.85.954.53  KJ5.A76.A83.KQ94"]
 [Auction "S"]
 1NT pass 2H pass 2S pass pass pass
 [Result ""]
-{SOUTH, with a balanced 17 point hand naturally opens 1NT.
+{[show NS]
+SOUTH, with a balanced 17 point hand naturally opens 1NT.
 
 NORTH has a really awful hand, but she does hold six ♠s.
 
@@ -213,18 +197,22 @@ So she uses Jacoby Transfer, and when SOUTH bids 2♠ she passes!}
 
 
 [Board "7"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 4"]
+[SkillPath "partnership_bidding/set_04"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set4 7}
 [Dealer "N"]
 [Declarer "N"]
 [Contract "4H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:95.7543.KJ42.J72 Q63.QT92.A76.AK3 JT84.K.QT98.Q965 AK72.AJ86.53.T84"]
+[Deal "W: Q63.QT92.A76.AK3  AK72.AJ86.53.T84"]
 [Auction "N"]
 1NT pass 2C pass 2H pass 4H pass pass pass
 [Result ""]
-{SOUTH has four cards in each Major suit - this is an ideal situation for Stayman.
+{[show NS]
+SOUTH has four cards in each Major suit - this is an ideal situation for Stayman.
 
 NORTH shows a
 
@@ -235,18 +223,22 @@ suit and SOUTH immediately bids game in that suit.}
 
 
 [Board "8"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 4"]
+[SkillPath "partnership_bidding/set_04"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set4 8}
 [Dealer "S"]
 [Declarer "S"]
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:J63.J97.QJ954.J9 K974.K862.73.865 T5.T54.A8.KT7432 AQ82.AQ3.KT62.AQ"]
+[Deal "W: K974.K862.73.865  AQ82.AQ3.KT62.AQ"]
 [Auction "S"]
 2NT pass 3C pass 3S pass 4S pass pass pass
 [Result ""]
-{Stayman convention works just fine after a 2NT opening, just at a higher level.
+{[show NS]
+Stayman convention works just fine after a 2NT opening, just at a higher level.
 
 NORTH knows that 6 points will be enough for game opposite SOUTH's 20-21, she just
 
@@ -255,18 +247,22 @@ needs to find out if there is a 4-4 Major suit fit. There is, in ♠s.}
 
 
 [Board "9"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 4"]
+[SkillPath "partnership_bidding/set_04"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set4 9}
 [Dealer "N"]
 [Declarer "N"]
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:K653.7654.K3.743 AJT.K9.A872.AT96 2.Q2.JT954.KQJ82 Q9874.AJT83.Q6.5"]
+[Deal "W: AJT.K9.A872.AT96  Q9874.AJT83.Q6.5"]
 [Auction "N"]
 1NT pass 2H pass 2S pass 4H pass 4S pass pass pass
 [Result ""]
-{SOUTH has five cards in each Major and NORTH opens 1NT.
+{[show NS]
+SOUTH has five cards in each Major and NORTH opens 1NT.
 
 First SOUTH bids 2
 
@@ -291,18 +287,22 @@ NORTH prefers ♠s, so she corrects the contract to 4♠.}
 
 
 [Board "10"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 4"]
+[SkillPath "partnership_bidding/set_04"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set4 10}
 [Dealer "S"]
 [Declarer "S"]
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T.JT95.QJT4.A532 KQ542.87.A8.Q764 J873.A43.976.JT9 A96.KQ62.K532.K8"]
+[Deal "W: KQ542.87.A8.Q764  A96.KQ62.K532.K8"]
 [Auction "S"]
 1NT pass 2H pass 2S pass 3NT pass 4S pass pass pass
 [Result ""]
-{With 12 points and five ♠s, when NORTH hears her partner open 1NT she knows
+{[show NS]
+With 12 points and five ♠s, when NORTH hears her partner open 1NT she knows
 
 there is a game - either 3NT or 4♠.
 
@@ -313,18 +313,22 @@ SOUTH has three ♠s, so he chooses 4♠, taking the 8-card Major fit.}
 
 
 [Board "11"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 4"]
+[SkillPath "partnership_bidding/set_04"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set4 11}
 [Dealer "N"]
 [Declarer "N"]
 [Contract "6H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:Q92.T6.JT643.T54 K86.A93.KQ8.AKJ2 AJT53.8.75.Q8763 74.KQJ7542.A92.9"]
+[Deal "W: K86.A93.KQ8.AKJ2  74.KQJ7542.A92.9"]
 [Auction "N"]
 2NT pass 3D pass 3H pass 4NT pass 5H pass 6H pass pass pass
 [Result ""]
-{After NORTH opens 2NT, SOUTH is pretty sure there will be a slam in
+{[show NS]
+After NORTH opens 2NT, SOUTH is pretty sure there will be a slam in
 
 ♥
 
@@ -349,18 +353,22 @@ off two Aces. Missing one Ace he settles for 6
 
 
 [Board "12"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 4"]
+[SkillPath "partnership_bidding/set_04"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set4 12}
 [Dealer "S"]
 [Declarer "S"]
 [Contract "2NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:732.T4.J93.AQ832 K985.Q7.K87.J965 QJT4.A9862.QT2.4 A6.KJ53.A654.KT7"]
+[Deal "W: K985.Q7.K87.J965  A6.KJ53.A654.KT7"]
 [Auction "S"]
 1NT pass 2C pass 2H pass 2NT pass pass pass
 [Result ""]
-{NORTH has an invitational hand, (9 points), after SOUTH's 1NT opening.
+{[show NS]
+NORTH has an invitational hand, (9 points), after SOUTH's 1NT opening.
 
 With a 4-card ♠ suit she uses Stayman.
 
@@ -381,18 +389,22 @@ SOUTH declines.}
 
 
 [Board "13"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 4"]
+[SkillPath "partnership_bidding/set_04"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set4 13}
 [Dealer "N"]
 [Declarer "S"]
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:Q.987.QT9643.K32 A75.QJ6.AK52.QT9 JT32.T42.7.AJ875 K9864.AK53.J8.64"]
+[Deal "W: A75.QJ6.AK52.QT9  K9864.AK53.J8.64"]
 [Auction "N"]
 1NT pass 2C pass 2D pass 3S pass 4S pass pass pass
 [Result ""]
-{Because SOUTH holds a 4-card Major suit, (
+{[show NS]
+Because SOUTH holds a 4-card Major suit, (
 
 ♥
 
@@ -415,18 +427,22 @@ With three trumps NORTH chooses 4♠.}
 
 
 [Board "14"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 4"]
+[SkillPath "partnership_bidding/set_04"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set4 14}
 [Dealer "S"]
 [Declarer "S"]
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:J94.A93.874.T872 Q865.K764.A32.54 T2.T85.KQT96.A93 AK73.QJ2.J5.KQJ6"]
+[Deal "W: Q865.K764.A32.54  AK73.QJ2.J5.KQJ6"]
 [Auction "S"]
 1NT pass 2Cpass2S pass 2S pass 3S pass 4S pass pass pass
 [Result ""]
-{NORTH has a poor 9 points, but does have two 4-card Majors. So he uses Stayman.
+{[show NS]
+NORTH has a poor 9 points, but does have two 4-card Majors. So he uses Stayman.
 
 When SOUTH bids ♠s, NORTH isn't strong enough to bid game herself, so she temporizes
 
@@ -437,18 +453,22 @@ SOUTH has a full 17 points so he accepts the invitation.}
 
 
 [Board "15"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 4"]
+[SkillPath "partnership_bidding/set_04"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set4 15}
 [Dealer "N"]
 [Declarer "N"]
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:A943.K42.J76.953 KQ.AQ75.KT9.QJ84 2.JT863.8432.AK6 JT8765.9.AQ5.T72"]
+[Deal "W: KQ.AQ75.KT9.QJ84  JT8765.9.AQ5.T72"]
 [Auction "N"]
 1NT pass 2H pass 2S pass 3S pass 4S pass pass pass
 [Result ""]
-{SOUTH, with 9 points and a 6-card suit, knows they should play in ♠s.
+{[show NS]
+SOUTH, with 9 points and a 6-card suit, knows they should play in ♠s.
 
 The question is: how high?
 
@@ -461,18 +481,22 @@ So she bids the ♠ game.}
 
 
 [Board "16"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 4"]
+[SkillPath "partnership_bidding/set_04"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set4 16}
 [Dealer "S"]
 [Declarer "N"]
 [Contract "4H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:963.9843.73.AQJ4 Q742.QJT75.K6.83 AT8.2.JT9854.K95 KJ5.AK6.AQ2.T762"]
+[Deal "W: Q742.QJT75.K6.83  KJ5.AK6.AQ2.T762"]
 [Auction "S"]
 1NT pass 2C pass 2D pass 2H pass 4H pass pass pass
 [Result ""]
-{NORTH, with a 5-card AND a 4-card Major first uses Stayman.
+{[show NS]
+NORTH, with a 5-card AND a 4-card Major first uses Stayman.
 
 SOUTH denies a 4-card Major, so NORTH realizes that ♠s are out.
 
@@ -497,18 +521,22 @@ she bids 4
 
 
 [Board "17"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 4"]
+[SkillPath "partnership_bidding/set_04"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set4 17}
 [Dealer "S"]
 [Declarer "S"]
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:863.942.985.AQJ9 Q742.QJT75.K7.83 T9.A83.JT43.K654 AKJ5.K6.AQ62.T72"]
+[Deal "W: Q742.QJT75.K7.83  AKJ5.K6.AQ62.T72"]
 [Auction "S"]
 1NT pass 2C pass 2S pass 4S pass pass pass
 [Result ""]
-{This is a companion hand to Deal 16.
+{[show NS]
+This is a companion hand to Deal 16.
 
 SOUTH shows four ♠s following NORTH's Stayman bid.
 
@@ -523,18 +551,22 @@ an 8-card Major suit fit. With the fit her hand now revalues to 11 points so she
 
 
 [Board "18"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 4"]
+[SkillPath "partnership_bidding/set_04"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set4 18}
 [Dealer "S"]
 [Declarer "S"]
 [Contract "3NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:J8.432.JT43.AK65 Q742.QJT75.K7.83 T963.A98.985.Q94 AK5.K6.AQ62.JT72"]
+[Deal "W: Q742.QJT75.K7.83  AK5.K6.AQ62.JT72"]
 [Auction "S"]
 1NT pass 2C pass 2D pass 2H pass 3NT pass pass pass
 [Result ""]
-{This is companion #3 to Deal 16 and 17.
+{[show NS]
+This is companion #3 to Deal 16 and 17.
 
 NORTH again starts with Stayman, and after SOUTH denies a 4-card Major,
 
@@ -555,18 +587,22 @@ chooses to play 3NT.}
 
 
 [Board "19"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 4"]
+[SkillPath "partnership_bidding/set_04"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set4 19}
 [Dealer "N"]
 [Declarer "S"]
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:A73.T94.KT42.T84 KJ.AK6.J953.KJ96 92.J82.AQ86.7532 QT8654.Q753.7.AQ"]
+[Deal "W: KJ.AK6.J953.KJ96  QT8654.Q753.7.AQ"]
 [Auction "N"]
 1NT pass 2C pass 2D pass 4S pass pass pass
 [Result ""]
-{Even with a 6-card ♠ suit SOUTH uses Stayman because he also has a 4-card
+{[show NS]
+Even with a 6-card ♠ suit SOUTH uses Stayman because he also has a 4-card
 
 ♥
 
@@ -585,18 +621,22 @@ the game where he knows the partnership holds eight trumps.}
 
 
 [Board "20"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 4"]
+[SkillPath "partnership_bidding/set_04"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set4 20}
 [Dealer "S"]
 [Declarer "S"]
 [Contract "6H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T84.A72.T9762.J7 KQ3.QT9843.K5.A5 J9652..QJ3.96432 A7.KJ65.A84.KQT8"]
+[Deal "W: KQ3.QT9843.K5.A5  A7.KJ65.A84.KQT8"]
 [Auction "S"]
 1NT pass 2D pass 3H pass 4C pass 4D pass 6H pass pass pass
 [Result ""]
-{SOUTH breaks the expected Transfer sequence by jumping to 3
+{[show NS]
+SOUTH breaks the expected Transfer sequence by jumping to 3
 
 ♥
 
@@ -621,18 +661,22 @@ round control of the suit that was bid.}
 
 
 [Board "21"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 4"]
+[SkillPath "partnership_bidding/set_04"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set4 21}
 [Dealer "N"]
 [Declarer "N"]
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:72.J876.754.KJT9 Q965.AQ93.KQ8.A6 A84.T42.JT62.Q53 KJT3.K5.A93.8742"]
+[Deal "W: Q965.AQ93.KQ8.A6  KJT3.K5.A93.8742"]
 [Auction "N"]
 1NT pass 2C pass 2H pass 3NT pass 4S pass pass pass
 [Result ""]
-{SOUTH uses Stayman because he has a 4-card ♠ suit.
+{[show NS]
+SOUTH uses Stayman because he has a 4-card ♠ suit.
 
 NORTH's 2
 
@@ -655,18 +699,22 @@ So NORTH bids 4♠.}
 
 
 [Board "22"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 4"]
+[SkillPath "partnership_bidding/set_04"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set4 22}
 [Dealer "S"]
 [Declarer "S"]
 [Contract "2H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:KQ5.T93.J2.QJ732 J974.Q862.T876.4 832.J5.K94.AK865 AT6.AK74.AQ53.T9"]
+[Deal "W: J974.Q862.T876.4  AT6.AK74.AQ53.T9"]
 [Auction "S"]
 1NT pass 2C pass 2H pass pass pass
 [Result ""]
-{NORTH has a rotten hand, and many players would just pass 1NT.
+{[show NS]
+NORTH has a rotten hand, and many players would just pass 1NT.
 
 But NORTH figures that having SOUTH play any 4-4 fit would be better than 1NT so
 
@@ -687,18 +735,22 @@ also.}
 
 
 [Board "23"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 4"]
+[SkillPath "partnership_bidding/set_04"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set4 23}
 [Dealer "N"]
 [Declarer "N"]
 [Contract "3NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:9.A732.QJ853.JT4 AQ62.KJ8.A62.K87 T854.T64.97.A652 KJ73.Q95.KT4.Q93"]
+[Deal "W: AQ62.KJ8.A62.K87  KJ73.Q95.KT4.Q93"]
 [Auction "N"]
 1NT pass 3NT pass pass pass
 [Result ""]
-{Just having a 4-card Major doesn't mean you must automatically use Stayman.
+{[show NS]
+Just having a 4-card Major doesn't mean you must automatically use Stayman.
 
 Here SOUTH has a 4-card ♠ suit, but decides not to seek a 4-4 fit because his
 
@@ -711,18 +763,22 @@ a ♠ contract because neither hand can ruff any losers.}
 
 
 [Board "24"]
-[Event ""]
+[Event "Baker Bridge - Partnership Bidding Set 4"]
+[SkillPath "partnership_bidding/set_04"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
 {Baker Bidpractice/Set4 24}
 [Dealer "S"]
 [Declarer "S"]
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:2.A86.9852.KJ973 QT864.Q73.A6.T84 A953.T92.JT4.Q62 KJ7.KJ54.KQ73.A5"]
+[Deal "W: QT864.Q73.A6.T84  KJ7.KJ54.KQ73.A5"]
 [Auction "S"]
 1NT pass 2H pass 2S pass 2NT pass 4S pass pass pass
 [Result ""]
-{NORTH has an invitational (9 point) hand with five ♠s.
+{[show NS]
+NORTH has an invitational (9 point) hand with five ♠s.
 
 She bids it in the standard way - first transfer SOUTH to ♠s, then invite
 
