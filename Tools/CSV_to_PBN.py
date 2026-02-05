@@ -50,13 +50,14 @@ def load_header(header_filename):
     return ""
 
 # Function to determine initial [show] and [rotate] directives based on student seat
-def get_visibility_directives(student, declarer):
+def get_visibility_directives(student, declarer, is_play_instruction=False):
     """
     Determine which hands to show and how to rotate based on lesson type.
 
     For declarer play (student=S, usually declarer):
         - Show NS (declarer + dummy)
         - Rotate S (South at bottom, default)
+        - For play instruction mode: hide auction, show lead
 
     For opening lead (student=W):
         - Show W (only the leader's hand)
@@ -66,17 +67,23 @@ def get_visibility_directives(student, declarer):
         - Show E (only third hand)
         - Rotate E (East at bottom)
 
-    Returns tuple of (show_directive, rotate_directive)
+    Returns tuple of (show_directive, rotate_directive, auction_directive, lead_directive)
     """
+    auction_directive = None
+    lead_directive = None
+
     if student == "W":
-        return "[show W]", "[rotate W]"
+        return "[show W]", "[rotate W]", auction_directive, lead_directive
     elif student == "E":
-        return "[show E]", "[rotate E]"
+        return "[show E]", "[rotate E]", auction_directive, lead_directive
     elif student == "N":
-        return "[show N]", "[rotate N]"
+        return "[show N]", "[rotate N]", auction_directive, lead_directive
     else:  # Default: student is South (declarer play)
-        # For declarer play, show declarer + dummy (NS)
-        return "[show NS]", None  # No rotate needed, S at bottom is default
+        # For declarer play instruction mode, hide auction and show lead initially
+        if is_play_instruction:
+            auction_directive = "[AUCTION off]"
+            lead_directive = "[SHOW_LEAD]"
+        return "[show NS]", None, auction_directive, lead_directive
 
 # Function to inject [show NESW] before final reveal
 def inject_final_show(analysis):
@@ -116,10 +123,17 @@ def process_analysis(analysis, student=None, declarer=None):
 
         # Inject visibility directives
         if student:
-            show_directive, rotate_directive = get_visibility_directives(student, declarer)
+            # Check if this is play instruction mode (has [NEXT] tags)
+            is_play_instruction = "[NEXT]" in analysis
+            show_directive, rotate_directive, auction_directive, lead_directive = get_visibility_directives(student, declarer, is_play_instruction)
             prefix = show_directive
             if rotate_directive:
                 prefix += "\n" + rotate_directive
+            # Add auction and lead directives for play instruction mode
+            if auction_directive:
+                prefix += "\n" + auction_directive
+            if lead_directive:
+                prefix += "\n" + lead_directive
             prefix += "\n"
             analysis = prefix + analysis
 
