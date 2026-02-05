@@ -1,5 +1,5 @@
-%Creator: CSVtoPBN Version 1.03
-%Created: 2026-02-05 09:48:38
+%Creator: CSVtoPBN Version 1.04
+%Created: 2026-02-05 13:59:06
 %sourcefilename BakerBridge.csv
 %HRTitleEvent Minor
 [Event "Baker Bridge - Minor Suit Openings"]
@@ -18,12 +18,15 @@
 [SkillPath "basic_bidding/minor_suit_openings"]
 [Student "S"]
 {Baker Minor 1}
-{[show NS]
+{[show S]
+
 You dealt this hand. Decide what you would say, then click BID above. [BID 1\D]
 
 
 
 With 13 points you will open. You cannot bid 1\H with only 4 of them, so you say 1\D. Partner responds 1\H and it is your bid again. [BID 2\H]
+
+[show NS]
 
 
 
@@ -46,12 +49,15 @@ Partner's response is forcing. He might have anywhere from 6 points to about 17.
 [SkillPath "basic_bidding/minor_suit_openings"]
 [Student "S"]
 {Baker Minor 2}
-{[show NS]
+{[show S]
+
 You dealt this hand. What do you bid? [BID 1\D]
 
 
 
 You are not strong enough to open 1NT, but too strong to pass. You bid 1\D. Partner responds 1NT. What do you say next? [BID pass]
+
+[show NS]
 
 
 
@@ -78,12 +84,15 @@ So you pass and hope for the best.}
 [SkillPath "basic_bidding/minor_suit_openings"]
 [Student "S"]
 {Baker Minor 3}
-{[show NS]
+{[show S]
+
 You dealt this hand. What do you bid? [BID 1\C]
 
 
 
 The \H and \S suits look really good, but neither of them are 5 cards, so you open 1\C. Partner responds 1\H. What is your next bid? [BID 4\H]
+
+[show NS]
 
 
 
@@ -108,12 +117,15 @@ That gives you 20 points; add partner's 6-T and you have enough for game. She wh
 [SkillPath "basic_bidding/minor_suit_openings"]
 [Student "S"]
 {Baker Minor 4}
-{[show NS]
+{[show S]
+
 You dealt this hand. What do you bid? [BID 1\C]
 
 
 
 You have the right strength but the wrong distribution to open 1NT. So you bid 1\C. Partner responds 1\S. What do you say next? [BID 3\S]
+
+[show NS]
 
 
 
@@ -138,7 +150,8 @@ When you are in-between like this you just invite. So you jump to 3\S. This tell
 [SkillPath "basic_bidding/minor_suit_openings"]
 [Student "S"]
 {Baker Minor 5}
-{[show NS]
+{[show S]
+
 You dealt this hand. What do you bid? [BID 1\D]
 
 
@@ -146,6 +159,8 @@ You dealt this hand. What do you bid? [BID 1\D]
 This is the one situation when you open a 3-card \D suit; two 4-card Majors, three \Ds and two \Cs, but not enough strength to open 1NT.
 
 Partner responds 2NT. What do you bid? [BID 3NT]
+
+[show NS]
 
 
 
@@ -168,7 +183,8 @@ Partner's bid shows 13-16 points, balanced. And most importantly, it denies hold
 [SkillPath "basic_bidding/minor_suit_openings"]
 [Student "S"]
 {Baker Minor 6}
-{[show NS]
+{[show S]
+
 You dealt this hand. What do you bid? [BID 1\D]
 
 
@@ -178,6 +194,8 @@ With a 5-card and a 4-card Minor you open the 5-card. Partner responds 1NT. What
 
 
 With only 14 points a pass might be the best bid. But with doubletons in both Majors, knowing partner does not have 4 of either, you elect to bid 2\C. Partner now surprises you and bids 3\C. It's your bid. [BID pass]
+
+[show NS]
 
 
 
@@ -200,7 +218,8 @@ Partner evidently found some hidden treasure when he revalued! But you still hav
 [SkillPath "basic_bidding/minor_suit_openings"]
 [Student "S"]
 {Baker Minor 7}
-{[show NS]
+{[show S]
+
 You dealt this hand. What do you bid? [BID 1\C]
 
 
@@ -212,6 +231,8 @@ Nice hand! But not strong enough to open with anything other than 1\C. Partner j
 You might be tempted to mention one of your Majors at this point, but resist the temptation. Trust that your partner also knows the bidding priorities and that he would have bid a 4-card Major if he had held one. The problem with you now saying 3\H for example, is that partner would probably think you had a 5-card \H suit and support you with only 3 of them. You know that \Cs is your suit so stick to it.
 
 With partner showing 13-16 points, and your hand revaluing to 21 you are definitely thinking slam. It would not be terrible to just bid 6\C right now, but Blackwood was invented just for these situations, to make sure you are not missing 2 Aces when you bid a slam. So you bid 4NT. Partner answers with 5\D. What say you? [BID 6\C]
+
+[show NS]
 
 
 
@@ -234,7 +255,8 @@ Blackwood did its job. You are missing one Ace so all thoughts of a Grand are pu
 [SkillPath "basic_bidding/minor_suit_openings"]
 [Student "S"]
 {Baker Minor 8}
-{[show NS]
+{[show S]
+
 You dealt this hand. What do you bid? [BID 1\D]
 
 
@@ -242,6 +264,8 @@ You dealt this hand. What do you bid? [BID 1\D]
 This would be a perfect hand to open 1NT - well, it would be if it held one more point. But with only 14 you open your 4-card Minor, 1\D. Partner responds 3\D.
 
 What do you say now? [BID 3NT]
+
+[show NS]
 
 
 
@@ -264,12 +288,15 @@ Partner suggests that \Ds is your suit, and he may be right. But you would much 
 [SkillPath "basic_bidding/minor_suit_openings"]
 [Student "S"]
 {Baker Minor 9}
-{[show NS]
+{[show S]
+
 You dealt this hand. What do you bid? [BID 1\C]
 
 
 
 This would be an ideal hand to open 1NT - well, it would be with one less point. But with 18 you are too strong to open 1NT so you open 1\C. Partner responds 1\S. What do you bid next? [BID 2NT]
+
+[show NS]
 
 
 
@@ -292,7 +319,8 @@ DO NOT fall into the trap of supporting partner's \Ss just because you have such
 [SkillPath "basic_bidding/minor_suit_openings"]
 [Student "S"]
 {Baker Minor 10}
-{[show NS]
+{[show S]
+
 You dealt this hand. What do you bid? [BID 1\D]
 
 
@@ -302,6 +330,8 @@ You open 1\D and partner responds 1\S. What is your next bid? [BID 2NT]
 
 
 Do not support what may be a 4-card suit with only 3 cards. Instead, jump to 2NT, showing 18-19, balanced. Partner rebids the \Ss. What do you say next? [BID 4\S]
+
+[show NS]
 
 
 
@@ -326,12 +356,15 @@ Bidding 4\S was a good choice. It makes easily, yet 3NT might have gone down.}
 [SkillPath "basic_bidding/minor_suit_openings"]
 [Student "S"]
 {Baker Minor 11}
-{[show NS]
+{[show S]
+
 The bidding is shown. Decide what you would say, then click BID. [BID 1\S]
 
 
 
 You have plenty good support to raise partner's \C suit. But your first priority is to show a 4-card Major suit if you have one. You do, so you respond 1\S. Partner raises you to 2\S. What do you bid now? [BID pass]
+
+[show NS]
 
 
 
@@ -356,7 +389,8 @@ Are you tempted to bid 3\S since partner raised you? Don't be. He showed a minim
 [SkillPath "basic_bidding/minor_suit_openings"]
 [Student "S"]
 {Baker Minor 12}
-{[show NS]
+{[show S]
+
 The bidding is shown. Decide what you would say, then click BID. [BID 1\H]
 
 
@@ -364,6 +398,8 @@ The bidding is shown. Decide what you would say, then click BID. [BID 1\H]
 Some might jump to 2NT, "to show partner my point count". Some might jump to 3\D, "to force partner to game and show my \D support". The wise ones will just bid 1\H, striving to find an 8-card Major fit, the first priority of bidding.
 
 You choose the 1\H route, and partner obligingly says 2\H. What do you bid next? [BID 4\H]
+
+[show NS]
 
 
 
@@ -386,12 +422,15 @@ Remember "She who knows, goes"? You know of the 8-card Major fit. You know of at
 [SkillPath "basic_bidding/minor_suit_openings"]
 [Student "S"]
 {Baker Minor 13}
-{[show NS]
+{[show S]
+
 The bidding is shown. Decide what you would say, then click BID. [BID 1\H]
 
 
 
 When you have two 4-card suits to show you bid them "up-the-line". In this case it means you say 1\H. Partner replies 1\S. What do you bid? [BID 4\S]
+
+[show NS]
 
 
 
@@ -416,8 +455,11 @@ Perfect bidding isn't always rewarded. They can win three \D tricks and the Ace 
 [SkillPath "basic_bidding/minor_suit_openings"]
 [Student "S"]
 {Baker Minor 14}
-{[show NS]
+{[show S]
+
 The bidding is shown. Decide what you would say, then click BID. [BID 2NT]
+
+[show NS]
 
 
 
@@ -444,7 +486,8 @@ Anyway, you bid 2NT and partner raises to 3NT.}
 [SkillPath "basic_bidding/minor_suit_openings"]
 [Student "S"]
 {Baker Minor 15}
-{[show NS]
+{[show S]
+
 The bidding is shown. Decide what you would say, then click BID. [BID 1\H]
 
 
@@ -452,6 +495,8 @@ The bidding is shown. Decide what you would say, then click BID. [BID 1\H]
 With 14 points and a 4-3-3-3 distribution this could be the perfect hand for a jump to 2NT. But not when the 4-card suit is a Major - you should not skip bidding a Major when you have the opportunity.
 
 So you respond 1\H. Partner says 1\S. What do you bid? [BID 3NT]
+
+[show NS]
 
 
 
@@ -474,7 +519,8 @@ Partner doesn't have 4 \Hs so you go back to thinking this is an ideal notrump h
 [SkillPath "basic_bidding/minor_suit_openings"]
 [Student "S"]
 {Baker Minor 16}
-{[show NS]
+{[show S]
+
 The bidding is shown. Decide what you would say, then click BID. [BID 3\D]
 
 
@@ -482,6 +528,8 @@ The bidding is shown. Decide what you would say, then click BID. [BID 3\D]
 You have great \D support and perhaps 15 points. The "perhaps" is because partner may have only 3 \Ds, and if you are the long-trump hand any ruffs you take will probably not increase the number of trump tricks your side makes. But still, you have a great hand.
 
 So you bid 3\D. Partner now says 3NT. What do you bid? [BID pass]
+
+[show NS]
 
 
 
@@ -504,7 +552,8 @@ You described your hand very well with your first bid. Partner heard the descrip
 [SkillPath "basic_bidding/minor_suit_openings"]
 [Student "S"]
 {Baker Minor 17}
-{[show NS]
+{[show S]
+
 The bidding is shown. Decide what you would say, then click BID. [BID 1\S]
 
 
@@ -512,6 +561,8 @@ The bidding is shown. Decide what you would say, then click BID. [BID 1\S]
 You must make a weak response, and in theory there are 3 weak responses you could make with this hand. You could bid 2\C, 1\S or 1NT. And while none of them would be actually incorrect the best choice is to show your 4-card Major.
 
 You bid 1\S. Partner jumps to 3\S. What do you say now? [BID pass]
+
+[show NS]
 
 
 
@@ -534,12 +585,15 @@ You started with just 6 points, and after discovering the \S fit you revalue all
 [SkillPath "basic_bidding/minor_suit_openings"]
 [Student "S"]
 {Baker Minor 18}
-{[show NS]
+{[show S]
+
 The bidding is shown. Decide what you would say, then click BID. [BID 1\H]
 
 
 
 Your top priority as responder is to show a Major suit if you have one, so you say 1\H. Partner jumps to 3\H. What do you say? [BID 4\H]
+
+[show NS]
 
 
 
@@ -562,7 +616,8 @@ Partner knows you may have only 6 points and went to the 3-level anyway. He is i
 [SkillPath "basic_bidding/minor_suit_openings"]
 [Student "S"]
 {Baker Minor 19}
-{[show NS]
+{[show S]
+
 The bidding is shown. Decide what you would say, then click BID. [BID 1\S]
 
 
@@ -570,6 +625,8 @@ The bidding is shown. Decide what you would say, then click BID. [BID 1\S]
 You have a very big hand. But there is no need to start jumping before you know whether you have a fit. So just bid 1\S, partner cannot pass this bid.
 
 Partner now surprises you with a jump to 3\S!. What do you bid next? [BID 4NT]
+
+[show NS]
 
 
 
@@ -596,12 +653,15 @@ You probably say "Oh Darn!" or perhaps something less printable. But then you ju
 [SkillPath "basic_bidding/minor_suit_openings"]
 [Student "S"]
 {Baker Minor 20}
-{[show NS]
+{[show S]
+
 The bidding is shown. Decide what you would say, then click BID. [BID 2\D]
 
 
 
 That is great support, but always remember when supporting a Minor that partner might have only 3 of them. So you bid 2\D. Partner jumps to 4\D. What do you bid? [BID 5\D]
+
+[show NS]
 
 
 

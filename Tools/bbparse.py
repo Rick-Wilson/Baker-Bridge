@@ -212,31 +212,49 @@ def extract_hands_by_anchor(soup):
     # Compare consecutive sections to find played cards and visibility changes
     played_by_section = []
 
+    # Minimum cards to consider a hand "fully visible" vs just showing played cards
+    MIN_FULL_HAND = 5
+
     for i in range(len(section_hands)):
         if i == 0:
             # First section - determine initial hand visibility
-            # Generate [show X] based on which hands are visible at start
+            # Full hands (5+ cards) go in [show X]
+            # Partial hands (1-4 cards) go in [showcards X:card1,card2]
+            section = section_hands[i]
             visible_seats = []
-            if section_hands[i]["north_raw"]:
-                visible_seats.append("N")
-            if section_hands[i]["east_raw"]:
-                visible_seats.append("E")
-            if section_hands[i]["south_raw"]:
-                visible_seats.append("S")
-            if section_hands[i]["west_raw"]:
-                visible_seats.append("W")
+            partial_cards = {}  # seat -> list of cards
+
+            for seat, cards_key in [("N", "north"), ("E", "east"), ("S", "south"), ("W", "west")]:
+                cards = section[cards_key]
+                if cards:
+                    if len(cards) >= MIN_FULL_HAND:
+                        visible_seats.append(seat)
+                    else:
+                        # Partial hand - just showing played cards
+                        partial_cards[seat] = sorted(cards)
 
             initial_show = None
             if visible_seats:
                 initial_show = "[show " + "".join(visible_seats) + "]"
 
+            # Generate [showcards] directive for partial hands
+            showcards_directive = None
+            if partial_cards:
+                parts = []
+                for seat in ["N", "E", "S", "W"]:
+                    if seat in partial_cards:
+                        cards_str = ",".join(partial_cards[seat])
+                        parts.append(f"{seat}:{cards_str}")
+                showcards_directive = "[showcards " + ",".join(parts) + "]"
+
             played_by_section.append({
-                "anchor": section_hands[i]["anchor"],
+                "anchor": section["anchor"],
                 "played_north": set(),
                 "played_south": set(),
                 "played_east": set(),
                 "played_west": set(),
-                "show_directive": initial_show
+                "show_directive": initial_show,
+                "showcards_directive": showcards_directive
             })
         else:
             prev = section_hands[i-1]
@@ -262,32 +280,49 @@ def extract_hands_by_anchor(soup):
             if prev["west"] and curr["west"]:
                 played_west = prev["west"] - curr["west"]
 
-            # Detect visibility changes - generate [show ...] when hands appear
+            # Detect visibility changes - generate [show ...] when full hands appear
+            # Use MIN_FULL_HAND threshold to distinguish full hands from partial (played cards)
             show_directive = None
+            showcards_directive = None
 
-            # Check what's visible now vs before
-            curr_visible = []
-            prev_visible = []
-            if curr["north_raw"]: curr_visible.append("N")
-            if curr["east_raw"]: curr_visible.append("E")
-            if curr["south_raw"]: curr_visible.append("S")
-            if curr["west_raw"]: curr_visible.append("W")
-            if prev["north_raw"]: prev_visible.append("N")
-            if prev["east_raw"]: prev_visible.append("E")
-            if prev["south_raw"]: prev_visible.append("S")
-            if prev["west_raw"]: prev_visible.append("W")
+            # Check what's visible now vs before (only count full hands)
+            curr_full_visible = []
+            prev_full_visible = []
+            curr_partial = {}
 
-            # If visibility changed, generate new show directive
-            if set(curr_visible) != set(prev_visible) and len(curr_visible) > len(prev_visible):
-                show_directive = "[show " + "".join(curr_visible) + "]"
+            for seat, cards_key in [("N", "north"), ("E", "east"), ("S", "south"), ("W", "west")]:
+                curr_cards = curr[cards_key]
+                prev_cards = prev[cards_key]
+
+                if curr_cards and len(curr_cards) >= MIN_FULL_HAND:
+                    curr_full_visible.append(seat)
+                elif curr_cards and len(curr_cards) > 0:
+                    curr_partial[seat] = sorted(curr_cards)
+
+                if prev_cards and len(prev_cards) >= MIN_FULL_HAND:
+                    prev_full_visible.append(seat)
+
+            # If full visibility changed, generate new show directive
+            if set(curr_full_visible) != set(prev_full_visible) and len(curr_full_visible) > len(prev_full_visible):
+                show_directive = "[show " + "".join(curr_full_visible) + "]"
+
+            # Generate showcards for any newly appearing partial hands
+            if curr_partial:
+                parts = []
+                for seat in ["N", "E", "S", "W"]:
+                    if seat in curr_partial:
+                        cards_str = ",".join(curr_partial[seat])
+                        parts.append(f"{seat}:{cards_str}")
+                showcards_directive = "[showcards " + ",".join(parts) + "]"
 
             played_by_section.append({
-                "anchor": section_hands[i]["anchor"],
+                "anchor": curr["anchor"],
                 "played_north": played_north,
                 "played_south": played_south,
                 "played_east": played_east,
                 "played_west": played_west,
-                "show_directive": show_directive
+                "show_directive": show_directive,
+                "showcards_directive": showcards_directive
             })
 
     return played_by_section
@@ -550,12 +585,16 @@ def extract_progressive_analysis(soup,filepath):
         played_e = section_info.get("played_east", set())
         played_w = section_info.get("played_west", set())
         show_directive = section_info.get("show_directive")
+        showcards_directive = section_info.get("showcards_directive")
 
         if i < len(analysis_lines):
             prefix = ""
-            # Add show directive if E/W hands just became visible
+            # Add show directive if full hands became visible
             if show_directive:
                 prefix = show_directive + "\\n"
+            # Add showcards directive if partial hands (played cards) are visible
+            if showcards_directive:
+                prefix += showcards_directive + "\\n"
             # Add play directive if cards were played
             if played_n or played_s or played_e or played_w:
                 prefix += format_played_directive(played_n, played_s, played_e, played_w) + "\\n"

@@ -1,5 +1,5 @@
-%Creator: CSVtoPBN Version 1.03
-%Created: 2026-02-05 09:48:38
+%Creator: CSVtoPBN Version 1.04
+%Created: 2026-02-05 13:59:06
 %sourcefilename BakerBridge.csv
 %HRTitleEvent Leben
 [Event "Baker Bridge - Lebensohl"]
@@ -18,8 +18,11 @@
 [SkillPath "competitive_bidding/lebensohl"]
 [Student "S"]
 {Baker Leben 1}
-{[show NS]
+{[show S]
+
 The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 2\S]
+
+[show NS]
 
 This is a sign-off hand. If East hadn't bid you would either have bid 2\S, which partner would have passed, or 2\H, transferring partner to 2\S which YOU would have passed.
 
@@ -42,8 +45,11 @@ With lebensohl you can do the same thing, so you bid 2\S and partner passes.}
 [SkillPath "competitive_bidding/lebensohl"]
 [Student "S"]
 {Baker Leben 2}
-{[show NS]
+{[show S]
+
 The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 4\S]
+
+[show NS]
 
 Partner's bid at the 3-level is forcing to game and shows a 5-card \S suit.
 
@@ -66,8 +72,11 @@ With 3-card support you are happy to bid 4\S.}
 [SkillPath "competitive_bidding/lebensohl"]
 [Student "S"]
 {Baker Leben 3}
-{[show NS]
+{[show S]
+
 The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 3\H]
+
+[show NS]
 
 With 12 points opposite partner's 15-17, this is a forcing-to-game hand, so you bid 3\H. Don't think of it as a jump, just a 3-level bid showing at least 10 points and a 5+ card suit.  
 
@@ -90,8 +99,11 @@ Partner has 3-card support and is happy to bid game in that suit.}
 [SkillPath "competitive_bidding/lebensohl"]
 [Student "S"]
 {Baker Leben 4}
-{[show NS]
+{[show S]
+
 The bidding has gone as shown. Decide what you would say, then click on BID above. [BID pass]
+
+[show NS]
 
 Partner's bid at the 2-level is a sign-off, the equivalent of the old "drop-dead" response.
 
@@ -114,12 +126,15 @@ So even with your great support and maximum hand, you pass.}
 [SkillPath "competitive_bidding/lebensohl"]
 [Student "S"]
 {Baker Leben 5}
-{[show NS]
+{[show S]
+
 The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 3\C]
 
 With 11 points opposite partner's 15-17, this is a forcing-to-game hand, and it is possible that a jump to 3NT (which says you have no \C stopper) would work. However, with two 4-card Major suits you should use the lebensohl equivalent of Stayman, which is a cue-bid of 3\C.
 
 Partner bids 3\H. What do you say? [BID 4\H]
+
+[show NS]
 
 
 
@@ -142,8 +157,11 @@ With a known 8-card Major fit and a known 26-28 points you bid 4\H.}
 [SkillPath "competitive_bidding/lebensohl"]
 [Student "S"]
 {Baker Leben 6}
-{[show NS]
+{[show S]
+
 The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 3\H]
+
+[show NS]
 
 Partner's direct cue-bid is the lebensohl equivalent of Stayman, but with no \D stopper.
 
@@ -168,12 +186,15 @@ Partner then bids 4\H which you pass.}
 [SkillPath "competitive_bidding/lebensohl"]
 [Student "S"]
 {Baker Leben 7}
-{[show NS]
+{[show S]
+
 The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 2NT]
 
 With your hand you'd like to sign off in 3\D. But you cannot actually bid 3\D because that would show a forcing-to-game hand. So you bid a lebensohl 2NT.
 
 Partner makes the relay bid of 3\C. What do you say? [BID 3\D]
+
+[show NS]
 
 
 
@@ -196,12 +217,15 @@ NOW you can bid 3\D, which partner passes.}
 [SkillPath "competitive_bidding/lebensohl"]
 [Student "S"]
 {Baker Leben 8}
-{[show NS]
+{[show S]
+
 The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 3\C]
 
 Partner's 2NT bid is lebensohl, asking you to bid 3\C. You bid 3\C. Partner says 3\H.
 
 What do you say now? [BID pass]
+
+[show NS]
 
 
 
@@ -224,8 +248,11 @@ How about . . . . pass? Partner just signed off with this sequence. He couldn't 
 [SkillPath "competitive_bidding/lebensohl"]
 [Student "S"]
 {Baker Leben 9}
-{[show NS]
+{[show S]
+
 The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 3\S]
+
+[show NS]
 
 With your 12 point hand you need to force to game. It would also be nice to find out if partner has a 4-card \H suit. So you cue-bid 3\S. This is the lebensohl version of Stayman, but WITH NO \S STOPPER. (Direct Denies)
 
@@ -248,8 +275,11 @@ Partner says 4\H and you pass.}
 [SkillPath "competitive_bidding/lebensohl"]
 [Student "S"]
 {Baker Leben 10}
-{[show NS]
+{[show S]
+
 The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 3NT]
+
+[show NS]
 
 Partner has promised at least a 5-card \D suit, and game-forcing strength. With your great \H stoppers you bid 3NT.}
 
@@ -270,12 +300,15 @@ Partner has promised at least a 5-card \D suit, and game-forcing strength. With 
 [SkillPath "competitive_bidding/lebensohl"]
 [Student "S"]
 {Baker Leben 11}
-{[show NS]
+{[show S]
+
 The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 2NT]
 
 With your 12 point hand you need to force to game. It would also be nice to find out if partner has a 4-card \H suit. Since you have East's \S suit stopped, you first bid a lebensohl 2NT.
 
 Partner says 3\C. What do you bid? [BID pass]
+
+[show NS]
 
 
 
@@ -298,12 +331,15 @@ NOW you cue-bid 3\S. This is Stayman, but with a \S stopper, (SLOW SHOWS). Partn
 [SkillPath "competitive_bidding/lebensohl"]
 [Student "S"]
 {Baker Leben 12}
-{[show NS]
+{[show S]
+
 The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 3\C]
 
 Partner's 2NT bid requests that you bid 3\C, so you do.
 
 He next says 3\D. What do you bid now? [BID 3NT]
+
+[show NS]
 
 
 
@@ -328,8 +364,11 @@ With no 4-card Major of your own, you pick 3NT.}
 [SkillPath "competitive_bidding/lebensohl"]
 [Student "S"]
 {Baker Leben 13}
-{[show NS]
+{[show S]
+
 The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 3NT]
+
+[show NS]
 
 With 12 points opposite partner's 15-17, this is a forcing-to-game hand. If it had not been for the \H overcall you would just have jumped to 3NT. 
 
@@ -354,12 +393,15 @@ Partner does have them stopped so he passes.}
 [SkillPath "competitive_bidding/lebensohl"]
 [Student "S"]
 {Baker Leben 14}
-{[show NS]
+{[show S]
+
 The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 3\C]
 
 Partner's 2NT bid requests that you bid 3\C, so you do.
 
 He next says 3NT. What do you bid now? [BID pass]
+
+[show NS]
 
 
 
@@ -382,12 +424,15 @@ Partner's bidding shows a hand with which he would have bid 3NT without the over
 [SkillPath "competitive_bidding/lebensohl"]
 [Student "S"]
 {Baker Leben 15}
-{[show NS]
+{[show S]
+
 The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 2NT]
 
 With your 12 point balanced hand you know you are going to play in game. Since you have no interest in looking for a 4-4 Major suit fit you also know that game is going to be 3NT. But you can't actually BID 3NT, because partner would almost surely take you out to a minor suit. Remember, a DIRECT 3NT bid DENIES a stopper in their suit. Since you have East's \S suit stopped, you first bid a lebensohl 2NT.
 
 Partner says 3\C. What do you bid? [BID 3NT]
+
+[show NS]
 
 
 
@@ -410,8 +455,11 @@ You now complete the picture of your hand by bidding 3NT. (SLOW SHOWS). Partner 
 [SkillPath "competitive_bidding/lebensohl"]
 [Student "S"]
 {Baker Leben 16}
-{[show NS]
+{[show S]
+
 The bidding has gone as shown. Decide what you would say, then click on BID above. [BID pass]
+
+[show NS]
 
 Playing lebensohl, when partner doubles the overcall it is for penalties.
 
@@ -434,12 +482,15 @@ Since you trust your partner, you pass.}
 [SkillPath "competitive_bidding/lebensohl"]
 [Student "S"]
 {Baker Leben 17}
-{[show NS]
+{[show S]
+
 The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 2NT]
 
 With 9 points you don't want to sign-off with 2\H. But you aren't strong enough to force to game with a 3\H bid either. So you start an invitational sequence by bidding 2NT.
 
 Partner says 3\C. What do you bid? [BID 3\H]
+
+[show NS]
 
 
 
@@ -462,8 +513,11 @@ Now you bid 3\H. Partner will realize you have better than a sign-off, but were 
 [SkillPath "competitive_bidding/lebensohl"]
 [Student "S"]
 {Baker Leben 18}
-{[show NS]
+{[show S]
+
 The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 4\C]
+
+[show NS]
 
 Partner's bid asks if you have 4 \Ss, and denies a \H stopper. (DIRECT DENIES)
 
@@ -486,8 +540,11 @@ You don't have 4 \Ss, nor can you stop \Hs. You have no choice but to bid one of
 [SkillPath "competitive_bidding/lebensohl"]
 [Student "S"]
 {Baker Leben 19}
-{[show NS]
+{[show S]
+
 The bidding has gone as shown. Decide what you would say, then click on BID above. [BID double]
+
+[show NS]
 
 It is possible your side can make 3NT on this deal. You have 9 points, invitational strength, and your \D stopper is excellent.
 
@@ -510,7 +567,8 @@ However you should look for an even bigger reward by doubling. East is in seriou
 [SkillPath "competitive_bidding/lebensohl"]
 [Student "S"]
 {Baker Leben 20}
-{[show NS]
+{[show S]
+
 The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 3\C]
 
 Partner's 2NT bid requests that you bid 3\C, so you do. He next says 3\D. What do you bid now? [BID 3\H]
@@ -518,6 +576,8 @@ Partner's 2NT bid requests that you bid 3\C, so you do. He next says 3\D. What d
 
 
 Partner's bid is game-forcing Stayman, but with a \D stopper (SLOW SHOWS). Holding 4 cards in each Major you bid up-the-line, 4\H. Partner now bids 3NT. What do you say? [BID 4\S]
+
+[show NS]
 
 
 

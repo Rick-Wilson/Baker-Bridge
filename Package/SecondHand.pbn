@@ -1,5 +1,5 @@
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-02-05 12:50:39
+%Created: 2026-02-05 13:59:06
 %sourcefilename BakerBridge.csv
 %HRTitleEvent SecondHand
 [Event "Baker Bridge - Second Hand Play"]
@@ -18,7 +18,9 @@
 [SkillPath "defense/second_hand_play"]
 [Student "E"]
 {Baker SecondHand 1}
-{[show NEW]
+{[show NE]
+
+[showcards W:SJ]
 
 You are East. The bidding has been as shown.
 
@@ -49,13 +51,17 @@ So if you put on your \DA, South will have TWO \D winners established. If instea
 [SkillPath "defense/second_hand_play"]
 [Student "W"]
 {Baker SecondHand 2}
-{[show NESW]
+{[show NW]
+
+[showcards E:C2,S:CA,H2]
 
 You are West. The bidding has been as shown.
 
 Your lead of the \CJ was won by South with the \CA. South then played the \H2 and you must decide whether to split your honors.
 
 When you have made your choice click NEXT. [NEXT]
+
+[show NESW]
 
 [PLAY E:C2]
 
@@ -82,7 +88,9 @@ As it turns out, when you play low South calls for dummy's \HK, East's \HQ falls
 [SkillPath "defense/second_hand_play"]
 [Student "E"]
 {Baker SecondHand 3}
-{[show NESW]
+{[show NE]
+
+[showcards S:C6,C8,CJ,DJ,W:C5,CK,CQ,D2]
 
 You are East. The bidding has been as shown.
 
@@ -91,6 +99,8 @@ Partner led the \CK, and you played the \C9 to encourage him. He continued with 
 Declarer then calls for the \HJ. Do you cover with your \HQ or not?
 
 When you have made your choice click NEXT. [NEXT]
+
+[show NESW]
 
 Play the \H4.
 
@@ -115,7 +125,9 @@ Now that you have looked at the hands aren't you glad you didn't cover?}
 [SkillPath "defense/second_hand_play"]
 [Student "W"]
 {Baker SecondHand 4}
-{[show NESW]
+{[show NW]
+
+[showcards E:H2,HA,HK,S:H4,H9,S2,S4]
 
 You are West. The bidding has been as shown.
 
@@ -124,6 +136,8 @@ You lead the \HJ, covered by dummy's \HQ and won by East's \HK. East wins the \H
 South then plays the \S4 from his hand. Do you play low? or play the \SJ to force dummy's \SA?
 
 When you have made your choice click NEXT. [NEXT]
+
+[show NESW]
 
 Play the \S3.
 
@@ -148,13 +162,17 @@ However, with South holding the \SQ it would be very logical for him to go up wi
 [SkillPath "defense/second_hand_play"]
 [Student "E"]
 {Baker SecondHand 5}
-{[show NESW]
+{[show NE]
+
+[showcards S:H4,W:H9]
 
 You are East. The bidding has been as shown.
 
 Partner led the \H9, taken by dummy's \HT. The \S4 is then played from dummy. Do you play low? or split your honors?
 
 When you have made your choice click NEXT. [NEXT]
+
+[show NESW]
 
 Play the \SJ (or \SQ).
 
@@ -183,7 +201,9 @@ South has no defense to this, but if you had played low he would have played the
 [SkillPath "defense/second_hand_play"]
 [Student "W"]
 {Baker SecondHand 6}
-{[show NESW]
+{[show NW]
+
+[showcards E:S3,S:C3,SA]
 
 You are West. The bidding has been as shown.
 
@@ -192,6 +212,8 @@ You lead the \ST; low cards from North and East, won by South with the \SA.
 South next plays the \C3 and you must decide whether to split your \C K Q.
 
 When you have made your choice click NEXT. [NEXT]
+
+[show NESW]
 
 Play the \C4.
 
@@ -255,7 +277,9 @@ By playing low you give him a guess to make. If he plays the \CK he will make th
 [SkillPath "defense/second_hand_play"]
 [Student "W"]
 {Baker SecondHand 8}
-{[show NSW]
+{[show NW]
+
+[showcards S:C9,DK]
 
 You are West. The bidding has been as shown.
 
@@ -290,7 +314,9 @@ So the way to beat the contract is to go up with your \CA, then play \SK, \SQ an
 [SkillPath "defense/second_hand_play"]
 [Student "E"]
 {Baker SecondHand 9}
-{[show NESW]
+{[show NE]
+
+[showcards S:H8,S6,W:H4,S2]
 
 You are East. The bidding has been as shown.
 
@@ -299,6 +325,8 @@ Partner led the \H4, won by South's \H8.
 South enters dummy with the \SK and leads the \DT. What do you play?
 
 When you have made your choice click NEXT. [NEXT]
+
+[show NESW]
 
 Play the \DA.
 
@@ -325,7 +353,9 @@ As you see, this will defeat the contract. Had you played a low \D South would h
 [SkillPath "defense/second_hand_play"]
 [Student "W"]
 {Baker SecondHand 10}
-{[show NESW]
+{[show NW]
+
+[showcards E:S2,S:C6,SQ]
 
 You are West. The bidding has been as shown.
 
@@ -334,6 +364,8 @@ You lead the \S7; \S3, \S2 and won by South with \SQ.
 South then plays the \C6 from his hand. Which \C should you play?
 
 When you have made your choice click NEXT. [NEXT]
+
+[show NESW]
 
 Play the \CJ.
 
@@ -360,13 +392,17 @@ East will win the \CA and return his \S through South's \S A Q. This allows you 
 [SkillPath "defense/second_hand_play"]
 [Student "E"]
 {Baker SecondHand 11}
-{[show NESW]
+{[show NE]
+
+[showcards S:DA,S4,W:DQ,S2]
 
 You are East. The bidding has been as shown. Partner led the \DQ, you signaled with the \D8 and South won the \DA.
 
 South then played low to dummy's \SK, and led dummy's \S6. Your decision is not whether to play high or low, but whether to ruff or not, which amounts to the same thing.
 
 When you have made your choice click NEXT. [NEXT]
+
+[show NESW]
 
 Do not ruff.
 
@@ -393,13 +429,17 @@ Suppose you had ruffed the \S. South would have played his \S9, leaving himself 
 [SkillPath "defense/second_hand_play"]
 [Student "W"]
 {Baker SecondHand 12}
-{[show NESW]
+{[show NW]
+
+[showcards E:C3,C5,S4,S:C2,C6,CA,H4]
 
 You are West. The bidding has been as shown.
 
 You lead the \CK and continue with the \CJ then \CQ, taken by South's \CA. To trick 4 South plays the \H4. What do you play?
 
 When you have made your choice click NEXT. [NEXT]
+
+[show NESW]
 
 Play the \HQ.
 
@@ -424,7 +464,9 @@ Now visualize the result of playing the \HQ. Whether South takes this trick or n
 [SkillPath "defense/second_hand_play"]
 [Student "E"]
 {Baker SecondHand 13}
-{[show NES]
+{[show NE]
+
+[showcards S:H4]
 
 You are East. The bidding has been as shown.
 
@@ -459,7 +501,9 @@ Play low instead and South will win his \CQ. But now your \C K T sits behind dum
 [SkillPath "defense/second_hand_play"]
 [Student "W"]
 {Baker SecondHand 14}
-{[show NESW]
+{[show NW]
+
+[showcards E:H4,H7,S3,S:C2,H2,HA,S5]
 
 You are West. The bidding has been as shown.
 
@@ -468,6 +512,8 @@ You lead the \SJ, the \SK is played from dummy and holds the trick. Next come du
 At trick 4 South plays the \C2 from his hand and you must decide what to play.
 
 When you have made your choice click NEXT. [NEXT]
+
+[show NESW]
 
 Play the \C3 (smoothly).
 
@@ -492,7 +538,9 @@ When you correctly play your small \C life becomes harder for South. Sometimes h
 [SkillPath "defense/second_hand_play"]
 [Student "E"]
 {Baker SecondHand 15}
-{[show NESW]
+{[show NE]
+
+[showcards S:C3,SJ,SQ,W:C6,S2,S6]
 
 You are East. The bidding has been as shown.
 
@@ -501,6 +549,8 @@ Partner led the \S6. You won the \SA and returned the \S9, won by South's \SQ.
 South next played to dummy's \CA and led the \D2. What do you play?
 
 When you have made your choice click NEXT. [NEXT]
+
+[show NESW]
 
 Play the \DA.
 
@@ -566,7 +616,9 @@ But if you take your \HA now, then exit with your \H2, South can win the \HK but
 [SkillPath "defense/second_hand_play"]
 [Student "E"]
 {Baker SecondHand 17}
-{[show NESW]
+{[show NE]
+
+[showcards S:C2,SA,W:SK]
 
 You are East. The bidding has been as shown.
 
@@ -575,6 +627,8 @@ West led the \SK, won by South's \SA. South played a small \C to dummy's \CA, th
 What do you play? \HQ or \H4? 
 
 When you have made your choice click NEXT. [NEXT]
+
+[show NESW]
 
 Play the \H4.
 
@@ -601,7 +655,9 @@ If you cover the \HJ with your \HQ South will again win with one of his high one
 [SkillPath "defense/second_hand_play"]
 [Student "W"]
 {Baker SecondHand 18}
-{[show NESW]
+{[show NW]
+
+[showcards E:DJ,H3,HA,S:D6,H6,HK,S3]
 
 You are West. The bidding has been as shown.
 
@@ -610,6 +666,8 @@ You decide a trump lead is called for and lead the \H2. Your partner wins with t
 South's next play is the \S3 from his hand. Do you play your \SA or not?
 
 When you have made your choice click NEXT. [NEXT]
+
+[show NESW]
 
 [PLAY S:D6]
 
@@ -638,13 +696,17 @@ If you play low on South's \S play East will be forced to win the trick and he c
 [SkillPath "defense/second_hand_play"]
 [Student "E"]
 {Baker SecondHand 19}
-{[show NESW]
+{[show NE]
+
+[showcards S:H2,HA,W:H3,H7]
 
 You are East. The bidding has been as shown.
 
 Partner led the \H3, you play \HT and South wins the \HA. South pulls the last two trumps by leading low to dummy's \HQ. He now calls for the \S6. Will you play your \SA or not?
 
 When you have made your choice click NEXT. [NEXT]
+
+[show NESW]
 
 Play the \S3.
 
