@@ -155,7 +155,8 @@ def extract_hands_by_anchor(soup):
     """
     Extract hands at each anchor section and detect which cards were played
     and when E/W hands become visible.
-    Returns a list of dicts with 'anchor', 'played_north', 'played_south', 'show_directive' keys.
+    Returns a list of dicts with 'anchor', 'played_north', 'played_south',
+    'played_east', 'played_west', 'show_directive' keys.
     """
     anchors = soup.find_all("a", attrs={"name": True})
 
@@ -176,6 +177,8 @@ def extract_hands_by_anchor(soup):
         # Convert hands to card sets
         north_cards = parse_hand_to_cards(hands.get("North"))
         south_cards = parse_hand_to_cards(hands.get("South"))
+        east_cards = parse_hand_to_cards(hands.get("East"))
+        west_cards = parse_hand_to_cards(hands.get("West"))
 
         # Track E/W visibility (True if hand is present)
         east_visible = hands.get("East") is not None
@@ -185,8 +188,12 @@ def extract_hands_by_anchor(soup):
             "anchor": anchor_name,
             "north": north_cards,
             "south": south_cards,
+            "east": east_cards,
+            "west": west_cards,
             "north_raw": hands.get("North"),
             "south_raw": hands.get("South"),
+            "east_raw": hands.get("East"),
+            "west_raw": hands.get("West"),
             "east_visible": east_visible,
             "west_visible": west_visible
         })
@@ -201,6 +208,8 @@ def extract_hands_by_anchor(soup):
                 "anchor": section_hands[i]["anchor"],
                 "played_north": set(),
                 "played_south": set(),
+                "played_east": set(),
+                "played_west": set(),
                 "show_directive": None
             })
         else:
@@ -211,6 +220,8 @@ def extract_hands_by_anchor(soup):
             # If either section's hand is empty, the table structure changed - not card play
             played_north = set()
             played_south = set()
+            played_east = set()
+            played_west = set()
 
             if prev["north"] and curr["north"]:
                 # Cards that were in previous section but not in current = played cards
@@ -218,6 +229,12 @@ def extract_hands_by_anchor(soup):
 
             if prev["south"] and curr["south"]:
                 played_south = prev["south"] - curr["south"]
+
+            if prev["east"] and curr["east"]:
+                played_east = prev["east"] - curr["east"]
+
+            if prev["west"] and curr["west"]:
+                played_west = prev["west"] - curr["west"]
 
             # Detect when E/W hands become visible
             show_directive = None
@@ -232,22 +249,26 @@ def extract_hands_by_anchor(soup):
                 "anchor": section_hands[i]["anchor"],
                 "played_north": played_north,
                 "played_south": played_south,
+                "played_east": played_east,
+                "played_west": played_west,
                 "show_directive": show_directive
             })
 
     return played_by_section
 
-def format_played_directive(played_north, played_south):
+def format_played_directive(played_north, played_south, played_east=None, played_west=None):
     """Format played cards into a [PLAY ...] directive with seat:card format.
 
     Args:
         played_north: set of cards played by North (e.g., {'SK', 'S4'})
         played_south: set of cards played by South (e.g., {'S3', 'DK'})
+        played_east: set of cards played by East (e.g., {'H5'})
+        played_west: set of cards played by West (e.g., {'C2'})
 
     Returns:
-        String like '[PLAY N:SK,N:S4,S:S3,S:DK]' or empty string if no cards played
+        String like '[PLAY N:SK,N:S4,S:S3,E:H5,W:C2]' or empty string if no cards played
     """
-    if not played_north and not played_south:
+    if not played_north and not played_south and not played_east and not played_west:
         return ""
 
     # Sort cards by suit then rank for consistent output
@@ -262,8 +283,12 @@ def format_played_directive(played_north, played_south):
     for card in sorted(played_north or [], key=sort_key):
         # card is like 'SK' (Spade King) -> format as N:SK
         plays.append(f"N:{card}")
+    for card in sorted(played_east or [], key=sort_key):
+        plays.append(f"E:{card}")
     for card in sorted(played_south or [], key=sort_key):
         plays.append(f"S:{card}")
+    for card in sorted(played_west or [], key=sort_key):
+        plays.append(f"W:{card}")
 
     return "[PLAY " + ",".join(plays) + "]"
 
@@ -480,6 +505,8 @@ def extract_progressive_analysis(soup,filepath):
     for i, section_info in enumerate(played_by_section):
         played_n = section_info.get("played_north", set())
         played_s = section_info.get("played_south", set())
+        played_e = section_info.get("played_east", set())
+        played_w = section_info.get("played_west", set())
         show_directive = section_info.get("show_directive")
 
         if i < len(analysis_lines):
@@ -488,8 +515,8 @@ def extract_progressive_analysis(soup,filepath):
             if show_directive:
                 prefix = show_directive + "\\n"
             # Add play directive if cards were played
-            if played_n or played_s:
-                prefix += format_played_directive(played_n, played_s) + "\\n"
+            if played_n or played_s or played_e or played_w:
+                prefix += format_played_directive(played_n, played_s, played_e, played_w) + "\\n"
             if prefix:
                 analysis_lines[i] = prefix + analysis_lines[i]
 

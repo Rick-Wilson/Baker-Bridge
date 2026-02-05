@@ -1,5 +1,5 @@
 %Creator: CSVtoPBN Version 1.01
-%Created: 2026-02-04 16:48:18
+%Created: 2026-02-04 17:08:04
 %sourcefilename BakerBridge.csv
 %HRTitleEvent 100Deals
 [Board "1"]
@@ -15,8 +15,6 @@
 1D pass 1NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1NT]
 
 Do not be tempted to say 2\D, even with such good 3-card help. To support partner's minor suit opening you should have at least 4 cards in the suit. Remember he may have opened a 3-card suit.
@@ -26,6 +24,8 @@ Instead you bid 1NT showing a balanced 6-10 point hand with no 4-card Major suit
 South plays 1NT. West leads the \S4. East wins the \SA, then plays the \S9. West takes his \SK and leads another \S, East discarding a \H.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 To make a PLAN for a Notrump contract you should count your winners.
 
@@ -39,6 +39,8 @@ You win the \SQ, then lead to the \CA, \CK, \CQ. Everybody follows suit to these
 Click NEXT to see the complete deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 But even with this type of hand you should make sure you take them in the right order. Here, if you had played the \DA and \DK BEFORE you played the \C A K Q you would have had no entry back to the fourth \C in your hand. In this case it was only an overtrick, in other deals it could make the difference between making and going down.}
 [BCFlags "1f"]
@@ -57,8 +59,6 @@ But even with this type of hand you should make sure you take them in the right 
 1D pass 1H pass 2H pass 4H pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\H]
 
 A jump to 2NT would be descriptive, but your first goal is to seek a Major suit fit. When you have two 4-card Majors you should respond "up-the-line" so you bid 1\H. Partner says 2\H. What do you bid now? [BID 4\H]
@@ -70,6 +70,8 @@ Partner has at least 13 points and you have 13 so you bid the game.
 South plays 4\H. West leads the \DT.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 To make a PLAN for a suit contract you should count your losers.
 
@@ -80,6 +82,8 @@ There is nothing you can do about losing the Ace of trumps. The three \C losers 
 You can take care of this possibility by discarding a \C from dummy BEFORE you play trumps. So win the \DK, and play \SA, \SK, \SQ, discarding dummy's \C3 on the last one. Then pull trumps. You will end up losing two \Cs and the \HA.
 
 Click NEXT to see the Deal that could have set you. [NEXT]
+
+[show NESW]
 
 East would win his \HA and would switch to a black suit to lead up to dummy's weakness. In this case he would surely lead the \CQ, and you would lose three \C tricks and be down before you started.
 
@@ -100,8 +104,6 @@ Making a PLAN is a necessary part of being a good Declarer and Visualizing what 
 pass 1NT pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1NT]
 
 With 16 points and a balanced hand you should open 1NT. Do not worry about the lack of a \S stopper, a 1NT opening does not guarantee stoppers in all four suits.
@@ -111,6 +113,8 @@ Partner raises you to 3NT.
 South plays 3NT. West leads the \S4.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winners: \S 1 : \H 0 : \D 4 : \C 4 : Total = 9
 
@@ -126,6 +130,8 @@ I think you get the idea. Win the \SA immediately and then take your other 8 tri
 Click NEXT to see the complete Deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 This wasn't one of those times.}
 [BCFlags "1f"]
@@ -144,8 +150,6 @@ This wasn't one of those times.}
 1S pass 2H pass 2S pass 4S pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\S]
 
 Don't think of passing. With 11 HCP and 2 length points you open 1\S. Partner responds 2\H. What is your next bid? [BID 2\S]
@@ -155,6 +159,8 @@ You must bid and you want to show that you have a bare minimum. You don't want t
 South plays 4\S. West leads the \D5 on which you play dummy's \D3. East wins \DJ, plays \DA, then \D2.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 1 : \H 0 : \D 2 : \C 1 : Total = 4
 
@@ -165,6 +171,8 @@ You ruff the third \D, play \Ss until the \SA appears. When you regain the lead 
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 It's never great when the success of your contract depends on a finesse, but sometimes that's your only hope - a 50% chance.}
 [BCFlags "1f"]
@@ -183,8 +191,6 @@ It's never great when the success of your contract depends on a finesse, but som
 pass 1NT pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1NT]
 
 You have a very solid 17 points and a balanced hand. You open 1NT. Partner responds 3NT and you pass.
@@ -192,6 +198,8 @@ You have a very solid 17 points and a balanced hand. You open 1NT. Partner respo
 South plays 3NT. West leads the \HJ. You hopefully put on the \HQ, but East plays the \HK.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 You hopefully put on the \HQ, but East plays the \HK.
 
@@ -204,6 +212,8 @@ Your only hope is to win 8 more tricks before you lose the lead. That means the 
 Click for the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 }
 [BCFlags "1f"]
@@ -222,8 +232,6 @@ Click for the full deal. [NEXT]
 1NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID pass]
 
 You have 7 points so you know your side does not have a game. You also have no reason to think there is any better contract than 1NT. So you pass.
@@ -237,6 +245,8 @@ Click NEXT. [ROTATE]
 South plays 1NT. West leads the \HQ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winners: \S 1 : \H 2 : \D 1 : \C 1 : Total = 5
 
@@ -247,6 +257,8 @@ Win the first trick with the \HK. Then play \SA followed by \S2. Continue playin
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 What would you try next? A \S finesse? Whether West took his \SK right then or later you would go down. You could never reach dummy again.}
 [BCFlags "1f"]
@@ -265,8 +277,6 @@ What would you try next? A \S finesse? Whether West took his \SK right then or l
 1H pass 2H pass 4H pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 4\H]
 
 You have a nice hand, but 20 points is not strong enough to open 2\C. 
@@ -278,6 +288,8 @@ Partner's raise to 2\H shows 6-10 points. You figure that should be enough for g
 South plays 4\H. West leads \SA, then switches to \H2.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 2 : \H 0 : \D 1 : \C 1 : Total = 4
 
@@ -288,6 +300,8 @@ The PLAN turns out simple. You can't avoid either of the three black losers so y
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 Only a real beginner would have pulled all the trumps and not been able to ruff that \D.}
 [BCFlags "1f"]
@@ -306,8 +320,6 @@ Only a real beginner would have pulled all the trumps and not been able to ruff 
 pass 1C pass 1D pass 1NT pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID pass]
 
 With 16 points as Responder you are not quite strong enough for a jump-shift to 2 \D. That requires at least 17 points. A jump to 3NT fits the point range (16-18) but promises a stopper in all unbid suits. So instead you bid 1\D, knowing partner is forced to keep the bidding alive. He now replies 1NT. What is your next bid? [BID pass]
@@ -323,6 +335,8 @@ Click [ROTATE]
 South plays 3NT. West leads the \SQ. East puts on the \SK.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winners: \S 1 : \H 2 : \D 5 : \C 0 : Total = 8
 
@@ -335,6 +349,8 @@ So that makes it clear that you need 3 \H tricks, and there's only one way to ge
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 }
 [BCFlags "1f"]
@@ -353,8 +369,6 @@ Click NEXT to see the full deal. [NEXT]
 1H pass 3H pass 4H pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 3\H]
 
 You have 12 points which isn't quite enough to force to game.
@@ -372,6 +386,8 @@ Click [ROTATE]
 South plays 4\H. The defense takes the first three \S tricks, then switches to a \C.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 3 : \H ?? : \D 0 : \C 0 : Total = 3+??
 
@@ -382,6 +398,8 @@ There is no problem if trumps split 2-2 or 3-1, so you can put your mind to 4-0 
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 Next visualize the situation if your first play was the \HK. West would show out and you would play the \HQ, then a small \H finessing your \HT. 
 
@@ -404,8 +422,6 @@ Using the correct Plan guarantees the contract however \Hs split.}
 1C pass 1S pass 2S pass 4S pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\S]
 
 Partner has opened and you have 14 points. You know you belong in game but there is no need to jump and use up bidding space. You respond 1\S.
@@ -417,6 +433,8 @@ You know you should be in game and now you know the suit. You bid 4\S.
 South plays 4\S. The defense quickly takes three \H tricks, then switches to a \D.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 0? : \H 3 : \D 0 : \C 0 : Total = 3?
 
@@ -430,9 +448,13 @@ Click NEXT to see the full deal. [NEXT]
 
 [RESET]
 
+[show NESW]
+
 If your first \S was \SK or \SQ then it would be too late.
 
 Click NEXT to see an alternate deal. [NEXT]
+
+[PLAY E:H4,E:DQ,E:C6,E:C4,W:SJ,W:ST,W:S6,W:S3]
 
 To summarize: If you are missing J x x x your first play should be from the hand with two honors. Then you will  be able to finesse in either direction. If you are missing J T x x your first play should be honor from the hand with only one. This will leave you with a double-finesse position in one direction. If the other defender has the trumps there is nothing you can do. }
 [BCFlags "1f"]
@@ -451,8 +473,6 @@ To summarize: If you are missing J x x x your first play should be from the hand
 pass 1NT pass 2NT pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1NT]
 
 Aces and Spaces is the description you often hear about this hand. But the REAL description is 16 points, balanced. So you open 1NT. Partner replies 2NT. What do you bid now? [BID 3NT]
@@ -464,6 +484,8 @@ With 16 points you must make a judgement. This one is actually easy, despite the
 South plays 3NT. West leads the \C2.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winner count: \S 2 : \H 1 : \D 2 : \C 1 : Total = 6
 
@@ -474,6 +496,8 @@ Now you are on cruise-control. Play a \D to the \DA. Play another \D back to dum
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 }
 [BCFlags "1f"]
@@ -492,8 +516,6 @@ Click NEXT to see the full deal. [NEXT]
 1NT pass 2C pass 2S pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 2\C]
 
 Despite the great \C suit, you have a 4-card Major. It is your duty to first seek an 8-card Major fit, so you bid 2\C (Stayman). Partner replies 2\S. What do you bid? [BID 3NT]
@@ -511,6 +533,8 @@ Click [ROTATE]
 South plays 3NT. West leads \DJ, East plays \DK.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winners: \S 2 : \H 1 : \D 2 : \C 3 : Total = 8
 
@@ -521,6 +545,8 @@ Since you have no immediate problem in any suit you can afford to give up the le
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 If you played a high \C first you would never have an entry back to dummy. You would have been forced to try to get there with the \HJ but as you can see, that wouldn't work.
 
@@ -541,8 +567,6 @@ If you had just played the \Cs from the top you would have made an overtrick whe
 1S pass 1NT pass 4S pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1NT]
 
 This is awkward. With 8 points you must respond, but you cannot bid a new suit at the 2-level without 11 or more. Although you are far from balanced you must say 1NT.
@@ -558,6 +582,8 @@ Click [ROTATE]
 South plays 4\S. West leads the \HK.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S ? : \H 0 : \D 1 : \C 0 : Total = ?
 
@@ -570,6 +596,8 @@ It's when the \Ss are splitting 4-2 that you must be careful. If somebody has \S
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 But if your second \S play is a small \S East will win the \SK and you will be left with the \S J T to deal with West's \S Q 9, holding him to just one more trick.}
 [BCFlags "1f"]
@@ -588,8 +616,6 @@ But if your second \S play is a small \S East will win the \SK and you will be l
 1NT pass 3H pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID.
 
 <i>You and partner do NOT play Jacoby Transfer Bids</i>. [BID 3\H]
@@ -607,6 +633,8 @@ Click [ROTATE]
 South plays 3NT. West leads the \SJ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winner count: \S 2 : \H 0 : \D 2 : \C 1 : Total = 5
 
@@ -617,6 +645,8 @@ There is an almost foolproof plan. Win the first trick with your \SK (saving dum
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 }
 [BCFlags "1f"]
@@ -635,8 +665,6 @@ Click NEXT to see the full deal. [NEXT]
 1H 1S 2H pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\H]
 
 You may not have had a problem with this opening bid, but be assured that many would. The hand meets all the requirements for an opening 1NT bid, balanced distribution and 16 points. So lots of good players would open 1NT. However, there is the question of the 5-card Major. Another group of good players don't open 1NT when their hand contains a 5-card Major.
@@ -646,6 +674,8 @@ So let us agree that either could be right and say that you chose 1\H. West over
 South plays 2\H. West leads the \SK.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 2 : \H 2 : \D 0 : \C 2 : Total = 6
 
@@ -656,6 +686,8 @@ One thing should be crystal clear. If you now lead a trump the defenders will wi
 Clickfor the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 Make sure you visualize how the play would have gone if you had played a trump to the second trick. When you see clearly the bad things that are likely to happen you will look harder for a remedy. When confronted with a hand such as this many beginning (or careless) players just automatically start trying to pull trumps. And many times they go down on hands that could have been made.}
 [BCFlags "1f"]
@@ -674,8 +706,6 @@ Make sure you visualize how the play would have gone if you had played a trump t
 1NT pass 2C pass 2H pass 4H pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 2\C]
 
 It is tempting to bid 3NT and hope partner can use your \C suit. But you have something very important in your hand - a 4-card \H suit.
@@ -693,6 +723,8 @@ Click [ROTATE]
 South plays 4\H. West leads the \SQ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 South plays 4\H. West leads the \SQ.
 
@@ -712,6 +744,8 @@ Click NEXT to see the full deal. [NEXT]
 
 [RESET]
 
+[show NESW]
+
 This hand is much rarer - leaving TWO master trumps out. But you can see that it is the correct technique.}
 [BCFlags "1f"]
 [Play "W"]SQ
@@ -729,8 +763,6 @@ This hand is much rarer - leaving TWO master trumps out. But you can see that it
 pass 1C pass 1S pass 2NT pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\C]
 
 This sure looks like an opening 1NT hand, except for one little thing - it is too strong. Make sure you open 1NT ONLY with hands containing 15-17 points. For this one you open 1\C. Partner responds 1\S. What do you bid next? [BID 2NT]
@@ -742,6 +774,8 @@ In fact you have a perfect bid. With a balanced hand and 18-19 points you open 1
 South plays 3NT. West leads the \H5. East plays the \HQ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winner count: \S 2 : \H 1 : \D 0 : \C 4 : Total = 7
 
@@ -752,6 +786,8 @@ Now you can take your 4 \C tricks if you like. Then lead a \D honor. If they don
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 Notice that if West was the one who had the \DA then you would go down despite your hold-up play. This PLAN is not a guarantee - but if you follow it you will make the contract 50% of the time. If you don't follow it you will make the contract 0% of the time.}
 [BCFlags "1f"]
@@ -770,8 +806,6 @@ Notice that if West was the one who had the \DA then you would go down despite y
 1D 1H pass 4H pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\H]
 
 With 12 points and an excellent suit you overcall 1\H.
@@ -781,6 +815,8 @@ Partner raises to 4\H and everyone passes.
 South plays 4\H. West leads the \DA and the defense wins two high \Ds then switches to a trump.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 0 : \H 0 : \D 2 : \C 2 : Total = 4
 
@@ -793,6 +829,8 @@ However, dummy has some nice \S cards. So you pull the last trump, play your \S3
 Clickfor the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 This was a perfect example. After the opening lead it was easy to deduce that all the rest of the high cards had to be in the East hand.}
 [BCFlags "1f"]
@@ -811,8 +849,6 @@ This was a perfect example. After the opening lead it was easy to deduce that al
 1S pass 3S pass 4NT pass 5H pass 6S pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\S]
 
 You open 1\S and partner jumps to 3\S.
@@ -824,6 +860,8 @@ Wow. It looks like you might have a great fit. You bid 4NT and partner responds 
 What do you bid next?
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Partner shows 2 Aces so you bid 6\S.
 
@@ -843,6 +881,8 @@ Click NEXT to see the full deal. [NEXT]
 
 [RESET]
 
+[show NESW]
+
 But that would have been all for nothing if South had not found the PLAN to make it.}
 [BCFlags "1f"]
 [Play "W"]DK
@@ -860,8 +900,6 @@ But that would have been all for nothing if South had not found the PLAN to make
 1D 1S pass 1NT pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID pass]
 
 With 13 points and 4 of partner's minor suit you may be tempted to say 2NT or 3\D. Both these temptations should be resisted - your first obligation is to show a 4-card Major if you have one. As poor as the suit is, you still respond 1\S. 
@@ -879,6 +917,8 @@ Click [ROTATE]
 South plays 3NT. West leads the \HQ. 
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winner count: \S 0 : \H 2 : \D 2 : \C 3 : Total = 7
 
@@ -889,6 +929,8 @@ Instead, you allow for the possibility that \Ds may not split evenly and you mak
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 Here the bad thing would be for East to get the lead and play a \S. In this case you were able to avoid the bad situation by playing a suit differently than you might have done if there were no danger.}
 [BCFlags "1f"]
@@ -907,8 +949,6 @@ Here the bad thing would be for East to get the lead and play a \S. In this case
 pass 2C pass 2D pass 2S pass 2NT pass 3S pass 4S pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 2\C]
 
 With 22 points you are too strong to open with a 1-bid.
@@ -920,6 +960,8 @@ No need to jump. If you say anything other than 2NT partner is forced to bid aga
 You bid 2\S and it is partner who says 2NT. What do you bid now?
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Always keep in mind that you don't need to bid the same values twice. Partner knows that you have 22 or more points and knows that you have a good \S suit. So all you do at this point is rebid your \Ss to show that it is a 6-card suit.
 
@@ -941,6 +983,8 @@ Click NEXT to see the full deal. [NEXT]
 
 [RESET]
 
+[show NESW]
+
 You would have played \CA, \C K, then a small \C to dummy's \CJ. East would ruff this with his \SQ and you would never be able to reach dummy's \CJ. You would be down 1, losing 1 \S, 1 \H and 2 \Ds.}
 [BCFlags "1f"]
 [Play "W"]HQ
@@ -958,8 +1002,6 @@ You would have played \CA, \C K, then a small \C to dummy's \CJ. East would ruff
 1C pass 1S pass 2S pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\S]
 
 There are three legitimate choices, 1\D, 1\S or 1NT.
@@ -973,6 +1015,8 @@ Partner has a minimum opener. You pass in a flash.
 South plays 2\S. West leads the \DK.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 3? : \H 1 : \D 2 : \C 0 : Total = 6?
 
@@ -985,6 +1029,8 @@ So win the \DA and lead a \S. West will win and play 3 high \Ds. You ruff the th
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 You were a little lucky that the defender who got the ruff, East, was the one who started with 3 trumps.}
 [BCFlags "1f"]
@@ -1003,8 +1049,6 @@ You were a little lucky that the defender who got the ruff, East, was the one wh
 1D pass 2C pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\D]
 
 You are too strong to open 1NT. With two 4-card minors the correct opening bid is 1\D. Partner responds 2\C.
@@ -1016,6 +1060,8 @@ You now need to make a jump bid. You MIGHT jump to 4\C but that would bypass wha
 South plays 3NT. West leads the \H7 East wins \HA and returns \H9.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winner count: \S 3 : \H 1 : \D 3 : \C 1 : Total = 8
 
@@ -1024,6 +1070,8 @@ You have a LOT of points - but only 8 tricks. And you know that if you lose the 
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 The best thing about this plan is that when you test the \Ds, if it turns out they do not split 3-3 you can still try the \C finesse. }
 [BCFlags "1f"]
@@ -1042,8 +1090,6 @@ The best thing about this plan is that when you test the \Ds, if it turns out th
 1C pass 1S pass 3S pass 4S pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\S]
 
 Well, you're pretty sure you have a \C fit. But before you show partner your fine \C support you have an obligation to show a 4-card Major.
@@ -1055,6 +1101,8 @@ Your hand revalues to 11 or 12 points so you should bid game. 5\C requires 11 tr
 South plays 4\S. West leads the \HK.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 2 : \H 0 : \D 0 : \C 0 : Total = 2
 
@@ -1069,6 +1117,8 @@ So don't take the chance. Abandon trumps and start playing \C winners. Let West 
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 As you see, West would have pulled your and dummy's trumps and then won 3 \H tricks.
 
@@ -1089,8 +1139,6 @@ A slightly different Plan would also have worked. At trick two you could have pl
 1S pass 2C pass 3S pass 4S pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID pass]
 
 Of course you open 1\S. Partner responds 2\C. What do you bid now? [BID 3\S]
@@ -1100,6 +1148,8 @@ With 17 points and a 6-card suit you jump to 3\S. Partner bids the game.
 South plays 4\S. West leads the \HQ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 1 : \H 1 : \D 2 : \C 0 : Total = 4
 
@@ -1108,6 +1158,8 @@ You have plenty of \C winners in dummy but you must be careful because there are
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 East would have used his master \SQ to ruff the second \C, before you had taken any discards. You would still have to lose a \H and two \Ds.}
 [BCFlags "1f"]
@@ -1126,8 +1178,6 @@ East would have used his master \SQ to ruff the second \C, before you had taken 
 1NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID pass]
 
 North's 1NT opening shows a maximum of 17 points. Add your 7 and you come up with only 24 - not enough to think about game. So you pass.
@@ -1141,6 +1191,8 @@ Click [ROTATE]
 South plays 1NT. West leads the \C4. East plays the \CQ, then the \CK , West playing the \C3 on the second trick. East then plays the \C2 which you win with your \CA.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winners: \S 2 : \H 0 : \D 3 : \C 1 : Total = 6
 
@@ -1151,6 +1203,8 @@ So you don't try for a trick in \Ss or \Ds. Instead you play on \Hs, the suit wh
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 If you play your three high \Ds you will set up a winner for THEM and you will go down.
 
@@ -1171,8 +1225,6 @@ Only if you establish your \Hs can you set up a winner for YOU without giving th
 1S pass 1NT pass 3S pass 4S pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\S]
 
 You have an easy choice, you open 1\S.
@@ -1184,6 +1236,8 @@ Partner is showing 6-10 points. With 17 points you are strong enough to invite g
 South plays 4\S. West leads the \CQ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 0 : \H 2 : \D 1 : \C 1 : Total = 4
 
@@ -1192,6 +1246,8 @@ You have no time to waste. You have no way to discard either minor suit loser, s
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 Always draw them - unless you have some other need for them first. Like in this hand.
 
@@ -1212,8 +1268,6 @@ Notice this. You cannot fault West for his opening lead, top of an honor sequenc
 1S pass 2S pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\S]
 
 You open 1\S. Partner responds 2\S. What is your bid? [BID pass]
@@ -1223,6 +1277,8 @@ This was easy. You had a minimum opening bid and partner gave a minimum response
 South plays 2\S. West leads the \HQ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 0 : \H 1 : \D 3 : \C 2 : Total = 6
 
@@ -1235,6 +1291,8 @@ When you get back in you will pull trumps and lead toward dummy's \C K J, hoping
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 The only way to make the contract was to ruff a \H in dummy. }
 [BCFlags "1f"]
@@ -1253,8 +1311,6 @@ The only way to make the contract was to ruff a \H in dummy. }
 pass 1D pass 1H pass 1NT pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\D]
 
 With 14 points you will naturally open the bidding. You should open a 4-card \D suit rather than a 3-card \C suit. Partner responds 1\H. What do you bid now? [BID 1NT]
@@ -1264,6 +1320,8 @@ Partner might have bid a 4-card suit so you cannot support \Hs with only 3. Inst
 South plays 3NT. West leads the \CK.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winners: \S 3 : \H 2 : \D 1 : \C 1 : Total = 7
 
@@ -1275,11 +1333,15 @@ Click NEXT to see the full deal. [NEXT]
 
 [RESET]
 
+[show NESW]
+
 When East won the \DK he would still have had a \C to return to West's hand. You would have lost 4 \C tricks and the \DK.
 
 But what if East DID have another \C when he won the \DK?
 
 Click NEXT to see different East/West hands. [NEXT]
+
+[PLAY E:S4,W:C4]
 
 When East won the \DK  here he had a fourth \C to return to West's hand. That means the \C suit split 4-4 so you would have lost only 3 \C tricks and the \DK.}
 [BCFlags "1f"]
@@ -1298,8 +1360,6 @@ When East won the \DK  here he had a fourth \C to return to West's hand. That me
 1S 2D 3D pass 4S pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\S]
 
 You have an easy 1\S opening bid.
@@ -1317,6 +1377,8 @@ So you bid the \S game.
 South plays 4\S. West leads the \DA, then \DK, then \DJ. East discards on the second \D and ruffs the third one with the \ST.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 0? : \H 1 : \D 2? : \C 0 : Total = 3?
 
@@ -1327,6 +1389,8 @@ But though the loser count is confused your plan should not be. You DO NOT over-
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 But did you notice that West made a bad play? He should have cashed his \HA before he led the third \D for his partner to ruff. Then when his partner ruffed with the \ST your goose would have been cooked. }
 [BCFlags "1f"]
@@ -1345,8 +1409,6 @@ But did you notice that West made a bad play? He should have cashed his \HA befo
 1C pass 1H pass 1S pass 3S pass 4S pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\H]
 
 There is an excellent bidding guideline which tells you how to respond with two 4-card Majors. You bid them "up-the-line". That means you bid 1\H.
@@ -1366,6 +1428,8 @@ Click [ROTATE]
 South plays 4\S. West leads the \D2. East plays \DJ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 1 : \H 0 : \D 2 : \C 2 : Total = 5
 
@@ -1376,6 +1440,8 @@ Win the \DA and play \SA and \SK. If the \Ss split 3-2 you are home-free. Leave 
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 North and South were able to make all their small trumps individually.
 
@@ -1396,8 +1462,6 @@ If East ruffs the fourth \H with his master \SQ South just discards a \D loser a
 pass 1NT pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1NT]
 
 You have 15 points and you have a balanced distribution. You should open 1NT. It is true that you do not have \Cs stopped, but you are not required to have a stopper in all the suits to open 1NT. Partner jumps to 3NT and you pass.
@@ -1405,6 +1469,8 @@ You have 15 points and you have a balanced distribution. You should open 1NT. It
 South plays 3NT. West leads the \HQ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winner count: \S 1 : \H 2 : \D 1 : \C 2 : Total = 6
 
@@ -1417,6 +1483,8 @@ Instead, you play your \C4 to the second trick and also play a low card from dum
 Clickfor the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 But just imagine you had played \CA, \CK, \C2. At that point \C 9 6 5 would all be winners, but don't think East is going to let you reach dummy with either of those two Jacks!}
 [BCFlags "1f"]
@@ -1435,8 +1503,6 @@ But just imagine you had played \CA, \CK, \C2. At that point \C 9 6 5 would all 
 pass 1C pass 3C pass 5C pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\C]
 
 Is there any doubt? Although you only have 11 HCP your 6-card suit adds 2 more. And with 13 points you should always open. So you open 1\C. 
@@ -1450,6 +1516,8 @@ Passing would not be horrible - but when in doubt it is usually better to be bol
 South plays 5\C. West leads the \DQ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 1 : \H 0 : \D 1 : \C 1 : Total = 3
 
@@ -1464,6 +1532,8 @@ Win the \D in your hand and immediately play the \S9. If West doesn't take his \
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 In this hand that something is to establish the \SK so you can discard your \D loser.}
 [BCFlags "1f"]
@@ -1482,8 +1552,6 @@ In this hand that something is to establish the \SK so you can discard your \D l
 pass 1H pass 3H pass 4NT pass 5C pass 5H pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\H]
 
 You have a very good hand. But not good enough to open 2\C, so you open 1\H.
@@ -1495,6 +1563,8 @@ This is close. Partner has 11 or 12 points and good \H support. Your hand revalu
 South plays 5\H. West leads the \ST. You put on dummy's \SJ, East plays the \SK and you win the \SA.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 1 : \H 1 : \D 0 : \C 1 : Total = 3
 
@@ -1505,6 +1575,8 @@ Be careful. If you lead a trump now a defender will take the Ace and play anothe
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 Imagine what the defense will do if you lead a round of trumps. Then imagine what they will do if you play a different suit instead.}
 [BCFlags "1f"]
@@ -1523,8 +1595,6 @@ Imagine what the defense will do if you lead a round of trumps. Then imagine wha
 1D pass 2D pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\D]
 
 With 19 points you are too strong to open 1NT so you open 1\D. Partner responds 2\D. What do you bid? [BID 3NT]
@@ -1534,6 +1604,8 @@ Perhaps you can make 5\D. But 9 tricks are easier than 11  so you bid 3NT. Notic
 South plays 3NT. West leads the \HQ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winners: \S 1 : \H 2 : \D 1 : \C 3 : Total = 7
 
@@ -1546,6 +1618,8 @@ The correct way to play for 2 more tricks is to hope EAST has the \SK and lead t
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 }
 [BCFlags "1f"]
@@ -1564,8 +1638,6 @@ Click NEXT to see the full deal. [NEXT]
 1NT pass 4S pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 4\S]
 
 HE WHO KNOWS, GOESYou KNOW your side has 26-28 points. You KNOW your side has 8 or more \Ss. You GO to 4\S.
@@ -1573,6 +1645,8 @@ HE WHO KNOWS, GOESYou KNOW your side has 26-28 points. You KNOW your side has 8 
 South plays 4\S. West leads the \DJ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 2/3 : \H 0 : \D 1 : \C 0 : Total = 3/4
 
@@ -1584,7 +1658,11 @@ Clickfor the full deal. [NEXT]
 
 [RESET]
 
+[show NESW]
+
 Now click for an alternate possible. [BID ]
+
+[PLAY E:H2,W:S2]
 
 You might think that West is just as likely to have held an original doubleton \S A K as doubleton \S A T, and that playing the \S9 would be as good a play as \SQ.
 
@@ -1605,8 +1683,6 @@ This is untrue for a very classy-named reason - The Principle of Restricted Choi
 1D pass 1S pass 2S pass 4S pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\S]
 
 A jump to 2NT would not be a terrible bid. But it is more important to show your 4-card Major.
@@ -1620,6 +1696,8 @@ It's another case of HE WHO KNOWS, GOES. You know you have at least 26 points an
 South plays 4\S. West leads the \HK. The defense takes the first three \H tricks, then switch to a \C.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S ? : \H 3 : \D 0 : \C 0 : Total = 3?
 
@@ -1634,6 +1712,8 @@ No, you only have one chance to make this contract - West must hold a doubleton 
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 Since you would only have one more honor you'd be bound to lose a trick.}
 [BCFlags "1f"]
@@ -1652,8 +1732,6 @@ Since you would only have one more honor you'd be bound to lose a trick.}
 1NT 2S 2NT pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1NT]
 
 With 17 points and a balanced hand you naturally open 1NT. West overcalls 2\S. Your partner then bids 2NT. What do you bid now? [BID 3NT]
@@ -1663,6 +1741,8 @@ Your partner invited you to bid 3NT if you had 17 points, and you have 17 points
 South plays 3NT. West leads the \SQ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winner count: \S 2 : \H 0 : \D 0 : \C 2 : Total = 4
 
@@ -1675,6 +1755,8 @@ Play \Ds to drive out the \DA. If East has it he will not have another \S to for
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 With the holdup it didn't matter which red suit you established first.}
 [BCFlags "1f"]
@@ -1693,8 +1775,6 @@ With the holdup it didn't matter which red suit you established first.}
 2S pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID pass]
 
 Don't even think twice. Just pass and wonder why the opponents aren't bidding.
@@ -1708,6 +1788,8 @@ Click [ROTATE]
 South plays 2\S. West leads \HA, then \HK.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 1/2 : \H 1 : \D 0 : \C 3 : Total = 5/6
 
@@ -1718,6 +1800,8 @@ So after you ruff the \HK you do NOT play the \SK. Instead you play a \D to dumm
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 It costs nothing to make a careful play. Most of the time it doesn't matter, but every now and again it pays off in a contract that couldn't be made without the careful play. }
 [BCFlags "1f"]
@@ -1736,8 +1820,6 @@ It costs nothing to make a careful play. Most of the time it doesn't matter, but
 3H pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID pass]
 
 You really really want to say 3\S. Here are three good reasons you shouldn't.
@@ -1753,6 +1835,8 @@ Click [ROTATE]
 South plays 3\H. West leads the \SQ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 It turns out there was a fourth reason not to bid 3\S - the opponents might lead the suit.
 
@@ -1763,6 +1847,8 @@ The \S lead is about the best thing that could have happened to you. You win wit
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 }
 [BCFlags "1f"]
@@ -1781,8 +1867,6 @@ Click NEXT to see the full deal. [NEXT]
 1D pass 2NT pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 2NT]
 
 You have three reasonable choices. You could bid 2\C, you could jump to 3\D, or you could jump to 2NT. 
@@ -1792,6 +1876,8 @@ While all are reasonable, the jump to 2NT stands out as the most constructive by
 South plays 3NT. West leads the \HJ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winner count: \S 1 : \H 3 : \D 0 : \C 3 : Total = 7
 
@@ -1802,6 +1888,8 @@ Rather than chance the \S finesse, you should immediately start establishing you
 Clickfor the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 East would have won and played a \H, removing your second stopper. When \Cs did not split 3-3 you would have been forced to try a \D. East would win his \DK and drive out the last \H stopper. Then West would be able to take the \DA plus his established \Hs. }
 [BCFlags "1f"]
@@ -1820,8 +1908,6 @@ East would have won and played a \H, removing your second stopper. When \Cs did 
 1H pass 2H pass 4H pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\H]
 
 With 19 points and a 5-card \H suit you open 1\H.
@@ -1833,6 +1919,8 @@ Partner's bid shows 6-10 points. If he has 6 it might be close, but otherwise yo
 South plays 4\H. West leads the \SQ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 2 : \H 0 : \D 1 : \C 2 : Total = 5
 
@@ -1841,6 +1929,8 @@ The three minor suit losers cannot be avoided, but the two \S losers can be ruff
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 }
 [BCFlags "1f"]
@@ -1859,8 +1949,6 @@ Click NEXT to see the full deal. [NEXT]
 1NT pass 2C pass 2D pass 2H pass 3H pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 2\C]
 
 Because you have an invitational hand with a 4-card Major (\Ss) you use Stayman.
@@ -1878,6 +1966,8 @@ This could go either way. You started out with 9 points, but perhaps you could r
 South plays 3\H. West leads the \CJ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 2 : \H 2 : \D 1 : \C 1 : Total = 6
 
@@ -1888,6 +1978,8 @@ Start by covering the \CJ to set up a sure \C trick. East wins the \CA and retur
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 }
 [BCFlags "1f"]
@@ -1906,8 +1998,6 @@ Click NEXT to see the full deal. [NEXT]
 pass 1D pass 1H pass 2NT pass 3D pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\D]
 
 You have 19 points, too much for 1NT. With two 4-card minors you should open 1\D, regardless of strength. Partner responds 1\H. What do you bid next? [BID 2NT]
@@ -1925,6 +2015,8 @@ While any of those choices might turn out best, the fact that most of your stren
 South plays 3NT. West leads the \S5. East plays the \S9.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winner count: \S 2 : \H 0 : \D 2 : \C 4? : Total = 8?
 
@@ -1937,6 +2029,8 @@ You are now at the crossroads. For your ninth trick should you try the \D finess
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 East would win and play a \S, and whether you ducked this one or not your last stopper would soon be removed. When \Ds failed to split 3-2 you would have been forced to try a \H. West would win his \HA and set you with \Ss.
 
@@ -1957,8 +2051,6 @@ Correctly played you would lead a \H honor to establish one trick in the suit an
 1S pass 1NT pass 3S pass 4S pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\S]
 
 An easy one. You bid 1\S. Partner responds 1NT.
@@ -1970,6 +2062,8 @@ You're going to rebid your 6-card \S suit, but how high? The usual guideline is 
 South plays 4\S. West leads the \HQ, East playing \H9.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 0 : \H 1 : \D 1 : \C 2 : Total = 4
 
@@ -1978,6 +2072,8 @@ You must eliminate one loser and the easiest one will be the \H which you can ru
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 }
 [BCFlags "1f"]
@@ -1996,8 +2092,6 @@ Click NEXT to see the full deal. [NEXT]
 1D dbl pass 2D pass 2H pass 2S pass 4S pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 2\D]
 
 When responding to a takeout double use these guidelines:0-8 points: bid a suit cheaply9-11 points: bid a suit with a jump12 or more points: cue-bid the opponent's suit
@@ -2011,6 +2105,8 @@ You are forced to game, now you must find a suit. Partner suggested \Hs, you sug
 South plays 4\S. West leads \DA, \DK, \DQ. East plays \D8 then \D2.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 0 : \H 0 : \D 3 : \C 1 : Total = 4
 
@@ -2019,6 +2115,8 @@ If you could ruff that \D then one of your \D losers would be eliminated - if Ea
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 }
 [BCFlags "1f"]
@@ -2037,8 +2135,6 @@ Click NEXT to see the full deal. [NEXT]
 pass 1D pass 2C pass 2NT pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\D]
 
 You have 13 points so you will definitely open the bidding. You don't open with a 4-card Major and you don't open with a 2-card \C suit. So this is the one distribution where you open a 3-card \D suit. Partner responds 2\C and it is your bid. [BID 2NT]
@@ -2048,6 +2144,8 @@ Be very careful! You are tempted to now bid 2\H or 2\S. Don't give in to the tem
 South plays 3NT. West leads the \H2, East wins the \HA and returns the \H5. West takes the \HK and plays the \H7.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 West leads the \H2, East wins the \HA and returns the \H5. West takes the \HK and plays the \H7.
 
@@ -2062,6 +2160,8 @@ And if East doesn't have the \CQ at all? then you STILL have the possibility of 
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 }
 [BCFlags "1f"]
@@ -2080,8 +2180,6 @@ Click NEXT to see the full deal. [NEXT]
 pass pass pass 1S 2H 4S pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\S]
 
 You open 1\S. West overcalls 2\H and partner bids 4\S.
@@ -2089,6 +2187,8 @@ You open 1\S. West overcalls 2\H and partner bids 4\S.
 South plays 4\S. West leads \HA, \HK, \HQ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 1 : \H 2 : \D 1 : \C 0 : Total = 4
 
@@ -2099,6 +2199,8 @@ Ruff the \H. Play the \D8 to dummy's \DT. If East takes the \DA win his return a
 Clickfor the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 }
 [BCFlags "1f"]
@@ -2117,8 +2219,6 @@ Clickfor the full deal. [NEXT]
 1H pass 2H pass 3C pass 4H pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\H]
 
 Your first bid is easy, you say 1\H. But what do you say after partner's 2\H response? [BID 3\C]
@@ -2132,6 +2232,8 @@ But there is an improvement. Bid 3\C instead. Partner knows you aren't showing h
 South plays 4\H. West leads the \SK.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 1 : \H 0 : \D 1 : \C 2 : Total = 4
 
@@ -2142,6 +2244,8 @@ Lead the \ST. West must win with his \SJ. Let's say he plays a \C. Win with dumm
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 You cannot make T tricks unless West's opening lead is a \S. }
 [BCFlags "1f"]
@@ -2160,8 +2264,6 @@ You cannot make T tricks unless West's opening lead is a \S. }
 1D pass 1S pass 2S pass 3C pass 3D pass 4NT pass 5H pass 6S pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\S]
 
 You don't quite have the strength for a jump-shift, and in any case sometimes it is better to proceed slowly. So you respond 1\S, knowing partner must bid again. 
@@ -2189,6 +2291,8 @@ So you bid the small slam.
 South plays 6\S. West leads the \HQ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 0 : \H 1 : \D 0 : \C 1 : Total = 2
 
@@ -2199,6 +2303,8 @@ You pull trumps in one round with your \SK. Play \D A K, then ruff a \D. if both
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 In this hand you could not be defeated unless the \Ds split 5-1.}
 [BCFlags "1f"]
@@ -2217,8 +2323,6 @@ In this hand you could not be defeated unless the \Ds split 5-1.}
 2H pass 4H pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 4\H]
 
 Wow! Partner opens with a 2-bid and you have all of this?
@@ -2234,6 +2338,8 @@ Click [ROTATE]
 South plays 4\H. West leads the \SQ. 
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 0 : \H 0 : \D 1 : \C 3 : Total = 4
 
@@ -2246,6 +2352,8 @@ Instead you could give up on the idea of leading toward the \CK and just lead a 
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 You can also see that leading a \H back to your hand at trick 2 is a bad idea.
 
@@ -2266,8 +2374,6 @@ But did you see there is another way to reach your hand? You could play \SA then
 1S pass 2S pass 3D pass 3S pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 2\S]
 
 With 6 points you must respond. And with 3 \Ss you can support partner's suit.
@@ -2287,6 +2393,8 @@ Click [ROTATE]
 South plays 3\S. West leads the \DK. 
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 1 : \H 2 : \D 1 : \C 1 : Total = 5
 
@@ -2297,6 +2405,8 @@ Win the \DA and play \HA, \HK, \H2. The defenders will win this. If your \H3 hap
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 In that case you must be sure to ruff the fourth \H with the \SQ or the \S9. If East wants to over-ruff it will be with the \SA which you must lose anyway.
 
@@ -2317,8 +2427,6 @@ Look at what would have happened if you had led a trump at trick 2. East could h
 1C pass 1D pass 1NT pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\C]
 
 When you are dealt 13 points and only one biddable suit things are simple. After you open 1\C partner responds 1\D. What now? [BID 1NT]
@@ -2328,6 +2436,8 @@ You can't support responder's suit with only 3 cards so you show your minimum by
 South plays 3NT. West leads \S6. East plays \SK.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winners: \S 1 : \H 2 : \D 1 : \C 2 : Total = 6
 
@@ -2340,6 +2450,8 @@ Now you take the \D finesse, losing to East's \DK (as expected). But it doesn't 
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 If you did not have the \SJ you would never consider doing anything except hold up. But with it you start wondering if you can get a trick with it. Of course, as you see, the hold-up would be correct with \S A 3 2, and it is also correct with \S A J 2.}
 [BCFlags "1f"]
@@ -2358,8 +2470,6 @@ If you did not have the \SJ you would never consider doing anything except hold 
 1H pass 2H pass 4H pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\H]
 
 With 20 points and 5-3-3-2 distribution you could correctly open 2NT.
@@ -2373,6 +2483,8 @@ Partner promised 6-10 points. With your 19 you decide to bid game.
 South plays 4\H. West leads the \DQ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 2 : \H 1 : \D 1 : \C 1 : Total = 5
 
@@ -2385,6 +2497,8 @@ Here is a better idea. Win the first trick in your hand with the \DA, and immedi
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 But there are many situations when that is NOT the best plan. Perhaps because you need to ruff something in dummy, or perhaps (like this hand) because playing trumps would give the timing to the defense. 
 
@@ -2405,8 +2519,6 @@ In this deal pulling trumps is secondary to finding a place for that slow \D los
 1H pass 4H pass pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\H]
 
 You open 1\H and partner jumps to 4\H. You pass.
@@ -2414,6 +2526,8 @@ You open 1\H and partner jumps to 4\H. You pass.
 South plays 4\H. West leads the \CQ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 2 : \H 0 : \D 2 : \C 1 : Total = 5
 
@@ -2424,6 +2538,8 @@ North's precipitous leap to 4\H was made partly in hopes of making the contract,
 Or, if West holds the \SQ and East the \SA then leading up to the \SJ would also eliminate one \S loser. But this play has another advantage - if West should happen to hold BOTH the \SA and \SQ then leading up to the \SJ will actually let you make the contract. So you win the \CA, pull two trumps, then play a \S to the \SJ. If that wins, back to your hand with a trump and play your other \S to the \SK.
 
 Click NEXT to see a miracle. [NEXT]
+
+[show NESW]
 
 But you should still ask yourself if there is some distribution that will allow you to be successful. And if there is, just assume that distribution and boldly play the cards out.}
 [BCFlags "1f"]
@@ -2442,8 +2558,6 @@ But you should still ask yourself if there is some distribution that will allow 
 1NT pass 2C pass 2D pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1NT]
 
 Balanced, 17 points. You open 1NT. Partner's response is 2\C. What do you bid? [BID 2\D]
@@ -2453,6 +2567,8 @@ Partner's 2\C is Stayman. You have no 4-card Major to show so you bid 2\D. Partn
 South plays 3NT. West leads \SQ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winners: \S 2 : \H 0 : \D 4 : \C 2 : Total = 8
 
@@ -2465,6 +2581,8 @@ Win the first trick with the \SA. (DO NOT HOLD UP, WEST MAY SWITCH). Play the \C
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 Be on the lookout for this type of situation because many times you have a finesse that can be made either way. So you finesse into the Safe hand.}
 [BCFlags "1f"]
@@ -2483,8 +2601,6 @@ Be on the lookout for this type of situation because many times you have a fines
 3H 3S 4H pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 3\H]
 
 You estimate your hand has 6 playing tricks. That is reasonable for a preemptive 3\H bid. West overcalls 3\S and partner bids 4\H. Everybody passes.
@@ -2492,6 +2608,8 @@ You estimate your hand has 6 playing tricks. That is reasonable for a preemptive
 South plays 4\H. West leads the \SK.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 1 : \H 1 : \D 0 : \C 1 : Total = 3
 
@@ -2504,6 +2622,8 @@ Lead your \HQ and finesse, East winning the \HK. East will probably return a \D 
 Clickfor the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 To make sure the \SA didn't disappear you had to hold it until East no longer had a trump. }
 [BCFlags "1f"]
@@ -2522,8 +2642,6 @@ To make sure the \SA didn't disappear you had to hold it until East no longer ha
 2C pass 2NT pass 4C pass 4D pass 6NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 2NT]
 
 With 9 points opposite an opening 2\C bid you are too strong for a negative response.
@@ -2539,6 +2657,8 @@ You have no Aces so you respond 4\D. Partner bids 6NT.
 South to play 6NT. West leads the \SJ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winners: \S 3 : \H 2 : \D 3 : \C 0 : Total = 8
 
@@ -2549,6 +2669,8 @@ But there is something you MUST do first - test the \Ds. You win the \SA and pla
 Clickfor the full Deal - and an auxiliary plan. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 You must abandon \Cs temporarily and take the \D finesse. You take your good \Ds and then go back to \Cs. }
 [BCFlags "1f"]
@@ -2567,8 +2689,6 @@ You must abandon \Cs temporarily and take the \D finesse. You take your good \Ds
 1NT pass 6NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 6NT]
 
 Partner has a balanced hand with 15-17 points. You have a balanced hand with 18 points. Together that makes two balanced hands with 33-35 points.
@@ -2584,6 +2704,8 @@ Click [ROTATE]
 South plays 6NT. West leads the \SJ. 
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winners: \S 3 : \H 2 : \D 2 : \C 4 : Total = 11
 
@@ -2596,6 +2718,8 @@ Win the first trick in either hand and duck a \H. Win the return and play your 4
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 Here the \D finesse was one possibility, but by ducking a \H you could test the \H suit and still keep the \D finesse in reserve.  }
 [BCFlags "1f"]
@@ -2614,8 +2738,6 @@ Here the \D finesse was one possibility, but by ducking a \H you could test the 
 1S pass 2H pass 2S pass 3S pass 4S pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\S]
 
 You open 1\S and partner responds 2\H.
@@ -2631,6 +2753,8 @@ Your bids show 13-15 points. Partner has decided to invite you to bid game with 
 South plays 4\S. West leads the \DK.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 0 : \H 2 : \D 2 : \C 0 : Total = 4
 
@@ -2640,6 +2764,8 @@ Win the \DA and play the \C6 to your \CA. Play \SA, then a small \S to dummy's \
 
 [show NESW]
 Click NEXT to see all four hands. [NEXT]
+
+[show NESW]
 
 But in this deal the ruffing finesse is the only Plan that works. }
 [BCFlags "1f"]
@@ -2658,8 +2784,6 @@ But in this deal the ruffing finesse is the only Plan that works. }
 2C pass 2D pass 2NT pass 3C pass 3H pass 4H pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 2\C]
 
 You certainly have a Notrump type hand, but you are too strong to open 2NT.
@@ -2681,6 +2805,8 @@ So you bid your 4-card \H suit and partner bids the game.
 South plays 4\H. West leads the \C2. The defense takes three \C tricks, then plays a small \D.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 The defense takes three \C tricks, then plays a small \D.
 
@@ -2695,6 +2821,8 @@ You only have one dummy entry so once you use it you must remain in dummy until 
 Enter dummy with the \SK. Lead the \H9 and let it ride. Assuming it wins, lead the \HJ and play your \HT under it. Now lead a small \H and finesse the \HQ. This way you get all four \H tricks. No other way will work.
 
 Click NEXT to see why. [NEXT]
+
+[show NESW]
 
 VISUALIZE:
 
@@ -2717,8 +2845,6 @@ VISUALIZE:
 1C pass 2NT pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 2NT]
 
 With 13 points and good 4-card support you are strong enough to jump to 3\C.
@@ -2730,6 +2856,8 @@ Looking at all those Kings should sway you to 2NT. You prefer to be declarer on 
 South plays 3NT. West leads \H7, East plays \HT and you win \HJ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winners: \S 2 : \H 1 : \D 2 : \C 2 : Total = 7
 
@@ -2740,6 +2868,8 @@ So East is the Danger hand and he must be kept out of the lead. At trick two cro
 Clickfor the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 That old guideline says you should finesse for a missing Queen when you and partner have eight cards in the suit, but play for the drop when you have nine.
 
@@ -2760,8 +2890,6 @@ All else being equal, it's a good guideline. But sometimes all else ISN'T equal,
 1D pass 1H pass 3D pass 4D pass 5D pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\D]
 
 You open 1\D and partner responds 1\H.
@@ -2777,6 +2905,8 @@ Your jump showed 16 - 18 points and partner invited you based on that range. He 
 South plays 5\D. West leads the \CJ and East plays the \CK.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 1 : \H 1 : \D 0 : \C 1 : Total = 3
 
@@ -2789,6 +2919,8 @@ First test the \Ds by playing the \DK. West shows out and there goes your hope o
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 If you ruffed the third \C with the \DA East would win a trump trick.
 
@@ -2809,8 +2941,6 @@ So you couldn't ruff the third \C at all, you had to discard it on something. An
 2C pass 2D pass 2S pass 3S pass 4NT pass 5D pass 6S pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 2\C]
 
 This is definitely a 2\C opening bid.
@@ -2830,6 +2960,8 @@ Partner's 3\S bid is forward-going. With a complete bust he would have said 3\C 
 South plays 6\S. West leads the \CJ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 0 : \H 1 : \D 0 : \C 1 : Total = 2
 
@@ -2840,6 +2972,8 @@ The logical way to remove that \C loser is to ruff it in dummy. But do it carefu
 First take two rounds of trumps with the \SA and \SK. Then play two top \Cs. Only then do you ruff the \C4.
 
 Clickfor proof that this elaborate Plan was the best. [NEXT]
+
+[show NESW]
 
 It made no difference in tricks whether you ruffed the third or fourth \C so that made it right to ruff the third one.}
 [BCFlags "1f"]
@@ -2858,8 +2992,6 @@ It made no difference in tricks whether you ruffed the third or fourth \C so tha
 2NT pass 3C pass 3S pass 4S pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 3\C]
 
 Partner has 20-21 points, so with your 6 you belong in game. But which game?
@@ -2879,6 +3011,8 @@ Click [ROTATE]
 South plays 4\S. West leads \DA, \DK, \D4. East wins the third trick with \DQ and plays a \H.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 0 : \H 0 : \D 3 : \C 1 : Total = 4
 
@@ -2891,6 +3025,8 @@ Play the \SA, then lead the \S8 to dummy's \SQ. Notice that you must save your \
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 The first part is realizing that you need to have three entries to dummy.
 
@@ -2911,8 +3047,6 @@ The second part is figuring out that the \S suit could provide them.}
 1C pass 1H pass 2H pass 4H pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\H]
 
 Don't even think of jumping to 2\H. That would show 17+ points. Instead you just bid 1\H, knowing partner is forced to bid again.
@@ -2924,6 +3058,8 @@ Partner's rebid promises a minimum opening bid (13-15) and four \Hs. That makes 
 South plays 4\H. West leads the \S2, East playing the \SQ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 1 : \H 0 : \D 2 : \C 1 : Total = 4
 
@@ -2936,6 +3072,8 @@ West is the Danger Hand. You want to keep him off the lead. His only possible en
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 For this deal the hold-up serves a different purpose. It keeps one defender from ever gaining the lead.
 
@@ -2958,8 +3096,6 @@ Notice that the Danger Hand WAS on lead at one point - the opening lead. If West
 2H pass 2NT pass 3D pass 6NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 2NT]
 
 You were probably stunned when you picked up this hand and even more stunned when partner bid.
@@ -2979,6 +3115,8 @@ With your hand you don't need anything else to make a slam. You have to decide b
 South plays 6NT. West leads the \SQ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winners: \S 2 : \H 6? : \D 0 : \C 1 : Total = 9
 
@@ -2991,6 +3129,8 @@ Win the \SA. Play \HA and \HJ. West shows out on the second one. Lead your \D2 t
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 But when you can make a plan that caters for the possibility you should certainly do so.
 
@@ -3011,8 +3151,6 @@ In this case dummy had a certain entry in the \D suit so you take advantage of t
 1H 2D 2H 2S pass pass 3H pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 2\H]
 
 With 11 points you would probably have bid 3\H, a limit raise, if East hadn't overcalled.
@@ -3034,6 +3172,8 @@ Click [ROTATE]
 South plays 3\H. West leads \DA, \DK, \DJ. East plays first the \DT, then \D2. 
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 2 : \H 1 : \D 3 : \C 0 : Total = 6
 
@@ -3046,6 +3186,8 @@ So don't ruff at all. Discard a \S. Now you can ruff your other \S loser in dumm
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 Often, like in this deal, you can discard a loser instead.}
 [BCFlags "1f"]
@@ -3064,8 +3206,6 @@ Often, like in this deal, you can discard a loser instead.}
 2C pass 3C pass 4NT pass 5D pass 5NT pass 6D pass 6NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 3\C]
 
 With 9 points you have enough strength to make a positive response. And with a good 5-card suit you respond 3\C.
@@ -3089,6 +3229,8 @@ Click [ROTATE]
 South plays 6NT. West leads the \DT.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winner count: \S 1 : \H 1 : \D 4 : \C 5 : Total = 11
 
@@ -3101,6 +3243,8 @@ So win the opening lead with dummy's \DK. Play the \H5, finessing your \HT. West
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 The choice between a single finesse and a double finesse is one that you will face many times. So remember that the double finesse works 75% of the time.}
 [BCFlags "1f"]
@@ -3119,8 +3263,6 @@ The choice between a single finesse and a double finesse is one that you will fa
 1C pass 5C pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 5\C]
 
 This is NOT a simple choice.
@@ -3138,6 +3280,8 @@ Click [ROTATE]
 South plays 5\C. West leads \DA, then \D2.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 2 : \H 1 : \D 1 : \C 0 : Total = 4
 
@@ -3150,6 +3294,8 @@ If it turns out West has the \SA then your \S play didn't work. In that case you
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 With correct play you succeed when East holds the \SA, but also if he holds the \HK.
 
@@ -3170,8 +3316,6 @@ The key play was dumping the \S on your \DK rather than a \H.}
 1H pass 2H pass 3D pass 4H pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\H]
 
 You have a straightforward 1\H opening bid.
@@ -3189,6 +3333,8 @@ That was just what North needed. He only had 7 points but decided the \D help wa
 South plays 4\H. West leads the \CA, \CK, \CQ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 0 : \H 0 : \D 2 : \C 2 : Total = 4
 
@@ -3199,6 +3345,8 @@ So first you must drive out the \DA. After you ruff the \C you play a \D to dumm
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 And you couldn't get the \D ruff until after you had forced out the \DA.}
 [BCFlags "1f"]
@@ -3217,8 +3365,6 @@ And you couldn't get the \D ruff until after you had forced out the \DA.}
 1H dbl pass 2S pass 4S pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 2\S]
 
 When responding to partner's Takeout Double:- with 0-8 points you bid cheaply- with 9-11 points you jump in a suit- with 12 or more points you cue-bid their suit
@@ -3228,6 +3374,8 @@ You have 11 so you jump to 2\S. Partner bids 4\S and you pass.
 South plays 4\S. West leads the \HK.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 1 : \H 3? : \D 0 : \C 1 : Total = 5?
 
@@ -3240,6 +3388,8 @@ Thinking like this makes it clear that you must win 3 of your 4 small trumps. Th
 Clickfor the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 If you tried that East would have won his \SQ, then played another \S. That would leave both you and dummy with only one trump each and you would have come up a trick short. You can afford to pull just two rounds of trumps, then must cross-ruff with your remaining four.}
 [BCFlags "1f"]
@@ -3258,8 +3408,6 @@ If you tried that East would have won his \SQ, then played another \S. That woul
 1H pass 3H pass 4H pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\H]
 
 You open 1\H, partner responds 3\H.
@@ -3273,6 +3421,8 @@ With your 14 points you decide to bid the game.
 South plays 4\H. West leads the \C4, East plays the \CK.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 3 : \H 0 : \D 2 : \C 1 : Total = 6
 
@@ -3283,6 +3433,8 @@ So you win the first trick with the \CA and immediately take your first \D fines
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 Any other plan that was based on West holding the \DK would work ALMOST 50% of the time but would fail when West had three protectors for the \DK.}
 [BCFlags "1f"]
@@ -3301,8 +3453,6 @@ Any other plan that was based on West holding the \DK would work ALMOST 50% of t
 1H pass 3H pass 4H pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 3\H]
 
 You have 11 (perhaps 12) points and four trumps. Just right for a limit raise.
@@ -3318,6 +3468,8 @@ Click [ROTATE]
 South plays 4\H. West leads the \SQ. 
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 1 : \H 1 : \D 1 : \C 1 : Total = 4
 
@@ -3330,6 +3482,8 @@ What happened is that you gave the defense a tempo and let them control the timi
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 Set up the \D winner before you take the \H finesse and you will always be able to dump the \S loser no matter who has the \HK.}
 [BCFlags "1f"]
@@ -3348,8 +3502,6 @@ Set up the \D winner before you take the \H finesse and you will always be able 
 1NT pass 2C pass 2S pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1NT]
 
 With 15 points and a balanced hand of course you open 1NT.
@@ -3363,6 +3515,8 @@ You bid 2\S, but that must not have been the Major he wanted so he bids 3NT.
 South plays 3NT. West leads the \D2. East plays \DQ. You hold up on this trick and East returns the \D3.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 You hold up on this trick and East returns the \D3.
 
@@ -3379,6 +3533,8 @@ If you pay attention to the opening lead this becomes a simple decision. West le
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 West's lead of the \D2 should have made you pretty sure that he had led from a 4-card suit. If the \D2 is fourth down, there cannot be a fifth down. Additionally, East's return of the \D3 confirmed that conclusion. If East had started with only 3 \Ds, (say \D Q 6 3) his correct return at trick 2 would have been his next highest, the \D6. With 4 cards in the suit his correct return is his original fourth down.}
 [BCFlags "1f"]
@@ -3397,8 +3553,6 @@ West's lead of the \D2 should have made you pretty sure that he had led from a 4
 1S pass 2S dbl 4S pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\S]
 
 You have a good hand, a very good hand. But not good enough to open 2\C.
@@ -3414,6 +3568,8 @@ But why bother? East would just bid 3\H or 3\D and then you would bid 4\S. So sa
 South plays 4\S. West leads the \DJ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 0 : \H 1 : \D 1 : \C 2 : Total = 4
 
@@ -3426,6 +3582,8 @@ So you take the \DA, pull trumps and then . . . . and then you apologize to your
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 If you decided to play for trumps to split 2-2 so you could use the \S8 as an entry back to dummy for the \C finesse then you need to start thinking more clearly!}
 [BCFlags "1f"]
@@ -3444,8 +3602,6 @@ If you decided to play for trumps to split 2-2 so you could use the \S8 as an en
 1S pass 2S pass 3H pass 4S pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\S]
 
 You open 1\S and partner responds 2\S.
@@ -3459,6 +3615,8 @@ Partner has magnificent help in the \H suit so he bids 4\S.
 South to play 4\S. West leads the \CQ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 1 : \H 0 : \D 2 : \C 1 : Total = 4
 
@@ -3469,6 +3627,8 @@ So ask yourself: "How is East going to get the lead?" The only trick he could wi
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 Then think about how to keep East from getting the lead - in this case holding up on the first trick.}
 [BCFlags "1f"]
@@ -3487,8 +3647,6 @@ Then think about how to keep East from getting the lead - in this case holding u
 1S pass 3S pass 4S pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 3\S]
 
 With four trumps and 11-12 points you have a pretty standard limit raise.
@@ -3504,6 +3662,8 @@ Click [ROTATE]
 South plays 4\S. West leads the \HQ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 1 : \H 1 : \D 1 : \C 1 : Total = 4
 
@@ -3518,6 +3678,8 @@ Win the first trick with dummy's \HK and play \DJ. Continue \Ds until they take 
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 A very important part of this Plan was where you chose to win the first trick. Since entries are a problem with either hand you had to save the high \H as entry to the hand that would have the eventual winner. }
 [BCFlags "1f"]
@@ -3536,8 +3698,6 @@ A very important part of this Plan was where you chose to win the first trick. S
 1C pass 1H pass 3H pass 4H pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\H]
 
 You certainly want to show a Major suit so you respond 1\H.
@@ -3551,6 +3711,8 @@ Partner is inviting you to game if you are in the top of that range. With 9 poin
 South plays 4\H. West leads the \CQ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 1 : \H 0 : \D 1 : \C 2 : Total = 4
 
@@ -3561,6 +3723,8 @@ Win the first trick with your \CA. Immediately play a \D, putting up dummy's \DQ
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 This wasn't a guaranteed Plan like some. If East held the \DA then you would go down.}
 [BCFlags "1f"]
@@ -3579,8 +3743,6 @@ This wasn't a guaranteed Plan like some. If East held the \DA then you would go 
 pass 1NT pass 2NT pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1NT]
 
 With a balanced hand and 16 points you open 1NT. In the Bridge dictionary under "Opening 1NT Bid" they probably have a picture of this hand. Partner responds 2NT. What do you bid? [BID 3NT]
@@ -3590,6 +3752,8 @@ Partner's 2NT bid is invitational. Specifically it tells you to pass with 15 poi
 South plays 3NT. West leads the \S6, East plays \S2.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winner count: \S 2 : \H 2 : \D 0 : \C 1 : Total = 5
 
@@ -3603,9 +3767,11 @@ Click NEXT to see the full deal. [NEXT]
 
 [RESET]
 
+[show NESW]
+
 Click NEXT to see the effect of your play to the first trick. [NEXT]
 
-[PLAY N:S5,N:H4,N:DQ,N:DT,N:D3,S:S8,S:HK,S:DJ,S:D8,S:D7]
+[PLAY N:S5,N:H4,N:DQ,N:DT,N:D3,E:S2,E:H3,E:DA,E:D9,E:D2,S:S8,S:HK,S:DJ,S:D8,S:D7,W:S6,W:H5,W:H2,W:D5,W:D4]
 
 Notice that no matter what you try West can prevent you from reaching dummy.
 
@@ -3630,8 +3796,6 @@ Notice that West cannot prevent you from reaching dummy with the \S Q J.}
 1D 1H 1S 2H 2S 4H pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\H]
 
 You surely want to compete and must choose between a Takeout Double and an overcall.
@@ -3647,6 +3811,8 @@ The truth is that you don't know if you can make game or not. If you are feeling
 South plays 4\H. West leads the \SA then the \S8.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 1 : \H 0 : \D 2 : \C 2 : Total = 5
 
@@ -3657,6 +3823,8 @@ Be very careful. Ruff the second \S with the \H8 saving your \H5. Pull one round
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 If you hadn't been able to find that extra entry you would have had no choice but to play East for the doubleton \C K x.}
 [BCFlags "1f"]
@@ -3675,8 +3843,6 @@ If you hadn't been able to find that extra entry you would have had no choice bu
 1S pass 2S pass 4S pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\S]
 
 Make a choice. With 20 points you are strong enough to open 2NT. But, with two doubletons you can't really call this a balanced hand. So you should open 1\S.
@@ -3688,6 +3854,8 @@ There should be no doubt about this bid. Partner has at least 6 points so you kn
 South plays 4\S. West leads \HA, \HK, \H3 and East follows to all three.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 0 : \H 2 : \D 2 : \C 1 : Total = 5
 
@@ -3700,6 +3868,8 @@ So discard the \D. Pull trumps with \S A J (it takes two rounds) then play \DA a
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 The percentages are right but the logic is wrong. If you are going to benefit from a 3-2 \D split it is only necessary for you to keep 4 \Ds in one of the hands, not both. So the fourth \D in your hand was unimportant while the \CQ gave you an extra shot.}
 [BCFlags "1f"]
@@ -3718,8 +3888,6 @@ The percentages are right but the logic is wrong. If you are going to benefit fr
 1H pass 2D pass 2H pass 4H pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\H]
 
 You have an easy 1\H opening bid.
@@ -3737,6 +3905,8 @@ After all that worrying partner bids 4\H and you pass.
 South plays 4\H. West leads the \SQ and the defense plays three high \Ss.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 2 : \H 0/1 : \D 0 : \C 1 : Total = 3/4
 
@@ -3751,6 +3921,8 @@ Don't change plans, the old one was doing fine. Pull one more trump with the \HQ
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 This deal is a good example of that principle.}
 [BCFlags "1f"]
@@ -3769,8 +3941,6 @@ This deal is a good example of that principle.}
 1S pass 1NT pass 3S pass 4S pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1NT]
 
 With 10 points you aren't strong enough to respond at the 2-level, particularly with that weak \D suit.
@@ -3794,6 +3964,8 @@ Click [ROTATE]
 South plays 4\S. West leads the \HK.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 0 : \H 2 : \D 1 : \C 1 : Total = 4
 
@@ -3804,6 +3976,8 @@ Win the \HA. Play a \C to the \CK, then another \C. A defender will probably win
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 If the opening lead had been a \D you would first take the \DA, then pull trumps, then establish a \C to discard a \H loser, using the \HA as an entry.
 
@@ -3826,8 +4000,6 @@ The same general plan, but with slightly different details, applies with all ope
 2D pass 2NT pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 2\D]
 
 With 11 points and a beautiful 6-card suit this is the perfect hand for a Weak-2 opener. So you open 2\D. Partner responds 2NT. [BID 3NT]
@@ -3843,6 +4015,8 @@ Click [ROTATE]
 South plays 3NT. West leads \SJ. East plays \SK.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winner count: \S 2 : \H 1 : \D 3 : \C 1 : Total = 7
 
@@ -3864,6 +4038,8 @@ Click NEXT to see the full deal. [NEXT]
 
 [RESET]
 
+[show NESW]
+
 When the \Ds turned out to be 5-0 you had to get lucky. Your back-up Plan wasn't likely to work - it required the missing \C honors to be split, but also required a 3-3 \C split, not a likely outcome.
 
 But there was no other choice so you have to try it. }
@@ -3883,8 +4059,6 @@ But there was no other choice so you have to try it. }
 1H 1S pass pass 3H pass 4H pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\H]
 
 You open 1\H, West overcalls 1\S and partner passes.
@@ -3896,6 +4070,8 @@ You shouldn't let West steal from you so you will bid your \Hs again. You must d
 South plays 4\H. West leads the \SQ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 2 : \H 1 : \D 2 : \C 0 : Total = 5
 
@@ -3906,6 +4082,8 @@ You will lose two \Ds and the \HQ but no more.
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 The problem is that East would have over-ruffed the \H9 and then played another \H and you would not have gotten to ruff either \S,}
 [BCFlags "1f"]
@@ -3924,8 +4102,6 @@ The problem is that East would have over-ruffed the \H9 and then played another 
 1H pass 1S pass 3H pass 4H pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\S]
 
 You respond 1\S, your 5-card Major. Partner jumps to 3\H.
@@ -3943,6 +4119,8 @@ Click [ROTATE]
 South plays 4\H. West leads the \CK.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 0 : \H 0 : \D 2 : \C 2 : Total = 4
 
@@ -3955,6 +4133,8 @@ Win the first trick with the \CA and play the \DJ, letting it ride if East doesn
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 This will happen about 75% of the time, so the double finesse is a good Plan. And on this Deal it was the only plan available.}
 [BCFlags "1f"]
@@ -3973,8 +4153,6 @@ This will happen about 75% of the time, so the double finesse is a good Plan. An
 1H pass 1S pass 3H pass 4H pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\S]
 
 You respond with your 5-card Major, 1\S.
@@ -3996,6 +4174,8 @@ Click [ROTATE]
 South plays 4\H. West leads \CA, \CK, \C4. East plays \C8 then \C2.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 0 : \H 0 : \D 1 : \C 3 : Total = 4
 
@@ -4006,6 +4186,8 @@ But you know that plan won't work because East IS going to ruff this \C if you d
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 So you won that trick and still had your \CQ to use after you pulled trumps.}
 [BCFlags "1f"]
@@ -4024,8 +4206,6 @@ So you won that trick and still had your \CQ to use after you pulled trumps.}
 3H pass 4H pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 4\H]
 
 Responding to preempts is easy. You don't count points, you just count tricks. Assume partner for 6 tricks and add yours to see how high to go (or not go).
@@ -4041,12 +4221,16 @@ Click [ROTATE]
 South plays 4\H. East leads the \DK.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Win the \DA, play \CA and ruff the \C2 with a high trump. Play a \H to the \HT and ruff the \C4 with a high trump. Play a \H to the \HJ and ruff the \C8 with a high trump. Play a \H to the \HA and discard a loser on the good \C9.
 
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 Fortunately that occurs a high percentage of the time. In any case, there was no other hope.}
 [BCFlags "1f"]
@@ -4065,8 +4249,6 @@ Fortunately that occurs a high percentage of the time. In any case, there was no
 1NT pass 4NT pass 6NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 4NT]
 
 You have 16 points - a pretty solid 16 in fact. Partner has 15, 16 or 17, so together you have 31, 32 or 33. You want to invite partner to bid 6NT if he has 17, but to decline if he has 15. The correct bid for this invitation is 4NT. It is called a "quantitative" 4NT since it is just an invitational raise. It is NOT Blackwood - if you wanted to ask for Aces you would use Gerber.
@@ -4082,6 +4264,8 @@ Click [ROTATE]
 South plays 6NT. West leads the \S3.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winner count: \S 0 : \H 3 : \D 4 : \C 4 : Total = 11
 
@@ -4098,6 +4282,8 @@ Your PLAN should be to play low in dummy and win your \ST if East withholds the 
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 Since West is unlikely to underlead an Ace against 6NT you play East for the \SA. }
 [BCFlags "1f"]
@@ -4116,8 +4302,6 @@ Since West is unlikely to underlead an Ace against 6NT you play East for the \SA
 1H pass 2H pass 4H pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\H]
 
 You are very close to the 22 points needed to open 2\C.
@@ -4133,6 +4317,8 @@ So you bid 4\H.
 South plays 4\H. West leads the \CQ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 1 : \H 0 : \D 2 : \C 1 : Total = 4
 
@@ -4145,6 +4331,8 @@ Win the \CA. Take two rounds of trumps with the \HA Q. East shows out on the sec
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 With the \S Q J instead you just have to take care with entries. (Make that entry, singular.)}
 [BCFlags "1f"]
@@ -4163,8 +4351,6 @@ With the \S Q J instead you just have to take care with entries. (Make that entr
 1S pass 2C pass 2D pass 4S pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\S]
 
 You have a real bare-bones 13 points. No matter, you don't pass with 13. So you open 1\S.
@@ -4178,6 +4364,8 @@ Partner goes crazy and bids 4\S.
 South plays 4\S. West leads the \CJ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 0 : \H 3 : \D 2 : \C 0 : Total = 5
 
@@ -4190,6 +4378,8 @@ Next play the \SK and \SA, but West shows out on the second one. Don't pull a th
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 And with any cross-ruff it is best to pull as many trumps as you can spare before you start ruffing. Leave yourself just the number of trumps you need.}
 [BCFlags "1f"]
@@ -4208,8 +4398,6 @@ And with any cross-ruff it is best to pull as many trumps as you can spare befor
 1S pass 2H pass 2S pass 4S pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 2\H]
 
 Two choices come to mind - 2NT or 2\H.
@@ -4229,6 +4417,8 @@ Click [ROTATE]
 South plays 4\S. West leads the \CJ. They play two more high \Cs.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 0 : \H 2 : \D 0 : \C 2 : Total = 4
 
@@ -4241,6 +4431,8 @@ If the high \H honors are split, but West holds the \HT then a finesse of the \H
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 The only time it is a mistake is when West holds the \H K Q and East holds the \HT. Even in that case though some Wests will "split their honors" and give it away.}
 [BCFlags "1f"]
@@ -4259,8 +4451,6 @@ The only time it is a mistake is when West holds the \H K Q and East holds the \
 1H pass 2H pass 3C pass 4H pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\H]
 
 You have a valid opening 1NT bid. You also have a valid opening 1\H bid. It is up to you and your partner to agree on whether you will open 1NT when you hold a 5-card Major.
@@ -4278,6 +4468,8 @@ Partner, with 9 points and help for \Cs, bids 4\H.
 South plays 4\H. West leads the \CJ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 2 : \H 1 : \D 1 : \C 0 : Total = 4
 
@@ -4290,6 +4482,8 @@ Try this instead. Win the \C in dummy and play a small \S to your \SQ. Assume We
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 Suppose when you led toward your \SQ it held the trick. Would you be convinced that East musthold the \SA and change your plan? Would you then pull trumps and let your contract depend on that assumption? I hope not.}
 [BCFlags "1f"]
@@ -4308,8 +4502,6 @@ Suppose when you led toward your \SQ it held the trick. Would you be convinced t
 pass 1C pass 1S pass 1NT pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\C]
 
 With 14 points and only one biddable suit this was a snap. You open 1\C. Partner responds with 1\S. What do you bid? [BID 1NT]
@@ -4319,6 +4511,8 @@ This one isn't such a snap. You sure cannot support \Ss with only 2 of them, eve
 South plays 3NT. It turns out partner can't stop \Hs either and the defenders reel off 4 \H tricks, then lead a small \D.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winners: \S 2 : \H 0 : \D 2 : \C 3 : Total = 7
 
@@ -4329,6 +4523,8 @@ If the \Cs split 3-2 it wouldn't matter, but if East happens to have \C J x x x 
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 This was a very difficult hand.}
 [BCFlags "1f"]
@@ -4347,8 +4543,6 @@ This was a very difficult hand.}
 2C pass 2D pass 2S pass 4S pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 2\C]
 
 You have 23 points. You must open 2\C.
@@ -4368,6 +4562,8 @@ Partner's first response told you he has a weak hand. It didn't suddenly turn in
 South plays 4\S. West leads the \DQ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 0 : \H 3 : \D 0 : \C 1 : Total = 4
 
@@ -4380,6 +4576,8 @@ It is almost certain that you could ruff your \H loser in dummy, but only if you
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 If instead you decide to lead a \S to dummy's \SJ and lead a \H toward your \HK you might go down. West could win the \HA and play a second trump. When you played the next \H West would win again and play a third round of trumps. You would no longer be able to ruff the \H loser.}
 [BCFlags "1f"]
@@ -4398,8 +4596,6 @@ If instead you decide to lead a \S to dummy's \SJ and lead a \H toward your \HK 
 4H pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 4\H]
 
 One school of thought says to open 2\C with a hand that is within one trick of game, even though the point count is below 22.
@@ -4411,6 +4607,8 @@ Today you take the second and bid 4\H.
 South plays 4\H. West leads the \DQ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 3 : \H 0 : \D 0 : \C 1 : Total = 4
 
@@ -4423,6 +4621,8 @@ Win the \D, pull trumps, lead the \S3 to dummy's \ST.
 Clickfor the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 You must modify the Plan a little bit. Now your only hope is that West still holds the \SJ. So you win the next trick in your hand and lead a \S toward dummy's \ST. This time West is caught. He plays the \SJ hoping you had a doubleton, but you still have a \S to get to the now high \ST.}
 [BCFlags "1f"]
@@ -4441,8 +4641,6 @@ You must modify the Plan a little bit. Now your only hope is that West still hol
 3H pass 4H pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 3\H]
 
 You are very weak. But you are also not vulnerable.
@@ -4452,6 +4650,8 @@ So with 5 playing tricks you leap to 3\H. Partner raises to 4\H and you pass.
 South plays 4\H. West leads \SA, then \H8.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 2 : \H 1 : \D 0 : \C 1 : Total = 4
 
@@ -4464,6 +4664,8 @@ Instead you should rise with dummy's \HA, play \DA, \DK and then a small \D whic
 Clickfor the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 But you don't want to get into the habit of doing what is USUALLY good without thinking through the consequences.}
 [BCFlags "1f"]
@@ -4482,8 +4684,6 @@ But you don't want to get into the habit of doing what is USUALLY good without t
 1NT pass 2NT pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1NT]
 
 With a balanced, 17 point hand you open 1NT. Partner responds 2NT. What do you bid? [BID 3NT]
@@ -4493,6 +4693,8 @@ You were invited to bid 3NT if you have a maximum opener. With 17 points you acc
 South plays 3NT. West leads \S5. You put on dummy's \S6 and East plays the \S8.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winner count: \S 2 : \H 0 : \D 1 : \C 5 : Total = 8
 
@@ -4505,6 +4707,8 @@ It is almost certain that West holds the \SQ. Of course defenders sometimes don'
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 Notice how strange this game can be. If your holding was \S K 2 rather than \S K T you would have had no difficulty coming up with the correct play. But the fact that you can win a cheap trick with the \ST tries to lure you into making an inferior play. }
 [BCFlags "1f"]
@@ -4523,8 +4727,6 @@ Notice how strange this game can be. If your holding was \S K 2 rather than \S K
 1S pass 2S pass 4S pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 You are South and it is your bid. Decide what you would say, then click on BID. [BID 1\S]
 
 You have a nice hand, but can only open 1\S.
@@ -4538,6 +4740,8 @@ The math works so you bid 4\S.
 South plays 4\S. West leads the \DT, you cover and East plays the three high \Ds.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers: \S 0 : \H 1 : \D 2 : \C 1 : Total = 4
 
@@ -4548,6 +4752,8 @@ Play exactly two rounds of trumps with the \SA and \SK. Then play \HK, \HA and \
 Click NEXT to see the full deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 By pulling exactly 2 rounds of trumps first you can also succeed in the case where \Hs split 4-2 and the defender with the doubleton \H also has a doubleton trump.}
 [BCFlags "1f"]

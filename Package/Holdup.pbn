@@ -1,5 +1,5 @@
 %Creator: CSVtoPBN Version 1.01
-%Created: 2026-02-04 16:48:18
+%Created: 2026-02-04 17:08:04
 %sourcefilename BakerBridge.csv
 %HRTitleEvent Holdup
 [Board "1"]
@@ -15,11 +15,11 @@
 1NT pass 2C pass 2S pass 2NT pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 South is to play 3NT. West leads the \DK.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winners:   \S = 4    \H = 0  \D = 1    \C = 1 Total = 6
 
@@ -42,6 +42,8 @@ Click NEXT to see the complete Deal. [NEXT]
 
 [RESET]
 
+[show NESW]
+
 But if you had not held-up your \DA even good luck wouldn't have helped you.}
 [BCFlags "1f"]
 [Play "W"]DK
@@ -59,11 +61,11 @@ But if you had not held-up your \DA even good luck wouldn't have helped you.}
 1H pass 1NT pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 South is to play 3NT. West leads the \SK.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winners:   \S = 1    \H = 2  \D = 0    \C = 2 Total = 5
 
@@ -86,6 +88,8 @@ Click NEXT to see the complete Deal. [NEXT]
 
 [RESET]
 
+[show NESW]
+
 But what if East actually held 4 \Ss? No problem, in that case the \Ss would have split 4-4 so the defenders could only win 3 \S tricks and the \DA.
 
 The hold-up lets you make the contract whenever East holds the \DA. And if West happened to hold the \DA??? You go down.}
@@ -105,11 +109,11 @@ The hold-up lets you make the contract whenever East holds the \DA. And if West 
 pass pass 1NT pass 2C pass 2D pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 South is to play 3NT. West leads the \S3. East wins the first trick with the \SA and returns the \S8.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winners:   \S = 1    \H = 2  \D = 1    \C = 3 Total = 7
 
@@ -131,6 +135,8 @@ Clickfor the complete Deal. [NEXT]
 
 [RESET]
 
+[show NESW]
+
 And as long as you had held up on the \SK until the third round you could ensure that East was out of \Ss if he had started with only 3.}
 [BCFlags "1f"]
 [Play "W"]S3
@@ -148,11 +154,11 @@ And as long as you had held up on the \SK until the third round you could ensure
 1NT pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 South is to play 3NT. West leads the \DK.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winners:   \S = 3    \H = 2  \D = 1    \C = 0 Total = 6
 
@@ -183,6 +189,8 @@ Click NEXT to see the complete Deal. [NEXT]
 
 [RESET]
 
+[show NESW]
+
 But with this layout you needed to hold up twice.}
 [BCFlags "1f"]
 [Play "W"]DK
@@ -200,11 +208,11 @@ But with this layout you needed to hold up twice.}
 1NT pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 With his 4-3-3-3 distribution North chooses not to bother with Stayman. South is to play 3NT. West leads the \H6. East plays the \HJ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winners:   \S = 1    \H = 1  \D = 3    \C = 2 Total = 7
 
@@ -228,6 +236,8 @@ Click NEXT to see the full Deal. [NEXT]
 
 [RESET]
 
+[show NESW]
+
 So you decide whether to hold up or not based on how you expect to play the hand.}
 [BCFlags "1f"]
 [Play "W"]H6
@@ -245,11 +255,11 @@ So you decide whether to hold up or not based on how you expect to play the hand
 1NT pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 With his 4-3-3-3 distribution North chooses not to bother with Stayman. South is to play 3NT. West leads the \H6. East plays the \HJ.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winners:   \S = 1    \H = 1  \D = 3    \C = 2 Total = 7
 
@@ -273,6 +283,8 @@ Click NEXT to see the full Deal. [NEXT]
 
 [RESET]
 
+[show NESW]
+
 But it sure makes a big difference in how you play the hand.
 
 This might have turned out even better. If West had decided to play his partner for the \HQ, (who would have played \HJ from a holding of \H Q J x), you would have made an overtrick!}
@@ -292,11 +304,11 @@ This might have turned out even better. If West had decided to play his partner 
 3H 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 South is to play 3NT. West leads the \H4. East plays the \HT.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winners:   \S = 1    \H = 1  \D = 3    \C = 1 Total = 6
 
@@ -311,6 +323,8 @@ Click NEXT. [NEXT]
 Yes, it could hurt real bad! Suppose East has nothing in his hand but the \H K Q J T 8 7 6 that you already know about. When you let his \HT win the first trick he will realize that his hand is dead. And he may be smart enough, (or lucky enough), to switch to a \S. 
 
 Click NEXT to see why you should definitely win the first trick, then enter dummy with the \DA and take the \C finesse. [NEXT]
+
+[show NESW]
 
 But one of the important considerations you have to think about is the possibility that the Defense will switch to another suit - where you might be in even more trouble.
 
@@ -331,11 +345,11 @@ You'd feel bad on this hand if you let East hold the \HT only to see him next la
 1C 1S pass 2C pass 4S pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 North's 2\C cue-bid shows a limit-raise or better in \Ss. South is to play 4\S. West leads the \C2. East plays the \CK.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers:   \S = 0    \H = 2  \D = 1    \C = 1 Total = 4
 
@@ -365,6 +379,8 @@ Clickfor the complete Deal. [NEXT]
 
 [RESET]
 
+[show NESW]
+
 If you had taken the first \C trick East would have won your later \D finesse, put his partner on lead with the \CQ and then swallowed up your \HK.
 
 Of course if West had been clever enough to lead a \H originally this Deal wouldn't be here.}
@@ -384,11 +400,11 @@ Of course if West had been clever enough to lead a \H originally this Deal would
 2H 2NT pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 South's 2NT overcall shows a 1NT opening hand with \Hs stopped. South is to play 3NT. West leads the \H7. East plays the \HT.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winners:   \S = 0    \H = 2  \D = 0    \C = 2 Total = 4
 
@@ -418,6 +434,8 @@ Clickfor the complete Deal. [NEXT]
 
 [RESET]
 
+[show NESW]
+
 If you did not hold up on the first trick, but established \Ss first you would have made the contract even though you played incorrectly.
 
 If you held up on the first trick you made the contract no matter which Ace West held.}
@@ -437,11 +455,11 @@ If you held up on the first trick you made the contract no matter which Ace West
 1NT pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 South is to play 3NT. West leads the \HK. East plays the \H6.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winners:   \S = 3    \H = 1  \D = 1    \C = 3 Total = 8
 
@@ -456,6 +474,8 @@ Sometimes it works, sometimes it doesn't.
 Clickfor the complete Deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 Because if he doesn't you're going to have to end-play him.
 
@@ -476,11 +496,11 @@ Do you see how that might happen?}
 1NT pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 South is to play 3NT. West leads the \HJ. You try dummy's \HQ but East plays the \HK.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winners:   \S = 0    \H = 1  \D = 1    \C = 5 Total = 7
 
@@ -493,6 +513,8 @@ Click NEXT. [NEXT]
 No, don't hold up. If you do they might take 4 \S tricks immediately, then go back to \Hs. Since your only hope of making this contract is the \D finesse you should grab the \HA, play 5 rounds of \Cs then finesse for the \DK.
 
 Click NEXT to see if you made the contract. Or not. [NEXT]
+
+[show NESW]
 
 }
 [BCFlags "1f"]
@@ -511,11 +533,11 @@ Click NEXT to see if you made the contract. Or not. [NEXT]
 2NT pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 South is to play 3NT. West leads the \H6. East plays the \HQ.
 
 Make a Plan, then click . [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winners:   \S = 3    \H = 1  \D = 4    \C = 0 Total = 8
 
@@ -537,6 +559,8 @@ This is not a guess. If West has the \CA he will get the lead and when he does h
 
 Click to see if your smart play is rewarded. [NEXT]
 
+[show NESW]
+
 But it's not enough to just be smart enough to hold up, you must also be able to figure out how to make the best plays later as well.}
 [BCFlags "1f"]
 [Play "W"]H6
@@ -554,11 +578,11 @@ But it's not enough to just be smart enough to hold up, you must also be able to
 1S pass 2S pass 4S pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 South is to play 4\S. West leads the \DQ. East plays the \D9.
 
 Make a Plan, then click . [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Losers:   \S = 1    \H = 0  \D = 1    \C = 2 Total = 4
 
@@ -575,6 +599,8 @@ You go over to dummy with a \H and play the \SQ, letting it ride. West wins with
 Click for the complete Deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 At suit contracts the most common reason for a hold-up is to keep the Danger Hand from getting the lead.}
 [BCFlags "1f"]
@@ -593,11 +619,11 @@ At suit contracts the most common reason for a hold-up is to keep the Danger Han
 1NT pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 South is to play 3NT. West leads the \HK.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winners:   \S = 3    \H = 1  \D = 0    \C = 4 Total = 8
 
@@ -613,6 +639,8 @@ Let West hold the first trick, playing the \H7 from your hand to conceal the \H4
 Click NEXT to see the complete Deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 }
 [BCFlags "1f"]
@@ -631,11 +659,11 @@ Click NEXT to see the complete Deal. [NEXT]
 1NT pass 3NT pass pass pass
 [Result ""]
 {[show NS]
-[AUCTION off]
-[SHOW_LEAD]
 South is to play 3NT. West leads the \S7.
 
 Make a Plan, then click NEXT. [NEXT]
+[AUCTION off]
+[SHOW_LEAD]
 
 Winners:   \S = 1    \H = 2  \D = 3    \C = 0 Total = 6
 
@@ -652,6 +680,8 @@ But what will East do if you play dummy's \SA? If he plays his small one the \S 
 Clickfor the complete Deal. [NEXT]
 
 [RESET]
+
+[show NESW]
 
 Of course from now on you will recognize it.}
 [BCFlags "1f"]

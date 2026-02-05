@@ -1,5 +1,5 @@
 %Creator: CSVtoPBN Version 1.01
-%Created: 2026-02-04 17:04:06
+%Created: 2026-02-04 17:08:04
 %sourcefilename BakerBridge.csv
 %HRTitleEvent 100Deals
 [Board "1"]
@@ -453,6 +453,8 @@ Click NEXT to see the full deal. [NEXT]
 If your first \S was \SK or \SQ then it would be too late.
 
 Click NEXT to see an alternate deal. [NEXT]
+
+[PLAY E:H4,E:DQ,E:C6,E:C4,W:SJ,W:ST,W:S6,W:S3]
 
 To summarize: If you are missing J x x x your first play should be from the hand with two honors. Then you will  be able to finesse in either direction. If you are missing J T x x your first play should be honor from the hand with only one. This will leave you with a double-finesse position in one direction. If the other defender has the trumps there is nothing you can do. }
 [BCFlags "1f"]
@@ -1339,6 +1341,8 @@ But what if East DID have another \C when he won the \DK?
 
 Click NEXT to see different East/West hands. [NEXT]
 
+[PLAY E:S4,W:C4]
+
 When East won the \DK  here he had a fourth \C to return to West's hand. That means the \C suit split 4-4 so you would have lost only 3 \C tricks and the \DK.}
 [BCFlags "1f"]
 [Play "W"]CK
@@ -1657,6 +1661,8 @@ Clickfor the full deal. [NEXT]
 [show NESW]
 
 Now click for an alternate possible. [BID ]
+
+[PLAY E:H2,W:S2]
 
 You might think that West is just as likely to have held an original doubleton \S A K as doubleton \S A T, and that playing the \S9 would be as good a play as \SQ.
 
@@ -3765,7 +3771,7 @@ Click NEXT to see the full deal. [NEXT]
 
 Click NEXT to see the effect of your play to the first trick. [NEXT]
 
-[PLAY N:S5,N:H4,N:DQ,N:DT,N:D3,S:S8,S:HK,S:DJ,S:D8,S:D7]
+[PLAY N:S5,N:H4,N:DQ,N:DT,N:D3,E:S2,E:H3,E:DA,E:D9,E:D2,S:S8,S:HK,S:DJ,S:D8,S:D7,W:S6,W:H5,W:H2,W:D5,W:D4]
 
 Notice that no matter what you try West can prevent you from reaching dummy.
 
