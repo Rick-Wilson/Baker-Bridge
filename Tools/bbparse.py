@@ -69,6 +69,15 @@ def extract_hands(soup):
     # Remove dashes (used in the HTML to indicate voids):
     return remove_voids_from_hands(hands)
 
+def has_card_values(text):
+    """Check if text contains actual card values, not just suit symbols.
+
+    Empty hand placeholders have suit symbols but no card values.
+    A valid hand must have at least one card rank (A, K, Q, J, T, 9-2).
+    """
+    # Look for any card rank character
+    return any(c in text for c in 'AKQJT98765432')
+
 def extract_hands_from_table(table):
     """Extract N/S/E/W hands from a single table element."""
     hands = {"North": None, "South": None, "East": None, "West": None}
@@ -76,13 +85,13 @@ def extract_hands_from_table(table):
     td_elements = table.find_all("td")
 
     # Extract North hand (width:6em/7em/8em style)
-    # Must have ALL 4 suit symbols to be a valid hand (not just ♠ which could be in headers)
+    # Must have ALL 4 suit symbols AND actual card values (not empty placeholders)
     for td in td_elements:
         style = td.get("style", "")
         text = td.get_text()
         if ("width:6em" in style or "width:7em" in style or "width:8em" in style):
-            # Require all 4 suits to be present to identify as a hand
-            if "♠" in text and "♥" in text and "♦" in text and "♣" in text:
+            # Require all 4 suits AND actual card values to identify as a hand
+            if "♠" in text and "♥" in text and "♦" in text and "♣" in text and has_card_values(text):
                 hands["North"] = parse_hand(text)
                 break
 
@@ -90,8 +99,8 @@ def extract_hands_from_table(table):
     for td in td_elements:
         text = td.get_text()
         if "800px" in td.get("height", ""):
-            # Require all 4 suits to be present
-            if "♠" in text and "♥" in text and "♦" in text and "♣" in text:
+            # Require all 4 suits AND actual card values
+            if "♠" in text and "♥" in text and "♦" in text and "♣" in text and has_card_values(text):
                 hands["South"] = parse_hand(text)
                 break
 
@@ -106,12 +115,12 @@ def extract_hands_from_table(table):
                 west_text = west_td.get_text()
                 east_text = east_td.get_text()
 
-                # Check if West hand is visible (has all 4 suits)
-                if "♠" in west_text and "♥" in west_text and "♦" in west_text and "♣" in west_text:
+                # Check if West hand is visible (has all 4 suits AND card values)
+                if "♠" in west_text and "♥" in west_text and "♦" in west_text and "♣" in west_text and has_card_values(west_text):
                     hands["West"] = parse_hand(west_text)
 
-                # Check if East hand is visible (has all 4 suits)
-                if "♠" in east_text and "♥" in east_text and "♦" in east_text and "♣" in east_text:
+                # Check if East hand is visible (has all 4 suits AND card values)
+                if "♠" in east_text and "♥" in east_text and "♦" in east_text and "♣" in east_text and has_card_values(east_text):
                     hands["East"] = parse_hand(east_text)
 
     return remove_voids_from_hands(hands)
@@ -203,14 +212,29 @@ def extract_hands_by_anchor(soup):
 
     for i in range(len(section_hands)):
         if i == 0:
-            # First section - no cards played yet, no visibility change
+            # First section - determine initial hand visibility
+            # Generate [show X] based on which hands are visible at start
+            visible_seats = []
+            if section_hands[i]["north_raw"]:
+                visible_seats.append("N")
+            if section_hands[i]["east_raw"]:
+                visible_seats.append("E")
+            if section_hands[i]["south_raw"]:
+                visible_seats.append("S")
+            if section_hands[i]["west_raw"]:
+                visible_seats.append("W")
+
+            initial_show = None
+            if visible_seats:
+                initial_show = "[show " + "".join(visible_seats) + "]"
+
             played_by_section.append({
                 "anchor": section_hands[i]["anchor"],
                 "played_north": set(),
                 "played_south": set(),
                 "played_east": set(),
                 "played_west": set(),
-                "show_directive": None
+                "show_directive": initial_show
             })
         else:
             prev = section_hands[i-1]

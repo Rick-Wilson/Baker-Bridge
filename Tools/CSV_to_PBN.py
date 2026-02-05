@@ -512,8 +512,9 @@ def process_analysis(analysis, student=None, declarer=None):
         analysis = analysis.replace('\\n', '\\n\\n')    # double the line breaks - somehow BridgeComposer doesn't handle single breaks well
         analysis = "\n".join(analysis.split("\\n"))  # Ensure proper newline conversion
 
-        # Inject visibility directives
-        if student:
+        # Inject visibility directives only if not already present from bbparse
+        # bbparse.py now generates initial [show ...] based on actual HTML visibility
+        if student and "[show " not in analysis:
             # Check if this is play instruction mode (has [NEXT] tags)
             is_play_instruction = "[NEXT]" in analysis
             show_directive, rotate_directive, auction_directive, lead_directive = get_visibility_directives(student, declarer, is_play_instruction)
