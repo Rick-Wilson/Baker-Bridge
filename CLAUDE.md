@@ -103,6 +103,23 @@ cp pbns/*.pbn ../Package/
 - `Tools/pbns/` - Generated PBN files
 - `Package/` - PBN files served via GitHub raw URLs
 
+## Analysis Text Extraction
+
+The `extract_analysis_text()` function extracts commentary from HTML `<td>` elements:
+
+1. **Remove grey text**: Prior steps shown in grey `<font>` tags are stripped
+2. **Remove nested tables**: Auction tables inside the TD are removed
+3. **Extract full content**: All remaining text from the TD is captured
+
+**Important**: The HTML uses `<br>` (not `<br/>`), so cleanup functions must handle both variants.
+
+### Card Play Detection
+
+The `extract_hands_by_anchor()` function detects played cards by comparing hands across sections:
+- Tracks all four seats (N/E/S/W), not just N/S
+- Cards in section N but missing in N+1 = played cards
+- Generates `[PLAY N:SK,E:H5,S:H3,W:C2]` directives
+
 ## Bridge Classroom Integration
 
 The Bridge Classroom app fetches PBN files from:
