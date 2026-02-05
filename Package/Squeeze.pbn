@@ -1,46 +1,6 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=UTF-8
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%Creator: CSVtoPBN Version 1.00
-%Created: 2026-01-23 13:57:51
-%sourcefilename BakerBridgeFull.csv
+%Creator: CSVtoPBN Version 1.01
+%Created: 2026-02-04 16:21:58
+%sourcefilename BakerBridge.csv
 %HRTitleEvent Squeeze
 [Board "1"]
 [Event ""]
@@ -54,21 +14,26 @@
 [Auction "S"]
 2C pass 2D pass 3D pass 3S pass 4NT pass 5D pass 7NT pass pass pass
 [Result ""]
-{Never mind the bidding. South is to play 7NT. West leads the \CQ.
+{[show NS]
+Never mind the bidding. South is to play 7NT. West leads the \CQ.
 
 Make a Plan, then click NEXT. [NEXT]
 
-But there is another possibility; if the same defender holds 4 \Hs and 4 \Ss you will be able to squeeze him in those two suits.
+But there is another possibility; if the same defender holds 4 ! Hs and 4 ! Ss you will be able to squeeze him in those two suits.
 
-You win the \CK and play \H A K Q to test the \H suit, but West discards a \C on the \HQ. (You tested \Hs first because of dummy's limited entries to the \S suit.) [NEXT]
+You win the \CK and play \H A K Q to test the \H suit, but West discards a \C on the \HQ. (You tested ! Hs first because of dummy's limited entries to the \S suit.) [NEXT]
 
-Next play your 4 \D winners, discarding a \C from dummy. East follows twice, then starts to feel the pressure. He cannot discard the \HJ because it is guarding your \H2, and since he can see those 4 \Ss in dummy he doesn't want to discard a \S. He discards both his \Cs, trusting West to guard that suit. [NEXT]
+[PLAY N:H5,N:H4,N:H3,N:C2,S:HA,S:HK,S:HQ,S:CK]
+
+Next play your 4 \D winners, discarding a \C from dummy. East follows twice, then starts to feel the pressure. He cannot discard the \HJ because it is guarding your \H2, and since he can see those 4 ! Ss in dummy he doesn't want to discard a \S. He discards both his ! Cs, trusting West to guard that suit. [NEXT]
+
+[PLAY N:D4,N:D3,N:D2,N:C3,S:DA,S:DK,S:DQ,S:DJ]
 
 Of course if East had discarded his \HJ you would have cashed your \H2 and then taken three \S winners.
 
 You just executed a Squeeze Play and you didn't even have to try. [NEXT]
 
-This time it is West who holds the only Guards in both \Ss and \Hs.
+This time it is West who holds the only Guards in both ! Ss and ! Hs.
 
 You play the \CA and he must give up one of those Guards.}
 [BCFlags "1f"]
@@ -86,17 +51,22 @@ You play the \CA and he must give up one of those Guards.}
 [Auction "S"]
 2C pass 2D pass 3C pass 3H pass 4NT pass 5C pass 7C pass pass pass
 [Result ""]
-{South is to play 7\C. West leads the \HK.
+{[show NS]
+South is to play 7\C. West leads the \HK.
 
 Make a Plan, then click NEXT. [NEXT]
 
 You have 11 sure winners in your hand and dummy's \DQ makes 12. Your main hope is for a 3-3 \D split in which case dummy's fourth \D will be a winner.
 
-But there is another possibility in case the \Ds don't split. Dummy's \HQ is a THREAT card which is GUARDED only by West's \HA. If it is West who has the 4 \Ds you will be able to squeeze him.
+But there is another possibility in case the ! Ds don't split. Dummy's \HQ is a THREAT card which is GUARDED only by West's \HA. If it is West who has the 4 ! Ds you will be able to squeeze him.
 
 You ruff the \HK and play 5 more \C winners, being careful not to discard a \D or the \HQ from dummy.  [NEXT]
 
+[PLAY N:S7,N:S5,N:H6,N:H3,N:C6,N:C4,S:CK,S:CQ,S:CJ,S:C9,S:C8,S:C7]
+
 Play the \S A K and West begins to feel the heat. [NEXT]
+
+[PLAY N:S9,N:H8,S:SA,S:SK]
 
 But now you play the SQUEEZE card, the \CA. West absolutely cannot throw away his \HA, so he discards a \D instead.
 
@@ -122,17 +92,22 @@ If you discard the \HQ East will throw his \HA. If you discard dummy's fourth \D
 [Auction "S"]
 1NT pass 6NT pass pass pass
 [Result ""]
-{South is to play 6NT. West leads the \CK.
+{[show NS]
+South is to play 6NT. West leads the \CK.
 
 Make a Plan, then click NEXT. [NEXT]
 
 As you see, neither of them splits. However since one defender, East in this case, holds both Guards you should be able to squeeze him. 
 
-Visualize what would happen, though, if you win the first trick and then play your 4 \H winners. East would play his 3 \Cs and 2 \Hs on those 5 tricks and he would not be squeezed. The problem is that you have to RECTIFY THE COUNT. [NEXT]
+Visualize what would happen, though, if you win the first trick and then play your 4 \H winners. East would play his 3 ! Cs and 2 ! Hs on those 5 tricks and he would not be squeezed. The problem is that you have to RECTIFY THE COUNT. [NEXT]
 
  [NEXT]
 
-East has no problems on the first 3, he just plays his 2 \Hs and 1 \C. [NEXT]
+[PLAY N:CA,N:C6,S:CT,S:C5]
+
+East has no problems on the first 3, he just plays his 2 ! Hs and 1 \C. [NEXT]
+
+[PLAY N:HQ,N:H9,N:H3,S:HK,S:HJ,S:H6]
 
 You will toss dummy's \C8 and East will have to decide whether it is better for him to throw a \S or a \D. He doesn't know that discarding either one is going to hand you the contract, so he will probably discard a \D.  }
 [BCFlags "1f"]
@@ -150,21 +125,28 @@ You will toss dummy's \C8 and East will have to decide whether it is better for 
 [Auction "S"]
 1NT 2H 6NT pass pass pass
 [Result ""]
-{South is to play 6NT. West leads the \SK.
+{[show NS]
+South is to play 6NT. West leads the \SK.
 
 Make a Plan, then click NEXT. [NEXT]
 
 The first thing you should do is to duck the \SK. If West foolishly plays another \S your troubles are over. But he doesn't, he plays the \HQ instead which you win with dummy's \HK.  [NEXT]
 
+[PLAY N:S2,N:HK,S:S3,S:H4]
+
 Next play off your 4 \D winners, discarding a small \H from your hand. [NEXT]
 
+[PLAY N:DA,N:DQ,N:D7,N:D4,S:H6,S:DK,S:DJ,S:D6]
+
 Play the \CK, \CJ, then over to your \CQ. [NEXT]
+
+[PLAY N:CK,N:CJ,N:C3,S:CQ,S:CT,S:C7]
 
 When you now play your \CA, discarding a \S from dummy, West is squeezed.
 
 If he discards the \ST, then his \SQ will fall underneath your \SA, establishing your \SJ.
 
-But if he instead throws the \H9, both of dummy's \Hs will become winners.}
+But if he instead throws the \H9, both of dummy's ! Hs will become winners.}
 [BCFlags "1f"]
 [Play "W"]SK
 
@@ -180,19 +162,26 @@ But if he instead throws the \H9, both of dummy's \Hs will become winners.}
 [Auction "S"]
 1C 2H X pass 2NT pass 6NT all pass
 [Result ""]
-{South is to play 6NT. West leads the \HK.
+{[show NS]
+South is to play 6NT. West leads the \HK.
 
 Make a Plan, then click NEXT. [NEXT]
 
 For a squeeze to operate you will need to lose one trick and the time to do that is right now. Let West hold the \HK and win his \H continuation with your \HA. [NEXT]
 
-You might as well find out about the \Ss right now. Play the \S A K Q. 
+[PLAY N:H4,N:H2,S:HA,S:H8]
 
-Too bad, West discards a \H on the third round of \Ss.  [NEXT]
+You might as well find out about the ! Ss right now. Play the \S A K Q. 
+
+Too bad, West discards a \H on the third round of ! Ss.  [NEXT]
+
+[PLAY N:SA,N:SK,N:SQ,S:S7,S:S5,S:S2]
 
 Play the \DA, then \D K Q. 
 
-East will follow to all three \Ds.  [NEXT]
+East will follow to all three ! Ds.  [NEXT]
+
+[PLAY N:DK,N:DQ,N:D7,S:DA,S:D9,S:D3]
 
 Play dummy's \DJ and discard your \HT.
 
@@ -216,17 +205,24 @@ Squeezes are so very satisfying.}
 [Auction "S"]
 1D pass 2NT pass 4D pass 5D pass 6D pass pass pass
 [Result ""]
-{South is to play 6\D. West leads the \HK.
+{[show NS]
+South is to play 6\D. West leads the \HK.
 
 Make a Plan, then click NEXT. [NEXT]
 
-At first things look hopeless, but remember this is a lesson on squeeze plays. From the opening lead you know that West must hold the \HQ. If he also holds the \SK you will be able to squeeze him in \Hs and \Ss.
+At first things look hopeless, but remember this is a lesson on squeeze plays. From the opening lead you know that West must hold the \HQ. If he also holds the \SK you will be able to squeeze him in ! Hs and ! Ss.
 
 You let the \HK win, (hoping he will play another \H), but he plays a small trump instead which you win in your hand. [NEXT]
 
+[PLAY N:H2,N:D4,S:H4,S:DA]
+
 Then take your 3 \C winners, ending in your hand. [NEXT]
 
+[PLAY N:S2,N:D6,N:CK,N:CQ,N:C2,S:SA,S:DK,S:CA,S:C7,S:C4]
+
 Discard the \S5 from dummy on the third \D.  [NEXT]
+
+[PLAY N:S5,N:DQ,N:D8,S:DJ,S:D9,S:D5]
 
 But when you play the \D7 he is squeezed.
 
@@ -248,7 +244,8 @@ So he will discard the \HT instead. At this point you know that the \SQ is worth
 [Auction "E"]
 1NT 2H pass 4H pass pass pass
 [Result ""]
-{South is to play 4\H. West leads the \CJ. East wins \C A K Q then switches to a trump.
+{[show NS]
+South is to play 4\H. West leads the \CJ. East wins \C A K Q then switches to a trump.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -256,17 +253,23 @@ You must win the next T tricks but you only have 9 winners.
 
 East opened 1NT, showing 15-17 points, and West has already produced 2 Jacks. So both the \SQ and \DK are with East and you will have to put the squeeze on him. [NEXT]
 
+[PLAY N:HK,N:C8,N:C6,N:C4,S:H2,S:C7,S:C5,S:C2]
+
 Since you need all the tricks the count is already rectified.
 
-You plan to squeeze East by running the long \Hs in your hand, but the problem is that the \DQ is not a Threat card yet. To make it a Threat you need to unblock dummy's \DA. So play the \DA, then pull trumps with the \H A Q. [NEXT]
+You plan to squeeze East by running the long ! Hs in your hand, but the problem is that the \DQ is not a Threat card yet. To make it a Threat you need to unblock dummy's \DA. So play the \DA, then pull trumps with the \H A Q. [NEXT]
+
+[PLAY N:H7,N:H3,N:DA,S:HA,S:HQ,S:D7]
 
 With 6 cards left to be played you are ready to apply pressure to East.
 
-Play the \H 9 8, discarding \Ds from dummy. East is not troubled yet, he can discard the \DJ and the \S3. [NEXT]
+Play the \H 9 8, discarding ! Ds from dummy. East is not troubled yet, he can discard the \DJ and the \S3. [NEXT]
+
+[PLAY N:D5,N:D2,S:H9,S:H8]
 
 Play the \H6 and throw dummy's \D6.
 
-East can choose his fate. If he throws the \S9 you will know that his \SQ will drop since his third card MUST be the \DK. So you would just play to the high \Ss and the \SJ would be good.
+East can choose his fate. If he throws the \S9 you will know that his \SQ will drop since his third card MUST be the \DK. So you would just play to the high ! Ss and the \SJ would be good.
 
 Or, he can throw his \DK which makes your \DQ a winner. [NEXT]
 
@@ -294,13 +297,18 @@ Only by visualizing the ending and using the Vienna Coup can this hand be made.}
 [Auction "S"]
 1C pass 2D pass 3C pass 4C pass 4H pass 4S pass 6C pass pass pass
 [Result ""]
-{South is to play 6\C. West leads the \HK.
+{[show NS]
+South is to play 6\C. West leads the \HK.
 
 Make a Plan, then click NEXT. [NEXT]
 
 In case the squeeze becomes necessary you should rectify the count, so you win the first trick, pull trumps in two rounds, then give up a \H trick. [NEXT]
 
-You now make the key play of taking dummy's \SA before running three rounds of \Cs. [NEXT]
+[PLAY N:H9,N:H3,N:CK,N:CQ,S:HA,S:H4,S:C3,S:C2]
+
+You now make the key play of taking dummy's \SA before running three rounds of ! Cs. [NEXT]
+
+[PLAY N:SA,N:D6,N:CT,N:C6,N:C5,S:S7,S:DQ,S:CA,S:CJ,S:C9]
 
 As you see, East was able to find discards on your first three trump leads, but when you play the \C7 and discard dummy's \S2 he is squeezed.
 
@@ -322,13 +330,18 @@ The only difference would be that to rectify the count you would have to hold up
 [Auction "N"]
 2S pass 2NT pass 3NT pass 7NT pass pass pass
 [Result ""]
-{North's 3NT rebid shows 6 \Ss headed by A K Q and nothing else. South is to play 7NT. West leads the \DQ.
+{[show NS]
+North's 3NT rebid shows 6 ! Ss headed by A K Q and nothing else. South is to play 7NT. West leads the \DQ.
 
 Make a Plan, then click NEXT. [NEXT]
 
-Win the \DK and (IMPORTANT!) test the \Cs first by playing \C A K Q. Darn. West discards a \D on the \CQ. [NEXT]
+Win the \DK and (IMPORTANT!) test the ! Cs first by playing \C A K Q. Darn. West discards a \D on the \CQ. [NEXT]
 
-Play your 4 \H winner's next. West follows suit while East follows twice, then discards 2 \Ds.  [NEXT]
+[PLAY N:S2,N:D5,N:C6,N:C3,S:DK,S:CA,S:CK,S:CQ]
+
+Play your 4 \H winner's next. West follows suit while East follows twice, then discards 2 ! Ds.  [NEXT]
+
+[PLAY N:S5,N:H8,N:H6,N:H4,S:HA,S:HK,S:HQ,S:HJ]
 
 Play your \DA. East must give up. 
 
@@ -348,19 +361,26 @@ If he throws the \CJ, you win. But if he throws a \S you also win. This is what 
 [Auction "E"]
 pass 1NT pass 2C pass 2S pass 6NT pass pass pass
 [Result ""]
-{South is to play 6NT. West leads the \DJ. East takes the \DA and returns the \D2.
+{[show NS]
+South is to play 6NT. West leads the \DJ. East takes the \DA and returns the \D2.
 
 Make a Plan, then click NEXT. [NEXT]
 
-With all those high \Ds falling on the first two tricks dummy's \D 9 has become a threat against West. If it should happen that West also holds the only \H stopper you can squeeze him in the red suits. [NEXT]
+With all those high ! Ds falling on the first two tricks dummy's \D 9 has become a threat against West. If it should happen that West also holds the only \H stopper you can squeeze him in the red suits. [NEXT]
 
-On the last 2 \Cs West discards a \D and a \H. [NEXT]
+[PLAY N:D7,N:D3,S:DK,S:DQ]
+
+On the last 2 ! Cs West discards a \D and a \H. [NEXT]
+
+[PLAY N:CA,N:CK,N:CQ,N:CJ,S:CT,S:C8,S:C7,S:C4]
 
 You discard a small \H from dummy while West follows suit three times. [NEXT]
 
+[PLAY N:ST,N:S6,N:H6,S:SA,S:SK,S:SQ]
+
 Play your \SJ and watch what West discards.
 
-If he holds on to the \DT you will discard dummy's useless \D9 and hope the \Hs all fall under the \H A K.
+If he holds on to the \DT you will discard dummy's useless \D9 and hope the ! Hs all fall under the \H A K.
 
 If he discards the \DT then you throw dummy's small \H and dummy wins the last three tricks.}
 [BCFlags "1f"]
@@ -378,17 +398,22 @@ If he discards the \DT then you throw dummy's small \H and dummy wins the last t
 [Auction "N"]
 1C pass 2D pass 2S pass 4NT pass 5H pass 6NT pass pass pass
 [Result ""]
-{South is to play 6NT. West leads the \HJ. East wins the \HA and returns the \H2.
+{[show NS]
+South is to play 6NT. West leads the \HJ. East wins the \HA and returns the \H2.
 
 Make a Plan, then click NEXT. [NEXT]
 
-No matter how the \Ss split only one defender will hold the Guard because only one defender can have as many as 4. IF (it's a big IF) that same defender holds the \CK then you can squeeze him.
+No matter how the ! Ss split only one defender will hold the Guard because only one defender can have as many as 4. IF (it's a big IF) that same defender holds the \CK then you can squeeze him.
 
 Can you see how the squeeze is going to work? [NEXT]
+
+[PLAY N:H7,N:H5,S:HK,S:HQ]
 
 The solution is the Vienna Coup. Play a \C to the \CA at trick 3.
 
 Then start running the \D suit. [NEXT]
+
+[PLAY N:DT,N:D7,N:D2,N:CA,N:C7,N:C5,S:DA,S:DK,S:DQ,S:DJ,S:D9,S:C3]
 
 So far neither defender is hurting, but that is about to change.
 
@@ -410,13 +435,18 @@ East is squeezed. He can't throw his \CK without letting your \CQ become a winne
 [Auction "S"]
 1H pass 3C pass 3H pass 6H pass pass pass
 [Result ""]
-{South is to play 6\H. West leads the \SQ. East wins the \SA and plays the \DK.
+{[show NS]
+South is to play 6\H. West leads the \SQ. East wins the \SA and plays the \DK.
 
 Make a Plan, then click NEXT. [NEXT]
 
-In this hand dummy's fourth \C is an obvious Threat, so you should ask yourself if you can find another Threat for when \Cs don't split 3-3. Another thing you have probably noticed is that although 3-3 splits happen about 40% of the time in real life, they NEVER happen in these pages! [NEXT]
+In this hand dummy's fourth \C is an obvious Threat, so you should ask yourself if you can find another Threat for when ! Cs don't split 3-3. Another thing you have probably noticed is that although 3-3 splits happen about 40% of the time in real life, they NEVER happen in these pages! [NEXT]
+
+[PLAY N:S3,N:DA,S:S7,S:D5]
 
 Play 5 \H winners and the \SK. [NEXT]
+
+[PLAY N:S9,N:HK,N:H9,N:H8,N:H6,N:H3,S:SK,S:HA,S:HQ,S:HJ,S:H7,S:H5]
 
 Play your \H2 and dump dummy's \D6.
 
@@ -436,27 +466,38 @@ East has no answer.}
 [Auction "E"]
 pass 1NT pass 3D pass 4D pass 4NT pass 5H pass 7NT pass pass pass
 [Result ""]
-{South is to play 7NT. West leads the \HK.
+{[show NS]
+South is to play 7NT. West leads the \HK.
 
 Make a Plan, then click NEXT. [NEXT]
 
-Then, your second thought should be that dummy's \HJ is a Threat against West's \HQ, so if it is West who holds 4 \Ss you will be able to squeeze him.
+Then, your second thought should be that dummy's \HJ is a Threat against West's \HQ, so if it is West who holds 4 ! Ss you will be able to squeeze him.
 
 Since the contract is 7NT you take the first trick with the \HA. [NEXT]
 
+[PLAY N:H6,S:HA]
+
 You continue with the \DQ and \D K, East discarding a \H and a \C. [NEXT]
+
+[PLAY N:DA,N:DK,N:D3,S:DQ,S:D6,S:D2]
 
 To find out for sure you play \SA, then \SQ. Sure enough West discards a \H on the second round. [NEXT]
 
-But now a completely new possibility shows up. Say to yourself, over and over, "West must guard \Hs, and East must guard \Ss. Nobody can guard \Cs."
+[PLAY N:SA,N:S2,S:SQ,S:S3]
+
+But now a completely new possibility shows up. Say to yourself, over and over, "West must guard ! Hs, and East must guard ! Ss. Nobody can guard ! Cs."
 
 You start playing dummy's \D winners. [NEXT]
 
-When you play the \D5 East must keep both \Ss to guard against your \S7. So he discards the \C6, hoping partner can stop that suit.
+[PLAY N:DJ,N:D7,S:H4,S:D9]
+
+When you play the \D5 East must keep both ! Ss to guard against your \S7. So he discards the \C6, hoping partner can stop that suit.
 
 Your \S7 is now worthless so you throw it.
 
 West has no problem, (yet), he discards the \HT. [NEXT]
+
+[PLAY N:D5,S:S7]
 
 Play dummy's \S5 to your \SK.
 
@@ -480,7 +521,8 @@ This is called a Double Squeeze.}
 [Auction "S"]
 2C pass 3D pass 4NT pass 5D pass 7NT pass pass pass
 [Result ""]
-{South is to play 7NT. West leads the \SQ.
+{[show NS]
+South is to play 7NT. West leads the \SQ.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -488,13 +530,19 @@ So take the \SK and play \C A K Q.
 
 West discards a \S on the third \C. [NEXT]
 
-Before tackling \Ds, see what you can discover about \Ss.
+[PLAY N:S2,N:CQ,N:C4,N:C3,S:SK,S:CA,S:CK,S:C2]
+
+Before tackling ! Ds, see what you can discover about ! Ss.
 
 Play the \SA. East discards a \H. [NEXT]
 
-West guards the \Ss. Nobody can guard the \Hs.
+[PLAY N:S5,S:SA]
 
-Play 4 rounds of \Ds. [NEXT]
+West guards the ! Ss. Nobody can guard the ! Hs.
+
+Play 4 rounds of ! Ds. [NEXT]
+
+[PLAY N:DA,N:DJ,N:D9,N:D7,S:S4,S:DK,S:DQ,S:DT]
 
 You discarded a small \S. West discarded a \S on the third \D and a \H on the fourth.
 
@@ -520,19 +568,26 @@ You win the last three \H tricks with another Double Squeeze.}
 [Auction "S"]
 1H 1S 2C pass 3H pass 4H pass 4NT pass 5D pass 6H pass pass pass
 [Result ""]
-{South is to play 6\H. West leads the \SA, then \SK.
+{[show NS]
+South is to play 6\H. West leads the \SA, then \SK.
 
 Make a Plan, then click NEXT. [NEXT]
 
 Even looking at all four hands here it is still very difficult to come up with a plan.
 
-Here's a hint: If West holds 3 \Cs, (and you see that he does), can you squeeze him in \Cs and \Ss? [NEXT]
+Here's a hint: If West holds 3 ! Cs, (and you see that he does), can you squeeze him in ! Cs and ! Ss? [NEXT]
+
+[PLAY N:S7,N:S3,S:S5,S:H3]
 
 The big problem with trying to squeeze West in the black suits right now is that East actually holds a \S guard. But you can fix that.
 
 Play dummy's \HQ and \HT, then ruff a \S, then pull the last trump.  [NEXT]
 
+[PLAY N:S8,N:HQ,N:HT,N:C5,S:HK,S:HJ,S:H9,S:H8]
+
 Then lead dummy's \C7 to your \CK. [NEXT]
+
+[PLAY N:DK,N:DQ,N:D6,N:C7,S:DA,S:D5,S:CK,S:C3]
 
 Only West can guard dummy's \ST, and only West can guard dummy's\C9.
 
@@ -552,29 +607,38 @@ So you play your \HA and West must give up one of his guards. If he holds on to 
 [Auction "S"]
 1NT pass 2C pass 2D pass 3NT pass pass pass
 [Result ""]
-{South is to play 3NT. West leads the \S3. East plays the \S5.
+{[show NS]
+South is to play 3NT. West leads the \S3. East plays the \S5.
 
 Make a Plan, then click NEXT. [NEXT]
 
-You have 8 winners, and if East holds 4+ \Hs AND 3+ \Ds then only he can guard the two suits.
+You have 8 winners, and if East holds 4+ ! Hs AND 3+ ! Ds then only he can guard the two suits.
 
 But how can you squeeze him? [NEXT]
+
+[PLAY N:ST,S:S4]
 
 But maybe you can make his partner do the job for you.
 
 At trick 2 you play a \S. [NEXT]
 
+[PLAY N:SQ,S:S7]
+
 And he will no doubt continue with the \SA and \S9.
 
-You discard 2 \Ds from dummy and a \C from your hand.
+You discard 2 ! Ds from dummy and a \C from your hand.
 
 East cannot spare either a \H or a \D so he also throws a \C. [NEXT]
+
+[PLAY N:D6,N:D3,S:SJ,S:C3]
 
 West will almost surely cash his \S2.
 
 You and dummy both discard a \C and East also must discard a \C.
 
 It doesn't matter what West plays next, lets say it is a \C. [NEXT]
+
+[PLAY N:C5,N:C2,S:CK,S:C7]
 
 East is truly squeezed. If he discards a \H, dummy's \H5 will become a winner. but if he discards a \D then you will get a third \D trick and the contract.
 
@@ -600,7 +664,8 @@ So you establish a \D winner and make your contract.}
 [Auction "S"]
 2C pass 3D pass 4NT pass 5D pass 5NT pass 6D pass 7C pass pass pass
 [Result ""]
-{South is to play 7\C. West leads the \SK.
+{[show NS]
+South is to play 7\C. West leads the \SK.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -608,19 +673,25 @@ So you take the \SA, pull three rounds of trumps and play \DK.
 
 But when you lead to the \DA West discards a small \S. [NEXT]
 
+[PLAY N:S8,N:DA,N:D6,N:D2,N:C5,N:C3,S:SA,S:DK,S:D5,S:CA,S:CK,S:CQ]
+
 Think squeeze instead. Ruff a \D. This turns the \DJ into a Threat card against East's \DQ.
 
 But, the \SJ is already a Threat card against West's \SQ. [NEXT]
 
+[PLAY N:D7,S:C7]
+
 West can afford to discard the \S9 and the \H5.
 
-East can spare his two \Ss. [NEXT]
+East can spare his two ! Ss. [NEXT]
+
+[PLAY N:H4,N:D8,S:CJ,S:C9]
 
 West cannot throw the \SQ, so he gives up the \H8. Dummy's \SJ is of no further value so you dump it.
 
 East cannot throw the \DQ, so he gives up the \H2.
 
-And you take the last three tricks with the \H suit. There were only two defenders; one of them had to guard \Ss and the other had to guard \Ds. There was nobody left to guard \Hs.}
+And you take the last three tricks with the \H suit. There were only two defenders; one of them had to guard ! Ss and the other had to guard ! Ds. There was nobody left to guard ! Hs.}
 [BCFlags "1f"]
 [Play "W"]SK
 
@@ -636,19 +707,28 @@ And you take the last three tricks with the \H suit. There were only two defende
 [Auction "S"]
 2C 4S pass pass 5H pass 6H pass pass pass
 [Result ""]
-{South is to play 6\H. West leads the \SA.
+{[show NS]
+South is to play 6\H. West leads the \SA.
 
 Make a Plan, then click NEXT. [NEXT]
 
 So you ruff the \S, pull trumps in three rounds, then play \C A K and get the bad news when West discards a \S. [NEXT]
 
-And since West had 3 \Hs and a very long \S suit it is pretty likely that East guards the \Ds also. You will try to squeeze East in \Cs and \Ds, but first you must lose a trick to rectify the count.
+[PLAY N:S4,N:H9,N:H7,N:H3,N:C5,N:C2,S:HA,S:HK,S:HQ,S:H5,S:CA,S:CK]
+
+And since West had 3 ! Hs and a very long \S suit it is pretty likely that East guards the ! Ds also. You will try to squeeze East in ! Cs and ! Ds, but first you must lose a trick to rectify the count.
 
 So you play a low \D from each hand. [NEXT]
 
+[PLAY N:D5,S:D3]
+
 He will then play the \SK, which you must ruff in your hand. [NEXT]
 
+[PLAY N:SQ,S:HT]
+
  [NEXT]
+
+[PLAY N:DK,S:D6]
 
 Play dummy's \HJ.
 
@@ -670,7 +750,8 @@ Yet another slam, courtesy of the Squeeze Play!}
 [Auction "W"]
 1S pass pass X 2D 2NT pass 4H pass 6H pass pass pass
 [Result ""]
-{South is to play 6\H. West leads the \DK. Perhaps you wouldn't have bid slam with North's cards, but he has been watching you pull off some fantastic squeeze plays and he has every confidence you will do it again.
+{[show NS]
+South is to play 6\H. West leads the \DK. Perhaps you wouldn't have bid slam with North's cards, but he has been watching you pull off some fantastic squeeze plays and he has every confidence you will do it again.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -682,11 +763,17 @@ But not this defender, not this time.
 
 He exits with the \H3 which you take with your \HQ. [NEXT]
 
-You throw a \S from dummy and West discards \Ss and \Ds. [NEXT]
+[PLAY N:H4,N:D5,S:HQ,S:D3]
+
+You throw a \S from dummy and West discards ! Ss and ! Ds. [NEXT]
+
+[PLAY N:S4,N:HT,N:H6,N:CQ,N:C5,N:C3,S:HA,S:HK,S:CA,S:CK,S:CJ,S:C6]
 
 Discard the \ST and \D7 from dummy.
 
 West discards the \SQ and \S9. [NEXT]
+
+[PLAY N:ST,N:D7,S:HJ,S:H9]
 
 He obviously is not going to throw his \SA and make dummy high, so he will instead bare his \DQ.
 
@@ -706,7 +793,8 @@ So you dump dummy's \SK and win the last two tricks with the \DA and then the \D
 [Auction "E"]
 1H 1S pass 2H pass 4S pass pass pass
 [Result ""]
-{North's 2\H cue-bid shows \S support and at least a limit-raise or better. South is to play 4\S. West leads the \HA, then a \H to East's \HK. East plays a third round of \Hs.
+{[show NS]
+North's 2\H cue-bid shows \S support and at least a limit-raise or better. South is to play 4\S. West leads the \HA, then a \H to East's \HK. East plays a third round of ! Hs.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -718,17 +806,25 @@ Before you can make a good Plan you need to figure out where the \SA, \DK and \C
 
 Now on with the plan. East/West took the first two \H tricks and then played a third \H which you won, discarding the \D2 from dummy.  [NEXT]
 
+[PLAY N:H7,N:H5,N:D2,S:HQ,S:HJ,S:HT]
+
 This pulls all the trumps and also serves to rectify the count for your upcoming squeeze.
 
 **By the way, notice that if East had played any other way he would have handed you the contract. [NEXT]
 
+[PLAY N:S9,N:S5,S:SK,S:SQ]
+
 So dummy's \DQ cannot be one of the Threat cards. Instead you must make the \DJ in YOUR hand a Threat. You do that by playing the \DA immediately, a Vienna Coup. [NEXT]
 
-Overtake dummy's \ST and run three more \Ss.
+[PLAY N:DA,S:D3]
 
-Discard all three \Ds from dummy.
+Overtake dummy's \ST and run three more ! Ss.
 
-East will discard his 2 \Hs, the \D9 and the \C6. [NEXT]
+Discard all three ! Ds from dummy.
+
+East will discard his 2 ! Hs, the \D9 and the \C6. [NEXT]
+
+[PLAY N:ST,N:DQ,N:DT,N:D7,S:SJ,S:S8,S:S7,S:S4]
 
 Play your \S2 and discard dummy's \C4.
 

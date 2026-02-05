@@ -1,46 +1,6 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=UTF-8
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%Creator: CSVtoPBN Version 1.00
-%Created: 2026-01-23 13:57:51
-%sourcefilename BakerBridgeFull.csv
+%Creator: CSVtoPBN Version 1.01
+%Created: 2026-02-04 16:21:58
+%sourcefilename BakerBridge.csv
 %HRTitleEvent 2Club
 [Board "1"]
 [Event ""]
@@ -50,11 +10,12 @@
 [Contract "3NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:973.JT75.J95.J32 Q65.864.KQ86.T87 JT4.Q92.T732.A65 AK82.AK3.A4.KQ94"]
+[Deal "W: Q65.864.KQ86.T87  AK82.AK3.A4.KQ94"]
 [Auction "S"]
 2C pass 2D pass 2NT pass 3NT pass pass pass
 [Result ""]
-{You dealt this hand. Decide what you would bid, then click on BID above. [BID 2\C]
+{[show NS]
+You dealt this hand. Decide what you would bid, then click on BID above. [BID 2\C]
 
 
 
@@ -74,11 +35,12 @@ You have 23 points and no 5-card suit. Since your hand is balanced you bid 2NT. 
 [Contract "2NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:AJ63.T92.JT73.63 KQ5.AK6.AK92.AT8 94.J874.Q5.KQJ52 T872.Q53.864.974"]
+[Deal "W: KQ5.AK6.AK92.AT8  T872.Q53.864.974"]
 [Auction "N"]
 2C pass 2D pass 2NT pass pass pass
 [Result ""]
-{The bidding has gone as shown. Decide what you would bid, then click on BID above. [BID 2\D]
+{[show NS]
+The bidding has gone as shown. Decide what you would bid, then click on BID above. [BID 2\D]
 
 
 
@@ -98,11 +60,12 @@ This isn't as clear-cut a decision as you might think at first. Partner is showi
 [Contract "3NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T97.J7.JT54.J532 Q65.864.Q986.T87 J43.QT952.732.A6 AK82.AK3.AK.KQ94"]
+[Deal "W: Q65.864.Q986.T87  AK82.AK3.AK.KQ94"]
 [Auction "S"]
 2C pass 2D pass 3NT pass pass pass
 [Result ""]
-{You dealt this hand. Decide what you would bid, then click on BID above. [BID 2\C]
+{[show NS]
+You dealt this hand. Decide what you would bid, then click on BID above. [BID 2\C]
 
 
 
@@ -122,11 +85,12 @@ You have 26 points and no 5-card suit. Since your hand is balanced you bid 3NT. 
 [Contract "3NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:7.T82.QJ753.Q652 KQ5.AK6.AK92.AT8 A9643.J974.T.K73 JT82.Q53.864.J94"]
+[Deal "W: KQ5.AK6.AK92.AT8  JT82.Q53.864.J94"]
 [Auction "N"]
 2C pass 2D pass 2NT pass 3NT pass pass pass
 [Result ""]
-{The bidding has gone as shown. Decide what you would bid, then click on BID above. [BID 2\D]
+{[show NS]
+The bidding has gone as shown. Decide what you would bid, then click on BID above. [BID 2\D]
 
 
 
@@ -146,11 +110,12 @@ True, 4 points isn't much. But added to partner's 22-24 it becomes enough for a 
 [Contract "4H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:A42.T7.T63.A8652 K873.92.J8742.T3 QJT965.5.KQ9.K97 .AKQJ8643.A5.QJ4"]
+[Deal "W: K873.92.J8742.T3  .AKQJ8643.A5.QJ4"]
 [Auction "S"]
 2C pass 2D pass 2H pass 2NT pass 4H pass pass pass
 [Result ""]
-{You dealt this hand. Decide what you would bid, then click on BID above. [BID 2\C]
+{[show NS]
+You dealt this hand. Decide what you would bid, then click on BID above. [BID 2\C]
 
 
 
@@ -174,11 +139,12 @@ Partner has between 3 and 7 points. Somewhere in those points might be the one t
 [Contract "3NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:Q6.974.A7653.964 AK4.AQT86.K2.KQT JT932.J52.8.AJ83 875.K3.QJT94.752"]
+[Deal "W: AK4.AQT86.K2.KQT  875.K3.QJT94.752"]
 [Auction "N"]
 2C pass 2D pass 2H pass 3D pass 3NT pass pass pass
 [Result ""]
-{The bidding has gone as shown. Decide what you would bid, then click on BID above. [BID 2\D]
+{[show NS]
+The bidding has gone as shown. Decide what you would bid, then click on BID above. [BID 2\D]
 
 
 
@@ -186,7 +152,7 @@ With 7 points you must bid a Negative 2\D. Partner now bids 2\H. What is your bi
 
 
 
-For someone who made an initial Negative response you have quite a good hand. You can't support partner's \Hs (yet) but you consider jumping to 3NT. All in all it is better to just describe your hand with a 3\D bid, then wait and see what partner says. You don't have to wait long since he bids 3NT which you pass.}
+For someone who made an initial Negative response you have quite a good hand. You can't support partner's ! Hs (yet) but you consider jumping to 3NT. All in all it is better to just describe your hand with a 3\D bid, then wait and see what partner says. You don't have to wait long since he bids 3NT which you pass.}
 [BCFlags "1f"]
 
 
@@ -198,11 +164,12 @@ For someone who made an initial Negative response you have quite a good hand. Yo
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T42.A9.AT653.542 K65.T864.92.T873 97.KQJ752.J84.J6 AQJ83.3.KQ7.AKQ9"]
+[Deal "W: K65.T864.92.T873  AQJ83.3.KQ7.AKQ9"]
 [Auction "S"]
 2C pass 2D pass 2S pass 4S pass pass pass
 [Result ""]
-{You dealt this hand. Decide what you would bid, then click on BID above. [BID 2\C]
+{[show NS]
+You dealt this hand. Decide what you would bid, then click on BID above. [BID 2\C]
 
 
 
@@ -222,11 +189,12 @@ You have 22 points and 5-card Major suit. Your rebid is therefore 2\S. Partner r
 [Contract "4H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T943.964.AK7.862 AQ.AK75.Q84.AKJT J62.82.J9632.Q54 K875.QJT3.T5.973"]
+[Deal "W: AQ.AK75.Q84.AKJT  K875.QJT3.T5.973"]
 [Auction "N"]
 2C pass 2D pass 2NT pass 3C pass 3H pass 4H pass pass pass
 [Result ""]
-{The bidding has gone as shown. Decide what you would bid, then click on BID above. [BID 2\D]
+{[show NS]
+The bidding has gone as shown. Decide what you would bid, then click on BID above. [BID 2\D]
 
 
 
@@ -250,11 +218,12 @@ Knowing of the 4-4 fit you bid 4\H. By the way: Partner knew your 3\C bid was no
 [Contract "3NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:Q852.A7.Q74.T764 J943.96.9863.A82 T76.8532.K52.Q53 AK.KQJT4.AJT.KJ9"]
+[Deal "W: J943.96.9863.A82  AK.KQJT4.AJT.KJ9"]
 [Auction "S"]
 2C pass 2D pass 2H pass 2NT pass 3NT pass pass pass
 [Result ""]
-{You dealt this hand. Decide what you would bid, then click on BID above. [BID 2\C]
+{[show NS]
+You dealt this hand. Decide what you would bid, then click on BID above. [BID 2\C]
 
 
 
@@ -266,7 +235,7 @@ You bid your 5-card \H suit. Partner says 2NT. What do you bid now? [BID 3NT]
 
 
 
-Partner's 2NT shows scattered values and fewer than 3 \Hs. He has 3 or more points or he would have bid the Double Negative. So you say 3NT.}
+Partner's 2NT shows scattered values and fewer than 3 ! Hs. He has 3 or more points or he would have bid the Double Negative. So you say 3NT.}
 [BCFlags "1f"]
 
 
@@ -278,15 +247,16 @@ Partner's 2NT shows scattered values and fewer than 3 \Hs. He has 3 or more poin
 [Contract "6NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:Q43.J752.8743.87 AK8.KQT.KQJ2.AT4 9652.843.A6.9652 JT7.A96.T95.KQJ3"]
+[Deal "W: AK8.KQT.KQJ2.AT4  JT7.A96.T95.KQJ3"]
 [Auction "N"]
 2C pass 2NT pass 3NT pass 6NT pass pass pass
 [Result ""]
-{The bidding has gone as shown. Decide what you would bid, then click on BID above. [BID 2NT]
+{[show NS]
+The bidding has gone as shown. Decide what you would bid, then click on BID above. [BID 2NT]
 
 
 
-You have 11 points and partner opens 2\C. Wow!You answer 2NT and he bids 3NT. What is your next bid? [BID 6NT]
+You have 11 points and partner opens 2\C. Wow! You answer 2NT and he bids 3NT. What is your next bid? [BID 6NT]
 
 
 
@@ -302,11 +272,12 @@ Hmmm, 22-24 balanced, plus 11 balanced equals 33-35 balanced. It makes you think
 [Contract "3S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:KJ32.9732.KJ9.T9 AQT64.AQ85.Q7.AK .KJT.AT542.Q8643 9875.64.863.J752"]
+[Deal "W: AQT64.AQ85.Q7.AK  9875.64.863.J752"]
 [Auction "N"]
 2C pass 2D pass 2S pass 3C pass 3H pass 3S pass pass pass
 [Result ""]
-{The bidding has gone as shown. Decide what you would bid, then click on BID above. [BID 2\D]
+{[show NS]
+The bidding has gone as shown. Decide what you would bid, then click on BID above. [BID 2\D]
 
 
 
@@ -330,11 +301,12 @@ No, you still may not pass. First, because partner's bid of a new suit is forcin
 [Contract "3NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:K82.QJ743.A86.54 A5.A6.K7.AKQJT63 QJT94.KT9.QJT2.9 763.852.9543.872"]
+[Deal "W: A5.A6.K7.AKQJT63  763.852.9543.872"]
 [Auction "N"]
 2C pass 2D pass 3C pass 3D pass 3NT pass pass pass
 [Result ""]
-{The bidding has gone as shown. Decide what you would bid, then click on BID above. [BID 2\D]
+{[show NS]
+The bidding has gone as shown. Decide what you would bid, then click on BID above. [BID 2\D]
 
 
 
@@ -342,7 +314,7 @@ With a true Yarborough you qualify to respond a Negative 2\D. Partner now bids 3
 
 
 
-You now inform partner of your disaster hand by using the Second Negative. Since his suit is \Cs the Second Negative is 3\D. Partner now says 3NT. What do you say? [BID pass]
+You now inform partner of your disaster hand by using the Second Negative. Since his suit is ! Cs the Second Negative is 3\D. Partner now says 3NT. What do you say? [BID pass]
 
 
 
@@ -358,11 +330,12 @@ You definitely pass. Good thing he has 9 cold tricks in his hand!}
 [Contract "6H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:J64.QJ.JT65.JT72 Q93.A97653.72.84 T8752.2.A843.963 AK.KT84.KQ9.AKQ5"]
+[Deal "W: Q93.A97653.72.84  AK.KT84.KQ9.AKQ5"]
 [Auction "S"]
 2C pass 2H pass 3H pass 4H pass 4NT pass 5D pass 6H pass pass pass
 [Result ""]
-{You dealt this hand. Decide what you would bid, then click on BID above. [BID 2\C]
+{[show NS]
+You dealt this hand. Decide what you would bid, then click on BID above. [BID 2\C]
 
 
 
@@ -388,11 +361,12 @@ You now say 6\H and lay down a great dummy.}
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:82.K432.JT87.T73 K53.Q95.AKQ6.AKQ 964.AJT7.52.J984 AQJT7.86.943.652"]
+[Deal "W: K53.Q95.AKQ6.AKQ  AQJT7.86.943.652"]
 [Auction "N"]
 2C pass 2S pass 3S pass 4S pass pass pass
 [Result ""]
-{The bidding has gone as shown. Decide what you would bid, then click on BID above. [BID 2\S]
+{[show NS]
+The bidding has gone as shown. Decide what you would bid, then click on BID above. [BID 2\S]
 
 
 
@@ -412,11 +386,12 @@ You told him that you have 8 or more points, now you must tell him that it is on
 [Contract "6NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T63.QJ97.8432.73 KQ9.864.AQT6.J54 J754.T52.95.Q982 A82.AK3.KJ7.AKT6"]
+[Deal "W: KQ9.864.AQT6.J54  A82.AK3.KJ7.AKT6"]
 [Auction "S"]
 2C pass 2NT pass 3NT pass 6NT pass pass pass
 [Result ""]
-{You dealt this hand. Decide what you would bid, then click on BID above. [BID 2\C]
+{[show NS]
+You dealt this hand. Decide what you would bid, then click on BID above. [BID 2\C]
 
 
 
@@ -436,11 +411,12 @@ You show your balanced minimum by bidding 3NT, leaving further moves to partner.
 [Contract "7NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:652.J7532.T9.542 AK3.KQT.AJ2.KQJT 984.84.87643.976 QJT7.A96.KQ5.A83"]
+[Deal "W: AK3.KQT.AJ2.KQJT  QJT7.A96.KQ5.A83"]
 [Auction "N"]
 2C pass 2NT pass 3NT pass 7NT pass pass pass
 [Result ""]
-{The bidding has gone as shown. Decide what you would bid, then click on BID above. [BID 2NT]
+{[show NS]
+The bidding has gone as shown. Decide what you would bid, then click on BID above. [BID 2NT]
 
 
 
@@ -460,11 +436,12 @@ Hmmm, 22-24 points added to your 16 comes to 38-40 points. Looking apologeticall
 [Contract "6H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:J93.J94.KT3.JT94 AK.AKT86.75.AKQ6 QT7542.3.QJ2.872 86.Q752.A9864.53"]
+[Deal "W: AK.AKT86.75.AKQ6  86.Q752.A9864.53"]
 [Auction "N"]
 2C pass 2D pass 2H pass 3H pass 4C pass 4D pass 6H all pass
 [Result ""]
-{The bidding has gone as shown. Decide what you would bid, then click on BID above. [BID 2\D]
+{[show NS]
+The bidding has gone as shown. Decide what you would bid, then click on BID above. [BID 2\D]
 
 
 
@@ -476,7 +453,7 @@ You let partner know of your good support by bidding 3\H, which is a stronger bi
 
 
 
-Partner is not introducing a new suit here, you have already agreed on \Hs. He is making a control-showing bid of the \CA. He expects you to do the same if you can. Since you can show your Ace very conveniently below game level you bid 4\D. That was what he was hoping for, he bids 6\H.}
+Partner is not introducing a new suit here, you have already agreed on ! Hs. He is making a control-showing bid of the \CA. He expects you to do the same if you can. Since you can show your Ace very conveniently below game level you bid 4\D. That was what he was hoping for, he bids 6\H.}
 [BCFlags "1f"]
 
 
@@ -488,11 +465,12 @@ Partner is not introducing a new suit here, you have already agreed on \Hs. He i
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T743.93.AKT3.T64 AJ.AKT86.Q94.AKQ 2.QJ542.J762.J87 KQ9865.7.85.9532"]
+[Deal "W: AJ.AKT86.Q94.AKQ  KQ9865.7.85.9532"]
 [Auction "N"]
 2C pass 2D pass 2H pass 2S pass 2NT pass 3S pass 4S all pass
 [Result ""]
-{The bidding has gone as shown. Decide what you would bid, then click on BID above. [BID 2\D]
+{[show NS]
+The bidding has gone as shown. Decide what you would bid, then click on BID above. [BID 2\D]
 
 
 
@@ -500,11 +478,11 @@ Your 7 points isn't enough for a Positive response so you respond 2\D. Partner n
 
 
 
-You don't like the \Hs, but with a good suit of your own you can say 2\S. Partner now bids 2NT. What do you say? [BID 3\S]
+You don't like the ! Hs, but with a good suit of your own you can say 2\S. Partner now bids 2NT. What do you say? [BID 3\S]
 
 
 
-You know there are enough points for game so you must keep bidding. You should bid the \Ss one more time to show partner it is a 6-card suit. He then bids 4\S and everybody passes.}
+You know there are enough points for game so you must keep bidding. You should bid the ! Ss one more time to show partner it is a 6-card suit. He then bids 4\S and everybody passes.}
 [BCFlags "1f"]
 
 
@@ -516,11 +494,12 @@ You know there are enough points for game so you must keep bidding. You should b
 [Contract "7NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:4.T7432.J6542.J8 AJT75.8.A3.97642 982.QJ965.T87.T3 KQ63.AK.KQ9.AKQ5"]
+[Deal "W: AJT75.8.A3.97642  KQ63.AK.KQ9.AKQ5"]
 [Auction "S"]
 2C pass 2S pass 4NT pass 5H pass 7NT pass pass pass
 [Result ""]
-{You dealt this hand. Decide what you would bid, then click on BID above. [BID 2\C]
+{[show NS]
+You dealt this hand. Decide what you would bid, then click on BID above. [BID 2\C]
 
 
 
@@ -532,7 +511,7 @@ Partner has 8+ points and a good 5-card \S suit. You are absolutely sure you wil
 
 
 
-Obviously you could bid 7\S. But in fact you can count that there will be thirteen top tricks without a ruff; 5 \Ss, 2 \Hs, 3 \Ds and 3 \Cs. So you might as well bid 7NT.(By the way, the people who bid 7\S got the opening \C lead ruffed!)}
+Obviously you could bid 7\S. But in fact you can count that there will be thirteen top tricks without a ruff; 5 ! Ss, 2 ! Hs, 3 ! Ds and 3 ! Cs. So you might as well bid 7NT.(By the way, the people who bid 7\S got the opening \C lead ruffed!)}
 [BCFlags "1f"]
 
 
@@ -544,11 +523,12 @@ Obviously you could bid 7\S. But in fact you can count that there will be thirte
 [Contract "3NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:JT8.95.J8543.JT7 AKQ75.A6.AQ7.KQ3 942.8743.K2.A652 63.KQJT2.T96.984"]
+[Deal "W: AKQ75.A6.AQ7.KQ3  63.KQJT2.T96.984"]
 [Auction "N"]
 2C pass 2D pass 2S pass 3H pass 3NT pass pass pass
 [Result ""]
-{The bidding has gone as shown. Decide what you would bid, then click on BID above. [BID 2\D]
+{[show NS]
+The bidding has gone as shown. Decide what you would bid, then click on BID above. [BID 2\D]
 
 
 
@@ -556,7 +536,7 @@ With one more point you could have made a positive response. Instead, you bid 2\
 
 
 
-Not being in love with partner's \Ss, you have enough strength to now bid 3\H. Partner replies 3NT. What do you say? [BID pass]
+Not being in love with partner's ! Ss, you have enough strength to now bid 3\H. Partner replies 3NT. What do you say? [BID pass]
 
 
 

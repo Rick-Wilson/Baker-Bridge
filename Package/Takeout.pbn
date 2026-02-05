@@ -1,46 +1,6 @@
-% PBN 2.1
-% EXPORT
-%Content-type: text/x-pbn; charset=UTF-8
-%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
-%BidAndCardSpacing Thin
-%BoardsPerPage 1
-%CardTableColors #008000,#ffffff,#aaaaaa
-%DDAFormat 0
-%DefaultPagination 0
-%Font:CardTable "Arial",11,400,0
-%Font:Commentary "Georgia",12,400,0
-%Font:Diagram "Georgia",12,400,0
-%Font:Event "Georgia",20,700,0
-%Font:FixedPitch "Courier New",10,400,0
-%Font:HandRecord "Georgia",11,400,0
-%GutterSize 500,500
-%HRTitleDate 2023.10.17
-%HRTitleSetID ""
-%HRTitleSetIDPrefix ""
-%HRTitleSite ""
-%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
-%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
-%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
-%HtmlNavBar 0.75,#cfe2f3
-%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
-%Margins 1000,1000,1000,1000
-%PaperSize 1,2159,2794,2
-%ParaIndent 0
-%PipColors #000000,#ff0000,#ff0000,#000000
-%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
-%ScoreTableColors #e6e6e6,#000000
-%SectionSpacing 12,0,0
-%SelectedBoard 0
-%ShowBoardLabels 1
-%ShowCardTable 2
-%TSTCustomSortOrder Default
-%TSTReport List
-%TSTReportOrder ByNumber
-%TSTReportShade Yes
-%Translate "Board %" "Deal %"
-%Creator: CSVtoPBN Version 1.00
-%Created: 2026-01-23 13:57:51
-%sourcefilename BakerBridgeFull.csv
+%Creator: CSVtoPBN Version 1.01
+%Created: 2026-02-04 16:21:58
+%sourcefilename BakerBridge.csv
 %HRTitleEvent Takeout
 [Board "1"]
 [Event ""]
@@ -50,11 +10,12 @@
 [Contract "1H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:J8732.Q7.K63.AJ9 K5.JT53.9742.873 QT.642.AQJT5.K42 A964.AK98.8.QT65"]
+[Deal "W: K5.JT53.9742.873  A964.AK98.8.QT65"]
 [Auction "E"]
 1D X pass 1H pass pass pass
 [Result ""]
-{The bidding has been as shown. It is your bid. What do you say? [BID double]
+{[show NS]
+The bidding has been as shown. It is your bid. What do you say? [BID double]
 
 
 
@@ -62,7 +23,7 @@ You have a perfect hand for a Takeout Double. Singleton in their suit, 4-card su
 
 
 
-Yes, you like the \Hs. But remember, you forced partner to bid and his response showed 8 or fewer points. You are not strong enough to consider a game so you pass.}
+Yes, you like the ! Hs. But remember, you forced partner to bid and his response showed 8 or fewer points. You are not strong enough to consider a game so you pass.}
 [BCFlags "1f"]
 
 
@@ -74,11 +35,12 @@ Yes, you like the \Hs. But remember, you forced partner to bid and his response 
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:J652.642.J3.QT72 A983.QJ.7652.843 7.T753.AKQT94.K9 KQT4.AK98.8.AJ65"]
+[Deal "W: A983.QJ.7652.843  KQT4.AK98.8.AJ65"]
 [Auction "E"]
 1D X pass 1S pass 2S pass 4S pass pass pass
 [Result ""]
-{The bidding has been as shown. It is your bid. What do you say? [BID double]
+{[show NS]
+The bidding has been as shown. It is your bid. What do you say? [BID double]
 
 
 
@@ -98,11 +60,12 @@ With 17 HCP and the singleton you are not strong enough to insist on game. On th
 [Contract "3H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T975.94.K953.QJT K62.T853.864.964 J83.A72.A2.K8752 AQ4.KQJ6.QJT7.A3"]
+[Deal "W: K62.T853.864.964  AQ4.KQJ6.QJT7.A3"]
 [Auction "E"]
 1C X pass 1H pass 3H pass pass pass
 [Result ""]
-{The bidding has been as shown. It is your bid. What do you say? [BID double]
+{[show NS]
+The bidding has been as shown. It is your bid. What do you say? [BID double]
 
 
 
@@ -122,11 +85,12 @@ You need to make a strong invitation since partner needs very little for your si
 [Contract "2S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T972.T93.A4.J984 KJ83.Q75.73.K652 5.AKJ642.KQ965.Q AQ64.8.JT82.AT73"]
+[Deal "W: KJ83.Q75.73.K652  AQ64.8.JT82.AT73"]
 [Auction "E"]
 1H X pass 2S pass pass pass
 [Result ""]
-{The bidding has been as shown. It is your bid. What do you say? [BID double]
+{[show NS]
+The bidding has been as shown. It is your bid. What do you say? [BID double]
 
 
 
@@ -146,15 +110,16 @@ Partner shows 9-11 points and a \S suit. However, he didn't force you to game, a
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T752.JT6.J96.Q94 KJ83.Q75.73.K652 9.AK9432.KQ54.J8 AQ64.8.AT82.AT73"]
+[Deal "W: KJ83.Q75.73.K652  AQ64.8.AT82.AT73"]
 [Auction "E"]
 1H X pass 2S pass 4S pass pass pass
 [Result ""]
-{The bidding has been as shown. It is your bid. What do you say? [BID double]
+{[show NS]
+The bidding has been as shown. It is your bid. What do you say? [BID double]
 
 
 
-This is almost the hand you held in Deal 4 - just 3 points stronger in \Ds. So you double, and again partner jumps to 2\S. What do you bid? [BID 4\S]
+This is almost the hand you held in Deal 4 - just 3 points stronger in ! Ds. So you double, and again partner jumps to 2\S. What do you bid? [BID 4\S]
 
 
 
@@ -170,11 +135,12 @@ That extra 3 points makes all the difference. With that singleton \H your hand i
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:432.862.52.JT643 KQ95.AJ73.963.K7 A7.T95.KQJT84.Q2 JT86.KQ4.A7.A985"]
+[Deal "W: KQ95.AJ73.963.K7  JT86.KQ4.A7.A985"]
 [Auction "E"]
 1D X pass 2D 3D 3S pass 4S pass pass pass
 [Result ""]
-{The bidding has been as shown. It is your bid. What do you say? [BID double]
+{[show NS]
+The bidding has been as shown. It is your bid. What do you say? [BID double]
 
 
 
@@ -196,11 +162,12 @@ That was what partner needed to hear, he bids 4\S.}
 [Contract "1NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:J3.965.KQ2.JT842 AQ86.742.983.K75 KT742.AJ8.J76.Q3 95.KQT3.AT54.A96"]
+[Deal "W: AQ86.742.983.K75  95.KQT3.AT54.A96"]
 [Auction "E"]
 1S X pass 1NT pass pass pass
 [Result ""]
-{The bidding has been as shown. It is your bid. What do you say? [BID double]
+{[show NS]
+The bidding has been as shown. It is your bid. What do you say? [BID double]
 
 
 
@@ -208,7 +175,7 @@ The minimum requirements for a Takeout Double are 12 points, no more than two of
 
 
 
-With no suit fit you can't even count a point for your doubleton so you have just 13 HCP. Partner's bid shows 8-T so you waste no time in passing. Don't worry about the \Ss, partner says he has them covered.}
+With no suit fit you can't even count a point for your doubleton so you have just 13 HCP. Partner's bid shows 8-T so you waste no time in passing. Don't worry about the ! Ss, partner says he has them covered.}
 [BCFlags "1f"]
 
 
@@ -220,11 +187,12 @@ With no suit fit you can't even count a point for your doubleton so you have jus
 [Contract "3NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T3.96.964.T98432 AQ86.742.Q83.Q75 KJ742.AJ85.K72.J 95.KQT3.AJT5.AK6"]
+[Deal "W: AQ86.742.Q83.Q75  95.KQT3.AJT5.AK6"]
 [Auction "E"]
 1S X pass 1NT pass 3NT pass pass pass
 [Result ""]
-{The bidding has been as shown. It is your bid. What do you say? [BID double]
+{[show NS]
+The bidding has been as shown. It is your bid. What do you say? [BID double]
 
 
 
@@ -244,15 +212,16 @@ With no Major fit you are happy to play in notrump, knowing partner can stop the
 [Contract "4H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:T5.J8.Q832.JT732 7643.962.94.AK86 AQJ92.54.KJT6.Q5 K8.AKQT73.A75.94"]
+[Deal "W: 7643.962.94.AK86  K8.AKQT73.A75.94"]
 [Auction "E"]
 1S X pass 2C pass 2H pass 4H pass pass pass
 [Result ""]
-{The bidding has been as shown. It is your bid. What do you say? [BID double]
+{[show NS]
+The bidding has been as shown. It is your bid. What do you say? [BID double]
 
 
 
-You have 16 HCP and two more points for the fifth and sixth \Hs. That is too strong for a simple overcall. Instead you double. Partner responds 2\C. What do you bid? [BID 2\H]
+You have 16 HCP and two more points for the fifth and sixth ! Hs. That is too strong for a simple overcall. Instead you double. Partner responds 2\C. What do you bid? [BID 2\H]
 
 
 
@@ -268,11 +237,12 @@ You bid 2\H, describing your hand as a 1-suited hand, too strong to merely overc
 [Contract "2D"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:KQ2.AT98.964.K83 74.J5.K8732.Q762 JT963.642.Q.AJT5 A85.KQ73.AJT5.94"]
+[Deal "W: 74.J5.K8732.Q762  A85.KQ73.AJT5.94"]
 [Auction "W"]
 1C pass 1S X pass 2D pass pass pass
 [Result ""]
-{The bidding has been as shown. It is your bid. What do you say? [BID double]
+{[show NS]
+The bidding has been as shown. It is your bid. What do you say? [BID double]
 
 
 
@@ -294,11 +264,12 @@ Just pass. This is obviously a fight for the partscore and you have the advantag
 [Contract "4H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:AT.84.J432.K6542 J853.T962.Q96.73 KQ9642.Q75.87.T8 7.AKJ3.AKT5.AQJ9"]
+[Deal "W: J853.T962.Q96.73  7.AKJ3.AKT5.AQJ9"]
 [Auction "N"]
 pass 2S X pass 3H pass 4H pass pass pass
 [Result ""]
-{The bidding has been as shown. It is your bid. What do you say? [BID double]
+{[show NS]
+The bidding has been as shown. It is your bid. What do you say? [BID double]
 
 
 
@@ -306,7 +277,7 @@ Pretty good hand you have. Certainly good enough to make a Takeout Double that f
 
 
 
-Some questions don't have a correct answer. If partner has \H Q x x x along with the \CK and \DQ he would bid just as he did and slam would be cold. But if he has four small \Hs and nothing else he would bid just as he did and you probably cannot make ten tricks. On balance it is probably best to just bid the most likely reasonable contract, which is 4\H.}
+Some questions don't have a correct answer. If partner has \H Q x x x along with the \CK and \DQ he would bid just as he did and slam would be cold. But if he has four small ! Hs and nothing else he would bid just as he did and you probably cannot make ten tricks. On balance it is probably best to just bid the most likely reasonable contract, which is 4\H.}
 [BCFlags "1f"]
 
 
@@ -318,11 +289,12 @@ Some questions don't have a correct answer. If partner has \H Q x x x along with
 [Contract "3NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:8653.T96.Q973.84 AT42.753.86.KT65 K7.QJ42.K542.Q32 QJ9.AK8.AJT.AJ97"]
+[Deal "W: AT42.753.86.KT65  QJ9.AK8.AJT.AJ97"]
 [Auction "E"]
 1D X pass 1S pass 1NT pass 3NT pass pass pass
 [Result ""]
-{The bidding has been as shown. It is your bid. What do you say? [BID double]
+{[show NS]
+The bidding has been as shown. It is your bid. What do you say? [BID double]
 
 
 
@@ -342,11 +314,12 @@ You could not say 1NT on your first bid because that would show 15-18 points. Do
 [Contract "3NT"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:J743.JT965.85.T3 865.743.KQ742.52 AT2.Q2.963.KQ864 KQ9.AK8.AJT.AJ97"]
+[Deal "W: 865.743.KQ742.52  KQ9.AK8.AJT.AJ97"]
 [Auction "E"]
 1C X pass 1D pass 2NT pass 3NT pass pass pass
 [Result ""]
-{The bidding has been as shown. It is your bid. What do you say? [BID double]
+{[show NS]
+The bidding has been as shown. It is your bid. What do you say? [BID double]
 
 
 
@@ -366,11 +339,12 @@ The pattern continues. Overcall 1NT with 15-18. Double, then bid notrump with 19
 [Contract "2S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:84.KT9.KJT73.A92 AKT3.AJ82.AQ6.83 J72.765.94.KQJT5 Q965.Q43.852.764"]
+[Deal "W: AKT3.AJ82.AQ6.83  Q965.Q43.852.764"]
 [Auction "W"]
 1D X pass 1S pass 2S pass pass pass
 [Result ""]
-{The bidding has been as shown. It is your bid. What do you say? [BID 1\S]
+{[show NS]
+The bidding has been as shown. It is your bid. What do you say? [BID 1\S]
 
 
 
@@ -390,15 +364,16 @@ Partner obviously has a good hand. Your response showed 0-8 points and he still 
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:842.AKQT4.A973.2 AKJ3.52.KQT6.KQ5 T7.J96.J52.T8743 Q965.873.84.AJ96"]
+[Deal "W: AKJ3.52.KQT6.KQ5  Q965.873.84.AJ96"]
 [Auction "W"]
 1H X pass 1S pass 2S pass 4S pass pass pass
 [Result ""]
-{The bidding has been as shown. It is your bid. What do you say? [BID 1\S]
+{[show NS]
+The bidding has been as shown. It is your bid. What do you say? [BID 1\S]
 
 
 
-With 7 points you must make a minimum response. Even though \Cs is your best suit you should prefer to show a 4-card Major. So you bid 1\S. Partner raises to 2\S and it is your turn to bid. [BID 4\S]
+With 7 points you must make a minimum response. Even though ! Cs is your best suit you should prefer to show a 4-card Major. So you bid 1\S. Partner raises to 2\S and it is your turn to bid. [BID 4\S]
 
 
 
@@ -414,11 +389,12 @@ Your first response showed 0-8 points. Knowing that, partner still invited you t
 [Contract "4H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:QJT632.Q.A54.QJ6 9.A932.KT63.AK75 K87.J875.72.T942 A54.KT64.QJ98.83"]
+[Deal "W: 9.A932.KT63.AK75  A54.KT64.QJ98.83"]
 [Auction "W"]
 1S X pass 3H pass 4H pass pass pass
 [Result ""]
-{The bidding has been as shown. It is your bid. What do you say? [BID 3\H]
+{[show NS]
+The bidding has been as shown. It is your bid. What do you say? [BID 3\H]
 
 
 
@@ -434,11 +410,12 @@ Your hand falls in the 9-11 point mid-range response where you make a jump bid. 
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:64.KQJT.7.KQJT95 KQ95.A874.AJ3.64 J82.632.86542.32 AT73.95.KQT9.A87"]
+[Deal "W: KQ95.A874.AJ3.64  AT73.95.KQT9.A87"]
 [Auction "W"]
 1C X pass 2C pass 2H pass 2S pass 4S pass pass pass
 [Result ""]
-{The bidding has been as shown. It is your bid. What do you say? [BID 2\C]
+{[show NS]
+The bidding has been as shown. It is your bid. What do you say? [BID 2\C]
 
 
 
@@ -446,7 +423,7 @@ Partner has an opening hand and you have an opening hand. Your first priority is
 
 
 
-With both of you knowing you will reach game, partner has suggested \Hs. You don't care much for that suggestion, but would now consider 3NT. However, you should first mention your 4-card \S suit. Having found the fit, partner bids game.}
+With both of you knowing you will reach game, partner has suggested ! Hs. You don't care much for that suggestion, but would now consider 3NT. However, you should first mention your 4-card \S suit. Having found the fit, partner bids game.}
 [BCFlags "1f"]
 
 
@@ -458,11 +435,12 @@ With both of you knowing you will reach game, partner has suggested \Hs. You don
 [Contract "4H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:AQJ92.6.J952.KT2 T3.K952.AK73.Q95 876.A4.T86.J8743 K54.QJT873.Q4.A6"]
+[Deal "W: T3.K952.AK73.Q95  K54.QJT873.Q4.A6"]
 [Auction "W"]
 1S X pass 4H pass pass pass
 [Result ""]
-{The bidding has been as shown. It is your bid. What do you say? [BID 4\H]
+{[show NS]
+The bidding has been as shown. It is your bid. What do you say? [BID 4\H]
 
 
 
@@ -480,15 +458,16 @@ Notice that if you had made a cuebid, partner would probably end up playing 4\H 
 [Contract "2S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:.KJ65.AKJT3.K853 AKQT942.87..AQ42 J873.AT93.Q86.J7 65.Q42.97542.T96"]
+[Deal "W: AKQT942.87..AQ42  65.Q42.97542.T96"]
 [Auction "W"]
 1D X pass 1H pass 2S pass pass pass
 [Result ""]
-{The bidding has been as shown. It is your bid. What do you say? [BID 1\H]
+{[show NS]
+The bidding has been as shown. It is your bid. What do you say? [BID 1\H]
 
 
 
-Don't even think about bidding 1NT. You are way way too weak for that. Don't even think about passing for penalties. Your \D are nowhere near good enough. Partner is forcing you to bid a suit, so you bid your best non-\D suit, \Hs. Partner now jumps to 2\S. What do you say? [BID pass]
+Don't even think about bidding 1NT. You are way way too weak for that. Don't even think about passing for penalties. Your \D are nowhere near good enough. Partner is forcing you to bid a suit, so you bid your best non-\D suit, ! Hs. Partner now jumps to 2\S. What do you say? [BID pass]
 
 
 
@@ -504,11 +483,12 @@ You say pass. Despite partner showing you a big hand you just can't help him. }
 [Contract "4S"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:7.AKQ732.KQJ.J97 AKQ864.8.A85.K62 T32.JT5.T9432.Q4 J95.964.76.AT853"]
+[Deal "W: AKQ864.8.A85.K62  J95.964.76.AT853"]
 [Auction "W"]
 1H X pass 2C 2H 2S pass 3S pass 4S pass pass pass
 [Result ""]
-{The bidding has been as shown. It is your bid. What do you say? [BID 2\C]
+{[show NS]
+The bidding has been as shown. It is your bid. What do you say? [BID 2\C]
 
 
 
@@ -528,11 +508,12 @@ By doubling and then bidding his own suit, partner is showing a good hand, at le
 [Contract "3C"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:K2.AT2.KQJT65.53 A84.KQJ6.92.KQJ7 QT73.954.A73.T92 J965.873.84.A864"]
+[Deal "W: A84.KQJ6.92.KQJ7  J965.873.84.A864"]
 [Auction "W"]
 1D X 1S pass 2D X pass 3C pass pass pass
 [Result ""]
-{The bidding has been as shown. It is your bid. What do you say? [BID pass]
+{[show NS]
+The bidding has been as shown. It is your bid. What do you say? [BID pass]
 
 
 
@@ -540,7 +521,7 @@ Now that East has stolen your response you aren't strong enough to make a free-b
 
 
 
-This is not a penalty double, partner is merely repeating his request for you to name a suit. But now he expects you to choose between \Hs and \Cs.
+This is not a penalty double, partner is merely repeating his request for you to name a suit. But now he expects you to choose between ! Hs and ! Cs.
 
 You bid 3\C and everybody passes.
 
@@ -556,11 +537,12 @@ You may be one too high, but that still might be a good score if they can make 2
 [Contract "2H"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:6.87.AKQJ63.J963 A975.KJ3.97.KQ52 KQJT42.A42.T5.T7 83.QT965.842.A84"]
+[Deal "W: A975.KJ3.97.KQ52  83.QT965.842.A84"]
 [Auction "W"]
 1D X 1S 2H pass pass pass
 [Result ""]
-{The bidding has been as shown. It is your bid. What do you say? [BID 2\H]
+{[show NS]
+The bidding has been as shown. It is your bid. What do you say? [BID 2\H]
 
 
 
@@ -580,11 +562,12 @@ You bid 2\H and everybody passes.}
 [Contract "2D"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:AQT2.63.KQJ84.K9 K873.KJ4.76.AQ52 J96.AT8.AT3.JT84 54.Q9752.952.763"]
+[Deal "W: K873.KJ4.76.AQ52  54.Q9752.952.763"]
 [Auction "W"]
 1D X XX 1H pass pass 2D pass pass pass
 [Result ""]
-{The bidding has been as shown. It is your bid. What do you say? [BID 1\H]
+{[show NS]
+The bidding has been as shown. It is your bid. What do you say? [BID 1\H]
 
 
 
@@ -604,11 +587,12 @@ On this deal your \H bid gets passed around to East who bids 2\D, the final cont
 [Contract "5C"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:QJ862.9742.9.532 3.KQ.QJT62.KQT84 A54.AJT653.854.7 KT97.8.AK73.AJ96"]
+[Deal "W: 3.KQ.QJT62.KQT84  KT97.8.AK73.AJ96"]
 [Auction "E"]
 2H X pass 3H pass 3S pass 4C pass 5C pass pass pass
 [Result ""]
-{The bidding has been as shown. It is your bid. What do you say? [BID double]
+{[show NS]
+The bidding has been as shown. It is your bid. What do you say? [BID double]
 
 
 
@@ -620,7 +604,7 @@ After partner cuebids the next job is to find a suit, so you bid 3\S. Partner no
 
 
 
-You cannot stop short of game. Partner has apparently rejected your \S suggestion. Since you are happy to play in \Cs you bid 5\C.}
+You cannot stop short of game. Partner has apparently rejected your \S suggestion. Since you are happy to play in ! Cs you bid 5\C.}
 [BCFlags "1f"]
 
 
@@ -632,11 +616,12 @@ You cannot stop short of game. Partner has apparently rejected your \S suggestio
 [Contract "1CX"]
 [Vulnerable "None"]
 [Student "S"]
-[Deal "W:J732.KQJT.A4.K52 AQ86.A742.KJT5.7 T54.963.9873.A84 K9.85.Q62.QJT963"]
+[Deal "W: AQ86.A742.KJT5.7  K9.85.Q62.QJT963"]
 [Auction "W"]
 1C X pass pass pass
 [Result ""]
-{The bidding has been as shown. It is your bid. What do you say? [BID pass]
+{[show NS]
+The bidding has been as shown. It is your bid. What do you say? [BID pass]
 
 
 
