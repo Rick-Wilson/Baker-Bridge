@@ -70,8 +70,8 @@ def extract_hands(soup):
     return remove_voids_from_hands(hands)
 
 def extract_hands_from_table(table):
-    """Extract N/S hands from a single table element."""
-    hands = {"North": None, "South": None}
+    """Extract N/S/E/W hands from a single table element."""
+    hands = {"North": None, "South": None, "East": None, "West": None}
 
     td_elements = table.find_all("td")
 
@@ -94,6 +94,25 @@ def extract_hands_from_table(table):
             if "♠" in text and "♥" in text and "♦" in text and "♣" in text:
                 hands["South"] = parse_hand(text)
                 break
+
+    # Extract East and West hands (in same row as t1.gif image)
+    for tr in table.find_all("tr"):
+        tds = tr.find_all("td")
+        if len(tds) >= 3:
+            if tds[1].find("img", {"src": "../t1.gif"}):  # Check for t1.gif in the second <td>
+                west_td = tds[0]
+                east_td = tds[2]
+
+                west_text = west_td.get_text()
+                east_text = east_td.get_text()
+
+                # Check if West hand is visible (has all 4 suits)
+                if "♠" in west_text and "♥" in west_text and "♦" in west_text and "♣" in west_text:
+                    hands["West"] = parse_hand(west_text)
+
+                # Check if East hand is visible (has all 4 suits)
+                if "♠" in east_text and "♥" in east_text and "♦" in east_text and "♣" in east_text:
+                    hands["East"] = parse_hand(east_text)
 
     return remove_voids_from_hands(hands)
 
@@ -134,8 +153,9 @@ def parse_hand_to_cards(hand_str):
 
 def extract_hands_by_anchor(soup):
     """
-    Extract hands at each anchor section and detect which cards were played.
-    Returns a list of dicts with 'anchor', 'played_north', 'played_south' keys.
+    Extract hands at each anchor section and detect which cards were played
+    and when E/W hands become visible.
+    Returns a list of dicts with 'anchor', 'played_north', 'played_south', 'show_directive' keys.
     """
     anchors = soup.find_all("a", attrs={"name": True})
 
@@ -157,24 +177,31 @@ def extract_hands_by_anchor(soup):
         north_cards = parse_hand_to_cards(hands.get("North"))
         south_cards = parse_hand_to_cards(hands.get("South"))
 
+        # Track E/W visibility (True if hand is present)
+        east_visible = hands.get("East") is not None
+        west_visible = hands.get("West") is not None
+
         section_hands.append({
             "anchor": anchor_name,
             "north": north_cards,
             "south": south_cards,
             "north_raw": hands.get("North"),
-            "south_raw": hands.get("South")
+            "south_raw": hands.get("South"),
+            "east_visible": east_visible,
+            "west_visible": west_visible
         })
 
-    # Compare consecutive sections to find played cards
+    # Compare consecutive sections to find played cards and visibility changes
     played_by_section = []
 
     for i in range(len(section_hands)):
         if i == 0:
-            # First section - no cards played yet
+            # First section - no cards played yet, no visibility change
             played_by_section.append({
                 "anchor": section_hands[i]["anchor"],
                 "played_north": set(),
-                "played_south": set()
+                "played_south": set(),
+                "show_directive": None
             })
         else:
             prev = section_hands[i-1]
@@ -192,10 +219,20 @@ def extract_hands_by_anchor(soup):
             if prev["south"] and curr["south"]:
                 played_south = prev["south"] - curr["south"]
 
+            # Detect when E/W hands become visible
+            show_directive = None
+            ew_now_visible = curr["east_visible"] or curr["west_visible"]
+            ew_was_visible = prev["east_visible"] or prev["west_visible"]
+
+            if ew_now_visible and not ew_was_visible:
+                # E/W hands just became visible - show all hands
+                show_directive = "[show NESW]"
+
             played_by_section.append({
                 "anchor": section_hands[i]["anchor"],
                 "played_north": played_north,
-                "played_south": played_south
+                "played_south": played_south,
+                "show_directive": show_directive
             })
 
     return played_by_section
@@ -438,15 +475,23 @@ def extract_progressive_analysis(soup,filepath):
 #         print(analysis)
 #         print()
 
-    # Inject [PLAY] directives into analysis lines based on section
+    # Inject [PLAY] and [show] directives into analysis lines based on section
     # The played_by_section list matches anchors 1, 2, 3... to analysis lines
     for i, section_info in enumerate(played_by_section):
         played_n = section_info.get("played_north", set())
         played_s = section_info.get("played_south", set())
-        if i < len(analysis_lines) and (played_n or played_s):
-            played_directive = format_played_directive(played_n, played_s)
-            # Insert the played directive at the start of this section's analysis
-            analysis_lines[i] = played_directive + "\\n" + analysis_lines[i]
+        show_directive = section_info.get("show_directive")
+
+        if i < len(analysis_lines):
+            prefix = ""
+            # Add show directive if E/W hands just became visible
+            if show_directive:
+                prefix = show_directive + "\\n"
+            # Add play directive if cards were played
+            if played_n or played_s:
+                prefix += format_played_directive(played_n, played_s) + "\\n"
+            if prefix:
+                analysis_lines[i] = prefix + analysis_lines[i]
 
     # Add [RESET] tag to step AFTER one that mentions "complete deal" or "full deal"
     # This shows original hands when viewing the complete deal
