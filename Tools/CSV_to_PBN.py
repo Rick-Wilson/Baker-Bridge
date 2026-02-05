@@ -134,6 +134,7 @@ def process_analysis(analysis, student=None, declarer=None):
 
             # For play instruction mode, inject [AUCTION off] and [SHOW_LEAD] AFTER the first [NEXT]
             # This shows auction initially, then hides it when user clicks Next
+            # Hand visibility is controlled separately by [show ...] directives in the content
             if auction_directive and lead_directive:
                 # Find the first [NEXT] and insert directives after it
                 first_next_match = re.search(r'\[NEXT\]', analysis, re.IGNORECASE)
