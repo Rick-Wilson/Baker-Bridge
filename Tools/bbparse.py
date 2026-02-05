@@ -238,6 +238,7 @@ def extract_hands_by_anchor(soup):
                 initial_show = "[show " + "".join(visible_seats) + "]"
 
             # Generate [showcards] directive for partial hands
+            # Use space between seats, comma between cards for same seat
             showcards_directive = None
             if partial_cards:
                 parts = []
@@ -245,7 +246,7 @@ def extract_hands_by_anchor(soup):
                     if seat in partial_cards:
                         cards_str = ",".join(partial_cards[seat])
                         parts.append(f"{seat}:{cards_str}")
-                showcards_directive = "[showcards " + ",".join(parts) + "]"
+                showcards_directive = "[showcards " + " ".join(parts) + "]"
 
             played_by_section.append({
                 "anchor": section["anchor"],
@@ -307,13 +308,14 @@ def extract_hands_by_anchor(soup):
                 show_directive = "[show " + "".join(curr_full_visible) + "]"
 
             # Generate showcards for any newly appearing partial hands
+            # Use space between seats, comma between cards for same seat
             if curr_partial:
                 parts = []
                 for seat in ["N", "E", "S", "W"]:
                     if seat in curr_partial:
                         cards_str = ",".join(curr_partial[seat])
                         parts.append(f"{seat}:{cards_str}")
-                showcards_directive = "[showcards " + ",".join(parts) + "]"
+                showcards_directive = "[showcards " + " ".join(parts) + "]"
 
             played_by_section.append({
                 "anchor": curr["anchor"],
