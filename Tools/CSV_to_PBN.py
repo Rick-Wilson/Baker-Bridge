@@ -3,8 +3,9 @@ import csv
 import sys
 import datetime
 import re
+import json
 
-VERSION = "1.03"
+VERSION = "1.04"
 
 # =============================================================================
 # BAKER BRIDGE TAXONOMY
@@ -379,6 +380,76 @@ BAKER_BRIDGE_TAXONOMY = {
 }
 
 
+# Category display order for toc.json
+CATEGORY_ORDER = [
+    'Basic Bidding',
+    'Bidding Conventions',
+    'Competitive Bidding',
+    'Declarer Play',
+    'Defense',
+    'Practice Deals',
+    'Partnership Bidding'
+]
+
+def generate_toc_json(output_dir="../Package"):
+    """
+    Generate toc.json from BAKER_BRIDGE_TAXONOMY.
+    This file is consumed by Bridge-Classroom for lesson navigation.
+    """
+    # Group lessons by category
+    categories_dict = {}
+    for lesson_id, info in BAKER_BRIDGE_TAXONOMY.items():
+        category = info['category']
+        if category not in categories_dict:
+            categories_dict[category] = []
+        categories_dict[category].append({
+            'id': lesson_id,
+            'name': info['name'],
+            'description': info['description'],
+            'difficulty': info['difficulty']
+        })
+
+    # Build categories array in display order
+    categories = []
+    for cat_name in CATEGORY_ORDER:
+        if cat_name in categories_dict:
+            # Sort lessons within category by name
+            lessons = sorted(categories_dict[cat_name], key=lambda x: x['name'])
+            categories.append({
+                'id': cat_name.lower().replace(' ', '_'),
+                'name': cat_name,
+                'lessons': lessons
+            })
+
+    # Add any categories not in CATEGORY_ORDER (shouldn't happen, but just in case)
+    for cat_name, lessons in categories_dict.items():
+        if cat_name not in CATEGORY_ORDER:
+            lessons = sorted(lessons, key=lambda x: x['name'])
+            categories.append({
+                'id': cat_name.lower().replace(' ', '_'),
+                'name': cat_name,
+                'lessons': lessons
+            })
+
+    toc = {
+        'name': 'Baker Bridge',
+        'description': 'Classic bridge lessons covering bidding conventions and play',
+        'icon': '\u2660',  # ♠
+        'version': VERSION,
+        'generatedAt': datetime.datetime.now().isoformat(),
+        'categories': categories
+    }
+
+    # Write toc.json
+    os.makedirs(output_dir, exist_ok=True)
+    toc_path = os.path.join(output_dir, 'toc.json')
+    with open(toc_path, 'w', encoding='utf-8') as f:
+        json.dump(toc, f, indent=2, ensure_ascii=False)
+
+    print(f"Generated {toc_path}")
+    return toc_path
+
+
 def get_taxonomy_info(subfolder):
     """
     Get taxonomy info for a subfolder.
@@ -660,4 +731,9 @@ def convert_csv_to_pbn(csv_filename, header_filename=None, source_filename=None)
             write_pbn(file_path, pbn_content)
     
 if __name__ == "__main__":
+    # Convert CSV to PBN files
     convert_csv_to_pbn(*sys.argv[1:])
+
+    # Generate toc.json for Bridge-Classroom
+    # Output to Package folder (sibling of Tools)
+    generate_toc_json("../Package")
