@@ -129,13 +129,18 @@ def process_analysis(analysis, student=None, declarer=None):
             prefix = show_directive
             if rotate_directive:
                 prefix += "\n" + rotate_directive
-            # Add auction and lead directives for play instruction mode
-            if auction_directive:
-                prefix += "\n" + auction_directive
-            if lead_directive:
-                prefix += "\n" + lead_directive
             prefix += "\n"
             analysis = prefix + analysis
+
+            # For play instruction mode, inject [AUCTION off] and [SHOW_LEAD] AFTER the first [NEXT]
+            # This shows auction initially, then hides it when user clicks Next
+            if auction_directive and lead_directive:
+                # Find the first [NEXT] and insert directives after it
+                first_next_match = re.search(r'\[NEXT\]', analysis, re.IGNORECASE)
+                if first_next_match:
+                    insert_pos = first_next_match.end()
+                    directives_to_insert = f"\n{auction_directive}\n{lead_directive}"
+                    analysis = analysis[:insert_pos] + directives_to_insert + analysis[insert_pos:]
 
         # Inject final [show NESW] if there's a reveal trigger
         analysis = inject_final_show(analysis)
