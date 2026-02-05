@@ -1,22 +1,23 @@
-%Creator: CSVtoPBN Version 1.02
-%Created: 2026-02-05 09:36:22
+%Creator: CSVtoPBN Version 1.03
+%Created: 2026-02-05 09:48:38
 %sourcefilename BakerBridge.csv
 %HRTitleEvent Squeeze
-[Board "1"]
 [Event "Baker Bridge - Squeeze Plays"]
-[SkillPath "declarer_play/squeeze_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Squeeze 1}
+[Board "1"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:76.76.8765.QJ987 AQ32.543.432.432 JT98.JT98.T9.T65 K54.AKQ2.AKQJ.AK"]
 [Declarer "S"]
 [Contract "7NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:76.76.8765.QJ987 AQ32.543.432.432 JT98.JT98.T9.T65 K54.AKQ2.AKQJ.AK"]
+[Result ""]
 [Auction "S"]
 2C pass 2D pass 3D pass 3S pass 4NT pass 5D pass 7NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/squeeze_plays"]
+[Student "S"]
+{Baker Squeeze 1}
 {[show NS]
 Never mind the bidding. South is to play 7NT. West leads the \CQ.
 
@@ -53,24 +54,24 @@ This type of squeeze is called an <i>automatic squeeze</i> because it operates e
 This time it is West who holds the only Guards in both \Ss and \Hs.
 
 You play the \CA and he must give up one of those Guards.}
-[BCFlags "1f"]
 [Play "W"]CQ
 
-[Board "2"]
 [Event "Baker Bridge - Squeeze Plays"]
-[SkillPath "declarer_play/squeeze_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Squeeze 2}
+[Board "2"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:862.AKT2.JT93.T3 975.Q863.Q742.64 QJT3.J9754.86.52 AK4..AK5.AKQJ987"]
 [Declarer "S"]
 [Contract "7C"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:862.AKT2.JT93.T3 975.Q863.Q742.64 QJT3.J9754.86.52 AK4..AK5.AKQJ987"]
+[Result ""]
 [Auction "S"]
 2C pass 2D pass 3C pass 3H pass 4NT pass 5C pass 7C pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/squeeze_plays"]
+[Student "S"]
+{Baker Squeeze 2}
 {[show NS]
 South is to play 7\C. West leads the \HK.
 
@@ -111,24 +112,24 @@ East holds the only Guards in both red suits, but he cannot be squeezed.
 You must play from dummy BEFORE East plays, so he just matches whatever you do.
 
 If you discard the \HQ East will throw his \HA. If you discard dummy's fourth \D, East will throw his fourth \D.}
-[BCFlags "1f"]
 [Play "W"]HK
 
-[Board "3"]
 [Event "Baker Bridge - Squeeze Plays"]
-[SkillPath "declarer_play/squeeze_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Squeeze 3}
+[Board "3"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:95.T752.T3.KQJ42 AK73.Q93.A65.A86 JT62.84.J984.973 Q84.AKJ6.KQ72.T5"]
 [Declarer "S"]
 [Contract "6NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:95.T752.T3.KQJ42 AK73.Q93.A65.A86 JT62.84.J984.973 Q84.AKJ6.KQ72.T5"]
+[Result ""]
 [Auction "S"]
 1NT pass 6NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/squeeze_plays"]
+[Student "S"]
+{Baker Squeeze 3}
 {[show NS]
 South is to play 6NT. West leads the \CK.
 
@@ -157,24 +158,24 @@ East has no problems on the first 3, he just plays his 2 \Hs and 1 \C. [NEXT]
 Here is the situation just as you are about to play the Squeeze Card, the \HA.
 
 You will toss dummy's \C8 and East will have to decide whether it is better for him to throw a \S or a \D. He doesn't know that discarding either one is going to hand you the contract, so he will probably discard a \D.  }
-[BCFlags "1f"]
 [Play "W"]CK
 
-[Board "4"]
 [Event "Baker Bridge - Squeeze Plays"]
-[SkillPath "declarer_play/squeeze_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Squeeze 4}
+[Board "4"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:KQT.QJ9852.T3.95 742.AK3.AQ74.KJ3 9865.T.9852.8642 AJ3.764.KJ6.AQT7"]
 [Declarer "S"]
 [Contract "6NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:KQT.QJ9852.T3.95 742.AK3.AQ74.KJ3 9865.T.9852.8642 AJ3.764.KJ6.AQT7"]
+[Result ""]
 [Auction "S"]
 1NT 2H 6NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/squeeze_plays"]
+[Student "S"]
+{Baker Squeeze 4}
 {[show NS]
 South is to play 6NT. West leads the \SK.
 
@@ -209,24 +210,24 @@ When you now play your \CA, discarding a \S from dummy, West is squeezed.
 If he discards the \ST, then his \SQ will fall underneath your \SA, establishing your \SJ.
 
 But if he instead throws the \H9, both of dummy's \Hs will become winners.}
-[BCFlags "1f"]
 [Play "W"]SK
 
-[Board "5"]
 [Event "Baker Bridge - Squeeze Plays"]
-[SkillPath "declarer_play/squeeze_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Squeeze 5}
+[Board "5"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:T8.KQJ963.T4.763 AKQ6.742.KQJ7.K5 J943.5.8652.JT94 752.AT8.A93.AQ82"]
 [Declarer "S"]
 [Contract "6NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:T8.KQJ963.T4.763 AKQ6.742.KQJ7.K5 J943.5.8652.JT94 752.AT8.A93.AQ82"]
+[Result ""]
 [Auction "S"]
 1C 2H X pass 2NT pass 6NT all pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/squeeze_plays"]
+[Student "S"]
+{Baker Squeeze 5}
 {[show NS]
 South is to play 6NT. West leads the \HK.
 
@@ -265,24 +266,24 @@ If East discards the \SJ you will cash dummy's \S6, then win the last 3 \C trick
 So East will no doubt throw a \C instead. In which case you win the last 4 \C tricks.
 
 Squeezes are so very satisfying.}
-[BCFlags "1f"]
 [Play "W"]HK
 
-[Board "6"]
 [Event "Baker Bridge - Squeeze Plays"]
-[SkillPath "declarer_play/squeeze_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Squeeze 6}
+[Board "6"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:KT73.KQT6.32.T95 Q52.A82.Q864.KQ2 J9864.953.T.J863 A.J74.AKJ975.A74"]
 [Declarer "S"]
 [Contract "6D"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:KT73.KQT6.32.T95 Q52.A82.Q864.KQ2 J9864.953.T.J863 A.J74.AKJ975.A74"]
+[Result ""]
 [Auction "S"]
 1D pass 2NT pass 4D pass 5D pass 6D pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/squeeze_plays"]
+[Student "S"]
+{Baker Squeeze 6}
 {[show NS]
 South is to play 6\D. West leads the \HK.
 
@@ -317,24 +318,24 @@ But when you play the \D7 he is squeezed.
 He cannot dump his \SK because you would throw the \H8 and dummy would be high.
 
 So he will discard the \HT instead. At this point you know that the \SQ is worthless so you discard it. You win the final two tricks with the \HA and \HJ.}
-[BCFlags "1f"]
 [Play "W"]HK
 
-[Board "7"]
 [Event "Baker Bridge - Squeeze Plays"]
-[SkillPath "declarer_play/squeeze_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Squeeze 7}
+[Board "7"]
 [Dealer "E"]
+[Vulnerable "None"]
+[Deal "W:6542.J.9843.JT93 AKJ.K73.A652.864 QT93.T54.KJT.AKQ 87.AQ9862.Q7.752"]
 [Declarer "S"]
 [Contract "4H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:6542.J.9843.JT93 AKJ.K73.A652.864 QT93.T54.KJT.AKQ 87.AQ9862.Q7.752"]
+[Result ""]
 [Auction "E"]
 1NT 2H pass 4H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/squeeze_plays"]
+[Student "S"]
+{Baker Squeeze 7}
 {[show NS]
 South is to play 4\H. West leads the \CJ. East wins \C A K Q then switches to a trump.
 
@@ -385,24 +386,24 @@ If you discard the \D6 East will throw his \DJ, then sit back and wait for his \
 But if you discard dummy's \SJ instead, East will match that by throwing his \S9, then sit back and wait for his \DK trick.
 
 Only by visualizing the ending and using the Vienna Coup can this hand be made.}
-[BCFlags "1f"]
 [Play "W"]CJ
 
-[Board "8"]
 [Event "Baker Bridge - Squeeze Plays"]
-[SkillPath "declarer_play/squeeze_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Squeeze 8}
+[Board "8"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:JT65.KQJ75.92.84 A2.93.AK86.KQT65 K9843.T862.JT73. Q7.A4.Q54.AJ9732"]
 [Declarer "S"]
 [Contract "6C"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:JT65.KQJ75.92.84 A2.93.AK86.KQT65 K9843.T862.JT73. Q7.A4.Q54.AJ9732"]
+[Result ""]
 [Auction "S"]
 1C pass 2D pass 3C pass 4C pass 4H pass 4S pass 6C pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/squeeze_plays"]
+[Student "S"]
+{Baker Squeeze 8}
 {[show NS]
 South is to play 6\C. West leads the \HK.
 
@@ -433,24 +434,24 @@ He can see that if he discards a \D dummy will be high, so he will probably thro
 As an afterthought to this Deal, let us suppose you were playing 6NT rather than 6\C.
 
 The only difference would be that to rectify the count you would have to hold up once on the opening \HK.}
-[BCFlags "1f"]
 [Play "W"]HK
 
-[Board "9"]
 [Event "Baker Bridge - Squeeze Plays"]
-[SkillPath "declarer_play/squeeze_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Squeeze 9}
+[Board "9"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:9.T532.QJ9642.T7 AKQ752.864.75.63 JT86.97.T83.J984 43.AKQJ.AK.AKQ52"]
 [Declarer "S"]
 [Contract "7NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:9.T532.QJ9642.T7 AKQ752.864.75.63 JT86.97.T83.J984 43.AKQJ.AK.AKQ52"]
+[Result ""]
 [Auction "N"]
 2S pass 2NT pass 3NT pass 7NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/squeeze_plays"]
+[Student "S"]
+{Baker Squeeze 9}
 {[show NS]
 North's 3NT rebid shows 6 \Ss headed by A K Q and nothing else. South is to play 7NT. West leads the \DQ.
 
@@ -477,24 +478,24 @@ Don't play \Ss yet!
 Play your \DA. East must give up. 
 
 If he throws the \CJ, you win. But if he throws a \S you also win. This is what is called a Win-Win bridge play.}
-[BCFlags "1f"]
 [Play "W"]DQ
 
-[Board "10"]
 [Event "Baker Bridge - Squeeze Plays"]
-[SkillPath "declarer_play/squeeze_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Squeeze 10}
+[Board "10"]
 [Dealer "E"]
+[Vulnerable "None"]
+[Deal "W:853.QT72.JT84.63 T6.AK86.973.AKQJ 9742.J4.A652.952 AKQJ.953.KQ.T874"]
 [Declarer "S"]
 [Contract "6NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:853.QT72.JT84.63 T6.AK86.973.AKQJ 9742.J4.A652.952 AKQJ.953.KQ.T874"]
+[Result ""]
 [Auction "E"]
 pass 1NT pass 2C pass 2S pass 6NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/squeeze_plays"]
+[Student "S"]
+{Baker Squeeze 10}
 {[show NS]
 South is to play 6NT. West leads the \DJ. East takes the \DA and returns the \D2.
 
@@ -529,24 +530,24 @@ Play your \SJ and watch what West discards.
 If he holds on to the \DT you will discard dummy's useless \D9 and hope the \Hs all fall under the \H A K.
 
 If he discards the \DT then you throw dummy's small \H and dummy wins the last three tricks.}
-[BCFlags "1f"]
 [Play "W"]DJ
 
-[Board "11"]
 [Event "Baker Bridge - Squeeze Plays"]
-[SkillPath "declarer_play/squeeze_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Squeeze 11}
+[Board "11"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:742.JT963.864.J6 AKQ5.75.T72.AT75 JT86.A842.5.K942 93.KQ.AKQJ93.Q83"]
 [Declarer "S"]
 [Contract "6NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:742.JT963.864.J6 AKQ5.75.T72.AT75 JT86.A842.5.K942 93.KQ.AKQJ93.Q83"]
+[Result ""]
 [Auction "N"]
 1C pass 2D pass 2S pass 4NT pass 5H pass 6NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/squeeze_plays"]
+[Student "S"]
+{Baker Squeeze 11}
 {[show NS]
 South is to play 6NT. West leads the \HJ. East wins the \HA and returns the \H2.
 
@@ -579,24 +580,24 @@ So far neither defender is hurting, but that is about to change.
 You play your \D3 and discard dummy's \CT.
 
 East is squeezed. He can't throw his \CK without letting your \CQ become a winner. But if he discards a \S dummy's \S5 will win the last trick. This is soooo much fun.}
-[BCFlags "1f"]
 [Play "W"]HJ
 
-[Board "12"]
 [Event "Baker Bridge - Squeeze Plays"]
-[SkillPath "declarer_play/squeeze_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Squeeze 12}
+[Board "12"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:QJT64.T.T9742.82 93.K9863.A6.AKQ5 A852.4.KQ83.JT93 K7.AQJ752.J5.764"]
 [Declarer "S"]
 [Contract "6H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:QJT64.T.T9742.82 93.K9863.A6.AKQ5 A852.4.KQ83.JT93 K7.AQJ752.J5.764"]
+[Result ""]
 [Auction "S"]
 1H pass 3C pass 3H pass 6H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/squeeze_plays"]
+[Student "S"]
+{Baker Squeeze 12}
 {[show NS]
 South is to play 6\H. West leads the \SQ. East wins the \SA and plays the \DK.
 
@@ -623,24 +624,24 @@ Drum roll please.
 Play your \H2 and dump dummy's \D6.
 
 East has no answer.}
-[BCFlags "1f"]
 [Play "W"]SQ
 
-[Board "13"]
 [Event "Baker Bridge - Squeeze Plays"]
-[SkillPath "declarer_play/squeeze_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Squeeze 13}
+[Board "13"]
 [Dealer "E"]
+[Vulnerable "None"]
+[Deal "W:8.KQT75.T84.J952 A52.J6.AKJ753.K7 JT964.9832..QT63 KQ73.A4.Q962.A84"]
 [Declarer "S"]
 [Contract "7NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:8.KQT75.T84.J952 A52.J6.AKJ753.K7 JT964.9832..QT63 KQ73.A4.Q962.A84"]
+[Result ""]
 [Auction "E"]
 pass 1NT pass 3D pass 4D pass 4NT pass 5H pass 7NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/squeeze_plays"]
+[Student "S"]
+{Baker Squeeze 13}
 {[show NS]
 South is to play 7NT. West leads the \HK.
 
@@ -697,24 +698,24 @@ West MUST keep his \HQ so he releases his \C5.
 And you win the last three tricks with \CK, \CA, \C8.
 
 This is called a Double Squeeze.}
-[BCFlags "1f"]
 [Play "W"]HK
 
-[Board "14"]
 [Event "Baker Bridge - Squeeze Plays"]
-[SkillPath "declarer_play/squeeze_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Squeeze 14}
+[Board "14"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:QJT83.JT72.63.T6 952.6.AJ974.Q843 6.Q9843.852.J975 AK74.AK5.KQT.AK2"]
 [Declarer "S"]
 [Contract "7NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:QJT83.JT72.63.T6 952.6.AJ974.Q843 6.Q9843.852.J975 AK74.AK5.KQT.AK2"]
+[Result ""]
 [Auction "S"]
 2C pass 3D pass 4NT pass 5D pass 7NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/squeeze_plays"]
+[Student "S"]
+{Baker Squeeze 14}
 {[show NS]
 South is to play 7NT. West leads the \SQ.
 
@@ -755,24 +756,24 @@ You discard the \S7.
 Now West is squeezed. He cannot discard the \SJ or he will set up dummy's \S9, so he discards a \H.
 
 You win the last three \H tricks with another Double Squeeze.}
-[BCFlags "1f"]
 [Play "W"]SQ
 
-[Board "15"]
 [Event "Baker Bridge - Squeeze Plays"]
-[SkillPath "declarer_play/squeeze_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Squeeze 15}
+[Board "15"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:AKJ94.64.T72.QT2 T873.QT.KQ6.A975 Q62.752.J9843.J4 5.AKJ983.A5.K863"]
 [Declarer "S"]
 [Contract "6H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:AKJ94.64.T72.QT2 T873.QT.KQ6.A975 Q62.752.J9843.J4 5.AKJ983.A5.K863"]
+[Result ""]
 [Auction "S"]
 1H 1S 2C pass 3H pass 4H pass 4NT pass 5D pass 6H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/squeeze_plays"]
+[Student "S"]
+{Baker Squeeze 15}
 {[show NS]
 South is to play 6\H. West leads the \SA, then \SK.
 
@@ -809,24 +810,24 @@ Here you are in your hand.
 Only West can guard dummy's \ST, and only West can guard dummy's\C9.
 
 So you play your \HA and West must give up one of his guards. If he holds on to the \SJ then you toss dummy's useless \ST. If he throws the \SJ then you toss dummy's \C9.}
-[BCFlags "1f"]
 [Play "W"]SA
 
-[Board "16"]
 [Event "Baker Bridge - Squeeze Plays"]
-[SkillPath "declarer_play/squeeze_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Squeeze 16}
+[Board "16"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:AK932.T42.J9.J64 QT.KQ53.A863.852 865.J986.QT4.QT9 J74.A7.K752.AK73"]
 [Declarer "S"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:AK932.T42.J9.J64 QT.KQ53.A863.852 865.J986.QT4.QT9 J74.A7.K752.AK73"]
+[Result ""]
 [Auction "S"]
 1NT pass 2C pass 2D pass 3NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/squeeze_plays"]
+[Student "S"]
+{Baker Squeeze 16}
 {[show NS]
 South is to play 3NT. West leads the \S3. East plays the \S5.
 
@@ -885,24 +886,24 @@ Suppose West is a really expert defender and avoids the Suicide Squeeze by just 
 You win in your hand and establish a \D winner by playing \DA, \DK, and a small \D. East wins but cannot reach his partner's hand for that good \S.
 
 So you establish a \D winner and make your contract.}
-[BCFlags "1f"]
 [Play "W"]S3
 
-[Board "17"]
 [Event "Baker Bridge - Squeeze Plays"]
-[SkillPath "declarer_play/squeeze_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Squeeze 17}
+[Board "17"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:KQ963.Q985.9.T62 J8.K74.AJ8762.53 T7542.JT2.QT43.4 A.A63.K5.AKQJ987"]
 [Declarer "S"]
 [Contract "7C"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:KQ963.Q985.9.T62 J8.K74.AJ8762.53 T7542.JT2.QT43.4 A.A63.K5.AKQJ987"]
+[Result ""]
 [Auction "S"]
 2C pass 3D pass 4NT pass 5D pass 5NT pass 6D pass 7C pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/squeeze_plays"]
+[Student "S"]
+{Baker Squeeze 17}
 {[show NS]
 South is to play 7\C. West leads the \SK.
 
@@ -943,24 +944,24 @@ West cannot throw the \SQ, so he gives up the \H8. Dummy's \SJ is of no further 
 East cannot throw the \DQ, so he gives up the \H2.
 
 And you take the last three tricks with the \H suit. There were only two defenders; one of them had to guard \Ss and the other had to guard \Ds. There was nobody left to guard \Hs.}
-[BCFlags "1f"]
 [Play "W"]SK
 
-[Board "18"]
 [Event "Baker Bridge - Squeeze Plays"]
-[SkillPath "declarer_play/squeeze_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Squeeze 18}
+[Board "18"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:AKJ86532.862.T.7 Q4.J973.K75.8652 T97.4.QJ942.JT93 .AKQT5.A863.AKQ4"]
 [Declarer "S"]
 [Contract "6H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:AKJ86532.862.T.7 Q4.J973.K75.8652 T97.4.QJ942.JT93 .AKQT5.A863.AKQ4"]
+[Result ""]
 [Auction "S"]
 2C 4S pass pass 5H pass 6H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/squeeze_plays"]
+[Student "S"]
+{Baker Squeeze 18}
 {[show NS]
 South is to play 6\H. West leads the \SA.
 
@@ -999,24 +1000,24 @@ Play dummy's \HJ.
 East gets to choose his own fate - discarding a protector in one of the two suits. Of course, whichever suit he discards you will throw the opposite one.
 
 Yet another slam, courtesy of the Squeeze Play!}
-[BCFlags "1f"]
 [Play "W"]SA
 
-[Board "19"]
 [Event "Baker Bridge - Squeeze Plays"]
-[SkillPath "declarer_play/squeeze_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Squeeze 19}
+[Board "19"]
 [Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:AQ9763.3.KQT2.97 KT4.T64.A875.Q53 J852.872.94.T842 .AKQJ95.J63.AKJ6"]
 [Declarer "S"]
 [Contract "6H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:AQ9763.3.KQT2.97 KT4.T64.A875.Q53 J852.872.94.T842 .AKQJ95.J63.AKJ6"]
+[Result ""]
 [Auction "W"]
 1S pass pass X 2D 2NT pass 4H pass 6H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/squeeze_plays"]
+[Student "S"]
+{Baker Squeeze 19}
 {[show NS]
 South is to play 6\H. West leads the \DK. Perhaps you wouldn't have bid slam with North's cards, but he has been watching you pull off some fantastic squeeze plays and he has every confidence you will do it again.
 
@@ -1059,24 +1060,24 @@ At last you play the \H5, and West is done, he just doesn't know it yet.
 He obviously is not going to throw his \SA and make dummy high, so he will instead bare his \DQ.
 
 So you dump dummy's \SK and win the last two tricks with the \DA and then the \DJ.}
-[BCFlags "1f"]
 [Play "W"]DK
 
-[Board "20"]
 [Event "Baker Bridge - Squeeze Plays"]
-[SkillPath "declarer_play/squeeze_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Squeeze 20}
+[Board "20"]
 [Dealer "E"]
+[Vulnerable "None"]
+[Deal "W:6.A63.654.987532 T95.75.AQT72.AJ4 A3.K9842.K98.KT6 KQJ8742.QJT.J3.Q"]
 [Declarer "S"]
 [Contract "4S"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:6.A63.654.987532 T95.75.AQT72.AJ4 A3.K9842.K98.KT6 KQJ8742.QJT.J3.Q"]
+[Result ""]
 [Auction "E"]
 1H 1S pass 2H pass 4S pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/squeeze_plays"]
+[Student "S"]
+{Baker Squeeze 20}
 {[show NS]
 North's 2\H cue-bid shows \S support and at least a limit-raise or better. South is to play 4\S. West leads the \HA, then a \H to East's \HK. East plays a third round of \Hs.
 
@@ -1129,6 +1130,5 @@ Play your \S2 and discard dummy's \C4.
 Poor East will squirm and try to figure out which discard is best because he doesn't actually KNOW what two cards you have left.
 
 But you aren't squirming because you know that whichever card he throws it will give you your contract.}
-[BCFlags "1f"]
 [Play "W"]HA
 

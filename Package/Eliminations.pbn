@@ -1,22 +1,23 @@
-%Creator: CSVtoPBN Version 1.02
-%Created: 2026-02-05 09:36:22
+%Creator: CSVtoPBN Version 1.03
+%Created: 2026-02-05 09:48:38
 %sourcefilename BakerBridge.csv
 %HRTitleEvent Eliminations
-[Board "1"]
 [Event "Baker Bridge - Elimination Plays"]
-[SkillPath "declarer_play/elimination_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Eliminations 1}
+[Board "1"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:5.QJT87.962.J973 K9764.64.KT3.K82 Q2.K952.Q854.T64 AJT83.A3.AJ7.AQ5"]
 [Declarer "S"]
 [Contract "6S"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:5.QJT87.962.J973 K9764.64.KT3.K82 Q2.K952.Q854.T64 AJT83.A3.AJ7.AQ5"]
+[Result ""]
 [Auction "S"]
 1S pass 3S pass 6S pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/elimination_plays"]
+[Student "S"]
+{Baker Eliminations 1}
 {[show NS]
 North's 3\S bid is a limit raise showing T-12 points and good trump support. South is to play 6\S. West leads the \HQ.
 
@@ -62,24 +63,24 @@ Click NEXT to see all the hands. [NEXT]
 If you finesse East for the \DQ you make the contract, but if you finesse West for that card you go down.
 
 With an elimination play you make it no matter who holds the Queen.}
-[BCFlags "1f"]
 [Play "W"]HQ
 
-[Board "2"]
 [Event "Baker Bridge - Elimination Plays"]
-[SkillPath "declarer_play/elimination_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Eliminations 2}
+[Board "2"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:Q2.QJT7.K964.J74 K9764.64.J73.Q82 5.K9852.AT8.T963 AJT83.A3.Q52.AK5"]
 [Declarer "S"]
 [Contract "4S"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:Q2.QJT7.K964.J74 K9764.64.J73.Q82 5.K9852.AT8.T963 AJT83.A3.Q52.AK5"]
+[Result ""]
 [Auction "S"]
 1S pass 4S pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/elimination_plays"]
+[Student "S"]
+{Baker Eliminations 2}
 {[show NS]
 South is to play 4\S. West leads the \HQ.
 
@@ -128,24 +129,24 @@ Click to see the full deal. [NEXT]
 If you try to make a \D trick on your own you will fail. The first defender will play "second-hand-low" and the other defender will take your \DQ (or \DJ).
 
 Only by forcing them to start the \Ds can you take a trick in the suit. }
-[BCFlags "1f"]
 [Play "W"]HQ
 
-[Board "3"]
 [Event "Baker Bridge - Elimination Plays"]
-[SkillPath "declarer_play/elimination_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Eliminations 3}
+[Board "3"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:Q2.QJT7.Q864.J74 K9764.64.KT3.K82 5.K9852.J52.T963 AJT83.A3.A97.AQ5"]
 [Declarer "S"]
 [Contract "6S"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:Q2.QJT7.Q864.J74 K9764.64.KT3.K82 5.K9852.J52.T963 AJT83.A3.A97.AQ5"]
+[Result ""]
 [Auction "S"]
 1S pass 3S pass 6S pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/elimination_plays"]
+[Student "S"]
+{Baker Eliminations 3}
 {[show NS]
 South is to play 6\S. West leads the \HQ.
 
@@ -192,24 +193,24 @@ Click NEXT to see the full deal. [NEXT]
 Against good defenders there is no way you can make all three \D tricks if you make the first play in the suit. This assumes that if one defender held both the \DQ and \DJ he would "split" the honors if you tried to lead through them. 
 
 By forcing them to start the \Ds you make three tricks when the two outstanding honors are divided. }
-[BCFlags "1f"]
 [Play "W"]HQ
 
-[Board "4"]
 [Event "Baker Bridge - Elimination Plays"]
-[SkillPath "declarer_play/elimination_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Eliminations 4}
+[Board "4"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:KJ4.T5.JT932.Q74 973.KJ82.A84.KT3 AQT2.64.Q75.9862 865.AQ973.K6.AJ5"]
 [Declarer "S"]
 [Contract "4H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:KJ4.T5.JT932.Q74 973.KJ82.A84.KT3 AQT2.64.Q75.9862 865.AQ973.K6.AJ5"]
+[Result ""]
 [Auction "S"]
 1H pass 3H pass 4H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/elimination_plays"]
+[Student "S"]
+{Baker Eliminations 4}
 {[show NS]
 South is to play 4\H. West leads the \DJ.
 
@@ -252,24 +253,24 @@ Click NEXT to see the full deal. [NEXT]
 Using elimination plays makes you a better player. But in Bridge, no matter how skillful you are, there will always be a luck factor.
 
 Here you were lucky the defense didn't start by taking their three \Ss. If they had, you would not have been able to pull off the throw-in, and would have had to try your luck with  guessing who had the \CQ. }
-[BCFlags "1f"]
 [Play "W"]DJ
 
-[Board "5"]
 [Event "Baker Bridge - Elimination Plays"]
-[SkillPath "declarer_play/elimination_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Eliminations 5}
+[Board "5"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:J3.A965.JT87.Q85 K964.Q7.KQ6.KJT3 T.KJ832.A542.974 AQ8752.T4.93.A62"]
 [Declarer "S"]
 [Contract "4S"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:J3.A965.JT87.Q85 K964.Q7.KQ6.KJT3 T.KJ832.A542.974 AQ8752.T4.93.A62"]
+[Result ""]
 [Auction "N"]
 1C pass 1S pass 2S pass 4S pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/elimination_plays"]
+[Student "S"]
+{Baker Eliminations 5}
 {[show NS]
 South is to play 4\S. West leads the \DJ, covered by the \DQ and \DA. East returns a \D to the \DK.  
 
@@ -310,24 +311,24 @@ If East is the one who has to play a \C you just let it ride around to dummy's \
 If West is the one who has to play a \C you need to insert the \CT or \CJ from dummy.
 
 In either case you will no longer have a \C loser.}
-[BCFlags "1f"]
 [Play "W"]DJ
 
-[Board "6"]
 [Event "Baker Bridge - Elimination Plays"]
-[SkillPath "declarer_play/elimination_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Eliminations 6}
+[Board "6"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:.J983.QJ974.Q853 T6432.K52.K8.KT2 QJ9.QT76.T52.964 AK875.A4.A63.AJ7"]
 [Declarer "S"]
 [Contract "6S"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:.J983.QJ974.Q853 T6432.K52.K8.KT2 QJ9.QT76.T52.964 AK875.A4.A63.AJ7"]
+[Result ""]
 [Auction "S"]
 1S pass 3S pass 6S pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/elimination_plays"]
+[Student "S"]
+{Baker Eliminations 6}
 {[show NS]
 North decides a limit raise is better than just jumping to game. South has heard enough and bids the slam. 
 
@@ -384,24 +385,24 @@ Click NEXT to see the full deal. [NEXT]
 Most elimination plays work on the same principle. The biggest difference is usually the technique you have to use to complete the eliminations. 
 
 Here it took two ruffs, one in each hand.}
-[BCFlags "1f"]
 [Play "W"]DQ
 
-[Board "7"]
 [Event "Baker Bridge - Elimination Plays"]
-[SkillPath "declarer_play/elimination_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Eliminations 7}
+[Board "7"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:KQ942.5.Q82.9653 83.KQT82.K95.KT2 A76.973.T643.Q87 JT5.AJ64.AJ7.AJ4"]
 [Declarer "S"]
 [Contract "4H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:KQ942.5.Q82.9653 83.KQT82.K95.KT2 A76.973.T643.Q87 JT5.AJ64.AJ7.AJ4"]
+[Result ""]
 [Auction "S"]
 1NT pass 2D pass 2H pass 3NT pass 4H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/elimination_plays"]
+[Student "S"]
+{Baker Eliminations 7}
 {[show NS]
 North first transfers you to \Hs, then gives you a choice of which game to play.  Knowing you have an 9-card trump fit, you choose 4\H. 
 
@@ -446,24 +447,24 @@ However, it also guarantees that you will not make an overtrick.
 If you try the two finesses instead you MIGHT make an overtrick, but you also might go down 1.
 
 Decide for yourself!}
-[BCFlags "1f"]
 [Play "W"]SK
 
-[Board "8"]
 [Event "Baker Bridge - Elimination Plays"]
-[SkillPath "declarer_play/elimination_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Eliminations 8}
+[Board "8"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:QJT53.Q872.3.J85 A.AK6.AKQ974.AQ9 K974.T954.82.KT2 862.J3.JT65.7643"]
 [Declarer "S"]
 [Contract "6D"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:QJT53.Q872.3.J85 A.AK6.AKQ974.AQ9 K974.T954.82.KT2 862.J3.JT65.7643"]
+[Result ""]
 [Auction "N"]
 2C pass 2D pass 3D pass 4D pass 6D pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/elimination_plays"]
+[Student "S"]
+{Baker Eliminations 8}
 {[show NS]
 You naturally respond 2\D to North's strong 2\C opener. Before you know it you are playing a slam - with your mighty 2-point hand! South plays 6\D. West leads the \SQ.
 
@@ -510,24 +511,24 @@ Click for the full deal. [NEXT]
 The A Q 9 combination is interesting. Obviously if you have A Q T it works very well in an end-play situation. 
 
 As you see, A Q 9 actually works just as well.}
-[BCFlags "1f"]
 [Play "W"]SQ
 
-[Board "9"]
 [Event "Baker Bridge - Elimination Plays"]
-[SkillPath "declarer_play/elimination_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Eliminations 9}
+[Board "9"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:A863.7.QJT6.JT72 Q94.AJ63.A72.K64 J75.T54.K93.Q985 KT2.KQ982.854.A3"]
 [Declarer "S"]
 [Contract "4H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:A863.7.QJT6.JT72 Q94.AJ63.A72.K64 J75.T54.K93.Q985 KT2.KQ982.854.A3"]
+[Result ""]
 [Auction "N"]
 1C pass 1H pass 2H pass 4H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/elimination_plays"]
+[Student "S"]
+{Baker Eliminations 9}
 {[show NS]
 South is to play 4\H. West leads the \DQ.  
 
@@ -574,24 +575,24 @@ Assume West is on lead for the first \S play.
 If he leads the \SA it sets up both the \SK and \SQ so you only have one \S loser. If he leads low you also play low from dummy and East must play the \SJ to prevent you getting a trick with the \ST. Again you only lose one \S.
 
 If East makes the first play by leading a low \S you play low from your hand. West must go up with the \SA to stop you from getting a trick with dummy's \S9. Then your \SK and \SQ will win two tricks.}
-[BCFlags "1f"]
 [Play "W"]DQ
 
-[Board "10"]
 [Event "Baker Bridge - Elimination Plays"]
-[SkillPath "declarer_play/elimination_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Eliminations 10}
+[Board "10"]
 [Dealer "E"]
+[Vulnerable "None"]
+[Deal "W:T85.KQJT84..KQ42 K72.53.KQJ65.T75 Q9643.9762.92.86 AJ.A.AT8743.AJ93"]
 [Declarer "S"]
 [Contract "6D"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:T85.KQJT84..KQ42 K72.53.KQJ65.T75 Q9643.9762.92.86 AJ.A.AT8743.AJ93"]
+[Result ""]
 [Auction "E"]
 pass 1D 1H 2H X 6D pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/elimination_plays"]
+[Student "S"]
+{Baker Eliminations 10}
 {[show NS]
 North's 2\H bid showed a hand with limit raise or better in \Ds. South doesn't bother with Blackwood since he already knows about the Aces. He just bids the slam. South plays 6\D. West leads the \HK, won by you with the \HA.
 
@@ -638,24 +639,24 @@ When you are missing the K Q of a suit, as in the \Cs on this hand, taking two f
 In this case though, West's overcall means all things are not equal, so your chances are lower than 75%.
 
 But never mind the percentages for a finesse, the end-play was a sure thing.}
-[BCFlags "1f"]
 [Play "W"]HK
 
-[Board "11"]
 [Event "Baker Bridge - Elimination Plays"]
-[SkillPath "declarer_play/elimination_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Eliminations 11}
+[Board "11"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:QJT87.654.QJ3.K4 932.AJ7.A4.QJ873 A65.Q982.T8762.5 K4.KT3.K95.AT962"]
 [Declarer "S"]
 [Contract "5C"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:QJT87.654.QJ3.K4 932.AJ7.A4.QJ873 A65.Q982.T8762.5 K4.KT3.K95.AT962"]
+[Result ""]
 [Auction "S"]
 1C 1S 2S pass 3C pass 5C pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/elimination_plays"]
+[Student "S"]
+{Baker Eliminations 11}
 {[show NS]
 North's cue-bid shows a limit raise or better (11 points) in \Cs. South is to play 5\C. West leads the \SQ, East takes the \SA and returns the \S6 to your \SK.  
 
@@ -712,24 +713,24 @@ If you had finessed for the \CK West would have won the trick and been able to m
 You would then have been forced to rely on the \H finesse, and with West being the defender who showed some strength, you would likely have finessed through him.
 
 About the only way the elimination/throw-in could fail is if the \Cs split 3-0. Then, if you play Ace and another the defender who wins would use his third \C as a safe exit.}
-[BCFlags "1f"]
 [Play "W"]SQ
 
-[Board "12"]
 [Event "Baker Bridge - Elimination Plays"]
-[SkillPath "declarer_play/elimination_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Eliminations 12}
+[Board "12"]
 [Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:KQT3.2.T872.KJ54 A862.AT96.AK.763 J974.8.J9643.982 5.KQJ7543.Q5.AQT"]
 [Declarer "S"]
 [Contract "6H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:KQT3.2.T872.KJ54 A862.AT96.AK.763 J974.8.J9643.982 5.KQJ7543.Q5.AQT"]
+[Result ""]
 [Auction "W"]
 pass 1NT pass 3H pass 4H pass 5C pass 6H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/elimination_plays"]
+[Student "S"]
+{Baker Eliminations 12}
 {[show NS]
 Your 3\H bid is a slam suggestion. After you show the \CA partner wastes no time in bidding it.
 
@@ -792,24 +793,24 @@ Clickfor the complete Deal. [NEXT]
 You probably noticed that you could have finessed your \CQ on the first \C play and pulled off the end-play just as effectively. But there is an advantage to making the first finesse with the \CT.
 
 If East just happens to hold both the \CK and \CJ you will make all thirteen tricks if your first finesse is with the \CT!}
-[BCFlags "1f"]
 [Play "W"]SK
 
-[Board "13"]
 [Event "Baker Bridge - Elimination Plays"]
-[SkillPath "declarer_play/elimination_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Eliminations 13}
+[Board "13"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:KQ2.K972.K753.T3 JT7.865.A62.AQ84 8543.J43.JT9.962 A96.AQT.Q84.KJ75"]
 [Declarer "S"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:KQ2.K972.K753.T3 JT7.865.A62.AQ84 8543.J43.JT9.962 A96.AQT.Q84.KJ75"]
+[Result ""]
 [Auction "S"]
 1NT pass 3NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/elimination_plays"]
+[Student "S"]
+{Baker Eliminations 13}
 {[show NS]
 South plays 3NT. West leads the \H2. East plays the \HJ which you win with the \HQ.
 
@@ -847,24 +848,24 @@ Click NEXT to see the complete deal. [NEXT]
 [show NESW]
 
 Wow! End-played at trick #6. }
-[BCFlags "1f"]
 [Play "W"]H2
 
-[Board "14"]
 [Event "Baker Bridge - Elimination Plays"]
-[SkillPath "declarer_play/elimination_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Eliminations 14}
+[Board "14"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:Q83.JT84.KT62.T2 AT72.96.J54.QJ95 94.Q7532.A93.863 KJ65.AK.Q87.AK74"]
 [Declarer "S"]
 [Contract "4S"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:Q83.JT84.KT62.T2 AT72.96.J54.QJ95 94.Q7532.A93.863 KJ65.AK.Q87.AK74"]
+[Result ""]
 [Auction "S"]
 2NT pass 3C pass 3S pass 4S pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/elimination_plays"]
+[Student "S"]
+{Baker Eliminations 14}
 {[show NS]
 South is to play 4\S after North's Stayman bid uncovered the 4-4 fit. West leads the \HJ which you win the your \HA.
 
@@ -922,24 +923,24 @@ It is clear that the elimination play saved you having to guess the finesse for 
 But what if you considered yourself a really good guesser? So good that you felt confident in taking the finesse, and so good that you pulled it off successfully. 
 
 You'd be no better off. Although you would avoid the \S loser you would now have to play the \Ds for yourself and you would lose three \Ds!}
-[BCFlags "1f"]
 [Play "W"]HJ
 
-[Board "15"]
 [Event "Baker Bridge - Elimination Plays"]
-[SkillPath "declarer_play/elimination_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Eliminations 15}
+[Board "15"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:JT972.KT74.Q82.7 Q5.AJ62.A964.AJ5 K863.Q983.T75.82 A4.5.KJ3.KQT9643"]
 [Declarer "S"]
 [Contract "6C"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:JT972.KT74.Q82.7 Q5.AJ62.A964.AJ5 K863.Q983.T75.82 A4.5.KJ3.KQT9643"]
+[Result ""]
 [Auction "N"]
 1NT pass 3C pass 4C pass 6C pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/elimination_plays"]
+[Student "S"]
+{Baker Eliminations 15}
 {[show NS]
 South considered Blackwood, then realized if North showed either 2 or 3 Aces he was going to bid slam. But if North showed just one Ace he would have to maneuver to play 5NT which might be worse than 6\C. So he just bid the slam. South plays 6\C. West leads the \SJ.
 
@@ -992,24 +993,24 @@ Click to see the Deal. [NEXT]
 Many elimination endings give you a sure thing. Others just improve your chances.  
 
 Here you had two chances. First, West might have HAD to win the throw-in, either because he had all of the high \Ss, or more likely because he messed up. The second chance paid off when East took the throw-in but you found a fortunate position with the \Ds.}
-[BCFlags "1f"]
 [Play "W"]SJ
 
-[Board "16"]
 [Event "Baker Bridge - Elimination Plays"]
-[SkillPath "declarer_play/elimination_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Eliminations 16}
+[Board "16"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:965.9843.KQT52.6 AT72.KQ.984.KQ84 Q43.T762.J76.953 KJ8.AJ5.A3.AJT72"]
 [Declarer "S"]
 [Contract "6C"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:965.9843.KQT52.6 AT72.KQ.984.KQ84 Q43.T762.J76.953 KJ8.AJ5.A3.AJT72"]
+[Result ""]
 [Auction "S"]
 1C pass 1S pass 2NT pass 4C pass 6C pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/elimination_plays"]
+[Student "S"]
+{Baker Eliminations 16}
 {[show NS]
 The slam was easy to bid, now you just have to make it. South plays 6\C. West leads the \DQ.
 
@@ -1044,24 +1045,24 @@ Among Bridge players you often hear about someone (usually Aunt Harriet) who is 
 Perhaps Aunt Harriet isn't that lucky after all, perhaps she just knows how to perform elimination plays.
 
 Hopefully in the future you will be the one with the reputation!}
-[BCFlags "1f"]
 [Play "W"]DQ
 
-[Board "17"]
 [Event "Baker Bridge - Elimination Plays"]
-[SkillPath "declarer_play/elimination_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Eliminations 17}
+[Board "17"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:QJ9.KQJ8742.9.T4 T7543.A3.A65.K63 .96.KQJT87.QJ972 AK862.T5.432.A85"]
 [Declarer "S"]
 [Contract "4S"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:QJ9.KQJ8742.9.T4 T7543.A3.A65.K63 .96.KQJT87.QJ972 AK862.T5.432.A85"]
+[Result ""]
 [Auction "S"]
 1S 4H 4S pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/elimination_plays"]
+[Student "S"]
+{Baker Eliminations 17}
 {[show NS]
 When the bidding gets high in a hurry you sometimes have to guess what you can make. South plays 4\S. West leads the \HK.
 
@@ -1120,24 +1121,24 @@ Incredible isn't it.
 You just wonder how many bridge players would have just conceded down 2 on this hand.
 
 Not you or me, of course.}
-[BCFlags "1f"]
 [Play "W"]HK
 
-[Board "18"]
 [Event "Baker Bridge - Elimination Plays"]
-[SkillPath "declarer_play/elimination_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Eliminations 18}
+[Board "18"]
 [Dealer "E"]
+[Vulnerable "None"]
+[Deal "W:6.K82.KQT32.T864 AT93.754.AJ6.Q75 85.JT96.9874.J92 KQJ742.AQ3.5.AK3"]
 [Declarer "S"]
 [Contract "6S"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:6.K82.KQT32.T864 AT93.754.AJ6.Q75 85.JT96.9874.J92 KQJ742.AQ3.5.AK3"]
+[Result ""]
 [Auction "E"]
 pass 1S pass 3S pass 4NT pass 5H pass 6S pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/elimination_plays"]
+[Student "S"]
+{Baker Eliminations 18}
 {[show NS]
 North's 3\S is a limit raise, 11-12 points in support of \Ss. When you discover that the raise includes two Aces you bid the slam. South plays 6\S. West leads the \DK, won by you with dummy's \DA.
 
@@ -1176,24 +1177,24 @@ The answer to the question posed above is:
 Both.  
 
 It is a pretty simple problem, but you are no doubt getting a lot better.}
-[BCFlags "1f"]
 [Play "W"]DK
 
-[Board "19"]
 [Event "Baker Bridge - Elimination Plays"]
-[SkillPath "declarer_play/elimination_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Eliminations 19}
+[Board "19"]
 [Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:Q974.6.AQ8.KQJ75 A853.Q74.9762.83 JT2.983.JT4.9642 K6.AKJT52.K53.AT"]
 [Declarer "S"]
 [Contract "4H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:Q974.6.AQ8.KQJ75 A853.Q74.9762.83 JT2.983.JT4.9642 K6.AKJT52.K53.AT"]
+[Result ""]
 [Auction "W"]
 1C pass pass X pass 1S pass 3H pass 4H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/elimination_plays"]
+[Student "S"]
+{Baker Eliminations 19}
 {[show NS]
 North realizes that to make a takeout double, then jump in your own suit you must have a very good hand. So he bids the game. South plays 4\H. West leads the \CK, which you take with the \CA.
 
@@ -1240,24 +1241,24 @@ Click to see all hands. [NEXT]
 Some problems are tougher than others, this being a tough one.  
 
 It was not a complete elimination since East still had a trump when you threw West in. However, it worked because West was out of both \Ss and \Hs.}
-[BCFlags "1f"]
 [Play "W"]CK
 
-[Board "20"]
 [Event "Baker Bridge - Elimination Plays"]
-[SkillPath "declarer_play/elimination_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Eliminations 20}
+[Board "20"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:4.KJ95.QJT4.QT92 JT975.7.K863.K53 8.QT842.A952.AJ8 AKQ632.A63.7.764"]
 [Declarer "S"]
 [Contract "4S"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:4.KJ95.QJT4.QT92 JT975.7.K863.K53 8.QT842.A952.AJ8 AKQ632.A63.7.764"]
+[Result ""]
 [Auction "S"]
 1S pass 4S pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/elimination_plays"]
+[Student "S"]
+{Baker Eliminations 20}
 {[show NS]
 South is to play 4\S. West leads the \DQ.  
 
@@ -1312,24 +1313,24 @@ Click for the full deal. [NEXT]
 This was the toughest hand so far and the end-play depended upon your correct reading that East must hold the \DA.
 
 It also depended upon the defenders not switching to \Cs at the second trick. If West had decided to switch to the \CQ you would have had no chance at all. }
-[BCFlags "1f"]
 [Play "W"]DQ
 
-[Board "21"]
 [Event "Baker Bridge - Elimination Plays"]
-[SkillPath "declarer_play/elimination_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Eliminations 21}
+[Board "21"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:QT852.6.Q97.KQ52 76.KJ72.AK64.T83 K943.85.T8532.76 AJ.AQT943.J.AJ94"]
 [Declarer "S"]
 [Contract "6H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:QT852.6.Q97.KQ52 76.KJ72.AK64.T83 K943.85.T8532.76 AJ.AQT943.J.AJ94"]
+[Result ""]
 [Auction "S"]
 1H pass 3H pass 6H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/elimination_plays"]
+[Student "S"]
+{Baker Eliminations 21}
 {[show NS]
 After hearing a limit raise, South's leap to 6\H is, well, bold let's say. South plays 6\H. West leads the \S5, East plays the \SK.
 
@@ -1372,24 +1373,24 @@ Click to see if you made the slam. [NEXT]
 You were lucky, West had only three \Ds so your partial elimination worked.  
 
 But if it had turned out that West DID have another \D, and led it, all would not be lost. You would ruff in your hand, play a trump to dummy, then take a second \C finesse. If it turned out the \CK and \CQ were in different hands you would make the slam.}
-[BCFlags "1f"]
 [Play "W"]S5
 
-[Board "22"]
 [Event "Baker Bridge - Elimination Plays"]
-[SkillPath "declarer_play/elimination_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Eliminations 22}
+[Board "22"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:KJT8653.T5.JT8.3 A72.KQJ.752.KJ62 .87432.9643.T987 Q94.A96.AKQ.AQ54"]
 [Declarer "S"]
 [Contract "6NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:KJT8653.T5.JT8.3 A72.KQJ.752.KJ62 .87432.9643.T987 Q94.A96.AKQ.AQ54"]
+[Result ""]
 [Auction "S"]
 2NT 3S 6NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/elimination_plays"]
+[Student "S"]
+{Baker Eliminations 22}
 {[show NS]
 Some bidding, huh? Well, what would you have bid in the North seat? South plays 6NT. West leads the \DJ.
 
@@ -1444,24 +1445,24 @@ Clickfor the complete Deal. [NEXT]
 West no doubt thought his 3\S bid was a good idea. 
 
 In fact, it just kept you from making a losing play, (leading toward the \SQ), and allowed you to find the end-play to make the slam.}
-[BCFlags "1f"]
 [Play "W"]DJ
 
-[Board "23"]
 [Event "Baker Bridge - Elimination Plays"]
-[SkillPath "declarer_play/elimination_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Eliminations 23}
+[Board "23"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:6.943.JT96.QT832 732.QJ86.A543.A9 AQJT94.72.Q8.J65 K85.AKT5.K72.K74"]
 [Declarer "S"]
 [Contract "4H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:6.943.JT96.QT832 732.QJ86.A543.A9 AQJT94.72.Q8.J65 K85.AKT5.K72.K74"]
+[Result ""]
 [Auction "S"]
 1NT pass 2C 2S 3H pass 4H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/elimination_plays"]
+[Student "S"]
+{Baker Eliminations 23}
 {[show NS]
 South is to play 4\H. West leads the \S6, taken by East with the \SA. East returns the \SQ, you play the \SK and West ruffs. West next leads the \DJ.   
 
@@ -1512,24 +1513,24 @@ This is called a Partial Elimination because all of the \Ds were not eliminated.
 However, the key is that you could tell they were eliminated from the East hand, and East was going to be the throw-in target because of his long \Ss. 
 
 In many hands an opponent who opens with a preemptive bid gives you the information you need to plan and execute the throw-in.}
-[BCFlags "1f"]
 [Play "W"]S6
 
-[Board "24"]
 [Event "Baker Bridge - Elimination Plays"]
-[SkillPath "declarer_play/elimination_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Eliminations 24}
+[Board "24"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:7.K973.K963.KT52 AJ9653.52.A2.876 84.JT8.JT854.A93 KQT2.AQ64.Q7.QJ4"]
 [Declarer "S"]
 [Contract "4S"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:7.K973.K963.KT52 AJ9653.52.A2.876 84.JT8.JT854.A93 KQT2.AQ64.Q7.QJ4"]
+[Result ""]
 [Auction "S"]
 1NT pass 2H pass 2S pass 4S pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/elimination_plays"]
+[Student "S"]
+{Baker Eliminations 24}
 {[show NS]
 North first transfers you to \Ss, then closes the auction with 4\S. 
 
@@ -1580,24 +1581,24 @@ But if the \DK is with East and the \HK with West it wouldn't.
 Of course it is POSSIBLE that if you played a low \D from dummy some Easts would duck and let you win a trick with your \DQ. 
 
 This trickery would fail if West held the \DK, or if East held it and went up right away.}
-[BCFlags "1f"]
 [Play "W"]C2
 
-[Board "25"]
 [Event "Baker Bridge - Elimination Plays"]
-[SkillPath "declarer_play/elimination_plays"]
-[Category "Declarer Play"]
-[Difficulty "advanced"]
-{Baker Eliminations 25}
+[Board "25"]
 [Dealer "E"]
+[Vulnerable "None"]
+[Deal "W:8.QJ98542.T94.52 AQ52.6.AKJ6.KT87 KJT976.KT3.Q82.4 43.A7.753.AQJ963"]
 [Declarer "S"]
 [Contract "6C"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:8.QJ98542.T94.52 AQ52.6.AKJ6.KT87 KJT976.KT3.Q82.4 43.A7.753.AQJ963"]
+[Result ""]
 [Auction "E"]
 2S 3C pass 4NT pass 5H pass 6C pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "advanced"]
+[SkillPath "declarer_play/elimination_plays"]
+[Student "S"]
+{Baker Eliminations 25}
 {[show NS]
 South plays 6\C. West leads the \S8.
 
@@ -1644,6 +1645,5 @@ Click to see the complete Deal. [NEXT]
 A fairly complex elimination play to finish off the set. 
 
 I hope you enjoyed them.}
-[BCFlags "1f"]
 [Play "W"]S8
 

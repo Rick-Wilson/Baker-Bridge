@@ -1,46 +1,47 @@
-%Creator: CSVtoPBN Version 1.02
-%Created: 2026-02-05 09:36:22
+%Creator: CSVtoPBN Version 1.03
+%Created: 2026-02-05 09:48:38
 %sourcefilename BakerBridge.csv
 %HRTitleEvent Bidpractice/Set1
-[Board "1"]
 [Event "Baker Bridge - Partnership Bidding Set 1"]
-[SkillPath "partnership_bidding/set_01"]
-[Category "Partnership Bidding"]
-[Difficulty "intermediate"]
-{Baker Bidpractice/Set1 1}
+[Board "1"]
 [Dealer "W"]
+[Vulnerable "None"]
+[Deal "W: AT6.A74.KQT2.K84  853.K96.A863.965"]
 [Declarer "N"]
 [Contract "1NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: AT6.A74.KQT2.K84  853.K96.A863.965"]
+[Result ""]
 [Auction "W"]
 pass 1NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
+[SkillPath "partnership_bidding/set_01"]
+[Student "S"]
+{Baker Bidpractice/Set1 1}
 {[show NS]
 NORTH has a perfect 1NT opener; a balanced hand with 16 points.
 
 SOUTH has 7 points; he knows that the most points the partnership could hold is 24 (7 + 17).
 
 Since this is below the 26 point game requirement he passes.}
-[BCFlags "1f"]
 
 
-[Board "2"]
 [Event "Baker Bridge - Partnership Bidding Set 1"]
-[SkillPath "partnership_bidding/set_01"]
-[Category "Partnership Bidding"]
-[Difficulty "intermediate"]
-{Baker Bidpractice/Set1 2}
+[Board "2"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W: T97.A96.KQ73.K84  AQ4.KT8.JT95.AQ6"]
 [Declarer "S"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: T97.A96.KQ73.K84  AQ4.KT8.JT95.AQ6"]
+[Result ""]
 [Auction "S"]
 1NT pass 3NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
+[SkillPath "partnership_bidding/set_01"]
+[Student "S"]
+{Baker Bidpractice/Set1 2}
 {[show NS]
 SOUTH has an ideal 1NT opening -
 
@@ -49,24 +50,24 @@ SOUTH has an ideal 1NT opening -
 With 12 points, NORTH knows the partnership total is between 27 and 29, enough for game
 
 but not enough to think about slam. Since NORTH also has a balanced hand she bids 3NT.}
-[BCFlags "1f"]
 
 
-[Board "3"]
 [Event "Baker Bridge - Partnership Bidding Set 1"]
-[SkillPath "partnership_bidding/set_01"]
-[Category "Partnership Bidding"]
-[Difficulty "intermediate"]
-{Baker Bidpractice/Set1 3}
+[Board "3"]
 [Dealer "W"]
+[Vulnerable "None"]
+[Deal "W: KQ82.K96.A94.A65  AJ3.A87.QJT5.QT7"]
 [Declarer "N"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: KQ82.K96.A94.A65  AJ3.A87.QJT5.QT7"]
+[Result ""]
 [Auction "W"]
 pass 1NT pass 3NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
+[SkillPath "partnership_bidding/set_01"]
+[Student "S"]
+{Baker Bidpractice/Set1 3}
 {[show NS]
 NORTH has 16 points and balanced distribution.
 
@@ -81,46 +82,46 @@ The partnership has at most 31 points (14 + 17).
 Since this is more than the 26 needed for game, but fewer than the 33 needed for slam
 
 SOUTH just bids 3NT, knowing NORTH will respect his decision and pass.}
-[BCFlags "1f"]
 
 
-[Board "4"]
 [Event "Baker Bridge - Partnership Bidding Set 1"]
-[SkillPath "partnership_bidding/set_01"]
-[Category "Partnership Bidding"]
-[Difficulty "intermediate"]
-{Baker Bidpractice/Set1 4}
+[Board "4"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W: AK52.872.943.765  J96.AJ5.AQJ.A932"]
 [Declarer "S"]
 [Contract "1NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: AK52.872.943.765  J96.AJ5.AQJ.A932"]
+[Result ""]
 [Auction "S"]
 1NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
+[SkillPath "partnership_bidding/set_01"]
+[Student "S"]
+{Baker Bidpractice/Set1 4}
 {[show NS]
 When SOUTH opens 1NT, NORTH knows that he cannot have more
 
 than 17 points. So with her 7 points, she knows there is no reason to respond.}
-[BCFlags "1f"]
 
 
-[Board "5"]
 [Event "Baker Bridge - Partnership Bidding Set 1"]
-[SkillPath "partnership_bidding/set_01"]
-[Category "Partnership Bidding"]
-[Difficulty "intermediate"]
-{Baker Bidpractice/Set1 5}
+[Board "5"]
 [Dealer "W"]
+[Vulnerable "None"]
+[Deal "W: KQJ.QJ95.AJ8.QJT  T863.K42.K43.K75"]
 [Declarer "N"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: KQJ.QJ95.AJ8.QJT  T863.K42.K43.K75"]
+[Result ""]
 [Auction "W"]
 pass 1NT pass 2NT pass 3NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
+[SkillPath "partnership_bidding/set_01"]
+[Student "S"]
+{Baker Bidpractice/Set1 5}
 {[show NS]
 NORTH has a maximum 17 point 1NT opener.
 
@@ -135,24 +136,24 @@ Since SOUTH doesn't know what to do he passes the buck back to NORTH
 by bidding 2NT; this is an invitation for NORTH to bid game.
 
 NORTH has a maximum 17 point hand so she accepts the invitation.}
-[BCFlags "1f"]
 
 
-[Board "6"]
 [Event "Baker Bridge - Partnership Bidding Set 1"]
-[SkillPath "partnership_bidding/set_01"]
-[Category "Partnership Bidding"]
-[Difficulty "intermediate"]
-{Baker Bidpractice/Set1 6}
+[Board "6"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W: T84.K72.Q65.KJ93  A976.AQ4.AJ4.QT8"]
 [Declarer "S"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: T84.K72.Q65.KJ93  A976.AQ4.AJ4.QT8"]
+[Result ""]
 [Auction "S"]
 1NT pass 2NT pass 3NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
+[SkillPath "partnership_bidding/set_01"]
+[Student "S"]
+{Baker Bidpractice/Set1 6}
 {[show NS]
 With 9 points NORTH is unable to decide the final contract. If SOUTH has 17 points then the partnership
 
@@ -161,24 +162,24 @@ should be playing 3NT. If SOUTH opened with just 15 points then 3NT will be too 
 So NORTH makes the temporizing bid of 2NT. This tells SOUTH that he must make the final call - go on to
 
 game if he has maximum, pass if he has minimum. On this Deal SOUTH has 17 points so he bids 3NT.}
-[BCFlags "1f"]
 
 
-[Board "7"]
 [Event "Baker Bridge - Partnership Bidding Set 1"]
-[SkillPath "partnership_bidding/set_01"]
-[Category "Partnership Bidding"]
-[Difficulty "intermediate"]
-{Baker Bidpractice/Set1 7}
+[Board "7"]
 [Dealer "W"]
+[Vulnerable "None"]
+[Deal "W: AT6.K98.AJ2.KT95  KQ42.A73.T84.874"]
 [Declarer "N"]
 [Contract "2NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: AT6.K98.AJ2.KT95  KQ42.A73.T84.874"]
+[Result ""]
 [Auction "W"]
 pass 1NT pass 2NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
+[SkillPath "partnership_bidding/set_01"]
+[Student "S"]
+{Baker Bidpractice/Set1 7}
 {[show NS]
 This time NORTH has a minimum 1NT opener; a balanced hand with 15 points.
 
@@ -187,24 +188,24 @@ SOUTH has 9 points; he knows that the partnership is somewhere between
 24 (9 + 15) and 26 (9 + 17). So he invites with a 2NT bid.
 
 NORTH, with a minimum, declines the invitation by passing.}
-[BCFlags "1f"]
 
 
-[Board "8"]
 [Event "Baker Bridge - Partnership Bidding Set 1"]
-[SkillPath "partnership_bidding/set_01"]
-[Category "Partnership Bidding"]
-[Difficulty "intermediate"]
-{Baker Bidpractice/Set1 8}
+[Board "8"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W: J742.85.J42.9873  KQ6.AJT3.AQ.KJ52"]
 [Declarer "S"]
 [Contract "2NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: J742.85.J42.9873  KQ6.AJT3.AQ.KJ52"]
+[Result ""]
 [Auction "S"]
 2NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
+[SkillPath "partnership_bidding/set_01"]
+[Student "S"]
+{Baker Bidpractice/Set1 8}
 {[show NS]
 SOUTH has a strong hand, 20 points and balanced distribution.
 
@@ -213,24 +214,24 @@ It is just right to open 2NT (20-21 points).
 NORTH adds her 2 points to SOUTH's promised number of 20 or 21. Since she doesn't reach the
 
 magic game number of 26 points she just passes.}
-[BCFlags "1f"]
 
 
-[Board "9"]
 [Event "Baker Bridge - Partnership Bidding Set 1"]
-[SkillPath "partnership_bidding/set_01"]
-[Category "Partnership Bidding"]
-[Difficulty "intermediate"]
-{Baker Bidpractice/Set1 9}
+[Board "9"]
 [Dealer "W"]
+[Vulnerable "None"]
+[Deal "W: AT8.AT9.KQT8.K97  K73.Q72.J94.QJT8"]
 [Declarer "N"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: AT8.AT9.KQT8.K97  K73.Q72.J94.QJT8"]
+[Result ""]
 [Auction "W"]
 pass 1NT pass 2NT pass 3NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
+[SkillPath "partnership_bidding/set_01"]
+[Student "S"]
+{Baker Bidpractice/Set1 9}
 {[show NS]
 NORTH has an mid-range 1NT opener; a balanced hand with 16 points.
 
@@ -243,67 +244,67 @@ In this case she must decide whether her hand is a "good" 16 points or a "poor" 
 Since her supporting cards are mostly 10's, 9's and 8's she figures it as "good"
 
 and bids 3NT.}
-[BCFlags "1f"]
 
 
-[Board "10"]
 [Event "Baker Bridge - Partnership Bidding Set 1"]
-[SkillPath "partnership_bidding/set_01"]
-[Category "Partnership Bidding"]
-[Difficulty "intermediate"]
-{Baker Bidpractice/Set1 10}
+[Board "10"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W: T962.K75.954.KQ6  KQJ.A4.KQT8.AJ73"]
 [Declarer "S"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: T962.K75.954.KQ6  KQJ.A4.KQT8.AJ73"]
+[Result ""]
 [Auction "S"]
 2NT pass 3NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
+[SkillPath "partnership_bidding/set_01"]
+[Student "S"]
+{Baker Bidpractice/Set1 10}
 {[show NS]
 SOUTH has 20 points and 4-4-3-2 distribution, so he opens 2NT.
 
 NORTH has 8 points. She adds SOUTH's 20 or 21 for a total of 28 or 29, enough for game but
 
 nowhere close to the slam requirement. So she bids 3NT and SOUTH passes.}
-[BCFlags "1f"]
 
 
-[Board "11"]
 [Event "Baker Bridge - Partnership Bidding Set 1"]
-[SkillPath "partnership_bidding/set_01"]
-[Category "Partnership Bidding"]
-[Difficulty "intermediate"]
-{Baker Bidpractice/Set1 11}
+[Board "11"]
 [Dealer "W"]
+[Vulnerable "None"]
+[Deal "W: KQ4.Q95.KQ62.K83  AT8.KJ3.AJ5.QJ72"]
 [Declarer "N"]
 [Contract "4NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: KQ4.Q95.KQ62.K83  AT8.KJ3.AJ5.QJ72"]
+[Result ""]
 [Auction "W"]
 pass 1NT pass 4NT pass
-[Result ""]
-
 [BCFlags "1f"]
-
-
-[Board "12"]
-[Event "Baker Bridge - Partnership Bidding Set 1"]
-[SkillPath "partnership_bidding/set_01"]
 [Category "Partnership Bidding"]
 [Difficulty "intermediate"]
-{Baker Bidpractice/Set1 12}
+[SkillPath "partnership_bidding/set_01"]
+[Student "S"]
+{Baker Bidpractice/Set1 11}
+
+
+
+[Event "Baker Bridge - Partnership Bidding Set 1"]
+[Board "12"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W: T84.Q76.KJ3.KT52  AQ5.K85.QT76.A97"]
 [Declarer "S"]
 [Contract "2NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: T84.Q76.KJ3.KT52  AQ5.K85.QT76.A97"]
+[Result ""]
 [Auction "S"]
 1NT pass 2NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
+[SkillPath "partnership_bidding/set_01"]
+[Student "S"]
+{Baker Bidpractice/Set1 12}
 {[show NS]
 SOUTH has a minimum 1NT opening hand - balanced distribution with 15 points.
 
@@ -312,43 +313,43 @@ NORTH has 9 points, which is not enough to bid game, but is worth making an invi
 So she says 2NT.
 
 Since SOUTH is minimum he declines the invitation by passing.}
-[BCFlags "1f"]
 
 
-[Board "13"]
 [Event "Baker Bridge - Partnership Bidding Set 1"]
-[SkillPath "partnership_bidding/set_01"]
-[Category "Partnership Bidding"]
-[Difficulty "intermediate"]
-{Baker Bidpractice/Set1 13}
+[Board "13"]
 [Dealer "W"]
+[Vulnerable "None"]
+[Deal "W: QJ4.AK.K76.QJT52  KT5.Q63.AQ54.AK3"]
 [Declarer "N"]
 [Contract "6NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: QJ4.AK.K76.QJT52  KT5.Q63.AQ54.AK3"]
+[Result ""]
 [Auction "W"]
 pass 1NT pass 6NT pass
-[Result ""]
-
 [BCFlags "1f"]
-
-
-[Board "14"]
-[Event "Baker Bridge - Partnership Bidding Set 1"]
-[SkillPath "partnership_bidding/set_01"]
 [Category "Partnership Bidding"]
 [Difficulty "intermediate"]
-{Baker Bidpractice/Set1 14}
+[SkillPath "partnership_bidding/set_01"]
+[Student "S"]
+{Baker Bidpractice/Set1 13}
+
+
+
+[Event "Baker Bridge - Partnership Bidding Set 1"]
+[Board "14"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W: K74.QJ5.KJT.A743  QJ9.AK8.AQ53.KQ8"]
 [Declarer "S"]
 [Contract "6NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: K74.QJ5.KJT.A743  QJ9.AK8.AQ53.KQ8"]
+[Result ""]
 [Auction "S"]
 2NT pass 6NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
+[SkillPath "partnership_bidding/set_01"]
+[Student "S"]
+{Baker Bidpractice/Set1 14}
 {[show NS]
 The partner who is first sure what the final contract should be should just go ahead and bid it.
 
@@ -367,46 +368,46 @@ Therefore she
 GOES
 
 to 6NT.}
-[BCFlags "1f"]
 
 
-[Board "15"]
 [Event "Baker Bridge - Partnership Bidding Set 1"]
-[SkillPath "partnership_bidding/set_01"]
-[Category "Partnership Bidding"]
-[Difficulty "intermediate"]
-{Baker Bidpractice/Set1 15}
+[Board "15"]
 [Dealer "W"]
+[Vulnerable "None"]
+[Deal "W: AT6.AQ4.KQJT.KJ7  853.K96.A863.965"]
 [Declarer "N"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: AT6.AQ4.KQJT.KJ7  853.K96.A863.965"]
+[Result ""]
 [Auction "W"]
 pass 2NT pass 3NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
+[SkillPath "partnership_bidding/set_01"]
+[Student "S"]
+{Baker Bidpractice/Set1 15}
 {[show NS]
 NORTH has a balanced 20 point hand - ideal to open 2NT.
 
 SOUTH has 7 points; he knows the partnership has either 27 or 28 points so he bids 3NT.}
-[BCFlags "1f"]
 
 
-[Board "16"]
 [Event "Baker Bridge - Partnership Bidding Set 1"]
-[SkillPath "partnership_bidding/set_01"]
-[Category "Partnership Bidding"]
-[Difficulty "intermediate"]
-{Baker Bidpractice/Set1 16}
+[Board "16"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W: 764.AK8.KQ.AJT74  AK5.T743.A982.KQ"]
 [Declarer "S"]
 [Contract "6NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: 764.AK8.KQ.AJT74  AK5.T743.A982.KQ"]
+[Result ""]
 [Auction "S"]
 1NT pass 6NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
+[SkillPath "partnership_bidding/set_01"]
+[Student "S"]
+{Baker Bidpractice/Set1 16}
 {[show NS]
 This is another example of "She who knows, goes."
 
@@ -423,48 +424,48 @@ In any case they should be in slam, so NORTH
 GOES
 
 to 6NT.}
-[BCFlags "1f"]
 
 
-[Board "17"]
 [Event "Baker Bridge - Partnership Bidding Set 1"]
-[SkillPath "partnership_bidding/set_01"]
-[Category "Partnership Bidding"]
-[Difficulty "intermediate"]
-{Baker Bidpractice/Set1 17}
+[Board "17"]
 [Dealer "W"]
+[Vulnerable "None"]
+[Deal "W: KJ9.AQ.KQJ95.KT4  T63.T85.A73.Q985"]
 [Declarer "N"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: KJ9.AQ.KQJ95.KT4  T63.T85.A73.Q985"]
+[Result ""]
 [Auction "W"]
 pass 2NT pass 3NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
+[SkillPath "partnership_bidding/set_01"]
+[Student "S"]
+{Baker Bidpractice/Set1 17}
 {[show NS]
 NORTH has 20 points, counting one extra for the fifth Diamond. Just right to open 2NT.
 
 SOUTH has 6 points, just enough to bid 3NT.
 
 (20 + 6 = 26) (21 + 6 = 27)}
-[BCFlags "1f"]
 
 
-[Board "18"]
 [Event "Baker Bridge - Partnership Bidding Set 1"]
-[SkillPath "partnership_bidding/set_01"]
-[Category "Partnership Bidding"]
-[Difficulty "intermediate"]
-{Baker Bidpractice/Set1 18}
+[Board "18"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W: KJ92.A98.QT8.KQJ  QT3.KT6.A94.T752"]
 [Declarer "N"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: KJ92.A98.QT8.KQJ  QT3.KT6.A94.T752"]
+[Result ""]
 [Auction "S"]
 pass pass 1NT pass 2NT pass 3NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
+[SkillPath "partnership_bidding/set_01"]
+[Student "S"]
+{Baker Bidpractice/Set1 18}
 {[show NS]
 After SOUTH passes initially, NORTH opens 1NT.
 
@@ -475,24 +476,24 @@ NORTH has a small problem - SOUTH's bid tells her to bid 3NT with 17 points, but
 with 15 points. Her problem is that she has 16! Since it looks to her like a "good" 16 points
 
 she bids 3NT. If those 10's and 9's had been 4's and 3's she would have passed.}
-[BCFlags "1f"]
 
 
-[Board "19"]
 [Event "Baker Bridge - Partnership Bidding Set 1"]
-[SkillPath "partnership_bidding/set_01"]
-[Category "Partnership Bidding"]
-[Difficulty "intermediate"]
-{Baker Bidpractice/Set1 19}
+[Board "19"]
 [Dealer "W"]
+[Vulnerable "None"]
+[Deal "W: KQ93.KQT.AJ7.QT8  A7.A84.KT6.KJ742"]
 [Declarer "N"]
 [Contract "6NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: KQ93.KQT.AJ7.QT8  A7.A84.KT6.KJ742"]
+[Result ""]
 [Auction "W"]
 pass 1NT pass 4NT pass 6NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
+[SkillPath "partnership_bidding/set_01"]
+[Student "S"]
+{Baker Bidpractice/Set1 19}
 {[show NS]
 NORTH has a great 1NT hand - 17 points and 4-3-3-3 shape.
 
@@ -503,24 +504,24 @@ if she has a 17 point opener. So he bids 4NT, expecting NORTH to bid 6NT if she 
 but to pass if she has fewer.
 
 He figured right - NORTH had 17 points so she bid 6NT.}
-[BCFlags "1f"]
 
 
-[Board "20"]
 [Event "Baker Bridge - Partnership Bidding Set 1"]
-[SkillPath "partnership_bidding/set_01"]
-[Category "Partnership Bidding"]
-[Difficulty "intermediate"]
-{Baker Bidpractice/Set1 20}
+[Board "20"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W: K8.AK5.A8.QT9632  A74.Q96.KQ52.KJ8"]
 [Declarer "S"]
 [Contract "6NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: K8.AK5.A8.QT9632  A74.Q96.KQ52.KJ8"]
+[Result ""]
 [Auction "S"]
 1NT pass 6NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
+[SkillPath "partnership_bidding/set_01"]
+[Student "S"]
+{Baker Bidpractice/Set1 20}
 {[show NS]
 NORTH definitely does NOT have a balanced hand. She has two doubletons and a
 
@@ -531,48 +532,48 @@ But she DOES have 18 points, (two extra for the fifth and sixth Clubs), and her 
 SOUTH's minimum of 15 is enough to bid 6NT.
 
 Notice how easy this will be to play once that Club suit is established.}
-[BCFlags "1f"]
 
 
-[Board "21"]
 [Event "Baker Bridge - Partnership Bidding Set 1"]
-[SkillPath "partnership_bidding/set_01"]
-[Category "Partnership Bidding"]
-[Difficulty "intermediate"]
-{Baker Bidpractice/Set1 21}
+[Board "21"]
 [Dealer "W"]
+[Vulnerable "None"]
+[Deal "W: QJT.AJ7.AK62.KQJ  K83.9652.743.852"]
 [Declarer "N"]
 [Contract "2NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: QJT.AJ7.AK62.KQJ  K83.9652.743.852"]
+[Result ""]
 [Auction "W"]
 pass 2NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
+[SkillPath "partnership_bidding/set_01"]
+[Student "S"]
+{Baker Bidpractice/Set1 21}
 {[show NS]
 With 21 points and 4-3-3-3 distribution, NORTH opens 2NT.
 
 SOUTH has just 3 points; he knows that NORTH cannot have more than 21 so the partnership
 
 total cannot be more than 24. So he just passes 2NT.}
-[BCFlags "1f"]
 
 
-[Board "22"]
 [Event "Baker Bridge - Partnership Bidding Set 1"]
-[SkillPath "partnership_bidding/set_01"]
-[Category "Partnership Bidding"]
-[Difficulty "intermediate"]
-{Baker Bidpractice/Set1 22}
+[Board "22"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W: K53.K53.K53.K753  A42.A42.A642.A42"]
 [Declarer "S"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: K53.K53.K53.K753  A42.A42.A642.A42"]
+[Result ""]
 [Auction "S"]
 1NT pass 3NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
+[SkillPath "partnership_bidding/set_01"]
+[Student "S"]
+{Baker Bidpractice/Set1 22}
 {[show NS]
 This is an easy one to bid.
 
@@ -583,24 +584,24 @@ NORTH has a balanced 12 points so she responds 3NT.
 BUT - just look at how this would play. You might only be able to take 8 tricks.
 
 Sometimes correct bidding gets you to unmakeable contracts. But it's only a game.}
-[BCFlags "1f"]
 
 
-[Board "23"]
 [Event "Baker Bridge - Partnership Bidding Set 1"]
-[SkillPath "partnership_bidding/set_01"]
-[Category "Partnership Bidding"]
-[Difficulty "intermediate"]
-{Baker Bidpractice/Set1 23}
+[Board "23"]
 [Dealer "W"]
+[Vulnerable "None"]
+[Deal "W: AJ5.QT93.KQJ.AK6  K72.KJ5.A742.QJ8"]
 [Declarer "N"]
 [Contract "6NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: AJ5.QT93.KQJ.AK6  K72.KJ5.A742.QJ8"]
+[Result ""]
 [Auction "W"]
 pass 2NT pass 6NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
+[SkillPath "partnership_bidding/set_01"]
+[Student "S"]
+{Baker Bidpractice/Set1 23}
 {[show NS]
 Notrump bidding really is easy, you just add your points to partner's points and then
 
@@ -609,30 +610,29 @@ bid according to that answer.
 Here SOUTH has 14 points. So when NORTH opens 2NT, showing 20 or 21 points SOUTH knows the
 
 total will come to 34 or 35 so he bids 6NT.}
-[BCFlags "1f"]
 
 
-[Board "24"]
 [Event "Baker Bridge - Partnership Bidding Set 1"]
-[SkillPath "partnership_bidding/set_01"]
-[Category "Partnership Bidding"]
-[Difficulty "intermediate"]
-{Baker Bidpractice/Set1 24}
+[Board "24"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W: AK6.K93.K743.A62  Q75.Q84.Q62.Q753"]
 [Declarer "N"]
 [Contract "1NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: AK6.K93.K743.A62  Q75.Q84.Q62.Q753"]
+[Result ""]
 [Auction "S"]
 pass pass 1NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Partnership Bidding"]
+[Difficulty "intermediate"]
+[SkillPath "partnership_bidding/set_01"]
+[Student "S"]
+{Baker Bidpractice/Set1 24}
 {[show NS]
 SOUTH cannot open with only 8 points.
 
 Furthermore, when NORTH opens 1NT SOUTH knows that the partnership has a 25 points at most so
 
 he passes again.}
-[BCFlags "1f"]
 
 

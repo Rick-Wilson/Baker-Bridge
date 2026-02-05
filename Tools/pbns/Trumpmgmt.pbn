@@ -1,22 +1,23 @@
-%Creator: CSVtoPBN Version 1.02
-%Created: 2026-02-05 09:36:22
+%Creator: CSVtoPBN Version 1.03
+%Created: 2026-02-05 09:48:38
 %sourcefilename BakerBridge.csv
 %HRTitleEvent Trumpmgmt
-[Board "1"]
 [Event "Baker Bridge - Trump Management"]
-[SkillPath "declarer_play/trump_management"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Trumpmgmt 1}
+[Board "1"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:53.QT84.KQJT.K86 AQJ6.K5.76.QT973 92.J9762.A9843.4 KT874.A3.52.AJ52"]
 [Declarer "S"]
 [Contract "4S"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:53.QT84.KQJT.K86 AQJ6.K5.76.QT973 92.J9762.A9843.4 KT874.A3.52.AJ52"]
+[Result ""]
 [Auction "N"]
 1C pass 1S pass 2S pass 4S pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/trump_management"]
+[Student "S"]
+{Baker Trumpmgmt 1}
 {[show NS]
 South is to play 4\S. West leads the \DK. East overtakes with the \DA and returns the \C4.
 
@@ -49,24 +50,24 @@ to see the full deal. [NEXT]
 For most suit contracts the immediate pulling of trumps should be the first priority.
 
 Clear thinking is important, too. Can you imagine any Bridge player in the East seat overtaking his partner's opening lead just so he could then underlead his \CK into dummy's \CQ?}
-[BCFlags "1f"]
 [Play "W"]DK
 
-[Board "2"]
 [Event "Baker Bridge - Trump Management"]
-[SkillPath "declarer_play/trump_management"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Trumpmgmt 2}
+[Board "2"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:854.KJ9.J95.QJT4 QT2.62.A874.8653 7.A8543.QT32.K72 AKJ963.QT7.K6.A9"]
 [Declarer "S"]
 [Contract "4S"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:854.KJ9.J95.QJT4 QT2.62.A874.8653 7.A8543.QT32.K72 AKJ963.QT7.K6.A9"]
+[Result ""]
 [Auction "N"]
 pass pass 1S pass 2S pass 4S pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/trump_management"]
+[Student "S"]
+{Baker Trumpmgmt 2}
 {[show NS]
 South is to play 4\S. West leads the \CQ.
 
@@ -95,24 +96,24 @@ Win the first trick and play a \H from your hand. If they play a \S, win in your
 At the first hint that you might be thinking of ruffing losers in dummy the defenders are going to start leading trumps to try to prevent you.
 
 So you must stay a jump ahead of them. In this Deal the only way they could have gotten the jump on you would have been with a trump opening lead.}
-[BCFlags "1f"]
 [Play "W"]CQ
 
-[Board "3"]
 [Event "Baker Bridge - Trump Management"]
-[SkillPath "declarer_play/trump_management"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Trumpmgmt 3}
+[Board "3"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:JT5.97.932.KJ964 8732.AK.J864.753 A96.864.KQT7.QT8 KQ4.QJT532.A5.A2"]
 [Declarer "S"]
 [Contract "4H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:JT5.97.932.KJ964 8732.AK.J864.753 A96.864.KQT7.QT8 KQ4.QJT532.A5.A2"]
+[Result ""]
 [Auction "S"]
 1H pass 1NT pass 3H pass 4H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/trump_management"]
+[Student "S"]
+{Baker Trumpmgmt 3}
 {[show NS]
 South is to play 4\H. West leads the \H7.
 
@@ -139,24 +140,24 @@ Right now you must lead a \S toward your hand and put up the \SK when East plays
 It may go against the grain not to start pulling trumps immediately, but the urgency to remove the enemy trumps must be weighed against the best plan for the hand as a whole.
 
 Here there was no realistic hope of making this contract without playing twice toward your \S K Q.}
-[BCFlags "1f"]
 [Play "W"]H7
 
-[Board "4"]
 [Event "Baker Bridge - Trump Management"]
-[SkillPath "declarer_play/trump_management"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Trumpmgmt 4}
+[Board "4"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:J652.T84.A3.T983 KQ7.A63.QT64.QJ5 AT943.J972.7.K74 8.KQ5.KJ9852.A62"]
 [Declarer "S"]
 [Contract "5D"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:J652.T84.A3.T983 KQ7.A63.QT64.QJ5 AT943.J972.7.K74 8.KQ5.KJ9852.A62"]
+[Result ""]
 [Auction "S"]
 1D pass 2NT pass 3D pass 5D pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/trump_management"]
+[Student "S"]
+{Baker Trumpmgmt 4}
 {[show NS]
 South is to play 5\D. West leads the \CT. You play dummy's \CJ and East puts on the \CK.
 
@@ -191,24 +192,24 @@ Bridge is a game of timing, and sometimes the tempo of the game is set by the op
 Suppose West's opening lead was a \S, a \H or a \D. You would have still had the same 3 losers, but now the \C loser would have been "very slow". So slow that you could start on trumps before working on the \Ss.
 
 In other words, with one of these opening leads a mediocre player, one who had never read this lesson, would probably make the contract without any trouble. But with the \C lead only a skilled declarer would make it!}
-[BCFlags "1f"]
 [Play "W"]CT
 
-[Board "5"]
 [Event "Baker Bridge - Trump Management"]
-[SkillPath "declarer_play/trump_management"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Trumpmgmt 5}
+[Board "5"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:J9.QT65.Q92.JT94 74.AK42.A854.Q62 QT832.J97.T6.873 AK65.83.KJ73.AK5"]
 [Declarer "S"]
 [Contract "6D"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:J9.QT65.Q92.JT94 74.AK42.A854.Q62 QT832.J97.T6.873 AK65.83.KJ73.AK5"]
+[Result ""]
 [Auction "S"]
 1D pass 1H pass 1S pass 3D pass 4C pass 4H pass 6D pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/trump_management"]
+[Student "S"]
+{Baker Trumpmgmt 5}
 {[show NS]
 The 4\C and 4\H bids were control-showing. South is to play 6\D. West leads the \CJ.
 
@@ -255,24 +256,24 @@ This is how it would have looked if you had won the first \C trick, then just pl
 Leaving the master trump out, you would now proceed to take your two high \Cs, two high \Hs and two high \Ss.
 
 Needing just three more tricks, and with two trumps in each hand you just cross-ruff \Hs and \S. West can ruff in with the \DQ at some point but he cannot prevent you from winning at least three of your trumps separately.}
-[BCFlags "1f"]
 [Play "W"]CJ
 
-[Board "6"]
 [Event "Baker Bridge - Trump Management"]
-[SkillPath "declarer_play/trump_management"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Trumpmgmt 6}
+[Board "6"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:JT53.QJT3.T83.93 A82.K65.K42.QJ74 6.A872.QJ97.T852 KQ974.94.A65.AK6"]
 [Declarer "S"]
 [Contract "4S"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:JT53.QJT3.T83.93 A82.K65.K42.QJ74 6.A872.QJ97.T852 KQ974.94.A65.AK6"]
+[Result ""]
 [Auction "N"]
 1C pass 1S pass 1NT pass 2D pass 2S pass 4S pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/trump_management"]
+[Student "S"]
+{Baker Trumpmgmt 6}
 {[show NS]
 South's 2\D bid was New Minor Forcing, asking if North has 3 \Ss. North's 2\S response said "Yes, I have."South is to play 4\S. West leads the \HQ.
 
@@ -305,24 +306,24 @@ for all four hands. [NEXT]
 You can't help losing two \Hs and one \S.
 
 But you don't have to lose anything else as long as you don't lose trump control. So leave the master trump with West and just cash your minor suit winners. Let West ruff whenever he wants to because that will establish your \S9 to control any more \H leads. If he decides not to ruff at all then he can have the final trick with his high trump.}
-[BCFlags "1f"]
 [Play "W"]HQ
 
-[Board "7"]
 [Event "Baker Bridge - Trump Management"]
-[SkillPath "declarer_play/trump_management"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Trumpmgmt 7}
+[Board "7"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:4.J952.QJT63.T84 T8.KQ86.872.9753 J762.T743.95.QJ6 AKQ953.A.AK4.AK2"]
 [Declarer "S"]
 [Contract "6S"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:4.J952.QJT63.T84 T8.KQ86.872.9753 J762.T743.95.QJ6 AKQ953.A.AK4.AK2"]
+[Result ""]
 [Auction "S"]
 2C pass 2D pass 2S pass 3H pass 6S pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/trump_management"]
+[Student "S"]
+{Baker Trumpmgmt 7}
 {[show NS]
 South is to play 6\S. West leads the \DQ.
 
@@ -357,24 +358,24 @@ again for an alternate layout. [NEXT]
 You can see how it works if the trump suit DID split 3-2 as you would expect it to do. Even without a trump loser you will still go down 1 if you cannot take two discards on dummy's \Hs.
 
 So you give up a trump trick and gain two \H tricks in return. What a deal.}
-[BCFlags "1f"]
 [Play "W"]DQ
 
-[Board "8"]
 [Event "Baker Bridge - Trump Management"]
-[SkillPath "declarer_play/trump_management"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Trumpmgmt 8}
+[Board "8"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:JT863.Q87.AQT5.4 AQ.643.8742.6532 7542.KT52.KJ93.T K9.AJ9.6.AKQJ987"]
 [Declarer "S"]
 [Contract "5C"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:JT863.Q87.AQT5.4 AQ.643.8742.6532 7542.KT52.KJ93.T K9.AJ9.6.AKQJ987"]
+[Result ""]
 [Auction "S"]
 1C pass 1NT pass 3C pass 4C pass 5C pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/trump_management"]
+[Student "S"]
+{Baker Trumpmgmt 8}
 {[show NS]
 South is to play 5\C. West leads the \SJ.
 
@@ -405,24 +406,24 @@ to see all four hands. [NEXT]
 As you can see, you must play \Hs twice from dummy in order to take the two finesses.
 
 So you couldn't pull that one round of trumps because you couldn't waste either visit to dummy for anything other than the \H finesses.}
-[BCFlags "1f"]
 [Play "W"]SJ
 
-[Board "9"]
 [Event "Baker Bridge - Trump Management"]
-[SkillPath "declarer_play/trump_management"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Trumpmgmt 9}
+[Board "9"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:A984.4.KQ873.986 752.86.A94.KQJT2 JT6.QJT2.JT52.74 KQ3.AK9753.6.A53"]
 [Declarer "S"]
 [Contract "4H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:A984.4.KQ873.986 752.86.A94.KQJT2 JT6.QJT2.JT52.74 KQ3.AK9753.6.A53"]
+[Result ""]
 [Auction "S"]
 1H pass 2C pass 3H pass 4H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/trump_management"]
+[Student "S"]
+{Baker Trumpmgmt 9}
 {[show NS]
 South is to play 4\H. West leads the \DK.
 
@@ -451,24 +452,24 @@ for the complete deal. [NEXT]
 Suppose you had not driven out both of East's high trumps.
 
 He would have ruffed the third \C, before you could discard a \S loser from your hand. You would lose two trumps and two \Ss.}
-[BCFlags "1f"]
 [Play "W"]DK
 
-[Board "10"]
 [Event "Baker Bridge - Trump Management"]
-[SkillPath "declarer_play/trump_management"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Trumpmgmt 10}
+[Board "10"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:8.8763.A965.JT98 QT63.J52.KQ3.K64 AK.QT94.JT82.Q72 J97542.AK.74.A53"]
 [Declarer "S"]
 [Contract "4S"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:8.8763.A965.JT98 QT63.J52.KQ3.K64 AK.QT94.JT82.Q72 J97542.AK.74.A53"]
+[Result ""]
 [Auction "S"]
 1S pass 3S pass 4S pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/trump_management"]
+[Student "S"]
+{Baker Trumpmgmt 10}
 {[show NS]
 South is to play 4\S. West leads the \CJ.
 
@@ -499,24 +500,24 @@ for the full deal. [NEXT]
 This is the perfect example of when you delay leading trumps.
 
 When you need to do something else first - in this case, to establish a \Ds winner early.}
-[BCFlags "1f"]
 [Play "W"]CJ
 
-[Board "11"]
 [Event "Baker Bridge - Trump Management"]
-[SkillPath "declarer_play/trump_management"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Trumpmgmt 11}
+[Board "11"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:KQ963.85.96.AJ93 A752.QT9.KQ7.854 J84.742.JT54.KQT T.AKJ63.A832.762"]
 [Declarer "S"]
 [Contract "4H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:KQ963.85.96.AJ93 A752.QT9.KQ7.854 J84.742.JT54.KQT T.AKJ63.A832.762"]
+[Result ""]
 [Auction "S"]
 1H pass 1S pass 2D pass 3H pass 4H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/trump_management"]
+[Student "S"]
+{Baker Trumpmgmt 11}
 {[show NS]
 South is to play 4\H. West leads the \SK, taken by dummy's \SA.
 
@@ -551,24 +552,24 @@ for the complete deal. [NEXT]
 This is a Dummy Reversal. You take some ruffs in the long-trump hand, and pull trumps with the short-trump hand.
 
 For a Dummy Reversal to work you usually have to have a decent trump split.}
-[BCFlags "1f"]
 [Play "W"]SK
 
-[Board "12"]
 [Event "Baker Bridge - Trump Management"]
-[SkillPath "declarer_play/trump_management"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Trumpmgmt 12}
+[Board "12"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:T97.72.KQJ9.K963 A63.JT83.8752.84 KQJ2.A.T643.T752 854.KQ9654.A.AQJ"]
 [Declarer "S"]
 [Contract "4H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:T97.72.KQJ9.K963 A63.JT83.8752.84 KQJ2.A.T643.T752 854.KQ9654.A.AQJ"]
+[Result ""]
 [Auction "S"]
 1H pass 2H pass 4H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/trump_management"]
+[Student "S"]
+{Baker Trumpmgmt 12}
 {[show NS]
 South is to play 4\H. West leads the \DK.
 
@@ -599,24 +600,24 @@ Leading a \S to dummy for a \C finesse might have worked.
 Trying to sneak into dummy with a trump might have worked.
 
 Playing a \C from your hand at the second trick WILL work.}
-[BCFlags "1f"]
 [Play "W"]DK
 
-[Board "13"]
 [Event "Baker Bridge - Trump Management"]
-[SkillPath "declarer_play/trump_management"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Trumpmgmt 13}
+[Board "13"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:QT4.63.QT974.KQJ A8653.A5.K8.A942 KJ92.K82.J5.T873 7.QJT974.A632.65"]
 [Declarer "S"]
 [Contract "4H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:QT4.63.QT974.KQJ A8653.A5.K8.A942 KJ92.K82.J5.T873 7.QJT974.A632.65"]
+[Result ""]
 [Auction "S"]
 2H pass 4H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/trump_management"]
+[Student "S"]
+{Baker Trumpmgmt 13}
 {[show NS]
 South is to play 4\H. West leads the \CK which you win with dummy's \CA.
 
@@ -649,24 +650,24 @@ to see the full deal. [NEXT]
 Ruffing with the \HA was the safe way to play the hand, and with this layout the only way to succeed.
 
 Did you notice that West is a pretty good defender? Playing the \DQ on the third round just might have convinced you that he was short in \Ds, in which case ruffing with the low trump would have been safe.}
-[BCFlags "1f"]
 [Play "W"]CK
 
-[Board "14"]
 [Event "Baker Bridge - Trump Management"]
-[SkillPath "declarer_play/trump_management"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Trumpmgmt 14}
+[Board "14"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:74.AKT42.J642.Q9 932.953.AK95.742 865.876.QT3.JT85 AKQJT.QJ.87.AK63"]
 [Declarer "S"]
 [Contract "4S"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:74.AKT42.J642.Q9 932.953.AK95.742 865.876.QT3.JT85 AKQJT.QJ.87.AK63"]
+[Result ""]
 [Auction "S"]
 1S pass 2S pass 4S pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/trump_management"]
+[Student "S"]
+{Baker Trumpmgmt 14}
 {[show NS]
 South is to play 4\S. West leads the \HA, then the \HK, then \HT.
 
@@ -693,24 +694,24 @@ for the complete Deal. [NEXT]
 This was a good plan, pretty much guaranteed to work unless the \Cs split 5-1 so that somebody ruffed on of your \C winners.
 
 But, it was a good plan because dummy held the \S9. Keep that in mind when you look at Deal 15.}
-[BCFlags "1f"]
 [Play "W"]HA
 
-[Board "15"]
 [Event "Baker Bridge - Trump Management"]
-[SkillPath "declarer_play/trump_management"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Trumpmgmt 15}
+[Board "15"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:97.AKT42.J642.Q9 432.953.AK95.742 865.876.QT3.JT85 AKQJT.QJ.87.AK63"]
 [Declarer "S"]
 [Contract "4S"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:97.AKT42.J642.Q9 432.953.AK95.742 865.876.QT3.JT85 AKQJT.QJ.87.AK63"]
+[Result ""]
 [Auction "S"]
 1S pass 2S pass 4S pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/trump_management"]
+[Student "S"]
+{Baker Trumpmgmt 15}
 {[show NS]
 This is identical to Deal 14 except dummy has the \S4 in place of the \S9. South is to play 4\S. West leads the \HA, then the \HK, then \HT.
 
@@ -741,24 +742,24 @@ for the complete deal. [NEXT]
 In Deal 14 you had pretty much a sure thing. Here you had to be extremely lucky with the opposing cards.
 
 But you also had to be extremely clever to pull it off. This is probably the hardest Deal in this section.}
-[BCFlags "1f"]
 [Play "W"]HA
 
-[Board "16"]
 [Event "Baker Bridge - Trump Management"]
-[SkillPath "declarer_play/trump_management"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Trumpmgmt 16}
+[Board "16"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:7.T754.A942.KQJ3 JT53.K6.KQJT.A82 A2.Q983.7653.T97 KQ9864.AJ2.8.654"]
 [Declarer "S"]
 [Contract "4S"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:7.T754.A942.KQJ3 JT53.K6.KQJT.A82 A2.Q983.7653.T97 KQ9864.AJ2.8.654"]
+[Result ""]
 [Auction "N"]
 1D pass 1S pass 2S pass 4S pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/trump_management"]
+[Student "S"]
+{Baker Trumpmgmt 16}
 {[show NS]
 South is to play 4\S. West leads the \CK.
 
@@ -793,24 +794,24 @@ to see all four hands. [NEXT]
 When you have only one chance to make your contract you take it.
 
 This time it worked, another time it might not.}
-[BCFlags "1f"]
 [Play "W"]CK
 
-[Board "17"]
 [Event "Baker Bridge - Trump Management"]
-[SkillPath "declarer_play/trump_management"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Trumpmgmt 17}
+[Board "17"]
 [Dealer "E"]
+[Vulnerable "None"]
+[Deal "W:A753.T73.K98.A96 QJT9.QJ8.652.843 K8642..JT73.QJT2 .AK96542.AQ4.K75"]
 [Declarer "S"]
 [Contract "4H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:A753.T73.K98.A96 QJT9.QJ8.652.843 K8642..JT73.QJT2 .AK96542.AQ4.K75"]
+[Result ""]
 [Auction "E"]
 pass 1H pass 2H pass 4H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/trump_management"]
+[Student "S"]
+{Baker Trumpmgmt 17}
 {[show NS]
 South is to play 4\H. West leads the \H3.
 
@@ -841,24 +842,24 @@ for the complete deal. [NEXT]
 This loser-on-loser play didn't have much to do with trump management.
 
 Just the fact that you had to use the trump suit for entries to dummy, and therefore couldn't immediately pull trumps.}
-[BCFlags "1f"]
 [Play "W"]H3
 
-[Board "18"]
 [Event "Baker Bridge - Trump Management"]
-[SkillPath "declarer_play/trump_management"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Trumpmgmt 18}
+[Board "18"]
 [Dealer "E"]
+[Vulnerable "None"]
+[Deal "W:83.KQJ7.T64.AJT7 K6.8542.K872.954 T52.T93.J953.KQ8 AQJ974.A6.AQ.632"]
 [Declarer "S"]
 [Contract "4S"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:83.KQJ7.T64.AJT7 K6.8542.K872.954 T52.T93.J953.KQ8 AQJ974.A6.AQ.632"]
+[Result ""]
 [Auction "E"]
 pass 1S pass 1NT pass 4S pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/trump_management"]
+[Student "S"]
+{Baker Trumpmgmt 18}
 {[show NS]
 
 
@@ -881,24 +882,24 @@ So here's the Plan. Win the \HA. Pull one round of trumps with the \SA. Play the
 Just remember to always pull trumps immediately . . .
 
 . . . except when you have a good reason not to, like here.}
-[BCFlags "1f"]
 [Play "W"]HK
 
-[Board "19"]
 [Event "Baker Bridge - Trump Management"]
-[SkillPath "declarer_play/trump_management"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Trumpmgmt 19}
+[Board "19"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:QJT73.J3.862.J95 .T96.KQJT3.A8742 A98.Q52.9754.QT6 K6542.AK874.A.K3"]
 [Declarer "S"]
 [Contract "6H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:QJT73.J3.862.J95 .T96.KQJT3.A8742 A98.Q52.9754.QT6 K6542.AK874.A.K3"]
+[Result ""]
 [Auction "S"]
 1S pass 2D pass 3H pass 4H pass 4NT pass 6H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/trump_management"]
+[Student "S"]
+{Baker Trumpmgmt 19}
 {[show NS]
 North's 6\H response to Blackwood showed one Ace and a \S void. South is to play 6\H. West leads the \SQ.
 
@@ -929,24 +930,24 @@ for the full deal. [NEXT]
 This is a very rare play, but a good one to remember.
 
 When you have a trump loser but still need to pull their trumps, it may be better for you to lose an early trump trick rather than a later one.}
-[BCFlags "1f"]
 [Play "W"]SQ
 
-[Board "20"]
 [Event "Baker Bridge - Trump Management"]
-[SkillPath "declarer_play/trump_management"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Trumpmgmt 20}
+[Board "20"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:JT983.6.KJ974.JT AKQ.AK98.AT863.5 65.5432.Q2.KQ973 742.QJT7.5.A8642"]
 [Declarer "S"]
 [Contract "6H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:JT983.6.KJ974.JT AKQ.AK98.AT863.5 65.5432.Q2.KQ973 742.QJT7.5.A8642"]
+[Result ""]
 [Auction "N"]
 1D pass 1H pass 4NT pass 5D pass 6H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/trump_management"]
+[Student "S"]
+{Baker Trumpmgmt 20}
 {[show NS]
 Agreed that the bidding wasn't much. The final contract is still a good one. South is to play 6\H. West leads the \SJ.
 
@@ -983,6 +984,5 @@ to see all four hands. [NEXT]
 When playing a cross-ruff you must take all the side-suit winners you need early so they won't get ruffed later.
 
 Don't jeopardize your contract trying to take too many. }
-[BCFlags "1f"]
 [Play "W"]SJ
 

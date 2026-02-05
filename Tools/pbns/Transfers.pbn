@@ -1,22 +1,23 @@
-%Creator: CSVtoPBN Version 1.02
-%Created: 2026-02-05 09:36:22
+%Creator: CSVtoPBN Version 1.03
+%Created: 2026-02-05 09:48:38
 %sourcefilename BakerBridge.csv
 %HRTitleEvent Transfers
-[Board "1"]
 [Event "Baker Bridge - Jacoby Transfers"]
-[SkillPath "bidding_conventions/jacoby_transfers"]
-[Category "Bidding Conventions"]
-[Difficulty "beginner"]
-{Baker Transfers 1}
+[Board "1"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W: AK53.QT.Q65.A742  94.KJ9863.T8.865"]
 [Declarer "N"]
 [Contract "2H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: AK53.QT.Q65.A742  94.KJ9863.T8.865"]
+[Result ""]
 [Auction "N"]
 1NT pass 2D pass 2H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "beginner"]
+[SkillPath "bidding_conventions/jacoby_transfers"]
+[Student "S"]
+{Baker Transfers 1}
 {[show NS]
 North opens 1NT. What do you respond? [BID 2\D]
 
@@ -25,24 +26,24 @@ With 6 \Hs of your own you can be sure that your side has at least an 8-card \H 
 Of course you pass. You only have 6 points so there is no chance for game. You just wanted to reach the best partscore and figured 2\H would be safer than 1NT.
 
 As you can see from partner's hand you made the right call. Played in \Hs your hand will produce five tricks. At notrump your hand will win only one trick if the defenders hold up their \HA just one time.}
-[BCFlags "1f"]
 
 
-[Board "2"]
 [Event "Baker Bridge - Jacoby Transfers"]
-[SkillPath "bidding_conventions/jacoby_transfers"]
-[Category "Bidding Conventions"]
-[Difficulty "beginner"]
-{Baker Transfers 2}
+[Board "2"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W: KT5.A5.QJ84.KQ73  Q8764.Q4.K63.J92"]
 [Declarer "N"]
 [Contract "3S"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: KT5.A5.QJ84.KQ73  Q8764.Q4.K63.J92"]
+[Result ""]
 [Auction "N"]
 1NT pass 2H pass 2S pass 2NT pass 3S pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "beginner"]
+[SkillPath "bidding_conventions/jacoby_transfers"]
+[Student "S"]
+{Baker Transfers 2}
 {[show NS]
 North's 1NT opening shows 15-17 points. What is your bid? [BID 2\H]
 
@@ -55,24 +56,24 @@ You say pass. Partner did not accept your invitation to game so he must have a m
 You might revalue your hand up to 10 points now that an 8-card fit has been discovered, but it is a really poor 10 points. Also, remember the warning about Responder revaluing for short suits.
 
 As you can see, a 4\S contract would have no chance, losing 1 trick in each side suit and at least 1 \S. }
-[BCFlags "1f"]
 
 
-[Board "3"]
 [Event "Baker Bridge - Jacoby Transfers"]
-[SkillPath "bidding_conventions/jacoby_transfers"]
-[Category "Bidding Conventions"]
-[Difficulty "beginner"]
-{Baker Transfers 3}
+[Board "3"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W: KT5.A5.QJ84.KQ73  QJ764.74.K63.A92"]
 [Declarer "N"]
 [Contract "4S"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: KT5.A5.QJ84.KQ73  QJ764.74.K63.A92"]
+[Result ""]
 [Auction "N"]
 1NT pass 2H pass 2S pass 3NT pass 4S pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "beginner"]
+[SkillPath "bidding_conventions/jacoby_transfers"]
+[Student "S"]
+{Baker Transfers 3}
 {[show NS]
 North's 1NT opening shows 15-17 points. What is your bid? [BID 2\H]
 
@@ -85,24 +86,24 @@ You say pass.
 You might revalue your hand up to 12 points now that an 8-card fit has been discovered, but with partner's maximum of 17 you are nowhere near slam range.
 
 A 4\S contract is definitely the place to be. }
-[BCFlags "1f"]
 
 
-[Board "4"]
 [Event "Baker Bridge - Jacoby Transfers"]
-[SkillPath "bidding_conventions/jacoby_transfers"]
-[Category "Bidding Conventions"]
-[Difficulty "beginner"]
-{Baker Transfers 4}
+[Board "4"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W: AJ76.Q6.K753.KQ4  53.K98742.AT6.65"]
 [Declarer "N"]
 [Contract "3H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: AJ76.Q6.K753.KQ4  53.K98742.AT6.65"]
+[Result ""]
 [Auction "N"]
 1NT pass 2D pass 2H pass 3H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "beginner"]
+[SkillPath "bidding_conventions/jacoby_transfers"]
+[Student "S"]
+{Baker Transfers 4}
 {[show NS]
 North opens 1NT. What do you respond? [BID 2\D]
 
@@ -117,48 +118,48 @@ Partner declines your invitation by passing.
 A comment is in order about revaluing your hand. Since partner must have at least a doubleton \H it is tempting to claim that with the 8-card fit you should add one point for each of your doubletons, bringing your total to 11. If you did this then you should be bidding game rather than just inviting. The problem with the revaluing is that counting doubleton points in the long-trump hand is deceiving. If you do end up ruffing one or both of those suits it will not add any tricks to your total since you would make your small trumps anyway. So when you have a 6-card suit it is more accurate to not revalue.
 
 As you can see, making even 9 tricks is going to be a challenge.}
-[BCFlags "1f"]
 
 
-[Board "5"]
 [Event "Baker Bridge - Jacoby Transfers"]
-[SkillPath "bidding_conventions/jacoby_transfers"]
-[Category "Bidding Conventions"]
-[Difficulty "beginner"]
-{Baker Transfers 5}
+[Board "5"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W: QT9.K53.K62.AK84  53.AQT742.QJT.65"]
 [Declarer "N"]
 [Contract "4H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: QT9.K53.K62.AK84  53.AQT742.QJT.65"]
+[Result ""]
 [Auction "N"]
 1NT pass 2D pass 2H pass 4H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "beginner"]
+[SkillPath "bidding_conventions/jacoby_transfers"]
+[Student "S"]
+{Baker Transfers 5}
 {[show NS]
 North opens 1NT. What do you respond? [BID 2\D]
 
 You should bid 2\D to transfer partner to \Hs. He bids 2\H. What do you say now? [BID 4\H]
 
 You know you have at least an 8-card \H fit. You know you have at least 26 points (15 + 11). She who knows, goes, so you bid 4\H.}
-[BCFlags "1f"]
 
 
-[Board "6"]
 [Event "Baker Bridge - Jacoby Transfers"]
-[SkillPath "bidding_conventions/jacoby_transfers"]
-[Category "Bidding Conventions"]
-[Difficulty "beginner"]
-{Baker Transfers 6}
+[Board "6"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W: QJ5.K8.AT62.AK98  KT987.A9764.83.5"]
 [Declarer "S"]
 [Contract "4S"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: QJ5.K8.AT62.AK98  KT987.A9764.83.5"]
+[Result ""]
 [Auction "N"]
 1NT pass 2D pass 2H pass 2S pass 4S pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "beginner"]
+[SkillPath "bidding_conventions/jacoby_transfers"]
+[Student "S"]
+{Baker Transfers 6}
 {[show NS]
 North opens 1NT. What do you respond? [BID 2\D]
 
@@ -169,24 +170,24 @@ You now show your second 5-card Major by bidding 2\S.
 At this point partner becomes the Captain. You have described an invitational (9 point) hand with 5-5 in the Majors. Partner's next bid should set the contract wherever he chooses. In this case, with a maximum 1NT opener and 3 \Ss he picks 4\S.
 
 Note that you must have at least one Major suit fit since partner cannot have a doubleton in both.}
-[BCFlags "1f"]
 
 
-[Board "7"]
 [Event "Baker Bridge - Jacoby Transfers"]
-[SkillPath "bidding_conventions/jacoby_transfers"]
-[Category "Bidding Conventions"]
-[Difficulty "beginner"]
-{Baker Transfers 7}
+[Board "7"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W: Q6.A74.KJ92.KQ83  AJ854.KQT83.6.75"]
 [Declarer "S"]
 [Contract "4H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: Q6.A74.KJ92.KQ83  AJ854.KQT83.6.75"]
+[Result ""]
 [Auction "N"]
 1NT pass 2H pass 2S pass 3H pass 4H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "beginner"]
+[SkillPath "bidding_conventions/jacoby_transfers"]
+[Student "S"]
+{Baker Transfers 7}
 {[show NS]
 North opens 1NT. What do you respond? [BID 2\H]
 
@@ -199,24 +200,24 @@ What do you bid after partner completes the transfer? [BID 3\H]
 You show your second 5-card Major by bidding 3\H. Since this shows game-forcing strength (11+ points) partner may not pass, but must bid either 4\H or 4\S. In this Deal he naturally bids 4\H.
 
 If you held an even stronger hand and wished to move toward a slam you would start out the same way but then bid again after partner's game bid.}
-[BCFlags "1f"]
 
 
-[Board "8"]
 [Event "Baker Bridge - Jacoby Transfers"]
-[SkillPath "bidding_conventions/jacoby_transfers"]
-[Category "Bidding Conventions"]
-[Difficulty "beginner"]
-{Baker Transfers 8}
+[Board "8"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W: J4.AQJ5.AQJ3.T96  AQT75.4.986.AKQ5"]
 [Declarer "N"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: J4.AQJ5.AQJ3.T96  AQT75.4.986.AKQ5"]
+[Result ""]
 [Auction "N"]
 1NT pass 2H pass 2S pass 3C pass 3NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "beginner"]
+[SkillPath "bidding_conventions/jacoby_transfers"]
+[Student "S"]
+{Baker Transfers 8}
 {[show NS]
 North opens 1NT. What do you respond? [BID 2\H]
 
@@ -225,24 +226,24 @@ Initiate the transfer by bidding 2\H. After partner responds 2\S what do you bid
 Your bid of a minor suit here shows at least 4 cards and is a slam try. With a weaker hand you would probably just bid 2NT or 3NT.
 
 Having made the try, you accept whatever partner decides. In this case, with a 15 point minimum, a doubleton \S and no \C fit, partner settles on 3NT.}
-[BCFlags "1f"]
 
 
-[Board "9"]
 [Event "Baker Bridge - Jacoby Transfers"]
-[SkillPath "bidding_conventions/jacoby_transfers"]
-[Category "Bidding Conventions"]
-[Difficulty "beginner"]
-{Baker Transfers 9}
+[Board "9"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W: KJ.KQ9.KT73.AJ74  AQT75.A4.986.KQ5"]
 [Declarer "N"]
 [Contract "6NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: KJ.KQ9.KT73.AJ74  AQT75.A4.986.KQ5"]
+[Result ""]
 [Auction "N"]
 1NT pass 2H pass 2S pass 4NT pass 6NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "beginner"]
+[SkillPath "bidding_conventions/jacoby_transfers"]
+[Student "S"]
+{Baker Transfers 9}
 {[show NS]
 North opens 1NT. What do you respond? [BID 2\H]
 
@@ -257,24 +258,24 @@ The BEST way to say both these things is to bid 4NT. This is similar to the 2NT 
 But you can see the problem with the bid - if partner mistakes it for Blackwood 4NT things could get very confused. So don't use this unless you know both of you are on the same wavelength. 
 
 Here both partners understood the bid and North bid 6NT.}
-[BCFlags "1f"]
 
 
-[Board "10"]
 [Event "Baker Bridge - Jacoby Transfers"]
-[SkillPath "bidding_conventions/jacoby_transfers"]
-[Category "Bidding Conventions"]
-[Difficulty "beginner"]
-{Baker Transfers 10}
+[Board "10"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W: Q2.AJ3.AK64.KQJT  75.KQ874.T93.874"]
 [Declarer "N"]
 [Contract "4H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: Q2.AJ3.AK64.KQJT  75.KQ874.T93.874"]
+[Result ""]
 [Auction "N"]
 2NT pass D pass 3H pass 3NT pass 4H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "beginner"]
+[SkillPath "bidding_conventions/jacoby_transfers"]
+[Student "S"]
+{Baker Transfers 10}
 {[show NS]
 North opens 2NT showing a balanced 20-21 point hand. What do you respond? [BID \D]
 
@@ -285,24 +286,24 @@ You bid 3NT which tells partner you have just 5 \Hs and lets him decide on which
 On this Deal partner has 3 \Hs so he bids on to 4\H.
 
 Notice that when partner opens 2NT the invitation to game option is no longer available. As responder you must decide immediately whether to stop short of game (by transferring then passing) or to go to game. This is not a serious problem since the tighter (20-21) point range makes responder's decision easier to make.}
-[BCFlags "1f"]
 
 
-[Board "11"]
 [Event "Baker Bridge - Jacoby Transfers"]
-[SkillPath "bidding_conventions/jacoby_transfers"]
-[Category "Bidding Conventions"]
-[Difficulty "beginner"]
-{Baker Transfers 11}
+[Board "11"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W: 92.QT962.K54.K83  KQ75.J8.AQ6.QJ74"]
 [Declarer "S"]
 [Contract "2NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: 92.QT962.K54.K83  KQ75.J8.AQ6.QJ74"]
+[Result ""]
 [Auction "S"]
 1NT pass 2D pass 2H pass 2NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "beginner"]
+[SkillPath "bidding_conventions/jacoby_transfers"]
+[Student "S"]
+{Baker Transfers 11}
 {[show NS]
 You open 1NT and partner responds 2\D. What do you bid? [BID 2\H]
 
@@ -313,24 +314,24 @@ What is your bid? [BID pass]
 Partner's bidding shows 9 points and exactly 5\H. He asks that you take him back to \Hs if you have 3 of them. You don't. He is asking you to bid game if you have 17 points or a good 16. You don't.
 
 So you pass.}
-[BCFlags "1f"]
 
 
-[Board "12"]
 [Event "Baker Bridge - Jacoby Transfers"]
-[SkillPath "bidding_conventions/jacoby_transfers"]
-[Category "Bidding Conventions"]
-[Difficulty "beginner"]
-{Baker Transfers 12}
+[Board "12"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W: KJT63.96.982.KJ4  Q4.AQ8.KQT5.AT93"]
 [Declarer "S"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: KJT63.96.982.KJ4  Q4.AQ8.KQT5.AT93"]
+[Result ""]
 [Auction "S"]
 1NT pass 2H pass 2S pass 2NT pass 3NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "beginner"]
+[SkillPath "bidding_conventions/jacoby_transfers"]
+[Student "S"]
+{Baker Transfers 12}
 {[show NS]
 You open 1NT and partner responds 2\H. What do you bid? [BID 2\S]
 
@@ -341,24 +342,24 @@ What do you bid? [BID 3NT]
 Partner's bidding shows 9 points and exactly 5\S. He asks that you take him back to \Ss if you have 3 of them. You don't. He is asking you to bid game if you have 17 points. You do.
 
 So you bid 3NT.}
-[BCFlags "1f"]
 
 
-[Board "13"]
 [Event "Baker Bridge - Jacoby Transfers"]
-[SkillPath "bidding_conventions/jacoby_transfers"]
-[Category "Bidding Conventions"]
-[Difficulty "beginner"]
-{Baker Transfers 13}
+[Board "13"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W: 93.QJT62.753.KQ4  A62.875.AKQ.AT98"]
 [Declarer "S"]
 [Contract "4H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: 93.QJT62.753.KQ4  A62.875.AKQ.AT98"]
+[Result ""]
 [Auction "S"]
 1NT pass 2D pass 2H pass 2NT pass 4H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "beginner"]
+[SkillPath "bidding_conventions/jacoby_transfers"]
+[Student "S"]
+{Baker Transfers 13}
 {[show NS]
 You open 1NT and partner responds 2\D. What do you bid? [BID 2\H]
 
@@ -371,24 +372,24 @@ Partner's bidding shows 9 points and exactly 5\H. He asks that you take him back
 So you bid 4\H.
 
 With your 3-3-3-4 distribution you might have been tempted to bid 3NT instead of 4\H. It's a good thing you didn't, they would have killed you in \Ss.}
-[BCFlags "1f"]
 
 
-[Board "14"]
 [Event "Baker Bridge - Jacoby Transfers"]
-[SkillPath "bidding_conventions/jacoby_transfers"]
-[Category "Bidding Conventions"]
-[Difficulty "beginner"]
-{Baker Transfers 14}
+[Board "14"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W: AK9753.842.53.76  J6.A75.AQ72.KJ83"]
 [Declarer "S"]
 [Contract "3S"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: AK9753.842.53.76  J6.A75.AQ72.KJ83"]
+[Result ""]
 [Auction "S"]
 1NT pass 2H pass 2S pass 3S pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "beginner"]
+[SkillPath "bidding_conventions/jacoby_transfers"]
+[Student "S"]
+{Baker Transfers 14}
 {[show NS]
 You open 1NT and partner responds 2\H. What do you bid? [BID 2\S]
 
@@ -401,24 +402,24 @@ Partner has 6 \Ss and you have 2. So a \S contract is fine.
 Partner has 9 points and you have 15. So a game contract is too high.
 
 You pass. And you're going to have to play great to make even 9 tricks!}
-[BCFlags "1f"]
 
 
-[Board "15"]
 [Event "Baker Bridge - Jacoby Transfers"]
-[SkillPath "bidding_conventions/jacoby_transfers"]
-[Category "Bidding Conventions"]
-[Difficulty "beginner"]
-{Baker Transfers 15}
+[Board "15"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W: 873.AKT872.93.65  A6.965.KQJ2.AK98"]
 [Declarer "S"]
 [Contract "4H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: 873.AKT872.93.65  A6.965.KQJ2.AK98"]
+[Result ""]
 [Auction "S"]
 1NT pass 2D pass 2H pass 3H pass 4H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "beginner"]
+[SkillPath "bidding_conventions/jacoby_transfers"]
+[Student "S"]
+{Baker Transfers 15}
 {[show NS]
 You open 1NT and partner responds 2\D. What do you bid? [BID 2\H]
 
@@ -427,24 +428,24 @@ You follow orders and say 2\H.
 Partner follows up with 3\H. What do you bid next? [BID 4\H]
 
 Partner has 9 points and 6 \Hs. You have 17 points and 3 \Hs. That adds up to 26 points and 9 \Hs. You have enough points for game and enough trumps to play \Hs so you bid 4\H.}
-[BCFlags "1f"]
 
 
-[Board "16"]
 [Event "Baker Bridge - Jacoby Transfers"]
-[SkillPath "bidding_conventions/jacoby_transfers"]
-[Category "Bidding Conventions"]
-[Difficulty "beginner"]
-{Baker Transfers 16}
+[Board "16"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W: T9873.KQT.A4.T73  A6.965.KQJ2.AK98"]
 [Declarer "S"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: T9873.KQT.A4.T73  A6.965.KQJ2.AK98"]
+[Result ""]
 [Auction "S"]
 1NT pass 2H pass 2S pass 2NT pass 3NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "beginner"]
+[SkillPath "bidding_conventions/jacoby_transfers"]
+[Student "S"]
+{Baker Transfers 16}
 {[show NS]
 You open 1NT and partner responds 2\H. What do you bid? [BID 2\S]
 
@@ -453,24 +454,24 @@ You say 2\S and partner rebids 2NT. What do you bid? [BID 3NT]
 Partner has 9 points and a 5-card \S suit. He is inviting you to choose a game if you have maximum.
 
 Since you have 17 points you accept the invitation, but with only 2 \Ss you choose 3NT.}
-[BCFlags "1f"]
 
 
-[Board "17"]
 [Event "Baker Bridge - Jacoby Transfers"]
-[SkillPath "bidding_conventions/jacoby_transfers"]
-[Category "Bidding Conventions"]
-[Difficulty "beginner"]
-{Baker Transfers 17}
+[Board "17"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W: Q9854.KQT83.75.3  AK.J65.AKJ4.J865"]
 [Declarer "S"]
 [Contract "4H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: Q9854.KQT83.75.3  AK.J65.AKJ4.J865"]
+[Result ""]
 [Auction "S"]
 1NT pass 2D pass 2H pass 2S pass 4H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "beginner"]
+[SkillPath "bidding_conventions/jacoby_transfers"]
+[Student "S"]
+{Baker Transfers 17}
 {[show NS]
 You open 1NT and partner responds 2\D. What do you bid? [BID 2\H]
 
@@ -481,24 +482,24 @@ What do you bid? [BID 4\H]
 Partner has told you that he has an inviting, 9-point hand with 5 of each Major. He wants you to choose a Major and also decide whether to play game or partscore.
 
 Despite your \Ss being so beautiful there are only two of them so you pick \Hs. And since you have a maximum 17 points you bid the game, 4\H.}
-[BCFlags "1f"]
 
 
-[Board "18"]
 [Event "Baker Bridge - Jacoby Transfers"]
-[SkillPath "bidding_conventions/jacoby_transfers"]
-[Category "Bidding Conventions"]
-[Difficulty "beginner"]
-{Baker Transfers 18}
+[Board "18"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W: AK873.KT965.75.9  QT5.AQ4.KJ4.KJ65"]
 [Declarer "S"]
 [Contract "4S"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: AK873.KT965.75.9  QT5.AQ4.KJ4.KJ65"]
+[Result ""]
 [Auction "S"]
 1NT pass 2H pass 2S pass 3H pass 4S pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "beginner"]
+[SkillPath "bidding_conventions/jacoby_transfers"]
+[Student "S"]
+{Baker Transfers 18}
 {[show NS]
 You open 1NT and partner responds 2\H. What do you bid? [BID 2\S]
 
@@ -509,24 +510,24 @@ Partner has a game forcing hand and is 5-5 in the Majors. He has asked you to ch
 With 3 of each you might be inclined to choose your stronger one, \Hs, but in fact that doesn't really matter since partner is probably stronger in \Ss.
 
 What does matter is those minor suits. If the opening lead is a \C or \D, which is very likely, you want the lead to be coming into your hand, not partner's. And in general you would prefer to have the stronger hand remain concealed. So you bid 4\S where you will be declarer, rather than 4\H where partner would be declarer.}
-[BCFlags "1f"]
 
 
-[Board "19"]
 [Event "Baker Bridge - Jacoby Transfers"]
-[SkillPath "bidding_conventions/jacoby_transfers"]
-[Category "Bidding Conventions"]
-[Difficulty "beginner"]
-{Baker Transfers 19}
+[Board "19"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W: KQ94.AJ973.83.A6  T5.KQT4.AK7.KQ98"]
 [Declarer "S"]
 [Contract "6H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: KQ94.AJ973.83.A6  T5.KQT4.AK7.KQ98"]
+[Result ""]
 [Auction "S"]
 1NT pass 2D pass 3H pass 4C pass 4D pass 6H all pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "beginner"]
+[SkillPath "bidding_conventions/jacoby_transfers"]
+[Student "S"]
+{Baker Transfers 19}
 {[show NS]
 You open 1NT and partner responds 2\D. What do you bid? [BID 3\H]
 
@@ -541,24 +542,24 @@ Partner's \C bid was not a suit, you already have an agreed suit, \Hs. The \C bi
 You continue the search for slam by showing your first round \D control, you bid 4\D. 
 
 That was all partner needed to hear, he jumps straight to 6\H.}
-[BCFlags "1f"]
 
 
-[Board "20"]
 [Event "Baker Bridge - Jacoby Transfers"]
-[SkillPath "bidding_conventions/jacoby_transfers"]
-[Category "Bidding Conventions"]
-[Difficulty "beginner"]
-{Baker Transfers 20}
+[Board "20"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W: Q9853.72.8642.A3  JT4.AK.AK97.KQ98"]
 [Declarer "S"]
 [Contract "4S"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: Q9853.72.8642.A3  JT4.AK.AK97.KQ98"]
+[Result ""]
 [Auction "S"]
 2NT pass 3H pass 3S pass 3NT pass 4S pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "beginner"]
+[SkillPath "bidding_conventions/jacoby_transfers"]
+[Student "S"]
+{Baker Transfers 20}
 {[show NS]
 You open 2NT and partner responds 3\H. What do you bid? [BID 3\S]
 
@@ -569,24 +570,24 @@ Bid of course. You have an 8-card \S fit so you prefer \Ss to notrump.
 As you can see, 3NT would surely go down with a \H lead, while 4\S is cold.
 
 One hand doesn't mean it will always be like this, but usually if you have an 8-card fit the Major suit game will be better than 3NT.}
-[BCFlags "1f"]
 
 
-[Board "21"]
 [Event "Baker Bridge - Jacoby Transfers"]
-[SkillPath "bidding_conventions/jacoby_transfers"]
-[Category "Bidding Conventions"]
-[Difficulty "beginner"]
-{Baker Transfers 21}
+[Board "21"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W: K6.AQJT7.T95.KQ3  AJT.K853.AK.J864"]
 [Declarer "S"]
 [Contract "6H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: K6.AQJT7.T95.KQ3  AJT.K853.AK.J864"]
+[Result ""]
 [Auction "S"]
 1NT pass 2D pass 2H pass 4NT pass 6H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "beginner"]
+[SkillPath "bidding_conventions/jacoby_transfers"]
+[Student "S"]
+{Baker Transfers 21}
 {[show NS]
 You open 1NT and partner responds 2\D. What do you bid? [BID 2\H]
 
@@ -597,24 +598,24 @@ Partner now says 4NT. What do you bid? [BID 6\H]
 If you don't remember Deal 9 go back and look at it now. Partner is not bidding Blackwood, he has about 16 points and is inviting you to bid a slam if you have a maximum. He is also telling you that he has just 5 \Hs and wants you to decide between the suit contract and notrump.
 
 Once you understand partner's bid, your next move is simple. You have a maximum and you prefer to play in the suit. So you bid 6\H.}
-[BCFlags "1f"]
 
 
-[Board "22"]
 [Event "Baker Bridge - Jacoby Transfers"]
-[SkillPath "bidding_conventions/jacoby_transfers"]
-[Category "Bidding Conventions"]
-[Difficulty "beginner"]
-{Baker Transfers 22}
+[Board "22"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W: J3.AK953.42.AK72  AQ64.J6.AK75.J83"]
 [Declarer "S"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: J3.AK953.42.AK72  AQ64.J6.AK75.J83"]
+[Result ""]
 [Auction "S"]
 1NT pass 2D pass 2H pass 3C pass 3NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "beginner"]
+[SkillPath "bidding_conventions/jacoby_transfers"]
+[Student "S"]
+{Baker Transfers 22}
 {[show NS]
 You open 1NT and partner responds 2\D. What do you bid? [BID 2\H]
 
@@ -625,24 +626,24 @@ Partner now says 3\C. What do you bid? [BID 3NT]
 Partner has 5 \Hs and probably 4 \Cs.
 
 He is interested in slam and wants help from you in either of his suits. You have a minimum 1NT opener and no help for him so you try to dampen his enthusiasm by bidding 3NT. It works.}
-[BCFlags "1f"]
 
 
-[Board "23"]
 [Event "Baker Bridge - Jacoby Transfers"]
-[SkillPath "bidding_conventions/jacoby_transfers"]
-[Category "Bidding Conventions"]
-[Difficulty "beginner"]
-{Baker Transfers 23}
+[Board "23"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W: AJT.KQJ93.Q43.72  94.A86.AK97.A865"]
 [Declarer "S"]
 [Contract "4H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: AJT.KQJ93.Q43.72  94.A86.AK97.A865"]
+[Result ""]
 [Auction "S"]
 1NT pass 2D 2S pass pass 3NT pass 4H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "beginner"]
+[SkillPath "bidding_conventions/jacoby_transfers"]
+[Student "S"]
+{Baker Transfers 23}
 {[show NS]
 You open 1NT and partner responds 2\D. However, your Right Hand Opponent injects a 2\S overcall.
 
@@ -655,24 +656,24 @@ Remember, you have a partner who heard your first bid and he knows more about th
 Aha! Partner does have a good hand, at least 11 points and with 5 \Hs.
 
 You have a minimum, but with 3 \Hs you prefer the suit game to 3NT so you bid 4\H.}
-[BCFlags "1f"]
 
 
-[Board "24"]
 [Event "Baker Bridge - Jacoby Transfers"]
-[SkillPath "bidding_conventions/jacoby_transfers"]
-[Category "Bidding Conventions"]
-[Difficulty "beginner"]
-{Baker Transfers 24}
+[Board "24"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W: T86.Q97532.652.9  94.AJ86.AK9.A865"]
 [Declarer "S"]
 [Contract "3H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: T86.Q97532.652.9  94.AJ86.AK9.A865"]
+[Result ""]
 [Auction "S"]
 1NT pass 2D 2S 3H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "beginner"]
+[SkillPath "bidding_conventions/jacoby_transfers"]
+[Student "S"]
+{Baker Transfers 24}
 {[show NS]
 You open 1NT and partner responds 2\D. However, your Right Hand Opponent injects a 2\S overcall.
 
@@ -681,24 +682,24 @@ What do you bid? [BID 3\H]
 More often than not it is correct to pass after an opponent overcalls your partner's transfer response. This is because your partner might be very weak, and in any case your partner knows a lot about your hand while you don't know much about his. 
 
 However, in this case you know that your side has at least 9 \Hs, and you are weak in \Ss. So you bid 3\H, knowing that even if you go down it may be better than letting them play \Ss.}
-[BCFlags "1f"]
 
 
-[Board "25"]
 [Event "Baker Bridge - Jacoby Transfers"]
-[SkillPath "bidding_conventions/jacoby_transfers"]
-[Category "Bidding Conventions"]
-[Difficulty "beginner"]
-{Baker Transfers 25}
+[Board "25"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W: T95.AK753.83.K42  AJ4.86.AK97.A865"]
 [Declarer "E"]
 [Contract "2S"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: T95.AK753.83.K42  AJ4.86.AK97.A865"]
+[Result ""]
 [Auction "S"]
 1NT pass 2D 2S pass pass X pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "beginner"]
+[SkillPath "bidding_conventions/jacoby_transfers"]
+[Student "S"]
+{Baker Transfers 25}
 {[show NS]
 You open 1NT and partner responds 2\D. However, your Right Hand Opponent injects a 2\S overcall. What do you bid? [BID pass]
 
@@ -709,6 +710,5 @@ What do you say now? [BID pass]
 Partner's double is called a Cooperative Double. It doesn't mean he has a \S stack, it just means that your side has the balance of power and East may have over-reached himself.
 
 If you had good \Hs you might bid them now. Or, it is possible that you could make 3NT. But it is likely that you are going to make a bigger score in penalties so you pass.}
-[BCFlags "1f"]
 
 

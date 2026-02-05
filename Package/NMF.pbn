@@ -1,22 +1,23 @@
-%Creator: CSVtoPBN Version 1.02
-%Created: 2026-02-05 09:36:22
+%Creator: CSVtoPBN Version 1.03
+%Created: 2026-02-05 09:48:38
 %sourcefilename BakerBridge.csv
 %HRTitleEvent NMF
-[Board "1"]
 [Event "Baker Bridge - New Minor Forcing"]
-[SkillPath "bidding_conventions/new_minor_forcing"]
-[Category "Bidding Conventions"]
-[Difficulty "intermediate"]
-{Baker NMF 1}
+[Board "1"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W: T92.AQ3.T86.AK54  QJ865.K92.AK.863"]
 [Declarer "S"]
 [Contract "4S"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: T92.AQ3.T86.AK54  QJ865.K92.AK.863"]
+[Result ""]
 [Auction "N"]
 1C pass 1S pass 1NT pass 2D pass 2S pass 4S pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "intermediate"]
+[SkillPath "bidding_conventions/new_minor_forcing"]
+[Student "S"]
+{Baker NMF 1}
 {[show NS]
 The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 1\S]
 
@@ -29,24 +30,24 @@ Partner has a minimum hand, balanced. You know you want to be in game, but you a
 
 
 Partner tells you he has 3 \Ss. You already know he has a minimum strength hand. You bid the \S game.}
-[BCFlags "1f"]
 
 
-[Board "2"]
 [Event "Baker Bridge - New Minor Forcing"]
-[SkillPath "bidding_conventions/new_minor_forcing"]
-[Category "Bidding Conventions"]
-[Difficulty "intermediate"]
-{Baker NMF 2}
+[Board "2"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W: KQJT2.K63.86.A54  96.A82.AK74.Q863"]
 [Declarer "S"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: KQJT2.K63.86.A54  96.A82.AK74.Q863"]
+[Result ""]
 [Auction "S"]
 1D pass 1S pass 1NT pass 2C pass 2NT pass 3NT all pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "intermediate"]
+[SkillPath "bidding_conventions/new_minor_forcing"]
+[Student "S"]
+{Baker NMF 2}
 {[show NS]
 You are the dealer. Decide what you would say, then click on BID above. [BID 1\D]
 
@@ -59,24 +60,24 @@ You have a minimum, balanced hand. It would not be wrong to say 2\C, but 1NT is 
 
 
 Do not support the \Cs if you have another decent bid. This is New Minor Forcing and partner may or may not have a \C suit. You do not have 3 \Ss. You do not have a 4-card \H suit. You do have a \H stopper, so bid 2NT. Partner then bids 3NT.}
-[BCFlags "1f"]
 
 
-[Board "3"]
 [Event "Baker Bridge - New Minor Forcing"]
-[SkillPath "bidding_conventions/new_minor_forcing"]
-[Category "Bidding Conventions"]
-[Difficulty "intermediate"]
-{Baker NMF 3}
+[Board "3"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W: 962.A53.KQJ5.K84  Q74.KQ642.87.A53"]
 [Declarer "S"]
 [Contract "2H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: 962.A53.KQJ5.K84  Q74.KQ642.87.A53"]
+[Result ""]
 [Auction "N"]
 1D pass 1H pass 1NT pass 2C pass 2H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "intermediate"]
+[SkillPath "bidding_conventions/new_minor_forcing"]
+[Student "S"]
+{Baker NMF 3}
 {[show NS]
 The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 1\H]
 
@@ -89,24 +90,24 @@ Partner has 12-14 points, balanced. If he is at the top, game could still be the
 
 
 Partner tells you he has 3 \Hs. But he also tells you he has minimum strength - in other words not 14 points. So you pass and accept the partscore.}
-[BCFlags "1f"]
 
 
-[Board "4"]
 [Event "Baker Bridge - New Minor Forcing"]
-[SkillPath "bidding_conventions/new_minor_forcing"]
-[Category "Bidding Conventions"]
-[Difficulty "intermediate"]
-{Baker NMF 4}
+[Board "4"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W: AKQ52.AT63.75.T4  63.KQJ2.AK86.985"]
 [Declarer "S"]
 [Contract "4H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: AKQ52.AT63.75.T4  63.KQJ2.AK86.985"]
+[Result ""]
 [Auction "S"]
 1D pass 1S pass 1NT pass 2C pass 2H pass 4H all pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "intermediate"]
+[SkillPath "bidding_conventions/new_minor_forcing"]
+[Student "S"]
+{Baker NMF 4}
 {[show NS]
 You are the dealer. Decide what you would say, then click on BID above. [BID 1\D]
 
@@ -121,24 +122,24 @@ Partner says 2\C. What do you bid? [BID 2\H]
 
 
 This is New Minor Forcing and your first priority is to show a 4-card \H suit. You bid 2\H and partner raises to 4\H.}
-[BCFlags "1f"]
 
 
-[Board "5"]
 [Event "Baker Bridge - New Minor Forcing"]
-[SkillPath "bidding_conventions/new_minor_forcing"]
-[Category "Bidding Conventions"]
-[Difficulty "intermediate"]
-{Baker NMF 5}
+[Board "5"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W: KJ2.73.AK62.Q742  Q74.KQ642.87.A53"]
 [Declarer "N"]
 [Contract "2NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: KJ2.73.AK62.Q742  Q74.KQ642.87.A53"]
+[Result ""]
 [Auction "N"]
 1D pass 1H pass 1NT pass 2C pass 2NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "intermediate"]
+[SkillPath "bidding_conventions/new_minor_forcing"]
+[Student "S"]
+{Baker NMF 5}
 {[show NS]
 The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 1\H]
 
@@ -151,24 +152,24 @@ Partner has 12-14 points, balanced. If he is at the top, game could still be the
 
 
 Partner tells you he has only 2 \Hs. He also tells you he only has 12-13 points. So you pass 2NT.}
-[BCFlags "1f"]
 
 
-[Board "6"]
 [Event "Baker Bridge - New Minor Forcing"]
-[SkillPath "bidding_conventions/new_minor_forcing"]
-[Category "Bidding Conventions"]
-[Difficulty "intermediate"]
-{Baker NMF 6}
+[Board "6"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W: A7.AQT63.QT4.753  K43.K92.J85.AK86"]
 [Declarer "N"]
 [Contract "4H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: A7.AQT63.QT4.753  K43.K92.J85.AK86"]
+[Result ""]
 [Auction "S"]
 1C pass 1H pass 1NT pass 2D pass 3H pass 4H all pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "intermediate"]
+[SkillPath "bidding_conventions/new_minor_forcing"]
+[Student "S"]
+{Baker NMF 6}
 {[show NS]
 You are the dealer. Decide what you would say, then click on BID above. [BID 1\C]
 
@@ -183,24 +184,24 @@ Partner says 2\D. What do you bid? [BID 3\H]
 
 
 This is New Minor Forcing. Partner wants to know if you have 3 \Hs. Not only do you have 3 good \Hs, but you also have a maximum hand. So you jump to 3\H and partner bids the game.}
-[BCFlags "1f"]
 
 
-[Board "7"]
 [Event "Baker Bridge - New Minor Forcing"]
-[SkillPath "bidding_conventions/new_minor_forcing"]
-[Category "Bidding Conventions"]
-[Difficulty "intermediate"]
-{Baker NMF 7}
+[Board "7"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W: Q2.Q954.A52.KQ97  KJ976.AK87.64.T3"]
 [Declarer "N"]
 [Contract "4H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: Q2.Q954.A52.KQ97  KJ976.AK87.64.T3"]
+[Result ""]
 [Auction "N"]
 1C pass 1S pass 1NT pass 2D pass 2H pass 4H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "intermediate"]
+[SkillPath "bidding_conventions/new_minor_forcing"]
+[Student "S"]
+{Baker NMF 7}
 {[show NS]
 The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 1\S]
 
@@ -215,24 +216,24 @@ So you say 2\D and your wonderful partner bids 2\H. What now? [BID 4\H]
 
 
 Your 12 points just got upgraded! Bid 4\H.}
-[BCFlags "1f"]
 
 
-[Board "8"]
 [Event "Baker Bridge - New Minor Forcing"]
-[SkillPath "bidding_conventions/new_minor_forcing"]
-[Category "Bidding Conventions"]
-[Difficulty "intermediate"]
-{Baker NMF 8}
+[Board "8"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W: K52.AJT74.J5.Q74  AQ9.82.AKT9.JT95"]
 [Declarer "S"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: K52.AJT74.J5.Q74  AQ9.82.AKT9.JT95"]
+[Result ""]
 [Auction "S"]
 1D pass 1H pass 1NT pass 2C pass 3NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "intermediate"]
+[SkillPath "bidding_conventions/new_minor_forcing"]
+[Student "S"]
+{Baker NMF 8}
 {[show NS]
 You are the dealer. Decide what you would say, then click on BID above. [BID 1\D]
 
@@ -247,24 +248,24 @@ Partner says 2\C. What do you bid? [BID 3NT]
 
 
 This is NMF, asking if you have 3 \Hs. You only have 2, but you have a great notrump hand now. Since partner must have at least invitational strength you jump right to 3NT.}
-[BCFlags "1f"]
 
 
-[Board "9"]
 [Event "Baker Bridge - New Minor Forcing"]
-[SkillPath "bidding_conventions/new_minor_forcing"]
-[Category "Bidding Conventions"]
-[Difficulty "intermediate"]
-{Baker NMF 9}
+[Board "9"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W: QT5.JT.AK642.Q86  K94.AK542.85.KJ9"]
 [Declarer "N"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: QT5.JT.AK642.Q86  K94.AK542.85.KJ9"]
+[Result ""]
 [Auction "N"]
 1D pass 1H pass 1NT pass 2C pass 2NT pass 3NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "intermediate"]
+[SkillPath "bidding_conventions/new_minor_forcing"]
+[Student "S"]
+{Baker NMF 9}
 {[show NS]
 The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 1\H]
 
@@ -279,24 +280,24 @@ So you say 2\C and partner replies 2NT. It is your bid again. [BID 3NT]
 
 
 Partner doesn't have 3 \Hs. That's what you wanted to know, you bid 3NT.}
-[BCFlags "1f"]
 
 
-[Board "10"]
 [Event "Baker Bridge - New Minor Forcing"]
-[SkillPath "bidding_conventions/new_minor_forcing"]
-[Category "Bidding Conventions"]
-[Difficulty "intermediate"]
-{Baker NMF 10}
+[Board "10"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W: KQJ62.KQ63.86.54  98.AJT2.AKQ4.T96"]
 [Declarer "S"]
 [Contract "4H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: KQJ62.KQ63.86.54  98.AJT2.AKQ4.T96"]
+[Result ""]
 [Auction "S"]
 1D pass 1S pass 1NT pass 2C pass 3H pass 4H all pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "intermediate"]
+[SkillPath "bidding_conventions/new_minor_forcing"]
+[Student "S"]
+{Baker NMF 10}
 {[show NS]
 You are the dealer. Decide what you would say, then click on BID above. [BID 1\D]
 
@@ -309,24 +310,24 @@ You cannot bid 2\H because a Reverse shows at least 16 points. So you bid 1NT. P
 
 
 This is NMF, asking you to further describe your hand. You do not have 3 \Ss. You do have a 4-card \H suit. You have a maximum hand for your previous bidding, so you jump to 3\H. Partner raises to 4\H.}
-[BCFlags "1f"]
 
 
-[Board "11"]
 [Event "Baker Bridge - New Minor Forcing"]
-[SkillPath "bidding_conventions/new_minor_forcing"]
-[Category "Bidding Conventions"]
-[Difficulty "intermediate"]
-{Baker NMF 11}
+[Board "11"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W: 72.KQ75.J96.AK94  KQJT5.A3.KT7.T83"]
 [Declarer "N"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: 72.KQ75.J96.AK94  KQJT5.A3.KT7.T83"]
+[Result ""]
 [Auction "N"]
 1C pass 1S pass 1NT pass 2D pass 2H pass 3NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "intermediate"]
+[SkillPath "bidding_conventions/new_minor_forcing"]
+[Student "S"]
+{Baker NMF 11}
 {[show NS]
 The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 1\S]
 
@@ -341,24 +342,24 @@ You bid 2\D and partner then says 2\H. Where do you go from here? [BID 3NT]
 
 
 OK, partner has a 4-card \H suit - may or may not have 3 \Ss. Since you don't have 4 \Hs you bid 3NT, leaving it up to partner to correct to 4\S if he has 3 of them.}
-[BCFlags "1f"]
 
 
-[Board "12"]
 [Event "Baker Bridge - New Minor Forcing"]
-[SkillPath "bidding_conventions/new_minor_forcing"]
-[Category "Bidding Conventions"]
-[Difficulty "intermediate"]
-{Baker NMF 12}
+[Board "12"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W: KQ962.Q74.Q93.93  AT7.AJT.KJ5.KQT6"]
 [Declarer "N"]
 [Contract "4S"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: KQ962.Q74.Q93.93  AT7.AJT.KJ5.KQT6"]
+[Result ""]
 [Auction "S"]
 1C pass 1S pass 2NT pass 3D pass 3S pass 4S all pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "intermediate"]
+[SkillPath "bidding_conventions/new_minor_forcing"]
+[Student "S"]
+{Baker NMF 12}
 {[show NS]
 You are the dealer. Decide what you would say, then click on BID above. [BID 1\C]
 
@@ -373,24 +374,24 @@ Partner says 3\D. What do you bid? [BID 3\S]
 
 
 This is New Minor Forcing. Partner wants to know if you have 3 \Ss. Since you do have 3 you bid 3\S and partner raises to 4\S.}
-[BCFlags "1f"]
 
 
-[Board "13"]
 [Event "Baker Bridge - New Minor Forcing"]
-[SkillPath "bidding_conventions/new_minor_forcing"]
-[Category "Bidding Conventions"]
-[Difficulty "intermediate"]
-{Baker NMF 13}
+[Board "13"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W: J4.AKQ86.KQ4.KT4  KQT53.73.A53.AQ3"]
 [Declarer "N"]
 [Contract "6NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: J4.AKQ86.KQ4.KT4  KQT53.73.A53.AQ3"]
+[Result ""]
 [Auction "N"]
 1H pass 1S pass 2NT pass 3C pass 3NT pass 6NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "intermediate"]
+[SkillPath "bidding_conventions/new_minor_forcing"]
+[Student "S"]
+{Baker NMF 13}
 {[show NS]
 The bidding has gone as shown. Decide what you would say, then click on BID above. [BID 1\S]
 
@@ -405,24 +406,24 @@ You bid 3\C rather than 3\D just because your \Cs are stronger. Partner now says
 
 
 Partner does not have 3 \Ss. That was the information you needed, so you bid 6NT.}
-[BCFlags "1f"]
 
 
-[Board "14"]
 [Event "Baker Bridge - New Minor Forcing"]
-[SkillPath "bidding_conventions/new_minor_forcing"]
-[Category "Bidding Conventions"]
-[Difficulty "intermediate"]
-{Baker NMF 14}
+[Board "14"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W: AQ642.KQ7.J6.QJ4  K8.962.AKQ84.T96"]
 [Declarer "S"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W: AQ642.KQ7.J6.QJ4  K8.962.AKQ84.T96"]
+[Result ""]
 [Auction "S"]
 1D pass 1S pass 1NT pass 2C pass 2D pass 3NT all pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Bidding Conventions"]
+[Difficulty "intermediate"]
+[SkillPath "bidding_conventions/new_minor_forcing"]
+[Student "S"]
+{Baker NMF 14}
 {[show NS]
 You are the dealer. Decide what you would say, then click on BID above. [BID 1\D]
 
@@ -437,6 +438,5 @@ With a minimum opener you now bid 1NT. Partner says 2\C. What do you say next? [
 This is NMF, asking you to further describe your hand - and you are stuck for a bid. You do not have 4 \Hs. You do not have 3 \Ss. You do not have a stopper in either \Hs or \Cs so you cannot bid 2NT. Reluctantly you rebid your 5-card \D suit.
 
 Then you breathe a sigh of relief when partner says 3NT.}
-[BCFlags "1f"]
 
 

@@ -1,22 +1,23 @@
-%Creator: CSVtoPBN Version 1.02
-%Created: 2026-02-05 09:36:22
+%Creator: CSVtoPBN Version 1.03
+%Created: 2026-02-05 09:48:38
 %sourcefilename BakerBridge.csv
 %HRTitleEvent Establishment
-[Board "1"]
 [Event "Baker Bridge - Suit Establishment"]
-[SkillPath "declarer_play/suit_establishment"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Establishment 1}
+[Board "1"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:JT982.J973.A6.K9 AK4.AT865.Q3.AJ4 765.KQ.8752.QT82 Q3.42.KJT94.7653"]
 [Declarer "S"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:JT982.J973.A6.K9 AK4.AT865.Q3.AJ4 765.KQ.8752.QT82 Q3.42.KJT94.7653"]
+[Result ""]
 [Auction "N"]
 1H pass 1NT pass 3NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/suit_establishment"]
+[Student "S"]
+{Baker Establishment 1}
 {[show NS]
 South is to play 3NT. West leads the \SJ.
 
@@ -56,24 +57,24 @@ Click NEXT to see the complete deal. [NEXT]
 Establishing the \Ds is the straightforward way to make the contract.
 
 Just don't foul up on your \S entry.}
-[BCFlags "1f"]
 [Play "W"]SJ
 
-[Board "2"]
 [Event "Baker Bridge - Suit Establishment"]
-[SkillPath "declarer_play/suit_establishment"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Establishment 2}
+[Board "2"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:876.AJ98.94.QT73 QT2.73.K8763.854 4.KQT65.QJT2.KJ6 AKJ953.42.A5.A92"]
 [Declarer "S"]
 [Contract "4S"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:876.AJ98.94.QT73 QT2.73.K8763.854 4.KQT65.QJT2.KJ6 AKJ953.42.A5.A92"]
+[Result ""]
 [Auction "S"]
 1S pass 2S pass 4S pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/suit_establishment"]
+[Student "S"]
+{Baker Establishment 2}
 {[show NS]
 You were counting on North to have a little better hand than that! South is to play 4\S. West leads the \S6, East plays \S4.
 
@@ -118,24 +119,24 @@ Clickfor the complete deal. [NEXT]
 [show NESW]
 
 You had to establish the \Ds to make T tricks. And once again you had to pay close attention to entries.}
-[BCFlags "1f"]
 [Play "W"]S6
 
-[Board "3"]
 [Event "Baker Bridge - Suit Establishment"]
-[SkillPath "declarer_play/suit_establishment"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Establishment 3}
+[Board "3"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:J4.KT54.JT953.T5 85.J762.86.AKQ43 QT963.Q9.K4.J987 AK72.A83.AQ72.62"]
 [Declarer "S"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:J4.KT54.JT953.T5 85.J762.86.AKQ43 QT963.Q9.K4.J987 AK72.A83.AQ72.62"]
+[Result ""]
 [Auction "S"]
 1NT pass 2C pass 2S pass 3NT all pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/suit_establishment"]
+[Student "S"]
+{Baker Establishment 3}
 {[show NS]
 North's \C bid was Stayman, but he didn't match \Ss. South is to play 3NT. West leads the \DJ, East plays \DK.
 
@@ -166,24 +167,24 @@ Clickfor the complete deal. [NEXT]
 [show NESW]
 
 If you had played the \Cs from the top you would have come up one trick short.}
-[BCFlags "1f"]
 [Play "W"]DJ
 
-[Board "4"]
 [Event "Baker Bridge - Suit Establishment"]
-[SkillPath "declarer_play/suit_establishment"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Establishment 4}
+[Board "4"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:J4.KQ954.J73.QT5 85.JT.82.AK87643 QT963.762.KQT5.J AK72.A83.A964.92"]
 [Declarer "S"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:J4.KQ954.J73.QT5 85.JT.82.AK87643 QT963.762.KQT5.J AK72.A83.A964.92"]
+[Result ""]
 [Auction "S"]
 1NT pass 3NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/suit_establishment"]
+[Student "S"]
+{Baker Establishment 4}
 {[show NS]
 South is to play 3NT. West leads the \H5, East plays the \H2.
 
@@ -206,24 +207,24 @@ for the complete Deal. [NEXT]
 [show NESW]
 
 Ducking a \C is the only way to make the contract and you might as well do it at the second trick.}
-[BCFlags "1f"]
 [Play "W"]H5
 
-[Board "5"]
 [Event "Baker Bridge - Suit Establishment"]
-[SkillPath "declarer_play/suit_establishment"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Establishment 5}
+[Board "5"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:QT72.Q94.QT9.JT7 964.732.A8542.65 J83.JT85.KJ.Q983 AK5.AK6.763.AK42"]
 [Declarer "S"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:QT72.Q94.QT9.JT7 964.732.A8542.65 J83.JT85.KJ.Q983 AK5.AK6.763.AK42"]
+[Result ""]
 [Auction "S"]
 2NT pass 3NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/suit_establishment"]
+[Student "S"]
+{Baker Establishment 5}
 {[show NS]
 South is to play 3NT. West leads the \S2, East plays the \SJ.
 
@@ -250,24 +251,24 @@ Clickfor the complete Deal. [NEXT]
 [show NESW]
 
 You had to have the defender's \Ss split 4-3. But in fact you were pretty sure they were going to do so. Since West's \S2 was probably his fourth-down then he couldn't have a fifth-down.}
-[BCFlags "1f"]
 [Play "W"]S2
 
-[Board "6"]
 [Event "Baker Bridge - Suit Establishment"]
-[SkillPath "declarer_play/suit_establishment"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Establishment 6}
+[Board "6"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:QT52.742.87.J872 A74.KT983.J53.Q3 J98.A65.QT96.K95 K63.QJ.AK42.AT64"]
 [Declarer "S"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:QT52.742.87.J872 A74.KT983.J53.Q3 J98.A65.QT96.K95 K63.QJ.AK42.AT64"]
+[Result ""]
 [Auction "S"]
 1NT pass 2D pass 2H pass 3NT all pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/suit_establishment"]
+[Student "S"]
+{Baker Establishment 6}
 {[show NS]
 North's 3\D bid was a transfer to \Hs. South is to play 3NT. West leads the \S2.
 
@@ -290,24 +291,24 @@ Clickfor the complete Deal. [NEXT]
 [show NESW]
 
 None of the other suits were sitting well so overtaking the \H was the way to go.}
-[BCFlags "1f"]
 [Play "W"]S2
 
-[Board "7"]
 [Event "Baker Bridge - Suit Establishment"]
-[SkillPath "declarer_play/suit_establishment"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Establishment 7}
+[Board "7"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:T3.KQJ84.T875.J8 AJ64.75.63.AK643 .T963.KQJ94.QT97 KQ98752.A2.A2.52"]
 [Declarer "S"]
 [Contract "6S"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:T3.KQJ84.T875.J8 AJ64.75.63.AK643 .T963.KQJ94.QT97 KQ98752.A2.A2.52"]
+[Result ""]
 [Auction "N"]
 1C pass 1S pass 2S pass 4NT pass 5H pass 6S pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/suit_establishment"]
+[Student "S"]
+{Baker Establishment 7}
 {[show NS]
 South is to play 6\S. West leads the \HK.
 
@@ -328,24 +329,24 @@ Clickfor the full Deal. [NEXT]
 [show NESW]
 
 As long as the \Cs were no worse than 4-2 you can establish the suit.}
-[BCFlags "1f"]
 [Play "W"]HK
 
-[Board "8"]
 [Event "Baker Bridge - Suit Establishment"]
-[SkillPath "declarer_play/suit_establishment"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Establishment 8}
+[Board "8"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:K643.97.KT862.82 T972.AJ6.75.Q643 A8.QT82.QJ9.JT97 QJ5.K543.A43.AK5"]
 [Declarer "S"]
 [Contract "1NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:K643.97.KT862.82 T972.AJ6.75.Q643 A8.QT82.QJ9.JT97 QJ5.K543.A43.AK5"]
+[Result ""]
 [Auction "S"]
 1NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/suit_establishment"]
+[Student "S"]
+{Baker Establishment 8}
 {[show NS]
 South is to play 1NT. West leads the \D6, taken by East with the \DJ. East next plays the \DQ on which West plays the \D2. East plays the \D9 which you finally win.
 
@@ -372,24 +373,24 @@ If you finessed the \H you would have gone down with the defenders winning 4 \Ds
 If you had played 3 rounds of \Cs you would have gone down with the defenders winning 4 \Ds, 1 \C and 2 \Ss.
 
 Only by establishing \Ss can you make the contract.}
-[BCFlags "1f"]
 [Play "W"]D6
 
-[Board "9"]
 [Event "Baker Bridge - Suit Establishment"]
-[SkillPath "declarer_play/suit_establishment"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Establishment 9}
+[Board "9"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:98653.Q932.K4.62 QT2.86.952.AT983 A4.JT4.QJT6.J754 KJ7.AK75.A873.KQ"]
 [Declarer "S"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:98653.Q932.K4.62 QT2.86.952.AT983 A4.JT4.QJT6.J754 KJ7.AK75.A873.KQ"]
+[Result ""]
 [Auction "S"]
 2NT pass 3NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/suit_establishment"]
+[Student "S"]
+{Baker Establishment 9}
 {[show NS]
 South is to play 3NT. West leads the \S9, taken by East with the \SA. East next plays the \S4.
 
@@ -412,24 +413,24 @@ Clickfor the complete deal. [NEXT]
 [show NESW]
 
 As you see, you couldn't set up a \D trick so the \C overtake was necessary to make the contract.}
-[BCFlags "1f"]
 [Play "W"]S9
 
-[Board "10"]
 [Event "Baker Bridge - Suit Establishment"]
-[SkillPath "declarer_play/suit_establishment"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Establishment 10}
+[Board "10"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:QT4.963.932.KQJT A852.Q7.K74.8643 KJ9.JT84.QJT5.92 763.AK52.A86.A75"]
 [Declarer "S"]
 [Contract "2NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:QT4.963.932.KQJT A852.Q7.K74.8643 KJ9.JT84.QJT5.92 763.AK52.A86.A75"]
+[Result ""]
 [Auction "S"]
 1NT pass 2C pass 2H pass 2NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/suit_establishment"]
+[Student "S"]
+{Baker Establishment 10}
 {[show NS]
 South is to play 2NT. West leads the \CK.
 
@@ -453,24 +454,24 @@ Click NEXT to see the complete Deal. [NEXT]
 [show NESW]
 
 This time you were lucky and the \Ss split evenly. Next time they probably won't and you'll go down.}
-[BCFlags "1f"]
 [Play "W"]CK
 
-[Board "11"]
 [Event "Baker Bridge - Suit Establishment"]
-[SkillPath "declarer_play/suit_establishment"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Establishment 11}
+[Board "11"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:JT4.83.Q972.KQJT 86532.AKJ5.65.83 AK97.42.KT84.965 Q.QT976.AJ3.A742"]
 [Declarer "S"]
 [Contract "4H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:JT4.83.Q972.KQJT 86532.AKJ5.65.83 AK97.42.KT84.965 Q.QT976.AJ3.A742"]
+[Result ""]
 [Auction "S"]
 1H pass 3H pass 4H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/suit_establishment"]
+[Student "S"]
+{Baker Establishment 11}
 {[show NS]
 South is to play 4\H. West leads the \CK.
 
@@ -495,24 +496,24 @@ Clickfor the complete Deal. [NEXT]
 [show NESW]
 
 It took a 2-2 trump split and a 4-3 \S split. But that was your best shot.}
-[BCFlags "1f"]
 [Play "W"]CK
 
-[Board "12"]
 [Event "Baker Bridge - Suit Establishment"]
-[SkillPath "declarer_play/suit_establishment"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Establishment 12}
+[Board "12"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:J963.J2.QJT76.84 875.K8753.AK5.T2 QT4.QT96.932.763 AK2.A4.84.AKQJ95"]
 [Declarer "S"]
 [Contract "7C"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:J963.J2.QJT76.84 875.K8753.AK5.T2 QT4.QT96.932.763 AK2.A4.84.AKQJ95"]
+[Result ""]
 [Auction "S"]
 2C pass 2H pass 3C pass 3NT pass 4NT pass 5D pass 5NT pass 6H pass 7C pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/suit_establishment"]
+[Student "S"]
+{Baker Establishment 12}
 {[show NS]
 South is to play 7\C. West leads the \DQ.
 
@@ -539,24 +540,24 @@ Clickfor the complete Deal. [NEXT]
 It may have seemed too risky to play \Hs before pulling trumps. In fact, there was no risk at all. If the \Hs were splitting 5-1 then you had absolutely no chance of making the contract.
 
 And if they had split 3-3 this Plan would still have worked.}
-[BCFlags "1f"]
 [Play "W"]DQ
 
-[Board "13"]
 [Event "Baker Bridge - Suit Establishment"]
-[SkillPath "declarer_play/suit_establishment"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Establishment 13}
+[Board "13"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:QT64.J82.K84.Q83 83.75.AQT62.AK74 J97.QT96.J9.JT62 AK52.AK43.753.95"]
 [Declarer "S"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:QT64.J82.K84.Q83 83.75.AQT62.AK74 J97.QT96.J9.JT62 AK52.AK43.753.95"]
+[Result ""]
 [Auction "N"]
 1D pass 1H pass 2C pass 3NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/suit_establishment"]
+[Student "S"]
+{Baker Establishment 13}
 {[show NS]
 South is to play 3NT. West leads the \S4.
 
@@ -585,24 +586,24 @@ Clickfor the complete Deal. [NEXT]
 This was just a normal suit-establishment Deal.
 
 If looked different because of the two finesses you took.}
-[BCFlags "1f"]
 [Play "W"]S4
 
-[Board "14"]
 [Event "Baker Bridge - Suit Establishment"]
-[SkillPath "declarer_play/suit_establishment"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Establishment 14}
+[Board "14"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:JT642.KJ8.T73.K2 97.43.8652.A8653 A85.QT96.QJ9.T74 KQ3.A752.AK4.QJ9"]
 [Declarer "S"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:JT642.KJ8.T73.K2 97.43.8652.A8653 A85.QT96.QJ9.T74 KQ3.A752.AK4.QJ9"]
+[Result ""]
 [Auction "N"]
 pass pass 1C pass 2C pass 3NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/suit_establishment"]
+[Student "S"]
+{Baker Establishment 14}
 {[show NS]
 South is to play 3NT. West leads the \S4. East puts on the \SA and returns the \S8.
 
@@ -635,24 +636,24 @@ Clickfor the complete Deal. [NEXT]
 You were prepared to lose that \C finesse to East so you could establish the suit in dummy.
 
 West's play of the \CK may have made you want to jump up with the \CA, but you must stick to the original play of ducking one trick.}
-[BCFlags "1f"]
 [Play "W"]S4
 
-[Board "15"]
 [Event "Baker Bridge - Suit Establishment"]
-[SkillPath "declarer_play/suit_establishment"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Establishment 15}
+[Board "15"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:KT82.KT4.872.KJ7 754.AQ875.963.84 J96.J92.QJT.T932 AQ3.63.AK54.AQ65"]
 [Declarer "S"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:KT82.KT4.872.KJ7 754.AQ875.963.84 J96.J92.QJT.T932 AQ3.63.AK54.AQ65"]
+[Result ""]
 [Auction "N"]
 pass pass 1D pass 1H pass 2NT pass 3NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/suit_establishment"]
+[Student "S"]
+{Baker Establishment 15}
 {[show NS]
 South is to play 3NT. West leads the \S2. East puts on the \SJ.
 
@@ -677,24 +678,24 @@ Click NEXT to see the full Deal and whether you made the contract or not. [NEXT]
 Ducking the first \H and finessing the second could let you wind up with no tricks at all in the \H suit.
 
 But, it is your only chance to make the contract.}
-[BCFlags "1f"]
 [Play "W"]S2
 
-[Board "16"]
 [Event "Baker Bridge - Suit Establishment"]
-[SkillPath "declarer_play/suit_establishment"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Establishment 16}
+[Board "16"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:KQJT.T9.743.KT72 8653.K54.KJT85.Q A92.J73.A92.J965 74.AQ862.Q6.A843"]
 [Declarer "S"]
 [Contract "4H"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:KQJT.T9.743.KT72 8653.K54.KJT85.Q A92.J73.A92.J965 74.AQ862.Q6.A843"]
+[Result ""]
 [Auction "S"]
 1H pass 3H pass 4H pass pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/suit_establishment"]
+[Student "S"]
+{Baker Establishment 16}
 {[show NS]
 Some pretty agressive bidding gets you to a challenging game. South is to play 4\H. West leads the \SK, overtaken by East's \SA. East returns a \S to West's \ST, and he then plays the \SQ.
 
@@ -720,24 +721,24 @@ Click NEXT to see the complete Deal. [NEXT]
 [show NESW]
 
 If East does not take the second \D you continue the suit, and whether you ruff or discard a loser you still make the contract.}
-[BCFlags "1f"]
 [Play "W"]SK
 
-[Board "17"]
 [Event "Baker Bridge - Suit Establishment"]
-[SkillPath "declarer_play/suit_establishment"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Establishment 17}
+[Board "17"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:KT86.963.Q72.J92 QJ9.KQT54.94.863 432.A82.KJ5.QT74 A75.J7.AT863.AK5"]
 [Declarer "S"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:KT86.963.Q72.J92 QJ9.KQT54.94.863 432.A82.KJ5.QT74 A75.J7.AT863.AK5"]
+[Result ""]
 [Auction "S"]
 1NT pass 2D pass 2H pass 2NT pass 3NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/suit_establishment"]
+[Student "S"]
+{Baker Establishment 17}
 {[show NS]
 North's 3\D bid was a transfer to \Hs, and his 2NT bid showed exactly 5 \Hs with an invitational strength hand. South is to play 3NT. West leads the \S6, you play dummy's \S9 and  East contributes the \S2.
 
@@ -763,24 +764,24 @@ Click NEXT to see the complete Deal. [NEXT]
 Suppose you allow dummy's \S9 to hold the first trick, then start on \Hs. East will hold up the \HA for 1 or 2 rounds. When he does win it he will return a \S and whether you play the \SA or a low \S West will be able to prevent you from reaching dummy.
 
 But if you win the first trick with the \SA, then dummy's \S Q J will provide a guaranteed entry to the good \Hs.}
-[BCFlags "1f"]
 [Play "W"]S6
 
-[Board "18"]
 [Event "Baker Bridge - Suit Establishment"]
-[SkillPath "declarer_play/suit_establishment"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Establishment 18}
+[Board "18"]
 [Dealer "W"]
+[Vulnerable "None"]
+[Deal "W:Q972.K64.T82.Q63 KJ4.QJT53.754.82 863.A82.QJ9.JT74 AT5.97.AK63.AK95"]
 [Declarer "S"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:Q972.K64.T82.Q63 KJ4.QJT53.754.82 863.A82.QJ9.JT74 AT5.97.AK63.AK95"]
+[Result ""]
 [Auction "W"]
 pass pass pass 1D pass 1H pass 2NT pass 3NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/suit_establishment"]
+[Student "S"]
+{Baker Establishment 18}
 {[show NS]
 South is to play 3NT. West leads the \S2, you play dummy's \S4 and  East plays the \S8.
 
@@ -807,24 +808,24 @@ Clickfor the complete Deal. [NEXT]
 West is almost certain to hold the \SQ because his \S2 opening lead promises an honor and the \SQ is the only one you don't have.
 
 So the \S finesse is an odds-on play to get a second dummy entry.}
-[BCFlags "1f"]
 [Play "W"]S2
 
-[Board "19"]
 [Event "Baker Bridge - Suit Establishment"]
-[SkillPath "declarer_play/suit_establishment"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Establishment 19}
+[Board "19"]
 [Dealer "E"]
+[Vulnerable "None"]
+[Deal "W:T96.QT72.943.KQ8 QJ82.A63.QT8.943 AK7543.J95..JT72 .K84.AKJ7652.A65"]
 [Declarer "S"]
 [Contract "5D"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:T96.QT72.943.KQ8 QJ82.A63.QT8.943 AK7543.J95..JT72 .K84.AKJ7652.A65"]
+[Result ""]
 [Auction "E"]
 2S X pass 2NT pass 3D pass 4D pass 5D pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/suit_establishment"]
+[Student "S"]
+{Baker Establishment 19}
 {[show NS]
 3NT would have been a lot easier, but you didn't get there. South is to play 5\D. West leads the \ST.
 
@@ -855,24 +856,24 @@ Clickfor the complete Deal. [NEXT]
 When your only hope of making a contract is for the defender's cards to be a certain way, just assume that they lie perfectly for you and barge ahead.
 
 Here you needed \S T 9 x to be with West if you were to make the contract so you played for just that holding.}
-[BCFlags "1f"]
 [Play "W"]ST
 
-[Board "20"]
 [Event "Baker Bridge - Suit Establishment"]
-[SkillPath "declarer_play/suit_establishment"]
-[Category "Declarer Play"]
-[Difficulty "intermediate"]
-{Baker Establishment 20}
+[Board "20"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:53.J764.KJ732.T5 K64.A93.86.98643 82.Q82.QT94.QJ72 AQJT97.KT5.A5.AK"]
 [Declarer "S"]
 [Contract "6S"]
-[Vulnerable "None"]
-[Student "S"]
-[Deal "W:53.J764.KJ732.T5 K64.A93.86.98643 82.Q82.QT94.QJ72 AQJT97.KT5.A5.AK"]
+[Result ""]
 [Auction "N"]
 pass pass 2C pass 2NT pass 3S pass 4S pass 4NT pass 5D pass 6S pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Declarer Play"]
+[Difficulty "intermediate"]
+[SkillPath "declarer_play/suit_establishment"]
+[Student "S"]
+{Baker Establishment 20}
 {[show NS]
 South is to play 6\S. West leads the \S5.
 
@@ -907,6 +908,5 @@ Clickfor the complete Deal. [NEXT]
 Notice that this Plan would also succeed if the \Cs had split 3-3.
 
 This was a combination of Suit Establishment and End-play. The lesson on Eliminations contains a lot more of this type of hand.}
-[BCFlags "1f"]
 [Play "W"]S5
 

@@ -1,22 +1,23 @@
-%Creator: CSVtoPBN Version 1.02
-%Created: 2026-02-05 09:36:22
+%Creator: CSVtoPBN Version 1.03
+%Created: 2026-02-05 09:48:38
 %sourcefilename BakerBridge.csv
 %HRTitleEvent OLead
-[Board "1"]
 [Event "Baker Bridge - Opening Leads"]
-[SkillPath "defense/opening_leads"]
-[Category "Defense"]
-[Difficulty "beginner"]
-{Baker OLead 1}
+[Board "1"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:865.KQJ97.862.K3 KQ4.642.A3.QT874 T972.T5.QJT95.92 AJ3.A83.K74.AJ65"]
 [Declarer "S"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "W"]
-[Deal "W:865.KQJ97.862.K3 KQ4.642.A3.QT874 T972.T5.QJT95.92 AJ3.A83.K74.AJ65"]
+[Result ""]
 [Auction "N"]
 pass pass 1NT pass 3NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[Student "W"]
+{Baker OLead 1}
 {[show W]
 [rotate W]
 The bidding has been as shown. The contract is 3NT and it is your lead.
@@ -28,24 +29,24 @@ Lead the \HK, the top of an honor sequence. Leading an honor sequence is always 
 South will probably hold up, at least once. If he does, you should continue the suit by next playing the \HJ. This is standard technique; if your first card holds the trick and you want to continue the suit, play the lowest card in the sequence and partner will know that you have all the ones in between.
 
 South only has 7 winners unless he can establish the \C suit, and when you win your \CK you will also be able to win enough \Hs to set the contract. }
-[BCFlags "1f"]
 [Play "W"]HK
 
-[Board "2"]
 [Event "Baker Bridge - Opening Leads"]
-[SkillPath "defense/opening_leads"]
-[Category "Defense"]
-[Difficulty "beginner"]
-{Baker OLead 2}
+[Board "2"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:A65.2.J8643.JT52 QJ84.AJ6.AK.KQ98 3.K9753.T52.A764 KT972.QT84.Q97.3"]
 [Declarer "S"]
 [Contract "4S"]
-[Vulnerable "None"]
-[Student "W"]
-[Deal "W:A65.2.J8643.JT52 QJ84.AJ6.AK.KQ98 3.K9753.T52.A764 KT972.QT84.Q97.3"]
+[Result ""]
 [Auction "N"]
 1C pass 1S pass 4S pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[Student "W"]
+{Baker OLead 2}
 {[show W]
 [rotate W]
 The bidding has been as shown. The contract is 4\S and it is your lead.
@@ -59,24 +60,24 @@ Against confident bidding an attacking lead is probably called for and having th
 If declarer plays low in dummy partner will win the \HK and give you an immediate ruff. You play a \C back to partner and get another ruff for down 2.
 
 Declarer would be better off to go up with the \HA at the first trick and try to pull trumps. This would still not be good enough. You win your \SA, and lead a \C to partner's hand. He can then win his \HK and lead a third \H for you to ruff. Down 1.}
-[BCFlags "1f"]
 [Play "W"]H2
 
-[Board "3"]
 [Event "Baker Bridge - Opening Leads"]
-[SkillPath "defense/opening_leads"]
-[Category "Defense"]
-[Difficulty "beginner"]
-{Baker OLead 3}
+[Board "3"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:KJ943.653.82.T62 872.K87.KQJ.A854 A5.JT42.96543.J9 QT6.AQ9.AT7.KQ73"]
 [Declarer "S"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "W"]
-[Deal "W:KJ943.653.82.T62 872.K87.KQJ.A854 A5.JT42.96543.J9 QT6.AQ9.AT7.KQ73"]
+[Result ""]
 [Auction "S"]
 1NT 3NT pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[Student "W"]
+{Baker OLead 3}
 {[show W]
 [rotate W]
 The bidding has been as shown. The contract is 3NT and it is your lead.
@@ -90,24 +91,24 @@ The only suit you have worth attacking with is your \Ss. Leading fourth down is 
 This time he comes through with the \SA and your side wins the first 5 tricks for a 1-trick set.
 
 If you had led any card other than a low \S declarer would take T tricks.}
-[BCFlags "1f"]
 [Play "W"]S4
 
-[Board "4"]
 [Event "Baker Bridge - Opening Leads"]
-[SkillPath "defense/opening_leads"]
-[Category "Defense"]
-[Difficulty "beginner"]
-{Baker OLead 4}
+[Board "4"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:KQ73.KJ9.T84.952 982.A65.K3.AQJT4 T64.7.J97652.K86 AJ5.QT8432.AQ.73"]
 [Declarer "S"]
 [Contract "4H"]
-[Vulnerable "None"]
-[Student "W"]
-[Deal "W:KQ73.KJ9.T84.952 982.A65.K3.AQJT4 T64.7.J97652.K86 AJ5.QT8432.AQ.73"]
+[Result ""]
 [Auction "S"]
 1H pass 2C pass 2H pass 4H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[Student "W"]
+{Baker OLead 4}
 {[show W]
 [rotate W]
 The bidding has been as shown. The contract is 4\H and it is your lead.
@@ -119,24 +120,24 @@ Lead the \SK, the top of a 2-card honor sequence.
 Against a suit contract you want to try to set up a quick winner in the suit.
 
 Notice that with any other lead declarer would have been able to discard a \S loser  (maybe both of them) on dummy's \Cs.}
-[BCFlags "1f"]
 [Play "W"]SK
 
-[Board "5"]
 [Event "Baker Bridge - Opening Leads"]
-[SkillPath "defense/opening_leads"]
-[Category "Defense"]
-[Difficulty "beginner"]
-{Baker OLead 5}
+[Board "5"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:QJ963.A64.863.82 A82.873.K92.AT54 75.JT52.QJ54.K63 KT4.KQ9.AT7.QJ97"]
 [Declarer "S"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "W"]
-[Deal "W:QJ963.A64.863.82 A82.873.K92.AT54 75.JT52.QJ54.K63 KT4.KQ9.AT7.QJ97"]
+[Result ""]
 [Auction "S"]
 1NT pass 3NT pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[Student "W"]
+{Baker OLead 5}
 {[show W]
 [rotate W]
 The bidding has been as shown. The contract is 3NT and it is your lead.
@@ -148,24 +149,24 @@ Lead the \SQ, the top of a broken honor sequence.
 The top of a solid 3-card honor sequence is best, but as you can see, a broken 3-card sequence may work out just as good.
 
 South will likely try the \C finesse, and when East wins the \CK he will return a \S through South's \ST.}
-[BCFlags "1f"]
 [Play "W"]SQ
 
-[Board "6"]
 [Event "Baker Bridge - Opening Leads"]
-[SkillPath "defense/opening_leads"]
-[Category "Defense"]
-[Difficulty "beginner"]
-{Baker OLead 6}
+[Board "6"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:943.964.AQT8.983 KJ72.KJT32.7.A74 85.AQ85.543.QJT2 AQT6.7.KJ962.K65"]
 [Declarer "S"]
 [Contract "4S"]
-[Vulnerable "None"]
-[Student "W"]
-[Deal "W:943.964.AQT8.983 KJ72.KJT32.7.A74 85.AQ85.543.QJT2 AQT6.7.KJ962.K65"]
+[Result ""]
 [Auction "S"]
 1D pass 1H pass 1S pass 4S pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[Student "W"]
+{Baker OLead 6}
 {[show W]
 [rotate W]
 The bidding has been as shown. The contract is 4\S and it is your lead.
@@ -183,24 +184,24 @@ It is very likely that declarer will want to do some cross-trumping. To try to c
 Just imagine that declarer wins the first \S in his hand and plays a \H to dummy's honors. East will win and play another trump. Whenever you win your first \D you will play your last trump.
 
 As you can imagine, declarer will be in a whole lot of trouble.}
-[BCFlags "1f"]
 
 
-[Board "7"]
 [Event "Baker Bridge - Opening Leads"]
-[SkillPath "defense/opening_leads"]
-[Category "Defense"]
-[Difficulty "beginner"]
-{Baker OLead 7}
+[Board "7"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:KJ943.653.82.T62 872.K87.KQJ.A854 T5.JT42.96543.J9 AQ6.AQ9.AT7.KQ73"]
 [Declarer "S"]
 [Contract "6NT"]
-[Vulnerable "None"]
-[Student "W"]
-[Deal "W:KJ943.653.82.T62 872.K87.KQJ.A854 T5.JT42.96543.J9 AQ6.AQ9.AT7.KQ73"]
+[Result ""]
 [Auction "S"]
 2NT pass 6NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[Student "W"]
+{Baker OLead 7}
 {[show W]
 [rotate W]
 The bidding has been as shown. The contract is 6NT and it is your lead.
@@ -216,24 +217,24 @@ It's different when the conract is 6NT. Against 6NT you should make a passive le
 So any passive lead would be OK, you pick the \H just because they are less likely to have an unbid 4-card Major in either hand.
 
 Declarer has 11 winners sitting there; if you had led a low \S you would have handed him his 12 trick on a platter.}
-[BCFlags "1f"]
 [Play "W"]H6
 
-[Board "8"]
 [Event "Baker Bridge - Opening Leads"]
-[SkillPath "defense/opening_leads"]
-[Category "Defense"]
-[Difficulty "beginner"]
-{Baker OLead 8}
+[Board "8"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:K854.8652.K62.T2 A2.A97.T53.AKQ76 Q9763.T43.4.9843 JT.KQJ.AQJ987.J5"]
 [Declarer "S"]
 [Contract "6D"]
-[Vulnerable "None"]
-[Student "W"]
-[Deal "W:K854.8652.K62.T2 A2.A97.T53.AKQ76 Q9763.T43.4.9843 JT.KQJ.AQJ987.J5"]
+[Result ""]
 [Auction "S"]
 1D pass 2C pass 3D pass 4NT pass 5D pass 6D pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[Student "W"]
+{Baker OLead 8}
 {[show W]
 [rotate W]
 The bidding has been as shown. The contract is 6\D and it is your lead.
@@ -249,24 +250,24 @@ Against a suit slam the situation is very different. Against strong dummy biddin
 Your most promising suit is \Ss. Obviously partner has a very weak hand, but if he has the \SQ you can set up your \SK before your King of trumps is dislodged.
 
 Without a \S lead declarer will have smooth sailing.}
-[BCFlags "1f"]
 [Play "W"]S4
 
-[Board "9"]
 [Event "Baker Bridge - Opening Leads"]
-[SkillPath "defense/opening_leads"]
-[Category "Defense"]
-[Difficulty "beginner"]
-{Baker OLead 9}
+[Board "9"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:QJT8.QT542.73.A3 975.J7.KQ8.KJ982 K62.K63.9542.765 A43.A98.AJT6.QT4"]
 [Declarer "S"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "W"]
-[Deal "W:QJT8.QT542.73.A3 975.J7.KQ8.KJ982 K62.K63.9542.765 A43.A98.AJT6.QT4"]
+[Result ""]
 [Auction "S"]
 1NT pass 3NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[Student "W"]
+{Baker OLead 9}
 {[show W]
 [rotate W]
 The bidding has been as shown. The contract is 3NT and it is your lead.
@@ -278,24 +279,24 @@ Lead the \H4.
 This is a close call. The top of your \S honor sequence is very tempting, but even when you find partner with the \SK you can still only establish three \S winners to go with your \CA. Unfortunately, that's not enough to defeat the contract.
 
 Leading a \H from your 5-card suit is riskier, but it has the potential of setting up an additional winner. In this hand, as you see, the \H lead gets you 4 \H winners to go with your \CA. }
-[BCFlags "1f"]
 [Play "W"]H4
 
-[Board "10"]
 [Event "Baker Bridge - Opening Leads"]
-[SkillPath "defense/opening_leads"]
-[Category "Defense"]
-[Difficulty "beginner"]
-{Baker OLead 10}
+[Board "10"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:84.982.AT53.AJ62 KJ75.AK65.8742.5 QT62.T.QJ96.QT93 A93.QJ743.K.K874"]
 [Declarer "S"]
 [Contract "4H"]
-[Vulnerable "None"]
-[Student "W"]
-[Deal "W:84.982.AT53.AJ62 KJ75.AK65.8742.5 QT62.T.QJ96.QT93 A93.QJ743.K.K874"]
+[Result ""]
 [Auction "S"]
 1H pass 1S pass 2C pass 4H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[Student "W"]
+{Baker OLead 10}
 {[show W]
 [rotate W]
 The bidding has been as shown. The contract is 4\H and it is your lead.
@@ -309,24 +310,24 @@ And leading from a doubleton in a suit the opponents have bid is almost as bad.
 So by process of elimination you lead a trump, probably the \H9.
 
 And when South plays \Cs, (preparing to ruff in dummy), you will win and play another trump. Even if South guesses the \Ss correctly he will not be able to make the contract. }
-[BCFlags "1f"]
 [Play "W"]H9
 
-[Board "11"]
 [Event "Baker Bridge - Opening Leads"]
-[SkillPath "defense/opening_leads"]
-[Category "Defense"]
-[Difficulty "beginner"]
-{Baker OLead 11}
+[Board "11"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:76.QJT73.T53.862 852.A65.KJ.KQT94 KQJ93.42.9762.A5 AT4.K98.AQ84.J73"]
 [Declarer "S"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "W"]
-[Deal "W:76.QJT73.T53.862 852.A65.KJ.KQT94 KQJ93.42.9762.A5 AT4.K98.AQ84.J73"]
+[Result ""]
 [Auction "N"]
 1C 1S 2NT pass 3NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[Student "W"]
+{Baker OLead 11}
 {[show W]
 [rotate W]
 The bidding has been as shown. The contract is 3NT and it is your lead.
@@ -342,24 +343,24 @@ As you see, a \S lead will defeat the contract this time while the \HQ would let
 Consider this: even if partner has a high \H to help you establish the suit it is not very likely that you would be able to get the lead with your entryless hand.
 
 There is another, more subtle, reason for leading partner's suit. If the lead turns out wrong, and the \HQ lead would have beaten the conract, partner will not blame you in the least. But if you lead the \HQ and it turns out that a \S lead would have let you set the contract, well, that would not be too good for partnership harmony.}
-[BCFlags "1f"]
 [Play "W"]S7
 
-[Board "12"]
 [Event "Baker Bridge - Opening Leads"]
-[SkillPath "defense/opening_leads"]
-[Category "Defense"]
-[Difficulty "beginner"]
-{Baker OLead 12}
+[Board "12"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:QT84.AQT7.KQ98.5 652.9532.A64.942 K7.864.J72.KQJT8 AJ93.KJ.T53.A763"]
 [Declarer "S"]
 [Contract "1CXX"]
-[Vulnerable "None"]
-[Student "W"]
-[Deal "W:QT84.AQT7.KQ98.5 652.9532.A64.942 K7.864.J72.KQJT8 AJ93.KJ.T53.A763"]
+[Result ""]
 [Auction "S"]
 1C X pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[Student "W"]
+{Baker OLead 12}
 {[show W]
 [rotate W]
 The bidding has been as shown. The contract is 1\C doubled and it is your lead.
@@ -373,24 +374,24 @@ There is only one reason partner would pass your takeout double - he has a great
 What he wants do do is pull South's trumps so your high card winners don't get ruffed by South. The way you can help him do that is to start with a trump lead.
 
 With the trump lead South might not make more than three tricks.}
-[BCFlags "1f"]
 [Play "W"]C5
 
-[Board "13"]
 [Event "Baker Bridge - Opening Leads"]
-[SkillPath "defense/opening_leads"]
-[Category "Defense"]
-[Difficulty "beginner"]
-{Baker OLead 13}
+[Board "13"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:J6.9852.975.AQ98 KQ9.K64.KQT3.742 87543.QT3.A4.JT3 AT2.AJ7.J862.K65"]
 [Declarer "S"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "W"]
-[Deal "W:J6.9852.975.AQ98 KQ9.K64.KQT3.742 87543.QT3.A4.JT3 AT2.AJ7.J862.K65"]
+[Result ""]
 [Auction "N"]
 1D pass 2NT pass 3NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[Student "W"]
+{Baker OLead 13}
 {[show W]
 [rotate W]
 The bidding has been as shown. The contract is 3NT and it is your lead.
@@ -406,24 +407,24 @@ If you had one more small \Cs your instincts would be right, but with only a 4-c
 So lead the \H9. You lead a high card so partner won't be tempted to return the suit when he gets the lead. Note that although this lead finesses partner's \HQ, it didn't do anything that declarer wouldn't have done on his own.
 
 Declarer must play \Ds to get some winners, and when East takes the \DA he will surely switch to the \CJ. Down goes declarer.}
-[BCFlags "1f"]
 [Play "W"]H9
 
-[Board "14"]
 [Event "Baker Bridge - Opening Leads"]
-[SkillPath "defense/opening_leads"]
-[Category "Defense"]
-[Difficulty "beginner"]
-{Baker OLead 14}
+[Board "14"]
 [Dealer "E"]
+[Vulnerable "None"]
+[Deal "W:A43.JT2.QJT98.AJ KT8.7.A7532.8532 5.KQ963.K6.KQT96 QJ9762.A854.4.74"]
 [Declarer "S"]
 [Contract "4SXX"]
-[Vulnerable "None"]
-[Student "W"]
-[Deal "W:A43.JT2.QJT98.AJ KT8.7.A7532.8532 5.KQ963.K6.KQT96 QJ9762.A854.4.74"]
+[Result ""]
 [Auction "E"]
 1H 2S 3D 3S 4C pass 4H pass pass 4S X pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[Student "W"]
+{Baker OLead 14}
 {[show W]
 [rotate W]
 The bidding has been as shown. The contract is 4\S doubled and it is your lead.
@@ -443,24 +444,24 @@ But on this deal North/South have clearly sacrificed against your almost certain
 The way to cut down the number of ruffs he can make is to lead a trump at every opportunity.
 
 So take the \SA and then play another \S. Declarer will still be able to ruff one \H in dummy, but will be left with two losing \Hs and will be down 2. Without the two trump plays he could have ruffed all three of his \H losers and actually made the conract.}
-[BCFlags "1f"]
 [Play "W"]SA
 
-[Board "15"]
 [Event "Baker Bridge - Opening Leads"]
-[SkillPath "defense/opening_leads"]
-[Category "Defense"]
-[Difficulty "beginner"]
-{Baker OLead 15}
+[Board "15"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:K873.QT73.75.632 T64.642.K942.AKJ Q92.K85.A86.T975 AJ5.AJ9.QJT3.Q84"]
 [Declarer "S"]
 [Contract "3NT"]
-[Vulnerable "None"]
-[Student "W"]
-[Deal "W:K873.QT73.75.632 T64.642.K942.AKJ Q92.K85.A86.T975 AJ5.AJ9.QJT3.Q84"]
+[Result ""]
 [Auction "S"]
 1NT pass 3NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[Student "W"]
+{Baker OLead 15}
 {[show W]
 [rotate W]
 The bidding has been as shown. The contract is 3NT and it is your lead.
@@ -476,24 +477,24 @@ The presence of the \HT bolsters the \H suit enough to give it the edge.
 The suits could be arranged something like shown at left. With a \S lead the presence of the \ST in dummy allows declarer to make a second \S trick, which happens to be declarer's ninth trick.
 
 But when you lead the \H3 it does not promote a \H winner for declarer, and left to his own devices, he cannot establish the \S winner.}
-[BCFlags "1f"]
 [Play "W"]H3
 
-[Board "16"]
 [Event "Baker Bridge - Opening Leads"]
-[SkillPath "defense/opening_leads"]
-[Category "Defense"]
-[Difficulty "beginner"]
-{Baker OLead 16}
+[Board "16"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:63.K63.A74.T9874 AT.94.KQJ983.KQJ 872.Q8752.T52.63 KQJ954.AJT.6.A52"]
 [Declarer "S"]
 [Contract "6S"]
-[Vulnerable "None"]
-[Student "W"]
-[Deal "W:63.K63.A74.T9874 AT.94.KQJ983.KQJ 872.Q8752.T52.63 KQJ954.AJT.6.A52"]
+[Result ""]
 [Auction "N"]
 1D pass 1S pass 3D pass 3S pass 4S pass 4NT pass 5D pass 6S pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[Student "W"]
+{Baker OLead 16}
 {[show W]
 [rotate W]
 The bidding has been as shown. The contract is 6\S and it is your lead.
@@ -507,24 +508,24 @@ The \CT would probably be a very safe lead. But you don't want "safe", you want 
 Dummy has advertised a long, strong \D suit which declarer will no doubt establish for discards.
 
 It is important for your side to create a winner before your \DA is forced out. The most likely looking winner is your \HK. So lead the small \H and hope partner has the Queen. }
-[BCFlags "1f"]
 [Play "W"]H3
 
-[Board "17"]
 [Event "Baker Bridge - Opening Leads"]
-[SkillPath "defense/opening_leads"]
-[Category "Defense"]
-[Difficulty "beginner"]
-{Baker OLead 17}
+[Board "17"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:4.T984.8632.K872 A9762.A63.K4.QJ5 KQJT8.752.A5.963 53.KQJ.QJT97.AT4"]
 [Declarer "S"]
 [Contract "3NTX"]
-[Vulnerable "None"]
-[Student "W"]
-[Deal "W:4.T984.8632.K872 A9762.A63.K4.QJ5 KQJT8.752.A5.963 53.KQJ.QJT97.AT4"]
+[Result ""]
 [Auction "N"]
 1S pass 2NT pass 3NT X pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[Student "W"]
+{Baker OLead 17}
 {[show W]
 [rotate W]
 The bidding has been as shown. The contract is 3NT and it is your lead.
@@ -540,24 +541,24 @@ But partner DID double, and most good players play that doubling 3NT is lead-dir
  So lead a \S, certainly not a lead you would have made without the double. Partner immediately establishes 4 \S winners and he has the \DA for an entry.
 
 With any other lead declarer will make the contract.}
-[BCFlags "1f"]
 [Play "W"]S4
 
-[Board "18"]
 [Event "Baker Bridge - Opening Leads"]
-[SkillPath "defense/opening_leads"]
-[Category "Defense"]
-[Difficulty "beginner"]
-{Baker OLead 18}
+[Board "18"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:JT93.42.JT963.85 A864.AJ65.Q7.J63 52.Q73.842.AKQ74 KQ7.KT98.AK5.T92"]
 [Declarer "S"]
 [Contract "4H"]
-[Vulnerable "None"]
-[Student "W"]
-[Deal "W:JT93.42.JT963.85 A864.AJ65.Q7.J63 52.Q73.842.AKQ74 KQ7.KT98.AK5.T92"]
+[Result ""]
 [Auction "S"]
 1NT pass 2C X 2H pass 4H pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[Student "W"]
+{Baker OLead 18}
 {[show W]
 [rotate W]
 The bidding has been as shown. The contract is 4\H and it is your lead.
@@ -573,24 +574,24 @@ But partner DID double, and the double of a conventional bid clearly means that 
  So lead a \C, and partner will take three \C tricks. With any other lead declarer would quickly discard a \C from dummy on a high \D, easily making the contract.
 
 Declarer may still make the contract if he guesses the \HQ correctly, but maybe not.}
-[BCFlags "1f"]
 [Play "W"]C8
 
-[Board "19"]
 [Event "Baker Bridge - Opening Leads"]
-[SkillPath "defense/opening_leads"]
-[Category "Defense"]
-[Difficulty "beginner"]
-{Baker OLead 19}
+[Board "19"]
 [Dealer "N"]
+[Vulnerable "None"]
+[Deal "W:972.QJT6.T762.73 AJ5.A9853.KQ.AQ5 T864.72.J93.JT98 KQ3.K4.A854.K642"]
 [Declarer "S"]
 [Contract "6NT"]
-[Vulnerable "None"]
-[Student "W"]
-[Deal "W:972.QJT6.T762.73 AJ5.A9853.KQ.AQ5 T864.72.J93.JT98 KQ3.K4.A854.K642"]
+[Result ""]
 [Auction "N"]
 1H pass 2NT pass 6NT pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[Student "W"]
+{Baker OLead 19}
 {[show W]
 [rotate W]
 The bidding has been as shown. The contract is 6NT and it is your lead.
@@ -604,24 +605,24 @@ Since dummy bid \Hs, don't help declarer by leading the suit. Declarer has 11 tr
 But if you start with the \HQ, he will win with his \HK and can then establish an extra \H winner by leading through your \H J T into dummy's \H A 9.
 
 With any lead other than a \H honor he cannot come to 12 tricks.}
-[BCFlags "1f"]
 [Play "W"]D2
 
-[Board "20"]
 [Event "Baker Bridge - Opening Leads"]
-[SkillPath "defense/opening_leads"]
-[Category "Defense"]
-[Difficulty "beginner"]
-{Baker OLead 20}
+[Board "20"]
 [Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:A.QJT3.8753.A742 QT85.K54.AT.KJ96 742.9872.QJ642.3 KJ963.A6.K9.QT85"]
 [Declarer "S"]
 [Contract "4SX"]
-[Vulnerable "None"]
-[Student "W"]
-[Deal "W:A.QJT3.8753.A742 QT85.K54.AT.KJ96 742.9872.QJ642.3 KJ963.A6.K9.QT85"]
+[Result ""]
 [Auction "S"]
 1S pass 2C pass 3C pass 4S pass pass X pass pass pass
-[Result ""]
+[BCFlags "1f"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[Student "W"]
+{Baker OLead 20}
 {[show W]
 [rotate W]
 The bidding has been as shown. The contract is 4\S and it is your lead.
@@ -641,6 +642,5 @@ North/South apparently have 8 or more \Cs between them, which leaves partner wit
 Partner will ruff the second \C, and when you get into the lead with the Ace of trumps you will play a third \C which he will again ruff.
 
 That's why you doubled.}
-[BCFlags "1f"]
 [Play "W"]CA
 

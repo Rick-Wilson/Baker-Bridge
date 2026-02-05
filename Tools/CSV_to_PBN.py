@@ -4,7 +4,7 @@ import sys
 import datetime
 import re
 
-VERSION = "1.02"
+VERSION = "1.03"
 
 # =============================================================================
 # BAKER BRIDGE TAXONOMY
@@ -626,24 +626,33 @@ def convert_csv_to_pbn(csv_filename, header_filename=None, source_filename=None)
             # Get taxonomy info for this lesson
             taxonomy = get_taxonomy_info(subfolder)
 
-            pbn_content.append(f"[Board \"{board}\"]")
+            # PBN tags ordered per specification:
+            # Standard tags first (in MTS order), then optional tags alphabetically
+
+            # Standard tags (MTS order: Event, Site, Date, Board, West, North, East, South,
+            #                Dealer, Vulnerable, Deal, Scoring, Declarer, Contract, Result)
             pbn_content.append(f"[Event \"Baker Bridge - {taxonomy['name']}\"]")
-            pbn_content.append(f"[SkillPath \"{taxonomy['path']}\"]")
-            pbn_content.append(f"[Category \"{taxonomy['category']}\"]")
-            pbn_content.append(f"[Difficulty \"{taxonomy['difficulty']}\"]")
-            pbn_content.append(f"{{Baker {subfolder} {board}}}")
+            pbn_content.append(f"[Board \"{board}\"]")
             pbn_content.append(f"[Dealer \"{dealer}\"]")
+            pbn_content.append(f"[Vulnerable \"None\"]")
+            pbn_content.append(create_deal_field(row.get("NorthHand", ""), row.get("EastHand", ""), row.get("SouthHand", ""), row.get("WestHand", "")))
             pbn_content.append(f"[Declarer \"{declarer}\"]")
             pbn_content.append(f"[Contract \"{contract}\"]")
-            pbn_content.append(f"[Vulnerable \"None\"]")
-            if student != "":
-                pbn_content.append(f"[Student \"{student}\"]")
-            pbn_content.append(create_deal_field(row.get("NorthHand", ""), row.get("EastHand", ""), row.get("SouthHand", ""), row.get("WestHand", "")))
+            pbn_content.append("[Result \"\"]")
+
+            # Optional tags (alphabetical order)
             pbn_content.append(f"[Auction \"{dealer}\"]")
             pbn_content.append(process_auction(row.get("Auction", ""), dealer))
-            pbn_content.append("[Result \"\"]")
-            pbn_content.append(analysis)
             pbn_content.append("[BCFlags \"1f\"]")
+            pbn_content.append(f"[Category \"{taxonomy['category']}\"]")
+            pbn_content.append(f"[Difficulty \"{taxonomy['difficulty']}\"]")
+            pbn_content.append(f"[SkillPath \"{taxonomy['path']}\"]")
+            if student != "":
+                pbn_content.append(f"[Student \"{student}\"]")
+
+            # Commentary and play
+            pbn_content.append(f"{{Baker {subfolder} {board}}}")
+            pbn_content.append(analysis)
             pbn_content.append(lead)
             pbn_content.append("")
         if current_subfolder is not None:
