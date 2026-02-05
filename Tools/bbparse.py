@@ -262,14 +262,24 @@ def extract_hands_by_anchor(soup):
             if prev["west"] and curr["west"]:
                 played_west = prev["west"] - curr["west"]
 
-            # Detect when E/W hands become visible
+            # Detect visibility changes - generate [show ...] when hands appear
             show_directive = None
-            ew_now_visible = curr["east_visible"] or curr["west_visible"]
-            ew_was_visible = prev["east_visible"] or prev["west_visible"]
 
-            if ew_now_visible and not ew_was_visible:
-                # E/W hands just became visible - show all hands
-                show_directive = "[show NESW]"
+            # Check what's visible now vs before
+            curr_visible = []
+            prev_visible = []
+            if curr["north_raw"]: curr_visible.append("N")
+            if curr["east_raw"]: curr_visible.append("E")
+            if curr["south_raw"]: curr_visible.append("S")
+            if curr["west_raw"]: curr_visible.append("W")
+            if prev["north_raw"]: prev_visible.append("N")
+            if prev["east_raw"]: prev_visible.append("E")
+            if prev["south_raw"]: prev_visible.append("S")
+            if prev["west_raw"]: prev_visible.append("W")
+
+            # If visibility changed, generate new show directive
+            if set(curr_visible) != set(prev_visible) and len(curr_visible) > len(prev_visible):
+                show_directive = "[show " + "".join(curr_visible) + "]"
 
             played_by_section.append({
                 "anchor": section_hands[i]["anchor"],
