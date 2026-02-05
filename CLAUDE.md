@@ -43,7 +43,14 @@ Converts CSV data to PBN format. Mostly formatting - the control directives come
 
 ## HTML Section Structure
 
-Each deal in the HTML has numbered anchor sections (`<a name="1">`, `<a name="2">`, etc.). Each section contains:
+Each deal in the HTML has numbered anchor sections. **Important**: Some HTML files use `<a name="1">` while others use `<a id="1">`. The code must check for both attributes:
+
+```python
+anchors = soup.find_all("a", attrs={"id": True}) + soup.find_all("a", attrs={"name": True})
+anchor_name = anchor.get("id") or anchor.get("name", "")
+```
+
+Each section contains:
 - A table with the bridge diagram (N/S/E/W hands)
 - The auction table
 - Analysis text
@@ -160,19 +167,50 @@ The key visibility logic is in bbparse.py - CSV_to_PBN just passes it through.
 
 ## Running the Build
 
+The complete build pipeline has three steps:
+
 ```bash
 cd Tools
 
-# Parse HTML to CSV
+# Step 1: Parse HTML to CSV (also generates debug anchor files)
 python3 bbparse.py
 
-# Convert CSV to PBN (uses BakerBridge.csv by default)
+# Step 2: Convert CSV to PBN files
 python3 CSV_to_PBN.py BakerBridge.csv
 
-# Output goes to Tools/pbns/
-# Copy to Package/ for GitHub distribution
-cp pbns/*.pbn ../Package/
+# Step 3: Copy PBN/PDF files to Package folder for distribution
+python3 package_results.py
 ```
+
+### What Each Step Does
+
+1. **bbparse.py** → Parses HTML, generates `BakerBridge.csv` and debug files in `Tools/Anchors/`
+2. **CSV_to_PBN.py** → Converts CSV to PBN files in `Tools/pbns/`, also generates `Package/toc.json`
+3. **package_results.py** → Copies all `.pbn` and `.pdf` files from `pbns/` to `Package/`
+
+### Debug Anchor Output
+
+When `bbparse.py` runs, it generates debug files in `Tools/Anchors/` showing what was extracted from each HTML anchor. Example: `Anchors/NMF_deal01.txt` shows:
+
+```
+ANCHOR #1
+----------------------------------------
+Hands found: S
+
+                    NORTH
+                    (no hand)
+
+WEST                          EAST
+(no hand)                     (no hand)
+
+                    SOUTH
+                    S: QJ865
+                    H: K92
+                    D: AK
+                    C: 863
+```
+
+Use these files to verify hand visibility is being detected correctly.
 
 ## File Locations
 

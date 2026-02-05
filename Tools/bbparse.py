@@ -167,12 +167,14 @@ def extract_hands_by_anchor(soup):
     Returns a list of dicts with 'anchor', 'played_north', 'played_south',
     'played_east', 'played_west', 'show_directive' keys.
     """
-    anchors = soup.find_all("a", attrs={"name": True})
+    # Look for both id and name attributes - some HTML files use id="1", others use name="1"
+    anchors = soup.find_all("a", attrs={"id": True}) + soup.find_all("a", attrs={"name": True})
 
     section_hands = []
 
     for anchor in anchors:
-        anchor_name = anchor.get("name", "")
+        # Check both id and name attributes
+        anchor_name = anchor.get("id") or anchor.get("name", "")
         if not anchor_name or not anchor_name.isdigit():
             continue
 
@@ -841,6 +843,200 @@ def process_files(folder_path, output_csv, max_files=3000):
 
     results.sort(key=lambda x: (x[0], x[1]))
     
+    with open(output_csv, "w", newline="", encoding="utf-8") as csvfile:
+        csvwriter = csv.writer(csvfile, quoting=csv.QUOTE_MINIMAL)
+        csvwriter.writerow([
+            "Subfolder", "Filename", "DealNumber", "Kind", "NorthHand", "EastHand", "SouthHand", "WestHand",
+            "Dealer", "Student", "Auction", "Contract", "Declarer", "Lead", "Analysis"
+        ])
+        csvwriter.writerows(results)
+
+def format_hand_display(hands):
+    """Format hands as a fixed-width text display for debugging.
+
+    Returns a string showing all four hands in a compass layout.
+    """
+    lines = []
+
+    # Helper to format a single hand's suits
+    def format_suits(hand):
+        if not hand:
+            return ["(no hand)", "", "", ""]
+        # Parse hand like "S:QJ865 H:K92 D:AK C:863"
+        suits = {"S": "", "H": "", "D": "", "C": ""}
+        for part in hand.split():
+            if part.startswith("S:"):
+                suits["S"] = part[2:]
+            elif part.startswith("H:"):
+                suits["H"] = part[2:]
+            elif part.startswith("D:"):
+                suits["D"] = part[2:]
+            elif part.startswith("C:"):
+                suits["C"] = part[2:]
+        return [
+            f"S: {suits['S'] or '-'}",
+            f"H: {suits['H'] or '-'}",
+            f"D: {suits['D'] or '-'}",
+            f"C: {suits['C'] or '-'}"
+        ]
+
+    north = format_suits(hands.get("North"))
+    south = format_suits(hands.get("South"))
+    west = format_suits(hands.get("West"))
+    east = format_suits(hands.get("East"))
+
+    # Calculate max width for each hand
+    n_width = max(len(s) for s in north)
+    s_width = max(len(s) for s in south)
+    w_width = max(len(s) for s in west)
+    e_width = max(len(s) for s in east)
+
+    # Center padding
+    center_pad = 20
+
+    # North (centered)
+    lines.append("")
+    lines.append(" " * center_pad + "NORTH")
+    for suit in north:
+        lines.append(" " * center_pad + suit)
+
+    # West and East side by side
+    lines.append("")
+    lines.append(f"{'WEST':<{center_pad}}{'':^10}{'EAST'}")
+    for i in range(4):
+        lines.append(f"{west[i]:<{center_pad}}{'':^10}{east[i]}")
+
+    # South (centered)
+    lines.append("")
+    lines.append(" " * center_pad + "SOUTH")
+    for suit in south:
+        lines.append(" " * center_pad + suit)
+
+    return "\n".join(lines)
+
+
+def write_anchor_debug(filepath, folder_path, soup):
+    """Write debug output showing what was extracted from each anchor."""
+
+    # Create output directory
+    output_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Anchors")
+    os.makedirs(output_dir, exist_ok=True)
+
+    # Get relative path for organizing output
+    rel_path = os.path.relpath(filepath, folder_path)
+    # Convert path like "NMF/deal01.html" to "NMF_deal01.txt"
+    output_name = rel_path.replace(os.sep, "_").replace(".html", ".txt")
+    output_path = os.path.join(output_dir, output_name)
+
+    lines = []
+    lines.append(f"Debug output for: {rel_path}")
+    lines.append("=" * 60)
+
+    # Find all anchors
+    anchors = soup.find_all("a", attrs={"id": True}) + soup.find_all("a", attrs={"name": True})
+
+    for anchor in anchors:
+        anchor_id = anchor.get("id") or anchor.get("name", "")
+        if not anchor_id or not anchor_id.isdigit():
+            continue
+
+        lines.append("")
+        lines.append(f"ANCHOR #{anchor_id}")
+        lines.append("-" * 40)
+
+        # Find the next table after this anchor
+        table = anchor.find_next("table")
+        if not table:
+            lines.append("  (no table found)")
+            continue
+
+        # Extract hands from this table
+        hands = extract_hands_from_table(table)
+
+        # Show which hands were found
+        found = []
+        if hands.get("North"): found.append("N")
+        if hands.get("East"): found.append("E")
+        if hands.get("South"): found.append("S")
+        if hands.get("West"): found.append("W")
+        lines.append(f"Hands found: {' '.join(found) if found else '(none)'}")
+
+        # Display the hands
+        lines.append(format_hand_display(hands))
+        lines.append("")
+
+    # Write output
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
+
+    return output_path
+
+
+def process_files(folder_path, output_csv, max_files=3000):
+    files = [
+        os.path.join(dirpath, file)
+        for dirpath, _, filenames in os.walk(folder_path)
+        for file in filenames
+        if file.startswith("deal") and file.endswith(".html") and file not in ["deal00.html", "deal000.html"]
+    ]
+
+    results = []
+
+    for filepath in files[:max_files]:
+        filename = os.path.basename(filepath)
+        subfolder_path = os.path.relpath(os.path.dirname(filepath), folder_path)
+
+        match = re.search(r"deal(\d+)", filename)
+        deal_number = int(match.group(1)) if match else None
+
+        with open(filepath, "r", encoding="utf-8") as file:
+            soup = BeautifulSoup(file, "html.parser")
+
+            # Generate debug anchor output
+            write_anchor_debug(filepath, folder_path, soup)
+
+            hands = extract_hands(soup)
+            dealer, auction_str, contract, declarer, analysis = extract_bidding_info(soup,filepath)
+            contract = replace_suits(contract,False).replace("!", "")
+            auction_str = replace_suits(auction_str,False).replace("!","").replace("redouble","XX").replace("double","X")
+            opening_lead = replace_suits(extract_opening_lead(soup,filepath),False)
+            if opening_lead:
+                opening_lead = opening_lead.replace("!","")
+            kind = extract_lesson_kind(soup)
+
+            if "[ROTATE]" in analysis:
+                # N/S hands come from pre-rotation sections, need rotation
+                # E/W hands come from post-rotation full deal, already correct
+                # Dealer/declarer come from post-rotation auction, already correct
+                rotate_hand_180_degrees(hands, rotate_ew=False)
+                # Don't rotate dealer/declarer - they're from post-rotation auction
+
+#           On most deals, the student sits in the South position:
+            student = "South"
+            if subfolder_path == "OLead":
+                student = "West"
+            if subfolder_path == "ThirdHand":
+                student = "East"
+            if subfolder_path == "SecondHand" or subfolder_path == "Signals":
+                if "You are East" in analysis:
+                    student = "East"
+                else:
+                    student = "West"
+
+#         print()
+#         print(filepath, ":")
+#         print("Dealer:", dealer, "contract:", contract, "declarer:", declarer, "auction:", auction_str, "lead:", opening_lead)
+#         print()
+#         print("analysis:", analysis)
+
+        results.append([
+            subfolder_path, filename, deal_number, kind,
+            hands["North"], hands["East"], hands["South"], hands["West"],
+            dealer, student, auction_str, contract, declarer, opening_lead, analysis
+        ])
+
+    results.sort(key=lambda x: (x[0], x[1]))
+
     with open(output_csv, "w", newline="", encoding="utf-8") as csvfile:
         csvwriter = csv.writer(csvfile, quoting=csv.QUOTE_MINIMAL)
         csvwriter.writerow([
