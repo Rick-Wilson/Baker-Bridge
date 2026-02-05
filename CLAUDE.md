@@ -1,5 +1,25 @@
 # Baker Bridge - Claude Code Notes
 
+## Division of Labor: Baker-Bridge vs Bridge-Classroom
+
+### Baker-Bridge (This Repo - Content Generation)
+- Produces PBN files with ALL instructions for display and interaction
+- bbparse.py extracts content from HTML and generates control directives
+- CSV_to_PBN.py formats the CSV into PBN (mostly formatting, not logic)
+- Single source of truth for lesson behavior
+
+### Bridge-Classroom (Dumb Renderer)
+- Reads PBN files and follows instructions exactly
+- Does NOT make decisions based on presence/absence of tags
+- Does NOT infer visibility from lesson type or mode
+
+### Key Principle
+**The PBN provides explicit instructions; the app follows them.**
+
+If something needs to be shown or hidden, the PBN says so explicitly via `[show ...]` tags. The app doesn't try to be smart.
+
+---
+
 ## Build Process Overview
 
 The Baker Bridge content pipeline converts HTML lessons into PBN files:
@@ -15,10 +35,11 @@ Parses the original Baker Bridge HTML files to extract:
 - Progressive analysis text for each step
 - Opening lead
 - Student seat (South by default, West for OLead, East for ThirdHand)
+- **Control directives** (`[show]`, `[PLAY]`, `[BID]`, `[NEXT]`, etc.)
 
 ### Step 2: CSV to PBN (CSV_to_PBN.py)
 
-Converts CSV data to PBN format with control directives for the Bridge Classroom app.
+Converts CSV data to PBN format. Mostly formatting - the control directives come from bbparse.py.
 
 ## HTML Section Structure
 
@@ -30,21 +51,48 @@ Each deal in the HTML has numbered anchor sections (`<a name="1">`, `<a name="2"
 
 ### Hand Visibility Detection
 
-The app needs to show/hide hands based on what's visible in each HTML section. Key logic in `extract_hands_by_anchor()`:
+Key logic in `extract_hands_by_anchor()` and `extract_hands_from_table()`:
 
-1. **Extract hands from each section**: Parse the table to find N/S/E/W hands
-   - North: `<td>` with `width:6em/7em/8em` style containing all 4 suit symbols
-   - South: `<td>` with `height:800px` containing all 4 suit symbols
-   - E/W: In the row containing `t1.gif` image, first and third `<td>` elements
+#### Step 1: Detect which hands are visible
 
-2. **Compare consecutive sections**:
-   - **Played cards**: Cards in section N but not in section N+1 = cards played
-   - **E/W visibility**: If E/W hands appear in section N+1 but not in N → add `[show NESW]`
+`extract_hands_from_table()` finds hands by CSS patterns:
+- **North**: `<td>` with `width:6em/7em/8em` style
+- **South**: `<td>` with `height:800px`
+- **E/W**: Row containing `t1.gif` image, first and third `<td>`
 
-3. **Generate directives**:
-   - `[PLAY N:SK,S:H3]` - Cards that were played
-   - `[show NESW]` - When E/W hands become visible
-   - `[RESET]` - After "complete deal" text to show original hands
+**Critical check**: `has_card_values()` - a hand is only "visible" if it has:
+- All 4 suit symbols (♠♥♦♣) AND
+- Actual card values (A, K, Q, J, T, 9-2)
+
+Empty placeholders (suit symbols with no cards) are NOT counted as visible. This is how bidding lessons like FSF show only South initially - the North position has suit symbols but no cards.
+
+#### Step 2: Generate initial [show] directive
+
+For section 0 (first section), `extract_hands_by_anchor()` generates:
+```python
+visible_seats = []
+if section_hands[i]["north_raw"]:  # has actual cards
+    visible_seats.append("N")
+if section_hands[i]["south_raw"]:
+    visible_seats.append("S")
+# ... etc
+initial_show = "[show " + "".join(visible_seats) + "]"
+```
+
+**Example**: FSF HTML has only South cards visible → generates `[show S]`
+
+#### Step 3: Detect visibility changes
+
+Compare consecutive sections:
+- **Played cards**: Cards in section N but not in N+1 = played
+- **E/W visibility**: If E/W appear in N+1 but not N → add `[show NESW]`
+
+#### Output directives:
+- `[show S]` - Initial visibility (only South)
+- `[show NS]` - Initial visibility (declarer + dummy)
+- `[show NESW]` - When E/W hands become visible
+- `[PLAY N:SK,S:H3]` - Cards that were played
+- `[RESET]` - After "complete deal" text
 
 ## Control Directives
 
@@ -68,16 +116,47 @@ Directives in the PBN analysis control the Bridge Classroom app UI:
 - `[PLAY N:SK,N:S4,S:H3]` - Mark cards as played (removed from hands)
 - `[RESET]` - Reset hands to original (show all cards again)
 
-## Directive Injection Logic (CSV_to_PBN.py)
+---
 
-For declarer play lessons (Student=S with [NEXT] tags):
-1. Add `[show NS]` at the start (only show declarer's partnership)
-2. After first `[NEXT]`: inject `[AUCTION off]` and `[SHOW_LEAD]`
-3. The `[show NESW]` comes from bbparse.py when E/W hands appear in HTML
+## How bbparse.py Generates Each Directive
 
-The timing matches Baker Bridge behavior:
-- Step 1: Auction visible, only N/S hands shown
-- After clicking NEXT: Auction hidden, lead shown, all hands visible (if E/W appear in HTML)
+### `[BID X]` - Bidding Prompts
+
+**Location**: `clean_up_analysis()` function, line ~415
+
+**Logic**: If a section doesn't have NEXT/ROTATE buttons and isn't a deal link, it's a bidding prompt:
+```python
+elif not 'href="deal' in td_str:
+    analysis = analysis + " [BID " + replace_suits(last_bid,False) + "]"
+```
+
+The bid value comes from the full auction - finds what bid corresponds to this position.
+
+### `[NEXT]` and `[ROTATE]` - Navigation
+
+**Location**: `clean_up_analysis()` function, lines ~402-413
+
+**Logic**:
+- If "NEXT" button in HTML → append `[NEXT]`
+- If "rotate" text or ROTATE button → append `[ROTATE]`
+
+### `[RESET]` - Reset Hands
+
+**Location**: `extract_progressive_analysis()` function, lines ~531-535
+
+**Logic**: If a step mentions "complete deal" or "full deal", add `[RESET]` to the NEXT step.
+
+---
+
+## CSV_to_PBN.py Role
+
+Mostly formatting, not logic:
+1. Converts CSV columns to PBN tags
+2. Adds metadata ([SkillPath], [Category], [Difficulty])
+3. **Fallback only**: Adds `[show NS]` if bbparse didn't provide a `[show]` directive
+4. For play instruction mode: injects `[AUCTION off]` and `[SHOW_LEAD]` after first [NEXT]
+
+The key visibility logic is in bbparse.py - CSV_to_PBN just passes it through.
 
 ## Running the Build
 
