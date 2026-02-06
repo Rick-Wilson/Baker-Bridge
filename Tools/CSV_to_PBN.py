@@ -639,6 +639,8 @@ def process_auction(auction, dealer):
 
 # Function to format hand data
 def format_hand(hand):
+    if not hand or not hand.strip():
+        return "-"  # PBN format for unknown/unspecified hand
     return hand.replace(" ", "").replace("S:", "").replace("H:", ".").replace("D:", ".").replace("C:", ".")
 
 # Function to create Deal field
