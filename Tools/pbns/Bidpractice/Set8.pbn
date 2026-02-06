@@ -1,12 +1,52 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-02-05 20:01:01
-%sourcefilename BakerBridge.csv
+%Created: 2026-02-05 20:22:01
+%sourcefilename BakerBridgeFull.csv
 %HRTitleEvent Bidpractice/Set8
 [Event "Baker Bridge - Partnership Bidding Set 8"]
 [Board "1"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- KQJ96.4.KQJ7.AKQ - A84.A873.T95.752"]
+[Deal "W:T73.Q95.A43.8643 KQJ96.4.KQJ7.AKQ 52.KJT62.862.JT9 A84.A873.T95.752"]
 [Declarer "N"]
 [Contract "6S"]
 [Result ""]
@@ -30,7 +70,7 @@ NORTH bids RKC Blackwood 4NT. SOUTH shows two Keycards (two Aces) and NORTH bids
 [Board "2"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- KJ.QJ85.QT97.Q42 - AQ7.KT742.KJ3.AK"]
+[Deal "W:642.A963.8652.J9 KJ.QJ85.QT97.Q42 T9853..A4.T87653 AQ7.KT742.KJ3.AK"]
 [Declarer "S"]
 [Contract "5H"]
 [Result ""]
@@ -66,7 +106,7 @@ are only five total. She must have zero and SOUTH signs off at 5
 [Board "3"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- KT74.KQJ84.A6.A3 - AQ8632.5.KQ7.KQ5"]
+[Deal "W:J5.A632.854.8642 KT74.KQJ84.A6.A3 9.T97.JT932.JT97 AQ8632.5.KQ7.KQ5"]
 [Declarer "S"]
 [Contract "6S"]
 [Result ""]
@@ -102,7 +142,7 @@ bids a confident 6♠, knowing NORTH has either three Aces or two Aces plus the 
 [Board "4"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- A75.QT83.A854.92 - 6.AK9754.6.KQJT3"]
+[Deal "W:Q843.J62.K93.A85 A75.QT83.A854.92 KJT92..QJT72.764 6.AK9754.6.KQJT3"]
 [Declarer "S"]
 [Contract "6H"]
 [Result ""]
@@ -134,7 +174,7 @@ is practically a certainty.}
 [Board "5"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AK9842.KQT6.84.A - QJ73.AJ5.T632.K4"]
+[Deal "W:T.3.A75.QJ986532 AK9842.KQT6.84.A 65.98742.KQJ9.T7 QJ73.AJ5.T632.K4"]
 [Declarer "N"]
 [Contract "4S"]
 [Result ""]
@@ -174,7 +214,7 @@ s.}
 [Board "6"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- AJ7.J6.QJT87.A64 - 6.KQ872.AK963.KQ"]
+[Deal "W:T983.AT95.542.J8 AJ7.J6.QJT87.A64 KQ542.43..T97532 6.KQ872.AK963.KQ"]
 [Declarer "N"]
 [Contract "6D"]
 [Result ""]
@@ -216,7 +256,7 @@ over the 5♣ reply.}
 [Board "7"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- KQ7.J6.A64.QJT87 - 6.KQ872.KQ.AK963"]
+[Deal "W:A84.943.T9873.54 KQ7.J6.A64.QJT87 JT9532.AT5.J52.2 6.KQ872.KQ.AK963"]
 [Declarer "N"]
 [Contract "5C"]
 [Result ""]
@@ -246,7 +286,7 @@ That's what happens here.}
 [Board "8"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- KQJ8752.4.K6.AK5 - A96.QJT3.AQJ.QJ9"]
+[Deal "W:T4.A976.975.T763 KQJ8752.4.K6.AK5 3.K852.T8432.842 A96.QJT3.AQJ.QJ9"]
 [Declarer "S"]
 [Contract "6S"]
 [Result ""]
@@ -272,7 +312,7 @@ The first way is probably better but we needed a Gerber example.}
 [Board "9"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AJT5.AK.K5.AKQJ4 - KQ8743.Q75..9762"]
+[Deal "W:9.JT86.QJT84.T83 AJT5.AK.K5.AKQJ4 62.9432.A97632.5 KQ8743.Q75..9762"]
 [Declarer "S"]
 [Contract "7S"]
 [Result ""]
@@ -310,7 +350,7 @@ NORTH readjusts her thinking and decides to bid the Grand.}
 [Board "10"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- A6.AQ8752.KQ3.87 - KQ3.KT93.A6.KQ96"]
+[Deal "W:J9752.J6.T94.J43 A6.AQ8752.KQ3.87 T84.4.J8752.AT52 KQ3.KT93.A6.KQ96"]
 [Declarer "N"]
 [Contract "6H"]
 [Result ""]
@@ -348,7 +388,7 @@ That is enough for SOUTH to bid the slam.}
 [Board "11"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AQ64.AKQ.A5.KJ63 - KT7532.8.K86.AQ4"]
+[Deal "W:J8.J975.QT4.T872 AQ64.AKQ.A5.KJ63 9.T6432.J9732.95 KT7532.8.K86.AQ4"]
 [Declarer "S"]
 [Contract "7NT"]
 [Result ""]
@@ -382,7 +422,7 @@ SOUTH figures the ♠ suit will run, and this should be enough for Grand Slam. H
 [Board "12"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- AK753.8.KQ72.KQ4 - Q86.QJ3.AJ5.AJ65"]
+[Deal "W:T9.K62.T643.T972 AK753.8.KQ72.KQ4 J42.AT9754.98.83 Q86.QJ3.AJ5.AJ65"]
 [Declarer "N"]
 [Contract "6S"]
 [Result ""]
@@ -410,7 +450,7 @@ She bids 6♠ (and hopes for a 3-2 trump split!).}
 [Board "13"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- K93.AT6.A9862.K9 - AQJ652.K82.Q.A85"]
+[Deal "W:74.Q43.KJT75.T72 K93.AT6.A9862.K9 T8.J975.43.QJ643 AQJ652.K82.Q.A85"]
 [Declarer "S"]
 [Contract "6S"]
 [Result ""]
@@ -440,7 +480,7 @@ enough points for a Grand slam.}
 [Board "14"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- AK.QJ3.AKQ5.A962 - 95.AK98742.73.87"]
+[Deal "W:QJ4.65.T98.QT543 AK.QJ3.AKQ5.A962 T87632.T.J642.KJ 95.AK98742.73.87"]
 [Declarer "N"]
 [Contract "7NT"]
 [Result ""]
@@ -490,7 +530,7 @@ with a 6-card suit.}
 [Board "15"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- QT875.K6.AK3.AKJ - J9643.AQ3.Q7.Q53"]
+[Deal "W:A2.9872.862.T987 QT875.K6.AK3.AKJ K.JT54.JT954.642 J9643.AQ3.Q7.Q53"]
 [Declarer "N"]
 [Contract "5S"]
 [Result ""]
@@ -516,7 +556,7 @@ Of course she didn't expect the two missing Key Cards to be the Ace and King of 
 [Board "16"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- KQ5.AQ96.764.K96 - AJ6.K75.KQ53.AJ5"]
+[Deal "W:T943.842.J9.QT82 KQ5.AQ96.764.K96 872.JT3.AT82.743 AJ6.K75.KQ53.AJ5"]
 [Declarer "S"]
 [Contract "4NT"]
 [Result ""]
@@ -542,7 +582,7 @@ to bid 6NT if he felt his hand was a "maximum". He didn't, so he passed.}
 [Board "17"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- K5.AK9762.K8.764 - A972.QJ53.QJ753."]
+[Deal "W:QJT.T4.942.AJ983 K5.AK9762.K8.764 8643.8.AT6.KQT52 A972.QJ53.QJ753."]
 [Declarer "N"]
 [Contract "6H"]
 [Result ""]
@@ -576,7 +616,7 @@ bid.}
 [Board "18"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- AK63.KQT4.KQ85.2 - Q982.A95.A64.KQJ"]
+[Deal "W:4.8762.9732.A963 AK63.KQT4.KQ85.2 JT75.J3.JT.T8754 Q982.A95.A64.KQJ"]
 [Declarer "S"]
 [Contract "6S"]
 [Result ""]
@@ -602,7 +642,7 @@ This fills the holes in NORTH's hand nicely, so she bids 6♠.}
 [Board "19"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- AK63.KQT4.KQ85.2 - J982.A95.AJ4.KQJ"]
+[Deal "W:Q754.J86.T93.T54 AK63.KQT4.KQ85.2 T.732.762.A98763 J982.A95.AJ4.KQJ"]
 [Declarer "S"]
 [Contract "5S"]
 [Result ""]
@@ -630,7 +670,7 @@ in trumps. So she stops at 5♠.}
 [Board "20"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- AK4.J95.AK76.A54 - 732.AKQ864.53.87"]
+[Deal "W:T95.T732.Q8.KJ92 AK4.J95.AK76.A54 QJ86..JT942.QT63 732.AKQ864.53.87"]
 [Declarer "N"]
 [Contract "3NT"]
 [Result ""]
@@ -658,7 +698,7 @@ SOUTH cannot have as much as an extra Jack, so NORTH just passes 3NT.}
 [Board "21"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AQJ862.KQ7.KQJ.A - K53.A952.854.654"]
+[Deal "W:T974.JT63.93.KQT AQJ862.KQ7.KQJ.A .84.AT762.J98732 K53.A952.854.654"]
 [Declarer "N"]
 [Contract "6S"]
 [Result ""]
@@ -686,7 +726,7 @@ might possibly make all thirteen tricks with a finesse.}
 [Board "22"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- A72.Q74.985.9843 - KQJ5.AK652.6.AKQ"]
+[Deal "W:4.JT93.AQ743.T76 A72.Q74.985.9843 T9863.8.KJT2.J52 KQJ5.AK652.6.AKQ"]
 [Declarer "S"]
 [Contract "6H"]
 [Result ""]
@@ -736,7 +776,7 @@ to 6
 [Board "23"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- A72.J9874.85.843 - KQJ5.AK652.6.AKQ"]
+[Deal "W:T86.QT.AQT93.762 A72.J9874.85.843 943.3.KJ742.JT95 KQJ5.AK652.6.AKQ"]
 [Declarer "S"]
 [Contract "6H"]
 [Result ""]
@@ -778,7 +818,7 @@ anyway.}
 [Board "24"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- AK963.AJ75.KQ2.6 - 85.KQ964.73.AK85"]
+[Deal "W:J.T3.J9865.QT743 AK963.AJ75.KQ2.6 QT742.82.AT4.J92 85.KQ964.73.AK85"]
 [Declarer "S"]
 [Contract "6H"]
 [Result ""]

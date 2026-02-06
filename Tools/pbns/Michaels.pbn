@@ -1,12 +1,52 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-02-05 20:01:01
-%sourcefilename BakerBridge.csv
+%Created: 2026-02-05 20:22:01
+%sourcefilename BakerBridgeFull.csv
 %HRTitleEvent Michaels
 [Event "Baker Bridge - Michaels / Unusual NT"]
 [Board "1"]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "W:- K93.74.QJ65.A832 - QJ864.AT983.3.76"]
+[Deal "W:A72.Q52.K874.QJT K93.74.QJ65.A832 T5.KJ6.AT92.K954 QJ864.AT983.3.76"]
 [Declarer "N"]
 [Contract "2S"]
 [Result ""]
@@ -37,7 +77,7 @@ You have a rather minimum Michaels type hand and you asked partner to choose a M
 [Board "2"]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "W:- AT863.AT974.86.5 - J95.K83.AJT5.976"]
+[Deal "W:KQ4.Q.Q742.KQT82 AT863.AT974.86.5 72.J652.K93.AJ43 J95.K83.AJT5.976"]
 [Declarer "S"]
 [Contract "2H"]
 [Result ""]
@@ -64,7 +104,7 @@ You have a fair hand with a guaranteed 8-card fit in either Major. You are not, 
 [Board "3"]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "W:- A642.Q873.Q3.A95 - 75.9.KT974.KQJ63"]
+[Deal "W:KQT83.JT5.5.T874 A642.Q873.Q3.A95 J9.AK642.AJ862.2 75.9.KT974.KQJ63"]
 [Declarer "N"]
 [Contract "3C"]
 [Result ""]
@@ -95,7 +135,7 @@ As mentioned, you have a pretty good hand, but partner only bid because you forc
 [Board "4"]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "W:- 96.4.KQJ84.KQT75 - J75.AJ973.965.J2"]
+[Deal "W:AQT832.KQT.A.863 96.4.KQJ84.KQT75 K4.8652.T732.A94 J75.AJ973.965.J2"]
 [Declarer "S"]
 [Contract "3D"]
 [Result ""]
@@ -122,7 +162,7 @@ Your best suit is \Hs. But partner didn't ask you to bid \Hs, he asked you to pi
 [Board "5"]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "W:- 863.K7532.A975.Q - 7.JT984.6.KJT532"]
+[Deal "W:QT5.6.KQJT84.974 863.K7532.A975.Q AKJ942.AQ.32.A86 7.JT984.6.KJT532"]
 [Declarer "N"]
 [Contract "4H"]
 [Result ""]
@@ -153,7 +193,7 @@ Partner's jump might indicate he has a really good hand, or he might just have a
 [Board "6"]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "W:- 74.6.J9873.AQT85 - AKT6.AKJ9.K6.KJ2"]
+[Deal "W:QJ85.Q8532.AQ4.7 74.6.J9873.AQT85 932.T74.T52.9643 AKT6.AKJ9.K6.KJ2"]
 [Declarer "N"]
 [Contract "3NT"]
 [Result ""]
@@ -180,7 +220,7 @@ You have no idea what you can make with this hand. Slam in one of the minors may
 [Board "7"]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "W:- A93.A6.Q9842.KQJ - 87.QJ984.KJT53.2"]
+[Deal "W:KJ652.72.6.97543 A93.A6.Q9842.KQJ QT4.KT53.A7.AT86 87.QJ984.KJT53.2"]
 [Declarer "N"]
 [Contract "4D"]
 [Result ""]
@@ -213,7 +253,7 @@ As you can see, IF they open the lead with a \C, and IF the \H finesse then work
 [Board "8"]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "W:- K9874.QJT96.5.74 - AJT6.74.A76.AT95"]
+[Deal "W:.A853.Q9843.KQ86 K9874.QJT96.5.74 Q532.K2.KJT2.J32 AJT6.74.A76.AT95"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -244,7 +284,7 @@ You will surely make this game if trumps split 2-2. If they don't then you will 
 [Board "9"]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "W:- KQJ7.6.974.K8654 - T.QJ984.KJT53.J2"]
+[Deal "W:652.KT732..QT973 KQJ7.6.974.K8654 A9843.A5.AQ862.A T.QJ984.KJT53.J2"]
 [Declarer "S"]
 [Contract "3D"]
 [Result ""]
@@ -275,7 +315,7 @@ Is it possible that partner wants to play Notrump? Not at all. He hates \Hs and 
 [Board "10"]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "W:- KQ.AKQ83.QJT54.3 - T6.74.K763.AT965"]
+[Deal "W:A982.J5.A92.Q872 KQ.AKQ83.QJT54.3 J7543.T962.8.KJ4 T6.74.K763.AT965"]
 [Declarer "S"]
 [Contract "5D"]
 [Result ""]
@@ -306,7 +346,7 @@ If you say to yourself "I only have 7 HCP" then you might pass. But if you say "
 [Board "11"]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "W:- KT93.J652.K6.KQ5 - AQJ65.9.AQT53.63"]
+[Deal "W:72.KT.J9842.T942 KT93.J652.K6.KQ5 84.AQ8743.7.AJ87 AQJ65.9.AQT53.63"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -337,7 +377,7 @@ Partner's cue-bid shows a limit-raise or better in \Ss. So you bid 4\S without t
 [Board "12"]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "W:- AT983.8.75.QJT74 - 6.K642.KT93.K865"]
+[Deal "W:K7.AJ975.QJ64.92 AT983.8.75.QJT74 QJ542.QT3.A82.A3 6.K642.KT93.K865"]
 [Declarer "N"]
 [Contract "3C"]
 [Result ""]
@@ -368,7 +408,7 @@ Partner only made a minimum bid, so you have no choice but to pass.}
 [Board "13"]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "W:- 762.J95.QJ8.7542 - AK853.KQT74.5.A3"]
+[Deal "W:J94.A32.T42.QJ96 762.J95.QJ8.7542 QT.86.AK9763.KT8 AK853.KQT74.5.A3"]
 [Declarer "N"]
 [Contract "3H"]
 [Result ""]
@@ -399,7 +439,7 @@ Yes, you have a high-level Michaels hand but don't get carried away. Remember th
 [Board "14"]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "W:- 94.AT964.KQ652.8 - QJT8765.83.74.A6"]
+[Deal "W:AK.J72.J93.KJ942 94.AT964.KQ652.8 32.KQ5.AT8.QT753 QJT8765.83.74.A6"]
 [Declarer "S"]
 [Contract "3S"]
 [Result ""]
@@ -426,7 +466,7 @@ Partner wants you to bid \Hs or \Ds. You figure that in either of the red suits 
 [Board "15"]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "W:- J943.J6.T764.976 - KQT62.AKQ74.5.A3"]
+[Deal "W:87.T92.AQJ98.JT2 J943.J6.T764.976 A5.853.K32.KQ854 KQT62.AKQ74.5.A3"]
 [Declarer "N"]
 [Contract "4S"]
 [Result ""]
@@ -459,7 +499,7 @@ Will you look at that. Partner has only 2 points, but what great ones to have!}
 [Board "16"]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "W:- K9852.A9432.T5.9 - A6.KQT8.742.AK65"]
+[Deal "W:3.J76.AKQ963.QJ8 K9852.A9432.T5.9 QJT74.5.J8.T7432 A6.KQT8.742.AK65"]
 [Declarer "S"]
 [Contract "4H"]
 [Result ""]
@@ -486,7 +526,7 @@ Partner has 5 of each Major suit so you know of a good 9-card \H fit. You have a
 [Board "17"]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "W:- A73.AK.AQ63.T853 - 4.6.K8752.QJ9764"]
+[Deal "W:K865.QT7543.T4.2 A73.AK.AQ63.T853 QJT92.J982.J9.AK 4.6.K8752.QJ9764"]
 [Declarer "S"]
 [Contract "5C"]
 [Result ""]
@@ -517,7 +557,7 @@ Partner apparently has a big hand. His cue-bid is forcing, and probably means he
 [Board "18"]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "W:- QJ753.A9842.K5.4 - T4.J6.QT9742.K65"]
+[Deal "W:A962.QT3.J8.AQJ8 QJ753.A9842.K5.4 K8.K75.A63.T9732 T4.J6.QT9742.K65"]
 [Declarer "W"]
 [Contract "3C"]
 [Result ""]
@@ -544,7 +584,7 @@ Many times at Bridge you want to fight for the contract. This isn't one of them.
 [Board "19"]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "W:- 7.62.A64.AKQ8743 - QT652.KQ973.7.J9"]
+[Deal "W:K9843.84.QJ93.T6 7.62.A64.AKQ8743 AJ.AJT5.KT852.52 QT652.KQ973.7.J9"]
 [Declarer "N"]
 [Contract "3C"]
 [Result ""]
@@ -575,7 +615,7 @@ This wasn't according to your script. Partner was supposed to choose a Major. Th
 [Board "20"]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "W:- KJT52.A9743.62.T - Q874.T65.7.A9752"]
+[Deal "W:A3.QJ.KQJ93.KQ83 KJT52.A9743.62.T 96.K82.AT854.J64 Q874.T65.7.A9752"]
 [Declarer "S"]
 [Contract "3S"]
 [Result ""]

@@ -1,6 +1,46 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-02-05 20:01:01
-%sourcefilename BakerBridge.csv
+%Created: 2026-02-05 20:22:01
+%sourcefilename BakerBridgeFull.csv
 %HRTitleEvent OLead
 [Event "Baker Bridge - Opening Leads"]
 [Board "1"]
@@ -37,7 +77,7 @@ South only has 7 winners unless he can establish the \C suit, and when you win y
 [Board "2"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:A65.2.J8643.JT52 QJ84.AJ6.AK.KQ98 3.K9753.T52.A764 KT972.QT84.Q97.3"]
+[Deal "W:A65.2.J8643.JT52 QJ84.AJ6.KQ.KQ98 3.K9753.T52.A764 KT972.QT84.A97.3"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -96,7 +136,7 @@ The only suit you have worth attacking with is your \Ss. Leading fourth down is 
 
 This time he comes through with the \SA and your side wins the first 5 tricks for a 1-trick set.
 
-If you had led any card other than a low \S declarer would take T tricks.}
+If you had led any card other than a low \S declarer would take 10 tricks.}
 [Play "W"]S4
 
 [Event "Baker Bridge - Opening Leads"]
@@ -500,9 +540,9 @@ When you have made your choice click NEXT. [NEXT]
 
 Lead the \H3, fourth highest in an attacking suit.
 
-Sometimes it comes down to just this kind of choice. Do you lead fourth down from \S K 8 7 3 or from \H Q T 7 3.
+Sometimes it comes down to just this kind of choice. Do you lead fourth down from \S K 8 7 3 or from \H Q 10 7 3.
 
-The presence of the \HT bolsters the \H suit enough to give it the edge.
+The presence of the ! H10 bolsters the \H suit enough to give it the edge.
 
 The suits could be arranged something like shown at left. With a \S lead the presence of the \ST in dummy allows declarer to make a second \S trick, which happens to be declarer's ninth trick.
 
@@ -568,7 +608,7 @@ When you have made your choice click NEXT. [NEXT]
 
 Lead the \S4.
 
-If partner had not doubled the contract you would probably have started with the \HT, or possibly the \C2.
+If partner had not doubled the contract you would probably have started with the ! H10, or possibly the \C2.
 
 But partner DID double, and most good players play that doubling 3NT is lead-directing as follows:If you have bid a suit, lead it. If doubler has bid a suit, lead it. If neither of you has bid, lead dummy's first bid suit.
 
@@ -616,7 +656,7 @@ Declarer may still make the contract if he guesses the \HQ correctly, but maybe 
 [Board "19"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:972.QJT6.T762.73 AJ5.A9853.KQ.AQ5 T864.72.J93.JT98 KQ3.K4.A854.K642"]
+[Deal "W:972.QJT6.T762.73 KJ5.A9853.KQ.AQ5 T864.72.J93.JT98 AQ3.K4.A854.K642"]
 [Declarer "S"]
 [Contract "6NT"]
 [Result ""]
@@ -640,7 +680,7 @@ Lead the \D2, or perhaps the \S9. Admittedly the \HQ looks very tempting, but re
 
 Since dummy bid \Hs, don't help declarer by leading the suit. Declarer has 11 tricks, and will hope to pick up one more in \Cs, but that won't happen.
 
-But if you start with the \HQ, he will win with his \HK and can then establish an extra \H winner by leading through your \H J T into dummy's \H A 9.
+But if you start with the \HQ, he will win with his \HK and can then establish an extra \H winner by leading through your \H J 10 into dummy's \H A 9.
 
 With any lead other than a \H honor he cannot come to 12 tricks.}
 [Play "W"]D2

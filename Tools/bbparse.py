@@ -372,12 +372,16 @@ def replace_suits(text,use_colon):
         suits = {"♠": "S:", "♥": " H:", "♦": " D:", "♣": " C:"}
     else:
         suits = {"♠": "!S", "♥": "!H", "♦": "!D", "♣": "!C"}
-    
+
     for suit_symbol, suit_initial in suits.items():
         text = text.replace(suit_symbol, suit_initial)
 
-    text = text.replace("10","T").replace("--","")
-    
+    # Only convert "10" to "T" when it's part of card notation (after suit indicator)
+    # Match patterns like "S:10", "!S10", or within card sequences like "AKQ10"
+    text = re.sub(r'([SHDC][:\!]?)10', r'\1T', text)
+    text = re.sub(r'([AKQJ])10', r'\1T', text)  # Also handle 10 after other card ranks
+    text = text.replace("--","")
+
     return text
 
 def clean_up_suits(text,use_colon):
@@ -458,7 +462,6 @@ def clean_up_analysis(analysis,td_str,last_bid):
     analysis = re.sub(r'<br\s*/?>\s*<br\s*/?>', r'\\n', analysis)  # convert double line breaks to \n
     analysis = re.sub(r'<br\s*/?>', '', analysis)                   # remove single line breaks
     analysis = replace_suits(analysis,False)
-    analysis = analysis.replace("T point","10 point")   # undo 10 to T conversion when talking about points
     analysis = re.sub(r'<font.*?>.*?</font>', "", analysis, flags=re.DOTALL)
     analysis = analysis.replace("</font>","")           # remove trailing font tags
     # Remove <span> tags but keep the text inside

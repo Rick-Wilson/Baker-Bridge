@@ -1,6 +1,46 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-02-05 20:01:01
-%sourcefilename BakerBridge.csv
+%Created: 2026-02-05 20:22:01
+%sourcefilename BakerBridgeFull.csv
 %HRTitleEvent ThirdHand
 [Event "Baker Bridge - Third Hand Play"]
 [Board "1"]
@@ -312,7 +352,7 @@ When you have made your choice click NEXT. [NEXT]
 
 Play the \S7.
 
-Partner's low \S lead tells you he has an honor in the suit, so it must be either the \SQ or the \ST. South's jump to 2NT makes it almost certain that he holds the \SQ, so you can figure partner probably led from \S T x x 5.
+Partner's low \S lead tells you he has an honor in the suit, so it must be either the \SQ or the \ST. South's jump to 2NT makes it almost certain that he holds the \SQ, so you can figure partner probably led from \S 10 x x 5.
 
 Apply the Rule of 11. 11 minus 5 = 6 cards higher than the \S5 held by dummy, you, and declarer. Since you can see 5 of the 6 you conclude that that declarer will have to play his \SQ to beat your \S7.
 
@@ -351,7 +391,7 @@ Play the \HQ.
 
 The Rule of Eleven tells you there are 6 cards in North, East and South that are higher than the \H5. You can see 5 of them, so that leaves just one of them for South.
 
-West cannot have all three of the outstanding honors, because from \H K J T x x his correct lead would be the Jack. So you can deduce that South must hold exactly one of \HK, \HJ, or \HT.
+West cannot have all three of the outstanding honors, because from \H K J 10 x x his correct lead would be the Jack. So you can deduce that South must hold exactly one of \HK, \HJ, or ! H10.
 
 If his honor is not the \HK then it won't matter whether you play \HA or \HQ to the first trick; you will win your two top cards and then play your small one back to West.
 
@@ -364,7 +404,7 @@ So what happens if you play the \HQ at trick one? South could still make the con
 [Board "11"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:K5.QJ972.AQ6.973 AQ83.T6.752.AKQ5 74.AK4.T984.T842 JT962.853.KJ3.J6"]
+[Deal "W:K5.QJ972.AQ6.973 AJ83.T6.752.AKQ5 74.AK4.T984.T842 QT962.853.KJ3.J6"]
 [Declarer "S"]
 [Contract "3S"]
 [Result ""]
@@ -392,7 +432,7 @@ Your side needs to take 5 tricks to defeat this contract. Two of them will be \H
 
 That means you need to win 3 \D tricks and the only way that can happen is if you play \Ds from your side.
 
-So win the first \HK (so partner will know you also have the \HA), and play the \DT. Presumably South will play an honor, but West will take the trick and put you back on lead with your \HA. You play the \D9 and your side will collect 3 \D tricks to go with your 2\Hs.}
+So win the first \HK (so partner will know you also have the \HA), and play the ! D10. Presumably South will play an honor, but West will take the trick and put you back on lead with your \HA. You play the \D9 and your side will collect 3 \D tricks to go with your 2\Hs.}
 [Play "W"]HQ
 
 [Event "Baker Bridge - Third Hand Play"]
@@ -522,7 +562,7 @@ So partner's \C9 is not a singleton, and you should wait. Declarer then runs dum
 {Baker ThirdHand 15}
 {[show NE]
 
-The bidding has been as shown. Partner led the \HT, dummy played the \HJ and it is your play.
+The bidding has been as shown. Partner led the ! H10, dummy played the \HJ and it is your play.
 
 When you have made your choice click NEXT. [NEXT]
 
@@ -602,7 +642,7 @@ When you have made your choice click NEXT. [NEXT]
 
 Play the \S8 (to signal encouragement).
 
-You could easily win the \SK, then play a small \S to drive out dummy's \SA. But South bid Notrump over your 2\S overcall, so he surely holds \S Q J T. So when you get the lead with your one \CA entry you can establish your \Ss, but you won't get into the lead to cash them.
+You could easily win the \SK, then play a small \S to drive out dummy's \SA. But South bid Notrump over your 2\S overcall, so he surely holds \S Q J 10. So when you get the lead with your one \CA entry you can establish your \Ss, but you won't get into the lead to cash them.
 
 Look what happens when you duck the first trick. South will win the trick with his \ST, and start on dummy's \C suit.
 
@@ -711,7 +751,7 @@ When you have made your choice click NEXT. [NEXT]
 
 Play the \DJ.
 
-Put yourself in partner's shoes. He almost surely has \D K Q T x (x). When South holds up on his \DA, which he almost surely will, West may think he is holding up with \D A J x, and be afraid to continue the suit.
+Put yourself in partner's shoes. He almost surely has \D K Q 10 x (x). When South holds up on his \DA, which he almost surely will, West may think he is holding up with \D A J x, and be afraid to continue the suit.
 
 You can help your partner figure out the true situation by merely playing your \DJ so he can see that South doesn't have it.
 

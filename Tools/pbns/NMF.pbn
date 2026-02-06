@@ -1,12 +1,52 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-02-05 20:01:01
-%sourcefilename BakerBridge.csv
+%Created: 2026-02-05 20:22:01
+%sourcefilename BakerBridgeFull.csv
 %HRTitleEvent NMF
 [Event "Baker Bridge - New Minor Forcing"]
 [Board "1"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- T92.AQ3.T86.AK54 - QJ865.K92.AK.863"]
+[Deal "W:AK7.75.97532.QT9 T92.AQ3.T86.AK54 43.JT864.QJ4.J72 QJ865.K92.AK.863"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -39,7 +79,7 @@ Partner tells you he has 3 \Ss. You already know he has a minimum strength hand.
 [Board "2"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- KQJT2.K63.86.A54 - 96.A82.AK74.Q863"]
+[Deal "W:A87.QT95.T952.J7 KQJT2.K63.86.A54 543.J74.QJ3.KT92 96.A82.AK74.Q863"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]
@@ -72,7 +112,7 @@ Do not support the \Cs if you have another decent bid. This is New Minor Forcing
 [Board "3"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- 962.A53.KQJ5.K84 - Q74.KQ642.87.A53"]
+[Deal "W:K53.JT87.932.Q76 962.A53.KQJ5.K84 AJT8.9.AT64.JT92 Q74.KQ642.87.A53"]
 [Declarer "S"]
 [Contract "2H"]
 [Result ""]
@@ -105,7 +145,7 @@ Partner tells you he has 3 \Hs. But he also tells you he has minimum strength - 
 [Board "4"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- AKQ52.AT63.75.T4 - 63.KQJ2.AK86.985"]
+[Deal "W:JT94.754.QJ2.AJ7 AKQ52.AT63.75.T4 87.98.T943.KQ632 63.KQJ2.AK86.985"]
 [Declarer "S"]
 [Contract "4H"]
 [Result ""]
@@ -140,7 +180,7 @@ This is New Minor Forcing and your first priority is to show a 4-card \H suit. Y
 [Board "5"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- KJ2.73.AK62.Q742 - Q74.KQ642.87.A53"]
+[Deal "W:A65.J85.T953.JT9 KJ2.73.AK62.Q742 T983.AT9.QJ4.K86 Q74.KQ642.87.A53"]
 [Declarer "N"]
 [Contract "2NT"]
 [Result ""]
@@ -173,7 +213,7 @@ Partner tells you he has only 2 \Hs. He also tells you he only has 12-13 points.
 [Board "6"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- A7.AQT63.QT4.753 - K43.K92.J85.AK86"]
+[Deal "W:QT98.J875.A97.T4 A7.AQT63.QT4.753 J652.4.K632.QJ92 K43.K92.J85.AK86"]
 [Declarer "N"]
 [Contract "4H"]
 [Result ""]
@@ -208,7 +248,7 @@ This is New Minor Forcing. Partner wants to know if you have 3 \Hs. Not only do 
 [Board "7"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- Q2.Q954.A52.KQ97 - KJ976.AK87.64.T3"]
+[Deal "W:83.J63.KQ8.86542 Q2.Q954.A52.KQ97 AT54.T2.JT973.AJ KJ976.AK87.64.T3"]
 [Declarer "N"]
 [Contract "4H"]
 [Result ""]
@@ -243,7 +283,7 @@ Your 12 points just got upgraded! Bid 4\H.}
 [Board "8"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- K52.AJT74.J5.Q74 - AQ9.82.AKT9.JT95"]
+[Deal "W:T73.KQ96.6432.A8 K52.AJT74.J5.Q74 J864.53.Q87.K632 AQ9.82.AKT9.JT95"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]
@@ -278,7 +318,7 @@ This is NMF, asking if you have 3 \Hs. You only have 2, but you have a great not
 [Board "9"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- QT5.JT.AK642.Q86 - K94.AK542.85.KJ9"]
+[Deal "W:732.Q7.QJT93.AT7 QT5.JT.AK642.Q86 AJ86.9863.7.5432 K94.AK542.85.KJ9"]
 [Declarer "N"]
 [Contract "3NT"]
 [Result ""]
@@ -313,7 +353,7 @@ Partner doesn't have 3 \Hs. That's what you wanted to know, you bid 3NT.}
 [Board "10"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- KQJ62.KQ63.86.54 - 98.AJT2.AKQ4.T96"]
+[Deal "W:A753.8754.972.A8 KQJ62.KQ63.86.54 T4.9.JT53.KQJ732 98.AJT2.AKQ4.T96"]
 [Declarer "S"]
 [Contract "4H"]
 [Result ""]
@@ -346,7 +386,7 @@ This is NMF, asking you to further describe your hand. You do not have 3 \Ss. Yo
 [Board "11"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- 72.KQ75.J96.AK94 - KQJT5.A3.KT7.T83"]
+[Deal "W:93.J982.Q54.QJ62 72.KQ75.J96.AK94 A864.T64.A832.75 KQJT5.A3.KT7.T83"]
 [Declarer "N"]
 [Contract "3NT"]
 [Result ""]
@@ -381,7 +421,7 @@ OK, partner has a 4-card \H suit - may or may not have 3 \Ss. Since you don't ha
 [Board "12"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- KQ962.Q74.Q93.93 - AT7.AJT.KJ5.KQT6"]
+[Deal "W:J.K9853.T87642.A KQ962.Q74.Q93.93 8543.62.A.J87542 AT7.AJT.KJ5.KQT6"]
 [Declarer "N"]
 [Contract "4S"]
 [Result ""]
@@ -416,7 +456,7 @@ This is New Minor Forcing. Partner wants to know if you have 3 \Ss. Since you do
 [Board "13"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- J4.AKQ86.KQ4.KT4 - KQT53.73.A53.AQ3"]
+[Deal "W:982.J9.JT96.J865 J4.AKQ86.KQ4.KT4 A76.T542.872.972 KQT53.73.A53.AQ3"]
 [Declarer "N"]
 [Contract "6NT"]
 [Result ""]
@@ -451,7 +491,7 @@ Partner does not have 3 \Ss. That was the information you needed, so you bid 6NT
 [Board "14"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- AQ642.KQ7.J6.QJ4 - K8.962.AKQ84.T96"]
+[Deal "W:JT93.A8.T97.K752 AQ642.KQ7.J6.QJ4 75.JT543.532.A83 K8.962.AKQ84.T96"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]

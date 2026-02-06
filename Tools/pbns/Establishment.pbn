@@ -1,6 +1,46 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-02-05 20:01:01
-%sourcefilename BakerBridge.csv
+%Created: 2026-02-05 20:22:01
+%sourcefilename BakerBridgeFull.csv
 %HRTitleEvent Establishment
 [Event "Baker Bridge - Suit Establishment"]
 [Board "1"]
@@ -116,7 +156,7 @@ Clickfor the complete deal. [NEXT]
 
 [show NESW]
 
-You had to establish the \Ds to make T tricks. And once again you had to pay close attention to entries.}
+You had to establish the \Ds to make 10 tricks. And once again you had to pay close attention to entries.}
 [Play "W"]S6
 
 [Event "Baker Bridge - Suit Establishment"]
@@ -560,7 +600,7 @@ You need two more winners. They cannot possibly come from \Ss, \Hs, or \Cs since
 
 There is no reason to hold up on the \S since the \H and \C suits also have just two stoppers. You win the \SA.
 
-You best play next is to finesse the \DT. This may gain a trick by virtue of the finesse if West happens to hold the \DJ, but primarily you are working to establish the \D suit. Assume East wins the \DJ and returns a \S.
+You best play next is to finesse the ! D10. This may gain a trick by virtue of the finesse if West happens to hold the \DJ, but primarily you are working to establish the \D suit. Assume East wins the \DJ and returns a \S.
 
 Again don't hold up. Take the \SK and lead another small \D, finessing with dummy's \DQ. Happily this time the finesse works, and even more happily both defenders follow suit. That means the rest of the \Ds are good and you make an overtrick.
 
@@ -822,7 +862,7 @@ The good news is that you only have one loser to get rid of. The bad news is tha
 
 Unlikely as it seems, your best candidate for establishment is dummy's \S8. West is marked with 3 \Ss, and having led the \ST there is a good chance that he also has the \S9. If so you can ruff it out.
 
-Cover the \ST with dummy's \SJ, and when East plays one of his honors ruff in your hand. Play a trump to the \DT, East showing out. Lead the \SQ. East will be forced to play his other high honor, (if he doesn't you would discard a loser), and you ruff again. 
+Cover the \ST with dummy's \SJ, and when East plays one of his honors ruff in your hand. Play a trump to the ! D10, East showing out. Lead the \SQ. East will be forced to play his other high honor, (if he doesn't you would discard a loser), and you ruff again. 
 
 Back to dummy with the \DQ and ruff the \S2 with a high trump just to be safe. West drops the \S9 on this trick.
 
@@ -836,7 +876,7 @@ Clickfor the complete Deal. [NEXT]
 
 When your only hope of making a contract is for the defender's cards to be a certain way, just assume that they lie perfectly for you and barge ahead.
 
-Here you needed \S T 9 x to be with West if you were to make the contract so you played for just that holding.}
+Here you needed \S 10 9 x to be with West if you were to make the contract so you played for just that holding.}
 [Play "W"]ST
 
 [Event "Baker Bridge - Suit Establishment"]

@@ -1,12 +1,52 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-02-05 20:01:01
-%sourcefilename BakerBridge.csv
+%Created: 2026-02-05 20:22:01
+%sourcefilename BakerBridgeFull.csv
 %HRTitleEvent 2Club
 [Event "Baker Bridge - Strong 2C Bids"]
 [Board "1"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- Q65.864.KQ86.T87 - AK82.AK3.A4.KQ94"]
+[Deal "W:973.JT75.J95.J32 Q65.864.KQ86.T87 JT4.Q92.T732.A65 AK82.AK3.A4.KQ94"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]
@@ -37,7 +77,7 @@ You have 23 points and no 5-card suit. Since your hand is balanced you bid 2NT. 
 [Board "2"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- KQ5.AK6.AK92.AT8 - T872.Q53.864.974"]
+[Deal "W:AJ63.T92.JT73.63 KQ5.AK6.AK92.AT8 94.J874.Q5.KQJ52 T872.Q53.864.974"]
 [Declarer "N"]
 [Contract "2NT"]
 [Result ""]
@@ -68,7 +108,7 @@ This isn't as clear-cut a decision as you might think at first. Partner is showi
 [Board "3"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- Q65.864.Q986.T87 - AK82.AK3.AK.KQ94"]
+[Deal "W:T97.J7.JT54.J532 Q65.864.Q986.T87 J43.QT952.732.A6 AK82.AK3.AK.KQ94"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]
@@ -99,7 +139,7 @@ You have 26 points and no 5-card suit. Since your hand is balanced you bid 3NT. 
 [Board "4"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- KQ5.AK6.AK92.AT8 - JT82.Q53.864.J94"]
+[Deal "W:7.T82.QJ753.Q652 KQ5.AK6.AK92.AT8 A9643.J974.T.K73 JT82.Q53.864.J94"]
 [Declarer "N"]
 [Contract "3NT"]
 [Result ""]
@@ -130,7 +170,7 @@ True, 4 points isn't much. But added to partner's 22-24 it becomes enough for a 
 [Board "5"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- K873.92.J8742.T3 - .AKQJ8643.A5.QJ4"]
+[Deal "W:A42.T7.T63.A8652 K873.92.J8742.T3 QJT965.5.KQ9.K97 .AKQJ8643.A5.QJ4"]
 [Declarer "S"]
 [Contract "4H"]
 [Result ""]
@@ -165,7 +205,7 @@ Partner has between 3 and 7 points. Somewhere in those points might be the one t
 [Board "6"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AK4.AQT86.K2.KQT - 875.K3.QJT94.752"]
+[Deal "W:- AK4.AQT863.Q.KQT - 875.K.KJT942.752"]
 [Declarer "N"]
 [Contract "3NT"]
 [Result ""]
@@ -196,7 +236,7 @@ For someone who made an initial Negative response you have quite a good hand. Yo
 [Board "7"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- K65.T864.92.T873 - AQJ83.3.KQ7.AKQ9"]
+[Deal "W:T42.A9.AT653.542 K65.T864.92.T873 97.KQJ752.J84.J6 AQJ83.3.KQ7.AKQ9"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -227,7 +267,7 @@ You have 22 points and 5-card Major suit. Your rebid is therefore 2\S. Partner r
 [Board "8"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AQ.AK75.Q84.AKJT - K875.QJT3.T5.973"]
+[Deal "W:T943.964.AK7.862 AQ.AK75.Q84.AKJT J62.82.J9632.Q54 K875.QJT3.T5.973"]
 [Declarer "N"]
 [Contract "4H"]
 [Result ""]
@@ -262,7 +302,7 @@ Knowing of the 4-4 fit you bid 4\H. By the way: Partner knew your 3\C bid was no
 [Board "9"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- J943.96.9863.A82 - AK.KQJT4.AJT.KJ9"]
+[Deal "W:Q852.A7.Q74.T764 J943.96.9863.A82 T76.8532.K52.Q53 AK.KQJT4.AJT.KJ9"]
 [Declarer "N"]
 [Contract "3NT"]
 [Result ""]
@@ -297,7 +337,7 @@ Partner's 2NT shows scattered values and fewer than 3 \Hs. He has 3 or more poin
 [Board "10"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AK8.KQT.KQJ2.AT4 - JT7.A96.T95.KQJ3"]
+[Deal "W:Q43.J752.8743.87 AK8.KQT.KQJ2.AT4 9652.843.A6.9652 JT7.A96.T95.KQJ3"]
 [Declarer "S"]
 [Contract "6NT"]
 [Result ""]
@@ -328,7 +368,7 @@ Hmmm, 22-24 balanced, plus 11 balanced equals 33-35 balanced. It makes you think
 [Board "11"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AQT64.AQ85.Q7.AK - 9875.64.863.J752"]
+[Deal "W:KJ32.9732.KJ9.T9 AQT64.AQ85.Q7.AK .KJT.AT542.Q8643 9875.64.863.J752"]
 [Declarer "N"]
 [Contract "3S"]
 [Result ""]
@@ -363,7 +403,7 @@ No, you still may not pass. First, because partner's bid of a new suit is forcin
 [Board "12"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- A5.A6.K7.AKQJT63 - 763.852.9543.872"]
+[Deal "W:K82.QJ743.A86.54 A5.A6.K7.AKQJT63 QJT94.KT9.QJT2.9 763.852.9543.872"]
 [Declarer "N"]
 [Contract "3NT"]
 [Result ""]
@@ -398,7 +438,7 @@ You definitely pass. Good thing he has 9 cold tricks in his hand!}
 [Board "13"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- Q93.A97653.72.84 - AK.KT84.KQ9.AKQ5"]
+[Deal "W:J64.QJ.JT65.JT72 Q93.A97653.72.84 T8752.2.A843.963 AK.KT84.KQ9.AKQ5"]
 [Declarer "N"]
 [Contract "6H"]
 [Result ""]
@@ -437,7 +477,7 @@ You now say 6\H and lay down a great dummy.}
 [Board "14"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- K53.Q95.AKQ6.AKQ - AQJT7.86.943.652"]
+[Deal "W:82.K432.JT87.T73 K53.Q95.AKQ6.AKQ 964.AJT7.52.J984 AQJT7.86.943.652"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -468,7 +508,7 @@ You told him that you have 8 or more points, now you must tell him that it is on
 [Board "15"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- KQ9.864.AQT6.J54 - A82.AK3.KJ7.AKT6"]
+[Deal "W:T63.QJ97.8432.73 KQ9.864.AQT6.J54 J754.T52.95.Q982 A82.AK3.KJ7.AKT6"]
 [Declarer "N"]
 [Contract "6NT"]
 [Result ""]
@@ -499,7 +539,7 @@ You show your balanced minimum by bidding 3NT, leaving further moves to partner.
 [Board "16"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AK3.KQT.AJ2.KQJT - QJT7.A96.KQ5.A83"]
+[Deal "W:652.J7532.T9.542 AK3.KQT.AJ2.KQJT 984.84.87643.976 QJT7.A96.KQ5.A83"]
 [Declarer "S"]
 [Contract "7NT"]
 [Result ""]
@@ -530,7 +570,7 @@ Hmmm, 22-24 points added to your 16 comes to 38-40 points. Looking apologeticall
 [Board "17"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AK.AKT86.75.AKQ6 - 86.Q752.A9864.53"]
+[Deal "W:J93.J94.KT3.JT94 AK.AKT86.75.AKQ6 QT7542.3.QJ2.872 86.Q752.A9864.53"]
 [Declarer "N"]
 [Contract "6H"]
 [Result ""]
@@ -565,7 +605,7 @@ Partner is not introducing a new suit here, you have already agreed on \Hs. He i
 [Board "18"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AJ.AKT86.Q94.AKQ - KQ9865.7.85.9532"]
+[Deal "W:T743.93.AKT3.T64 AJ.AKT86.Q94.AKQ 2.QJ542.J762.J87 KQ9865.7.85.9532"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -600,7 +640,7 @@ You know there are enough points for game so you must keep bidding. You should b
 [Board "19"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- AJT75.8.A3.97642 - KQ63.AK.KQ9.AKQ5"]
+[Deal "W:4.T7432.J6542.J8 AJT75.8.A3.97642 982.QJ965.T87.T3 KQ63.AK.KQ9.AKQ5"]
 [Declarer "S"]
 [Contract "7NT"]
 [Result ""]
@@ -635,7 +675,7 @@ Obviously you could bid 7\S. But in fact you can count that there will be thirte
 [Board "20"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AKQ75.A6.AQ7.KQ3 - 63.KQJT2.T96.984"]
+[Deal "W:JT8.95.J8543.JT7 AKQ75.A6.AQ7.KQ3 942.8743.K2.A652 63.KQJT2.T96.984"]
 [Declarer "N"]
 [Contract "3NT"]
 [Result ""]

@@ -1,6 +1,46 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-02-05 20:01:01
-%sourcefilename BakerBridge.csv
+%Created: 2026-02-05 20:22:01
+%sourcefilename BakerBridgeFull.csv
 %HRTitleEvent Finesse
 [Event "Baker Bridge - Finessing"]
 [Board "1"]
@@ -285,7 +325,7 @@ Make a Plan, then click NEXT. [NEXT]
 
 Losers:   \S = 1    \H = 1  \D = 1    \C = 1 Total = 4
 
-West has made another great lead. Any other suit would have given you a free finesse. You should duck the first \D. It is very possible that West has led from \D K Q T and will be afraid to continue for fear you have the \DJ in your hand. You'd be very happy to see him switch to any other suit. But he doesn't, he continues with the \DQ which you take with dummy's \DA.
+West has made another great lead. Any other suit would have given you a free finesse. You should duck the first \D. It is very possible that West has led from \D K Q 10 and will be afraid to continue for fear you have the \DJ in your hand. You'd be very happy to see him switch to any other suit. But he doesn't, he continues with the \DQ which you take with dummy's \DA.
 
 Click NEXT. [NEXT]
 
@@ -342,7 +382,7 @@ Click NEXT. [NEXT]
 
 
 
-Next play your \C7 to dummy's \CA. Then lead the \CQ from dummy. If East plays the \CK you will ruff, enter dummy, and discard two red losers on the \C J T. If East plays low instead, you discard your \H loser. West may be able to win the trick but you can ruff a \H return, and dummy will have two good \Cs on which you can discard 2 \D losers.
+Next play your \C7 to dummy's \CA. Then lead the \CQ from dummy. If East plays the \CK you will ruff, enter dummy, and discard two red losers on the \C J 10. If East plays low instead, you discard your \H loser. West may be able to win the trick but you can ruff a \H return, and dummy will have two good \Cs on which you can discard 2 \D losers.
 
 Clickfor the complete Deal. [NEXT]
 
@@ -699,7 +739,7 @@ Click NEXT. [NEXT]
 
 
 
-In your hand with a \C you play over to dummy's \HA. Now lead the \SQ from dummy and when East plays low play the \SJ (or T) from your hand.
+In your hand with a \C you play over to dummy's \HA. Now lead the \SQ from dummy and when East plays low play the \SJ (or 10) from your hand.
 
 Click NEXT. [NEXT]
 
@@ -921,7 +961,7 @@ Click NEXT. [NEXT]
 
 
 
-Now play the \HJ. If West doesn't cover, you will let it ride for your ninth trick. But West does cover so you must take dummy's \HA. Next play a small \H from dummy and finesse the \H9, hoping East has the \HT. This is the Backward Finesse.
+Now play the \HJ. If West doesn't cover, you will let it ride for your ninth trick. But West does cover so you must take dummy's \HA. Next play a small \H from dummy and finesse the \H9, hoping East has the ! H10. This is the Backward Finesse.
 
 Clickfor the complete Deal to see if it worked. [NEXT]
 
@@ -972,7 +1012,7 @@ Click NEXT. [NEXT]
 
 
 
-It probably doesn't matter, but since you cannot possibly win more than T tricks you might just as well hold up again. West wins the \SJ then plays the \S3. East discards a \H on the third \S.
+It probably doesn't matter, but since you cannot possibly win more than 10 tricks you might just as well hold up again. West wins the \SJ then plays the \S3. East discards a \H on the third \S.
 
 Click NEXT. [NEXT]
 
@@ -982,7 +1022,7 @@ Click NEXT. [NEXT]
 
 OK, now it is time to figure out where that extra trick is coming from. Not much figuring is needed, it must come from the \D suit. Since you are missing 5 cards including the Queen, the odds favor a finesse over playing for the drop. And, since you have the option of finessing either defender are you going to finesse into the one who can set you or into the safe one?
 
-Silly question. Of course you play the \DK from your hand, then a small \D finessing dummy's \DT, which wins the trick - and the game - and the overtrick.
+Silly question. Of course you play the \DK from your hand, then a small \D finessing dummy's ! D10, which wins the trick - and the game - and the overtrick.
 
 Clickfor the complete Deal. [NEXT]
 

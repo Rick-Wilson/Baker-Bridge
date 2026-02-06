@@ -1,12 +1,52 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-02-05 20:01:01
-%sourcefilename BakerBridge.csv
+%Created: 2026-02-05 20:22:01
+%sourcefilename BakerBridgeFull.csv
 %HRTitleEvent Drury
 [Event "Baker Bridge - Reverse Drury"]
 [Board "1"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- K43.AQJ54.63.T95 - A5.KT83.K752.843"]
+[Deal "W:8.9762.AQT984.A6 K43.AQJ54.63.T95 QJT9762..J.KQJ72 A5.KT83.K752.843"]
 [Declarer "N"]
 [Contract "2H"]
 [Result ""]
@@ -37,7 +77,7 @@ Partner's 2\H rebid tells you that he opened light. So you pass.}
 [Board "2"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- Q874.A53.KQ3.T82 - AKJ95.Q94.76.965"]
+[Deal "W:T6.J762.A98.KQJ7 Q874.A53.KQ3.T82 32.KT8.JT542.A43 AKJ95.Q94.76.965"]
 [Declarer "S"]
 [Contract "2S"]
 [Result ""]
@@ -64,7 +104,7 @@ Partner passes.}
 [Board "3"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- AK952.K83.QJ.752 - QJT7.A4.KT953.94"]
+[Deal "W:43.762.A82.KJT86 AK952.K83.QJ.752 86.QJT95.764.AQ3 QJT7.A4.KT953.94"]
 [Declarer "N"]
 [Contract "4S"]
 [Result ""]
@@ -95,7 +135,7 @@ The 2\D rebid shows a hand that partner would have opened in any position. So he
 [Board "4"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- A94.AJ7.KT83.T82 - 752.KQT63.QJ9.A7"]
+[Deal "W:J8.854.7652.KQ95 A94.AJ7.KT83.T82 KQT63.92.A4.J643 752.KQT63.QJ9.A7"]
 [Declarer "S"]
 [Contract "4H"]
 [Result ""]
@@ -124,7 +164,7 @@ Partner shows a maximum limit-raise with his jump, so you bid the game.}
 [Board "5"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- Q84.AKJ53.82.A74 - 7.Q9864.T743.K83"]
+[Deal "W:KJ95.T72.AQJ.T52 Q84.AKJ53.82.A74 AT632..K965.QJ96 7.Q9864.T743.K83"]
 [Declarer "N"]
 [Contract "3H"]
 [Result ""]
@@ -151,7 +191,7 @@ So you jump to 3\H. Partner realizes you don't have any strength since you did n
 [Board "6"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- T642.KQ5.86.AQ93 - QJ9875.A4.KQJ.87"]
+[Deal "W:K.932.AT932.T542 T642.KQ5.86.AQ93 A3.JT876.754.KJ6 QJ9875.A4.KQJ.87"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -178,7 +218,7 @@ So you sign-off at 4\S.}
 [Board "7"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- KT843.J53.J76.AK - QJ96.AK.852.9765"]
+[Deal "W:52.T96.KQ943.QJ8 KT843.J53.J76.AK A7.Q8742.AT.T432 QJ96.AK.852.9765"]
 [Declarer "N"]
 [Contract "2S"]
 [Result ""]
@@ -209,7 +249,7 @@ You've told partner you had at least a limit raise, now you need to tell him tha
 [Board "8"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- JT96.Q8.86.K8653 - KQ875.K74.KQ7.T2"]
+[Deal "W:A.T92.AT5432.QJ4 JT96.Q8.86.K8653 432.AJ653.J9.A97 KQ875.K74.KQ7.T2"]
 [Declarer "S"]
 [Contract "3S"]
 [Result ""]
@@ -227,7 +267,7 @@ You open in third seat and the bidding continues as shown. Decide what you would
 
 [show NS]
 
-If you thought North had 11 points you'd bid 4\S. But you know he has a weak hand - with T+ points and support he would have said 2\C.
+If you thought North had 11 points you'd bid 4\S. But you know he has a weak hand - with 10+ points and support he would have said 2\C.
 
 His 3\S bid is just preemptive, so you pass.}
 

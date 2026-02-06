@@ -1,12 +1,52 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-02-05 20:01:01
-%sourcefilename BakerBridge.csv
+%Created: 2026-02-05 20:22:01
+%sourcefilename BakerBridgeFull.csv
 %HRTitleEvent Bidpractice/Set5
 [Event "Baker Bridge - Partnership Bidding Set 5"]
 [Board "1"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AK9873.82.986.J4 - QJ2.K975.KQ2.Q53"]
+[Deal "W:T6.QJ64.A74.KT97 AK9873.82.986.J4 54.AT3.JT53.A862 QJ2.K975.KQ2.Q53"]
 [Declarer "N"]
 [Contract "2S"]
 [Result ""]
@@ -30,7 +70,7 @@ resist the temptation. To raise a Weak Two-bid to game you should have quick win
 [Board "2"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AK9873.82.986.J4 - QJ2.AK75.A72.A53"]
+[Deal "W:T4.JT9.QJT.KQ972 AK9873.82.986.J4 65.Q643.K543.T86 QJ2.AK75.A72.A53"]
 [Declarer "N"]
 [Contract "4S"]
 [Result ""]
@@ -54,7 +94,7 @@ pair is nowhere close to having a slam. The will probably make just ten tricks.}
 [Board "3"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AK9873.82.986.J4 - QJ62.75.A72.Q753"]
+[Deal "W:4.AQJT93.QT5.KT8 AK9873.82.986.J4 T5.K64.KJ43.A962 QJ62.75.A72.Q753"]
 [Declarer "N"]
 [Contract "4S"]
 [Result ""]
@@ -88,7 +128,7 @@ won't go down more than a couple of tricks.}
 [Board "4"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- KQ76.A62.53.AQ83 - 43.85.KQJ9862.97"]
+[Deal "W:JT92.Q43.A4.KT64 KQ76.A62.53.AQ83 A85.KJT97.T7.J52 43.85.KQJ9862.97"]
 [Declarer "S"]
 [Contract "3D"]
 [Result ""]
@@ -124,7 +164,7 @@ best call - PASS.}
 [Board "5"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- 87.KQJ9732.5.864 - AJT643.A.AK64.97"]
+[Deal "W:K95.T65.J9832.AT 87.KQJ9732.5.864 Q2.84.QT7.KQJ532 AJT643.A.AK64.97"]
 [Declarer "N"]
 [Contract "4H"]
 [Result ""]
@@ -152,7 +192,7 @@ that is just enough for game. He bids 4
 [Board "6"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- K4.KJ5.942.KQJ72 - AQJ9765.QT2.7.63"]
+[Deal "W:2.8764.KQJT8.A94 K4.KJ5.942.KQJ72 T83.A93.A653.T85 AQJ9765.QT2.7.63"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -178,7 +218,7 @@ NORTH thinks there should be game and bids 4♠}
 [Board "7"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- 764.AK9743.72.Q5 - KQ.QJ.AKQ65.KJ42"]
+[Deal "W:T95.T85.J843.A73 764.AK9743.72.Q5 AJ832.62.T9.T986 KQ.QJ.AKQ65.KJ42"]
 [Declarer "N"]
 [Contract "4H"]
 [Result ""]
@@ -226,7 +266,7 @@ too strong for a Weak-two opening. So SOUTH just bids 4
 [Board "8"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- AQ5.4.KQ94.KJ742 - J83.KQJ762.85.85"]
+[Deal "W:K92.A985.JT76.96 AQ5.4.KQ94.KJ742 T764.T3.A32.AQT3 J83.KQJ762.85.85"]
 [Declarer "S"]
 [Contract "2H"]
 [Result ""]
@@ -256,7 +296,7 @@ If you think 3NT has a chance you are delusional.}
 [Board "9"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- K84.AQT642.4.965 - AQJT65.7.A95.KJ3"]
+[Deal "W:3.93.QT862.AQ872 K84.AQT642.4.965 972.KJ85.KJ73.T4 AQJT65.7.A95.KJ3"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -284,7 +324,7 @@ a hand this good. SOUTH then bids the ♠ game.}
 [Board "10"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- AK75.K63.KQJ54.A - 6.AQJ8754.632.84"]
+[Deal "W:J942.92.T87.KJ75 AK75.K63.KQJ54.A QT83.T.A9.QT9632 6.AQJ8754.632.84"]
 [Declarer "S"]
 [Contract "6H"]
 [Result ""]
@@ -316,7 +356,7 @@ with confidence.}
 [Board "11"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- J3.76.97.KQ98752 - AQT.KQJ.QJT3.AJT"]
+[Deal "W:K75.T952.K864.63 J3.76.97.KQ98752 98642.A843.A52.4 AQT.KQJ.QJT3.AJT"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]
@@ -342,7 +382,7 @@ but 5♣ would go down 1.}
 [Board "12"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- AQ63.Q82.AKQ.KQJ - J4.KJT963.875.42"]
+[Deal "W:T7.A75.T942.9653 AQ63.Q82.AKQ.KQJ K9852.4.J63.AT87 J4.KJT963.875.42"]
 [Declarer "S"]
 [Contract "4H"]
 [Result ""]
@@ -376,7 +416,7 @@ s to show bare minimum so NORTH settles for game.}
 [Board "13"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- KQ9862.864.94.K6 - JT3.AK53.AQ732.4"]
+[Deal "W:4.J9.KT85.AT8753 KQ9862.864.94.K6 A75.QT72.J6.QJ92 JT3.AK53.AQ732.4"]
 [Declarer "N"]
 [Contract "3S"]
 [Result ""]
@@ -408,7 +448,7 @@ he signs off in 3♠}
 [Board "14"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- A64.Q42.AJ4.AK65 - 73.K53.KQT872.94"]
+[Deal "W:QJ.AJT86.653.T83 A64.Q42.AJ4.AK65 KT9852.97.9.QJ72 73.K53.KQT872.94"]
 [Declarer "N"]
 [Contract "3NT"]
 [Result ""]
@@ -448,7 +488,7 @@ she bids 3NT.}
 [Board "15"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- 975.76.AKQ962.83 - KQ8.AK8.J43.AT65"]
+[Deal "W:T643.QJ53.T7.KJ4 975.76.AKQ962.83 AJ2.T942.85.Q972 KQ8.AK8.J43.AT65"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]
@@ -474,7 +514,7 @@ Game (and bidding) doesn't get much easier.}
 [Board "16"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- T92.A8743.3.AK92 - KQJ8753.2.754.J5"]
+[Deal "W:A6.KJ6.AJ962.763 T92.A8743.3.AK92 4.QT95.KQT8.QT84 KQJ8753.2.754.J5"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -502,7 +542,7 @@ ruff also.}
 [Board "17"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AK8762.83.83.K65 - Q9.J75.A96.AQJ42"]
+[Deal "W:JT3.T96.KQ52.T93 AK8762.83.83.K65 54.AKQ42.JT74.87 Q9.J75.A96.AQJ42"]
 [Declarer "N"]
 [Contract "4S"]
 [Result ""]
@@ -526,7 +566,7 @@ SOUTH always knew there would be a game bid, so with an 8-card fit he bids 4♠}
 [Board "18"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- QJ83.T6.KJ4.KQJ4 - 65.AQJ8753.975.5"]
+[Deal "W:AT.942.QT63.AT98 QJ83.T6.KJ4.KQJ4 K9742.K.A82.7632 65.AQJ8753.975.5"]
 [Declarer "S"]
 [Contract "3H"]
 [Result ""]
@@ -552,7 +592,7 @@ In other words, NORTH has the perfect hand with which to pass.}
 [Board "19"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- 54.863.AKQ974.85 - KQJ.AK7.J63.AK42"]
+[Deal "W:A9.QT95.852.JT96 54.863.AKQ974.85 T87632.J42.T.Q73 KQJ.AK7.J63.AK42"]
 [Declarer "S"]
 [Contract "6NT"]
 [Result ""]
@@ -588,7 +628,7 @@ A K Q x x x SOUTH has an easy 6NT bid.}
 [Board "20"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- KJ6.AQJ42.964.A5 - AQ9752.K3.852.73"]
+[Deal "W:4.T976.AQT7.KJT2 KJ6.AQJ42.964.A5 T83.85.KJ3.Q9864 AQ9752.K3.852.73"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -616,7 +656,7 @@ NORTH is no longer unsure, so she bids 4♠.}
 [Board "21"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AQ9864.53.873.72 - KJ3.AQJ42.964.A5"]
+[Deal "W:T.T9876.AKJT5.Q6 AQ9864.53.873.72 752.K.Q2.KJT9843 KJ3.AQJ42.964.A5"]
 [Declarer "N"]
 [Contract "3S"]
 [Result ""]
@@ -642,7 +682,7 @@ SOUTH passes and hopes for the best.}
 [Board "22"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- A63.AKQJ742.A8.4 - 5.8.9753.KQJ9863"]
+[Deal "W:KQJ87.93.KJT.T75 A63.AKQJ742.A8.4 T942.T65.Q642.A2 5.8.9753.KQJ9863"]
 [Declarer "N"]
 [Contract "4H"]
 [Result ""]
@@ -676,7 +716,7 @@ will probably make the game. Otherwise she will likely go down one.}
 [Board "23"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- QJT742.KQ72.52.9 - K3.AJ963.AQ7.864"]
+[Deal "W:9.85.KJT864.QJT3 QJT742.KQ72.52.9 A865.T4.93.AK752 K3.AJ963.AQ7.864"]
 [Declarer "S"]
 [Contract "4H"]
 [Result ""]
@@ -708,7 +748,7 @@ would be missed.}
 [Board "24"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- AQ3.AJT.K754.QT4 - 62.742.AJT832.K7"]
+[Deal "W:KJ8.K653.96.J986 AQ3.AJT.K754.QT4 T9754.Q98.Q.A532 62.742.AJT832.K7"]
 [Declarer "N"]
 [Contract "3NT"]
 [Result ""]

@@ -1,12 +1,52 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-02-05 20:01:01
-%sourcefilename BakerBridge.csv
+%Created: 2026-02-05 20:22:01
+%sourcefilename BakerBridgeFull.csv
 %HRTitleEvent FSF
 [Event "Baker Bridge - Fourth Suit Forcing"]
 [Board "1"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- KQ92.AT6.J5.K954 - A5.KQ982.T96.A63"]
+[Deal "W:T876.74.AQ42.QT7 KQ92.AT6.J5.K954 J43.J53.K873.J82 A5.KQ982.T96.A63"]
 [Declarer "S"]
 [Contract "4H"]
 [Result ""]
@@ -39,7 +79,7 @@ Partner tells you he has 3 \Hs. You bid the \H game.}
 [Board "2"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- K72.AJT93.Q6.953 - Q986.82.AK74.AT4"]
+[Deal "W:AJ43.Q764.T8.872 K72.AJT93.Q6.953 T5.K5.J9532.KQJ6 Q986.82.AK74.AT4"]
 [Declarer "S"]
 [Contract "2NT"]
 [Result ""]
@@ -72,7 +112,7 @@ This is Fourth Suit Forcing and partner may or may not have a \C suit. You do no
 [Board "3"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- KQ92.T6.AJ5.K954 - A5.KQ982.T96.A63"]
+[Deal "W:JT4.A73.K843.J82 KQ92.T6.AJ5.K954 8763.J54.Q72.QT7 A5.KQ982.T96.A63"]
 [Declarer "N"]
 [Contract "3NT"]
 [Result ""]
@@ -105,7 +145,7 @@ Partner does not have 3 \Hs, but he does have \Ds stopped. So you bid 3NT.}
 [Board "4"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- AK752.863.AK.984 - 6.AJT.QT954.AQ73"]
+[Deal "W:QT983.K95.863.J6 AK752.863.AK.984 J4.Q742.J72.KT52 6.AJT.QT954.AQ73"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]
@@ -140,7 +180,7 @@ This is Fourth Suit Forcing and partner is fishing for more information. You cer
 [Board "5"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- Q4.AT864.83.AK82 - KJT7.QJ.KQJ9.J76"]
+[Deal "W:852.73.AT75.QT53 Q4.AT864.83.AK82 A963.K952.642.94 KJT7.QJ.KQJ9.J76"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]
@@ -171,7 +211,7 @@ With 13 points, bid what you expect to make, 3NT. Partner passes.}
 [Board "6"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- AK985.A5.87.QJ94 - 7.KQ863.T4.AKT86"]
+[Deal "W:QJ2.T74.KQJ65.32 AK985.A5.87.QJ94 T643.J92.A932.75 7.KQ863.T4.AKT86"]
 [Declarer "S"]
 [Contract "5C"]
 [Result ""]
@@ -206,7 +246,7 @@ Partner's bid is FSF. He wants to know if you have 3 \Ss, (you don't), or if you
 [Board "7"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- 4.AJ863.QJT7.AJ9 - KQJ76.KQ.K64.863"]
+[Deal "W:T532.42.A952.K42 4.AJ863.QJT7.AJ9 A98.T975.83.QT75 KQJ76.KQ.K64.863"]
 [Declarer "N"]
 [Contract "3NT"]
 [Result ""]
@@ -237,7 +277,7 @@ So you say 3\C (FSF) to find out if either possibility exists. Partner does have
 [Board "8"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- KT854.AKT7.85.K4 - 6.QJ82.AKT9.A985"]
+[Deal "W:QJ32.9653.742.Q2 KT854.AKT7.85.K4 A97.4.QJ63.JT763 6.QJ82.AKT9.A985"]
 [Declarer "N"]
 [Contract "4H"]
 [Result ""]
@@ -272,7 +312,7 @@ Since partner jumped this is NOT FSF. Partner has a \H suit and a pretty good ha
 [Board "9"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- A3.AQJ72.QT83.64 - KQJ5.864.AK7.975"]
+[Deal "W:T64.K953.J642.JT A3.AQJ72.QT83.64 9872.T.95.AKQ832 KQJ5.864.AK7.975"]
 [Declarer "N"]
 [Contract "4H"]
 [Result ""]
@@ -301,7 +341,7 @@ You COULD bid 3\C, FSF, to find out if partner has a \C stopper but that would b
 [Board "10"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- KQJ62.963.A6.K54 - 743.K2.KJT8.AQ96"]
+[Deal "W:A.J5.Q5432.JT832 KQJ62.963.A6.K54 T985.AQT874.97.7 743.K2.KJT8.AQ96"]
 [Declarer "N"]
 [Contract "4S"]
 [Result ""]
@@ -334,7 +374,7 @@ This is FSF, asking you to further describe your hand, and you have a problem. Y
 [Board "11"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- KJ3.QT975.AQ96.6 - 975.63.KT.AKQJ83"]
+[Deal "W:42.AKJ.8743.9754 KJ3.QT975.AQ96.6 AQT86.842.J52.T2 975.63.KT.AKQJ83"]
 [Declarer "N"]
 [Contract "3NT"]
 [Result ""]
@@ -369,7 +409,7 @@ It couldn't have worked out better. Notrump played from partner's side. You bid 
 [Board "12"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- KQ95.K3.AJ863.93 - A863.AJ75.9.KQ64"]
+[Deal "W:JT7.9642.T72.AJ5 KQ95.K3.AJ863.93 42.QT8.KQ54.T872 A863.AJ75.9.KQ64"]
 [Declarer "N"]
 [Contract "4S"]
 [Result ""]
@@ -402,7 +442,7 @@ Be careful! This is NOT Fourth Suit Forcing. It is true that you are forced to b
 [Board "13"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- T94.KQJ62.6.AK65 - KQJ53.73.A94.Q83"]
+[Deal "W:862.AT85.KT85.T4 T94.KQJ62.6.AK65 A7.94.QJ732.J972 KQJ53.73.A94.Q83"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -433,7 +473,7 @@ Partner says 2\S, telling you he has three of them, and you bid 4\S.}
 [Board "14"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- A7.AQ743.T82.JT5 - KT86.KJ9.6.AK642"]
+[Deal "W:QJ53.T865.Q93.Q7 A7.AQ743.T82.JT5 942.2.AKJ754.983 KT86.KJ9.6.AK642"]
 [Declarer "N"]
 [Contract "4H"]
 [Result ""]

@@ -1,12 +1,52 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-02-05 20:01:01
-%sourcefilename BakerBridge.csv
+%Created: 2026-02-05 20:22:01
+%sourcefilename BakerBridgeFull.csv
 %HRTitleEvent Negative
 [Event "Baker Bridge - Negative Doubles"]
 [Board "1"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- A73.AQJT6.KQ.974 - 64.K98.A983.AT65"]
+[Deal "W:T85.2.JT765.KJ83 A73.AQJT6.KQ.974 KQJ92.7543.42.Q2 64.K98.A983.AT65"]
 [Declarer "N"]
 [Contract "4H"]
 [Result ""]
@@ -35,7 +75,7 @@ Partner now bids 4\H which you pass.}
 [Board "2"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- A3.AT75.KQJ6.T42 - 64.K986.983.KQ65"]
+[Deal "W:Q8.J432.T542.J97 A3.AT75.KQJ6.T42 KJT9752.Q.A7.A83 64.K986.983.KQ65"]
 [Declarer "N"]
 [Contract "2H"]
 [Result ""]
@@ -66,7 +106,7 @@ Partner also has 4 \Hs. Unfortunately his strength is only in the 13-15 point ra
 [Board "3"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- 8752.AQ63.Q64.73 - 64.KJ98.A93.AQT5"]
+[Deal "W:KQT93.5.T87.K642 8752.AQ63.Q64.73 AJ.T742.KJ52.J98 64.KJ98.A93.AQT5"]
 [Declarer "S"]
 [Contract "2H"]
 [Result ""]
@@ -93,7 +133,7 @@ Partner is showing you a \H suit with at least 6 points. With 4 \Hs in a minimum
 [Board "4"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- QT75.73.AJT6.AKJ - KJ64.J986.73.Q65"]
+[Deal "W:82.K2.Q852.T8742 QT75.73.AJT6.AKJ A93.AQT54.K94.93 KJ64.J986.73.Q65"]
 [Declarer "N"]
 [Contract "2S"]
 [Result ""]
@@ -124,7 +164,7 @@ Partner's jump is inviting but it takes more than just a simple jump to get you 
 [Board "5"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- AQ62.872.85.KJ62 - KJ73.6.AQJ7.AT85"]
+[Deal "W:T9.KQ954.K642.Q4 AQ62.872.85.KJ62 854.AJT3.T93.973 KJ73.6.AQJ7.AT85"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -151,7 +191,7 @@ Partner has indicated a 4-card \S suit. Since you also have 4 you will naturally
 [Board "6"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- 73.AJ95.T64.AKJ3 - AQ4.KQ86.73.QT65"]
+[Deal "W:JT8.T742.KQ92.82 73.AJ95.T64.AKJ3 K9652.3.AJ85.974 AQ4.KQ86.73.QT65"]
 [Declarer "N"]
 [Contract "4H"]
 [Result ""]
@@ -182,7 +222,7 @@ Partner has 4 \Hs and an opening hand. You have 4 \Hs and an opening hand. That 
 [Board "7"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- AQ73.KJT7.82.T84 - KT.A4.KJT6.KQJ65"]
+[Deal "W:J94.52.AQ7543.A7 AQ73.KJT7.82.T84 8652.Q9863.9.932 KT.A4.KJT6.KQJ65"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]
@@ -209,7 +249,7 @@ Partner's Negative Double in this situation shows both Majors. You can't support
 [Board "8"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- K983.T4.KQ52.AKQ - QJT4.K76.A986.73"]
+[Deal "W:A62.85.JT4.T6542 K983.T4.KQ52.AKQ 75.AQJ932.73.J98 QJT4.K76.A986.73"]
 [Declarer "N"]
 [Contract "4S"]
 [Result ""]
@@ -240,7 +280,7 @@ Partner's jump shows a Medium hand, 16 - 18 points. Add your 11 and you have eno
 [Board "9"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- KT84.KJ72.73.J95 - 63.AQ.AKQT84.KT4"]
+[Deal "W:AQJ75.864.2.AQ76 KT84.KJ72.73.J95 92.T953.J965.832 63.AQ.AKQT84.KT4"]
 [Declarer "N"]
 [Contract "3NT"]
 [Result ""]
@@ -267,7 +307,7 @@ You have a very good hand but only 2 of partner's \H suit. You are actually too 
 [Board "10"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- Q3.AKQ872.872.75 - T82.93.KQ94.AJ96"]
+[Deal "W:74.65.AJT63.T843 Q3.AKQ872.872.75 AKJ965.JT4.5.KQ2 T82.93.KQ94.AJ96"]
 [Declarer "N"]
 [Contract "2H"]
 [Result ""]
@@ -298,7 +338,7 @@ Well let's see. Partner shows no interest in your two Minors or notrump. And he 
 [Board "11"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- 82.T5.KJ96.A8632 - A93.AQJ964.Q4.K4"]
+[Deal "W:KJT76.32.A32.JT7 82.T5.KJ96.A8632 Q54.K87.T875.Q95 A93.AQJ964.Q4.K4"]
 [Declarer "S"]
 [Contract "4H"]
 [Result ""]
@@ -325,7 +365,7 @@ Partner is showing both Minors but you are not interested in either one. Bidding
 [Board "12"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- 72.AK854.KQ75.J4 - T8.93.AJ94.KQ965"]
+[Deal "W:J96543..T62.AT87 72.AK854.KQ75.J4 AKQ.QJT762.83.32 T8.93.AJ94.KQ965"]
 [Declarer "N"]
 [Contract "3D"]
 [Result ""]
@@ -358,7 +398,7 @@ As you can see you will lose 2 \Ss and 1 \C so you made the right decision.}
 [Board "13"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- Q762.AQ87.K6.T82 - A5.KJ94.AQT54.43"]
+[Deal "W:T83.6.J93.AKQJ97 Q762.AQ87.K6.T82 KJ94.T532.872.65 A5.KJ94.AQT54.43"]
 [Declarer "S"]
 [Contract "4H"]
 [Result ""]
@@ -389,7 +429,7 @@ Once partner confirms he has the \Hs you can revalue your hand to 17 points. Thi
 [Board "14"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- KJ93.Q83.83.AK64 - T875.AK64.974.32"]
+[Deal "W:Q62.T972.AKT.QJ7 KJ93.Q83.83.AK64 A4.J5.QJ652.T985 T875.AK64.974.32"]
 [Declarer "N"]
 [Contract "1S"]
 [Result ""]
@@ -420,7 +460,7 @@ Partner has a minimum opener with 4 \Ss. You have a minimum response with 4 \Ss.
 [Board "15"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- QJ73.QJ.965.KQ84 - KT98.AK764.4.A96"]
+[Deal "W:A6.T95.AKQJ87.72 QJ73.QJ.965.KQ84 542.832.T32.JT53 KT98.AK764.4.A96"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -440,14 +480,14 @@ The bidding has been as shown. It is your bid. What do you say? [BID 4\S]
 
 
 
-Sometimes using Negative Doubles seems like you can read minds. You know for sure that partner has 4 \Ss since that is the only unbid Major. You know for sure that partner has T+ points because he made a Negative Double of a 2-level overcall. So you conclude that your side has 8 \Ss and 27+ points . . .. . . and you bid 4\S.}
+Sometimes using Negative Doubles seems like you can read minds. You know for sure that partner has 4 \Ss since that is the only unbid Major. You know for sure that partner has 10+ points because he made a Negative Double of a 2-level overcall. So you conclude that your side has 8 \Ss and 27+ points . . .. . . and you bid 4\S.}
 
 
 [Event "Baker Bridge - Negative Doubles"]
 [Board "16"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- 86.Q975.KQT.AQJ5 - KT94.AJ8.932.T96"]
+[Deal "W:A7532.T62.64.843 86.Q975.KQT.AQJ5 QJ.K43.AJ875.K72 KT94.AJ8.932.T96"]
 [Declarer "N"]
 [Contract "1NT"]
 [Result ""]
@@ -478,7 +518,7 @@ Partner has a minimum hand and fewer than 4 \Ss. A good time for you to pass.}
 [Board "17"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- AKQ5.53.73.J9632 - 8.AK764.QJT84.A8"]
+[Deal "W:JT64.Q.AK9652.KT AKQ5.53.73.J9632 9732.JT982..Q754 8.AK764.QJT84.A8"]
 [Declarer "W"]
 [Contract "2DX"]
 [Result ""]
@@ -498,14 +538,14 @@ The bidding has been as shown. It is your bid. What do you say? [BID pass]
 
 
 
-Partner has T+ points, a \S suit and fewer than 3 \Hs. Doesn't this look like the perfect hand to pass for penalties? Yes.}
+Partner has 10+ points, a \S suit and fewer than 3 \Hs. Doesn't this look like the perfect hand to pass for penalties? Yes.}
 
 
 [Event "Baker Bridge - Negative Doubles"]
 [Board "18"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- K87.T53.AQT.AT93 - AT96.KQJ6.932.K8"]
+[Deal "W:J5432.A82.J6.764 K87.T53.AQT.AT93 Q.974.K8754.QJ52 AT96.KQJ6.932.K8"]
 [Declarer "N"]
 [Contract "3NT"]
 [Result ""]
@@ -536,7 +576,7 @@ Partner doesn't have 4 of either Major. But he does have 13 points and \Ds stopp
 [Board "19"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- KQT94.A86.95.KT4 - J73.53.KQJT4.AJ6"]
+[Deal "W:A52.KJ942.2.Q985 KQT94.A86.95.KT4 86.QT7.A8763.732 J73.53.KQJT4.AJ6"]
 [Declarer "N"]
 [Contract "4S"]
 [Result ""]
@@ -565,7 +605,7 @@ But that is not the case here. If partner had only 4 \Ss he would not have bid t
 [Board "20"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AK75.A983.K86.95 - 963.T52.A2.KQT86"]
+[Deal "W:JT842.QJ764.753. AK75.A983.K86.95 Q.K.QJT94.AJ7432 963.T52.A2.KQT86"]
 [Declarer "E"]
 [Contract "2C"]
 [Result ""]

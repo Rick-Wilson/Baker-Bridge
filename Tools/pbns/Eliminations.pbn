@@ -1,6 +1,46 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-02-05 20:01:01
-%sourcefilename BakerBridge.csv
+%Created: 2026-02-05 20:22:01
+%sourcefilename BakerBridgeFull.csv
 %HRTitleEvent Eliminations
 [Event "Baker Bridge - Elimination Plays"]
 [Board "1"]
@@ -20,7 +60,7 @@
 {Baker Eliminations 1}
 {[show NS]
 
-North's 3\S bid is a limit raise showing T-12 points and good trump support. South is to play 6\S. West leads the \HQ.
+North's 3\S bid is a limit raise showing 10-12 points and good trump support. South is to play 6\S. West leads the \HQ.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -301,7 +341,7 @@ Click to see all four hands. [NEXT]
 
 [show NESW]
 
-If East is the one who has to play a \C you just let it ride around to dummy's \C K J T 3.  
+If East is the one who has to play a \C you just let it ride around to dummy's \C K J 10 3.  
 
 If West is the one who has to play a \C you need to insert the \CT or \CJ from dummy.
 
@@ -409,9 +449,9 @@ Make a Plan, then click NEXT. [NEXT]
 
 [PLAY N:S8,N:S3,S:ST,S:S5]
 
-In addition to the two \Ss already lost you have a potential loser in each minor suit. On the plus side, you have a finesse position in \Ds and a two-way finesse in \Cs. If you work both finesses successfully you make an overtrick - if both fail you will be down 1. Or, you could try for a T0% sure end-play.
+In addition to the two \Ss already lost you have a potential loser in each minor suit. On the plus side, you have a finesse position in \Ds and a two-way finesse in \Cs. If you work both finesses successfully you make an overtrick - if both fail you will be down 1. Or, you could try for a 100% sure end-play.
 
-Ruff the \SA with dummy's \HT and pull trumps (three rounds).
+Ruff the \SA with dummy's ! H10 and pull trumps (three rounds).
 
 Click NEXT. [NEXT]
 
@@ -470,7 +510,7 @@ Make a Plan, then click NEXT. [NEXT]
 
 If the contract appears to depend upon a finesse, try to find another way. Here, you can always try the \C finesse, but maybe you can eliminate \Ss and see what happens.
 
-Win the \SA, play the \D4 to the \DT, and ruff a \S with the \DQ. Both opponents followed to the trump. 
+Win the \SA, play the \D4 to the ! D10, and ruff a \S with the \DQ. Both opponents followed to the trump. 
 
 Click NEXT. [NEXT]
 
@@ -504,7 +544,7 @@ Click for the full deal. [NEXT]
 
 [show NESW]
 
-The A Q 9 combination is interesting. Obviously if you have A Q T it works very well in an end-play situation. 
+The A Q 9 combination is interesting. Obviously if you have A Q 10 it works very well in an end-play situation. 
 
 As you see, A Q 9 actually works just as well.}
 [Play "W"]SQ
@@ -750,7 +790,7 @@ Click NEXT. [NEXT]
 
 
 
-Play another \H to dummy's \HT and ruff the last \S.
+Play another \H to dummy's ! H10 and ruff the last \S.
 
 Click NEXT. [NEXT]
 
@@ -977,7 +1017,7 @@ Click NEXT. [NEXT]
 
 
 
-DO NOT PLAY THE JACK! If the finesse is going to work now it will still work one trick later. By playing low you take advantage of the possibility that East held the \DT and West will have to put on the \DQ to prevent you taking a trick with dummy's \D9.
+DO NOT PLAY THE JACK! If the finesse is going to work now it will still work one trick later. By playing low you take advantage of the possibility that East held the ! D10 and West will have to put on the \DQ to prevent you taking a trick with dummy's \D9.
 
 Click to see the Deal. [NEXT]
 
@@ -1085,7 +1125,7 @@ Click NEXT. [NEXT]
 
 
 
-You've done all you can do. Now play the \HT to West's high \H. 
+You've done all you can do. Now play the ! H10 to West's high \H. 
 
 Click NEXT. [NEXT]
 
@@ -1345,7 +1385,7 @@ Click NEXT. [NEXT]
 
 
 
-Back in dummy, ruff a \D with the \HQ, then lead the \HT to dummy's \HK, pulling the last trump as you enter dummy.
+Back in dummy, ruff a \D with the \HQ, then lead the ! H10 to dummy's \HK, pulling the last trump as you enter dummy.
 
 Click NEXT. [NEXT]
 

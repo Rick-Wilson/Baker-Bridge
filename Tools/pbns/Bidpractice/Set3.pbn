@@ -1,12 +1,52 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-02-05 20:01:01
-%sourcefilename BakerBridge.csv
+%Created: 2026-02-05 20:22:01
+%sourcefilename BakerBridgeFull.csv
 %HRTitleEvent Bidpractice/Set3
 [Event "Baker Bridge - Partnership Bidding Set 3"]
 [Board "1"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- J6.KQT832.A7.AK3 - KQ3.J964.862.965"]
+[Deal "W:AT94.A5.J943.T74 J6.KQT832.A7.AK3 8752.7.KQT5.QJ82 KQ3.J964.862.965"]
 [Declarer "N"]
 [Contract "4H"]
 [Result ""]
@@ -36,7 +76,7 @@ NORTH, with 19+ points, decides that game is almost a certainty and bids 4
 [Board "2"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- T97.A96.KQ73.K84 - AQ4.KT8.JT95.AJ6"]
+[Deal "W:K83.743.864.Q752 T97.A96.KQ73.K84 J652.QJ52.A2.T93 AQ4.KT8.JT95.AJ6"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]
@@ -62,7 +102,7 @@ but not enough to think about slam. Since NORTH has no 4-card Major suit she bid
 [Board "3"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- QJ64.A95.82.AK63 - KT73.K6.T754.852"]
+[Deal "W:A952.QJT.Q963.Q9 QJ64.A95.82.AK63 8.87432.AKJ.JT74 KT73.K6.T754.852"]
 [Declarer "S"]
 [Contract "2S"]
 [Result ""]
@@ -98,7 +138,7 @@ With his minimum response hand SOUTH passes.}
 [Board "4"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- 75.T984.K94.K852 - QJ6.AKQ72.A53.64"]
+[Deal "W:AK843.J53.J72.J9 75.T984.K94.K852 T92.6.QT86.AQT73 QJ6.AKQ72.A53.64"]
 [Declarer "S"]
 [Contract "3H"]
 [Result ""]
@@ -126,7 +166,7 @@ NORTH, however, doesn't have anything extra, so declines to go further.}
 [Board "5"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- A832.KT9.AJ7.KQ6 - T94.QJ4.KQ52.J95"]
+[Deal "W:J7.A752.T83.T432 A832.KT9.AJ7.KQ6 KQ65.863.964.A87 T94.QJ4.KQ52.J95"]
 [Declarer "N"]
 [Contract "3NT"]
 [Result ""]
@@ -152,7 +192,7 @@ NORTH has a maximum, so she accepts the invitation.}
 [Board "6"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- KJ84.AK72.65.K93 - AQT6.54.A874.A82"]
+[Deal "W:92.J83.QJ32.J765 KJ84.AK72.65.K93 753.QT96.KT9.QT4 AQT6.54.A874.A82"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -178,7 +218,7 @@ Then, after SOUTH bids 1♠, NORTH has enough points to jump all the way to 4♠
 [Board "7"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- KQT84.A7.KQ5.QT6 - A963.Q64.A962.J7"]
+[Deal "W:J52.K93.T873.K53 KQT84.A7.KQ5.QT6 7.JT852.J4.A9842 A963.Q64.A962.J7"]
 [Declarer "N"]
 [Contract "4S"]
 [Result ""]
@@ -206,7 +246,7 @@ enough to raise to game.}
 [Board "8"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- 87.T64.KQT96.T73 - AK6.AJ9.AJ2.A852"]
+[Deal "W:Q953.753.84.KQ96 87.T64.KQT96.T73 JT42.KQ82.753.J4 AK6.AJ9.AJ2.A852"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]
@@ -236,7 +276,7 @@ suit to be useful to NORTH in Notrump so she bids 3NT.}
 [Board "9"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- J63.AKQ82.K6.T95 - T95.J4.QJ83.KJ72"]
+[Deal "W:AQ42.976.75.A863 J63.AKQ82.K6.T95 K87.T53.AT942.Q4 T95.J4.QJ83.KJ72"]
 [Declarer "S"]
 [Contract "1NT"]
 [Result ""]
@@ -266,7 +306,7 @@ NORTH doesn't object to Notrump so she passes.}
 [Board "10"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- J962.KQ75.83.T74 - KQT73.A42.975.A6"]
+[Deal "W:8.863.KJT6.KQ983 J962.KQ75.83.T74 A54.JT9.AQ42.J52 KQT73.A42.975.A6"]
 [Declarer "S"]
 [Contract "2S"]
 [Result ""]
@@ -300,7 +340,7 @@ the 11 points needed to bid a new suit at the 2-level.}
 [Board "11"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- A83.A7.KJ964.QJ5 - KJ4.KQ92.AQ5.KT8"]
+[Deal "W:T765.J64.T7.A642 A83.A7.KJ964.QJ5 Q92.T853.832.973 KJ4.KQ92.AQ5.KT8"]
 [Declarer "N"]
 [Contract "6NT"]
 [Result ""]
@@ -330,7 +370,7 @@ he bids 6NT.}
 [Board "12"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- K4.QT6.8532.Q985 - QJT96.A7.AQ6.AK7"]
+[Deal "W:753.98.KJT9.J642 K4.QT6.8532.Q985 A82.KJ5432.74.T3 QJT96.A7.AQ6.AK7"]
 [Declarer "N"]
 [Contract "3NT"]
 [Result ""]
@@ -358,7 +398,7 @@ SOUTH is fine with Notrump so he bids 3NT.}
 [Board "13"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- QJT83.AJ4.AT.962 - AK964.KQ5.KQJ7.3"]
+[Deal "W:5.T76.532.QJT875 QJT83.AJ4.AT.962 72.9832.9864.AK4 AK964.KQ5.KQJ7.3"]
 [Declarer "N"]
 [Contract "6S"]
 [Result ""]
@@ -398,7 +438,7 @@ SOUTH has heard enough and bids 6♠.}
 [Board "14"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- A74.Q5.K764.7653 - 62.AK8762.AT3.A9"]
+[Deal "W:J95.T4.Q852.KJT2 A74.Q5.K764.7653 KQT83.J93.J9.Q84 62.AK8762.AT3.A9"]
 [Declarer "S"]
 [Contract "4H"]
 [Result ""]
@@ -436,7 +476,7 @@ since two trumps is now adequate support.}
 [Board "15"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- KQ74.83.762.AKQ2 - JT83.AQ74.J53.76"]
+[Deal "W:6.KT965.KT98.J84 KQ74.83.762.AKQ2 A952.J2.AQ4.T953 JT83.AQ74.J53.76"]
 [Declarer "N"]
 [Contract "2S"]
 [Result ""]
@@ -466,7 +506,7 @@ raises to 2♠, which NORTH happily passes.}
 [Board "16"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- A94.A7.K83.KJ962 - KQ7.KQJ3.AT6.QT8"]
+[Deal "W:J65.86542.54.A43 A94.A7.K83.KJ962 T832.T9.QJ972.75 KQ7.KQJ3.AT6.QT8"]
 [Declarer "S"]
 [Contract "6NT"]
 [Result ""]
@@ -496,7 +536,7 @@ with 15 points, and use best judgment with 16. Here SOUTH bids the slam.}
 [Board "17"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- K973.842.AK5.J76 - AQ862.J53.74.KQ2"]
+[Deal "W:4.AQ9.T9862.A985 K973.842.AK5.J76 JT5.KT76.QJ3.T43 AQ862.J53.74.KQ2"]
 [Declarer "S"]
 [Contract "3S"]
 [Result ""]
@@ -522,7 +562,7 @@ SOUTH has just 13 points, and knowing NORTH has less than 13 he passes.}
 [Board "18"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- 73.Q8642.A86.K95 - T82.AK753.KQ5.Q6"]
+[Deal "W:5.JT9.JT974.AJ73 73.Q8642.A86.K95 AKQJ964..32.T842 T82.AK753.KQ5.Q6"]
 [Declarer "S"]
 [Contract "4H"]
 [Result ""]
@@ -562,7 +602,7 @@ with you should just jump right to game.}
 [Board "19"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- QJ75.A.AKQ3.KT62 - KT83.J72.986.QJ3"]
+[Deal "W:A964.QT83.T42.75 QJ75.A.AKQ3.KT62 2.K9654.J75.A984 KT83.J72.986.QJ3"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -596,7 +636,7 @@ She bids 4♠.}
 [Board "20"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- T963.754.Q7.AK64 - KQJ74.KQ2.AJ6.93"]
+[Deal "W:852.AT63.K832.87 T963.754.Q7.AK64 A.J98.T954.QJT52 KQJ74.KQ2.AJ6.93"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -624,7 +664,7 @@ NORTH has enough extra to accept the invitation, bids 4♠.}
 [Board "21"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- KJ3.KQ5.AQJ.KJ42 - QT8.AJ6.KT93.QT5"]
+[Deal "W:962.T83.86542.A7 KJ3.KQ5.AQJ.KJ42 A754.9742.7.9863 QT8.AJ6.KT93.QT5"]
 [Declarer "N"]
 [Contract "4NT"]
 [Result ""]
@@ -650,7 +690,7 @@ With one more point NORTH might bid the slam, but here she just passes.}
 [Board "22"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- JT4.AJ6.K53.T872 - 965.KQ2.A87.KQJ3"]
+[Deal "W:A87.T85.QJT96.94 JT4.AJ6.K53.T872 KQ32.9743.42.A65 965.KQ2.A87.KQJ3"]
 [Declarer "S"]
 [Contract "2NT"]
 [Result ""]
@@ -676,7 +716,7 @@ SOUTH doesn't have maximum, he has minimum, so he passes.}
 [Board "23"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- QT82.AK.764.AKQ5 - J975.642.AKJ.742"]
+[Deal "W:A64.JT73.985.983 QT82.AK.764.AKQ5 K3.Q985.QT32.JT6 J975.642.AKJ.742"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -700,7 +740,7 @@ NORTH now shows her 4-card support plus her extra strength by jumping to 3♠ an
 [Board "24"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- 543.A72.KT65.985 - KQJ.KQ8.QJ93.AK2"]
+[Deal "W:97.96543.A42.Q43 543.A72.KT65.985 AT862.JT.87.JT76 KQJ.KQ8.QJ93.AK2"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]

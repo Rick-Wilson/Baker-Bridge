@@ -1,12 +1,52 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-02-05 20:01:01
-%sourcefilename BakerBridge.csv
+%Created: 2026-02-05 20:22:01
+%sourcefilename BakerBridgeFull.csv
 %HRTitleEvent Bidpractice/Set7
 [Event "Baker Bridge - Partnership Bidding Set 7"]
 [Board "1"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AKQ983.2.AK.KQJ8 - J742.KQ54.82.753"]
+[Deal "W:T.AT83.76543.A96 AKQ983.2.AK.KQJ8 65.J976.QJT9.T42 J742.KQ54.82.753"]
 [Declarer "N"]
 [Contract "5S"]
 [Result ""]
@@ -30,7 +70,7 @@ when SOUTH bids 5♣ NORTH settles for 5♠}
 [Board "2"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- J3.AQT86.T3.JT74 - A64.KJ9.AKQJ9.KQ"]
+[Deal "W:T82.7542.64.A632 J3.AQT86.T3.JT74 KQ975.3.8752.985 A64.KJ9.AKQJ9.KQ"]
 [Declarer "N"]
 [Contract "6H"]
 [Result ""]
@@ -64,7 +104,7 @@ A Blackwood 4NT tells her the answer is one, so she bids 6
 [Board "3"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- A97.QJ42.KQ86.A5 - KQ.K6.A4.KQJ9732"]
+[Deal "W:T654.A985.T75.T8 A97.QJ42.KQ86.A5 J832.T73.J932.64 KQ.K6.A4.KQJ9732"]
 [Declarer "N"]
 [Contract "6NT"]
 [Result ""]
@@ -90,7 +130,7 @@ So SOUTH settles for the small slam.}
 [Board "4"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- AKQ643.K5.K73.AK - J952.AJ743.AQ.98"]
+[Deal "W:8.986.T984.QT752 AKQ643.K5.K73.AK T7.QT2.J652.J643 J952.AJ743.AQ.98"]
 [Declarer "N"]
 [Contract "7NT"]
 [Result ""]
@@ -120,7 +160,7 @@ She bids 7NT.}
 [Board "5"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AK2.KQ65.KQJ.KJ6 - J73.AJT98.832.Q8"]
+[Deal "W:T54.43.AT976.T75 AK2.KQ65.KQJ.KJ6 Q986.72.54.A9432 J73.AJT98.832.Q8"]
 [Declarer "S"]
 [Contract "5H"]
 [Result ""]
@@ -148,7 +188,7 @@ It's good thing she did because SOUTH admits to only one Ace - they are missing 
 [Board "6"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- A63.KT7.A94.Q987 - KQ4.A8.KQJT73.K5"]
+[Deal "W:T97.Q653.852.A43 A63.KT7.A94.Q987 J852.J942.6.JT62 KQ4.A8.KQJT73.K5"]
 [Declarer "N"]
 [Contract "6NT"]
 [Result ""]
@@ -172,7 +212,7 @@ NORTH shows two Aces so SOUTH decides 6NT will be just right.}
 [Board "7"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- KQ85.J63.87.AQJ4 - AJ963.A4.AQJ6.K5"]
+[Deal "W:4.KQ85.42.T98632 KQ85.J63.87.AQJ4 T72.T972.KT953.7 AJ963.A4.AQJ6.K5"]
 [Declarer "S"]
 [Contract "6S"]
 [Result ""]
@@ -204,7 +244,7 @@ SOUTH bids 6♠ since NORTH has not bid strongly enough to think about 7.}
 [Board "8"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- A64.QJ9874.J983. - KQJ.AKT.KQ2.KQ73"]
+[Deal "W:T9873.532.T7.AJ2 A64.QJ9874.J983. 52.6.A654.T98654 KQJ.AKT.KQ2.KQ73"]
 [Declarer "N"]
 [Contract "6H"]
 [Result ""]
@@ -248,7 +288,7 @@ A.}
 [Board "9"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- K5.AKT753.K7.J96 - A842.QJ86.A9863."]
+[Deal "W:T76.94.JT4.AQ874 K5.AKT753.K7.J96 QJ93.2.Q52.KT532 A842.QJ86.A9863."]
 [Declarer "N"]
 [Contract "7H"]
 [Result ""]
@@ -284,7 +324,7 @@ NORTH counts thirteen tricks and bids 7
 [Board "10"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- .A975.K9864.J932 - K53.KQJT3.A.KQT6"]
+[Deal "W:T762.842.QJ53.A4 .A975.K9864.J932 AQJ984.6.T72.875 K53.KQJT3.A.KQT6"]
 [Declarer "S"]
 [Contract "6H"]
 [Result ""]
@@ -314,7 +354,7 @@ SOUTH manages to figure out that NORTH has a ♠ void and bids the slam anyway.}
 [Board "11"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- A9864.AKQ.7.KJ63 - K753.J87.A865.74"]
+[Deal "W:Q.T6.T9432.AQT98 A9864.AKQ.7.KJ63 JT2.95432.KQJ.52 K753.J87.A865.74"]
 [Declarer "N"]
 [Contract "4S"]
 [Result ""]
@@ -336,7 +376,7 @@ Even if SOUTH has a maximum there won't be a slam.}
 [Board "12"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- Q753.T942.A8.KJ4 - .KQJ863.KJ2.AQ65"]
+[Deal "W:AT96.A7.T973.T32 Q753.T942.A8.KJ4 KJ842.5.Q654.987 .KQJ863.KJ2.AQ65"]
 [Declarer "S"]
 [Contract "6H"]
 [Result ""]
@@ -370,7 +410,7 @@ he bids 6
 [Board "13"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- K62.AT9.AK3.AK84 - A7.K3.QJ98742.76"]
+[Deal "W:T43.Q852.65.QJ95 K62.AT9.AK3.AK84 QJ985.J764.T.T32 A7.K3.QJ98742.76"]
 [Declarer "N"]
 [Contract "7NT"]
 [Result ""]
@@ -406,7 +446,7 @@ slam and bids 7NT.}
 [Board "14"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- J8.J72.85.AKQT96 - AKQ.KQ6.KQ3.J875"]
+[Deal "W:T97.AT854.J76.42 J8.J72.85.AKQT96 65432.93.AT942.3 AKQ.KQ6.KQ3.J875"]
 [Declarer "S"]
 [Contract "4NT"]
 [Result ""]
@@ -432,7 +472,7 @@ would be tricky to get there. Very tricky.}
 [Board "15"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- K75.Q96.A983.AQ7 - AQ6.K73.K6.KT653"]
+[Deal "W:832.54.QT72.J984 K75.Q96.A983.AQ7 JT94.AJT82.J54.2 AQ6.K73.K6.KT653"]
 [Declarer "N"]
 [Contract "4NT"]
 [Result ""]
@@ -470,7 +510,7 @@ A she would bid 6NT and collect her twelve easy tricks.}
 [Board "16"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- KQJ4.K6.K4.KQJT5 - A876.QJ7.AJ3.A82"]
+[Deal "W:2.T9832.Q975.973 KQJ4.K6.K4.KQJT5 T953.A54.T862.64 A876.QJ7.AJ3.A82"]
 [Declarer "S"]
 [Contract "6NT"]
 [Result ""]
@@ -494,7 +534,7 @@ But, when she discovers they are missing an Ace she settles for 6NT.}
 [Board "17"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AK.AQT96.AQJ3.AK - 972.KJ53.K7.7642"]
+[Deal "W:J85.874.T86.JT53 AK.AQT96.AQJ3.AK QT643.2.9542.Q98 972.KJ53.K7.7642"]
 [Declarer "N"]
 [Contract "7NT"]
 [Result ""]
@@ -513,7 +553,7 @@ But, when she discovers they are missing an Ace she settles for 6NT.}
 [Board "18"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- A62.AT4.K75.K862 - K7.K9.AQJT4.AQJ7"]
+[Deal "W:QJ8.32.98632.T53 A62.AT4.K75.K862 T9543.QJ8765..94 K7.K9.AQJT4.AQJ7"]
 [Declarer "N"]
 [Contract "7NT"]
 [Result ""]
@@ -541,7 +581,7 @@ Two Major Aces and two Minor Kings fill the holes in SOUTH's hand so he bids 7NT
 [Board "19"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- 6.K4.KJ974.AQJ92 - AK5.7.QT653.KT84"]
+[Deal "W:T97.QJT83.A8.753 6.K4.KJ974.AQJ92 QJ8432.A9652.2.6 AK5.7.QT653.KT84"]
 [Declarer "N"]
 [Contract "5D"]
 [Result ""]
@@ -565,7 +605,7 @@ missing two Aces!}
 [Board "20"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- K4.KQT95.A76.A54 - AQJ73.AJ86.53.87"]
+[Deal "W:9862.42.KQJT.Q63 K4.KQT95.A76.A54 T5.73.9842.KJT92 AQJ73.AJ86.53.87"]
 [Declarer "N"]
 [Contract "6H"]
 [Result ""]
@@ -597,7 +637,7 @@ so she bids 6
 [Board "21"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- A62.KQJ7.6.KQJT9 - K53.AT952.A94.A4"]
+[Deal "W:T74.843.QJ5.8652 A62.KQJ7.6.KQJT9 QJ98.6.KT8732.73 K53.AT952.A94.A4"]
 [Declarer "S"]
 [Contract "7H"]
 [Result ""]
@@ -633,7 +673,7 @@ supply five tricks so she bids 7
 [Board "22"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- 87.Q974.KQ5.AT83 - AKQ5.AJ652.6.KQJ"]
+[Deal "W:J93.K3.8743.9542 87.Q974.KQ5.AT83 T642.T8.AJT92.76 AKQ5.AJ652.6.KQJ"]
 [Declarer "S"]
 [Contract "5H"]
 [Result ""]
@@ -667,7 +707,7 @@ K situation.}
 [Board "23"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AJ6.K5.AQ62.A974 - K42.AQJ8742.K.K3"]
+[Deal "W:Q8.963.T9543.T85 AJ6.K5.AQ62.A974 T9753.T.J87.QJ62 K42.AQJ8742.K.K3"]
 [Declarer "N"]
 [Contract "7NT"]
 [Result ""]
@@ -701,7 +741,7 @@ When he discovers that NORTH holds three Aces and one King he can count thirteen
 [Board "24"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- Q63.AT7.952.AT86 - AK.KQ4.KQJ3.KQJ5"]
+[Deal "W:9854.98.AT8.9742 Q63.AT7.952.AT86 JT72.J6532.764.3 AK.KQ4.KQJ3.KQJ5"]
 [Declarer "N"]
 [Contract "6NT"]
 [Result ""]

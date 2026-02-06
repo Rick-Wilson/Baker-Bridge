@@ -1,6 +1,46 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-02-05 20:01:01
-%sourcefilename BakerBridge.csv
+%Created: 2026-02-05 20:22:01
+%sourcefilename BakerBridgeFull.csv
 %HRTitleEvent 100NT
 [Event "Baker Bridge - 100 Notrump Deals"]
 [Board "1"]
@@ -274,7 +314,7 @@ Make a Plan, then click NEXT. [NEXT]
 
 Loser List: \S = 0 : \H = 0 : \D = 1 : \C = 1 :: Total = 2
 
-Since the \D loser is a sure thing you will need to find somewhere to discard a \C. There are three possibilities:Finesse West for the \HQ. (50% chance)Try to drop the \HQ by ruffing the third round. (also about 50%)Establish a \D honor. (T0% certain) [NEXT]
+Since the \D loser is a sure thing you will need to find somewhere to discard a \C. There are three possibilities:Finesse West for the \HQ. (50% chance)Try to drop the \HQ by ruffing the third round. (also about 50%)Establish a \D honor. (100% certain) [NEXT]
 
 
 
@@ -395,11 +435,11 @@ Winner List: \S = 0 : \H = 3/4 : \D = 2 : \C = 2 :: Total = 7/8
 
 West's \HJ lead probably means \Hs won't be 3-3, so you will need to get 2 \S tricks.
 
-Suppose you win the first trick and plunk down the \SQ. If East wins with a doubleton \S honor you will only be able to win 1 \S since West will sit there with \S A 9 or \S K 9 behind your \S J T. [NEXT]
+Suppose you win the first trick and plunk down the \SQ. If East wins with a doubleton \S honor you will only be able to win 1 \S since West will sit there with \S A 9 or \S K 9 behind your \S J 10. [NEXT]
 
 
 
-Instead, win the first trick in dummy and play a small \S toward the \S Q J T. East will play low and West must take his \S honor. But you can win his return, enter dummy and play another \S toward your hand. If you are lucky, East will be forced to play an honor and you can toss your \S5.
+Instead, win the first trick in dummy and play a small \S toward the \S Q J 10. East will play low and West must take his \S honor. But you can win his return, enter dummy and play another \S toward your hand. If you are lucky, East will be forced to play an honor and you can toss your \S5.
 
 to see if you were lucky. [NEXT]
 
@@ -456,7 +496,7 @@ You COULD lead toward dummy's \DQ, finessing West for the \DK. That would be a p
 
 
 
-Play a \D from your hand and if West plays low insert the \D9. Much of the time East will win with the \DJ or \DT. If so you are no worse off, you play West for the \DK. But if it happens that West was dealt both the \DJ and \DT then East will have to win that trick with the \DK, or perhaps not even win it at all!
+Play a \D from your hand and if West plays low insert the \D9. Much of the time East will win with the \DJ or ! D10. If so you are no worse off, you play West for the \DK. But if it happens that West was dealt both the \DJ and ! D10 then East will have to win that trick with the \DK, or perhaps not even win it at all!
 
 Click for the full deal. [NEXT]
 
@@ -466,7 +506,7 @@ Click for the full deal. [NEXT]
 
 As you see, the Deep Finesse of the \D9 pays off here, where the straightforward finesse of the \DQ would lose the contract. Two chances are definitely better than one.
 
-But what if West has played the \DT, splitting his honors?
+But what if West has played the ! D10, splitting his honors?
 
 You would put on dummy's \DQ and East would win the \DK. But you aren't down yet! Later you lead another \D toward dummy's \D A 9 and finesse West for the \DJ. }
 [Play "W"]C2
@@ -603,7 +643,7 @@ But if she hadn't, you'd still have a 50% chance in \Hs.}
 [Board "11"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:Q95.T9842.K8.T54 A73.J6.AJ762.A63 JT84.K753.QT93.8 K62.AQ.54.KQJ972"]
+[Deal "W:Q95.T9842.K8.T54 A73.J6.AQ762.A63 JT84.K753.JT93.8 K62.AQ.54.KQJ972"]
 [Declarer "S"]
 [Contract "6C"]
 [Result ""]
@@ -633,7 +673,7 @@ With partner agreeing \Cs, one possibility would be for you to cue-bid your \HA.
 
 Click NEXT to continue. [NEXT]
 
-South plays 6\C. West leads the \HT. East plays low and you win the \HQ.
+South plays 6\C. West leads the ! H10. East plays low and you win the \HQ.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -816,7 +856,7 @@ Or you could have made it whoever held the \SQ by using the "improved" plan.}
 
 The bidding has gone as shown. Decide what you would say, then click on BID above. [BID double]
 
-Sometimes the opponents make overcalls which disrupt the smooth flow of your side's bidding. You and your partner need to have ways of dealing with these disruptions. One possibility is the lebensohl convention which is used a few times in these T0 Deals. There are lots of other methods out there, and you may not care for lebensohl. One of the big reasons we use it is that it includes a penalty double - some other methods use the double for other reasons.
+Sometimes the opponents make overcalls which disrupt the smooth flow of your side's bidding. You and your partner need to have ways of dealing with these disruptions. One possibility is the lebensohl convention which is used a few times in these 100 Deals. There are lots of other methods out there, and you may not care for lebensohl. One of the big reasons we use it is that it includes a penalty double - some other methods use the double for other reasons.
 
 So, in lebensohl an immediate double of their overcall of partner's 1NT opener is for penalties. Just like this one - punish them if they dare try to disrupt your bidding!
 
@@ -832,7 +872,7 @@ To see all the hands click NEXT. [NEXT]
 
 East is to play 2\H Doubled.
 
-This is the only Deal like this out of the T0.
+This is the only Deal like this out of the 100.
 
 No Declarer Plan for you to make, no tricks to look for.
 
@@ -879,7 +919,7 @@ Winner List: \S = 4 : \H = 1 : \D = 2 : \C = 4 :: Total = 11
 
 One trick is already lost and at first glance it looks like your only slim chance will be for the \D Q J to fall doubleton.
 
-But a dummy has a very important card, the \H9. You know from the opening lead that West holds the \HT, so if he happens to hold the only guard in \Ds you will be able to squeeze him in the red suits.  [NEXT]
+But a dummy has a very important card, the \H9. You know from the opening lead that West holds the ! H10, so if he happens to hold the only guard in \Ds you will be able to squeeze him in the red suits.  [NEXT]
 
 
 
@@ -887,7 +927,7 @@ You don't even have to do anything special. Play your 4 \C winners, then 3 \S wi
 
 
 
-Now play the \SJ and watch West's discard. If he throws the \HT dummy's \H9 will become a winner. If he doesn't throw the \HT then you know dummy's \H9 is worthless so discard it and hope the \Ds are good.
+Now play the \SJ and watch West's discard. If he throws the ! H10 dummy's \H9 will become a winner. If he doesn't throw the ! H10 then you know dummy's \H9 is worthless so discard it and hope the \Ds are good.
 
 Click NEXT to see. [NEXT]
 
@@ -1064,7 +1104,7 @@ Make a Plan, then click NEXT. [NEXT]
 
 Winner List: \S = 2 : \H = 1 : \D = 3 : \C = 2 :: Total = 8
 
-The Rule of Eleven tells you there are 5 \Hs in North, East and South which are higher than the \H6. You and dummy hold 4 of them so you can place East with just 1. The missing high cards are \H A J T 9. Elementary, Watson; East must hold the \HT because from \H A J T 6, \H A T 9 6 or \H J T 9 6 West would NOT have led the \H6. So your first smart move is to play dummy's \HQ, which holds the trick. What next? [NEXT]
+The Rule of Eleven tells you there are 5 \Hs in North, East and South which are higher than the \H6. You and dummy hold 4 of them so you can place East with just 1. The missing high cards are \H A J 10 9. Elementary, Watson; East must hold the ! H10 because from \H A J 10 6, \H A 10 9 6 or \H J 10 9 6 West would NOT have led the \H6. So your first smart move is to play dummy's \HQ, which holds the trick. What next? [NEXT]
 
 
 
@@ -1324,7 +1364,7 @@ There's a safer approach though; remember you only need 4 \D tricks, not 5. [NEX
 
 
 
-There is a wonderful "safety play" that will practically guarantee your contract. Enter dummy with a \H, then play a small \D toward your hand and finesse with your \DT! West may win with the \DJ, but even if he does he is the Safe Hand and cannot play a \S without giving you a trick. And whatever else he could play you would win and make 4 \D tricks. In the actual Deal the \D finesse actually works and you make all 5 tricks in the suit.
+There is a wonderful "safety play" that will practically guarantee your contract. Enter dummy with a \H, then play a small \D toward your hand and finesse with your ! D10! West may win with the \DJ, but even if he does he is the Safe Hand and cannot play a \S without giving you a trick. And whatever else he could play you would win and make 4 \D tricks. In the actual Deal the \D finesse actually works and you make all 5 tricks in the suit.
 
 Click NEXT to see the full deal. [NEXT]
 
@@ -1516,7 +1556,7 @@ While the answer may depend on the opponent, usually you should take their openi
 [Board "26"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:QJT52.Q.A952.953 8.AK8652.KT3.J74 K974.JT43.Q76.T8 A63.97.J84.AKQ62"]
+[Deal "W:QJT52.Q.A952.953 8.AK8652.KT3.J74 K974.JT43.J76.T8 A63.97.Q84.AKQ62"]
 [Declarer "S"]
 [Contract "4H"]
 [Result ""]
@@ -1564,7 +1604,7 @@ Unfortunately when you play \H A K, West plays the \HQ, then discards a \S. [NEX
 
 
 
-You may think you should change your plan but you should go right ahead with it. East has two master trumps, but dummy still has 4 small ones. So play a \H to force out East's \HT. He will no doubt play another \S and force dummy to ruff. No problem, knock out East's final \H and dummy will still have one tiny trump left. When you get back in you can run the \Cs unimpeded.
+You may think you should change your plan but you should go right ahead with it. East has two master trumps, but dummy still has 4 small ones. So play a \H to force out East's ! H10. He will no doubt play another \S and force dummy to ruff. No problem, knock out East's final \H and dummy will still have one tiny trump left. When you get back in you can run the \Cs unimpeded.
 
 Click NEXT to see the full deal. [NEXT]
 
@@ -1621,7 +1661,7 @@ That is one loser too many. The \CQ MIGHT drop . . . but she won't. There are no
 
 
 
-Do you see it? The \H8. Take the \HA. Then play your \C A K. As predicted, the \CQ doesn't fall. Then play a small \H to dummy's \H9. Of course West will take the \HT, but now your \H8 is high.
+Do you see it? The \H8. Take the \HA. Then play your \C A K. As predicted, the \CQ doesn't fall. Then play a small \H to dummy's \H9. Of course West will take the ! H10, but now your \H8 is high.
 
 As soon as you get the lead you play the \H8 and discard dummy's \S2. 
 
@@ -1636,7 +1676,7 @@ We know, you didn't really play the \HQ on the first trick in the hope that West
 
 The real reason for covering was so you could establish the \H8 by force.
 
-Suppose you had not played the \HQ to trick one. East would have withheld the \HK and you'd have had to take your \HA. Later East would have taken dummy's \HQ with his \HK, then played a small \H through your \H8 to West's \H T 7.}
+Suppose you had not played the \HQ to trick one. East would have withheld the \HK and you'd have had to take your \HA. Later East would have taken dummy's \HQ with his \HK, then played a small \H through your \H8 to West's \H 10 7.}
 [Play "W"]HJ
 
 [Event "Baker Bridge - 100 Notrump Deals"]
@@ -1689,7 +1729,7 @@ In fact, your chances are better than either of those percentages because you ca
 
 
 
-Pull trumps; West shows up with 3 trumps. Play the \DK, then a small \D to dummy's \DA. On this trick West follows with the \DT.  [NEXT]
+Pull trumps; West shows up with 3 trumps. Play the \DK, then a small \D to dummy's \DA. On this trick West follows with the ! D10.  [NEXT]
 
 
 
@@ -1813,7 +1853,7 @@ Those losers are based on dummy's hand, not yours. You can figure them either wa
 
 
 
-Pull one round of trumps with dummy's \SK. Both defenders follow suit. Play the \HA, then \H6 to dummy's \HK. On this trick West follows with the \HT.  [NEXT]
+Pull one round of trumps with dummy's \SK. Both defenders follow suit. Play the \HA, then \H6 to dummy's \HK. On this trick West follows with the ! H10.  [NEXT]
 
 
 
@@ -1889,7 +1929,7 @@ You had to get rid of dummy's singleton \H first - the fact that it was a winner
 [Board "32"]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "W:KT72.QJT3.QJ4.A7 53.76.T5.9865432 QJ84.AK5.9862.QT A96.9842.AK73.KJ"]
+[Deal "W:KJ72.QJT3.QJ4.A7 53.76.T5.9865432 QT84.AK5.9862.QT A96.9842.AK73.KJ"]
 [Declarer "S"]
 [Contract "3C"]
 [Result ""]
@@ -2047,7 +2087,7 @@ You will have to lose at least 2 \H tricks in order to set up 1 winner, and by t
 
 
 
-You should play West for the \HJ plus one of the big ones. This is a better chance than playing him for both the \H A K. So play a \H toward dummy and insert the \HT when West plays low. East wins with the \HA and clears the \Ds. Play another \H toward dummy's \HQ. West can take his \HK and cash his \D winner but dummy's \HQ will be your ninth trick.
+You should play West for the \HJ plus one of the big ones. This is a better chance than playing him for both the \H A K. So play a \H toward dummy and insert the ! H10 when West plays low. East wins with the \HA and clears the \Ds. Play another \H toward dummy's \HQ. West can take his \HK and cash his \D winner but dummy's \HQ will be your ninth trick.
 
 Click NEXT to see the full deal. [NEXT]
 
@@ -2511,7 +2551,7 @@ Maybe and maybe not. If West has \D J x x x there won't be anything you can do a
 
 
 
-<i>Did you like that "play your cards right" quip?</i>First play a \D to your \DK; both defenders follow. Next play a \D to dummy's \DQ. West discards a \C. You are conveniently in dummy so you play dummy's last \D and East's \D J 9 are caught in a pincer movement by your \D A T 5. 
+<i>Did you like that "play your cards right" quip?</i>First play a \D to your \DK; both defenders follow. Next play a \D to dummy's \DQ. West discards a \C. You are conveniently in dummy so you play dummy's last \D and East's \D J 9 are caught in a pincer movement by your \D A 10 5. 
 
 Click NEXT to see the full deal. [NEXT]
 
@@ -2521,7 +2561,7 @@ Click NEXT to see the full deal. [NEXT]
 
 It was important to play the \Ds exactly as described because dummy had only one entry left, the \DQ.
 
-Suppose your first \D play had been dummy's \DQ. You could make your contract if you play a small \D and finesse the \DT. But at that point you wouldn't know whether the \Ds were splitting evenly or not. You'd be risking defeat on a hand where everybody who played for the 3-2 split was making the contract.
+Suppose your first \D play had been dummy's \DQ. You could make your contract if you play a small \D and finesse the ! D10. But at that point you wouldn't know whether the \Ds were splitting evenly or not. You'd be risking defeat on a hand where everybody who played for the 3-2 split was making the contract.
 
 By taking the SECOND \D trick with dummy's \DQ the 4-1 split is exposed at the right time.}
 [Play "W"]S3
@@ -2627,7 +2667,7 @@ Loser List: \S = 2 : \H = 1 : \D = 0 : \C = 1 :: Total = 4Losers are as seen fro
 
 You might get lucky in one of the black suits, but your best hope is that West holds the \HK.
 
-You win the first \D and play a \H to dummy's \HT, which wins the trick. You smile. Return to your hand with the other \D, then play your last \H to dummy's \HJ, which wins the trick. But this time you don't smile because East discards! West still holds \H K 9 and you have no more \Hs to lead for a finesse. Does that finish you? [NEXT]
+You win the first \D and play a \H to dummy's ! H10, which wins the trick. You smile. Return to your hand with the other \D, then play your last \H to dummy's \HJ, which wins the trick. But this time you don't smile because East discards! West still holds \H K 9 and you have no more \Hs to lead for a finesse. Does that finish you? [NEXT]
 
 
 
@@ -2739,7 +2779,7 @@ But your hand has suddenly increased in value - with the known \S fit you add an
 
 Click NEXT to continue. [NEXT]
 
-South plays 4\S. West leads the \HT. East plays the \HK, then \HA, then \H5.
+South plays 4\S. West leads the ! H10. East plays the \HK, then \HA, then \H5.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -2936,7 +2976,7 @@ Things look simple. You can afford one \S loser so as long as they split 3-2 you
 
 
 
-OK, East has two trump tricks, but don't give up. Maybe, just maybe, there is a way out. Check your winners:You have won 3 tricks - \HA and \S A K. You have 4 more top winners - \DA and \C A K Q. If you can somehow add 3 more small trumps that will be the T you need. [NEXT]
+OK, East has two trump tricks, but don't give up. Maybe, just maybe, there is a way out. Check your winners:You have won 3 tricks - \HA and \S A K. You have 4 more top winners - \DA and \C A K Q. If you can somehow add 3 more small trumps that will be the 10 you need. [NEXT]
 
 
 
@@ -2944,7 +2984,7 @@ Play dummy's \D7 to your \DA, then ruff a \D. Play a \C to your hand and ruff an
 
 Now play to your good \C while East again has to follow suit.
 
-You have taken the first T tricks. Poor East is going to end up ruffing his partner's \D winner with one of his master trumps.
+You have taken the first 10 tricks. Poor East is going to end up ruffing his partner's \D winner with one of his master trumps.
 
 [show NESW]
 Click NEXT to see all four hands. [NEXT]
@@ -2990,7 +3030,7 @@ To make South the declarer click ROTATE. [ROTATE]
 
 [PLAY N:SA,N:SK,N:SJ,N:HA,N:H7,N:H2,N:DK,N:DQ,N:D7,N:D6,N:CA,N:C9,N:C4,S:S8,S:S7,S:S6,S:HQ,S:H8,S:H5,S:DA,S:DJ,S:D2,S:CK,S:CQ,S:CJ,S:C3]
 
-South plays 6NT. West leads the \DT. Too bad West didn't lead a \S. Oh, well.
+South plays 6NT. West leads the ! D10. Too bad West didn't lead a \S. Oh, well.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -3075,7 +3115,7 @@ Click NEXT to see why this was necessary (but you've already figured it out, rig
 
 [show NESW]
 
-It is really against the odds for West to hold \H A T 9 x. In fact it would only occur perhaps one time in seven.
+It is really against the odds for West to hold \H A 10 9 x. In fact it would only occur perhaps one time in seven.
 
 But there is no reason to go down once every seven times when you don't need to.}
 [Play "W"]CJ
@@ -3241,13 +3281,13 @@ It won't work. You would establish the \D for your last discard but you have no 
 
 
 
-This will work. At trick 2 discard the \DA on dummy's \SK. Play the \DQ and discard a \C when East doesn't cover. West will take the \DK and attack \Cs but you are in control now. You win your \CA, pull trumps, ending in dummy, and discard the remaining 2 \C losers on dummy's \D J T.
+This will work. At trick 2 discard the \DA on dummy's \SK. Play the \DQ and discard a \C when East doesn't cover. West will take the \DK and attack \Cs but you are in control now. You win your \CA, pull trumps, ending in dummy, and discard the remaining 2 \C losers on dummy's \D J 10.
 
 Click for the full layout. [NEXT]
 
 [show NESW]
 
-This is called a Jettison play. You sacrifice your \DA to unblock the suit for dummy's \D Q J T.
+This is called a Jettison play. You sacrifice your \DA to unblock the suit for dummy's \D Q J 10.
 
 If East held the \DK the play would be slightly different; you would have to ruff when he covered. But the result would be the same.
 
@@ -3375,9 +3415,9 @@ Click NEXT to see the full deal. [NEXT]
 
 [show NESW]
 
-You can go through T0 hands and on 99 of them it won't matter if you pay attention to the cards played by the defenders or not.
+You can go through 100 hands and on 99 of them it won't matter if you pay attention to the cards played by the defenders or not.
 
-But if you don't pay attention on all T0 of them you will miss the one time where your attention was needed.}
+But if you don't pay attention on all 100 of them you will miss the one time where your attention was needed.}
 [Play "W"]D9
 
 [Event "Baker Bridge - 100 Notrump Deals"]
@@ -3491,7 +3531,7 @@ In fact, it looks so good you might wonder what could possibly go wrong. Here's 
 
 Maybe you can and maybe you can't. It depends on what you played from your hand at the first trick. If you won that trick in your hand with the \HA, then YES, you can get to dummy by leading twice toward the \H Q J.
 
-But if you won the first trick more cheaply with your \HT, (or perhaps dummy's \HJ), and you still have that \HA in your hand then West will prevent you from ever getting to dummy.
+But if you won the first trick more cheaply with your ! H10, (or perhaps dummy's \HJ), and you still have that \HA in your hand then West will prevent you from ever getting to dummy.
 
 Click NEXT to see the full deal. [NEXT]
 
@@ -3501,7 +3541,7 @@ Click NEXT to see the full deal. [NEXT]
 
 It is ingrained in Bridge players to win tricks with the smallest card possible. And while that is usually a good idea it can sometimes be a huge mistake.
 
-Suppose you win the first trick with your \HT. If you later play your \HA then West's \HK will stop you from getting to dummy. But if instead you play a small \H toward the \H Q J West will grab his \HK and your own \HA will block your entry.
+Suppose you win the first trick with your ! H10. If you later play your \HA then West's \HK will stop you from getting to dummy. But if instead you play a small \H toward the \H Q J West will grab his \HK and your own \HA will block your entry.
 
 But if you take the first trick with a "spendthrift" \HA then dummy's \H Q J will become a guaranteed entry to the \Ss.
 
@@ -3864,7 +3904,7 @@ To make South the declarer click ROTATE. [ROTATE]
 
 [PLAY N:SK,N:SJ,N:ST,N:HA,N:HQ,N:H7,N:DA,N:D7,N:D5,N:CA,N:CQ,N:C7,N:C4,S:SA,S:SQ,S:S5,S:HK,S:HJ,S:H4,S:DK,S:DQ,S:D6,S:D3,S:CK,S:C3,S:C2]
 
-South plays 7NT. West leads the \HT and East follows with the \H2.
+South plays 7NT. West leads the ! H10 and East follows with the \H2.
 
 DO NOT HOLD UP.
 
@@ -4008,7 +4048,7 @@ At first thought it seems the \S lead has saved you a guess in the suit. By play
 
 That's why it's good to have second thoughts at the Bridge table. Think about the meaning of the \S8 lead. If it is fourth down, then the Rule of 11 tells you that there will be 3 cards higher than the 8 spread among North, East, and South. BUT YOU CAN SEE 4 HIGHER CARDS. So your conclusion is that West has NOT made a fourth-down lead, but rather has led top-of-nothing, top-of-a-doubleton, or perhaps a singleton.
 
-You don't know which of the above, but you do know that East holds both the \S K J. The danger is if the \S8 is a singleton and you play low from dummy they could get a \S trick and a \S ruff. So don't play low from dummy. Win the \SA at trick 1, pull trumps and then play \Ss from dummy toward your \S Q T 9, giving East the \SK but finessing him out of his known \SJ.
+You don't know which of the above, but you do know that East holds both the \S K J. The danger is if the \S8 is a singleton and you play low from dummy they could get a \S trick and a \S ruff. So don't play low from dummy. Win the \SA at trick 1, pull trumps and then play \Ss from dummy toward your \S Q 10 9, giving East the \SK but finessing him out of his known \SJ.
 
 Click NEXT to see the full deal. [NEXT]
 
@@ -4213,7 +4253,7 @@ The \S loser is deceptive. You could discard a \S from dummy on your \DA, but wo
 
 Maybe you can. Look harder at the \Ds. Win the \CA, then play to dummy's \DK. Pull trumps (2 rounds) ending in your hand. Play your \DA, but discard a \C from dummy, (the key play). Now play your \DJ, and if West plays low, discard dummy's other \C.
 
-You have gotten rid of the \C losers, but if East can win the \DQ on this trick you will discard a \S on the \DT, but will still have to try the \S finesse.
+You have gotten rid of the \C losers, but if East can win the \DQ on this trick you will discard a \S on the ! D10, but will still have to try the \S finesse.
 
 But, if the \DJ holds then it won't matter if the \S finesse works or not, you will make the slam.
 
@@ -4225,7 +4265,7 @@ Click NEXT to see the full deal. [NEXT]
 
 Suppose when you play your \DJ West puts on the \DQ.
 
-No problem. You ruff in dummy, come back to your hand with a trump and THEN discard dummy's last \C on your \DT.
+No problem. You ruff in dummy, come back to your hand with a trump and THEN discard dummy's last \C on your ! D10.
 
 You can try the \S finesse then, but you will make the slam whether it works or not.}
 [Play "W"]CT
@@ -4276,7 +4316,7 @@ You must find 4 winners. The bad news is that you must finesse both the \DK and 
 
 
 
-There is only one way to do it. Enter dummy with the only entry, the \SK. Take the \D finesse first - play the \DQ and unblock your \DJ when East plays low. (you could play the \DT/\D7 combination first). [NEXT]
+There is only one way to do it. Enter dummy with the only entry, the \SK. Take the \D finesse first - play the \DQ and unblock your \DJ when East plays low. (you could play the ! D10/\D7 combination first). [NEXT]
 
 
 
@@ -4647,7 +4687,7 @@ Yes you should hold up. In fact you might as well hold up twice since you aren't
 
 
 
-Both the \H possibility and the \C possibility will either work or not, so you can save them for later. Your highest percentage chance is the fourth \D, but here you must be careful. You must try to establish the \Ds without allowing West to get the lead. It is actually pretty easy. Just play a small \D from your hand and when West plays low insert the \DT. East wins the \DJ but cannot harm you with his return.
+Both the \H possibility and the \C possibility will either work or not, so you can save them for later. Your highest percentage chance is the fourth \D, but here you must be careful. You must try to establish the \Ds without allowing West to get the lead. It is actually pretty easy. Just play a small \D from your hand and when West plays low insert the ! D10. East wins the \DJ but cannot harm you with his return.
 
 When the remaining \Ds fall you have established your ninth trick.
 
@@ -4767,7 +4807,7 @@ A holdup wouldn't hurt you since West would retain the lead. But it probably wou
 
 
 
-Suppose you play \SA, then \S K Q. If they split 3-3 you will be soooo happy because you will make at least T tricks. But if East shows out on the third \S you will be pretty happy because you can give up a \S to West and still make at least 9 tricks. But if West shows out on the third \S you could be in deep trouble. You would have to give East the lead to establish an extra \S winner, and he might very well lead through your \HK. [NEXT]
+Suppose you play \SA, then \S K Q. If they split 3-3 you will be soooo happy because you will make at least 10 tricks. But if East shows out on the third \S you will be pretty happy because you can give up a \S to West and still make at least 9 tricks. But if West shows out on the third \S you could be in deep trouble. You would have to give East the lead to establish an extra \S winner, and he might very well lead through your \HK. [NEXT]
 
 
 
@@ -4826,7 +4866,7 @@ If West has only 4 \Hs it will make no difference what you do because they will 
 
 
 
-So you should play the \HA immediately. If East puts on his small \H then his lone honor will block the suit the next time it is played. But if he unblocks the honor under dummy's \HA then your \H T 9 7 will be promoted into a second stopper.
+So you should play the \HA immediately. If East puts on his small \H then his lone honor will block the suit the next time it is played. But if he unblocks the honor under dummy's \HA then your \H 10 9 7 will be promoted into a second stopper.
 
 to see all four hands. [NEXT]
 
@@ -4834,7 +4874,7 @@ to see all four hands. [NEXT]
 
 If you play low on the first trick East will win the \HQ and return the \H6 to dummy's \HA. When West gains the lead with his \SA he will cash 3 more \H tricks. Down 1.
 
-Play the \HA on the first trick and East is hog-tied. If he plays low the suit blocks, if he sacrifices his \HQ then your \H T 9 7 prevents West from running the suit. }
+Play the \HA on the first trick and East is hog-tied. If he plays low the suit blocks, if he sacrifices his \HQ then your \H 10 9 7 prevents West from running the suit. }
 [Play "W"]H5
 
 [Event "Baker Bridge - 100 Notrump Deals"]
@@ -5002,7 +5042,7 @@ Partner bids 3NT.
 
 Click NEXT to continue. [NEXT]
 
-South plays 3NT. West leads the \HT. As expected, West leads his partner's \H suit.
+South plays 3NT. West leads the ! H10. As expected, West leads his partner's \H suit.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -5195,7 +5235,7 @@ Now it's time to play on \Ds. Do you finesse for the \DQ? and if so, which way d
 
 
 
-Missing 6 \Ds to the Queen of course you should finesse. And you will finesse through East, of course, because he is the Danger Hand. So play dummy's \DK, then play the \DT and let it ride.
+Missing 6 \Ds to the Queen of course you should finesse. And you will finesse through East, of course, because he is the Danger Hand. So play dummy's \DK, then play the ! D10 and let it ride.
 
 Click NEXT to see how your Plan turned out. [NEXT]
 
@@ -5557,7 +5597,7 @@ Partner denies having 4 \Hs so he must have 4 \Ss (or he would not have used Sta
 
 Click NEXT to continue. [NEXT]
 
-South plays 4\S. West leads the \H2. East grabs the opening lead with the \HA and plays the \DT.
+South plays 4\S. West leads the \H2. East grabs the opening lead with the \HA and plays the ! D10.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -5567,7 +5607,7 @@ The \S, \H and \C losers are inevitable so you'd better not lose a \D. Even thou
 
 
 
-No, of course not. Not when you have a play that offers almost a T0% chance. Win the \DA, play \SK, \SA, then \H K Q, discarding dummy's 2 \D losers.  [NEXT]
+No, of course not. Not when you have a play that offers almost a 100% chance. Win the \DA, play \SK, \SA, then \H K Q, discarding dummy's 2 \D losers.  [NEXT]
 
 
 
@@ -5684,7 +5724,7 @@ To make South the declarer click ROTATE. [ROTATE]
 
 [PLAY N:S8,N:S7,N:S5,N:S2,N:HA,N:HK,N:DA,N:DJ,N:D3,N:CA,N:C6,N:C4,N:C2,S:SA,S:ST,S:S4,S:S3,S:H7,S:H3,S:DK,S:DQ,S:D8,S:D7,S:D4,S:D2,S:C7]
 
-South plays 4\S. West leads the \CK. Seeing T top tricks sort of makes you wish you had just bid 3NT.
+South plays 4\S. West leads the \CK. Seeing 10 top tricks sort of makes you wish you had just bid 3NT.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -5712,7 +5752,7 @@ But with a different distribution, (3-2), playing the second trump would have be
 
 Considering probabilities it looks like this. If you play the second trump you will make 2 overtricks about 70% of the time, but you will go down 4 about 30% of the time.
 
-If you stop with the \Ss and start running \Ds you will make your contract T0% of the time but will never make an overtrick. }
+If you stop with the \Ss and start running \Ds you will make your contract 100% of the time but will never make an overtrick. }
 [Play "W"]CK
 
 [Event "Baker Bridge - 100 Notrump Deals"]
@@ -5761,11 +5801,11 @@ So after ruffing the third \C you play \HA, then \HQ. Aargh! West discards a \D 
 
 
 
-East has left the \H J 9 while you have the \H Q T 8. If only dummy had another \H you could finesse East's \HJ, but, alas, dummy has none. Can you see another way to accomplish the finesse? [NEXT]
+East has left the \H J 9 while you have the \H Q 10 8. If only dummy had another \H you could finesse East's \HJ, but, alas, dummy has none. Can you see another way to accomplish the finesse? [NEXT]
 
 
 
-If you could manage to be in dummy after trick 11, and have nothing in your hand but the \H Q T, while East had nothing in his hand but the \H J 9 you would have him. But to accomplish this you must use up your \H8 beforehand.
+If you could manage to be in dummy after trick 11, and have nothing in your hand but the \H Q 10, while East had nothing in his hand but the \H J 9 you would have him. But to accomplish this you must use up your \H8 beforehand.
 
 You enter dummy with a \D, then play a small \D and ruff with your \H8. Then play your \SK. West wins this and assume he plays another \S.  [NEXT]
 
@@ -5954,7 +5994,7 @@ Make a Plan, then click NEXT. [NEXT]
 
 Loser List: \S = 0 : \H = 0 : \D = 2 : \C = 0 :: Total = 2
 
-If you look just at the North and South hands you would think this was a pretty easy slam to make. Pull trumps and play three rounds of \Ds, and as long as the \Ds split 3-2 you make twelve tricks. But when you consider the \D8 opening lead you realize that it won't happen. The missing \Ds are Q J T 9 and 8. The ONLY combination from which West would lead the \D8 is when he has a singleton. So the \Ds won't be splitting and you need a different plan. [NEXT]
+If you look just at the North and South hands you would think this was a pretty easy slam to make. Pull trumps and play three rounds of \Ds, and as long as the \Ds split 3-2 you make twelve tricks. But when you consider the \D8 opening lead you realize that it won't happen. The missing \Ds are Q J 10 9 and 8. The ONLY combination from which West would lead the \D8 is when he has a singleton. So the \Ds won't be splitting and you need a different plan. [NEXT]
 
 
 
@@ -5962,7 +6002,7 @@ You need to get a \D discard somewhere, and dummy's third \S will take care of o
 
 
 
-Play the \CA and ruff a \C. Enter your hand with the \HT and ruff another \C high. Back to your hand with the \HJ and ruff another \C high. Dummy is out of trumps but there is still one more in a defender's hand. So come to your hand with the \SQ and pull the last trump, discarding a \D from dummy.
+Play the \CA and ruff a \C. Enter your hand with the ! H10 and ruff another \C high. Back to your hand with the \HJ and ruff another \C high. Dummy is out of trumps but there is still one more in a defender's hand. So come to your hand with the \SQ and pull the last trump, discarding a \D from dummy.
 
 With all the trumps pulled cash dummy's 2 \Ss and your \DA, then give up a \D at the last trick.
 
@@ -6021,7 +6061,7 @@ Make a Plan, then click NEXT. [NEXT]
 
 Winner List: \S = 1 : \H = 4 : \D = 3 : \C = 4 :: Total = 12
 
-If West has led from \S K T 9 x, then all you have to do to make this contract is play a low card from dummy. But a decent defender would not make such a risky lead against a 7NT contract, so it is probable that East has the \SK. You rise with the \SA.
+If West has led from \S K 10 9 x, then all you have to do to make this contract is play a low card from dummy. But a decent defender would not make such a risky lead against a 7NT contract, so it is probable that East has the \SK. You rise with the \SA.
 
 You hope the \Ds will split 3-3, but if they don't you still have the possibility of squeezing East if he holds 4 \Ds along with the \SK you have assigned to him. [NEXT]
 

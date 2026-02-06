@@ -1,12 +1,52 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-02-05 20:01:01
-%sourcefilename BakerBridge.csv
+%Created: 2026-02-05 20:22:01
+%sourcefilename BakerBridgeFull.csv
 %HRTitleEvent Reverse
 [Event "Baker Bridge - Reverse Bids"]
 [Board "1"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- AKT3.AQ75.T95.72 - QJ85.K9.K62.A863"]
+[Deal "W:762.62.A73.KQT94 AKT3.AQ75.T95.72 94.JT843.QJ84.J5 QJ85.K9.K62.A863"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -35,7 +75,7 @@ Partner now takes control and bids the \S game.}
 [Board "2"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- KQ83.QJ.KJ6.JT97 - T72.AK94.Q54.KQ5"]
+[Deal "W:AJ95.T72.T832.82 KQ83.QJ.KJ6.JT97 64.8653.A97.A643 T72.AK94.Q54.KQ5"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]
@@ -62,7 +102,7 @@ So with your minimum hand you bid 1NT which partner raises to 3NT.}
 [Board "3"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- J3.Q8.KQJ5.AK762 - KT94.KT96.T82.95"]
+[Deal "W:2.J752.A943.QJ84 J3.Q8.KQJ5.AK762 AQ8765.A43.76.T3 KT94.KT96.T82.95"]
 [Declarer "S"]
 [Contract "2NT"]
 [Result ""]
@@ -91,7 +131,7 @@ Instead you bid 2NT. Partner has a bare 17 so he passes.}
 [Board "4"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- KQ9865.K82.T5.KT - J.AQT.AQJ3.QJ986"]
+[Deal "W:AT32.543.K984.72 KQ9865.K82.T5.KT 74.J976.762.A543 J.AQT.AQJ3.QJ986"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]
@@ -118,7 +158,7 @@ Partner's jump bid shows a 6-card suit and enough points to insist on game. You 
 [Board "5"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- 6.AKQ4.963.AQJT3 - AQ985.T865.84.K7"]
+[Deal "W:JT7.J732.KQ.9852 6.AKQ4.963.AQJT3 K432.9.AJT752.64 AQ985.T865.84.K7"]
 [Declarer "N"]
 [Contract "4H"]
 [Result ""]
@@ -147,7 +187,7 @@ Since you know of an 8-card \H fit and at least 27 points you bid 4\H.}
 [Board "6"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- T75.82.AQ53.JT84 - KQJ64.AKJ76.K6.5"]
+[Deal "W:A32.T543.972.KQ6 T75.82.AQ53.JT84 98.Q9.JT84.A9732 KQJ64.AKJ76.K6.5"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -180,7 +220,7 @@ Things would have gotten confusing, to say the least.}
 [Board "7"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AK.52.A642.AKT74 - T74.KJ98.K73.985"]
+[Deal "W:962.Q43.J985.QJ6 AK.52.A642.AKT74 QJ853.AT76.QT.32 T74.KJ98.K73.985"]
 [Declarer "N"]
 [Contract "3C"]
 [Result ""]
@@ -211,7 +251,7 @@ Mercifully he passes.}
 [Board "8"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- J7.AK63.KQT85.KT - KQT5.Q8.J94.QJ97"]
+[Deal "W:6.T9754.A762.A53 J7.AK63.KQT85.KT A98432.J2.3.8642 KQT5.Q8.J94.QJ97"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]
@@ -236,7 +276,7 @@ When partner shows 17+ points with his Reverse you are sure you belong in game. 
 [Board "9"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- Q52.A863.753.843 - 63.K5.KQJ6.AKT72"]
+[Deal "W:JT87.QJ97.AT2.Q6 Q52.A863.753.843 AK94.T42.984.J95 63.K5.KQJ6.AKT72"]
 [Declarer "S"]
 [Contract "3C"]
 [Result ""]
@@ -265,7 +305,7 @@ So you pass. It's a good thing, too.}
 [Board "10"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- J73.J.AK64.AK983 - T85.KQ9874.83.76"]
+[Deal "W:Q4.T532.QJ2.QJT5 J73.J.AK64.AK983 AK962.A6.T975.42 T85.KQ9874.83.76"]
 [Declarer "S"]
 [Contract "2H"]
 [Result ""]
@@ -290,7 +330,7 @@ You have 7 points, and basically nothing but s\H. You must make a minimum bid, a
 [Board "11"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- AK86.72.T98.7654 - 7.AQJ9.KQJ764.A3"]
+[Deal "W:Q9542.T8.A53.KT2 AK86.72.T98.7654 JT3.K6543.2.QJ98 7.AQJ9.KQJ764.A3"]
 [Declarer "S"]
 [Contract "5D"]
 [Result ""]
@@ -321,7 +361,7 @@ There are no guarantees here, but you should probably try 5\D.}
 [Board "12"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- KQ9743.872.K5.T3 - J5.AT.AQJ3.KQ986"]
+[Deal "W:AT8.KQ93.9642.54 KQ9743.872.K5.T3 62.J654.T87.AJ72 J5.AT.AQJ3.KQ986"]
 [Declarer "N"]
 [Contract "4S"]
 [Result ""]
@@ -352,7 +392,7 @@ Be very glad that you did.3NT would go down with a \H opening lead while 4\S is 
 [Board "13"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- J.K84.AQT9.KQJT7 - A8643.76.KJ64.A5"]
+[Deal "W:T92.AT9.8753.943 J.K84.AQT9.KQJT7 KQ75.QJ532.2.862 A8643.76.KJ64.A5"]
 [Declarer "N"]
 [Contract "5D"]
 [Result ""]
@@ -377,7 +417,7 @@ With partner showing 17 or more points, your 13 brings you to game level. You wa
 [Board "14"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- AT83.852.T95.QJ3 - 9.KQ76.KQ842.AT8"]
+[Deal "W:KJ642.AJT.763.54 AT83.852.T95.QJ3 Q75.943.AJ.K9762 9.KQ76.KQ842.AT8"]
 [Declarer "S"]
 [Contract "1NT"]
 [Result ""]

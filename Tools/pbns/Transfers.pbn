@@ -1,12 +1,52 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-02-05 20:01:01
-%sourcefilename BakerBridge.csv
+%Created: 2026-02-05 20:22:01
+%sourcefilename BakerBridgeFull.csv
 %HRTitleEvent Transfers
 [Event "Baker Bridge - Jacoby Transfers"]
 [Board "1"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AK53.QT.Q65.A742 - 94.KJ9863.T8.865"]
+[Deal "W:J8.A54.AJ432.J93 AK53.QT.Q65.A742 QT762.72.K97.KQT 94.KJ9863.T8.865"]
 [Declarer "N"]
 [Contract "2H"]
 [Result ""]
@@ -35,7 +75,7 @@ As you can see from partner's hand you made the right call. Played in \Hs your h
 [Board "2"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- KT5.A5.QJ84.KQ73 - Q8764.Q4.K63.J92"]
+[Deal "W:2.K9876.T975.AT5 KT5.A5.QJ84.KQ73 AJ93.JT32.A2.864 Q8764.Q4.K63.J92"]
 [Declarer "N"]
 [Contract "3S"]
 [Result ""]
@@ -68,7 +108,7 @@ As you can see, a 4\S contract would have no chance, losing 1 trick in each side
 [Board "3"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- KT5.A5.QJ84.KQ73 - QJ764.74.K63.A92"]
+[Deal "W:983.K98.A9.JT865 KT5.A5.QJ84.KQ73 A2.QJT632.T752.4 QJ764.74.K63.A92"]
 [Declarer "N"]
 [Contract "4S"]
 [Result ""]
@@ -101,7 +141,7 @@ A 4\S contract is definitely the place to be. }
 [Board "4"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AJ76.Q6.K753.KQ4 - 53.K98742.AT6.65"]
+[Deal "W:K92.AT53.J84.983 AJ76.Q6.K753.KQ4 QT84.J.Q92.AJT72 53.K98742.AT6.65"]
 [Declarer "N"]
 [Contract "3H"]
 [Result ""]
@@ -136,7 +176,7 @@ As you can see, making even 9 tricks is going to be a challenge.}
 [Board "5"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- QT9.K53.K62.AK84 - 53.AQT742.QJT.65"]
+[Deal "W:AK87.J6.8743.QT3 QT9.K53.K62.AK84 J642.98.A95.J972 53.AQT742.QJT.65"]
 [Declarer "N"]
 [Contract "4H"]
 [Result ""]
@@ -163,7 +203,7 @@ You know you have at least an 8-card \H fit. You know you have at least 26 point
 [Board "6"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- QJ5.K8.AT62.AK98 - KT987.A9764.83.5"]
+[Deal "W:32.QJ5.J954.QT74 QJ5.K8.AT62.AK98 A64.T32.KQ7.J632 KT987.A9764.83.5"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -194,7 +234,7 @@ Note that you must have at least one Major suit fit since partner cannot have a 
 [Board "7"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- Q6.A74.KJ92.KQ83 - AJ854.KQT83.6.75"]
+[Deal "W:92.962.AT74.AT94 Q6.A74.KJ92.KQ83 KT73.J5.Q853.J62 AJ854.KQT83.6.75"]
 [Declarer "S"]
 [Contract "4H"]
 [Result ""]
@@ -227,7 +267,7 @@ If you held an even stronger hand and wished to move toward a slam you would sta
 [Board "8"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- J4.AQJ5.AQJ3.T96 - AQT75.4.986.AKQ5"]
+[Deal "W:932.872.K54.J842 J4.AQJ5.AQJ3.T96 K86.KT963.T72.73 AQT75.4.986.AKQ5"]
 [Declarer "N"]
 [Contract "3NT"]
 [Result ""]
@@ -256,7 +296,7 @@ Having made the try, you accept whatever partner decides. In this case, with a 1
 [Board "9"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- KJ.KQ9.KT73.AJ74 - AQT75.A4.986.KQ5"]
+[Deal "W:642.T8632.AQ2.63 KJ.KQ9.KT73.AJ74 983.J75.J54.T982 AQT75.A4.986.KQ5"]
 [Declarer "N"]
 [Contract "6NT"]
 [Result ""]
@@ -291,7 +331,7 @@ Here both partners understood the bid and North bid 6NT.}
 [Board "10"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- Q2.AJ3.AK64.KQJT - 75.KQ874.T93.874"]
+[Deal "W:AK96.962.Q87.962 Q2.AJ3.AK64.KQJT JT843.T5.J52.A53 75.KQ874.T93.874"]
 [Declarer "N"]
 [Contract "4H"]
 [Result ""]
@@ -322,7 +362,7 @@ Notice that when partner opens 2NT the invitation to game option is no longer av
 [Board "11"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- 92.QT962.K54.K83 - KQ75.J8.AQ6.QJ74"]
+[Deal "W:AJT3.K74.T983.T5 92.QT962.K54.K83 864.A53.J72.A962 KQ75.J8.AQ6.QJ74"]
 [Declarer "S"]
 [Contract "2NT"]
 [Result ""]
@@ -353,7 +393,7 @@ So you pass.}
 [Board "12"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- KJT63.96.982.KJ4 - Q4.AQ8.KQT5.AT93"]
+[Deal "W:A75.T732.73.Q862 KJT63.96.982.KJ4 982.KJ54.AJ64.75 Q4.AQ8.KQT5.AT93"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]
@@ -384,7 +424,7 @@ So you bid 3NT.}
 [Board "13"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- 93.QJT62.753.KQ4 - A62.875.AKQ.AT98"]
+[Deal "W:KQ4.A43.T9642.63 93.QJT62.753.KQ4 JT875.K9.J8.J752 A62.875.AKQ.AT98"]
 [Declarer "S"]
 [Contract "4H"]
 [Result ""]
@@ -417,7 +457,7 @@ With your 3-3-3-4 distribution you might have been tempted to bid 3NT instead of
 [Board "14"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- AK9753.842.53.76 - J6.A75.AQ72.KJ83"]
+[Deal "W:T.KQT963.T64.Q42 AK9753.842.53.76 Q842.J.KJ98.AT95 J6.A75.AQ72.KJ83"]
 [Declarer "S"]
 [Contract "3S"]
 [Result ""]
@@ -450,7 +490,7 @@ You pass. And you're going to have to play great to make even 9 tricks!}
 [Board "15"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- 873.AKT872.93.65 - A6.965.KQJ2.AK98"]
+[Deal "W:KJT9.43.A875.QT4 873.AKT872.93.65 Q542.QJ.T64.J732 A6.965.KQJ2.AK98"]
 [Declarer "S"]
 [Contract "4H"]
 [Result ""]
@@ -479,7 +519,7 @@ Partner has 9 points and 6 \Hs. You have 17 points and 3 \Hs. That adds up to 26
 [Board "16"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- T9873.KQT.A4.T73 - A6.965.KQJ2.AK98"]
+[Deal "W:K52.A8743.87.J62 T9873.KQT.A4.T73 QJ4.J2.T9653.Q54 A6.965.KQJ2.AK98"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]
@@ -508,7 +548,7 @@ Since you have 17 points you accept the invitation, but with only 2 \Ss you choo
 [Board "17"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- Q9854.KQT83.75.3 - AK.J65.AKJ4.J865"]
+[Deal "W:J76.A942.Q6.K974 Q9854.KQT83.75.3 T32.7.T9832.AQT2 AK.J65.AKJ4.J865"]
 [Declarer "S"]
 [Contract "4H"]
 [Result ""]
@@ -539,7 +579,7 @@ Despite your \Ss being so beautiful there are only two of them so you pick \Hs. 
 [Board "18"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- AK873.KT965.75.9 - QT5.AQ4.KJ4.KJ65"]
+[Deal "W:9642.72.Q86.AT42 AK873.KT965.75.9 J.J83.AT932.Q873 QT5.AQ4.KJ4.KJ65"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -570,7 +610,7 @@ What does matter is those minor suits. If the opening lead is a \C or \D, which 
 [Board "19"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- KQ94.AJ973.83.A6 - T5.KQT4.AK7.KQ98"]
+[Deal "W:J2.652.Q95.JT543 KQ94.AJ973.83.A6 A8763.8.JT642.72 T5.KQT4.AK7.KQ98"]
 [Declarer "S"]
 [Contract "6H"]
 [Result ""]
@@ -605,7 +645,7 @@ That was all partner needed to hear, he jumps straight to 6\H.}
 [Board "20"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- Q9853.72.8642.A3 - JT4.AK.AK97.KQ98"]
+[Deal "W:A2.Q943.J53.J742 Q9853.72.8642.A3 K76.JT865.QT.T65 JT4.AK.AK97.KQ98"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -636,7 +676,7 @@ One hand doesn't mean it will always be like this, but usually if you have an 8-
 [Board "21"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- K6.AQJT7.T95.KQ3 - AJT.K853.AK.J864"]
+[Deal "W:Q853.642.Q842.T2 K6.AQJT7.T95.KQ3 9742.9.J763.A975 AJT.K853.AK.J864"]
 [Declarer "S"]
 [Contract "6H"]
 [Result ""]
@@ -667,7 +707,7 @@ Once you understand partner's bid, your next move is simple. You have a maximum 
 [Board "22"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- J3.AK953.42.AK72 - AQ64.J6.AK75.J83"]
+[Deal "W:T2.T742.QT83.Q95 J3.AK953.42.AK72 K9875.Q8.J96.T64 AQ64.J6.AK75.J83"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]
@@ -698,7 +738,7 @@ He is interested in slam and wants help from you in either of his suits. You hav
 [Board "23"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- AJT.KQJ93.Q43.72 - 94.A86.AK97.A865"]
+[Deal "W:63.T54.652.JT943 AJT.KQJ93.Q43.72 KQ8752.72.JT8.KQ 94.A86.AK97.A865"]
 [Declarer "S"]
 [Contract "4H"]
 [Result ""]
@@ -731,7 +771,7 @@ You have a minimum, but with 3 \Hs you prefer the suit game to 3NT so you bid 4\
 [Board "24"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- T86.Q97532.652.9 - 94.AJ86.AK9.A865"]
+[Deal "W:Q7..J873.KJT7432 T86.Q97532.652.9 AKJ532.KT4.QT4.Q 94.AJ86.AK9.A865"]
 [Declarer "S"]
 [Contract "3H"]
 [Result ""]
@@ -760,7 +800,7 @@ However, in this case you know that your side has at least 9 \Hs, and you are we
 [Board "25"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- T95.AK753.83.K42 - AJ4.86.AK97.A865"]
+[Deal "W:7.QJT92.542.JT97 T95.AK753.83.K42 KQ8632.4.QJT6.Q3 AJ4.86.AK97.A865"]
 [Declarer "E"]
 [Contract "2S"]
 [Result ""]

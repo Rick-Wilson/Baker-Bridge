@@ -1,6 +1,46 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-02-05 20:01:01
-%sourcefilename BakerBridge.csv
+%Created: 2026-02-05 20:22:01
+%sourcefilename BakerBridgeFull.csv
 %HRTitleEvent Signals
 [Event "Baker Bridge - Defensive Signals"]
 [Board "1"]
@@ -30,13 +70,13 @@ When you have made your choice click NEXT. [NEXT]
 
 [show NESW]
 
-Play the \DT, NOT another \S.
+Play the ! D10, NOT another \S.
 
 You can see the \S6, \S5, \S4, \S3 and \S2. So the \S7 is East's lowest \S, he is doing his best to discourage you from leading the suit again.
 
 South held up with \S A J x, hoping you would play the suit again and give him two tricks.
 
-If you play the \DT East will win the \DA and return a \S, allowing you to drive out South's \SA while you still have the \CA for an entry.}
+If you play the ! D10 East will win the \DA and return a \S, allowing you to drive out South's \SA while you still have the \CA for an entry.}
 [Play "W"]SK
 
 [Event "Baker Bridge - Defensive Signals"]
@@ -127,7 +167,7 @@ When he next plays the \CK dummy will ruff, but whatever card he ruffs with you 
 {Baker Signals 4}
 {[show NW]
 
-[showcards E:D3,D7,DQ S:CQ,D6,DA,DT]
+[showcards E:D3,D7,DQ S:CQ,D6,DA]
 
 You are West. The bidding has been as shown. You led the \D5, East wins the \DQ and returns the \D7. South holds up his \DA until the third round. He then plays the \CQ and it is your play. 
 
@@ -249,7 +289,7 @@ This defense holds South to one \D tricks, if you had let him win the second one
 [Board "8"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:A65.QT64.K72.T52 KQ93.873.Q6.9764 872.J952.A843.83 JT4.AK.JT95.AKQJ"]
+[Deal "W:A65.QT64.K72.T52 KQ93.87.Q65.9764 872.J952.A843.83 JT4.AK3.JT9.AKQJ"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]
@@ -300,7 +340,7 @@ South may now turn to the \D suit, but your side can win the first \D and drive 
 
 [showcards W:H5]
 
-You are East. The bidding has been as shown. Partner led the \H5, dummy played the \HT and it is your play.
+You are East. The bidding has been as shown. Partner led the \H5, dummy played the ! H10 and it is your play.
 
 When you have made your choice click NEXT. [NEXT]
 
@@ -584,7 +624,7 @@ When you have made your choice click NEXT. [NEXT]
 
 Play the \D2.
 
-Normally with this holding you would play the \D9 to encourage West to play a second \D through dummy's \D Q T.
+Normally with this holding you would play the \D9 to encourage West to play a second \D through dummy's \D Q 10.
 
 But this time you really want him to take his \CK. So play the discouraging \D2 and hope he gets the message to go back to \Cs. If he does play the \CK next it will win and he can then give you a \C ruff.}
 [Play "W"]CA

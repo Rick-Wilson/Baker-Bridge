@@ -1,12 +1,52 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-02-05 20:01:01
-%sourcefilename BakerBridge.csv
+%Created: 2026-02-05 20:22:01
+%sourcefilename BakerBridgeFull.csv
 %HRTitleEvent Stayman
 [Event "Baker Bridge - Stayman"]
 [Board "1"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- KT82.74.AK63.AJ7 - A4.KJ98.T872.865"]
+[Deal "W:J753.AT32.J4.KT9 KT82.74.AK63.AJ7 Q96.Q65.Q95.Q432 A4.KJ98.T872.865"]
 [Declarer "N"]
 [Contract "1NT"]
 [Result ""]
@@ -35,7 +75,7 @@ It is far too risky to play for that possibility. So you just pass.}
 [Board "2"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- KQJ5.T63.AQ9.KQT - A4.AJ98.T872.865"]
+[Deal "W:T863.Q742.K5.A97 KQJ5.T63.AQ9.KQT 972.K5.J643.J432 A4.AJ98.T872.865"]
 [Declarer "N"]
 [Contract "3NT"]
 [Result ""]
@@ -68,7 +108,7 @@ He has a maximum and he bids 3NT.}
 [Board "3"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- A983.AK5.A95.J94 - KQT6.964.KJT8.73"]
+[Deal "W:54.QJT3.Q432.K52 A983.AK5.A95.J94 J72.872.76.AQT86 KQT6.964.KJT8.73"]
 [Declarer "N"]
 [Contract "4S"]
 [Result ""]
@@ -94,14 +134,14 @@ Of course you bid 2\C. Partner now bids 2\S. What is your next bid? [BID 4\S]
 
 Partner hit your suit. When you add a point for your doubleton \C you are up to 10 points. This is the situation where you have to use your judgement, either to invite or to bid the game yourself.
 
-There is really no right or wrong here, between 3\S and 4\S. Those extra T's and 9's swing you to 4\S. As you see it will be a close call, but even if you misguess the \D finesse you will still establish a \D winner for a discard.}
+There is really no right or wrong here, between 3\S and 4\S. Those extra 10's and 9's swing you to 4\S. As you see it will be a close call, but even if you misguess the \D finesse you will still establish a \D winner for a discard.}
 
 
 [Event "Baker Bridge - Stayman"]
 [Board "4"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- 965.A9.AQT5.KQ86 - AJT4.KQJ5.863.J7"]
+[Deal "W:Q8.8643.K94.T952 965.A9.AQT5.KQ86 K732.T72.J72.A43 AJT4.KQJ5.863.J7"]
 [Declarer "N"]
 [Contract "3NT"]
 [Result ""]
@@ -132,7 +172,7 @@ Partner doesn't have a 4-card Major so your side doesn't have an 8-card Major fi
 [Board "5"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- T982.KQ6.A94.AK5 - KQJ3.AJ5.72.9843"]
+[Deal "W:A5.T97.JT653.QJ6 T982.KQ6.A94.AK5 764.8432.KQ8.T72 KQJ3.AJ5.72.9843"]
 [Declarer "N"]
 [Contract "4S"]
 [Result ""]
@@ -165,7 +205,7 @@ You bid 4\S.}
 [Board "6"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- KQ5.Q95.KQ94.A62 - AT94.KJT7.AJ.KQ3"]
+[Deal "W:J83.A864.T852.54 KQ5.Q95.KQ94.A62 762.32.763.JT987 AT94.KJT7.AJ.KQ3"]
 [Declarer "N"]
 [Contract "6NT"]
 [Result ""]
@@ -198,7 +238,7 @@ There is a lot to be said for bidding 6NT immediately. You could ask for Aces if
 [Board "7"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- QT9.AQJ3.AT8.QJ6 - 4.KT97.KQJ3.AK85"]
+[Deal "W:KJ8.864.76542.32 QT9.AQJ3.AT8.QJ6 A76532.52.9.T974 4.KT97.KQJ3.AK85"]
 [Declarer "N"]
 [Contract "6H"]
 [Result ""]
@@ -233,7 +273,7 @@ Missing one Ace you bid 6\H.}
 [Board "8"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- 95.KQ95.AK63.KQ8 - AKQ42.JT76.75.93"]
+[Deal "W:T.A842.Q982.J542 95.KQ95.AK63.KQ8 J8763.3.JT4.AT76 AKQ42.JT76.75.93"]
 [Declarer "N"]
 [Contract "4H"]
 [Result ""]
@@ -264,7 +304,7 @@ That is why you used Stayman - to uncover a 4-4 Major suit fit. Having done so y
 [Board "9"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- T86.KQ5.A864.AKT - AKQ42.JT76.75.93"]
+[Deal "W:J9.A83.JT93.Q842 T86.KQ5.A864.AKT 753.942.KQ2.J765 AKQ42.JT76.75.93"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -297,7 +337,7 @@ If partner had just 2 \Ss he would have bid 3NT. Since he has 3 \Ss he bids 4\S.
 [Board "10"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AQJ9.KJ.Q764.Q53 - KT42.AQT963..874"]
+[Deal "W:86.742.AJ9.KJT62 AQJ9.KJ.Q764.Q53 753.85.KT8532.A9 KT42.AQT963..874"]
 [Declarer "N"]
 [Contract "4S"]
 [Result ""]
@@ -323,14 +363,14 @@ Even when you hold a 6-card Major, if you have 4 cards in the other Major you us
 
 You've found an 8-card Major fit and you know there are enough points for game. So you bid 4\S.
 
-Yes, but you already knew you had an 8-card \H fit since partner's 1NT promised at least 2 \Hs. In fact, you could play game in either Major. However, it is often better to play in a 4-4 fit rather than a 5-3 or 6-2. This hand shows why. Played in \Hs you will make exactly T tricks with any opening lead. Played in \Ss you will again make T tricks when the defenders start with their 3 \C winners. If they start with anything else you are very likely to make 1 or 2 overtricks by discarding dummy losers on your \H suit.}
+Yes, but you already knew you had an 8-card \H fit since partner's 1NT promised at least 2 \Hs. In fact, you could play game in either Major. However, it is often better to play in a 4-4 fit rather than a 5-3 or 6-2. This hand shows why. Played in \Hs you will make exactly 10 tricks with any opening lead. Played in \Ss you will again make 10 tricks when the defenders start with their 3 \C winners. If they start with anything else you are very likely to make 1 or 2 overtricks by discarding dummy losers on your \H suit.}
 
 
 [Event "Baker Bridge - Stayman"]
 [Board "11"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AQJ.KJ.Q764.Q653 - KT42.AQT963..874"]
+[Deal "W:8765.85.A952.AJ9 AQJ.KJ.Q764.Q653 93.742.KJT83.KT2 KT42.AQT963..874"]
 [Declarer "S"]
 [Contract "4H"]
 [Result ""]
@@ -344,7 +384,7 @@ Yes, but you already knew you had an 8-card \H fit since partner's 1NT promised 
 {Baker Stayman 11}
 {[show S]
 
-This is the follow-up to Deal T. North opens 1NT. What do you respond? [BID 2\C]
+This is the follow-up to Deal 10. North opens 1NT. What do you respond? [BID 2\C]
 
 
 
@@ -363,7 +403,7 @@ In this case the strong hand does not become declarer, but the contract is the r
 [Board "12"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- 83.KQ74.7643.A82 - KT42.A3.QJ95.KQ7"]
+[Deal "W:AJ5.JT6.K82.J963 83.KQ74.7643.A82 Q976.9852.AT.T54 KT42.A3.QJ95.KQ7"]
 [Declarer "S"]
 [Contract "2NT"]
 [Result ""]
@@ -394,7 +434,7 @@ Partner evidently has 4 \Hs. He also evidently has about 9 points since he is IN
 [Board "13"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- JT83.JT86.KT.A84 - KQ2.A93.QJ95.KQ7"]
+[Deal "W:A764.7542.A74.T5 JT83.JT86.KT.A84 95.KQ.8632.J9632 KQ2.A93.QJ95.KQ7"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]
@@ -425,7 +465,7 @@ Partner seems to have about 9 points and is inviting you to say 3NT. Since you h
 [Board "14"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- KT85.9852.A93.Q5 - Q762.Q63.KQJ.AJ7"]
+[Deal "W:A3.KJT4.T874.984 KT85.9852.A93.Q5 J94.A7.652.KT632 Q762.Q63.KQJ.AJ7"]
 [Declarer "S"]
 [Contract "3S"]
 [Result ""]
@@ -456,7 +496,7 @@ Considering the bidding you have done so far you couldn't have a worse hand. Wit
 [Board "15"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- QT93.K873.A5.764 - J62.AT95.KQJ4.AQ"]
+[Deal "W:K5.Q64.97632.852 QT93.K873.A5.764 A874.J2.T8.KJT93 J62.AT95.KQJ4.AQ"]
 [Declarer "S"]
 [Contract "4H"]
 [Result ""]
@@ -487,7 +527,7 @@ Partner has told you he has 4 \Hs and approximately 9 points. Add that to your 4
 [Board "16"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- AT96.63.QT84.K83 - KQJ4.AT95.J73.AQ"]
+[Deal "W:8732.QJ7.K2.J762 AT96.63.QT84.K83 5.K842.A965.T954 KQJ4.AT95.J73.AQ"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -518,7 +558,7 @@ Partner would never bid Stayman without a 4-card Major. Since he did not like yo
 [Board "17"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- AQ52.KQT96.T9.97 - KJ4.A8.QJ73.AQT8"]
+[Deal "W:983.J532.A42.653 AQ52.KQT96.T9.97 T76.74.K865.KJ42 KJ4.A8.QJ73.AQT8"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]
@@ -549,7 +589,7 @@ Partner has described a hand with 4 \Ss and 5 \Hs. You don't know his strength b
 [Board "18"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- Q2.K9753.Q73.QT6 - K7.QJT.AK95.KJ94"]
+[Deal "W:JT984.A82.864.72 Q2.K9753.Q73.QT6 A653.64.JT2.A853 K7.QJT.AK95.KJ94"]
 [Declarer "N"]
 [Contract "4H"]
 [Result ""]
@@ -580,7 +620,7 @@ Partner knows you do not have 4 \Hs, but he bid the suit anyway. He must have 5 
 [Board "19"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- QJ763.KT73.42.Q5 - AK.QJ9.KQ83.AJT7"]
+[Deal "W:T94.A8.T95.K9432 QJ763.KT73.42.Q5 852.6542.AJ76.86 AK.QJ9.KQ83.AJT7"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]
@@ -611,7 +651,7 @@ Partner is showing 5 \Ss and 4 \Hs. In neither case would you have the 8-card fi
 [Board "20"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- Q963.K5.Q875.742 - KJT5.AQJ9.AJ9.KQ"]
+[Deal "W:72.642.KT3.JT965 Q963.K5.Q875.742 A84.T873.642.A83 KJT5.AQJ9.AJ9.KQ"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -644,7 +684,7 @@ If you want to make yourself happy you use Stayman, just imagine playing 3NT aft
 [Board "21"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AJ85.KJ.AK8.KJ96 - KQ42.AQT943..874"]
+[Deal "W:T73.865.QJT4.QT2 AJ85.KJ.AK8.KJ96 96.72.976532.A53 KQ42.AQT943..874"]
 [Declarer "N"]
 [Contract "6S"]
 [Result ""]
@@ -677,7 +717,7 @@ Good thing it's being played by North, right?}
 [Board "22"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- A83.AK64.Q52.Q87 - Q742.T983.J8763."]
+[Deal "W:JT5.QJ7.AKT4.J65 A83.AK64.Q52.Q87 K96.52.9.AKT9432 Q742.T983.J8763."]
 [Declarer "N"]
 [Contract "2H"]
 [Result ""]
@@ -708,7 +748,7 @@ What's next is your PASS. And if he had bid 2\S you also would have passed. And 
 [Board "23"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AK73.A95.982.AQ2 - QJ85.K64.QJ7.KT8"]
+[Deal "W:6.QJ832.K653.J93 AK73.A95.982.AQ2 T942.T7.AT4.7654 QJ85.K64.QJ7.KT8"]
 [Declarer "N"]
 [Contract "3NT"]
 [Result ""]
@@ -737,7 +777,7 @@ But thinking a little further, with this 4-3-3-3 distribution you have no ruffin
 [Board "24"]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "W:- AQT6.Q7.T95.K974 - 98.KJ4.AQJ7.AT85"]
+[Deal "W:3.98653.K862.632 AQT6.Q7.T95.K974 KJ7542.AT2.43.QJ 98.KJ4.AQJ7.AT85"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]
@@ -768,7 +808,7 @@ Pass, then "Thank you partner" when dummy comes down. The thing to remember is t
 [Board "25"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- A8.KJ74.A72.KQ53 - KQT2.AQT3.63.874"]
+[Deal "W:963.9852.95.JT96 A8.KJ74.A72.KQ53 J754.6.KQJT84.A2 KQT2.AQT3.63.874"]
 [Declarer "N"]
 [Contract "4H"]
 [Result ""]

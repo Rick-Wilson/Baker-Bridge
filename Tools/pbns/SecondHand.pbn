@@ -1,6 +1,46 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-02-05 20:01:01
-%sourcefilename BakerBridge.csv
+%Created: 2026-02-05 20:22:01
+%sourcefilename BakerBridgeFull.csv
 %HRTitleEvent SecondHand
 [Event "Baker Bridge - Second Hand Play"]
 [Board "1"]
@@ -69,7 +109,7 @@ Play the \H4, do not split your Honors.
 
 South's bidding showed at least 5 \Hs, so assuming he holds both the \H A Q, it would be silly for him to finesse the \H9 on the first trump play.
 
-As it turns out, when you play low South calls for dummy's \HK, East's \HQ falls and you now have 2 trump tricks. If you had played the \HT you would have tossed away the setting trick.}
+As it turns out, when you play low South calls for dummy's \HK, East's \HQ falls and you now have 2 trump tricks. If you had played the ! H10 you would have tossed away the setting trick.}
 [Play "W"]CJ
 
 [Event "Baker Bridge - Second Hand Play"]
@@ -94,7 +134,7 @@ As it turns out, when you play low South calls for dummy's \HK, East's \HQ falls
 
 You are East. The bidding has been as shown.
 
-Partner led the \CK, and you played the \C9 to encourage him. He continued with the \CQ, then a small card to your \CA. You then exit with the \DT, taken by dummy's \DK.
+Partner led the \CK, and you played the \C9 to encourage him. He continued with the \CQ, then a small card to your \CA. You then exit with the ! D10, taken by dummy's \DK.
 
 Declarer then calls for the \HJ. Do you cover with your \HQ or not?
 
@@ -168,7 +208,7 @@ However, with South holding the \SQ it would be very logical for him to go up wi
 
 You are East. The bidding has been as shown.
 
-Partner led the \H9, taken by dummy's \HT. The \S4 is then played from dummy. Do you play low? or split your honors?
+Partner led the \H9, taken by dummy's ! H10. The \S4 is then played from dummy. Do you play low? or split your honors?
 
 When you have made your choice click NEXT. [NEXT]
 
@@ -219,7 +259,7 @@ Play the \C4.
 
 If you split your Honors, playing the \CQ perhaps, dummy's \CA will take the trick and South will later play through your \CK toward dummy's \C J 9 5. Played in this way he will establish 3 \C winners (which he needs for the contract).
 
-If you play low, he MIGHT finesse the \CJ and again establish 3 \C winners. But South's correct play would be to put on dummy's \C9, finessing West for the \CT. This is because \C K T or \C Q T are twice as likely as \C K Q.
+If you play low, he MIGHT finesse the \CJ and again establish 3 \C winners. But South's correct play would be to put on dummy's \C9, finessing West for the \CT. This is because \C K 10 or \C Q 10 are twice as likely as \C K Q.
 
 If he does play this way East will win the \CT and your \C K Q will get one more trick.}
 [Play "W"]ST
@@ -283,7 +323,7 @@ By playing low you give him a guess to make. If he plays the \CK he will make th
 
 You are West. The bidding has been as shown.
 
-You lead the \D5; \D3, \DT and won by South with \DK. South now leads the \C9 from his hand and it is your play.
+You lead the \D5; \D3, ! D10 and won by South with \DK. South now leads the \C9 from his hand and it is your play.
 
 When you have made your choice click NEXT. [NEXT]
 
@@ -322,7 +362,7 @@ You are East. The bidding has been as shown.
 
 Partner led the \H4, won by South's \H8.
 
-South enters dummy with the \SK and leads the \DT. What do you play?
+South enters dummy with the \SK and leads the ! D10. What do you play?
 
 When you have made your choice click NEXT. [NEXT]
 
@@ -470,7 +510,7 @@ Now visualize the result of playing the \HQ. Whether South takes this trick or n
 
 You are East. The bidding has been as shown.
 
-Partner led the \HT, won by dummy's \HA. At trick 2 South calls for dummy's \C3. Which card do you play?
+Partner led the ! H10, won by dummy's \HA. At trick 2 South calls for dummy's \C3. Which card do you play?
 
 When you have made your choice click NEXT. [NEXT]
 
@@ -482,7 +522,7 @@ You would not have been expecting South to play a small \C from dummy's holding.
 
 If you play your \CK you will win the trick, but in so doing you will set up 3 \C tricks for South, which is all he needs to make the slam.
 
-Play low instead and South will win his \CQ. But now your \C K T sits behind dummy's \C J 4 so he can get only one more trick in the suit, the \CA. }
+Play low instead and South will win his \CQ. But now your \C K 10 sits behind dummy's \C J 4 so he can get only one more trick in the suit, the \CA. }
 [Play "W"]HT
 
 [Event "Baker Bridge - Second Hand Play"]
@@ -554,7 +594,7 @@ When you have made your choice click NEXT. [NEXT]
 
 Play the \DA.
 
-Count the points. South's 15-17 plus North's 11 plus your T comes to 36-38. So West has room for an Ace or a King, but no more.
+Count the points. South's 15-17 plus North's 11 plus your 10 comes to 36-38. So West has room for an Ace or a King, but no more.
 
 West's second \S play was the 2, so it looks like he started with 5 \Ss. And the fall of South's \Ss looks like he may have 1 \S left, very likely the \SK.
 
@@ -636,7 +676,7 @@ Remember that South opened 1\H, so he has 5 of them. With only 3 trumps out he h
 
 If you play low he will win with one of his high \Hs and then you will have a sure \H winner. Along with the \S winner West has you will defeat the slam.
 
-If you cover the \HJ with your \HQ South will again win with one of his high ones. But now the position will be clear to South and he will return to dummy and play another \H, finessing your \HT. With no trump loser he will make the slam. }
+If you cover the \HJ with your \HQ South will again win with one of his high ones. But now the position will be clear to South and he will return to dummy and play another \H, finessing your ! H10. With no trump loser he will make the slam. }
 [Play "W"]SK
 
 [Event "Baker Bridge - Second Hand Play"]
@@ -684,7 +724,7 @@ If you play low on South's \S play East will be forced to win the trick and he c
 [Board "19"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:J942.73.T75.QT65 6.QJ96.Q63.A7432 AT873.T4.KJ84.98 KQ5.AK852.A92.KJ"]
+[Deal "W:J942.73.T75.QT65 6.KJ96.Q63.A7432 AT873.T4.KJ84.98 KQ5.AQ852.A92.KJ"]
 [Declarer "S"]
 [Contract "6H"]
 [Result ""]
@@ -702,7 +742,7 @@ If you play low on South's \S play East will be forced to win the trick and he c
 
 You are East. The bidding has been as shown.
 
-Partner led the \H3, you play \HT and South wins the \HA. South pulls the last two trumps by leading low to dummy's \HQ. He now calls for the \S6. Will you play your \SA or not?
+Partner led the \H3, you play ! H10 and South wins the \HA. South pulls the last two trumps by leading low to dummy's \HQ. He now calls for the \S6. Will you play your \SA or not?
 
 When you have made your choice click NEXT. [NEXT]
 
@@ -749,6 +789,6 @@ Play the \HK.
 
 It may look foolish to waste your \HK but look what will happen if you don't. South will follow up with another \H and when you win the \HK you will be forced to play a minor suit. Since both North and South are out of \Ds and \Cs you will be giving them a ruff-sluff and the contract.
 
-But if you dump your \HK under South's \HA look at what's left. South has \H losers and when he plays a \H from either hand East will scoop up two tricks with his \H Q T.}
+But if you dump your \HK under South's \HA look at what's left. South has \H losers and when he plays a \H from either hand East will scoop up two tricks with his \H Q 10.}
 [Play "W"]DJ
 

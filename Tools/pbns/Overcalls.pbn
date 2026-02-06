@@ -1,12 +1,52 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-02-05 20:01:01
-%sourcefilename BakerBridge.csv
+%Created: 2026-02-05 20:22:01
+%sourcefilename BakerBridgeFull.csv
 %HRTitleEvent Overcalls
 [Event "Baker Bridge - Overcalls"]
 [Board "1"]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "W:- Q764.J72.92.A843 - A9.AQ93.K875.J65"]
+[Deal "W:KJT82.T4.3.QT972 Q764.J72.92.A843 53.K865.AQJT64.K A9.AQ93.K875.J65"]
 [Declarer "E"]
 [Contract "1D"]
 [Result ""]
@@ -33,7 +73,7 @@ You have 14 points but so what. You have no 5-card suit to Overcall. You cannot 
 [Board "2"]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "W:- T92.AQJ75.QJ7.86 - A753.KT93.K964.5"]
+[Deal "W:K.862.A832.AQJ73 T92.AQJ75.QJ7.86 QJ864.4.T5.KT942 A753.KT93.K964.5"]
 [Declarer "N"]
 [Contract "3H"]
 [Result ""]
@@ -60,7 +100,7 @@ With four trumps and 12 points you have a text-book raise to 3\H. Partner had a 
 [Board "3"]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "W:- A743.K83.63.9843 - T9.AQJ75.A875.65"]
+[Deal "W:K8652.T64.T92.J7 A743.K83.63.9843 QJ.92.KQJ4.AKQT2 T9.AQJ75.A875.65"]
 [Declarer "S"]
 [Contract "2H"]
 [Result ""]
@@ -91,7 +131,7 @@ Partner is showing 6-10 points and three trumps. Your hand revalues to 14 at mos
 [Board "4"]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "W:- KQJ97.8.Q62.Q943 - 6.KJ943.K94.8765"]
+[Deal "W:A.AT52.AT875.AK2 KQJ97.8.Q62.Q943 T85432.Q76.J3.JT 6.KJ943.K94.8765"]
 [Declarer "N"]
 [Contract "1S"]
 [Result ""]
@@ -118,7 +158,7 @@ You really don't like partner's \Ss, and you do have 8 points. But 8 points is n
 [Board "5"]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "W:- J752.A863.AT2.T3 - T9.KQJ752.QJ7.65"]
+[Deal "W:Q3.4.K98643.KQ97 J752.A863.AT2.T3 AK864.T9.5.AJ842 T9.KQJ752.QJ7.65"]
 [Declarer "S"]
 [Contract "3H"]
 [Result ""]
@@ -142,14 +182,14 @@ You overcall 2\H and hear partner raise you to 3\H. What do you say now? [BID pa
 
 
 
-No matter how many times you check this hand you cannot revalue it any more than 13 points. Since partner has T at the most you reluctantly pass.}
+No matter how many times you check this hand you cannot revalue it any more than 13 points. Since partner has 10 at the most you reluctantly pass.}
 
 
 [Event "Baker Bridge - Overcalls"]
 [Board "6"]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "W:- AK975.KT3.953.K7 - J83.AJ92.T7.9832"]
+[Deal "W:Q62.874.AQ84.AQT AK975.KT3.953.K7 T4.Q65.KJ62.J654 J83.AJ92.T7.9832"]
 [Declarer "N"]
 [Contract "2S"]
 [Result ""]
@@ -178,7 +218,7 @@ You might look at the Law of Total Tricks lesson for more on this subject.}
 [Board "7"]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "W:- K842.A93.T5.KQ93 - QJT93.KQ4.863.82"]
+[Deal "W:65.T762.KJ92.AJ6 K842.A93.T5.KQ93 A7.J85.AQ74.T754 QJT93.KQ4.863.82"]
 [Declarer "S"]
 [Contract "3S"]
 [Result ""]
@@ -211,7 +251,7 @@ With your minimum it's going to have to be better than that to get you excited. 
 [Board "8"]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "W:- AQJ64.3.9862.J82 - K8753.752.A.7543"]
+[Deal "W:T.AKQ98.J53.AKQ9 AQJ64.3.9862.J82 92.JT64.KQT74.T6 K8753.752.A.7543"]
 [Declarer "N"]
 [Contract "4S"]
 [Result ""]
@@ -240,7 +280,7 @@ Looking at the hands you can see that partner is going to go down 1 at 4\S. Howe
 [Board "9"]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "W:- AJ76.Q973.A54.92 - 53.AKT84.K63.A54"]
+[Deal "W:982.J62.J872.Q83 AJ76.Q973.A54.92 KQT4.5.QT9.KJT76 53.AKT84.K63.A54"]
 [Declarer "S"]
 [Contract "4H"]
 [Result ""]
@@ -271,7 +311,7 @@ The jump raise promises 11-14 points. Your 17 plus partner's 11 or so takes you 
 [Board "10"]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "W:- 72.Q8.J52.AKJ972 - AK5.KT52.T974.Q3"]
+[Deal "W:Q9863.A764.KQ.T6 72.Q8.J52.AKJ972 JT4.J93.A863.854 AK5.KT52.T974.Q3"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]
@@ -298,7 +338,7 @@ Partner has at least 11 points for his 2-level overcall. He might have as many a
 [Board "11"]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "W:- A832.KJT6.J93.T8 - KQ9.A84.AT5.KQ93"]
+[Deal "W:T75.732.87642.76 A832.KJT6.J93.T8 J64.Q95.KQ.AJ542 KQ9.A84.AT5.KQ93"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]
@@ -333,7 +373,7 @@ This is just a plain old 1NT/Stayman sequence. Partner is inviting, and since yo
 [Board "12"]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "W:- AKT75.J6.972.Q83 - Q863.AKQ7.65.KT6"]
+[Deal "W:J92.852.AKT8.A95 AKT75.J6.972.Q83 4.T943.QJ43.J742 Q863.AKQ7.65.KT6"]
 [Declarer "N"]
 [Contract "4S"]
 [Result ""]
@@ -357,14 +397,14 @@ Wow! Great \S support and 15 points. You cue-bid 2\D, forcing partner to bid. He
 
 
 
-Partner has not made a strong bid and it is possible that T tricks will be too high. But it is pretty likely that game can be made so you bid it. Be bold!}
+Partner has not made a strong bid and it is possible that 10 tricks will be too high. But it is pretty likely that game can be made so you bid it. Be bold!}
 
 
 [Event "Baker Bridge - Overcalls"]
 [Board "13"]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "W:- T7.KQ62.K85.8742 - KQJ984.84.Q63.95"]
+[Deal "W:A632.5.AT742.K63 T7.KQ62.K85.8742 5.AJT973.J9.AQJT KQJ984.84.Q63.95"]
 [Declarer "S"]
 [Contract "2S"]
 [Result ""]
@@ -391,7 +431,7 @@ If you had been the dealer you would have opened 2\S. The situation is no differ
 [Board "14"]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "W:- 975.KQJ97.83.K52 - AKJ863.3.65.QT76"]
+[Deal "W:QT.542.KQ742.A94 975.KQJ97.83.K52 42.AT86.AJT9.J83 AKJ863.3.65.QT76"]
 [Declarer "S"]
 [Contract "2S"]
 [Result ""]
@@ -422,7 +462,7 @@ You expect partner to have three trumps, but he has made a minimum bid. So you t
 [Board "15"]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "W:- KQJ973.Q.A872.T4 - T85.AKJ84.K63.95"]
+[Deal "W:64.9653.QT94.K82 KQJ973.Q.A872.T4 A2.T72.J5.AQJ763 T85.AKJ84.K63.95"]
 [Declarer "N"]
 [Contract "4S"]
 [Result ""]
@@ -453,7 +493,7 @@ Whether you play a change of suit as forcing or not, your hand certainly qualifi
 [Board "16"]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "W:- JT9.KT73.AJT.AQ5 - KQ83.A865.65.T76"]
+[Deal "W:A754.QJ.KQ82.942 JT9.KT73.AJT.AQ5 62.942.9743.KJ83 KQ83.A865.65.T76"]
 [Declarer "N"]
 [Contract "3H"]
 [Result ""]
@@ -484,7 +524,7 @@ You have 9 points, an invitational strength hand. You bid 3\H, inviting partner 
 [Board "17"]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "W:- 84.KQJ.AQ95.K972 - AJ9.T94.K3.QJT63"]
+[Deal "W:QT6.87653.T874.5 84.KQJ.AQ95.K972 K7532.A2.J62.A84 AJ9.T94.K3.QJT63"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]
@@ -515,7 +555,7 @@ Partner's cue-bid obviously forces you to bid. Partner's hand might be very dist
 [Board "18"]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "W:- KQJT5.QT7.AJ3.87 - 83.AJ9.KQ97.QJT6"]
+[Deal "W:A76.K63.T54.AK93 KQJT5.QT7.AJ3.87 942.8542.862.542 83.AJ9.KQ97.QJT6"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]
@@ -542,7 +582,7 @@ Balanced hand, poor support for partner's suit, stoppers in their suit and 13 po
 [Board "19"]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "W:- AJT.QT7.A75.KQT9 - 83.K85.KQT964.72"]
+[Deal "W:Q9742.J43.J82.64 AJT.QT7.A75.KQT9 K65.A962.3.AJ853 83.K85.KQT964.72"]
 [Declarer "N"]
 [Contract "3NT"]
 [Result ""]
@@ -575,7 +615,7 @@ That was apparently the missing link for partner, he now says 3NT.}
 [Board "20"]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "W:- KQT932.842.A7.92 - A85.AK7.KJ6.T864"]
+[Deal "W:J7.Q5.9532.AKJ53 KQT932.842.A7.92 64.JT963.QT84.Q7 A85.AK7.KJ6.T864"]
 [Declarer "N"]
 [Contract "4S"]
 [Result ""]

@@ -1,6 +1,46 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-02-05 20:01:01
-%sourcefilename BakerBridge.csv
+%Created: 2026-02-05 20:22:01
+%sourcefilename BakerBridgeFull.csv
 %HRTitleEvent Trumpmgmt
 [Event "Baker Bridge - Trump Management"]
 [Board "1"]
@@ -81,7 +121,7 @@ You can't help the \C loser, but the \H loser can be ruffed in dummy. The most i
 
 
 
-None would be the correct answer. Suppose you decide to go over to dummy with the \SQ so as to lead a \H toward your \H Q T 7. When West won the trick he would probably play another trump. Then when you gave up a second \H dummy's final trump might be removed.
+None would be the correct answer. Suppose you decide to go over to dummy with the \SQ so as to lead a \H toward your \H Q 10 7. When West won the trick he would probably play another trump. Then when you gave up a second \H dummy's final trump might be removed.
 
 Win the first trick and play a \H from your hand. If they play a \S, win in your hand and play another \H. If they play another \S it will be just the second and dummy will still have one \S left to ruff your \H loser.
 
@@ -379,7 +419,7 @@ Make a Plan, then click NEXT. [NEXT]
 
 Losers:   \S = 0    \H = 2  \D = 1    \C = 0 Total = 3
 
-You have no way to get rid of the Fast \D loser, but you might be able to eliminate one of the \H losers. If East holds either \H K T x or \H Q T x then a Deep Finesse would save one loser.
+You have no way to get rid of the Fast \D loser, but you might be able to eliminate one of the \H losers. If East holds either \H K 10 x or \H Q 10 x then a Deep Finesse would save one loser.
 
 Should you pull trumps right away? [NEXT]
 
@@ -528,9 +568,9 @@ If you don't see a better Plan than these two, just put yourself in Dummy's seat
 
 Aha! From dummy's viewpoint you have no \D losers! You still have the 3 \C losers, but now you also have 3 \S losers. How does this help you?
 
-You can now ruff all 3 of those \S losers in the South hand. Like this:Win the \SA and ruff a \S with the \HA. Play a small \H to dummy's \H9. Ruff another \S with the \HK. Play a small \H to dummy's \HT. Ruff dummy's last \S with your last trump, the \HJ. Enter dummy with a \D and pull the last trump with the \HQ.
+You can now ruff all 3 of those \S losers in the South hand. Like this:Win the \SA and ruff a \S with the \HA. Play a small \H to dummy's \H9. Ruff another \S with the \HK. Play a small \H to dummy's ! H10. Ruff dummy's last \S with your last trump, the \HJ. Enter dummy with a \D and pull the last trump with the \HQ.
 
-You win 3 \Ds, 3 \Hs in dummy, the \SA and 3 \S ruffs in your hand. Total: T tricks.
+You win 3 \Ds, 3 \Hs in dummy, the \SA and 3 \S ruffs in your hand. Total: 10 tricks.
 
 for the complete deal. [NEXT]
 
@@ -657,7 +697,7 @@ Did you notice that West is a pretty good defender? Playing the \DQ on the third
 {Baker Trumpmgmt 14}
 {[show NS]
 
-South is to play 4\S. West leads the \HA, then the \HK, then \HT.
+South is to play 4\S. West leads the \HA, then the \HK, then ! H10.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -700,7 +740,7 @@ But, it was a good plan because dummy held the \S9. Keep that in mind when you l
 {Baker Trumpmgmt 15}
 {[show NS]
 
-This is identical to Deal 14 except dummy has the \S4 in place of the \S9. South is to play 4\S. West leads the \HA, then the \HK, then \HT.
+This is identical to Deal 14 except dummy has the \S4 in place of the \S9. South is to play 4\S. West leads the \HA, then the \HK, then ! H10.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -814,7 +854,7 @@ Yes, you can establish 2 \S winners for discards, and most importantly, you can 
 
 So win the \HJ in dummy. Uh-Oh, East discards a \S. Now play the \SQ and when East plays low, discard a \C. This is a loser on loser play and West takes the trick with the \SA. 
 
-West now leads the \H7. You cover with dummy's \H8 knowing the finesse will win. Next you play dummy's \SJ, covered by East and ruffed by you (if East didn't cover you would throw another \C loser). Now enter dummy with the \HQ, pulling West's last trump at the same time. Discard your 2 \Cs on the \S T 9 and try the \D finesse for an overtrick.
+West now leads the \H7. You cover with dummy's \H8 knowing the finesse will win. Next you play dummy's \SJ, covered by East and ruffed by you (if East didn't cover you would throw another \C loser). Now enter dummy with the \HQ, pulling West's last trump at the same time. Discard your 2 \Cs on the \S 10 9 and try the \D finesse for an overtrick.
 
 for the complete deal. [NEXT]
 

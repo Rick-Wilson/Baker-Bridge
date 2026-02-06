@@ -1,12 +1,52 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-02-05 20:01:01
-%sourcefilename BakerBridge.csv
+%Created: 2026-02-05 20:22:01
+%sourcefilename BakerBridgeFull.csv
 %HRTitleEvent 2over1
 [Event "Baker Bridge - 2-Over-1 Game Force"]
 [Board "1"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- QT5.KQJT5.74.AQ6 - J84.A2.KT963.KJ4"]
+[Deal "W:AK732.864.J5.T98 QT5.KQJT5.74.AQ6 96.973.AQ82.7532 J84.A2.KT963.KJ4"]
 [Declarer "N"]
 [Contract "3NT"]
 [Result ""]
@@ -33,7 +73,7 @@ Notice that you would bid this hand the same way whether or not you play 2/1.}
 [Board "2"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- 65.KQJ843.A5.Q63 - KJ8.A2.KT963.KJ4"]
+[Deal "W:T743.95.QJ84.AT8 65.KQJ843.A5.Q63 AQ92.T76.72.9752 KJ8.A2.KT963.KJ4"]
 [Declarer "N"]
 [Contract "4H"]
 [Result ""]
@@ -60,7 +100,7 @@ The hand would have been bid the same with or without 2/1.}
 [Board "3"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- K5.KQJ743.75.AK4 - Q6.A82.AKQ63.763"]
+[Deal "W:J832.965.T82.Q82 K5.KQJ743.75.AK4 AT974.T.J94.JT95 Q6.A82.AKQ63.763"]
 [Declarer "N"]
 [Contract "6H"]
 [Result ""]
@@ -85,7 +125,7 @@ North has heard enough. He bids 4NT, and when South admits to two Aces he bids t
 [Board "4"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AKJ865.43.75.K63 - Q.A9865.962.A742"]
+[Deal "W:T7432.KJ72.Q.J95 AKJ865.43.75.K63 9.QT.AKJT843.QT8 Q.A9865.962.A742"]
 [Declarer "N"]
 [Contract "2S"]
 [Result ""]
@@ -110,7 +150,7 @@ South has nothing further to say so the partnership arrives in a safe contract.}
 [Board "5"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- KJ965.AK843.75.4 - Q4.QT7.AJ6.AT986"]
+[Deal "W:A873.65.KQ9.J752 KJ965.AK843.75.4 T2.J92.T8432.KQ3 Q4.QT7.AJ6.AT986"]
 [Declarer "N"]
 [Contract "4H"]
 [Result ""]
@@ -139,7 +179,7 @@ North bids 3\H, indicating that this is also a 5-card suit. Now South can bid th
 [Board "6"]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "W:- 65.AQ953.KQ63.Q9 - AJT74.KT7.A95.72"]
+[Deal "W:K9832.62.874.A86 65.AQ953.KQ63.Q9 Q.J84.JT2.KJT543 AJT74.KT7.A95.72"]
 [Declarer "N"]
 [Contract "4H"]
 [Result ""]
@@ -159,14 +199,14 @@ South, knowing that North has 5, bids 3\H to confirm the trump suit.
 
 North has a minimum strength hand with no slam aspirations, so he uses Fast Arrival and bids 4\H. South is also satisfied to just play at game.
 
-2/1 is a good bidding method, and here, 4\H is a good contract. But you can see that it is not a laydown - there is no bidding system that will always reach T0% contracts. In this hand a 3-3 \D split will provide the Tth trick, or if that fails, taking 2 \S finesses provides a 75% chance of success.}
+2/1 is a good bidding method, and here, 4\H is a good contract. But you can see that it is not a laydown - there is no bidding system that will always reach 100% contracts. In this hand a 3-3 \D split will provide the 10th trick, or if that fails, taking 2 \S finesses provides a 75% chance of success.}
 
 
 [Event "Baker Bridge - 2-Over-1 Game Force"]
 [Board "7"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AK9652.T983.4.A8 - 7.AK75.K762.KQT6"]
+[Deal "W:Q43.J64.QT8.J972 AK9652.T983.4.A8 JT8.Q2.AJ953.543 7.AK75.K762.KQT6"]
 [Declarer "N"]
 [Contract "4H"]
 [Result ""]
@@ -193,7 +233,7 @@ You can see why it is important for Opener to show a 4-card Major. Since South c
 [Board "8"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AK92.AQ983.85.86 - 875.K4.AQJT7.K97"]
+[Deal "W:43.762.K63.AT432 AK92.AQ983.85.86 QJT6.JT5.942.QJ5 875.K4.AQJT7.K97"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]
@@ -220,7 +260,7 @@ North does not have either 6 \Hs or 5 \Ss so he just bids 3NT. Notice that North
 [Board "9"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- A9742.A983.K6.Q7 - K8.JT7.975.AKJ62"]
+[Deal "W:QT653.K52.QT2.53 A9742.A983.K6.Q7 J.Q64.AJ843.T984 K8.JT7.975.AKJ62"]
 [Declarer "N"]
 [Contract "3NT"]
 [Result ""]
@@ -247,7 +287,7 @@ North now must find a bid. His choices include rebidding the 5-card \Ss, support
 [Board "10"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- A4.KJT8653.KQ.87 - KJ763.AQ7.84.AQJ"]
+[Deal "W:T9852.942.T5.KT6 A4.KJT8653.KQ.87 Q..AJ97632.95432 KJ763.AQ7.84.AQJ"]
 [Declarer "N"]
 [Contract "6H"]
 [Result ""]
@@ -276,7 +316,7 @@ The slam is a good one. If either the \SQ or \CK is right there are 12 tricks by
 [Board "11"]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "W:- AJT.AK985.K96.Q7 - 863.73.AQ4.AKJT4"]
+[Deal "W:Q9752.JT6.T32.93 AJT.AK985.K96.Q7 K4.Q42.J875.8652 863.73.AQ4.AKJT4"]
 [Declarer "N"]
 [Contract "6NT"]
 [Result ""]
@@ -303,7 +343,7 @@ There are 11 top tricks. A 3-3 \H split would provide the 12th winner, but this 
 [Board "12"]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "W:- AJ8752.AK.Q6.J87 - Q63.Q3.AKJ94.964"]
+[Deal "W:T94.8764.T82.KQ3 AJ8752.AK.Q6.J87 K.JT952.753.AT52 Q63.Q3.AKJ94.964"]
 [Declarer "N"]
 [Contract "4S"]
 [Result ""]
@@ -323,14 +363,14 @@ South should now jump to 4\S. This is Fast Arrival, indicating a minimum hand wi
 
 North is happy to rest in the game contract.
 
-Even with a combined 30 points, T tricks are certainly not a sure thing. North must hope that West holds the trump King.}
+Even with a combined 30 points, 10 tricks are certainly not a sure thing. North must hope that West holds the trump King.}
 
 
 [Event "Baker Bridge - 2-Over-1 Game Force"]
 [Board "13"]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "W:- AJT62.A62.QJ.T87 - K5.KQ98543.A4.A4"]
+[Deal "W:9.JT7.T987.KJ962 AJT62.A62.QJ.T87 Q8743..K6532.Q53 K5.KQ98543.A4.A4"]
 [Declarer "S"]
 [Contract "6H"]
 [Result ""]
@@ -359,7 +399,7 @@ This is a good slam, cold if West makes any opening lead other than a \C. With a
 [Board "14"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- QJ2.KT.KQ865.Q87 - A.AQJ753.742.KJ4"]
+[Deal "W:K875.86.AT9.T532 QJ2.KT.KQ865.Q87 T9643.942.J3.A96 A.AQJ753.742.KJ4"]
 [Declarer "S"]
 [Contract "4H"]
 [Result ""]
@@ -386,7 +426,7 @@ South has some extra strength, but not enough to push on after North's weak bid.
 [Board "15"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AQ862.T4.K65.K87 - J.KQJ753.432.Q54"]
+[Deal "W:K95.A9.T98.JT962 AQ862.T4.K65.K87 T743.862.AQJ7.A3 J.KQJ753.432.Q54"]
 [Declarer "S"]
 [Contract "2H"]
 [Result ""]
@@ -413,7 +453,7 @@ This hand demonstrates one of the benefits of Forcing 1NT. In standard bidding S
 [Board "16"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AQ862.A4.95.AK87 - K.K753.AT32.J954"]
+[Deal "W:T7543.Q2.KJ6.T32 AQ862.A4.95.AK87 J9.JT986.Q874.Q6 K.K753.AT32.J954"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]
@@ -440,7 +480,7 @@ North is happy to play Notrump. He assumes South must have something useful in \
 [Board "17"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- 862.AQJ753.95.A2 - K95.T6.KT32.JT54"]
+[Deal "W:AQT4.K984.J8.Q87 862.AQJ753.95.A2 J73.2.AQ764.K963 K95.T6.KT32.JT54"]
 [Declarer "N"]
 [Contract "2H"]
 [Result ""]
@@ -465,7 +505,7 @@ Notice that this is the same bidding and same final contract that would have bee
 [Board "18"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- KJ2.874.AQ975.Q2 - AQT95.T96.KT86.A"]
+[Deal "W:643.KQJ32.J32.T8 KJ2.874.AQ975.Q2 87.A5.4.KJ976543 AQT95.T96.KT86.A"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -492,7 +532,7 @@ North always intended to play a \S contract. He now bids 4\S, using Fast Arrival
 [Board "19"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- K92.AK874.KT7.T8 - JT6.9.853.KQJ952"]
+[Deal "W:Q85.JT6532.QJ9.A K92.AK874.KT7.T8 A743.Q.A642.7643 JT6.9.853.KQJ952"]
 [Declarer "S"]
 [Contract "2C"]
 [Result ""]
@@ -508,7 +548,7 @@ North always intended to play a \S contract. He now bids 4\S, using Fast Arrival
 
 North opens 1\H and East Doubles.
 
-After the intervening Takeout Double 2/1 is OFF. If South had T or more points she would Redouble. So even with only 9 points South can bid 2\C without fear that North will think she has a strong hand.
+After the intervening Takeout Double 2/1 is OFF. If South had 10 or more points she would Redouble. So even with only 9 points South can bid 2\C without fear that North will think she has a strong hand.
 
 North also knows everything mentioned above so he passes.}
 
@@ -517,7 +557,7 @@ North also knows everything mentioned above so he passes.}
 [Board "20"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- QJ2.J2.QJ862.AKJ - AK98764.KQ7.K73."]
+[Deal "W:T53.T65.AT4.T832 QJ2.J2.QJ862.AKJ .A9843.95.Q97654 AK98764.KQ7.K73."]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -546,7 +586,7 @@ Notice that South did not fall into the Blackwood trap. If she HAD asked for Ace
 [Board "21"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AJT82.AK82.Q2.T5 - 74.Q73.AKJ73.KJ9"]
+[Deal "W:KQ95.965.954.Q84 AJT82.AK82.Q2.T5 63.JT4.T86.A7632 74.Q73.AKJ73.KJ9"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]
@@ -571,7 +611,7 @@ South doesn't have 4 \Hs, nor does she have 3 \Ss. She does, however, have stopp
 [Board "22"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AJT82.AT82.Q2.K5 - 74.KQ3.AKJ73.T97"]
+[Deal "W:KQ53.J9.T654.843 AJT82.AT82.Q2.K5 96.7654.98.AQJ62 74.KQ3.AKJ73.T97"]
 [Declarer "N"]
 [Contract "3NT"]
 [Result ""]
@@ -598,7 +638,7 @@ North understands that South's \C bid is Fourth-Suit-Forcing, and does not actua
 [Board "23"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- T82.A2.A8542.Q85 - AK974.KQ63.73.T7"]
+[Deal "W:QJ653.754.KQ.J92 T82.A2.A8542.Q85 .JT98.JT96.AK643 AK974.KQ63.73.T7"]
 [Declarer "S"]
 [Contract "2S"]
 [Result ""]
@@ -625,7 +665,7 @@ Knowing that North does not have opening strength South passes 2\S.}
 [Board "24"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- KQT62.A74.84.A85 - 74.9863.A762.KQ3"]
+[Deal "W:J53.KJT.KT5.JT76 KQT62.A74.84.A85 A98.Q52.QJ93.942 74.9863.A762.KQ3"]
 [Declarer "N"]
 [Contract "2S"]
 [Result ""]
@@ -652,7 +692,7 @@ North happily passes and the pair lands in a reasonable contract, probably bette
 [Board "25"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- Q6.AKQ972.984.AQ - AK874.J86.AJ6.93"]
+[Deal "W:52.T53.KQT73.J74 Q6.AKQ972.984.AQ JT93.4.52.KT8652 AK874.J86.AJ6.93"]
 [Declarer "N"]
 [Contract "6H"]
 [Result ""]
@@ -681,7 +721,7 @@ North asks for Aces and gets two. He decides to find out about Kings, if South h
 [Board "26"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- QJ8763.AK8.8.K75 - A4.QJ6.7642.A963"]
+[Deal "W:T95.T2.KJ93.QJT4 QJ8763.AK8.8.K75 K2.97543.AQT5.82 A4.QJ6.7642.A963"]
 [Declarer "N"]
 [Contract "4S"]
 [Result ""]
@@ -708,7 +748,7 @@ North has a little extra so he bids 4\S, which is a pretty good contract. }
 [Board "27"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- QJ9842.AJ95.83.K - T7.QT3.AJ6.AQ642"]
+[Deal "W:AK5.76.Q52.J8753 QJ9842.AJ95.83.K 63.K842.KT974.T9 T7.QT3.AJ6.AQ642"]
 [Declarer "N"]
 [Contract "4S"]
 [Result ""]
@@ -733,7 +773,7 @@ North is not happy in notrump so rebids the 6-card major, 3\S. South's two \Ss a
 [Board "28"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- AJ8.Q652.873.A74 - KQ753.87.KQ6.Q95"]
+[Deal "W:96.KT94.A952.KT3 AJ8.Q652.873.A74 T42.AJ3.JT4.J862 KQ753.87.KQ6.Q95"]
 [Declarer "S"]
 [Contract "3S"]
 [Result ""]

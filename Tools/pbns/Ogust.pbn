@@ -1,12 +1,52 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-02-05 20:01:01
-%sourcefilename BakerBridge.csv
+%Created: 2026-02-05 20:22:01
+%sourcefilename BakerBridgeFull.csv
 %HRTitleEvent Ogust
 [Event "Baker Bridge - Ogust"]
 [Board "1"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- 975.A5.AT64.AK82 - 83.QJ9764.K7.964"]
+[Deal "W:QJT6.KT8.952.QJ3 975.A5.AT64.AK82 AK42.32.QJ83.T75 83.QJ9764.K7.964"]
 [Declarer "S"]
 [Contract "3H"]
 [Result ""]
@@ -33,7 +73,7 @@ In reply to partner's Ogust 2NT you say 3\C, showing a minimum hand along with a
 [Board "2"]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "W:- 83.KT9764.K7.964 - A75.85.AT64.AK82"]
+[Deal "W:KJ64.AJ2.9852.Q7 83.KT9764.K7.964 QT92.Q3.QJ3.JT53 A75.85.AT64.AK82"]
 [Declarer "N"]
 [Contract "3H"]
 [Result ""]
@@ -64,7 +104,7 @@ Partner's 3\C bid shows a weak hand and a poor suit. So you reluctantly settle f
 [Board "3"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- J2.A62.A853.AK86 - KQT854.85.764.92"]
+[Deal "W:763.KJ43.KT9.Q73 J2.A62.A853.AK86 A9.QT97.QJ2.JT54 KQT854.85.764.92"]
 [Declarer "S"]
 [Contract "3S"]
 [Result ""]
@@ -91,7 +131,7 @@ In reply to partner's Ogust 2NT you say 3\D, showing a minimum hand along with a
 [Board "4"]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "W:- QJ8753.KQ3.97.T4 - K6.A85.AT64.A982"]
+[Deal "W:AT92.JT42.K2.Q75 QJ8753.KQ3.97.T4 4.976.QJ853.KJ63 K6.A85.AT64.A982"]
 [Declarer "N"]
 [Contract "4S"]
 [Result ""]
@@ -122,7 +162,7 @@ Partner's 3\H bid shows a maximum hand and a poor suit. Your \SK should be enoug
 [Board "5"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- J2.A62.A853.AK86 - KT9854.KQ.964.75"]
+[Deal "W:Q.JT7543.KJT7.Q4 J2.A62.A853.AK86 A763.98.Q2.JT932 KT9854.KQ.964.75"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -147,7 +187,7 @@ Having opened 2\S, you reply to partner's Ogust 2NT bid with 3\H, showing a maxi
 [Board "6"]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "W:- T62.84.AQ9873.74 - A93.A75.K654.A82"]
+[Deal "W:KJ4.Q962.JT2.QJT T62.84.AQ9873.74 Q875.KJT3..K9653 A93.A75.K654.A82"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]
@@ -178,7 +218,7 @@ Partner's 3\D bid shows a minimum hand but a good suit, which should mean two of
 [Board "7"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- KJ94.A63.J2.AK76 - 83.T2.AKQT64.984"]
+[Deal "W:AT7.Q8.953.JT532 KJ94.A63.J2.AK76 Q652.KJ9754.87.Q 83.T2.AKQT64.984"]
 [Declarer "N"]
 [Contract "3NT"]
 [Result ""]
@@ -203,7 +243,7 @@ Having opened 2\D, you reply to partner's Ogust 2NT bid with 3NT, showing a \D s
 [Board "8"]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "W:- 2.AKQT83.765.964 - QT3.75.AKQ4.A872"]
+[Deal "W:65.642.J32.KQT53 2.AKQT83.765.964 AKJ9874.J9.T98.J QT3.75.AKQ4.A872"]
 [Declarer "N"]
 [Contract "4H"]
 [Result ""]
@@ -232,7 +272,7 @@ Partner's 3NT bid describes his hand exactly; \H A K Q x x x and nothing else. Y
 [Board "9"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- A876.K5.A974.A86 - K3.AQ9764.85.973"]
+[Deal "W:QT42.J2.QJT6.QJ2 A876.K5.A974.A86 J95.T83.K32.KT54 K3.AQ9764.85.973"]
 [Declarer "S"]
 [Contract "4H"]
 [Result ""]
@@ -257,7 +297,7 @@ After opening 2\H you reply to partner's Ogust 2NT with 3\S, showing a maximum h
 [Board "10"]
 [Dealer "W"]
 [Vulnerable "None"]
-[Deal "W:- AQ9874.873.75.K4 - KT3.5.AKQ94.A872"]
+[Deal "W:65.AJT4.J62.QT53 AQ9874.873.75.K4 J2.KQ962.T83.J96 KT3.5.AKQ94.A872"]
 [Declarer "N"]
 [Contract "6S"]
 [Result ""]

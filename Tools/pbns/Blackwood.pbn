@@ -1,12 +1,52 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-02-05 20:01:01
-%sourcefilename BakerBridge.csv
+%Created: 2026-02-05 20:22:01
+%sourcefilename BakerBridgeFull.csv
 %HRTitleEvent Blackwood
 [Event "Baker Bridge - Blackwood"]
 [Board "1"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- 9.QJT75.AKQ3.KQ4 - AK.K942.JT85.863"]
+[Deal "W:75432.83.742.A95 9.QJT75.AKQ3.KQ4 QJT86.A6.96.JT72 AK.K942.JT85.863"]
 [Declarer "N"]
 [Contract "5H"]
 [Result ""]
@@ -33,7 +73,7 @@ The Blackwood response for 1 Ace is 5\D. Partner evidently was hoping for 2, and
 [Board "2"]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "W:- K95.A7.KQ3.KQJ64 - QJ8.KQ2.AT986.A9"]
+[Deal "W:T764.T96.J54.732 K95.A7.KQ3.KQJ64 A32.J8543.72.T85 QJ8.KQ2.AT986.A9"]
 [Declarer "S"]
 [Contract "6NT"]
 [Result ""]
@@ -60,7 +100,7 @@ The Gerber response to show 2 Aces is 4\S. So you bid 4\S and partner jumps to 6
 [Board "3"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AQJ.QJT5.975.KQJ - K8.K2.KQJT843.A3"]
+[Deal "W:T64.A973.62.T875 AQJ.QJT5.975.KQJ 97532.864.A.9642 K8.K2.KQJT843.A3"]
 [Declarer "N"]
 [Contract "4NT"]
 [Result ""]
@@ -93,7 +133,7 @@ Wouldn't it have been funny if partner had thought your 4\C bid was Stayman? And
 [Board "4"]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "W:- KQ7.A65.QT83.KJ4 - A98.KQJT.KJ6.AQ3"]
+[Deal "W:JT6.732.942.T962 KQ7.A65.QT83.KJ4 5432.984.A75.875 A98.KQJT.KJ6.AQ3"]
 [Declarer "S"]
 [Contract "6NT"]
 [Result ""]
@@ -124,7 +164,7 @@ The 4\C bid is Gerber and your correct response with 2 Aces is 4\S. Partner now 
 [Board "5"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- 84.AJT863.63.A75 - AK.K942.KQJT54.8"]
+[Deal "W:T75.75.A9872.K62 84.AJT863.63.A75 QJ9632.Q..QJT943 AK.K942.KQJT54.8"]
 [Declarer "N"]
 [Contract "6H"]
 [Result ""]
@@ -155,7 +195,7 @@ That makes it simple, with 2 Aces you bid a confident 6\H. If he had 1 Ace you w
 [Board "6"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- K5.A985.AQ.KQJ54 - A986.KQJT.KT86.3"]
+[Deal "W:732.643.J74.AT82 K5.A985.AQ.KQJ54 QJT4.72.9532.976 A986.KQJT.KT86.3"]
 [Declarer "S"]
 [Contract "6H"]
 [Result ""]
@@ -190,7 +230,7 @@ Partner shows 2 Aces so you bid 6\H.}
 [Board "7"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- QT6.AQ5.T87.AQ52 - AK.KT.KQJ94.KT83"]
+[Deal "W:J9872.J76.52.J64 QT6.AQ5.T87.AQ52 543.98432.A63.97 AK.KT.KQJ94.KT83"]
 [Declarer "N"]
 [Contract "6NT"]
 [Result ""]
@@ -225,7 +265,7 @@ Easy, missing one Ace you bid 6NT.}
 [Board "8"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- T92.AKQT5.AK.KQJ - AQJ873.6.T86.A63"]
+[Deal "W:4.J4.J9542.T9854 T92.AKQT5.AK.KQJ K65.98732.Q73.72 AQJ873.6.T86.A63"]
 [Declarer "N"]
 [Contract "6NT"]
 [Result ""]
@@ -264,7 +304,7 @@ You have no King. So you reply 6\C and partner bids 6NT (safer than 6\S).}
 [Board "9"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- 642.AQ9742..8542 - AK.K853.KQJ4.A93"]
+[Deal "W:9.JT.AT9532.QJ76 642.AQ9742..8542 QJT8753.6.876.KT AK.K853.KQJ4.A93"]
 [Declarer "N"]
 [Contract "6H"]
 [Result ""]
@@ -295,7 +335,7 @@ Partner has shown one Ace and a \D void. As to what you bid, that's easy. You ha
 [Board "10"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- KQ4.KQJ3.KQJ5.AK - AT7.952.AT86.Q63"]
+[Deal "W:3.T86.73.JT98752 KQ4.KQJ3.KQJ5.AK J98652.A74.942.4 AT7.952.AT86.Q63"]
 [Declarer "S"]
 [Contract "6NT"]
 [Result ""]
@@ -326,7 +366,7 @@ With 2 Aces your response is 4\S. Partner bids 6NT and you pass.}
 [Board "11"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AT.AK76.A85.AKJ5 - KQJ8643.3.KQJ4.7"]
+[Deal "W:95.J54.T963.QT64 AT.AK76.A85.AKJ5 72.QT982.72.9832 KQJ8643.3.KQJ4.7"]
 [Declarer "N"]
 [Contract "7NT"]
 [Result ""]
@@ -361,7 +401,7 @@ The 4\D reply says either zero or all four. Put your money on all four and bid 7
 [Board "12"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AQJ2.KQJ.J6.KQJ8 - KT983.2.AKT4.A73"]
+[Deal "W:754.A8654.952.92 AQJ2.KQJ.J6.KQJ8 6.T973.Q873.T654 KT983.2.AKT4.A73"]
 [Declarer "S"]
 [Contract "6S"]
 [Result ""]
@@ -396,7 +436,7 @@ Partner has 1 Ace so you can go no higher than 6. Although you can't tell for su
 [Board "13"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- QT92.AJ43.Q7.QT6 - AKJ83.KQ76.98.AK"]
+[Deal "W:7.T982.KJ6532.J8 QT92.AJ43.Q7.QT6 654.5.AT4.975432 AKJ83.KQ76.98.AK"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -431,7 +471,7 @@ The good news is that partner's control-showing bid says he has the \HA. The bad
 [Board "14"]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "W:- Q85.AK4.KJT.KT43 - AK43.QJ86.A9.QJ6"]
+[Deal "W:J97.72.86542.A85 Q85.AK4.KJT.KT43 T62.T953.Q73.972 AK43.QJ86.A9.QJ6"]
 [Declarer "S"]
 [Contract "6NT"]
 [Result ""]
@@ -462,7 +502,7 @@ THIS IS NOT BLACKWOOD. Partner's bid is the Quantitative 4NT. He has 16 points a
 [Board "15"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- 964.AJ953.AQJ3.7 - KQJ83.K8764.7.AK"]
+[Deal "W:T.QT.98642.QJT84 964.AJ953.AQJ3.7 A752.2.KT5.96532 KQJ83.K8764.7.AK"]
 [Declarer "N"]
 [Contract "6H"]
 [Result ""]
@@ -493,7 +533,7 @@ Missing one Ace you bid 6\H.}
 [Board "16"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- KQ72.Q4.AQ84.A52 - AT643.K8.KJ5.KJ6"]
+[Deal "W:J985.AT73.72.T98 KQ72.Q4.AQ84.A52 .J9652.T963.Q743 AT643.K8.KJ5.KJ6"]
 [Declarer "S"]
 [Contract "6S"]
 [Result ""]
@@ -528,7 +568,7 @@ You are missing one Ace but 6\S should be a good slam.}
 [Board "17"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- KQJ.AJ4.AT53.JT8 - A53.KQ5.KQJ874.9"]
+[Deal "W:4.T9632.2.AQ6543 KQJ.AJ4.AT53.JT8 T98762.87.96.K72 A53.KQ5.KQJ874.9"]
 [Declarer "S"]
 [Contract "6D"]
 [Result ""]
@@ -563,7 +603,7 @@ Tempting though it may be it is too dangerous to try 6NT. So you bid 6\D which t
 [Board "18"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- KT742.AK.A.KJ863 - AQJ9853.964.873."]
+[Deal "W:6.J83.K9654.Q742 KT742.AK.A.KJ863 .QT752.QJT2.AT95 AQJ9853.964.873."]
 [Declarer "S"]
 [Contract "7S"]
 [Result ""]
@@ -594,7 +634,7 @@ With 1 Ace and a void in a lower-ranking suit you should bid 6 of that suit. So 
 [Board "19"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- KQJ.J97.KQJ.AQJ7 - A7.KQT86543.4.K6"]
+[Deal "W:T62.A2.T753.T532 KQJ.J97.KQJ.AQJ7 98543..A9862.984 A7.KQT86543.4.K6"]
 [Declarer "N"]
 [Contract "4H"]
 [Result ""]
@@ -625,7 +665,7 @@ Partner has only a single Ace in his 2NT opener. No slam for your team. You pass
 [Board "20"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- KJ.AK7532.K6.873 - A843.QJ986.A984."]
+[Deal "W:9765.T4.JT3.AQ64 KJ.AK7532.K6.873 QT2..Q752.KJT952 A843.QJ986.A984."]
 [Declarer "N"]
 [Contract "7H"]
 [Result ""]

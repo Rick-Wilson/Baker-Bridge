@@ -1,12 +1,52 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-02-05 20:01:01
-%sourcefilename BakerBridge.csv
+%Created: 2026-02-05 20:22:01
+%sourcefilename BakerBridgeFull.csv
 %HRTitleEvent Bidpractice/Set6
 [Event "Baker Bridge - Partnership Bidding Set 6"]
 [Board "1"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AK9.AK2.A83.AJ74 - 872.754.J642.953"]
+[Deal "W:65.QJT6.Q95.KQT6 AK9.AK2.A83.AJ74 QJT43.983.KT7.82 872.754.J642.953"]
 [Declarer "N"]
 [Contract "2NT"]
 [Result ""]
@@ -40,7 +80,7 @@ SOUTH does not have to bid the double negative over a 2NT bid, so he passes.}
 [Board "2"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- K73.Q82.T986.542 - A82.AK75.KQJ.KQT"]
+[Deal "W:JT95.T94.A42.J63 K73.Q82.T986.542 Q64.J63.753.A987 A82.AK75.KQJ.KQT"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]
@@ -72,7 +112,7 @@ NORTH bids 3NT, knowing that the partnership holds at least 27 points.}
 [Board "3"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- K3.KQJ2.AQ98.AK4 - QJT72.A5.742.653"]
+[Deal "W:54.764.KJT3.QT97 K3.KQJ2.AQ98.AK4 A986.T983.65.J82 QJT72.A5.742.653"]
 [Declarer "N"]
 [Contract "3NT"]
 [Result ""]
@@ -102,7 +142,7 @@ bids 3NT.}
 [Board "4"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- A3.T982.986.8764 - KQ2.AKQ75.A72.AT"]
+[Deal "W:975.J643.KJ3.532 A3.T982.986.8764 JT864..QT54.KQJ9 KQ2.AKQ75.A72.AT"]
 [Declarer "S"]
 [Contract "4H"]
 [Result ""]
@@ -150,7 +190,7 @@ bids 4
 [Board "5"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AJ87.AK.A86.AKQJ - Q62.9753.Q52.953"]
+[Deal "W:K54.862.43.T8642 AJ87.AK.A86.AKQJ T93.QJT4.KJT97.7 Q62.9753.Q52.953"]
 [Declarer "N"]
 [Contract "3NT"]
 [Result ""]
@@ -182,7 +222,7 @@ SOUTH knows there is no slam, so he passes 3NT.}
 [Board "6"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- 642.754.J72.8653 - A73.AKQ862.86.AK"]
+[Deal "W:K85.T9.AT4.JT972 642.754.J72.8653 QJT9.J3.KQ953.Q4 A73.AKQ862.86.AK"]
 [Declarer "S"]
 [Contract "3H"]
 [Result ""]
@@ -222,7 +262,7 @@ SOUTH rebids his suit, 3
 [Board "7"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AK63.AK82.KQJ.KQ - 42.QJ975.A52.753"]
+[Deal "W:QT75.T6.974.JT98 AK63.AK82.KQJ.KQ J98.43.T863.A642 42.QJ975.A52.753"]
 [Declarer "S"]
 [Contract "6H"]
 [Result ""]
@@ -262,7 +302,7 @@ When SOUTH shows one Ace NORTH bids 6
 [Board "8"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- AJ983.K72.6.A874 - KQT2.AQJT5.AK2.K"]
+[Deal "W:654.964.Q87.QJ95 AJ983.K72.6.A874 7.83.JT9543.T632 KQT2.AQJT5.AK2.K"]
 [Declarer "N"]
 [Contract "7S"]
 [Result ""]
@@ -281,7 +321,7 @@ When SOUTH shows one Ace NORTH bids 6
 [Board "9"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- KQ86.AKJ2.AKQ.86 - AJT72.987.82.Q53"]
+[Deal "W:9543.QT53.976.K9 KQ86.AKJ2.AKQ.86 .64.JT543.AJT742 AJT72.987.82.Q53"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -311,7 +351,7 @@ to 4♠ which NORTH passes.}
 [Board "10"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- K63.Q85.K764.953 - AQ9.AK2.A83.AJ74"]
+[Deal "W:JT84.9743.52.KT8 K63.Q85.K764.953 752.JT6.QJT9.Q62 AQ9.AK2.A83.AJ74"]
 [Declarer "N"]
 [Contract "3NT"]
 [Result ""]
@@ -335,7 +375,7 @@ SOUTH bids what his hand is worth, 3NT and NORTH passes.}
 [Board "11"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AK9.AJ82.A6.AK93 - QJ72.QT75.72.854"]
+[Deal "W:T83.93.KJ543.Q72 AK9.AJ82.A6.AK93 654.K64.QT98.JT6 QJ72.QT75.72.854"]
 [Declarer "N"]
 [Contract "4H"]
 [Result ""]
@@ -375,7 +415,7 @@ suit and SOUTH bids 4
 [Board "12"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- Q63.Q85.K764.KJ3 - AK9.AK2.A83.AQ74"]
+[Deal "W:754.J9764.JT9.92 Q63.Q85.K764.KJ3 JT82.T3.Q52.T865 AK9.AK2.A83.AQ74"]
 [Declarer "N"]
 [Contract "6NT"]
 [Result ""]
@@ -399,7 +439,7 @@ NORTH knows the side has at least 33 points, but no more than 35 so she bids 6NT
 [Board "13"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AKQ86.AKT82.A.86 - 72.9753.Q742.Q93"]
+[Deal "W:J43.J6.T63.KJT75 AKQ86.AKT82.A.86 T95.Q4.KJ985.A42 72.9753.Q742.Q93"]
 [Declarer "N"]
 [Contract "4H"]
 [Result ""]
@@ -441,7 +481,7 @@ s.}
 [Board "14"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- K73.982.AQJ86.J2 - AQ2.AKQ5.K75.KQT"]
+[Deal "W:854.J73.92.A9865 K73.982.AQJ86.J2 JT96.T64.T43.743 AQ2.AKQ5.K75.KQT"]
 [Declarer "S"]
 [Contract "6NT"]
 [Result ""]
@@ -471,7 +511,7 @@ NORTH bids 6NT, knowing that the partnership holds at least 34 points.}
 [Board "15"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- K6.AKQJ2.KQJ.KQJ - AT972.975.852.A3"]
+[Deal "W:Q53.863.963.8652 K6.AKQJ2.KQJ.KQJ J84.T4.AT74.T974 AT972.975.852.A3"]
 [Declarer "N"]
 [Contract "6H"]
 [Result ""]
@@ -515,7 +555,7 @@ but 6NT scores a little more.}
 [Board "16"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- J42.8752.J72.K63 - AKQT3.AK6.86.AQ4"]
+[Deal "W:98.J93.AT943.J72 J42.8752.J72.K63 765.QT4.KQ5.T985 AKQT3.AK6.86.AQ4"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -545,7 +585,7 @@ SOUTH doesn't have enough to think about slam, so he signs off at 4♠.}
 [Board "17"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AQ.KQJ2.AQ98.AK4 - KJ72.A75.J42.653"]
+[Deal "W:9863.84.T763.QT9 AQ.KQJ2.AQ98.AK4 T54.T963.K5.J872 KJ72.A75.J42.653"]
 [Declarer "S"]
 [Contract "6NT"]
 [Result ""]
@@ -571,7 +611,7 @@ NORTH figures SOUTH for 8 points and bids 6NT. If SOUTH has significantly more t
 [Board "18"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- 7.KQJ832.986.874 - KQJ82.A5.AK2.AK2"]
+[Deal "W:T65.T97.QT7.JT93 7.KQJ832.986.874 A943.64.J543.Q65 KQJ82.A5.AK2.AK2"]
 [Declarer "N"]
 [Contract "6H"]
 [Result ""]
@@ -590,7 +630,7 @@ NORTH figures SOUTH for 8 points and bids 6NT. If SOUTH has significantly more t
 [Board "19"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- KQ87.AKQ2.AKJ6.6 - AJT5.85.Q72.KQ53"]
+[Deal "W:9642.T93.T4.J842 KQ87.AKQ2.AKJ6.6 3.J764.9853.AT97 AJT5.85.Q72.KQ53"]
 [Declarer "S"]
 [Contract "6S"]
 [Result ""]
@@ -618,7 +658,7 @@ Now SOUTH adds his 12 points to NORTH's 22 minimum and gets 34. He bids 6♠.}
 [Board "20"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- 2.QJ52.9872.T763 - AKQ63.AKT96.T6.A"]
+[Deal "W:J94.874.A54.Q984 2.QJ52.9872.T763 T875.3.KQJ3.KJ52 AKQ63.AKT96.T6.A"]
 [Declarer "S"]
 [Contract "4H"]
 [Result ""]
@@ -656,7 +696,7 @@ and bids 4
 [Board "21"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- QT85.AK6.AK8.KQJ - KJ2.Q75.QT72.753"]
+[Deal "W:A943.J842.96.T64 QT85.AK6.AK8.KQJ 76.T93.J543.A982 KJ2.Q75.QT72.753"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]
@@ -682,7 +722,7 @@ Since NORTH has just the 8 points minimum that he promised, he passes 3NT.}
 [Board "22"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- K987.QJ82.986.74 - AQJ2.AK5.KQ73.A6"]
+[Deal "W:T4.T9763.AJ5.QT2 K987.QJ82.986.74 653.4.T42.KJ9853 AQJ2.AK5.KQ73.A6"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -701,7 +741,7 @@ Since NORTH has just the 8 points minimum that he promised, he passes 3NT.}
 [Board "23"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- A8.KQ4.AKQJ86.K4 - K72.A975.T72.A53"]
+[Deal "W:T965.J2.953.J762 A8.KQ4.AKQJ86.K4 QJ43.T863.4.QT98 K72.A975.T72.A53"]
 [Declarer "S"]
 [Contract "7NT"]
 [Result ""]
@@ -720,7 +760,7 @@ Since NORTH has just the 8 points minimum that he promised, he passes 3NT.}
 [Board "24"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- 973.62.QJ9863.A4 - 8.AKQ5.AK72.KQJ3"]
+[Deal "W:KT64.J43.T4.T875 973.62.QJ9863.A4 AQJ52.T987.5.962 8.AKQ5.AK72.KQJ3"]
 [Declarer "N"]
 [Contract "6D"]
 [Result ""]

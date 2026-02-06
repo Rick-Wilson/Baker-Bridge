@@ -1,6 +1,46 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-02-05 20:01:01
-%sourcefilename BakerBridge.csv
+%Created: 2026-02-05 20:22:01
+%sourcefilename BakerBridgeFull.csv
 %HRTitleEvent Holdup
 [Event "Baker Bridge - Holdup Plays"]
 [Board "1"]
@@ -36,7 +76,7 @@ Click NEXT. [NEXT]
 
 
 
-Next you start on \Hs by playing \HK, then overtaking the \HT. Assume that East wins the second \H.
+Next you start on \Hs by playing \HK, then overtaking the ! H10. Assume that East wins the second \H.
 
 Click NEXT. [NEXT]
 
@@ -120,7 +160,7 @@ The hold-up lets you make the contract whenever East holds the \DA. And if West 
 [Board "3"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:QJ732.T7.65.JT82 T5.K854.AT93.A65 A86.QJ92.K74.973 K94.A63.QJ82.KQ4"]
+[Deal "W:QJ732.T7.65.JT82 T5.K854.AT93.K65 A86.QJ92.K74.973 K94.A63.QJ82.AQ4"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]
@@ -371,7 +411,7 @@ This might have turned out even better. If West had decided to play his partner 
 {Baker Holdup 7}
 {[show NS]
 
-South is to play 3NT. West leads the \H4. East plays the \HT.
+South is to play 3NT. West leads the \H4. East plays the ! H10.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -389,7 +429,7 @@ Click NEXT. [NEXT]
 
 
 
-Yes, it could hurt real bad! Suppose East has nothing in his hand but the \H K Q J T 8 7 6 that you already know about. When you let his \HT win the first trick he will realize that his hand is dead. And he may be smart enough, (or lucky enough), to switch to a \S. 
+Yes, it could hurt real bad! Suppose East has nothing in his hand but the \H K Q J 10 8 7 6 that you already know about. When you let his ! H10 win the first trick he will realize that his hand is dead. And he may be smart enough, (or lucky enough), to switch to a \S. 
 
 Click NEXT to see why you should definitely win the first trick, then enter dummy with the \DA and take the \C finesse. [NEXT]
 
@@ -399,7 +439,7 @@ The purpose of the hold-up play is to cut communications between the two defende
 
 But one of the important considerations you have to think about is the possibility that the Defense will switch to another suit - where you might be in even more trouble.
 
-You'd feel bad on this hand if you let East hold the \HT only to see him next lay down the \SJ.}
+You'd feel bad on this hand if you let East hold the ! H10 only to see him next lay down the \SJ.}
 [Play "W"]H4
 
 [Event "Baker Bridge - Holdup Plays"]
@@ -446,7 +486,7 @@ Click NEXT. [NEXT]
 
 
 
-Pull trumps in two rounds. Then play the \DT and let it ride.
+Pull trumps in two rounds. Then play the ! D10 and let it ride.
 
 Click NEXT. [NEXT]
 
@@ -487,7 +527,7 @@ Of course if West had been clever enough to lead a \H originally this Deal would
 {Baker Holdup 9}
 {[show NS]
 
-South's 2NT overcall shows a 1NT opening hand with \Hs stopped. South is to play 3NT. West leads the \H7. East plays the \HT.
+South's 2NT overcall shows a 1NT opening hand with \Hs stopped. South is to play 3NT. West leads the \H7. East plays the ! H10.
 
 Make a Plan, then click NEXT. [NEXT]
 
@@ -570,7 +610,7 @@ Click NEXT. [NEXT]
 
 
 
-This isn't a true hold-up play although it does look like one. This play has the rather fancy name of Bath Coup, (named from Bath, England). Presumably West has led from \H K Q T 9 5 and East has played his singleton \H6. If West realizes that East has played his lowest card he will take that as a discouraging signal and will play a different suit. So you throw out your \H7 rather than the \H3. Now West may think that East is encouraging him to continue, just what you want.
+This isn't a true hold-up play although it does look like one. This play has the rather fancy name of Bath Coup, (named from Bath, England). Presumably West has led from \H K Q 10 9 5 and East has played his singleton \H6. If West realizes that East has played his lowest card he will take that as a discouraging signal and will play a different suit. So you throw out your \H7 rather than the \H3. Now West may think that East is encouraging him to continue, just what you want.
 
 Sometimes it works, sometimes it doesn't.
 
@@ -779,7 +819,7 @@ Click NEXT to see the complete Deal. [NEXT]
 
 [show NESW]
 
-Compare this Bath Coup to the one in Deal T.}
+Compare this Bath Coup to the one in Deal 10.}
 [Play "W"]HK
 
 [Event "Baker Bridge - Holdup Plays"]
@@ -818,7 +858,7 @@ To answer that question you must think about West's lead. Since he did not lead 
 
 Think what East will do if you duck in dummy. He will play his honor, win the trick, and clear the suit by leading his small x. If West can get in with the \CA he will run the \Ss.
 
-But what will East do if you play dummy's \SA? If he plays his small one the \S suit will block. If he unblocks his honor card then your \S T 9 5 3 will provide a second stopper in the suit. So you go up with dummy's \SA and guarantee the contract.
+But what will East do if you play dummy's \SA? If he plays his small one the \S suit will block. If he unblocks his honor card then your \S 10 9 5 3 will provide a second stopper in the suit. So you go up with dummy's \SA and guarantee the contract.
 
 Clickfor the complete Deal. [NEXT]
 

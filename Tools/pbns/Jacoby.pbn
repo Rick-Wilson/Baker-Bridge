@@ -1,12 +1,52 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-02-05 20:01:01
-%sourcefilename BakerBridge.csv
+%Created: 2026-02-05 20:22:01
+%sourcefilename BakerBridgeFull.csv
 %HRTitleEvent Jacoby
 [Event "Baker Bridge - Jacoby 2NT / Splinters"]
 [Board "1"]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "W:- K764.KT6.A953.K8 - AQJT8.QJ2.84.Q53"]
+[Deal "W:52.A84.QJT76.976 K764.KT6.A953.K8 93.9753.K2.AJT42 AQJT8.QJ2.84.Q53"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -37,7 +77,7 @@ With a minimum hand and no singletons you bid the game immediately. Partner has 
 [Board "2"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- KQJ62.6.KJ75.A84 - AT87.KJ95.84.KQ3"]
+[Deal "W:3.AT7.Q93.JT7652 KQJ62.6.KJ75.A84 954.Q8432.AT62.9 AT87.KJ95.84.KQ3"]
 [Declarer "N"]
 [Contract "4S"]
 [Result ""]
@@ -68,7 +108,7 @@ You couldn't hear much worse news. Partner has a singleton \H so your \H K J are
 [Board "3"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- QJ95.AJ63.K7.KT4 - AKT87.KQ5.JT84.8"]
+[Deal "W:432.T742.A93.Q95 QJ95.AJ63.K7.KT4 6.98.Q652.AJ7632 AKT87.KQ5.JT84.8"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -101,7 +141,7 @@ You could equally have just bid 4\S yourself.}
 [Board "4"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AQJT8.K4.84.AQ83 - K943.72.KQJ95.KJ"]
+[Deal "W:6.AQJ985.T762.62 AQJT8.K4.84.AQ83 752.T63.A3.T9754 K943.72.KQJ95.KJ"]
 [Declarer "N"]
 [Contract "4S"]
 [Result ""]
@@ -132,7 +172,7 @@ North has some extra strength and a 5-card \S suit. This is the point in the bid
 [Board "5"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- K973.J7.KQ65.KJ8 - AQJT85.K4.84.AT3"]
+[Deal "W:6.AQ932.JT9.9652 K973.J7.KQ65.KJ8 42.T865.A732.Q74 AQJT85.K4.84.AT3"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]
@@ -163,7 +203,7 @@ Partner would have shown a red Ace if he had one. Since he doesn't have one, all
 [Board "6"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- A65.AT754.A7.862 - K3.KQ86.KQJ3.975"]
+[Deal "W:QT942.932.T9.AQT A65.AT754.A7.862 J87.J.86542.KJ43 K3.KQ86.KQJ3.975"]
 [Declarer "N"]
 [Contract "4H"]
 [Result ""]
@@ -194,7 +234,7 @@ Partner's rebid of 4\H is not strong. He is using the Principle of Fast Arrival 
 [Board "7"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- QJ.AJT6.Q52.KJ73 - 73.KQ972.AKJ98.5"]
+[Deal "W:K64.54.T764.QT62 QJ.AJT6.Q52.KJ73 AT9852.83.3.A984 73.KQ972.AKJ98.5"]
 [Declarer "S"]
 [Contract "4H"]
 [Result ""]
@@ -225,7 +265,7 @@ Partner signed off, showing a minimum, so you have nothing further to say.}
 [Board "8"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AQ3.AJT953.6.K82 - KJ.KQ86.KJT3.975"]
+[Deal "W:9.2.AQ9872.JT643 AQ3.AJT953.6.K82 T876542.74.54.AQ KJ.KQ86.KJT3.975"]
 [Declarer "N"]
 [Contract "4H"]
 [Result ""]
@@ -256,7 +296,7 @@ The news that partner has a singleton \D does NOT excite you. In fact it causes 
 [Board "9"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- 3.QT95.AQ3.KJT83 - T94.AKJ84.KJT.AQ"]
+[Deal "W:KJ8.732.9874.754 3.QT95.AQ3.KJT83 AQ7652.6.652.962 T94.AKJ84.KJT.AQ"]
 [Declarer "S"]
 [Contract "6H"]
 [Result ""]
@@ -287,7 +327,7 @@ There isn't really anything else you want to know. You think you can make slam s
 [Board "10"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- K3.KJT974.KQ5.A9 - AQ62.AQ53.J98.T7"]
+[Deal "W:9754.862.A76.K86 K3.KJT974.KQ5.A9 JT8..T432.QJ5432 AQ62.AQ53.J98.T7"]
 [Declarer "N"]
 [Contract "6H"]
 [Result ""]
@@ -322,7 +362,7 @@ This is Blackwood. You respond 5\H for two Aces and partner bids the slam.}
 [Board "11"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- AQ63.A9.T87.A964 - KJ98752.KQ3.AK.8"]
+[Deal "W:4.JT8765.2.KQ532 AQ63.A9.T87.A964 T.42.QJ96543.JT7 KJ98752.KQ3.AK.8"]
 [Declarer "N"]
 [Contract "7NT"]
 [Result ""]
@@ -353,7 +393,7 @@ The three Aces does it for you. You can count 7 \S tricks, 3 \H tricks, 2 \D tri
 [Board "12"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- 765.AJT96.KQ.A65 - 9.KQ85.A972.K743"]
+[Deal "W:AJT84.743.843.QT 765.AJT96.KQ.A65 KQ32.2.JT65.J982 9.KQ85.A972.K743"]
 [Declarer "N"]
 [Contract "6H"]
 [Result ""]
@@ -386,7 +426,7 @@ As you can see, North should make 12 tricks by discarding one \C loser on your \
 [Board "13"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- A654.K52.A86.974 - KQ987.A96.KT5.53"]
+[Deal "W:32.QT4.QJ.AQJT82 A654.K52.A86.974 JT.J873.97432.K6 KQ987.A96.KT5.53"]
 [Declarer "S"]
 [Contract "3S"]
 [Result ""]
@@ -415,7 +455,7 @@ But he definitely has \S support. You show your minimum hand by bidding 3\S and 
 [Board "14"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- 765.AJT96.KQ.A65 - K.KQ85.A972.J743"]
+[Deal "W:AT2.74.JT85.Q982 765.AJT96.KQ.A65 QJ9843.32.643.KT K.KQ85.A972.J743"]
 [Declarer "N"]
 [Contract "4H"]
 [Result ""]
@@ -444,7 +484,7 @@ Note that in this hand the three points you credited for your \SK are completely
 [Board "15"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- KQJ52.AJT2.954.7 - 3.KQ753.KQJ6.A86"]
+[Deal "W:AT6.64.AT872.J43 KQJ52.AJT2.954.7 9874.98.3.KQT952 3.KQ753.KQJ6.A86"]
 [Declarer "S"]
 [Contract "5H"]
 [Result ""]
@@ -471,7 +511,7 @@ When partner Splinters his singleton \C you should realize that the only thing t
 [Board "16"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AJ8763.AQ7.KQ.87 - K9542.K6.J4.KQ53"]
+[Deal "W:T.T8.A987653.JT2 AJ8763.AQ7.KQ.87 Q.J95432.T2.A964 K9542.K6.J4.KQ53"]
 [Declarer "N"]
 [Contract "4S"]
 [Result ""]
@@ -502,7 +542,7 @@ Your partner has a better than minimum hand with 6 \Ss. However, you have an ave
 [Board "17"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- AK3.KJ95.KQJ3.97 - Q74.AQT83.87.KQ6"]
+[Deal "W:J8.642.AT64.JT42 AK3.KJ95.KQJ3.97 T9652.7.952.A853 Q74.AQT83.87.KQ6"]
 [Declarer "S"]
 [Contract "5H"]
 [Result ""]
@@ -533,7 +573,7 @@ Partner is definitely showing slam interest. If you had a first round control in
 [Board "18"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- A98753.95.KQJT.A - KQJ42..9753.KQ84"]
+[Deal "W:T6.AK643.862.T95 A98753.95.KQJT.A .QJT872.A4.J7632 KQJ42..9753.KQ84"]
 [Declarer "N"]
 [Contract "6S"]
 [Result ""]
@@ -564,7 +604,7 @@ Partner has the \CA. Good. You are pretty worried about \Ds and also your 11 hig
 [Board "19"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- KQ643.76.AKQ.KQJ - AJT87.AQ.J4.AT83"]
+[Deal "W:952.953.532.7652 KQ643.76.AKQ.KQJ .KJT842.T9876.94 AJT87.AQ.J4.AT83"]
 [Declarer "S"]
 [Contract "7S"]
 [Result ""]
@@ -599,7 +639,7 @@ You are being Blackwooded, and with three Aces you reply 5\S. That was apparentl
 [Board "20"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- 743.AT852.KJ.KQ9 - 96.KQJ3.AQ764.T2"]
+[Deal "W:J52.74.T982.A763 743.AT852.KJ.KQ9 AKQT8.96.53.J854 96.KQJ3.AQ764.T2"]
 [Declarer "N"]
 [Contract "4H"]
 [Result ""]
@@ -630,7 +670,7 @@ Partner didn't have enough to bid game, not knowing if you had more than 11 poin
 [Board "21"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- A75.J9865.AK93.7 - K92.AKQ74.7.A963"]
+[Deal "W:QJT6.T2.T852.K52 A75.J9865.AK93.7 843.3.QJ64.QJT84 K92.AKQ74.7.A963"]
 [Declarer "S"]
 [Contract "6H"]
 [Result ""]
@@ -661,7 +701,7 @@ If partner can take care of your three \C losers you will have just one \S loser
 [Board "22"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AK874.6.KJ62.QJ6 - QT95.KQ.AQ3.9875"]
+[Deal "W:6.J852.854.AKT32 AK874.6.KJ62.QJ6 J32.AT9743.T97.4 QT95.KQ.AQ3.9875"]
 [Declarer "N"]
 [Contract "4S"]
 [Result ""]
@@ -692,7 +732,7 @@ Your \H holding hasn't been enhanced by partner's singleton. You feel like just 
 [Board "23"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- AK3.KJ95.J3.QT87 - QJ.AQ8643.KQ.KJ5"]
+[Deal "W:T865.T72.AT74.62 AK3.KJ95.J3.QT87 9742..98652.A943 QJ.AQ8643.KQ.KJ5"]
 [Declarer "S"]
 [Contract "5H"]
 [Result ""]
@@ -727,7 +767,7 @@ Oops. Despite all the points you are missing two Aces. So you thank Mr. Blackwoo
 [Board "24"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:- AQ853.5.AJT72.63 - K9762.AK74.KQ8.K"]
+[Deal "W:T.J9832.9543.AJ5 AQ853.5.AJT72.63 J4.QT6.6.QT98742 K9762.AK74.KQ8.K"]
 [Declarer "N"]
 [Contract "6S"]
 [Result ""]
@@ -762,7 +802,7 @@ He has two Aces so you bid 6\S.}
 [Board "25"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "W:- KJ64.KQ5.J4.AJ95 - AQ975.JT.KQ5.KQT"]
+[Deal "W:T2.A9643.976.832 KJ64.KQ5.J4.AJ95 83.872.AT832.764 AQ975.JT.KQ5.KQT"]
 [Declarer "S"]
 [Contract "4S"]
 [Result ""]

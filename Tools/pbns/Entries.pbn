@@ -1,6 +1,46 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-02-05 20:01:01
-%sourcefilename BakerBridge.csv
+%Created: 2026-02-05 20:22:01
+%sourcefilename BakerBridgeFull.csv
 %HRTitleEvent Entries
 [Event "Baker Bridge - Entry Management"]
 [Board "1"]
@@ -142,7 +182,7 @@ Click NEXT. [NEXT]
 
 
 
-Not quite, there is one more hurdle to hurdle. You must put all thought of a \D finesse far out of your mind. Play \DA, then \DT, overtaking with \DJ and continuing the suit until the King appears. Now you should be able to come to 9 tricks unless there is a very unfortunate distribution which lets the defenders score 3 \H tricks along with their 1 \C and 1 \D.
+Not quite, there is one more hurdle to hurdle. You must put all thought of a \D finesse far out of your mind. Play \DA, then ! D10, overtaking with \DJ and continuing the suit until the King appears. Now you should be able to come to 9 tricks unless there is a very unfortunate distribution which lets the defenders score 3 \H tricks along with their 1 \C and 1 \D.
 
 Clickfor the complete Deal. [NEXT]
 
@@ -326,7 +366,7 @@ Click NEXT. [NEXT]
 
 
 
-Sure you can, by creating an entry in \Cs. It is likely from the opening lead, (and East's play of a small card), that West has led from \C Q T 7 5. If you win the first trick cheaply then you will still make your \C A K for three \C tricks in all.
+Sure you can, by creating an entry in \Cs. It is likely from the opening lead, (and East's play of a small card), that West has led from \C Q 10 7 5. If you win the first trick cheaply then you will still make your \C A K for three \C tricks in all.
 
 So don't win cheaply, win the first trick with the \CA. Then unblock your \D A J. Next play \CK. (on which East discards), and a small \C toward dummy's \C J 9. You are sure to have a \C entry to dummy's \Ds, and you will still get three \C tricks, just a different three.
 
@@ -641,7 +681,7 @@ Here's a question: How many times at the table have situations like this present
 [Board "14"]
 [Dealer "N"]
 [Vulnerable "None"]
-[Deal "W:98765.Q8.KJ3.864 QJT.AK62.AT86.K3 K2.JT95.Q742.A75 A43.743.95.QJT92"]
+[Deal "W:98765.Q8.KT3.864 QJT.AK62.AJ86.K3 K2.JT95.Q742.A75 A43.743.95.QJT92"]
 [Declarer "S"]
 [Contract "3NT"]
 [Result ""]
@@ -816,7 +856,7 @@ Click NEXT. [NEXT]
 
 Sure. The \D problem is that the outstanding \Ds may split 3-1 with one defender holding \D Q x x. So it would appear you could only get 5 \D winners. But you can thwart him like this.
 
-Win the \S. Unblock the \HA. Now play the \DJ. If Mr. \D Q x x takes this trick dummy's \DT will become an entry to those wonderful \Hs. But if he cleverly refuses to win the \DQ, then it will fall under your \D A K and you will get all 6 \D tricks.
+Win the \S. Unblock the \HA. Now play the \DJ. If Mr. \D Q x x takes this trick dummy's ! D10 will become an entry to those wonderful \Hs. But if he cleverly refuses to win the \DQ, then it will fall under your \D A K and you will get all 6 \D tricks.
 
 Clickfor the full Deal. [NEXT]
 
@@ -900,7 +940,7 @@ Make a Plan, then click NEXT. [NEXT]
 
 
 
-Winners:   \S = 2    \H = 5  \D = 2    \C = 1 Total = T
+Winners:   \S = 2    \H = 5  \D = 2    \C = 1 Total = 10
 
 You need two more winners and the best bet is to try to pick up three \C tricks. You will need the \CK and \CQ to lie in different hands, or both of them to be with East. That is about a 75% chance.
 
@@ -912,7 +952,7 @@ Click NEXT. [NEXT]
 
 Of course it can. Win the \S lead in your hand and play the \HK, overtaking with dummy's \HA. Now play a \C to your \C9, which loses to West's \CK. West plays another \S.
 
-Now play the \HT, and when West follows you are safe to overtake with dummy's \HJ since you can tell that East did not start with 4 \Hs. In fact, East shows out so it is West who started with 4 \Hs but that won't be a problem for you. Play another \C from dummy, finessing the \CT which wins.
+Now play the ! H10, and when West follows you are safe to overtake with dummy's \HJ since you can tell that East did not start with 4 \Hs. In fact, East shows out so it is West who started with 4 \Hs but that won't be a problem for you. Play another \C from dummy, finessing the \CT which wins.
 
 Now play your \H3 toward dummy, finessing the \H8 when West follows with a low card. Play dummy's two \H winners, discarding \Ds,  then the low \C to your \CJ. Wow.
 
@@ -959,7 +999,7 @@ If you just play a small \C toward the \CQ that will work whenever West holds th
 
 How about playing \CA an a small \C, planning on ruffing your third \C to get to dummy? Naaah. They will win the second \C and play a trump.
 
-There is actually a play that is T0% certain, no matter who holds the \CK.
+There is actually a play that is 100% certain, no matter who holds the \CK.
 
 Click NEXT. [NEXT]
 

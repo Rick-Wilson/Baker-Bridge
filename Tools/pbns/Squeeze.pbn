@@ -1,6 +1,46 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Float Justify NoHRStats STBorder STShade ShowHCP
+%BidAndCardSpacing Thin
+%BoardsPerPage 1
+%CardTableColors #008000,#ffffff,#aaaaaa
+%DDAFormat 0
+%DefaultPagination 0
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Georgia",12,400,0
+%Font:Diagram "Georgia",12,400,0
+%Font:Event "Georgia",20,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Georgia",11,400,0
+%GutterSize 500,500
+%HRTitleDate 2023.10.17
+%HRTitleSetID ""
+%HRTitleSetIDPrefix ""
+%HRTitleSite ""
+%HtmlClubs entity,"http://bridgecomposer.com/suitimg/c.gif"
+%HtmlDiamonds entity,"http://bridgecomposer.com/suitimg/d.gif"
+%HtmlHearts entity,"http://bridgecomposer.com/suitimg/h.gif"
+%HtmlNavBar 0.75,#cfe2f3
+%HtmlSpades entity,"http://bridgecomposer.com/suitimg/s.gif"
+%Margins 1000,1000,1000,1000
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%PipFont "Cards Decorative","Cards",0,0x53,0x48,0x44,0x43
+%ScoreTableColors #e6e6e6,#000000
+%SectionSpacing 12,0,0
+%SelectedBoard 0
+%ShowBoardLabels 1
+%ShowCardTable 2
+%TSTCustomSortOrder Default
+%TSTReport List
+%TSTReportOrder ByNumber
+%TSTReportShade Yes
+%Translate "Board %" "Deal %"
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-02-05 20:01:01
-%sourcefilename BakerBridge.csv
+%Created: 2026-02-05 20:22:01
+%sourcefilename BakerBridgeFull.csv
 %HRTitleEvent Squeeze
 [Event "Baker Bridge - Squeeze Plays"]
 [Board "1"]
@@ -256,7 +296,7 @@ East will follow to all three \Ds.  [NEXT]
 
 [PLAY N:DK,N:DQ,N:D7,E:D8,E:D6,E:D5,S:DA,S:D9,S:D3,W:H6,W:DT,W:D4]
 
-Now for the squeeze. Play dummy's \DJ and discard your \HT.
+Now for the squeeze. Play dummy's \DJ and discard your ! H10.
 
 If East discards the \SJ you will cash dummy's \S6, then win the last 3 \C tricks. 
 
@@ -315,7 +355,7 @@ But when you play the \D7 he is squeezed.
 
 He cannot dump his \SK because you would throw the \H8 and dummy would be high.
 
-So he will discard the \HT instead. At this point you know that the \SQ is worthless so you discard it. You win the final two tricks with the \HA and \HJ.}
+So he will discard the ! H10 instead. At this point you know that the \SQ is worthless so you discard it. You win the final two tricks with the \HA and \HJ.}
 [Play "W"]HK
 
 [Event "Baker Bridge - Squeeze Plays"]
@@ -344,7 +384,7 @@ Make a Plan, then click NEXT. [NEXT]
 
 East takes \C A K Q then switches to a trump.
 
-You must win the next T tricks but you only have 9 winners.
+You must win the next 10 tricks but you only have 9 winners.
 
 East opened 1NT, showing 15-17 points, and West has already produced 2 Jacks. So both the \SQ and \DK are with East and you will have to put the squeeze on him. [NEXT]
 
@@ -531,9 +571,9 @@ It is time.
 
 Play your \SJ and watch what West discards.
 
-If he holds on to the \DT you will discard dummy's useless \D9 and hope the \Hs all fall under the \H A K.
+If he holds on to the ! D10 you will discard dummy's useless \D9 and hope the \Hs all fall under the \H A K.
 
-If he discards the \DT then you throw dummy's small \H and dummy wins the last three tricks.}
+If he discards the ! D10 then you throw dummy's small \H and dummy wins the last three tricks.}
 [Play "W"]DJ
 
 [Event "Baker Bridge - Squeeze Plays"]
@@ -686,7 +726,7 @@ When you play the \D5 East must keep both \Ss to guard against your \S7. So he d
 
 Your \S7 is now worthless so you throw it.
 
-West has no problem, (yet), he discards the \HT. [NEXT]
+West has no problem, (yet), he discards the ! H10. [NEXT]
 
 [showcards N:C7,CK,HJ,S5 E:CQ,CT,SJ,ST S:C4,C8,CA,SK W:C5,C9,CJ,HQ]
 
@@ -798,7 +838,7 @@ Of course you ruffed the \SK.
 
 The big problem with trying to squeeze West in the black suits right now is that East actually holds a \S guard. But you can fix that.
 
-Play dummy's \HQ and \HT, then ruff a \S, then pull the last trump.  [NEXT]
+Play dummy's \HQ and ! H10, then ruff a \S, then pull the last trump.  [NEXT]
 
 [PLAY N:S8,N:HQ,N:HT,N:C5,E:SQ,E:H7,E:H5,E:H2,S:HK,S:HJ,S:H9,S:H8,W:S9,W:S4,W:H6,W:H4]
 
@@ -987,7 +1027,7 @@ So you play a low \D from each hand. [NEXT]
 
 [PLAY N:D5,E:D4,S:D3,W:DT]
 
-It doesn't matter which defender takes the \D, since either one is going to do the same thing. Assume West wins the \DT.
+It doesn't matter which defender takes the \D, since either one is going to do the same thing. Assume West wins the ! D10.
 
 He will then play the \SK, which you must ruff in your hand. [NEXT]
 
