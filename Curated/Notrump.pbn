@@ -1,0 +1,45 @@
+% Curated overrides for the Notrump Openings lesson.
+%
+% This preamble is not shipped: package_results.py keeps the generated file's
+% preamble and merges only the boards below (board-by-board, curated wins).
+%
+% Board 3 — issue #35. The source HTML deals South 15 HCP
+% (S QJT / H AQ / D T87 / C AQT95) while the narrative teaches the 16-point
+% invitation decision and says "with 15 points you decline invitations". A
+% student counting correctly passes, which is the opposite of the lesson.
+%
+% Fix: swap South's CT for East's CJ, giving South C AQJ95 = 16 HCP. The jack
+% is a working card opposite North's CK83, and the spot cards the narrative
+% praises (ST, DT, C9) all survive. The defect is in the original Baker Bridge
+% HTML, not in our pipeline, so this is an override rather than a parser fix.
+
+[Event "Baker Bridge - Notrump Openings"]
+[Board "3"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "W:AK2.9763.A643.72 865.K84.QJ95.K83 9743.JT52.K2.T64 QJT.AQ.T87.AQJ95"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result ""]
+[Auction "S"]
+1NT pass 2NT pass 3NT pass pass pass
+[BCFlags "1f"]
+[Category "Basic Bidding"]
+[Difficulty "beginner"]
+[SkillPath "basic_bidding/notrump_openings"]
+[Student "S"]
+{[show S]
+
+You dealt so it is your bid. What do you say? [BID 1NT]
+
+
+
+Of course you open 1NT. Partner responds 2NT. What do you say? [BID 3NT]
+
+[show NS]
+
+
+
+With 15 points you decline invitations, and with 17 points you accept. But with 16 you have to use your judgement. Some players will just automatically bid 3NT when they have 16 points, preferring to err on the side of boldness than to possibly miss bidding a makeable game. Others prefer to base their decision on how good the hand looks.
+
+With all the 10s and 9s this hand is stronger than 16 points, so you bid 3NT.}
