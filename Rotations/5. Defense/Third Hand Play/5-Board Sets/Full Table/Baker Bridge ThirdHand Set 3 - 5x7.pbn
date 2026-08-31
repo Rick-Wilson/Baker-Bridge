@@ -1,5 +1,5 @@
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-07-21 22:33:23
+%Created: 2026-07-14 19:59:38
 %sourcefilename BakerBridgeFull.csv
 %HRTitleEvent ThirdHand
 %bridge-classroom-stable: true
@@ -34,7 +34,8 @@ Your side needs to take 5 tricks to defeat this contract. Two of them will be \H
 That means you need to win 3 \D tricks and the only way that can happen is if you play \Ds from your side.
 
 So win the first \HK (so partner will know you also have the \HA), and play the \D10. Presumably North will play an honor, but East will take the trick and put you back on lead with your \HA. You play the \D9 and your side will collect 3 \D tricks to go with your 2\Hs.}
-[Play "W"]HQ
+[Play "E"]
+HQ
 
 [Event ""]
 [Site ""]
@@ -66,7 +67,8 @@ It is obvious that your side can only get 2 \S tricks. And assuming that East ha
 If partner has the \C A K then he will take them, but if he has the \C A J he cannot win 2 \C tricks from his side. 
 
 To allow for this situation it will be better to play \Cs from your side of the table, and the way to make that happen is for you to ruff partner's \SK with an otherwise useless trump. You still get your two \S winners (sort of) but now you get to play a \C through East's \CK at trick 3.}
-[Play "W"]SA
+[Play "S"]
+SA
 
 [Event ""]
 [Site ""]
@@ -100,7 +102,8 @@ To maintain communication with partner your best hope is to duck the first \H, b
 South wins the first trick easily, but must try to establish \Cs. He will enter dummy with the \SA, then try to run the \CQ.
 
 Not today. Partner takes the \CK and returns his \H2 to your four winners.}
-[Play "W"]H8
+[Play "W"]
+H8
 
 [Event ""]
 [Site ""]
@@ -134,7 +137,8 @@ You can figure out which it is.
 If it is a singleton, then West must hold 5 \Cs. But you know West has 4 \Ss, so if he also has 5 \Cs then he only has 4 red cards, and he would not have opened 1NT with either 5-4-2-2 or 5-4-3-1 distribution.
 
 So partner's \C9 is not a singleton, and you should wait. Declarer then runs dummy's \SQ. Partner wins the \SK, returns his OTHER \C to your \CA, and NOW you give him the ruff. He takes the \DA for down 1.}
-[Play "W"]C9
+[Play "N"]
+C9
 
 [Event ""]
 [Site ""]
@@ -166,7 +170,8 @@ Declarer gets two \H winners whether you play one of your honors on this trick o
 Suppose you cover with your \HQ. North will win his \HA, then play \Cs until your \CA is forced out on the third round. He can then force an entry to dummy in the \H suit to reach the two \C winners.
 
 Now suppose you duck the \HJ. Again North will push \Cs, and again you hold up until the third round. Ahh, what a difference. Now declarer cannot use the \Hs to enter dummy and he will never get to enjoy those two \C winners.}
-[Play "W"]HT
+[Play "E"]
+HT
 
 [Event ""]
 [Site ""]

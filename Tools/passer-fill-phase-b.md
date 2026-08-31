@@ -87,9 +87,10 @@ folder. `BB_PACKAGE_DIR` (env) drives the target; `package_results.py`, `stamp_b
 to `bridge-classroom/` in `build-mac.sh` (override to rebuild the orphan `Package/`).
 
 > PDFs are **not** committed to `bridge-classroom/` — they are print handouts, not producer-
-> contract artifacts, and the full `classroom`/`rotations` build regenerates them from the
-> re-rolled PBNs via the `pbn-pdf` phase. Shipping the stale `pbns/` PDFs would contradict
-> the new passers.
+> contract artifacts. The `rotations` build renders them from the re-rolled PBNs, in the
+> `rotate` phase, into `Rotations/`. (`pbns/` no longer holds PDFs at all: the old `pbn-pdf`
+> phase rendered them from PBNs that still carried the control tags, and nothing consumed
+> them.)
 
 ## Windows build path removed
 
@@ -102,7 +103,7 @@ scripts, `auction-fixes/validate_bba.py`, and the SSH/Windows BBA validation ins
 
 ```bash
 cd Tools
-./build-mac.sh classroom            # parse … fill → reroll → pbn → pbn-pdf → package → stamp
+./build-mac.sh classroom            # parse … fill → reroll → pbn → package → stamp → export
 ./build-mac.sh reroll               # just the re-roll (reuses passer_cache.csv)
 ./build-mac.sh reroll REROLL_ARGS=--revalidate   # re-check cached fills against BBA
 BB_PACKAGE_DIR=bridge-classroom python3 audit_passers.py   # regression audit

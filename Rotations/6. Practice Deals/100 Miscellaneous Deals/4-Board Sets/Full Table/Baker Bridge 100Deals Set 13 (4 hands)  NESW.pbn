@@ -1,5 +1,5 @@
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-07-21 22:33:23
+%Created: 2026-07-14 19:59:38
 %sourcefilename BakerBridgeFull.csv
 %HRTitleEvent 100Deals
 %bridge-classroom-stable: true
@@ -44,7 +44,8 @@ Lead the \ST. East must win with his \SJ. Let's say he plays a \C. Win with dumm
 It is extra nice when the opponents hand you a contract.
 
 You cannot make 10 tricks unless East's opening lead is a \S. }
-[Play "W"]SK
+[Play "E"]
+SK
 
 [Event ""]
 [Site ""]
@@ -100,7 +101,8 @@ You pull trumps in one round with your \SK. Play \D A K, then ruff a \D. if both
 Establishing a long side suit in dummy is one of the basic ways to eliminate a loser.
 
 In this hand you could not be defeated unless the \Ds split 5-1.}
-[Play "W"]CA
+[Play "S"]
+HQ
 
 [Event ""]
 [Site ""]
@@ -146,7 +148,8 @@ You can see that playing a \C from dummy will guarantee the contract.
 You can also see that leading a \H back to your hand at trick 2 is a bad idea.
 
 But did you see there is another way to reach your hand? You could play \SA then ruff a \S. This runs the small risk that East started with a singleton \S.}
-[Play "W"]SQ
+[Play "W"]
+SQ
 
 [Event ""]
 [Site ""]
@@ -194,5 +197,6 @@ The defenders may not lead trumps to try to stop your ruff.
 In that case you must be sure to ruff the fourth \H with the \SQ or the \S9. If South wants to over-ruff it will be with the \SA which you must lose anyway.
 
 Look at what would have happened if you had led a trump at trick 2. South could have won the \SA and played another \S. Then, when North took the third \H he could lead his last \S and dummy would have no trump to ruff the final \H with.}
-[Play "W"]DK
+[Play "N"]
+DK
 

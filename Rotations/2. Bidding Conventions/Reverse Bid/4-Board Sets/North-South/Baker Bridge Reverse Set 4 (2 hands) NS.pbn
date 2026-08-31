@@ -1,5 +1,5 @@
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-07-21 22:33:23
+%Created: 2026-07-14 19:59:38
 %sourcefilename BakerBridgeFull.csv
 %HRTitleEvent Reverse
 %bridge-classroom-stable: true
@@ -23,6 +23,8 @@
 [SkillPath "bidding_conventions/reverse_bids"]
 [Student "S"]
 {With partner showing 17 or more points, your 13 brings you to game level. You want to support partner's \Ds but you must jump to show that you have more than 8 points. So you bid 4\D and partner raises it to game.}
+[Play "E"]
+SQ
 
 [Event ""]
 [Site ""]
@@ -46,4 +48,6 @@
 {You only have 15 points, not enough to Reverse, so you cannot bid the \H suit.
 
 Instead you content yourself with 1NT. Partner passes.}
+[Play "W"]
+C7
 
