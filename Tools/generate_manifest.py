@@ -15,8 +15,8 @@ Schema (shared v2 format; see Bridge-Classroom design/collection-manifest doc):
 
     {
       "schemaVersion": 2,
-      "generatedAtCommit": "<git HEAD>",
-      "generatedAt": "<ISO 8601>",
+      "generatedAtCommit": "<commit of the deal set>",
+      "generatedAt": "<ISO 8601, pinned to the deal set>",
       "lessons": {
         "<PbnBasename>": {                 # key = PBN basename = deal_subfolder
           "skillPath": "...",              # lesson-level default
@@ -48,15 +48,41 @@ import sys
 SCHEMA_VERSION = 3  # v3: optional per-lesson "intro" (companion _Intro.pdf), additive
 
 
-def git_head_commit(repo_dir):
-    """Return the current commit SHA, or None if unavailable."""
+# Provenance is taken from the *deal set* that produced this manifest, not from the clock or
+# from HEAD. The packaging build is idempotent -- the same deal set yields byte-identical
+# output -- and wall-clock provenance would break that, rewriting manifest.json on every run
+# and burying real changes. Describing the input is also the more useful fact: it says which
+# deals these boards came from, not which minute the build happened to run.
+DEALS_CSV = "BakerBridgeFull.csv"
+
+
+def _git(repo_dir, *args):
     try:
-        out = subprocess.run(
-            ["git", "-C", repo_dir, "rev-parse", "HEAD"],
-            capture_output=True, text=True, check=True)
+        out = subprocess.run(["git", "-C", repo_dir, *args],
+                             capture_output=True, text=True, check=True)
         return out.stdout.strip() or None
-    except (subprocess.CalledProcessError, FileNotFoundError):
+    except (subprocess.CalledProcessError, FileNotFoundError, OSError):
         return None
+
+
+def deals_commit(repo_dir):
+    """The commit that last touched the deal set, or HEAD if it has never been committed."""
+    return (_git(repo_dir, "log", "-1", "--format=%H", "--", f"Tools/{DEALS_CSV}")
+            or _git(repo_dir, "rev-parse", "HEAD"))
+
+
+def build_timestamp(repo_dir):
+    """BB_BUILD_DATE, else the deal set's last commit date, else now.
+
+    Mirrors resolve_build_time() in CSV_to_PBN.py and resolve_build_date() in
+    build-common.sh -- one rule, so every generated artifact agrees.
+    """
+    override = os.environ.get("BB_BUILD_DATE")
+    if override:
+        return override
+    stamp = _git(repo_dir, "log", "-1", "--format=%cd",
+                 "--date=format:%Y-%m-%dT%H:%M:%S", "--", f"Tools/{DEALS_CSV}")
+    return stamp or datetime.datetime.now().isoformat()
 
 
 def file_stable_default(preamble):
@@ -147,8 +173,8 @@ def build_manifest(package_dir):
     repo_dir = os.path.dirname(os.path.abspath(package_dir.rstrip("/")))
     return {
         "schemaVersion": SCHEMA_VERSION,
-        "generatedAtCommit": git_head_commit(repo_dir),
-        "generatedAt": datetime.datetime.now().isoformat(),
+        "generatedAtCommit": deals_commit(repo_dir),
+        "generatedAt": build_timestamp(repo_dir),
         "lessons": lessons,
     }
 

@@ -1,0 +1,408 @@
+#!/bin/bash
+#
+# build-materials.sh - packaging: BakerBridgeFull.csv -> the published trees
+#
+# THIS HALF IS IDEMPOTENT. It is a pure function of the deal set (plus Curated/, the
+# showcards answer key and titles.csv): the same CSV in, byte-identical artifacts out. The
+# PBN "%Created:" stamp is pinned to the deal set rather than the clock (see
+# resolve_build_time() in CSV_to_PBN.py), so re-running on an unchanged CSV leaves a clean
+# `git status` -- which makes "did my packaging change actually change anything?" something
+# you can read off git rather than investigate.
+#
+# Run it freely: after a packaging tweak, a bridge-wrangler upgrade, a Curated/ override, a
+# bridge-lesson-packaging update. It never changes board identity -- only build-deals.sh
+# does that.
+#
+# Usage:
+#   ./build-materials.sh [phase|shortcut] [options]
+#
+# Shortcuts:
+#   classroom      The app export:      pbn → package → stamp → export
+#   rotations      The teaching tree:   ... → presentation → rotate → manifest → stats
+#
+# Individual phases:
+#   (none)         Show list of available phases
+#   *              Run all phases (except publish)
+#   pbn            Convert the deal set to PBN format
+#   intro-pdf      Convert introduction pages to PDF
+#   package        Package results into Collection/
+#   stamp          Stamp board tokens and generate manifest
+#   export         Export bridge-classroom contract files from Collection
+#   presentation   Create presentation structure
+#   rotate         Generate rotations for multi-table play
+#   manifest       Rotations navigation manifest (for the web picker)
+#   stats          Lesson statistics (JSON + HTML)
+#   publish        Mirror Rotations/ to the public Google Drive teacher folder
+#
+# Options:
+#   --lesson NAME  Filter to a specific lesson (presentation/rotate/publish steps)
+#   --clean        Remove existing build artifacts before building
+#   --help         Show this message
+#
+
+set -e
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+source "$SCRIPT_DIR/build-common.sh"
+
+PHASES=(
+    "pbn|Convert the deal set to PBN format"
+    "intro-pdf|Convert introduction pages to PDF"
+    "package|Package results"
+    "stamp|Stamp board tokens and generate manifest"
+    "export|Export bridge-classroom contract files from Collection"
+    "presentation|Create presentation structure"
+    "rotate|Generate rotations for multi-table play"
+    "manifest|Rotations navigation manifest (JSON) via the shared tool"
+    "stats|Lesson statistics (JSON + HTML) via the shared tool"
+    "publish|Publish Rotations/ to the public Google Drive teacher folder (delete + copy; explicit, excluded from '*')"
+)
+
+CLEAN=false
+LESSON=""
+PHASE=""
+while [[ $# -gt 0 ]]; do
+    case $1 in
+        --clean) CLEAN=true; shift ;;
+        --lesson)
+            if [[ -z "$2" || "$2" == -* ]]; then echo "Error: --lesson requires a name"; exit 1; fi
+            LESSON="$2"; shift 2 ;;
+        --help|-h) head -42 "$0" | tail -39; exit 0 ;;
+        -*) echo "Unknown option: $1"; exit 1 ;;
+        *)
+            if [[ -z "$PHASE" ]]; then PHASE="$1"; else echo "Error: Multiple phases specified"; exit 1; fi
+            shift ;;
+    esac
+done
+
+require_deals() {
+    [[ -f "$DEALS_CSV" ]] || error "$(basename "$DEALS_CSV") not found. Run ./build-deals.sh '*' first."
+}
+
+phase_pbn() {
+    local csv_file="${1:-BakerBridgeFull.csv}"
+    step "Convert to PBN Format (from $csv_file)"
+    cd "$SCRIPT_DIR"
+    if [[ ! -f "$csv_file" ]]; then
+        error "$csv_file not found."
+    fi
+    python3 CSV_to_PBN.py "$csv_file"
+    # Inject the defense-lesson [showcards] dummy-card fixes (answer key; the
+    # cards can't be recovered from the source HTML — see apply_showcards_dummy.py).
+    python3 apply_showcards_dummy.py pbns
+    PBN_COUNT=$(find pbns -name "*.pbn" | wc -l | tr -d ' ')
+    echo "Output: pbns/ ($PBN_COUNT PBN files)"
+}
+
+phase_intro_pdf() {
+    step "Convert Introduction Pages to PDF (using html2pdf)"
+    cd "$SCRIPT_DIR"
+    if command -v html2pdf &> /dev/null; then
+        ./convert_html_to_pdf.sh 2>&1 | grep -E "^(Converting:|Conversion|  Total|  Converted|  Failed)"
+        INTRO_PDF_COUNT=$(find pdfs -name "*.pdf" 2>/dev/null | wc -l | tr -d ' ')
+        echo "Output: pdfs/ ($INTRO_PDF_COUNT intro PDFs)"
+    else
+        warn "Skipping - html2pdf not found"
+        warn "Install with: brew install ilaborie/tap/html2pdf"
+        mkdir -p pdfs
+    fi
+}
+
+phase_package() {
+    step "Package Results"
+    cd "$SCRIPT_DIR"
+    mkdir -p "$PACKAGE_DIR"
+    python3 package_results.py
+    # titles.csv is a static asset (not generated); seed it into the output dir from the
+    # canonical copy that still lives in the orphaned Package/.
+    if [[ -f "$REPO_ROOT/Package/titles.csv" && ! -f "$PACKAGE_DIR/titles.csv" ]]; then
+        cp "$REPO_ROOT/Package/titles.csv" "$PACKAGE_DIR/"
+    fi
+    # Companion lesson intros (*_Intro.pdf) are contract artifacts shown in the app. They are
+    # generated by the intro-pdf phase (needs html2pdf); when that ran, package_results.py
+    # already copied them. Otherwise seed the canonical committed intros from Package/.
+    for intro in "$REPO_ROOT/Package"/*_Intro.pdf; do
+        [[ -e "$intro" ]] || break
+        [[ -f "$PACKAGE_DIR/$(basename "$intro")" ]] || cp "$intro" "$PACKAGE_DIR/"
+    done
+    PKG_COUNT=$(find "$PACKAGE_DIR" -type f | wc -l | tr -d ' ')
+    echo "Output: $PACKAGE_DIR ($PKG_COUNT files)"
+}
+
+phase_stamp() {
+    step "Stamp Board Tokens + Manifest"
+    cd "$SCRIPT_DIR"
+    # Must run AFTER package_results.py (curated merge): both the board-version
+    # tokens and the manifest are stamped from the final released Package/ content.
+    python3 stamp_board_tokens.py
+    python3 generate_manifest.py
+    echo "Output: $COLLECTION_DIR/*.pbn tokens + $COLLECTION_DIR/manifest.json"
+}
+
+phase_export() {
+    step "Export Bridge-Classroom Contract Files (from Collection)"
+    cd "$SCRIPT_DIR"
+    # bridge-classroom/ is the app's contracted export, copied out of the Collection master:
+    # control-tag PBNs + manifest.json + toc.json + titles.csv + optional *_Intro.pdf.
+    # (PDFs other than intros are teaching artifacts and are NOT part of the app contract.)
+    if [[ ! -d "$COLLECTION_DIR" ]]; then
+        error "Collection/ not found. Run 'package' + 'stamp' first."
+    fi
+    mkdir -p "$BRIDGE_CLASSROOM_DIR"
+    # Clear stale exports, then copy the current contract set.
+    find "$BRIDGE_CLASSROOM_DIR" -type f \( -name '*.pbn' -o -name '*.json' \
+        -o -name 'titles.csv' -o -name '*_Intro.pdf' \) -delete 2>/dev/null || true
+    for pat in '*.pbn' 'manifest.json' 'toc.json' 'titles.csv' '*_Intro.pdf'; do
+        for f in "$COLLECTION_DIR"/$pat; do
+            [[ -e "$f" ]] && cp "$f" "$BRIDGE_CLASSROOM_DIR/"
+        done
+    done
+    BC_COUNT=$(find "$BRIDGE_CLASSROOM_DIR" -type f | wc -l | tr -d ' ')
+    echo "Output: bridge-classroom/ ($BC_COUNT contract files)"
+}
+
+phase_presentation() {
+    step "Create Presentation Structure"
+    cd "$REPO_ROOT"
+    python3 Tools/package_presentation.py
+    PRES_COUNT=$(find "$REPO_ROOT/Presentation" -type f | wc -l | tr -d ' ')
+    echo "Output: Presentation/ ($PRES_COUNT files)"
+}
+
+phase_rotate() {
+    local filter="${1:-*}"
+    step "Generate Rotations (shared bridge-lesson-packaging builder) [filter: $filter]"
+    cd "$REPO_ROOT"
+    check_tool "$BRIDGE_WRANGLER_PATH" "bridge-wrangler"
+    if [[ ! -f "$PACKAGER" ]]; then
+        error "shared packager not found at $PACKAGER
+    Clone github.com/bridge-craftwork/bridge-lesson-packaging, or set PACKAGER=<path>."
+    fi
+    # Config (Tools/baker.conf) supplies INPUT_DIR/OUTPUT_DIR/SET_SIZES/DECLARER_PLAN_CATEGORY.
+    bash "$PACKAGER" --config "$SCRIPT_DIR/baker.conf" "$filter" "*"
+    ROT_COUNT=$(find "$REPO_ROOT/Rotations" -type f | wc -l | tr -d ' ')
+    echo "Output: Rotations/ ($ROT_COUNT files)"
+}
+
+phase_rotations_manifest() {
+    step "Rotations Manifest (shared tool)"
+    cd "$SCRIPT_DIR"
+    if [[ ! -d "$REPO_ROOT/Rotations" ]]; then
+        warn "Rotations/ not found; skipping manifest"; return 0
+    fi
+    if [[ ! -f "$MANIFEST_TOOL" ]]; then
+        warn "manifest tool not found at $MANIFEST_TOOL (bridge-lesson-packaging); skipping"
+        return 0
+    fi
+    # The navigation index over the packaged tree: category -> lesson -> set size -> set ->
+    # table view, plus each lesson's intro PDF. Consumed by the pbn-to-pdf web demo's picker
+    # (fetched from raw.githubusercontent, the way it already reads bridge-classroom/toc.json).
+    # Distinct from bridge-classroom/manifest.json, which is the producer-contract board
+    # manifest -- this one carries no board identity, only the shape of the materials.
+    python3 "$MANIFEST_TOOL" "$REPO_ROOT/Rotations" --name "Baker Bridge" \
+        --generated-at "$(resolve_build_date)"
+    echo "Output: Rotations/manifest.json"
+}
+
+phase_stats() {
+    step "Lesson Statistics (shared tool)"
+    cd "$SCRIPT_DIR"
+    if [[ ! -d "$REPO_ROOT/Rotations" ]]; then
+        warn "Rotations/ not found; skipping stats"; return 0
+    fi
+    if [[ ! -f "$STATS_TOOL" ]]; then
+        warn "stats tool not found at $STATS_TOOL (bridge-lesson-packaging); skipping"; return 0
+    fi
+    # Convert the accumulated durations TSV to JSON for the report.
+    local dur_arg=()
+    if [[ -s "$BUILD_DURATIONS_TSV" ]]; then
+        local dur_json="$SCRIPT_DIR/build-durations.json"
+        awk 'BEGIN{print "{"} {printf "%s  \"%s\": %s", (NR>1?",\n":""), $1, $2}
+             END{print "\n}"}' "$BUILD_DURATIONS_TSV" > "$dur_json"
+        dur_arg=(--durations "$dur_json")
+    fi
+    python3 "$STATS_TOOL" "$REPO_ROOT/Rotations" --name "Baker Bridge" \
+        "${dur_arg[@]}" \
+        --generated-at "$(resolve_build_date)" \
+        --json "$REPO_ROOT/Rotations/stats.json" \
+        --html "$REPO_ROOT/Rotations/stats.html"
+    echo "Output: Rotations/stats.json + Rotations/stats.html"
+}
+
+phase_publish() {
+    # Publish Rotations/ (our face-to-face product) to the public Google Drive teacher folder.
+    # Method: mass-delete the old copy, then ONE bulk copy of the new. On the Google Drive
+    # FUSE mount this is far faster than a per-file rsync (Drive batches a bulk copy; a
+    # per-file sync thrashes the mount). This is also how it's published by hand in Finder.
+    # It inherently drops anything no longer in the master (the whole target is replaced).
+    # Whole tree by default, or a single lesson with --lesson (matches the lesson folder name).
+    # Deliberately NOT part of the classroom/rotations shortcuts or '*': publishing is an
+    # explicit, outward-facing release action. PUBLISH_ARGS=-n previews without touching Drive.
+    local filter="${LESSON:-}"
+    local dry=""; [[ "$PUBLISH_ARGS" == *-n* ]] && dry=1
+    step "Publish Rotations -> Google Drive"
+    if [[ ! -d "$REPO_ROOT/Rotations" ]]; then
+        error "Rotations/ not found. Run 'rotate' first."
+    fi
+    # Safety: never rm -rf an unsafe target.
+    case "$PUBLISH_DIR" in
+        ""|"/"|"$HOME"|"$HOME/") error "Refusing to publish to unsafe path: '$PUBLISH_DIR'" ;;
+    esac
+    local destparent; destparent="$(dirname "$PUBLISH_DIR")"
+    if [[ ! -d "$destparent" ]]; then
+        error "Publish target parent not found: $destparent
+    (is Google Drive mounted? override the location with BB_PUBLISH_DIR=...)"
+    fi
+    if [[ -z "$filter" || "$filter" == "*" ]]; then
+        echo "Replacing the entire collection at:"
+        echo "  $PUBLISH_DIR"
+        if [[ -n "$dry" ]]; then
+            echo "[dry-run] rm -rf \"\$PUBLISH_DIR\" && cp -R Rotations \"\$PUBLISH_DIR\""
+        else
+            rm -rf "$PUBLISH_DIR"
+            cp -R "$REPO_ROOT/Rotations" "$PUBLISH_DIR"
+            echo "Published: entire tree ($(find "$PUBLISH_DIR" -type f | wc -l | tr -d ' ') files)."
+        fi
+    else
+        local found=0 lessondir rel
+        while IFS= read -r lessondir; do
+            found=1
+            rel="${lessondir#$REPO_ROOT/Rotations/}"
+            if [[ -n "$dry" ]]; then
+                echo "[dry-run] replace: $rel"
+            else
+                rm -rf "$PUBLISH_DIR/$rel"
+                mkdir -p "$(dirname "$PUBLISH_DIR/$rel")"
+                cp -R "$lessondir" "$PUBLISH_DIR/$rel"
+                echo "Published: $rel"
+            fi
+        done < <(find "$REPO_ROOT/Rotations" -mindepth 2 -maxdepth 2 -type d -iname "*$filter*")
+        [[ "$found" == 1 ]] || warn "No Rotations lesson folder matched '$filter'"
+    fi
+    echo "Done. Google Drive Desktop will sync in the background."
+}
+
+do_clean() {
+    step "Cleaning build artifacts"
+    cd "$SCRIPT_DIR"
+    rm -rf pbns pdfs
+    rm -rf "$COLLECTION_DIR" "$BRIDGE_CLASSROOM_DIR" "$REPO_ROOT/Presentation" "$REPO_ROOT/Rotations"
+    echo "Cleaned: pbns/, pdfs/, Collection/, bridge-classroom/, Presentation/, Rotations/"
+    echo "(the deal set itself is untouched - that belongs to build-deals.sh)"
+}
+
+show_phases() {
+    echo -e "${GREEN}Shortcuts:${NC}"
+    echo ""
+    printf "  %-14s %s\n" "classroom" "Build the app export (pbn → package → stamp → export)"
+    printf "  %-14s %s\n" "rotations" "Build the teaching tree (... → presentation → rotate → manifest → stats)"
+    echo ""
+    echo -e "${GREEN}Individual phases:${NC}"
+    echo ""
+    show_phase_table "${PHASES[@]}"
+    echo ""
+    echo -e "${GREEN}Options:${NC}"
+    echo ""
+    printf "  %-18s %s\n" "--lesson NAME" "Filter to a specific lesson (presentation/rotate steps)"
+    printf "  %-18s %s\n" "--clean" "Remove build artifacts before building"
+    echo ""
+    echo "Examples:"
+    echo "  ./build-materials.sh classroom                 Rebuild the app export"
+    echo "  ./build-materials.sh rotations                 Rebuild the teaching materials"
+    echo "  ./build-materials.sh rotate --lesson Finesse   Just rotate one lesson"
+    echo "  ./build-materials.sh publish                   Mirror all Rotations to Google Drive"
+    echo ""
+    echo "The deal set is built separately, and rarely: ./build-deals.sh"
+}
+
+run_phase() {
+    case "$1" in
+        pbn)          phase_pbn ;;
+        intro-pdf)    phase_intro_pdf ;;
+        package)      phase_package ;;
+        stamp)        phase_stamp ;;
+        export)       phase_export ;;
+        presentation) phase_presentation ;;
+        rotate)       phase_rotate "${LESSON:-*}" ;;
+        manifest)     phase_rotations_manifest ;;
+        stats)        phase_stats ;;
+        publish)      phase_publish ;;
+        *)
+            echo "Unknown phase: $1"; echo ""; show_phases; exit 1 ;;
+    esac
+}
+
+run_classroom() {
+    echo -e "${GREEN}╔════════════════════════════════════════════════════════════╗${NC}"
+    echo -e "${GREEN}║       Baker Bridge - Classroom App Build                   ║${NC}"
+    echo -e "${GREEN}╚════════════════════════════════════════════════════════════╝${NC}"
+    echo ""
+    require_deals
+    phase_pbn "$(basename "$DEALS_CSV")"
+    phase_package
+    phase_stamp
+    phase_export
+    echo ""
+    echo -e "${GREEN}Classroom build complete.${NC}"
+    echo "Output: bridge-classroom/ ($(find "$BRIDGE_CLASSROOM_DIR" -type f 2>/dev/null | wc -l | tr -d ' ') files)"
+}
+
+run_rotations() {
+    local filter="${LESSON:-*}"
+    echo -e "${GREEN}╔════════════════════════════════════════════════════════════╗${NC}"
+    echo -e "${GREEN}║       Baker Bridge - Rotations Build                       ║${NC}"
+    echo -e "${GREEN}╚════════════════════════════════════════════════════════════╝${NC}"
+    echo ""
+    [[ "$filter" != "*" ]] && { echo "Lesson filter: $filter"; echo ""; }
+    require_deals
+    check_tool "$BRIDGE_WRANGLER_PATH" "bridge-wrangler"
+    : > "$BUILD_DURATIONS_TSV"   # reset build-duration log
+
+    timed pbn phase_pbn "$(basename "$DEALS_CSV")"
+    timed package phase_package
+    timed stamp phase_stamp
+    timed export phase_export
+    timed presentation phase_presentation
+    timed rotate phase_rotate "$filter"
+    timed manifest phase_rotations_manifest
+    timed stats phase_stats
+
+    echo ""
+    echo -e "${GREEN}Rotations build complete.${NC}"
+    echo "Output: Rotations/ ($(find "$REPO_ROOT/Rotations" -type f 2>/dev/null | wc -l | tr -d ' ') files)"
+}
+
+run_all_phases() {
+    echo -e "${GREEN}╔════════════════════════════════════════════════════════════╗${NC}"
+    echo -e "${GREEN}║       Baker Bridge - Materials Build (all phases)          ║${NC}"
+    echo -e "${GREEN}╚════════════════════════════════════════════════════════════╝${NC}"
+    echo ""
+    require_deals
+    check_tool "$BRIDGE_WRANGLER_PATH" "bridge-wrangler"
+    : > "$BUILD_DURATIONS_TSV"
+    for entry in "${PHASES[@]}"; do
+        local name="${entry%%|*}"
+        # 'publish' pushes to a public Google Drive; never run it implicitly.
+        [[ "$name" == "publish" ]] && continue
+        timed "$name" run_phase "$name"
+    done
+    echo ""
+    echo -e "${GREEN}Build complete.${NC}"
+    echo "  - Collection/       : $(find "$COLLECTION_DIR" -type f 2>/dev/null | wc -l | tr -d ' ') files"
+    echo "  - bridge-classroom/ : $(find "$BRIDGE_CLASSROOM_DIR" -type f 2>/dev/null | wc -l | tr -d ' ') files"
+    echo "  - Rotations/        : $(find "$REPO_ROOT/Rotations" -type f 2>/dev/null | wc -l | tr -d ' ') files"
+}
+
+[[ "$CLEAN" == true ]] && do_clean
+
+if [[ -z "$PHASE" ]]; then
+    show_phases
+elif [[ "$PHASE" == "classroom" ]]; then
+    run_classroom
+elif [[ "$PHASE" == "rotations" ]]; then
+    run_rotations
+elif [[ "$PHASE" == "*" ]]; then
+    run_all_phases
+else
+    run_phase "$PHASE"
+fi

@@ -1,5 +1,5 @@
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-07-21 22:33:23
+%Created: 2026-07-14 19:59:38
 %sourcefilename BakerBridgeFull.csv
 %HRTitleEvent OLead
 %bridge-classroom-stable: true
@@ -35,6 +35,8 @@ It is very likely that declarer will want to do some cross-trumping. To try to c
 Just imagine that declarer wins the first \S in his hand and plays a \H to dummy's honors. West will win and play another trump. Whenever you win your first \D you will play your last trump.
 
 As you can imagine, declarer will be in a whole lot of trouble.}
+[Play "E"]
+S3
 
 [Event ""]
 [Site ""]
@@ -66,7 +68,8 @@ It's different when the conract is 6NT. Against 6NT you should make a passive le
 So any passive lead would be OK, you pick the \H just because they are less likely to have an unbid 4-card Major in either hand.
 
 Declarer has 11 winners sitting there; if you had led a low \S you would have handed him his 12 trick on a platter.}
-[Play "W"]H6
+[Play "S"]
+H6
 
 [Event ""]
 [Site ""]
@@ -98,7 +101,8 @@ Against a suit slam the situation is very different. Against strong dummy biddin
 Your most promising suit is \Ss. Obviously partner has a very weak hand, but if he has the \SQ you can set up your \SK before your King of trumps is dislodged.
 
 Without a \S lead declarer will have smooth sailing.}
-[Play "W"]S4
+[Play "W"]
+S4
 
 [Event ""]
 [Site ""]
@@ -126,7 +130,8 @@ Lead the \H4.
 This is a close call. The top of your \S honor sequence is very tempting, but even when you find partner with the \SK you can still only establish three \S winners to go with your \CA. Unfortunately, that's not enough to defeat the contract.
 
 Leading a \H from your 5-card suit is riskier, but it has the potential of setting up an additional winner. In this hand, as you see, the \H lead gets you 4 \H winners to go with your \CA. }
-[Play "W"]H4
+[Play "N"]
+H4
 
 [Event ""]
 [Site ""]
@@ -156,7 +161,8 @@ And leading from a doubleton in a suit the opponents have bid is almost as bad.
 So by process of elimination you lead a trump, probably the \H9.
 
 And when North plays \Cs, (preparing to ruff in dummy), you will win and play another trump. Even if North guesses the \Ss correctly he will not be able to make the contract. }
-[Play "W"]H9
+[Play "E"]
+H9
 
 [Event ""]
 [Site ""]

@@ -44,7 +44,9 @@ Baker-Bridge/
 |   +-- CSV_to_PBN.py   # CSV -> PBN converter
 |   +-- passer_reroll.py# BBA-reject passer fill (+ passer_cache.csv)
 |   +-- audit_passers.py# BBA-reject audit / regression check
-|   +-- build-mac.sh    # Build pipeline orchestrator
+|   +-- build-deals.sh  # Deal set: HTML -> BakerBridgeFull.csv (rare; not reproducible)
+|   +-- build-materials.sh # Packaging: the CSV -> published trees (idempotent)
+|   +-- build-common.sh # Shared config/helpers for both
 |   +-- pbns/           # Generated PBN + PDF files
 |   +-- pdfs/           # Generated intro PDFs
 |   +-- Anchors/        # Debug output from HTML parsing
@@ -64,7 +66,7 @@ Baker-Bridge/
 - Python 3.x with BeautifulSoup4 (`pip install beautifulsoup4`)
 - **dealer3** (Rust) — generates/deals constrained hands (`~/Development/GitHub/dealer3`)
 - **bba-cli** (Rust, native Mac BBA/EPBot) — the passer-fill BBA-reject backend, with `--auction-prefix` (`~/Development/GitHub/BBA-tools/bba-cli`)
-- **bridge-wrangler**, **pbn-to-pdf**, **pdf-handouts** (Rust) — PBN-to-PDF, hand rotations, and handout rendering for the `pbn-pdf`/`rotate` phases
+- **bridge-wrangler**, **pdf-handouts** (Rust) — PBN-to-PDF, hand rotations, and handout rendering for the `rotate` phase
 - html2pdf (optional) — for regenerating lesson intro pages: `brew install ilaborie/tap/html2pdf`
 
 ## Quick Start
@@ -72,26 +74,52 @@ Baker-Bridge/
 ```bash
 cd Tools
 
-# Build the app export (Collection -> bridge-classroom); reuses passer_cache.csv
-./build-mac.sh classroom
+# Build the app export (Collection -> bridge-classroom)
+./build-materials.sh classroom
 
 # Build the teaching materials (Collection -> Presentation -> Rotations)
-./build-mac.sh rotations
+./build-materials.sh rotations
 
-# Regenerate constrained hands from scratch (slow - runs dealer3)
-./build-mac.sh classroom --generate
+# Regenerate the deal set itself (rare - see the warning below)
+./build-deals.sh '*'
+./build-deals.sh '*' --generate          # also re-deal with dealer3 (slow)
 
 # Re-validate cached passer fills against BBA (otherwise the cache is trusted)
-REROLL_ARGS=--revalidate ./build-mac.sh reroll
+REROLL_ARGS=--revalidate ./build-deals.sh reroll
 ```
 
 `BB_PACKAGE_DIR` overrides the master folder (default `Collection/`); the package/stamp/manifest/toc/presentation/audit scripts all honor it.
 
 ## Build Pipeline
 
-`Tools/build-mac.sh` orchestrates the full pipeline. The `classroom` and `rotations`
-shortcuts share the same core phases; `classroom` ends at `export`, `rotations` adds
-`presentation` + `rotate`.
+The build is **two scripts**, split at `BakerBridgeFull.csv` — the deal set of record.
+They have opposite characters, and that is the whole point of the split:
+
+| | `build-deals.sh` | `build-materials.sh` |
+|---|---|---|
+| Produces | `BakerBridgeFull.csv` | `Collection/`, `bridge-classroom/`, `Presentation/`, `Rotations/` |
+| Reproducible? | **No** — `generate` deals fresh hands, and `bb_fill`'s E/W assignment is an unseeded shuffle | **Yes** — same CSV in, byte-identical output |
+| Changes board identity? | **Yes** — new deals mean new `[VersionToken]`s, and Bridge Classroom keys mastery and problem reports off those | Never |
+| Run it | rarely, and deliberately, when the *deals* must change | freely, for any packaging change |
+
+> The source HTML never changes, and `parse`/`validate`/`correct`/`sme` are deterministic: a
+> full re-run reproduces `BakerBridge.csv`, `BakerBridge-sme.csv`, `constructed_hands.csv`
+> and `passer_cache.csv` byte for byte. **Only `fill` moves.** That is why the seam is where
+> it is.
+
+`build-mac.sh` remains as a shim that forwards to `build-materials.sh`, since its old
+`classroom`/`rotations` shortcuts ran both halves — meaning a packaging change silently
+re-dealt hands.
+
+### Reproducible output
+
+`build-materials.sh` re-run on an unchanged deal set leaves a **clean `git status`**. Every
+generated PBN carries `%Created:`, and bridge-wrangler passes it through unchanged, so a
+wall-clock stamp would rewrite ~3,000 files out to `Rotations/` on every run and bury real
+changes in noise. The stamp is therefore derived from the input: `BB_BUILD_DATE` if set,
+else the deal set's last git commit date, else its mtime (`resolve_build_time()` in
+`CSV_to_PBN.py`; `resolve_build_date()` in `build-common.sh` does the same for `toc.json`
+and `stats.json`).
 
 ```
 HTML Files -> bbparse.py -> BakerBridge.csv
@@ -113,8 +141,6 @@ HTML Files -> bbparse.py -> BakerBridge.csv
         reroll (passer_reroll.py, BBA-reject + passer_cache.csv)
                                |
                     CSV_to_PBN.py -> pbns/*.pbn
-                               |
-                  convert_pbns_to_pdfs.py -> pbns/*.pdf
                                |
              package_results.py (+ Curated merge) -> Collection/
                                |
@@ -141,27 +167,27 @@ HTML Files -> bbparse.py -> BakerBridge.csv
 | **fill** | `bb_fill.py` | Merge generated hands into full dataset -> `BakerBridgeFull.csv` |
 | **reroll** | `passer_reroll.py` | BBA-reject re-roll of generated quiet passers (deterministic, cached) |
 | **pbn** | `CSV_to_PBN.py` | Convert CSV to PBN files -> `pbns/`; generate `toc.json` |
-| **pbn-pdf** | `convert_pbns_to_pdfs.py` | Convert PBNs to PDFs using bridge-wrangler |
-| **package** | `package_results.py` | Copy PBN/PDF to `Collection/`, merge `Curated/` overrides |
+| **package** | `package_results.py` | Copy PBNs (+ intro PDFs) to `Collection/`, merge `Curated/` overrides |
 | **stamp** | `stamp_board_tokens.py` + `generate_manifest.py` | Stamp `[VersionToken]`s, emit `manifest.json` |
-| **export** | (build-mac.sh) | Copy the contract files `Collection/` -> `bridge-classroom/` |
+| **export** | (build-materials.sh) | Copy the contract files `Collection/` -> `bridge-classroom/` |
 | **presentation** | `package_presentation.py` | Organize `Collection/` into `Presentation/` by category, strip interactive directives |
 | **rotate** | the shared `package.sh` (bridge-lesson-packaging) | Slice into board sets, rotate hands, generate dealing sheets -> `Rotations/` |
-| **publish** | (build-mac.sh) | Publish `Rotations/` to the public Google Drive teacher folder (delete + bulk copy) |
+| **manifest** | the shared `rotations_manifest.py` | Navigation index of `Rotations/` (category → lesson → set size → set → view + intro) -> `Rotations/manifest.json` |
+| **publish** | (build-materials.sh) | Publish `Rotations/` to the public Google Drive teacher folder (delete + bulk copy) |
 
 ### The --generate Flag
 
-The **generate** phase (running dealer3 to produce `constructed_hands.csv`) is the slowest step. By default both shortcuts skip it and reuse the existing `constructed_hands.csv`. Pass `--generate` to regenerate it. Note the **reroll** phase separately reuses the committed `passer_cache.csv` unless `REROLL_ARGS=--revalidate` is set.
+The **generate** phase (running dealer3 to produce `constructed_hands.csv`) is the slowest step, and lives in `build-deals.sh`. By default it is skipped and the existing `constructed_hands.csv` reused. Pass `--generate` to regenerate it. Note the **reroll** phase separately reuses the committed `passer_cache.csv` unless `REROLL_ARGS=--revalidate` is set.
 
 ### Running Individual Phases
 
 ```bash
-./build-mac.sh parse        # Just re-parse the HTML
-./build-mac.sh reroll       # Just re-roll passers (uses the cache)
-./build-mac.sh export       # Just re-export bridge-classroom from Collection
-./build-mac.sh rotate       # Just redo rotations
-./build-mac.sh '*'          # Run all phases sequentially
-./build-mac.sh --clean '*'  # Clean artifacts, then run all phases
+./build-deals.sh parse           # Just re-parse the HTML
+./build-deals.sh reroll          # Just re-roll passers (uses the cache)
+./build-materials.sh export      # Just re-export bridge-classroom from Collection
+./build-materials.sh rotate      # Just redo rotations
+./build-materials.sh '*'         # Run every packaging phase
+./build-materials.sh --clean '*' # Clean artifacts, then run every packaging phase
 ```
 
 ### Publishing to Google Drive
@@ -172,9 +198,9 @@ Google Drive folder. The `publish` phase replaces that folder with the current `
 inherently drops anything no longer in the master):
 
 ```bash
-./build-mac.sh publish                    # mirror the whole Rotations tree
-./build-mac.sh publish --lesson Ogust     # publish just one lesson folder
-PUBLISH_ARGS=-n ./build-mac.sh publish    # dry-run (show what would change)
+./build-materials.sh publish                    # mirror the whole Rotations tree
+./build-materials.sh publish --lesson Ogust     # publish just one lesson folder
+PUBLISH_ARGS=-n ./build-materials.sh publish    # dry-run (show what would change)
 ```
 
 `publish` is intentionally **not** part of the `classroom`/`rotations` shortcuts or `'*'` — it

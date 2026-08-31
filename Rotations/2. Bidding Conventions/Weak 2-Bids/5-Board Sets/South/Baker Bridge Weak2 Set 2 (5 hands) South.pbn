@@ -1,5 +1,5 @@
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-07-21 22:33:23
+%Created: 2026-07-14 19:59:38
 %sourcefilename BakerBridgeFull.csv
 %HRTitleEvent Weak2
 %bridge-classroom-stable: true
@@ -24,6 +24,8 @@
 [SkillPath "bidding_conventions/weak_2s"]
 [Student "S"]
 {You should raise to 4\S. Not that you expect partner to make it, he probably cannot.  Your raise is a preemptive measure, hoping to prevent the opponents from finding their \H fit. }
+[Play "W"]
+HK
 
 [Event ""]
 [Site ""]
@@ -46,6 +48,8 @@ You open with a Weak 2-Bid, 2\S. Partner responds 2NT. What do you say next?
 The 2NT bid is forcing. You have 11 points so you cannot reply 3\S. And your suit is not A K Q x x x so you cannot reply 3NT. That means you must bid a "feature" and your \HQ is the best you have. You bid 3\H and partner says 3\S. 
 
 Pass. When you have already described your hand perfectly, partner becomes the Captain.}
+[Play "W"]
+DT
 
 [Event ""]
 [Site ""]
@@ -64,6 +68,8 @@ Pass. When you have already described your hand perfectly, partner becomes the C
 [Auction "E"]
 1H 2S 3H 4S X pass pass pass
 {You should jump to 4\S, hoping to shut them out of their \H slam. As you can see they have at most one \S loser. Down 4 doubled for your side is much better than letting them bid and make a slam. Of course we know they should have continued bidding, but opponents sometimes make mistakes.}
+[Play "W"]
+DK
 
 [Event ""]
 [Site ""]
@@ -89,6 +95,8 @@ Pass. When you have already described your hand perfectly, partner becomes the C
 You open with a Weak 2-Bid, 2\D. Partner responds 2NT. What do you say next? 
 
 The 2NT bid is forcing and your suit is A K Q x x x. This is the standard guideline where you must rebid 3NT. When you do, partner passes. Nice.}
+[Play "W"]
+H2
 
 [Event ""]
 [Site ""]
@@ -110,4 +118,6 @@ The 2NT bid is forcing and your suit is A K Q x x x. This is the standard guidel
 [SkillPath "bidding_conventions/weak_2s"]
 [Student "S"]
 {You should raise to 4\S because that is what you expect partner to make. }
+[Play "W"]
+D4
 

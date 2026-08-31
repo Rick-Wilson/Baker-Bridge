@@ -2,12 +2,45 @@ import os
 import csv
 import sys
 import datetime
+import subprocess
 import re
 import json
 
 from lesson_context import render as render_bridge_context
 
 VERSION = "1.04"
+
+# =============================================================================
+# Build timestamp (reproducible builds)
+# =============================================================================
+# Every generated PBN carries "%Created:", and bridge-wrangler passes it through
+# unchanged -- so a wall-clock stamp here rewrites the timestamp of ~3000 files
+# all the way out to Rotations/, making every packaging run look like a content
+# change. The stamp is therefore derived from the *input*, not from the clock:
+# the same CSV always produces the same PBNs, byte for byte.
+#
+# Resolution order: BB_BUILD_DATE (explicit override) -> the source CSV's last
+# git commit date (stable across machines and fresh clones) -> its mtime.
+def resolve_build_time(source_path):
+    override = os.environ.get("BB_BUILD_DATE")
+    if override:
+        return override
+    try:
+        out = subprocess.run(
+            ["git", "log", "-1", "--format=%cd", "--date=format:%Y-%m-%d %H:%M:%S",
+             "--", source_path],
+            capture_output=True, text=True, timeout=10,
+            cwd=os.path.dirname(os.path.abspath(source_path)) or ".")
+        stamp = out.stdout.strip()
+        if out.returncode == 0 and stamp:
+            return stamp
+    except (OSError, subprocess.SubprocessError):
+        pass
+    mtime = os.path.getmtime(source_path)
+    return datetime.datetime.fromtimestamp(mtime).strftime("%Y-%m-%d %H:%M:%S")
+
+TOC_GENERATED_AT = None  # set from the source CSV once it is known
+
 
 # =============================================================================
 # BAKER BRIDGE TAXONOMY
@@ -438,7 +471,7 @@ def generate_toc_json(output_dir="../Package"):
         'description': 'Classic bridge lessons covering bidding conventions and play',
         'icon': '\u2660',  # ♠
         'version': VERSION,
-        'generatedAt': datetime.datetime.now().isoformat(),
+        'generatedAt': TOC_GENERATED_AT or datetime.datetime.now().isoformat(),
         'categories': categories
     }
 
@@ -503,7 +536,7 @@ Requirements:
   - Each hand is formatted as 'spades.hearts.diamonds.clubs'.
 - A '[BCFlags "1f"]' tag is added after the analysis.
 - A '[Result ""]' tag is added before the analysis.
-- The 'Lead' field is converted to '[Play "P"]card', where 'P' is the position (N/S/E/W) of the opening leader, determined as declarer's left-hand opponent.
+- The 'Lead' field is converted to a '[Play "P"]' tag followed by the card on the next line, where 'P' is the position (N/S/E/W) of the opening leader, determined as declarer's left-hand opponent.
 """
 
 # Function to load optional header
@@ -639,7 +672,11 @@ def determine_lead_position(declarer):
 def process_lead(lead, declarer):
     lead_position = determine_lead_position(declarer)
     if lead_position and lead:
-        return f"[Play \"{lead_position}\"]{lead}"
+        # The card goes on the line AFTER the tag pair. PBN puts section data on the
+        # following line(s) -- exactly as [Auction] is written a few lines below -- and a
+        # conforming reader that sees "[Play \"W\"]SJ" finds a Play section with no data
+        # and stray text after it, making the opening lead unreadable. See issue #42.
+        return f"[Play \"{lead_position}\"]\n{lead}"
     return ""
 
 # Function to clean and format auction
@@ -699,7 +736,9 @@ def write_pbn(file_path, content):
 
 # Main function to process CSV
 def convert_csv_to_pbn(csv_filename, header_filename=None, source_filename=None):
-    start_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    global TOC_GENERATED_AT
+    start_time = resolve_build_time(csv_filename)
+    TOC_GENERATED_AT = start_time
     source_file = os.path.basename(csv_filename)
     header_content = load_header(header_filename)
     

@@ -191,7 +191,20 @@ python3 stamp_board_tokens.py
 python3 generate_manifest.py
 ```
 
-(`Tools/build-mac.sh` runs all of these; steps 4–5 are its `stamp` phase, after `package`.)
+(`Tools/build-materials.sh` runs all of these; steps 4–5 are its `stamp` phase, after `package`.)
+
+**The build is two scripts** (split at `BakerBridgeFull.csv`, the deal set of record).
+`build-deals.sh` turns the HTML into that CSV and is **not reproducible** — `bb_fill`'s E/W
+assignment is an unseeded shuffle, so a re-run can change deals and therefore
+`[VersionToken]`s, which BC keys mastery and problem reports off. `build-materials.sh` turns
+the CSV into the published trees and **is** idempotent: the same CSV yields byte-identical
+output, so re-running it on an unchanged deal set leaves a clean `git status`. Packaging
+work uses `build-materials.sh` only. (`build-mac.sh` is a shim forwarding to it; its old
+`classroom`/`rotations` shortcuts ran both halves and silently re-dealt hands.)
+
+The PBN `%Created:` stamp is pinned to the deal set, not the clock — bridge-wrangler passes
+it through, so a wall-clock stamp would rewrite ~3,000 files per run. See
+`resolve_build_time()` in `CSV_to_PBN.py` and `resolve_build_date()` in `build-common.sh`.
 
 **Passer fill (issue #21, Phase B).** Before the CSV becomes PBNs, the generated *passer*
 (opponent) hands are made BBA-clean by `passer_reroll.py` (the `reroll` phase, after

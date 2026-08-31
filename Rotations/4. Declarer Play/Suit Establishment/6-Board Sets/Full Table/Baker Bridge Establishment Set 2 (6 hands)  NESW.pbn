@@ -1,5 +1,5 @@
 %Creator: CSVtoPBN Version 1.04
-%Created: 2026-07-21 22:33:23
+%Created: 2026-07-14 19:59:38
 %sourcefilename BakerBridgeFull.csv
 %HRTitleEvent Establishment
 %bridge-classroom-stable: true
@@ -29,7 +29,8 @@ Losers:   \S=0  \H=1  \D=1  \C=0  Total = 2
 One of the two red losers must be discarded on dummy's \C suit. So you pull trumps, taking two rounds, with \SK and \SQ. Then play two top \Cs and ruff a \C. When East shows out on the third \C, enter dummy with a trump and ruff another \C. Dummy's final \C is now established, so enter dummy with another trump and discard one of the red losers on the fifth \C.
 
 As long as the \Cs were no worse than 4-2 you can establish the suit.}
-[Play "W"]HK
+[Play "E"]
+HK
 
 [Event ""]
 [Site ""]
@@ -63,7 +64,8 @@ If you finessed the \H you would have gone down with the defenders winning 4 \Ds
 If you had played 3 rounds of \Cs you would have gone down with the defenders winning 4 \Ds, 1 \C and 2 \Ss.
 
 Only by establishing \Ss can you make the contract.}
-[Play "W"]D6
+[Play "S"]
+D6
 
 [Event ""]
 [Site ""]
@@ -93,7 +95,8 @@ You only need one more winner and if \Ds split 3-3 you can easily establish a tr
 First make sure that you win the second trick with the \SK, keeping dummy's \SQ for a later entry. Then play \CK, and \CQ overtaking with dummy's \CA. Then play the \CT, losing to the \CJ but establishing the \C9 while you still have the \SQ as an entry.
 
 As you see, you couldn't set up a \D trick so the \C overtake was necessary to make the contract.}
-[Play "W"]S9
+[Play "W"]
+S9
 
 [Event ""]
 [Site ""]
@@ -123,7 +126,8 @@ You need to find another winner and the chances are not good. If either black su
 Win the first trick and play a \S to the \SA. Then play another \S. The defense will win and probably take some \C tricks . When they have finished and play a red card, you win it and play a third round of \Ss. If both defenders follow to all three \Ss then dummy's \S8 is now a winner.
 
 This time you were lucky and the \Ss split evenly. Next time they probably won't and you'll go down.}
-[Play "W"]CK
+[Play "N"]
+CK
 
 [Event ""]
 [Site ""]
@@ -155,7 +159,8 @@ Win the \CA and immediately play your \SQ. The defense will win this trick and p
 Whichever minor suit the defense plays next you ruff in dummy, then ruff the fourth \S, establishing dummy's \S8 while you still have a trump left in dummy. Dummy is now high.
 
 It took a 2-2 trump split and a 4-3 \S split. But that was your best shot.}
-[Play "W"]CK
+[Play "E"]
+CK
 
 [Event ""]
 [Site ""]
@@ -189,5 +194,6 @@ That extra entry can only be the \CT so you must delay pulling trumps until afte
 It may have seemed too risky to play \Hs before pulling trumps. In fact, there was no risk at all. If the \Hs were splitting 5-1 then you had absolutely no chance of making the contract.
 
 And if they had split 3-3 this Plan would still have worked.}
-[Play "W"]DQ
+[Play "S"]
+DQ
 

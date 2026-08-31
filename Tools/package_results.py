@@ -51,9 +51,11 @@ def copy_pdf_with_intro(src_pattern, dest_dir):
         print(f"Copying {filepath} to {dest_path}")
         shutil.copy2(filepath, dest_path)
 
-# Copy all .pbn and .pdf files from the pbns directory (including subfolders) to the package directory
+# Copy all .pbn files from the pbns directory (including subfolders) to the package directory.
+# pbns/ holds no PDFs: the lesson-level analysis PDF used to be rendered here, from PBNs that
+# still carried the bridge-classroom control tags, and nothing downstream consumed it. The
+# clean whole-lesson PDF is the one package.sh renders into Rotations' All/ folder.
 copy_files(os.path.join(pbn_dir, "**", "*.pbn"), package_dir)
-copy_files(os.path.join(pbn_dir, "**", "*.pdf"), package_dir)
 
 # Copy all .pdf files from the pdfs directory (including subfolders) to the package directory, appending _Intro to the filename
 copy_pdf_with_intro(os.path.join(pdf_dir, "**", "*.pdf"), package_dir)
